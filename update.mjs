@@ -93,13 +93,17 @@ for (const H of HOYO) try {
 // 넥슨 공식 포럼 '업데이트' 게시판 (로그인 없이 공개 API)
 const NEXON = [
   { appid: 'bluearchive', name: '블루 아카이브', alias: 'bluearchive', board: 1076 },
+  { appid: 'mabinogimobile', name: '마비노기 모바일', alias: 'mabinogimobile', board: 4559 },
+  { appid: 'maplestorym', name: '메이플스토리M', alias: 'maplestorym', board: 1215 },
+  { appid: 'kartrush', name: '카트라이더 러쉬플러스', alias: 'kartrush', board: 839 },
+  { appid: 'maplestoryworlds', name: '메이플스토리 월드', alias: 'maplestoryworlds', board: 5633 },
 ];
 for (const N of NEXON) try {
   const api = 'https://forum.nexon.com/api/v1';
   const j = await (await fetch(`${api}/board/${N.board}/threads?alias=${N.alias}&pageNo=1&paginationType=PAGING&pageSize=10&blockSize=5&hideType=WEB`, { headers: { 'user-agent': 'Mozilla/5.0' } })).json();
   for (const t of j.threads || []) {
     const gid = N.appid + ':' + t.threadId;
-    if (seen.has(gid) || !/업데이트 상세|패치|밸런스/.test(t.title) || /예정|점검/.test(t.title) && !/상세/.test(t.title)) continue;
+    if (seen.has(gid) || !/업데이트 (상세|노트|패치)|패치 ?노트|패치 (안내|내역)|밸런스/.test(t.title) || /예정|점검/.test(t.title)) continue;
     const d = await (await fetch(`${api}/thread/${t.threadId}?alias=${N.alias}`, { headers: { 'user-agent': 'Mozilla/5.0' } })).json();
     candidates.push({ g: { appid: N.appid, name: N.name }, n: { gid, date: t.createDate, title: t.title,
       url: `https://forum.nexon.com/${N.alias}/board_view?board=${N.board}&thread=${t.threadId}`,
@@ -170,6 +174,30 @@ for (const S of SITES) try {
     await sleep(500);
   }
 } catch (e) { console.error(S.name + ' 수집 실패', e.message); }
+
+// 블리자드 공식 소식 (news.blizzard.com 한국어, 패치 노트·핫픽스 글만)
+const BLZ = [
+  { appid: 'd4', name: '디아블로 IV', slug: 'diablo4' },
+  { appid: 'wow', name: '월드 오브 워크래프트', slug: 'world-of-warcraft' },
+  { appid: 'hs', name: '하스스톤', slug: 'hearthstone' },
+];
+for (const Z of BLZ) try {
+  const t = await (await fetch('https://news.blizzard.com/ko-kr/' + Z.slug, { headers: UA })).text();
+  const got = new Set();
+  for (const p of t.split('class="news-card-link" href="').slice(1)) {
+    const path = p.slice(0, p.indexOf('"')), id = path.split('/')[3];
+    if (!id || got.has(id)) continue; got.add(id);
+    const title = htmlText(p.match(/slot="heading"[^>]*>(?:<[^>]+>)*([^<]+)/)?.[1] || '');
+    const gid = Z.appid + ':' + id;
+    if (seen.has(gid) || !/패치 노트|핫픽스|긴급 수정/.test(title) || /미리 보기/.test(title)) continue;
+    const url = 'https://news.blizzard.com' + path, a = await (await fetch(url, { headers: UA })).text();
+    candidates.push({ g: { appid: Z.appid, name: Z.name }, n: { gid, url, title,
+      date: Date.parse(a.match(/"datePublished":"([^"]*)/)?.[1] || '') / 1000 || Date.now() / 1000,
+      contents: htmlText(a.slice(Math.max(0, a.indexOf('class="blog"')))), img: a.match(/property="og:image"\s+content="([^"]+)"/)?.[1] || '' } });
+    await sleep(500);
+    if (got.size > 12) break;
+  }
+} catch (e) { console.error(Z.name + ' 수집 실패', e.message); }
 
 // 오버워치 공식 패치 노트 (한 페이지에 패치별 구역)
 try {
