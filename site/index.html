@@ -145,25 +145,33 @@ function clearF(k){
  if(k==='q'||k==='all')$('q').value='';
  render();
 }
-function render(){
+let limit=60,io=null;
+function render(more){
+ if(more!==true)limit=60;
  syncTog();chips();
  $("infoBtn").hidden=!$("g").value;
  const q=$('q').value.trim().toLowerCase(),g=$('g').value;
  const of=$('onlyFav').checked&&user;
  const dv=$('day').value;
- shown=items.filter(i=>(!dv||new Date(i.date*1000).toLocaleDateString('sv')===dv)&&(!g||i.game===g)&&(!of||favs.has(i.game))&&(!q||JSON.stringify(i).toLowerCase().includes(q))).sort((a,b)=>b.date-a.date);
- const days=[...new Set(shown.map(i=>dayKey(i.date)))];
- $('list').innerHTML=days.map(d=>{const a=shown.filter(i=>dayKey(i.date)===d);
-  return `<section class="day"><h2>${d} · ${a.length}건</h2><div class="tiles">`+a.map(i=>`<div class="tile" data-i="${shown.indexOf(i)}">${favs.has(i.game)&&user?'<span class="fs">★</span>':''}
+ // 검색용 글자는 한 번만 만들어 둠 (매번 JSON 전체를 문자열로 만들면 느림)
+ shown=items.filter(i=>(!dv||i._d===dv)&&(!g||i.game===g)&&(!of||favs.has(i.game))&&(!q||i._s.includes(q)));
+ const part=shown.slice(0,limit),days=new Map();
+ part.forEach((i,n)=>{const k=dayKey(i.date);if(!days.has(k))days.set(k,[]);days.get(k).push([i,n])});
+ $('list').innerHTML=[...days].map(([d,a])=>{const cnt=shown.filter(i=>i._k===d).length;
+  return `<section class="day"><h2>${d} · ${cnt}건</h2><div class="tiles">`+a.map(([i,n])=>`<div class="tile" data-i="${n}">${favs.has(i.game)&&user?'<span class="fs">★</span>':''}
    <div class="ic${ICON(i)?'':' txt'}" style="${ICON(i)?`background-image:url('${ICON(i)}')`:''}">${ICON(i)?'':esc(i.game)}</div>
-   <div class="nm">${esc(i.game)}</div><div class="tt">${esc(i.title)}</div></div>`).join('')+'</div></section>'}).join('')||'<p>결과가 없습니다.</p>';
+   <div class="nm">${esc(i.game)}</div><div class="tt">${esc(i.title)}</div></div>`).join('')+'</div></section>'}).join('')+(shown.length>limit?'<div id="more" style="height:40px"></div>':'')||'<p>결과가 없습니다.</p>';
+ // 아래로 내리면 60개씩 더 그림
+ if(io)io.disconnect();
+ const m=$('more');if(m){io=new IntersectionObserver(e=>{if(e[0].isIntersecting){limit+=60;render(true)}},{rootMargin:'600px'});io.observe(m)}
 }
 function closeDlg(){$('dlg').classList.remove('open')}
 $('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
 addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
 $('list').onclick=e=>{const t=e.target.closest('.tile');if(t){$('body').innerHTML=detail(shown[+t.dataset.i]);$('dlg').classList.add('open');$('dlg').scrollTop=0}};
 fetch('data.json').then(r=>r.json()).then(d=>{
- items=d.items; ICONS=d.icons||{};
+ items=d.items.sort((a,b)=>b.date-a.date); ICONS=d.icons||{};
+ items.forEach(i=>{i._d=new Date(i.date*1000).toLocaleDateString('sv');i._k=dayKey(i.date);i._s=[i.game,i.title,i.origTitle,i.summary,...(i.highlights||[]),...(i.buffs||[]),...(i.nerfs||[]),...(i.fixes||[])].join(' ').toLowerCase()});
  $('upd').textContent='마지막 갱신 '+new Date(d.updated).toLocaleString('ko-KR');
  const P=new URLSearchParams(location.search);
  if(P.get('game'))setGame(P.get('game'));
@@ -173,7 +181,7 @@ fetch('data.json').then(r=>r.json()).then(d=>{
 $('infoBtn').onclick=()=>{const g=$('g').value;if(g)location.href=INFO[g]||('info.html?game='+encodeURIComponent(g))};
 $('day').onchange=render;
 $('chips').onclick=e=>{const b=e.target.closest('[data-clr]');if(b)clearF(b.dataset.clr)};
-$('q').oninput=render;$('g').onchange=render;$('onlyFav').onchange=render;
+{let t;$('q').oninput=()=>{clearTimeout(t);t=setTimeout(render,200)}};$('g').onchange=render;$('onlyFav').onchange=render;
 $('menu').onclick=openDrawer;
 $('favTog').onclick=()=>{if(!user){alertLogin();return}$('onlyFav').checked=!$('onlyFav').checked;render()};
 $('favHead').onclick=()=>{if(!user){alertLogin();return}$('onlyFav').checked=true;$('g').value='';$('day').value='';$('q').value='';render();closeDrawer();scrollTo(0,0)};$('shade').onclick=closeDrawer;
