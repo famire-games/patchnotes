@@ -30,6 +30,26 @@
    ]
   },
   {
+   "gid": "1850460852984423",
+   "appid": 1973530,
+   "game": "림버스 컴퍼니",
+   "date": 1795679935,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852984423",
+   "origTitle": "Notice: Ver. 1.120.0 Additional Known Issues and Hotfix ETA",
+   "title": "1.120.0 버전 추가 알려진 문제 및 핫픽스 안내",
+   "summary": "11월 26일 업데이트 이후 발견된 스키마크래프트 베타 관련 버그 수정과 핫픽스 일정이 안내되었습니다. 아울러 업데이트 오류 보상으로 광기 1000개가 지급될 예정입니다.",
+   "highlights": [
+    "스키마크래프트 베타 특정 보스 조우 시 게임 멈춤 현상 수정 예정",
+    "핫픽스 일정: 11월 26일 17:00 (KST)",
+    "업데이트 오류 보상으로 광기 1000개 지급"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "특정 유닛의 SD 리소스 누락으로 인한 게임 멈춤 현상 수정"
+   ]
+  },
+  {
    "gid": "1850460852983749",
    "appid": 440,
    "game": "팀 포트리스 2",
@@ -144,6 +164,27 @@
    "fixes": []
   },
   {
+   "gid": "1850460852979301",
+   "appid": 4732690,
+   "game": "명일방주: 엔드필드",
+   "date": 1795568417,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852979301",
+   "origTitle": "[Meeting You in the World o'Shrooms] Version Update Notes",
+   "title": "버전 업데이트: Meeting You in the World o'Shrooms",
+   "summary": "명일방주: 엔드필드 신규 버전을 맞아 점검 및 업데이트가 진행됩니다. 신규 지역 '우링 - 구댐'과 스토리, 신규 오퍼레이터 및 무기, 적, 그리고 다양한 이벤트와 콘텐츠가 추가됩니다.",
+   "highlights": [
+    "신규 탐사 임무 및 사이드 미션 추가",
+    "신규 지역 [우링 - Old Dam] 추가",
+    "신규 6성/5성 오퍼레이터 및 무기 추가",
+    "신규 적 [Shroomkrusher Nidwyrm], [Bolete Prince] 등 추가",
+    "채권 모집(Chartered Headhunting) 및 RE-Factor 헤드헌팅 이벤트 진행",
+    "신규 건물 건설 이벤트 및 출석 이벤트 등 다양한 인게임 이벤트 개최"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1850460852979142",
    "appid": 570,
    "game": "도타 2",
@@ -246,6 +287,24 @@
    "fixes": []
   },
   {
+   "gid": "1849827110440939",
+   "appid": 1973530,
+   "game": "림버스 컴퍼니",
+   "date": 1795424351,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110440939",
+   "origTitle": "2026, Nov. 26th Scheduled Update Notice",
+   "title": "11월 26일 패치 안내",
+   "summary": "림버스 컴퍼니 2026년 11월 26일 예정된 업데이트 공지입니다. 시너지 효과의 활성화 조건에 대한 내용이 수정되었습니다.",
+   "highlights": [
+    "시너지 효과 발동 조건 변경 내용 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "시너지 효과 노트 내용 변경 (스레드스핀 4티어 전용 -> E.G.O별로 상이할 수 있음으로 변경)"
+   ]
+  },
+  {
    "gid": "hs:37.2",
    "appid": "hs",
    "game": "하스스톤",
@@ -266,6 +325,51 @@
    "nerfs": [],
    "fixes": [],
    "manual": true
+  },
+  {
+   "gid": "1849827110437415",
+   "appid": 4732690,
+   "game": "명일방주: 엔드필드",
+   "date": 1795314626,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110437415",
+   "origTitle": "Arknights: Endfield [Meeting You in the World o'Shrooms] Version DEV Comm",
+   "title": "명일방주: 엔드필드 신규 버젼 업데이트 공지",
+   "summary": "명일방주: 엔드필드의 신규 버전 'Meeting You in the World o'Shrooms'가 2026년 11월 25일에 공식 출시됩니다. 개발자 소통(DEV Comm)을 통해 이번 버전에서 이루어질 주요 최적화와 조정 사항을 공유합니다.",
+   "highlights": [
+    "신규 버전 [Meeting You in the World o'Shrooms] 출시",
+    "정식 출시일: 2026년 11월 25일",
+    "주요 최적화 및 조정 사항 적용 예정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1849827110431286",
+   "appid": 1282270,
+   "game": "스트리노바",
+   "date": 1795163169,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110431286",
+   "origTitle": "November 19, 2026, Update Announcement",
+   "title": "26SP6 시즌 및 신규 이벤트 업데이트",
+   "summary": "스트리노바 26SP6 'String Sea Starsong' 시즌이 시작되며 다양한 시즌 보상과 신규 이벤트, 상점 상품이 추가되었습니다. 또한 노라, 오드리, 치요 등 일부 캐릭터와 모드 관련 버그가 수정되었습니다.",
+   "highlights": [
+    "26SP6 시즌 'String Sea Starsong' 공식 개막 및 시즌 보상 제공",
+    "시즌 출석 체크, 시즌 이벤트 상점, 바게트 할인 이벤트 진행",
+    "'Cappuny's Delicious Day' 신규 이벤트 및 퀘스트 오픈",
+    "궤도 공명 'Honeyberry Milkshake' 및 'Dawn's Bloom' 오픈",
+    "고양이 입양 가이드 이벤트 및 해변 휴가 테마 코스튬 복귀",
+    "노라, 오드리, 치요 관련 버그 및 모드 오류 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "아웃브레이크 모드에서 노라의 Q 스킬 프리뷰 상태가 멈추던 문제 수정",
+    "노라가 공중 점프 시 발생하던 모델 오류 수정",
+    "오드리가 특정 지형에서 정상 배치되지 않던 문제 및 각성 2가 비정상적인 오브젝트에 배치되던 문제 수정",
+    "폭파 모드에서 진영 교체 단계 시 첫 주무기 교체가 실패할 수 있던 문제 수정",
+    "사격장 모드에서 치요의 무기 데미지가 비정상적이던 문제 수정"
+   ]
   },
   {
    "gid": "1849827110430249",
@@ -419,6 +523,54 @@
     "폭풍창(Stormchant) 맵에서 보물 상자와 영혼 결속 기둥 상자 위치가 겹치던 문제 수정",
     "일부 유물 미스터리 및 시즌 전투 아이템 발동 시 잘못 표시되던 설명 수정"
    ]
+  },
+  {
+   "gid": "1849827110423622",
+   "appid": 5019180,
+   "game": "에픽세븐",
+   "date": 1794997855,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110423622",
+   "origTitle": "11/19 (Thu) Version 8.7 2nd Update Content",
+   "title": "11월 19일 업데이트 내용 안내",
+   "summary": "신규 5성 영웅 및 아티팩트 '바니걸 메이드 세실리아'와 '비밀 임무'가 추가되었습니다. 또한 '혼돈의 부름' 시즌 2가 시작되며, 아레나 2027-1 시즌 준비 등의 콘텐츠가 업데이트되었습니다.",
+   "highlights": [
+    "신규 5성 영웅 '바니걸 메이드 세실리아' 및 아티팩트 '비밀 임무' 추가",
+    "'혼돈의 부름' 시즌 2 개최 (2026-11-19 ~ 2026-12-10)",
+    "혼돈의 부름 입장 및 드래프트 아레나 계정 레벨 제한 40에서 20으로 완화",
+    "혼돈의 부름 시즌 2 영웅 라인업 변경 및 운명(Fate) 밸런스 조정",
+    "혼돈의 부름 시즌 랭킹 보상 대상 확대 (기존 상위 100위에서 1000위까지)"
+   ],
+   "buffs": [
+    "지원 영웅 능력치 상향 및 장비 세팅 최적화",
+    "에픽 운명 24종, 영웅 등급 운명 6종, 희귀 등급 운명 4종 상향 및 조정"
+   ],
+   "nerfs": [
+    "에픽 운명: 랜드마크(유어 언더 어레스), 집행관 빌트레드 등 일부 운명 하향",
+    "영웅 등급 운명: 침묵의 서약 하향",
+    "희귀 등급 운명: 파괴자의 전문가 하향"
+   ],
+   "fixes": []
+  },
+  {
+   "gid": "1849827110423528",
+   "appid": 3308670,
+   "game": "소녀전선2: 망명",
+   "date": 1794996055,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110423528",
+   "origTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 11/19",
+   "title": "11월 19일 업데이트 개요",
+   "summary": "소녀전선2: 망명 11월 19일 업데이트에서는 신규 기간 한정 이벤트 'Themis' Game' 및 'Frontier Conquest'를 비롯한 다양한 이벤트가 진행됩니다. 또한 콜레다, OTs-14, 니케타 등의 픽업 모집 및 맞춤형 모집, 그리고 신규 코스튬이 추가됩니다.",
+   "highlights": [
+    "신규 기간 한정 이벤트 [Themis' Game] 및 [Frontier Conquest] 개최",
+    "콜레다, OTs-14, 니케타 대상 타겟 조달(픽업) 이벤트 실시",
+    "엘리트 인형 및 무기 선택이 가능한 맞춤형 조달(Custom Procurement) 진행",
+    "콜레다, 헬렌의 신규 코스튬 획득 가능한 [Age of Spooms] 의상 조달 진행",
+    "상점 내 헬렌, 니케타, 페리, 샤크리 등 신규 의상 기간 할인 및 무료 획득 이벤트",
+    "2주년 기념 선물 등 다양한 로그인 보상 이벤트 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
   },
   {
    "gid": "1849827110421976",
@@ -746,6 +898,27 @@
    ]
   },
   {
+   "gid": "1849192144180230",
+   "appid": 3513350,
+   "game": "명조: 워더링 웨이브",
+   "date": 1794427252,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180230",
+   "origTitle": "New Content in Wuthering Waves Version 3.8: Lilies in a Dying Dream",
+   "title": "버전 3.8 업데이트 패치",
+   "summary": "명조: 워더링 웨이브 버전 3.8 업데이트가 진행됩니다. 신규 공명자 '릴리'와 무기 '자장가'가 추가되며, 신규 지역 및 메인 스토리, 다양한 최적화와 이벤트가 진행됩니다.",
+   "highlights": [
+    "신규 5성 공명자 '릴리(회절/권총)' 및 5성 무기 '자장가' 추가",
+    "신규 메인 스토리 제4막 제5장 및 신규 지역 '영혼의 열차' 추가",
+    "블리츠 모드 추가 및 공명자 육성 계획기 오버뷰 탭 추가",
+    "방랑자 공명 변환 기능 업그레이드 및 안내서 기능 최적화",
+    "PC 버전 리소스 다운로드 및 정리 기능 추가, 콘솔 PSSR 지원",
+    "신규 도전 '전술 홀로그램: 스파링 - 재앙의 화신' 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "val:/ko-kr/news/game-updates/valorant-patch-notes-13-10",
    "appid": "val",
    "game": "발로란트",
@@ -785,6 +958,26 @@
    ]
   },
   {
+   "gid": "1848664643349012",
+   "appid": 5019180,
+   "game": "에픽세븐",
+   "date": 1794049200,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643349012",
+   "origTitle": "Foundry Server Guild War Update Notice",
+   "title": "파운드리 서버 길드전 업데이트 안내",
+   "summary": "에픽세븐 파운드리 서버에 길드전이 도입되며, 관련 일정과 방어 팀 편성 및 전투 규칙이 안내되었습니다. 또한 이를 기념하여 파운드리 서버 이용자 전원에게 특별 보상이 지급됩니다.",
+   "highlights": [
+    "파운드리 서버 길드전 업데이트 (11월 21일 방어 팀 편성, 11월 23일 매칭 시작)",
+    "길드원과 함께 다른 길드와 경쟁하여 파괴 점수를 획득하는 전투 모드",
+    "길드원당 3인으로 구성된 방어 팀 2개 배치 가능",
+    "주 3회 파운드리 서버 길드 간 매칭 진행",
+    "파운드리 서버 접속 유저 대상 특별 보상 지급 (기사단의 증거 1000개, 용맹의 문장 3000개)"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1848664643347277",
    "appid": 304930,
    "game": "언턴드",
@@ -806,6 +999,32 @@
     "레벨 에디터 보관함 바리케이드의 Default_Contained_Items 미적용 문제 수정",
     "MasterBundleReference 속성 처리 관련 로드 취소 문제 수정",
     "장착된 아이템 상태 손상 익스플로잇 수정"
+   ]
+  },
+  {
+   "gid": "1848664643340963",
+   "appid": 5019180,
+   "game": "에픽세븐",
+   "date": 1793878965,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643340963",
+   "origTitle": "11/5 (Thu) Patch Information",
+   "title": "11월 5일 패치 안내",
+   "summary": "11월 5일 진행된 패치를 통해 게임 내 여러 버그들이 수정되었습니다. 서브 스토리 PV 재생 오류, 상점 판매 불가 아이템 노출 문제 등이 해결되었습니다.",
+   "highlights": [
+    "서브 스토리 PV 재생 오류 수정",
+    "상점 내 판매 불가 아이템 노출 문제 수정",
+    "서브 스토리 시크릿 래빗 홀 텍스트 출력 오류 수정",
+    "혼돈의 축제 도끼병 상해 미적용 현상 수정",
+    "게임 실행 시 간헐적 접속 불가 오류 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "특정 상황에서 서브 스토리 진입 시 PV가 재생되지 않는 현상 수정",
+    "상점에 판매할 수 없는 아이템이 노출되는 현상 수정",
+    "[시크릿 래빗 홀] 스토리 진행 중 화면 상단에 불필요한 텍스트가 노출되는 현상 수정",
+    "혼돈의 축제 도끼병 공격 시 간헐적으로 상해 효과가 발생하지 않는 현상 수정",
+    "게임 실행 시 간헐적으로 접속이 불가능하던 오류 수정"
    ]
   },
   {
@@ -833,6 +1052,26 @@
    ]
   },
   {
+   "gid": "1848557880481544",
+   "appid": 3513350,
+   "game": "명조: 워더링 웨이브",
+   "date": 1793844051,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481544",
+   "origTitle": "[Important Notice] Details on Client Update & Launcher Replacement on Steam",
+   "title": "Steam 클라이언트 업데이트 및 런처 교체 안내",
+   "summary": "버전 3.8 업데이트 점검 중 Steam 플랫폼의 클라이언트 다운로드 및 업데이트 방식이 공식 런처로 교체됩니다. 저장 공간 절약을 위한 화질별 리소스 다운로드와 사전 다운로드 기능이 지원됩니다.",
+   "highlights": [
+    "Steam 버전 클라이언트 다운로드 및 업데이트 방식 공식 런처로 교체",
+    "화질별(UHD, HD, SD) 리소스 선택 다운로드 지원으로 저장 공간 절약 가능",
+    "버전 4.0부터 사전 다운로드 기능 지원",
+    "원활한 업데이트를 위해 기존 스팀 게임 패키지 완전 삭제 후 공식 런처 재설치 필요",
+    "삭제 및 재설치 과정은 로컬 파일에만 영향 주며 계정 데이터 및 진행도는 유지됨"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1848557880481353",
    "appid": 730,
    "game": "카운터 스트라이크 2",
@@ -855,6 +1094,27 @@
     "유효하지 않은 엔티티 메서드 호출 시 오류 보고 기능 추가",
     "대상이 해당 이름의 출력이 없을 때 ConnectOutput 경고 로그 추가"
    ]
+  },
+  {
+   "gid": "1848557880481281",
+   "appid": 4125930,
+   "game": "퍼니싱: 그레이 레이븐",
+   "date": 1793838375,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481281",
+   "origTitle": "v4.9",
+   "title": "퍼니싱: 그레이 레이븐 v4.9 업데이트",
+   "summary": "신규 S급 캐릭터 'Leia: Fortunaster'와 전용 무기가 추가되며, 메인 스토리 및 다양한 이벤트가 진행됩니다. 또한 신규 및 복각 코팅, 신규 CUB와 메모리 등이 업데이트됩니다.",
+   "highlights": [
+    "신규 S급 캐릭터 [Leia: Fortunaster] 추가",
+    "신규 6성 무기 [Edges of the Twisted Ribbon] 추가",
+    "메인 스토리 [A Comet's Afterglow] 추가",
+    "신규 콘텐츠 [Endeavorer's Charm], [Dreamscape Disequilibrium], [Dreamhouse Tycoon], [Munchy Pixels] 추가",
+    "신규 보스 스테이지 [Astral Obscura] 추가",
+    "신규 및 복각 코팅 4종 추가 ([Brilliant Instant], [Cradled Moonfrost], [Sanguine Justice], [Starward Dragon])"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
   },
   {
    "gid": "1848557880479637",
@@ -1092,6 +1352,25 @@
    ]
   },
   {
+   "gid": "1847920302234759",
+   "appid": 5019180,
+   "game": "에픽세븐",
+   "date": 1793280470,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234759",
+   "origTitle": "10/29(목) 무점검 패치 진행 안내",
+   "title": "10/29(목) 무점검 패치 안내",
+   "summary": "10월 29일(목) 에픽세븐 무점검 패치가 진행됩니다. STOVE PC 환경에서 특정 스테이지 진행 중 클라이언트가 예기치 않게 종료되는 현상이 수정됩니다. 패치 배포 후 게임에 재접속하면 자동으로 패치가 적용됩니다.",
+   "highlights": [
+    "STOVE PC 클라이언트 비정상 종료 현상 수정",
+    "무점검 패치 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "STOVE PC 버전에서 특정 스테이지 플레이 중 클라이언트가 강제로 종료되던 현상 수정"
+   ]
+  },
+  {
    "gid": "1847920302234131",
    "appid": 2767030,
    "game": "마블 라이벌즈",
@@ -1221,6 +1500,27 @@
    ]
   },
   {
+   "gid": "1847920302230420",
+   "appid": 3308670,
+   "game": "소녀전선2: 망명",
+   "date": 1793182731,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302230420",
+   "origTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/29",
+   "title": "10월 29일 업데이트 안내",
+   "summary": "소녀전선2: 망명 10월 29일 업데이트로 신규 이벤트, 픽업 및 코스튬 판매가 진행됩니다. 각종 한정 이벤트 참여를 통해 풍성한 보상을 획득할 수 있습니다.",
+   "highlights": [
+    "신규 기간 한정 이벤트 [Themis' Game] 및 [Dreambound Neverland] 개최",
+    "웰로드, 페일린, 섹스탄스, 파에투사 대상 조달 이벤트(픽업) 진행",
+    "사일런트 산션, 페럴 팡, 트와일라잇 로즈, 인과응보 무기 군사 업그레이드 진행",
+    "웰로드 전용 코스튬 [Welwyn Mist] 및 페일린 전용 코스튬 [Sunkissed Shimmer] 할인 판매",
+    "로그인 보상 및 브로커의 리베이트 등 다양한 기간 한정 이벤트 진행",
+    "장비 분석 보상 100% 증가 이벤트 [Equipment Analysis - Fission] 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "val:/ko-kr/news/game-updates/valorant-patch-notes-1309",
    "appid": "val",
    "game": "발로란트",
@@ -1278,6 +1578,67 @@
     "CSRadarPoint.IsVisibleToTeam이 불리언 대신 숫자를 반환하던 문제 수정",
     "CSObservablePoint.IsObservableForTeam이 불리언 대신 숫자를 반환하던 문제 수정"
    ]
+  },
+  {
+   "gid": "1847286114031733",
+   "appid": 1282270,
+   "game": "스트리노바",
+   "date": 1792657714,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114031733",
+   "origTitle": "October 22, 2026, Update Announcement",
+   "title": "10월 22일 업데이트 안내",
+   "summary": "이번 업데이트에서는 무중단 점검을 통해 아웃브레이크 모드 밸런스 조정, 캐릭터 스킬 및 특성 밸런스 패치, 할로윈 테마맵 적용 및 신규 이벤트가 진행됩니다. 또한 헤르메스 드로우 풀과 다양한 편의성 개선 및 버그 수정이 포함됩니다.",
+   "highlights": [
+    "아웃브레이크 모드 카드 및 특성 밸런스 조정",
+    "오드리, 에이카, 마라, 갈라테아 등 캐릭터 스킬 및 네트워크 밸런스 조정",
+    "할로윈 분위기를 위한 피어 타운 및 유리 케이브 맵 테마 적용",
+    "스트링 송 선물, 아웃브레이크 보급 3단계, 파이널 스프린트 이벤트 개최",
+    "헤르메스 '스위트 캔들라이트' 및 '오빗 레소넌스' 한정 뽑기 오픈",
+    "킬 캠 방향 설정 추가 및 베트남어 지원 종료"
+   ],
+   "buffs": [
+    "아웃브레이크: [Shield Bash] 피해량 상한 증가",
+    "아웃브레이크: [Sturdy Guard] 피해 계산에 임시 실드 포함",
+    "에이카: 패시브 스킬 신규 효과 추가 (열 보유 시 이동 속도 증가)",
+    "갈라테아: 액티브 스킬 분신 기본 지속시간 증가 (7초 -> 10초)",
+    "갈라테아: 분신 생성 스캔 반경 증가 (20m -> 25m)",
+    "프라그란스: 액티브 및 얼티밋 스킬의 영향 받는 팀원 수 실시간 표시"
+   ],
+   "nerfs": [
+    "아웃브레이크: [Card Steal] 카드가 이제 1성 기본 카드만 훔칠 수 있음",
+    "아웃브레이크: [Armor Forger] 방어구 상한 증가량 절반으로 감소",
+    "오드리: 2각성 오토 터렛 피해량 조정 (발당 10 -> 8)",
+    "밍: 3각성 이동 충전 시간 증가 (18초 -> 20초)",
+    "마라: 액티브 스킬 HP 조정 (125 -> 110)",
+    "셀레시아: 2각성 플래시 전방 지속시간 감소 및 후방 지속시간 감소",
+    "대검 대시 공격 피해량 조정 (60 -> 56) 및 회복 시간 소폭 증가",
+    "연막탄 지속시간 조정 (9초 -> 8초)"
+   ],
+   "fixes": [
+    "만료된 전설 무기 스킨 체험 카드를 계속 사용할 수 있던 문제 수정",
+    "아웃브레이크 모드에서 주사위 사용 후 캐릭터에 변화가 없어 보이던 문제 수정"
+   ]
+  },
+  {
+   "gid": "1847286114026951",
+   "appid": 4162040,
+   "game": "젠레스 존 제로",
+   "date": 1792537224,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114026951",
+   "origTitle": "Version 3.3 \"Journey to the Sky\" Update Announcement",
+   "title": "버전 3.3 '하늘을 향한 여정' 업데이트 안내",
+   "summary": "젠레스 존 제로 버전 3.3 업데이트를 통해 신규 S급 에이전트 피닉스와 세베리안이 추가되었으며, 메인 스토리 시즌 3 제4장 및 로스카엘리페르 신규 지역이 개방되었습니다. 또한 다양한 신규 이벤트와 편의성 기능이 도입되었습니다.",
+   "highlights": [
+    "신규 S급 에이전트 피닉스(화염·이상) 및 세베리안(지원·강공) 추가",
+    "메인 스토리 시즌 3 제4장 '하늘을 향한 여정' 및 신규 지역 추가",
+    "신규 W-엔진 및 에이전트 전용 의상 추가",
+    "로그인 이벤트로 암호화 마스터 태이프 10개 등 보상 지급",
+    "신규 전투 콘텐츠 '뱅부 메카' 도입",
+    "에이전트 가이드 및 요정 팀 추천 기능 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
   },
   {
    "gid": "lol:/ko-kr/news/game-updates/league-of-legends-patch-26-21-notes",
@@ -1506,6 +1867,27 @@
    ]
   },
   {
+   "gid": "1846651706676001",
+   "appid": 4732690,
+   "game": "명일방주: 엔드필드",
+   "date": 1792026033,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676001",
+   "origTitle": "[Sanctuary of Ink] Version Update Notes",
+   "title": "[Sanctuary of Ink] 버전 업데이트 공지",
+   "summary": "명일방주: 엔드필드의 신규 버전 [Sanctuary of Ink]가 업데이트됩니다. 신규 지역, 메인 및 탐색 미션, 오퍼레이터, 무기, 적 등이 추가되며 다양한 이벤트와 챌린지 모드가 진행됩니다. 업데이트 및 버그 수정 보상으로 각각 900개의 재화가 지급됩니다.",
+   "highlights": [
+    "신규 메인 미션 [Chapter II Process VIII: Paint with Fresh Ink] 추가",
+    "신규 6성 오퍼레이터 및 [Argent Flow] 추가",
+    "신규 6성 무기 [Jade Vessel (Greatsword)], [Lunar Calling (Sword)] 등 추가",
+    "신규 지역 [Wuling - Si's Painting] 및 신규 적 추가",
+    "[Yuanyuan's Blazing Stoves], [Carly's Verdant Anthology] 등 다양한 신규 이벤트 개최",
+    "[Echoes of War] 및 [Umbral Monument] 챌린지 콘텐츠 업데이트"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "val:/ko-kr/news/game-updates/valorant-patch-notes-13-08",
    "appid": "val",
    "game": "발로란트",
@@ -1540,6 +1922,26 @@
    ]
   },
   {
+   "gid": "1846018067925601",
+   "appid": 3308670,
+   "game": "소녀전선2: 망명",
+   "date": 1791367248,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925601",
+   "origTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 10/8",
+   "title": "10월 8일 업데이트 개요",
+   "summary": "소녀전선2: 망명 10월 8일 업데이트로 신규 기간 한정 이벤트와 인형 및 전용 무기 픽업 조달이 시작됩니다. 또한 의상 부티크에 신규 코스튬이 추가됩니다.",
+   "highlights": [
+    "기간 한정 이벤트 [Amber Reel of Moonlight], [Voyage Logs], [Inverse Cipher] 등 진행",
+    "로그인 및 출석 이벤트 [Intelligence Supplies], [Para Bellum] 진행",
+    "표준 동기화 보상 100% 증가 이벤트 [Standardizing Sync - Fission] 진행",
+    "엘리트 인형 'Mityl', 'Cheyanne', 'Liushih' 및 관련 무기 픽업 조달 진행",
+    "미틸 신규 의상 [90s' Sunset Memories] 할인 판매"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1846018067925452",
    "appid": 739630,
    "game": "페스모포비아",
@@ -1560,6 +1962,23 @@
     "부활 시 백색광이 깜빡이던 문제 수정",
     "0배율 활성화 및 팝업 표시에도 이스터 에그 보상이 잠금 해제되지 않던 문제 수정"
    ]
+  },
+  {
+   "gid": "1846018067924800",
+   "appid": 4732690,
+   "game": "명일방주: 엔드필드",
+   "date": 1791340227,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067924800",
+   "origTitle": "Arknights: Endfield [Sanctuary of Ink] Version DEV Comm",
+   "title": "명일방주: 엔드필드 [Sanctuary of Ink] 버전 개발자 통신",
+   "summary": "명일방주: 엔드필드의 핵심 챕터 버전인 [Sanctuary of Ink]가 10월 15일에 정식 출시됩니다. 이번 개발자 통신을 통해 해당 버전에서 이루어질 주요 최적화 및 조정 사항이 안내되었습니다.",
+   "highlights": [
+    "핵심 챕터 버전 [Sanctuary of Ink] 10월 15일 정식 출시",
+    "주요 최적화 및 조정 사항 공유"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
   },
   {
    "gid": "lol:/ko-kr/news/game-updates/league-of-legends-patch-26-20-notes",
@@ -1728,6 +2147,46 @@
    ]
   },
   {
+   "gid": "1844751498235453",
+   "appid": 3513350,
+   "game": "명조: 워더링 웨이브",
+   "date": 1790715609,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498235453",
+   "origTitle": "[Preview] Upcoming Client Update & Launcher Replacement on Steam",
+   "title": "스팀 클라이언트 업데이트 및 공식 런처 교체 안내",
+   "summary": "버전 3.8에서 스팀 버전의 게임 클라이언트 다운로드 및 업데이트 메커니즘이 공식 런처로 교체됩니다. 이를 통해 티어별 클라이언트 리소스 다운로드와 사전 다운로드 기능이 지원될 예정입니다.",
+   "highlights": [
+    "스팀 플랫폼에서 기존 다운로드 방식을 공식 런처로 교체",
+    "티어별 클라이언트 리소스 다운로드 지원 (원하는 그래픽 품질 선택 가능)",
+    "다음 버전 리소스를 미리 받을 수 있는 사전 다운로드 기능 지원",
+    "런처 기능 차이로 인해 런처 업그레이드 전 스팀 다운로드 클라이언트는 버전 3.7에서 HD 패키지를 기본으로 일시 사용"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1844751498235329",
+   "appid": 3513350,
+   "game": "명조: 워더링 웨이브",
+   "date": 1790712006,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498235329",
+   "origTitle": "New Content in Version 3.7: Prism's Illusion, Heart's Illumination",
+   "title": "버전 3.7 업데이트 공지",
+   "summary": "명조: 워더링 웨이브 버전 3.7에서는 신규 공명자 '신'과 '소명', 전용 무기 및 새로운 지역 '맹주 환영의 중추'가 추가됩니다. 또한 메인퀘스트 제4막 제4장 및 다양한 신규 이벤트와 편의성 개선 기능이 도입됩니다.",
+   "highlights": [
+    "신규 5성 공명자 신(전기/증폭기), 소명(전기/장검) 추가",
+    "신규 지역 '맹주 환영의 중추' 및 메인 퀘스트 추가",
+    "에코 스택 보관 기능 및 리플레이 모드 추가",
+    "라인업 3D 디스플레이 모드 도입",
+    "신규 에코 및 소나타 효과 추가",
+    "다양한 특별 이벤트 및 로그인 보상 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1844751498224366",
    "appid": 892970,
    "game": "발헤임",
@@ -1753,6 +2212,27 @@
     "온라인 세션 플레이어 목록의 오류 및 잠재적 크래시 수정",
     "방패 등 아이템 거치대에 아이템 변형이 시각적으로 적용되지 않던 버그 수정"
    ]
+  },
+  {
+   "gid": "1844751498219861",
+   "appid": 4125930,
+   "game": "퍼니싱: 그레이 레이븐",
+   "date": 1790207530,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498219861",
+   "origTitle": "v4.8",
+   "title": "퍼니싱 v4.8 업데이트 안내",
+   "summary": "신규 S급 캐릭터 [아델라이데: 아나바시스]와 콜라보 캐릭터 [토키사키 쿠루미]를 비롯하여 전용 무기, 메모리, CUB, 그리고 신규 스토리와 이벤트가 추가되었습니다. 다양한 신규 코스튬과 보스 스테이지, 미니게임 콘텐츠도 함께 업데이트됩니다.",
+   "highlights": [
+    "신규 S급 캐릭터 [아델라이데: 아나바시스] 및 6성 전용 무기 추가",
+    "신규 S급 콜라보 캐릭터 [토키사키 쿠루미] 및 6성 전용 무기 추가",
+    "신규 메인 스토리 장편 [Anchored in Faith] 및 콜라보 스토리 추가",
+    "아델라이데 애정 스토리 [Journal of Promise] 추가",
+    "신규 보스 스테이지 [Wrathful Monsoon] 및 콜라보 출석 이벤트 추가",
+    "신규 코스튬 및 복각 코스튬 리서치 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
   },
   {
    "gid": "1844751498216898",
@@ -1873,6 +2353,61 @@
    ]
   },
   {
+   "gid": "1844115010493916",
+   "appid": 1282270,
+   "game": "스트리노바",
+   "date": 1789712626,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010493916",
+   "origTitle": "September 17, 2026, Update Announcement",
+   "title": "9월 17일 업데이트 공지",
+   "summary": "신규 시즌 '26SP5 Seasonless Garden'이 시작되었으며 마라, 미쉘, 유기리, 플라비아 등 캐릭터 밸런스 조정 및 신규 무기 '위스퍼윈드'가 추가되었습니다. 또한 신규 역할군 '어썰트'가 도입되고 이벤트 센터 개편 및 다양한 신규 이벤트가 진행됩니다.",
+   "highlights": [
+    "신규 역할군 '어썰트' 추가 (밍, 마라, 시엘, 플라비아 변경)",
+    "신규 범용 주무기 '위스퍼윈드(자동 석궁)' 추가",
+    "각 슈퍼string별 전용 무기 및 범용 주무기를 선택할 수 있는 무기 풀 시스템 도입",
+    "26SP5 'Seasonless Garden' 시즌 개막 및 신규 워런트 보상 추가",
+    "마라, 미쉘, 유기리, 플라비아, 레오나 등 주요 캐릭터 밸런스 조정",
+    "이벤트 센터 UI 개편 및 신규 콜라보레이션 이벤트 개최"
+   ],
+   "buffs": [
+    "마라: 주무기 나이트 사이트 유효 거리 증가 및 기본 피해량 상향",
+    "미쉘: 패시브 스킬 방어구 회복 효과 추가 및 액티브 스킬 쿨다운 감소",
+    "유기리: 주무기 및 스킬 밸런스 상향, 톡식 미스트 지속 시간 및 범위 증가",
+    "플라비아: 주무기 발사 속도 및 탄창 용량 증가, 액티브 스킬 지속 시간 증가"
+   ],
+   "nerfs": [
+    "마라: 주무기 기본 연사 속도 감소",
+    "유기리: 주무기 기본 데미지 소폭 감소",
+    "플라비아: 주무기 기본 데미지 감소",
+    "노라: 액티브 스킬 미사일 데미지 감소",
+    "밍: 패시브 스킬의 추가 장갑 피해가 소환물에만 적용되도록 변경"
+   ],
+   "fixes": [
+    "유기리가 톡식 미스트를 떠난 후에도 적들이 지속 피해를 받던 현상 수정",
+    "톡식 미스트 생성 후에 진입한 적이 영향을 받지 않던 문제 수정"
+   ]
+  },
+  {
+   "gid": "1844115010488639",
+   "appid": 3308670,
+   "game": "소녀전선2: 망명",
+   "date": 1789552816,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010488639",
+   "origTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 9/17",
+   "title": "9월 17일 업데이트 개요",
+   "summary": "소녀전선2: 망명 9월 17일 업데이트로 신규 기간 한정 이벤트, 인형 및 무기 픽업, 그리고 신규 코스튬과 무기 스킨이 추가되었습니다. 다양한 이벤트 참여를 통해 붕괴조각 및 육성 재화를 획득할 수 있습니다.",
+   "highlights": [
+    "Voyage Logs 등 다수의 기간 한정 이벤트 진행",
+    "소포, 로렐라이, 알바 인형 및 지정 무기 픽업 확률 업",
+    "스프링필드, 루이스, 소포, 알바의 신규 코스튬 출시",
+    "신규 무기 스킨 'Coldsteel Accolade' 할인 판매",
+    "일부 기간 한정 이벤트 및 보상 2배 혜택 제공"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1843481262705400",
    "appid": 570,
    "game": "도타 2",
@@ -1941,6 +2476,27 @@
     "일부 플레이어에게 지형, 건물 등의 텍스처가 현저히 낮은 해상도로 로딩되던 문제 수정",
     "플레이어 부활 후 일부 맵 아이콘 필터가 의도치 않게 해제되던 문제 수정"
    ]
+  },
+  {
+   "gid": "1843481262687543",
+   "appid": 4162040,
+   "game": "젠레스 존 제로",
+   "date": 1788908454,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262687543",
+   "origTitle": "Version 3.2 \"Their Secret Histories\" Update Announcement",
+   "title": "버전 3.2 '그들만의 비밀스러운 역사' 업데이트",
+   "summary": "젠레스 존 제로 버전 3.2 업데이트를 통해 신규 S급 에이전트 클라레와 록시, 새로운 메인 스토리, 지역 및 다양한 이벤트가 추가되었습니다. 서버 업데이트 및 오류 수정 보상으로 폴리크롬 총 600개가 지급됩니다.",
+   "highlights": [
+    "신규 S급 에이전트 클라레(전기·아머러) 및 록시(풍속성·격파) 추가",
+    "메인 스토리 시즌 3 제3장 '그들만의 비밀스러운 역사' 추가",
+    "신규 지역 '로스카엘리페르 - 바이리움 지구' 등 추가",
+    "난공유, 아리아, 순나의 신규 한정 코스튬 추가",
+    "초보자 가이드 선택형 한정 S급 에이전트 및 W-엔진 보상 추가",
+    "출석 이벤트 '올뉴 프로그램' 등 다양한 신규 이벤트 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
   },
   {
    "appid": "pkc",
@@ -2082,6 +2638,69 @@
    ]
   },
   {
+   "gid": "1842212951296408",
+   "appid": 3308670,
+   "game": "소녀전선2: 망명",
+   "date": 1787738417,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951296408",
+   "origTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 8/27",
+   "title": "8월 27일 업데이트 개요",
+   "summary": "소녀전선2: 망명 8월 27일 업데이트로 [키랄 중복] 등 다양한 신규 기간 한정 이벤트와 출석 보상이 진행됩니다. 또한 OTs-14, 바스티, 보이마스티나 등의 인형 및 무기 픽업 조달과 신규 코스튬 및 무기 스킨이 추가됩니다.",
+   "highlights": [
+    "[키랄 중복], [프론티어 콘퀘스트], [역방향 암호] 등 다수의 기간 한정 이벤트 개최",
+    "7일 로그인 보상으로 [지정 액세스 허가서 x10] 획득 가능",
+    "OTs-14, 바스티, 보이마스티나 및 관련 엘리트 무기 픽업 조달 진행",
+    "복귀 지휘관을 위한 [재회 맹세] 및 재회 조달 이벤트 진행",
+    "네메시스 MOD 아이템 및 인형 '네메시스'의 오리지널 프레임 획득 가능",
+    "OTs-14, 루카이, 추화의 신규 코스튬 및 무기 스킨 할인 판매"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1841579228663631",
+   "appid": 3513350,
+   "game": "명조: 워더링 웨이브",
+   "date": 1787169631,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228663631",
+   "origTitle": "New Content in Version 3.6: Lamplight in Mirage, Sword's Resolve in Heart",
+   "title": "명조 버전 3.6 업데이트 안내",
+   "summary": "명조 버전 3.6에서는 신규 공명자 청소와 경란이 추가되며, 신규 지역 '현원 영역'과 메인퀘스트 제4막 제3장이 공개됩니다. 또한 탐사 오토바이 기능 개선, 게임 최적화 및 다양한 신규 이벤트와 도전이 진행됩니다.",
+   "highlights": [
+    "신규 5성 공명자 청소(기류/장검) 및 경란(용융/대검) 추가",
+    "신규 5성 무기 '운무의 섬광' 및 '천도만멸' 추가",
+    "신규 지역 '현원 영역' 및 메인퀘스트 제4막 제3장 추가",
+    "탐사 오토바이 내비게이션 및 오토파일럿 모드 개선",
+    "PC 버전 NVIDIA DLSS 프레임 생성 지원 업그레이드",
+    "신규 도전 '전술 홀로그램: 스파링' 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1841579228661251",
+   "appid": 4125930,
+   "game": "퍼니싱: 그레이 레이븐",
+   "date": 1787098084,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228661251",
+   "origTitle": "v4.7",
+   "title": "v4.7 패치 안내",
+   "summary": "신규 캐릭터 카레니나·휘광과 무기, CUB, 의식 세트가 추가됩니다. 새로운 스토리와 메인 화면, 다양한 이벤트 및 코스튬이 업데이트됩니다.",
+   "highlights": [
+    "신규 캐릭터: 카레니나·휘광",
+    "신규 무기: Star of Niflheim",
+    "신규 CUB: Patrick",
+    "신규 의식 세트: Santiago",
+    "신규 스토리: Steering By Light",
+    "신규 및 복각 코스튬, 메인 화면 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1840944183772872",
    "appid": 1623730,
    "game": "팰월드",
@@ -2131,6 +2750,27 @@
     "판다 월드 아바타 컬렉션 출시",
     "신규 탈것 및 펫 출시",
     "서버 점검 8월 12일 오전 12시(PT) 시작 (예상 소요 시간 6시간)"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1840310314338761",
+   "appid": 3308670,
+   "game": "소녀전선2: 망명",
+   "date": 1785924040,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314338761",
+   "origTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 8/6",
+   "title": "8월 6일 업데이트 개요",
+   "summary": "소녀전선2: 망명 8월 6일 업데이트로 신규 기간 한정 이벤트 'Moonshroud Requiem' 및 다양한 이벤트가 진행됩니다. 또한 특정 인형 및 전용 무기의 픽업 확률 업 이벤트와 신규 코스튬이 추가됩니다.",
+   "highlights": [
+    "기간 한정 이벤트 [Moonshroud Requiem] 및 이벤트 상점 오픈",
+    "[Voyage Logs], [Simulation Exercise], [Intelligence Supplies] 등 다양한 기간 한정 이벤트 진행",
+    "7일 누적 로그인 이벤트 [Para Bellum] 진행",
+    "[Neural Survey - Fission] 이벤트 기간 동안 보상 100% 증가",
+    "Sextans, Phaetusa, Ullrid 및 관련 무기 픽업 확률 업 진행",
+    "Sextans 신규 코스튬 [Nocte Bewitchment] 할인 판매"
    ],
    "buffs": [],
    "nerfs": [],
@@ -2260,6 +2900,69 @@
    ]
   },
   {
+   "gid": "1839041357038306",
+   "appid": 4162040,
+   "game": "젠레스 존 제로",
+   "date": 1785245172,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357038306",
+   "origTitle": "Version 3.1 \"The Long Goodbye\" Update Announcement",
+   "title": "버전 3.1 'The Long Goodbye' 업데이트",
+   "summary": "젠레스 존 제로 버전 3.1 업데이트가 진행됩니다. 신규 에이전트 레미엘과 시그리드, 신규 스토리, 신규 지역 및 다양한 이벤트와 콘텐츠가 추가됩니다.",
+   "highlights": [
+    "S급 에이전트 '레미엘(빛의 흐름-이상)' 및 '시그리드(얼음-강공)' 추가",
+    "S급 음파 엔진 및 S급 방부 '아리엘' 추가",
+    "메인 스토리 시즌 3 제2장 'The Long Goodbye' 및 관련 의뢰 추가",
+    "신규 지역 '로스카엘리페르 - 부아스트룸 - 기어 스트리트' 추가",
+    "신규 영구 게임 모드 '미궁의 수수께끼: 베이글 작전' 추가",
+    "모노크롬 마켓 첫 구매 2배 보상 초기화"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1838407329258435",
+   "appid": 4125930,
+   "game": "퍼니싱: 그레이 레이븐",
+   "date": 1784261338,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329258435",
+   "origTitle": "v4.6",
+   "title": "v4.6 업데이트",
+   "summary": "신규 캐릭터 '헬렌타인: 라크리모사'와 전용 무기, CUB, 의식 세트가 추가됩니다. 새로운 스토리, 코스튬 및 다양한 이벤트와 게임 모드 업데이트가 진행됩니다.",
+   "highlights": [
+    "신규 캐릭터: 헬렌타인: 라크리모사",
+    "신규 무기: Hear the Bell",
+    "신규 CUB: Grand Duke",
+    "신규 의식 세트: Cogito",
+    "신규 스토리: Of Solitude and Stillness",
+    "신규 및 복각 코스튬, 다수의 신규 이벤트 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1838407329253779",
+   "appid": 3308670,
+   "game": "소녀전선2: 망명",
+   "date": 1784109629,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329253779",
+   "origTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 7/16",
+   "title": "7월 16일 업데이트 개요",
+   "summary": "7월 16일 업데이트를 통해 신규 이벤트, 인형 및 전용 무기 픽업, 그리고 신규 코스튬과 무기 스킨이 추가됩니다. 출석 및 다양한 이벤트 참여를 통해 붕괴 조각과 지정 액세스 허가 등의 보상을 획득할 수 있습니다.",
+   "highlights": [
+    "다양한 신규 이벤트(Voyage Logs, Arclight Logs, Soirée, Inverse Cipher 등) 개최",
+    "7일 출석 이벤트로 지정 액세스 허가 10개 획득 가능",
+    "특정 기간 Supply Mission 및 Neural Survey 보상 100% 증가",
+    "Cheyanne, Liushih, Helen, Yoohee 인형 및 전용 무기 픽업 진행",
+    "Cheyanne, Liushih, Florence의 신규 코스튬 할인 판매",
+    "Aureate Reminiscence 및 Hidden Light 신규 무기 스킨 할인 판매"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1837955055366639",
    "appid": 1599340,
    "game": "로스트아크 (스팀 글로벌판)",
@@ -2275,6 +2978,27 @@
     "파라다이스 시즌 4 시작",
     "여름 나이트 페스티벌 이벤트 개최",
     "신규 여름 아바타 상점 출시"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1836506165584478",
+   "appid": 3513350,
+   "game": "명조: 워더링 웨이브",
+   "date": 1783627240,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165584478",
+   "origTitle": "New Content in Version 3.5: Blade of Past Resounds, Lingering Dream Hymns",
+   "title": "버전 3.5 업데이트 안내",
+   "summary": "명조: 워더링 웨이브 버전 3.5 업데이트에서는 신규 공명자 양양·현령과 수수, 방랑자(전도) 속성이 추가되었습니다. 또한 신규 지역 몽주, 무기, 에코, 메인 및 탐험 임무 등이 대거 추가되었으며 다양한 최적화와 이벤트가 진행됩니다.",
+   "highlights": [
+    "5성 공명자 양양·현령(인멸/한손검), 수수(응결/증폭기) 추가",
+    "방랑자 신규 공명 속성 '전도' 추가",
+    "5성 무기 '푸른 맹세', '여명의 전령' 추가",
+    "신규 지역 '몽주' 및 관련 메인/탐험 퀘스트 추가",
+    "신규 에코, 소나타 효과 및 타싯 필드 추가",
+    "PC 버전 XeSS 3 프레임 생성 지원 및 용량 최적화 추가"
    ],
    "buffs": [],
    "nerfs": [],
@@ -2302,6 +3026,162 @@
     "카제로스 챌린지 익스프레스, 트와일라이트 로드 및 상점, 모코코 부트캠프 종료일 조기 단축"
    ],
    "fixes": []
+  },
+  {
+   "gid": "1836506165545438",
+   "appid": 3308670,
+   "game": "소녀전선2: 망명",
+   "date": 1782295208,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165545438",
+   "origTitle": "GIRLS' FRONTLINE 2: EXILIUM｜Update Overview 6/25",
+   "title": "6월 25일 업데이트 개요",
+   "summary": "신규 기간 한정 이벤트와 함께 엘리트 인형 '하르시'를 무료로 획득할 수 있습니다. 로렐레이, 라이니, 루이스 등 인형 및 전용 무기 픽업과 다양한 신규 코스튬이 추가됩니다.",
+   "highlights": [
+    "기간 한정 이벤트 참여 시 붕괴조각 및 보상 획득",
+    "이벤트 임무 완료 시 엘리트 인형 '하르시' 무료 획득",
+    "로렐레이, 라이니, 루이스 픽업 및 전용 무기 확률 업",
+    "벡터, 스프링필드 등 인형 7종 및 무기 7종 커스텀 픽업 진행",
+    "로렐레이, 마키아토 신규 의상 추가 및 마키아토·크루카이 의상 할인",
+    "무기 스킨 'Eternal Wish' 할인 판매"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1834602721196870",
+   "appid": 3513350,
+   "game": "명조: 워더링 웨이브",
+   "date": 1780862452,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721196870",
+   "origTitle": "New Content in Wuthering Waves Version 3.4: The Dream Not Dreamed",
+   "title": "명조 v3.4 업데이트 공지",
+   "summary": "명조: 워더링 웨이브 버전 3.4 'The Dream Not Dreamed' 업데이트에서는 사이버펑크 엣지러너 콜라보가 진행되며, 신규 공명자와 무기, 스토리 및 게임플레이 최적화가 추가됩니다. 루시와 레베카 등 콜라보 캐릭터가 등장하고, 주간 활동 탭 및 편의성 기능이 개선됩니다.",
+   "highlights": [
+    "사이버펑크 엣지러너 콜라보 진행 (루시, 레베카 등 신규 공명자 추가)",
+    "신규 5성 공명자 루실라 및 신규 무기 추가",
+    "콜라보 지역 'Somnoire: Night City' 및 신규 에코, 적 추가",
+    "챕터 III 사이드 스토리 및 메인퀘스트 세구 추가",
+    "주간 활동 탭 및 일괄 스킬 강화 등 게임플레이 최적화",
+    "다양한 콜라보 및 특별 이벤트 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1833968530899019",
+   "appid": 4125930,
+   "game": "퍼니싱: 그레이 레이븐",
+   "date": 1780357953,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530899019",
+   "origTitle": "v4.5",
+   "title": "v4.5 패치 공지",
+   "summary": "신규 캐릭터 '루시아: 역방관'과 전용 무기, CUB, 의식 세트가 추가됩니다. 새로운 스토리 '귀환의 항해' 및 다양한 신규 코스튬과 이벤트가 진행됩니다.",
+   "highlights": [
+    "신규 캐릭터: 루시아: 역방관",
+    "신규 무기: 빛바랜 황혼(Lightless Dusk)",
+    "신규 CUB: 알로스(Allos)",
+    "신규 의식 세트: 파블리첸코, 클루시우스",
+    "신규 스토리: 귀환의 항해",
+    "신규 및 복각 코스튬, 지휘관 의상 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1833334318568778",
+   "appid": 1282270,
+   "game": "스트리노바",
+   "date": 1779366737,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318568778",
+   "origTitle": "May 21, 2026, Update Announcement",
+   "title": "스트리노바 2026년 5월 21일 업데이트",
+   "summary": "신규 시즌 'Shadow Divergence'가 시작되었으며, 르브런 시티 랭크전 추가, 맵 및 맵 워크숍 기능이 업데이트되었습니다. 또한 씨엘, 바이모, 마들레나, 치요 등의 캐릭터 밸런스가 조정되었고 다양한 이벤트와 상점 상품이 추가되었습니다.",
+   "highlights": [
+    "르브런 시티 맵이 랭크 폭파 미션 모드에 추가",
+    "맵 워크숍에 투명 지대 및 미니언 키트 생성 포인트 추가",
+    "시즌 26 SP3 'Shadow Divergence' 개막",
+    "씨엘, 바이모, 마들레나, 치요 등 캐릭터 스킬 및 각성 밸런스 조정",
+    "전설 스킨 글라이드 효과 각인 시스템 및 각인 칩 도입",
+    "레전더리 셀렉션 II 및 'Forged in Flame' 등 신규 이벤트 진행"
+   ],
+   "buffs": [
+    "다크 노트 경험치획득 제한 완화 (최대 3레벨 증가 가능)",
+    "씨엘 - 스트링 에너지 네트워크 각성 II: 임시 방어구 지속시간 및 쿨타임 반환 상향, 충전 시간 단축",
+    "마들레나 - 스트링 에너지 네트워크: 기본 데미지 및 연사력 상향",
+    "치요 - 액티브, 택티컬, 얼티밋 스킬 데미지 상향"
+   ],
+   "nerfs": [
+    "씨엘 - 스킬 방어구 회수 후 재배치 딜레이 1.5초 추가",
+    "바이모 - 액티브 스킬 투사체당 쿨타임 반환율 하향",
+    "마들레나 - 스트링 에너지 네트워크: 헤드샷 데미지 배율 하향"
+   ],
+   "fixes": [
+    "방어구가 음수(-) 값으로 내려가던 문제 수정",
+    "레이치의 '확산 사격 모드(Spread Shot Mode)' 조준 시 총알이 모이지 않던 문제 수정",
+    "업그레이드 텍스트 오표기 수정 (Multi Fire Modes -> Spread Shot Mode)"
+   ]
+  },
+  {
+   "gid": "1830163047267496",
+   "appid": 4125930,
+   "game": "퍼니싱: 그레이 레이븐",
+   "date": 1776736522,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047267496",
+   "origTitle": "v4.4",
+   "title": "v4.4 업데이트 공지",
+   "summary": "퍼니싱: 그레이 레이븐 v4.4 버전 업데이트로 신규 캐릭터 '카무이: 영겁', 무기, CUB, 기억 등이 추가됩니다. 새로운 스토리와 함께 다양한 코스튬 및 이벤트가 진행됩니다.",
+   "highlights": [
+    "신규 캐릭터 '카무이: 영겁' 추가",
+    "신규 무기 'Solar Flare' 추가",
+    "신규 CUB 'Ignis' 추가",
+    "신규 기억 세트 'Feynman' 추가",
+    "신규 스토리 'The Dying Sun' 추가",
+    "신규 및 복각 코스튬, 다양한 이벤트 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1830163047256740",
+   "appid": 1282270,
+   "game": "스트리노바",
+   "date": 1776325595,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047256740",
+   "origTitle": "April 16, 2026, Update Announcement",
+   "title": "스트리노바 4월 16일 업데이트",
+   "summary": "신규 폭파전 맵 '르브런 시티'가 추가되었으며, 맵 워크숍 내 '붐 페스트' 모드와 축구 키트 모듈이 도입되었습니다. 또한 씨엘, 바이모 등 캐릭터 밸런스 조정 및 무기 분산도 개선이 이루어졌습니다.",
+   "highlights": [
+    "신규 폭파전 맵 '르브런 시티' 추가",
+    "맵 워크숍 '붐 페스트' 및 축구 키트 모듈 추가",
+    "카드 시스템 확장 및 데크 생성 가능 갯수 6개에서 9개로 증가",
+    "전체 무기 및 일부 캐릭터(씨엘, 바이모) 밸런스 조정",
+    "신규 이벤트(코스믹 초대장, 르브런 시티 탐험 등) 진행",
+    "헤르메스 상점 신규 스킨 및 오르빛 공명 업데이트"
+   ],
+   "buffs": [
+    "슈퍼스트링 모드에서 피해를 줄 때 XP 획득 속도 상향",
+    "레벨업당 기존 +5% 데이징에서 +5% 무기 데미지로 변경",
+    "검투(Sword Clash) 극한 폭발 시 근접 공격 속도 100% 증가",
+    "씨엘 스트링 에너지 네트워크 각성 3 피해 전파 계수 상향 (1.25 -> 1.33)",
+    "바이모 스트링 에너지 네트워크 각성 2 피해 감소 지속 시간 증가 (0.6초 -> 0.75초)",
+    "바이모 얼티밋 사용 후 복귀 시 남은 위치에 강화된 수류탄 생성 기능 추가"
+   ],
+   "nerfs": [
+    "블래스트 피엔드의 자폭 궁극기로 아머 포저 카드 효과를 발동할 수 없도록 수정",
+    "씨엘 기본 무기 기본 피해량 감소 (136 -> 120, 발사 속도 100 -> 105로 조정)",
+    "바이모 스트링 에너지 네트워크 각성 3 은폐 지속 시간 감소 (0.6초 -> 0.5초)"
+   ],
+   "fixes": [
+    "맵 워크숍 방어 타워 모듈의 피해 배율 설정이 적용되지 않던 문제 수정",
+    "노부나가 순간이동 시전 시간이 특수 조작으로 취소되던 문제 수정",
+    "특정 지역(오일러 항구, 심연의 전선 등)에서 캐릭터가 끼이거나 비무적 상태가 되던 문제 수정",
+    "카나미 Azure Specter 스킨의 현현 상태 비정상 동공 효과 수정",
+    "로비 미리보기에서 특정 스프레이 소리가 너무 크게 재생되던 문제 수정"
+   ]
   },
   {
    "gid": "1828894815563326",
@@ -2397,6 +3277,64 @@
    ]
   },
   {
+   "gid": "1826992588602773",
+   "appid": 4125930,
+   "game": "퍼니싱: 그레이 레이븐",
+   "date": 1773713526,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588602773",
+   "origTitle": "v4.3",
+   "title": "퍼니싱 v4.3 업데이트",
+   "summary": "퍼니싱: 그레이 레이븐 v4.3 패치를 통해 신규 캐릭터 '니르바티아: 디르주'와 전용 무기, CUB, 의식 세트가 추가됩니다. 새로운 스토리와 함께 다양한 코스튬 및 이벤트가 진행됩니다.",
+   "highlights": [
+    "신규 캐릭터: 니르바티아: 디르주 추가",
+    "신규 무기: Obituary for Yesterday 추가",
+    "신규 CUB: Morigan 추가",
+    "신규 의식 세트: Bulgakov 추가",
+    "신규 스토리: A Better Tomorrow 추가",
+    "신규 및 복각 코스튬, 다양한 신규 이벤트 개최"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1826992588591637",
+   "appid": 1282270,
+   "game": "스트리노바",
+   "date": 1773295398,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588591637",
+   "origTitle": "March 12, 2026, Update Announcement",
+   "title": "3월 12일 업데이트 공지",
+   "summary": "신규 맵 '심연의 프론티어'가 추가되고 아웃브레이크 모드 및 여러 캐릭터의 밸런스가 조정되었습니다. 또한 시즌 26SP2 '개척자의 화랑' 개막과 함께 다양한 이벤트와 상점 상품이 갱신되었습니다.",
+   "highlights": [
+    "아웃브레이크 모드 신규 맵 '심연의 프론티어' 추가",
+    "시즌 26SP2 '개척자의 화랑' 및 관련 이벤트 개막",
+    "카나미, 밍, 레이이치, 씨엘 등 캐릭터 스킬 및 밸런스 조정",
+    "무기 및 스트링 에너지 네트워크 성장 옵션 데미지 조정",
+    "맵 워크숍 신규 추가 및 기능 개선",
+    "각종 버그 수정 및 최적화 진행"
+   ],
+   "buffs": [
+    "밍: 액티브 및 서브/궁극기 스킬 데미지와 방어 흡수율 상향",
+    "레이이치: 액티브 스킬 쿨다운 감소 및 기본 데미지 상향",
+    "씨엘: 액티브 스킬 쉴드량 및 회복 관련 상향",
+    "전투용 낫(War Scythe): 공격 속도 5% 증가",
+    "이그니스: 스트링화된 적 대상 데미지 계수 증가"
+   ],
+   "nerfs": [
+    "카나미: 궁극기 포인트 요구량 증가 (6500 -> 7000)",
+    "레오나: 주무기 캘리브레이터 연사력 감소 및 기본 탄창 감소",
+    "일부 캐릭터 스트링 에너지 네트워크 성장 옵션 데미지 하향"
+   ],
+   "fixes": [
+    "H-페탈바운드 엠버 케이스 사운드 출력 오류 수정",
+    "미셸 '전투 상처' 스킨 모델링 표시 오류 수정",
+    "용암 공장 맵에서 카나미 궁극기로 바람길 이동이 막히던 현상 수정",
+    "타이브 오아시스 맵 특정 지역에서 스트링화 후 끼임 현상 수정",
+    "기타 텍스트 표시 오류 수정"
+   ]
+  },
+  {
    "gid": "1826992588590467",
    "appid": 252950,
    "game": "로켓 리그",
@@ -2445,6 +3383,71 @@
    ]
   },
   {
+   "gid": "1823191198601260",
+   "appid": 1282270,
+   "game": "스트리노바",
+   "date": 1769660349,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198601260",
+   "origTitle": "January 29, 2026, Update Announcement",
+   "title": "1월 29일 업데이트",
+   "summary": "신규 캐릭터 '시에엘'이 추가되었으며, 5v5v5 모드로 개편된 '크리스탈 클래시'와 다양한 맵 및 시스템 업데이트가 적용되었습니다. 레이이치, 에이카, 바이모 등 캐릭터 밸런스 조정과 무기 스펙 변경도 함께 이루어졌습니다.",
+   "highlights": [
+    "신규 듀얼리스트 캐릭터 '시에엘' 추가",
+    "7v7 크리스탈 스크램블을 대체하는 3파전 5v5v5 '크리스탈 클래시' 모드 도입",
+    "에어리어 88 및 스노우베일 디스트릭트 맵에 설날 테마 장식 임시 적용",
+    "레이이치, 에이카, 바이모, 플라비아, 오드레이 등 캐릭터 스킬 및 스트링 에너지 네트워크 개편",
+    "이동 및 공중 사격 시 무기 확산도 증가 로직 최적화",
+    "시에엘 관련 출시 기념 이벤트 'Moments With Cielle' 진행"
+   ],
+   "buffs": [
+    "밍 주무기 기본 데미지 27에서 28로 상향",
+    "플라비아 주무기 기본 데미지 21에서 22로 상향",
+    "프래그런스 주무기 기본 데미지 22에서 23로 상향",
+    "단발 장전 숏건류 장전 속도 70% 상향",
+    "제퍼 블레이드 강공격 데미지 800에서 900으로 상향",
+    "웨이브 브레이크 강공격 데미지 900에서 1150으로 상향",
+    "바이모 자유의 통치 주무기 장전 속도 35% 증가 및 스트링화 대상 데미지 배율 75%로 상향",
+    "푸시아 주무기 톱니바퀴 기본 데미지 26에서 27로 상향 및 액티브 쿨타임 감소",
+    "보조무기 스팅어 기본 데미지 15에서 17로 상향"
+   ],
+   "nerfs": [
+    "제퍼 블레이드 강공격 예비 동작(wind-up) 60% 증가",
+    "웨이브 브레이크 강공격 예비 동작(wind-up) 60% 증가",
+    "에이카 최대 열 상태 시 스트링화 대상 데미지 보너스 25%에서 20%로 하향",
+    "푸시아 주무기 기본 발사 속도 650에서 630으로 감소",
+    "보조무기 엠버스핏 격발 지연 시간 0.2초에서 0.28초로 증가",
+    "보조무기 이그니스 발사체 수 증가 및 발사체당 데미지 9에서 8.5로 하향"
+   ],
+   "fixes": [
+    "아웃브레이크 모드에서 메디와 프래그런스의 궁극기 에너지 포인트 증가",
+    "맵 워크숍 모드에서 체크포인트 지연 설정 및 최대 개수 15개로 증가",
+    "맵 워크숍 공급 상자 최대 개수 20개에서 50개로 증가",
+    "특정 모드에서 릴리스의 궁극기 기본 데미지 조정",
+    "최종 탈출 지점 진입 시 시청각 효과 추가"
+   ]
+  },
+  {
+   "gid": "1822556746166319",
+   "appid": 2668080,
+   "game": "스노우 브레이크: 포비든 존",
+   "date": 1769403657,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1822556746166319",
+   "origTitle": "New update \"Back From Bygone\"",
+   "title": "백 투 바이곤 신규 업데이트",
+   "summary": "신규 메인 스토리 'Back From Bygone'과 함께 다양한 한정 이벤트, 신규 오퍼레이터 마리안-아킬라 특별 초대 이벤트 및 에코(픽업)가 진행됩니다. 베이스 미니게임, 협동 작전, 챌린지 스테이지 등 다채로운 콘텐츠가 추가 및 갱신됩니다.",
+   "highlights": [
+    "신규 챕터 16 'Back From Bygone' 이벤트 스토리 및 상점 오픈",
+    "신규 오퍼레이터 마리안-아킬라 및 트러플 스쿼드 물류반 특별 초대 이벤트 진행",
+    "아카데버스 베이스에 신규 코인 푸셔 미니게임 'Coin Champ' 추가",
+    "협동 플레이 'Hazard Sweep' 및 'Hero Games' 오픈",
+    "아카시아-크로노 에코 및 마리안-아킬라 한정 픽업(Echo) 진행",
+    "페이퍼 드림랜드, 스타워즈 디펜스 등 기존 콘텐츠 대규모 업그레이드 및 확장"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
    "gid": "1821922921817276",
    "appid": 346110,
    "game": "아크: 서바이벌 이볼브드",
@@ -2462,7 +3465,128 @@
    "buffs": [],
    "nerfs": [],
    "fixes": []
+  },
+  {
+   "gid": "1821922921809932",
+   "appid": 2358720,
+   "game": "검은 신화: 오공",
+   "date": 1768377461,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1821922921809932",
+   "origTitle": "Black Myth: Wukong 1.0.21.23831 Patch Notes",
+   "title": "검은 신화: 오공 1.0.21.23831 패치 노트",
+   "summary": "초해상도 설정 오류 및 특정 지역의 물리 효과와 충돌 문제를 해결하는 1.0.21.23831 패치가 배포되었습니다. 패치 용량은 약 2.0GB이며 모드 사용 시 충돌이 발생할 수 있어 제거가 권장됩니다.",
+   "highlights": [
+    "초해상도 설정 오작동으로 인한 성능 저하 현상 수정",
+    "권장 그래픽 설정 적용 시 초해상도 설정 불가 문제 해결",
+    "탄생석의 심장 지역 물 물리 효과 수정",
+    "특정 조건에서 눈 상호작용 동작 수정",
+    "불사의 오두막에서 백의 장군 영혼 사용 시 게임 강제 종료 문제 수정",
+    "그래픽 설정에 따른 일부 석후(Stone Monkey) 스킬 시각 효과 조기 소실 문제 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "초해상도 설정 오작동으로 인한 성능 저하 수정",
+    "권장 그래픽 설정 적용 시 초해상도 설정 오류 수정",
+    "탄생석의 심장 지역 물 물리 효과 수정",
+    "불사의 오두막에서 백의 장군 영혼 사용 시 크래시 수정",
+    "재실행 시 컨트롤러 타입 설정 저장 안 됨 문제 수정"
+   ]
+  },
+  {
+   "gid": "1819386365104075",
+   "appid": 1282270,
+   "game": "스트리노바",
+   "date": 1766494149,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365104075",
+   "origTitle": "December 23, 2025, Update Announcement",
+   "title": "2025년 12월 23일 업데이트 공지",
+   "summary": "신규 캐릭터 '릴리스'와 대량의 신규 카드 및 맵 스킨이 추가되었으며, 26SP1 시즌 'Whispering Shadows'가 새롭게 시작됩니다. 또한 시즌 전환 유지보수 방식이 무중단 유지보수로 변경되었습니다.",
+   "highlights": [
+    "시즌 전환 유지보수 방식을 무중단 유지보수로 변경",
+    "신규 결정체 캐릭터 '릴리스' 추가",
+    "겨울 축제 테마 맵 스킨 및 호위 맵 '용암 공장' 추가",
+    "대량의 신규 카드 추가 및 기존 카드 최적화",
+    "26SP1 시즌 'Whispering Shadows' 개막 및 관련 시즌 패스/보상 도입"
+   ],
+   "buffs": [
+    "다크쏜 엠프레스: 액티브 스킬 자가 회복량 20%에서 40%로 상향",
+    "결정체 캐릭터: 기절(Stun) 효과에 면역 추가"
+   ],
+   "nerfs": [],
+   "fixes": [
+    "이스케이프 모드에서 슈퍼스트링 진영 새로고침 가능 카드가 없을 때 오류가 표시되던 문제 수정",
+    "이스케이프 모드에서 라운드 시작 시 보급 상자 및 진화 크리스탈이 잘못 스폰되던 문제 수정",
+    "복잡한 건물 군집을 일괄 생성할 때 충돌 박스 부피가 올바르지 않던 문제 수정"
+   ]
+  },
+  {
+   "gid": "1818752592132358",
+   "appid": 2668080,
+   "game": "스노우 브레이크: 포비든 존",
+   "date": 1765787090,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818752592132358",
+   "origTitle": "New update \"Reflection of Valor\"",
+   "title": "Reflection of Valor 업데이트",
+   "summary": "신규 메인 스토리 특별 장인 'Reflection of Valor'와 다양한 한정 이벤트가 시작됩니다. 신규 캐릭터 픽업, 이벤트 상점, 협동 및 챌린지 콘텐츠가 추가됩니다.",
+   "highlights": [
+    "신규 메인 스토리 특별 장 'Reflection of Valor' 이벤트 오픈",
+    "이벤트 상점 'Frontier Trader' 오픈 및 다양한 보상 교환 가능",
+    "신규 챌린지 및 협동 플레이 ('Wintertide Relay', 'Garden Mayhem', 'Defense Line Zero' 등)",
+    "[Memory Mosaic] 이벤트 참여 시 'Mauxir - Lotus' 획득 가능",
+    "한정 캐릭터 확정 픽업 진행 (Bubu, Nerida, Clarina)",
+    "한정 무기 확정 픽업 진행 (Auspice Cinders, Shadow Surge 등)"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
+  },
+  {
+   "gid": "1816849002010720",
+   "appid": 1086940,
+   "game": "발더스 게이트 3",
+   "date": 1763645045,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002010720",
+   "origTitle": "Hotfix #35 Now Live!",
+   "title": "핫픽스 #35 배포",
+   "summary": "이번 핫픽스는 게임 성능 향상과 콘솔 및 스팀 덱에서의 충돌 현상 해결에 초점을 맞추고 있습니다. 특히 스팀 덱 네이티브 빌드의 기본 업스케일링 방식을 FSR 1에서 FSR 2.2로 변경하여 선명도를 높였습니다.",
+   "highlights": [
+    "콘솔 및 스팀 덱의 주요 충돌 및 멈춤 현상 수정",
+    "스팀 덱 네이티브 기본 업스케일링을 FSR 2.2로 변경",
+    "스팀 덱 일부 로딩 시간 및 엔비디아 GPU VRAM 사용량 개선",
+    "스팀 덱에서 외부 컨트롤러 오작동 버그 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "PS5에서 L2 누를 때 발생하던 멈춤 현상 수정",
+    "멀티플레이 세션 종료 또는 로딩 중 일시 중단 시 발생하는 Xbox 충돌 수정",
+    "제작 후 게임 저장 시 스팀 덱 및 맥에서 발생하던 충돌 수정",
+    "크로스플레이 중 호스트 및 클라이언트에서 발생할 수 있는 충돌 수정",
+    "스팀 덱에서 EN 로케일이 없을 때 실행 시 발생하는 충돌 수정"
+   ]
+  },
+  {
+   "gid": "1815580768224213",
+   "appid": 2668080,
+   "game": "스노우 브레이크: 포비든 존",
+   "date": 1762337707,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815580768224213",
+   "origTitle": "New update \"Beyond Elysium\"",
+   "title": "비욘드 엘리시움 업데이트",
+   "summary": "신규 스토리 '비욘드 엘리시움'과 다양한 한정 이벤트가 추가되었습니다. 미아, 에냐, 카티아, 테스 등의 캐릭터 픽업과 신규 도전 콘텐츠가 진행됩니다.",
+   "highlights": [
+    "신규 특별 장 스토리 'Beyond Elysium' 오픈",
+    "협동 도전 및 챌린지 타워 등 다양한 신규 이벤트 콘텐츠 진행",
+    "하루 - 라이코우 성장 이벤트 'Memory Mosaic' 진행",
+    "미아 - 스타체이서 및 에냐 - 템페스트 한정 픽업 진행",
+    "카티아 - 랩소디 및 테스 - 판타시아 한정 픽업 진행",
+    "신규 무기 픽업 및 이벤트 상점(스타 엠포륨) 오픈"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": []
   }
  ],
- "updated": 1795680099099
+ "updated": 1795682244589
 }
