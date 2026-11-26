@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>리그 오브 레전드 정보 — 챔피언·룬·아이템 | 패치노트 모음</title>
+<style>
+:root{--bg:#0f1115;--card:#171a21;--line:#262a33;--tx:#e6e8ec;--mute:#8a909c;--acc:#5aa9ff;--gold:#d8b45a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 system-ui,"Malgun Gothic",sans-serif}
+header{position:sticky;top:0;background:#0f1115ee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:5}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.top{display:flex;align-items:center;gap:14px;padding:12px 0;flex-wrap:wrap}
+h1{font-size:19px;margin:0}h1 a{color:var(--tx);text-decoration:none}h1 b{color:var(--acc)}
+nav{display:flex;gap:4px}nav button{background:none;border:1px solid var(--line);color:var(--mute);padding:6px 14px;border-radius:8px;font:inherit;cursor:pointer}
+nav button.on{background:var(--acc);border-color:var(--acc);color:#071425;font-weight:600}
+.ver{color:var(--mute);font-size:12px;margin-left:auto}
+.bar{display:flex;gap:8px;padding:0 0 12px;flex-wrap:wrap}
+input,select{background:var(--card);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:8px 10px;font:inherit}input{flex:1;min-width:160px}
+main{padding:16px 0 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:10px}
+.cell{text-align:center;cursor:pointer;font-size:12px;color:#cfd3da}
+.cell img{width:64px;height:64px;border-radius:10px;border:2px solid var(--line);display:block;margin:0 auto 4px;background:#000}
+.cell:hover img{border-color:var(--acc)}
+.cell small{display:block;color:var(--gold)}
+#dlg{position:fixed;inset:0;background:#000a;display:none;align-items:flex-start;justify-content:center;padding:40px 12px;overflow:auto;z-index:9}
+#dlg.open{display:flex}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;max-width:760px;width:100%;padding:20px 22px;position:relative}
+.x{position:absolute;right:14px;top:10px;background:none;border:0;color:var(--mute);font-size:24px;cursor:pointer}
+.head{display:flex;gap:14px;align-items:center}.head img{width:80px;height:80px;border-radius:12px}
+.head h2{margin:0;font-size:22px}.head p{margin:0;color:var(--mute)}
+.chip{display:inline-block;background:#12151b;border:1px solid var(--line);border-radius:6px;padding:0 8px;font-size:12px;margin-right:4px;color:#cfd3da}
+h3{font-size:15px;margin:18px 0 8px;color:var(--acc)}
+table{width:100%;border-collapse:collapse;font-size:14px}td{padding:4px 8px;border-bottom:1px solid var(--line)}td:first-child{color:var(--mute);width:40%}
+.sk{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.sk:last-child{border:0}
+.sk img{width:48px;height:48px;border-radius:8px;flex:none}
+.sk b{font-size:15px}.sk .k{color:var(--gold);font-weight:700;margin-right:6px}
+.sk p{margin:4px 0;white-space:pre-line;color:#cfd3da}
+.meta{font-size:13px;color:var(--mute)}
+.nums{margin:6px 0 0;font-size:13px}.nums td{padding:2px 8px}
+.tree{margin-bottom:22px}.tree h3{display:flex;align-items:center;gap:8px}.tree h3 img{width:28px}
+.row{display:flex;gap:10px;margin:6px 0 10px;flex-wrap:wrap}.row .cell img{width:52px;height:52px;border-radius:50%}
+.row.keystone .cell img{width:64px;height:64px}
+.desc{white-space:pre-line;color:#cfd3da}
+.path{display:flex;gap:8px;flex-wrap:wrap}.path img{width:40px;height:40px;border-radius:6px;cursor:pointer;border:1px solid var(--line)}
+footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+ <div class="top"><h1><a href="index.html"><b>패치</b>노트 모음</a> · 리그 오브 레전드</h1>
+  <nav><button data-t="champ" class="on">챔피언</button><button data-t="rune">룬</button><button data-t="item">아이템</button></nav>
+  <span class="ver" id="ver"></span></div>
+ <div class="bar"><input id="q" placeholder="이름 검색"><select id="f"></select></div>
+</div></header>
+<main class="wrap" id="main">불러오는 중…</main>
+<div id="dlg"><div class="panel"><button class="x" onclick="closeDlg()">×</button><div id="body"></div></div></div>
+<footer class="wrap">수치·설명은 Riot Data Dragon 및 Meraki Analytics 공개 데이터 기준입니다. 이 사이트는 Riot Games 가 보증하거나 후원하지 않으며, Riot Games 및 관련 상표는 Riot Games, Inc. 의 자산입니다.</footer>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let C,R,I,V,tab='champ';
+const CDN=()=>`https://ddragon.leagueoflegends.com/cdn/${V}/img`;
+const TAG={Fighter:'전사',Tank:'탱커',Mage:'마법사',Assassin:'암살자',Marksman:'원거리 딜러',Support:'서포터'};
+const ITAG={Damage:'공격력',CriticalStrike:'치명타',AttackSpeed:'공격 속도',LifeSteal:'생명력 흡수',SpellDamage:'주문력',Mana:'마나',
+ Health:'체력',Armor:'방어력',SpellBlock:'마법 저항력',NonbootsMovement:'이동 속도',Boots:'신발',CooldownReduction:'스킬 가속',
+ ArmorPenetration:'방어구 관통',MagicPenetration:'마법 관통',HealthRegen:'체력 재생',ManaRegen:'마나 재생',Consumable:'소모품',Vision:'시야',Trinket:'장신구',GoldPer:'골드 수급',Active:'사용 효과',OnHit:'적중 시',Tenacity:'강인함',Slow:'둔화',SpellVamp:'모든 피해 흡혈',Stealth:'은신',Aura:'오라',Lane:'라인',Jungle:'정글'};
+const STAT=[['체력','hp','hpperlevel'],['체력 재생(5초)','hpregen','hpregenperlevel'],['자원','mp','mpperlevel'],['자원 재생(5초)','mpregen','mpregenperlevel'],
+ ['공격력','attackdamage','attackdamageperlevel'],['공격 속도','attackspeed','attackspeedperlevel','%'],['방어력','armor','armorperlevel'],
+ ['마법 저항력','spellblock','spellblockperlevel'],['공격 사거리','attackrange'],['이동 속도','movespeed']];
+
+function filters(){
+ const f=$('f');f.innerHTML='';
+ if(tab==='champ'){f.add(new Option('모든 역할',''));Object.entries(TAG).forEach(([k,v])=>f.add(new Option(v,k)))}
+ if(tab==='rune'){f.add(new Option('모든 빌드',''));R.forEach(t=>f.add(new Option(t.name,t.name)))}
+ if(tab==='item'){f.add(new Option('모든 아이템',''));f.add(new Option('완성 아이템','3'));f.add(new Option('하위 아이템','2'));f.add(new Option('기본 아이템','1'));
+  Object.entries(ITAG).forEach(([k,v])=>f.add(new Option(v,k)))}
+}
+function render(){
+ const q=$('q').value.trim(),f=$('f').value,m=$('main');
+ if(tab==='champ'){
+  const l=C.filter(c=>(!q||c.name.includes(q)||c.id.toLowerCase().includes(q.toLowerCase()))&&(!f||c.tags.includes(f)));
+  m.innerHTML='<div class="grid">'+l.map(c=>`<div class="cell" data-c="${c.id}"><img loading="lazy" src="${CDN()}/champion/${c.id}.png" alt="">${esc(c.name)}</div>`).join('')+'</div>';
+ }else if(tab==='rune'){
+  m.innerHTML=R.filter(t=>!f||t.name===f).map(t=>`<div class="tree"><h3><img src="https://ddragon.leagueoflegends.com/cdn/img/${t.icon}">${esc(t.name)}</h3>`+
+   t.slots.map((s,i)=>`<div class="row ${i?'':'keystone'}">`+s.filter(r=>!q||r.name.includes(q)).map(r=>`<div class="cell" data-r="${esc(r.name)}"><img loading="lazy" src="https://ddragon.leagueoflegends.com/cdn/img/${r.icon}">${esc(r.name)}</div>`).join('')+'</div>').join('')+'</div>').join('');
+ }else{
+  const l=I.filter(x=>(!q||x.name.includes(q))&&(!f||(/^\d$/.test(f)?String(Math.min(x.depth,3))===f:x.tags.includes(f))));
+  m.innerHTML='<div class="grid">'+l.map(x=>`<div class="cell" data-i="${x.id}"><img loading="lazy" src="${CDN()}/item/${x.id}.png">${esc(x.name)}<small>${x.gold}G</small></div>`).join('')+'</div>';
+ }
+}
+function nums(n){return n&&n.length?'<table class="nums">'+n.map(x=>`<tr><td>${esc(x.k)}</td><td>${esc(x.v)}</td></tr>`).join('')+'</table>':''}
+function champ(id){
+ const c=C.find(x=>x.id===id),s=c.stats,res=c.partype||'자원';
+ const stat=STAT.map(([n,a,b,p])=>`<tr><td>${n.replace('자원',res)}</td><td>${s[a]}${b&&s[b]?` <span class="meta">(레벨당 +${s[b]}${p||''})</span>`:''}</td></tr>`).join('');
+ const sp=x=>`<div class="sk"><img src="${CDN()}/${x.key?'spell':'passive'}/${x.img}"><div><b>${x.key?`<span class="k">${x.key}</span>`:'<span class="k">패시브</span>'}${esc(x.name)}</b>
+  ${x.key?`<div class="meta">재사용 대기시간 ${esc(x.cd)}초 · 소모 ${x.cost==='0'?'없음':esc(x.cost)+' '+esc(res)} · 사거리 ${esc(x.range)}</div>`:''}
+  <p>${esc(x.desc)}</p>${nums(x.nums)}</div></div>`;
+ show(`<div class="head"><img src="${CDN()}/champion/${c.id}.png"><div><h2>${esc(c.name)}</h2><p>${esc(c.title)}</p>
+  ${c.tags.map(t=>`<span class="chip">${TAG[t]||t}</span>`).join('')}</div></div>
+  <h3>기본 능력치 (1레벨)</h3><table>${stat}</table>
+  <h3>스킬</h3>${sp(c.passive)}${c.spells.map(sp).join('')}`);
+}
+function rune(name){
+ for(const t of R)for(const s of t.slots)for(const r of s)if(r.name===name)
+  return show(`<div class="head"><img src="https://ddragon.leagueoflegends.com/cdn/img/${r.icon}" style="border-radius:50%"><div><h2>${esc(r.name)}</h2><p>${esc(t.name)}</p></div></div>
+   <h3>효과</h3><p class="desc">${esc(r.long)}</p>`);
+}
+function item(id){
+ const x=I.find(i=>i.id===id);const ic=a=>a.filter(i=>I.some(y=>y.id===i)).map(i=>`<img src="${CDN()}/item/${i}.png" title="${esc(I.find(y=>y.id===i).name)}" onclick="item('${i}')">`).join('');
+ show(`<div class="head"><img src="${CDN()}/item/${x.id}.png"><div><h2>${esc(x.name)}</h2><p>${esc(x.plain||'')}</p>
+  <span class="chip">가격 ${x.gold}G</span><span class="chip">판매 ${x.sell}G</span></div></div>
+  <h3>능력치·효과</h3><p class="desc">${esc(x.desc)}</p>
+  ${x.from.length?`<h3>하위 아이템</h3><div class="path">${ic(x.from)}</div>`:''}
+  ${x.into.length?`<h3>상위 아이템</h3><div class="path">${ic(x.into)}</div>`:''}`);
+}
+function show(h){$('body').innerHTML=h;$('dlg').classList.add('open');$('dlg').scrollTop=0}
+function closeDlg(){$('dlg').classList.remove('open')}
+$('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
+addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
+$('main').onclick=e=>{const d=e.target.closest('.cell');if(!d)return;d.dataset.c?champ(d.dataset.c):d.dataset.r?rune(d.dataset.r):item(d.dataset.i)};
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x===b));tab=b.dataset.t;$('q').value='';filters();render()});
+$('q').oninput=render;$('f').onchange=render;
+Promise.all(['champions','runes','items'].map(n=>fetch(`lol/${n}.json`).then(r=>r.json()))).then(([c,r,i])=>{
+ C=c.champs;R=r.runes;I=i.items;V=c.v;$('ver').textContent='게임 데이터 '+V;filters();render();
+});
+</script>
+<script src="nav.js"></script>
+<script src="foot.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>하스스톤 전장 정보 — 영웅·하수인·주문·장신구 | 패치노트 모음</title>
+<style>
+:root{--bg:#0f1115;--card:#171a21;--line:#262a33;--tx:#e6e8ec;--mute:#8a909c;--acc:#5aa9ff;--gold:#d8b45a;--atk:#f0c040;--hp:#ef6b6b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 system-ui,"Malgun Gothic",sans-serif}
+header{position:sticky;top:0;background:#0f1115ee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:5}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.top{display:flex;align-items:center;gap:14px;padding:12px 0;flex-wrap:wrap}
+h1{font-size:19px;margin:0}h1 a{color:var(--tx);text-decoration:none}h1 b{color:var(--acc)}
+nav{display:flex;gap:4px;flex-wrap:wrap}nav button{background:none;border:1px solid var(--line);color:var(--mute);padding:6px 12px;border-radius:8px;font:inherit;cursor:pointer}
+.mode{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;flex:none}.mode button{background:none;border:0;color:var(--mute);padding:6px 14px;font:inherit;cursor:pointer}.mode button.on{background:var(--gold);color:#1a1406;font-weight:600}
+.tiers{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px}.tiers button{background:none;border:1px solid var(--line);color:var(--mute);padding:4px 11px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}.tiers button.on{background:var(--gold);border-color:var(--gold);color:#1a1406;font-weight:600}.tiers:empty{display:none}
+.relh{margin-top:22px}.sub.miss{border:1px dashed var(--line);border-radius:8px;padding:8px 12px;color:var(--mute)}
+nav button.on{background:var(--acc);border-color:var(--acc);color:#071425;font-weight:600}
+.bar{display:flex;gap:8px;padding:0 0 12px;flex-wrap:wrap}
+input,select{background:var(--card);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:8px 10px;font:inherit}input{flex:1;min-width:160px}
+main{padding:16px 0 60px}
+.tier{margin:0 0 20px}.tier h2{font-size:16px;margin:0 0 10px;color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:12px}
+.cell{text-align:center;cursor:pointer;font-size:13px;color:#cfd3da}
+.cell img{width:100%;max-width:130px;display:block;margin:0 auto 2px;transition:transform .12s}
+.cell:hover img{transform:scale(1.06)}
+.cell small{display:block;color:var(--mute);font-size:11px}
+.list .row{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:8px;align-items:flex-start;cursor:pointer}
+.list .row img{width:56px;height:56px;object-fit:cover;border-radius:8px;flex:none}
+.list .row b{display:block}.list .row p{margin:2px 0 0;color:#cfd3da;font-size:14px}
+#dlg{position:fixed;inset:0;background:#000a;display:none;align-items:flex-start;justify-content:center;padding:40px 12px;overflow:auto;z-index:9}
+#dlg.open{display:flex}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;max-width:720px;width:100%;padding:20px 22px;position:relative}
+.x{position:absolute;right:14px;top:10px;background:none;border:0;color:var(--mute);font-size:24px;cursor:pointer}
+.head{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}.head>img{width:190px}
+.head h2{margin:0 0 4px;font-size:22px}
+.chip{display:inline-block;background:#12151b;border:1px solid var(--line);border-radius:6px;padding:0 8px;font-size:12px;margin:0 4px 4px 0;color:#cfd3da}
+.st{font-weight:700}.st .a{color:var(--atk)}.st .h{color:var(--hp)}
+h3{font-size:15px;margin:16px 0 6px;color:var(--acc)}
+.t{color:#dfe3ea}.t b{color:#fff}
+.sub{display:flex;gap:12px;align-items:flex-start;margin-top:6px}.sub img{width:120px}
+footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+ <div class="top"><h1><a href="index.html"><b>패치</b>노트 모음</a> · 하스스톤 전장</h1>
+  <nav><button data-t="minions" class="on">하수인</button><button data-t="heroes">영웅</button><button data-t="spells">선술집 주문</button><button data-t="timewarp">시간왜곡 선술집</button></nav></div>
+ <div class="bar"><div class="mode"><button data-m="solo" class="on">솔로</button><button data-m="duo">듀오</button></div><input id="q" placeholder="이름이나 효과 검색 (예: 도발, 혈석)"><select id="f"></select></div>
+ <div class="tiers" id="tiers"></div>
+</div></header>
+<div class="wrap" id="season" style="color:#ffcc66;font-size:13px;padding-top:10px"></div>
+<main class="wrap" id="main">불러오는 중…</main>
+<div id="dlg"><div class="panel"><button class="x" onclick="closeDlg()">×</button><div id="body"></div></div></div>
+<footer class="wrap">데이터 출처: Blizzard Entertainment (Battle.net Game Data API). 이 사이트는 Blizzard Entertainment 와 관련이 없으며, 하스스톤 및 관련 상표는 Blizzard Entertainment, Inc. 의 자산입니다.</footer>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const rich=s=>esc(s).replace(/&lt;(\/?)b&gt;/g,'<$1b>');
+const plain=s=>String(s||'').replace(/<\/?b>/g,'');
+const IMG=(id,w=256)=>`https://art.hearthstonejson.com/v1/bgs/latest/koKR/${w}x/${id}.png`;
+const HERO=id=>`https://art.hearthstonejson.com/v1/render/latest/koKR/256x/${id}.png`;
+const ART=id=>`https://art.hearthstonejson.com/v1/256x/${id}.jpg`;
+let D,tab='minions',mode='solo',tier=0;
+const ok=x=>mode==='solo'?!x.duos:!x.solos;
+const st=(a,h)=>`<span class="st"><span class="a">${a}</span>/<span class="h">${h}</span></span>`;
+function tiersUI(){
+ const el=$('tiers');tier=0;
+ if(tab!=='minions'&&tab!=='spells'){el.innerHTML='';return}
+ const ts=[...new Set(D[tab].map(x=>x.tier).filter(Boolean))].sort((a,b)=>a-b);
+ el.innerHTML='<button data-tr="0" class="on">모든 단계</button>'+ts.map(t=>`<button data-tr="${t}">${t}단계</button>`).join('');
+ el.querySelectorAll('button').forEach(b=>b.onclick=()=>{el.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));tier=+b.dataset.tr;render()});
+}
+function filters(){tiersUI();
+ const f=$('f');f.innerHTML='';
+ if(tab==='minions'){f.add(new Option('모든 종족',''));[...new Set(D.minions.flatMap(m=>m.races))].sort().forEach(r=>f.add(new Option(r,r)));f.add(new Option('종족 없음','-'))}
+ else if(tab==='spells'){f.add(new Option('전체',''))}
+ else if(tab==='timewarp'){f.add(new Option('전체',''));f.add(new Option('하수인','하수인'));f.add(new Option('주문','주문'))}
+ else f.add(new Option('전체',''));
+}
+const hit=(x,q)=>ok(x)&&(!q||(x.name+' '+plain(x.text||'')+' '+(x.power?x.power.name+plain(x.power.text):'')).includes(q));
+function render(){
+ const q=$('q').value.trim(),f=$('f').value,m=$('main');
+ if(tab==='minions'){
+  const l=D.minions.filter(x=>hit(x,q)&&(!tier||x.tier===tier)&&(!f||(f==='-'?!x.races.length:x.races.includes(f))));
+  m.innerHTML=[1,2,3,4,5,6,7].map(t=>{const a=l.filter(x=>x.tier===t);return a.length?`<div class="tier"><h2>${'★'.repeat(t)} ${t}성 (${a.length})</h2><div class="grid">`+
+   a.map(x=>`<div class="cell" data-k="minions" data-id="${x.id}"><img loading="lazy" src="${x.img}" alt="">${esc(x.name)}<small>${x.races.join('·')||'종족 없음'}${x.duos?' · 듀오 전용':x.solos?' · 솔로 전용':''}</small></div>`).join('')+'</div></div>':''}).join('')||'<p>결과 없음</p>';
+ }else if(tab==='heroes'){
+  m.innerHTML='<div class="grid">'+D.heroes.filter(x=>hit(x,q)).map(x=>`<div class="cell" data-k="heroes" data-id="${x.id}"><img loading="lazy" src="${x.img}" alt="">${esc(x.name)}<small>방어도 ${x.armor}</small></div>`).join('')+'</div>';
+ }else{
+  const l=D[tab].filter(x=>hit(x,q)&&(!tier||x.tier===tier)&&(!f||(tab==='spells'||x.kind===f)));
+  const keyOf=tab==='spells'?x=>x.tier||0:x=>x.cost;
+  const label=tab==='spells'?k=>k?'★'.repeat(k)+' '+k+'성':'단계 없음':k=>'크로눔 '+k;
+  const keys=[...new Set(l.map(keyOf))].sort((a,b)=>a-b);
+  m.innerHTML=keys.map(k=>{const a=l.filter(x=>keyOf(x)===k);return `<div class="tier"><h2>${label(k)} (${a.length})</h2><div class="grid">`+
+   a.map(x=>`<div class="cell" data-k="${tab}" data-id="${x.id}"><img loading="lazy" src="${x.img||x.crop}" alt="">${esc(x.name)}<small>${tab==='spells'?'비용 '+x.cost:x.kind+(x.races&&x.races.length?' · '+x.races.join('·'):'')}</small></div>`).join('')+'</div></div>'}).join('')||'<p>결과 없음</p>';
+ }
+}
+function relHTML(x){
+ let s='';
+ if(x.related&&x.related.length)s+='<h3 class="relh">관련 카드</h3>'+x.related.map(r=>`<div class="sub"><img src="${r.img}" onerror="this.remove()"><div><b>${esc(r.name)}</b> ${r.tier?`<span class="chip">${r.tier}성</span>`:''}${r.atk!=null?' '+st(r.atk,r.hp):''}<p class="t">${rich(r.text)||'효과 없음'}</p></div></div>`).join('');
+ if(x.missing&&x.missing.length)s+='<h3 class="relh">관련 카드</h3>'+x.missing.map(n=>`<div class="sub miss"><div><b>${esc(n)}</b><p class="t">이번 시즌에 새로 나온 카드라 아직 공개된 정보가 없습니다. 패치(12월 1일) 후 자동으로 추가됩니다.</p></div></div>`).join('');
+ return s;
+}
+function open(k,id){
+ const x=D[k].find(y=>y.id===id);let h='';
+ if(k==='minions')h=`<div class="head"><img src="${x.img}"><div><h2>${esc(x.name)}</h2>
+  <span class="chip">${x.tier}성</span>${x.races.map(r=>`<span class="chip">${r}</span>`).join('')}${x.duos?'<span class="chip">듀오 전용</span>':''}
+  <h3>능력치</h3>${st(x.atk,x.hp)} <span style="color:var(--mute)">(공격력/생명력)</span>
+  <h3>효과</h3><p class="t">${rich(x.text)||'없음'}</p>
+  ${x.golden&&x.golden!==x.text?`<h3>황금 효과</h3>${st(x.gatk??x.atk*2,x.ghp??x.hp*2)}<p class="t">${rich(x.golden)}</p>`:''}</div></div>`;
+ else if(k==='heroes')h=`<div class="head"><img src="${x.img}"><div><h2>${esc(x.name)}</h2>
+  <span class="chip">생명력 ${x.hp}</span><span class="chip">방어도 ${x.armor}</span>
+  <h3>영웅 능력 · ${esc(x.power.name)} <span class="chip">비용 ${x.power.cost}</span></h3><p class="t">${rich(x.power.text)}</p>
+  ${x.buddy?`<h3>동료 · ${esc(x.buddy.name)}</h3><div class="sub"><img src="${x.buddy.img}" onerror="this.remove()"><div><span class="chip">${x.buddy.tier}성</span> ${st(x.buddy.atk,x.buddy.hp)}<p class="t">${rich(x.buddy.text)}</p></div></div>`:''}
+  </div></div>`;
+ else h=`<div class="head"><img src="${x.img||x.crop}" onerror="this.remove()"><div><h2>${esc(x.name)}</h2>
+  ${x.tier?`<span class="chip">${x.tier}성</span>`:''}${x.cost!=null&&k!=='anomalies'&&k!=='rewards'&&k!=='quests'?`<span class="chip">비용 ${x.cost}</span>`:''}${x.kind?`<span class="chip">${x.kind}</span>`:''}
+  <h3>효과</h3><p class="t">${rich(x.text)}</p></div></div>`;
+ h+=relHTML(x);
+ $('body').innerHTML=h;$('dlg').classList.add('open');$('dlg').scrollTop=0;
+}
+function closeDlg(){$('dlg').classList.remove('open')}
+$('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
+addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
+$('main').onclick=e=>{const d=e.target.closest('[data-id]');if(d)open(d.dataset.k,d.dataset.id)};
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x===b));tab=b.dataset.t;$('q').value='';filters();render()});
+document.querySelectorAll('.mode button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.mode button').forEach(x=>x.classList.toggle('on',x===b));mode=b.dataset.m;render()});
+$('q').oninput=render;$('f').onchange=render;
+// 시즌 안내: 블리자드 API 는 다음 시즌 카드를 시즌 시작 전에 미리 내보낸다
+const SEASON={name:'15시즌',start:new Date('2026-12-01T00:00:00+09:00')};
+if(Date.now()<SEASON.start)document.getElementById('season').textContent='※ '+SEASON.name+' 기준 카드입니다. '+SEASON.name+'은 '+SEASON.start.toLocaleDateString('ko-KR')+' 에 시작합니다 (지금은 이전 시즌 진행 중).';
+fetch('hs/bg.json').then(r=>r.json()).then(d=>{D=d;filters();render()});
+</script>
+<script src="nav.js"></script>
+<script src="foot.js"></script>
+</body>
+</html>

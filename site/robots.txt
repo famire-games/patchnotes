@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://famire-games.github.io/patchnotes/sitemap.xml

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>패치노트 모음 — 게임 업데이트 한국어 요약</title>
+<meta name="description" content="스팀 인기 게임 패치노트를 한국어로 요약하고 상향·하향·버그 수정을 한눈에 정리합니다.">
+<style>
+:root{--bg:#0f1115;--card:#171a21;--line:#262a33;--tx:#e6e8ec;--mute:#8a909c;--acc:#5aa9ff;--up:#4cc38a;--down:#ef6b6b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 system-ui,"Malgun Gothic",sans-serif}
+header{position:sticky;top:0;background:#0f1115ee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:2}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.top{display:flex;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap}
+h1{font-size:20px;margin:0}h1 b{color:var(--acc)}
+.top small{color:var(--mute)}
+.bar{display:flex;gap:8px;padding:0 0 12px;flex-wrap:wrap}
+input,select{background:var(--card);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:8px 10px;font:inherit}
+input{flex:1;min-width:180px;max-width:520px}#day{flex:none;min-width:0;color-scheme:dark}
+.tog{background:var(--card);border:1px solid var(--line);color:var(--mute);border-radius:8px;padding:8px 14px;font:inherit;cursor:pointer}.tog.on{background:#ffcc33;border-color:#ffcc33;color:#1a1406;font-weight:600}
+.info{position:relative;margin-left:auto}#infoBtn{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:8px 16px;font:inherit;font-weight:600;cursor:pointer;height:100%}
+.pop{position:absolute;right:0;top:calc(100% + 6px);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px;min-width:240px;display:none;z-index:4;box-shadow:0 8px 24px #0008}.pop.open{display:block}
+.pop a{display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px;color:var(--tx);text-decoration:none}.pop a:hover{background:#ffffff10}.pop img{width:64px;height:30px;object-fit:cover;border-radius:4px}
+main{padding:18px 16px 60px}
+.day{margin:0 0 26px}.day h2{font-size:15px;color:var(--mute);margin:0 0 10px;font-weight:600}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .12s,border-color .12s}
+.tile:hover{transform:translateY(-2px);border-color:var(--acc)}
+.tile .ic{aspect-ratio:460/215;background:#0b0d11 center/cover no-repeat;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;color:var(--acc);text-align:center;padding:6px}
+.tile .nm{padding:8px 10px 0;font-weight:600;font-size:14px}
+.tile .tt{padding:0 10px 10px;color:var(--mute);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.meta{display:flex;gap:8px;align-items:center;color:var(--mute);font-size:13px}
+.game{color:var(--acc);font-weight:600}
+.card h2{font-size:18px;margin:6px 0}
+.sum{margin:0 0 10px;color:#cfd3da}
+ul{margin:4px 0 8px;padding-left:20px}
+.tags{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.box{border-radius:8px;padding:8px 12px;background:#12151b}
+.box h3{font-size:13px;margin:0 0 2px}
+.up h3{color:var(--up)}.down h3{color:var(--down)}
+details summary{cursor:pointer;color:var(--mute);font-size:13px;margin-top:6px}
+a{color:var(--acc)}
+.foot{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:8px}.foot .src{margin:0;flex:1}.allp{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:8px 14px;font:inherit;font-weight:600;cursor:pointer}
+.src{font-size:13px;margin-top:8px}
+#dlg{position:fixed;inset:0;background:#000b;display:none;align-items:flex-start;justify-content:center;overflow:auto;padding:40px 12px;z-index:7}
+#dlg.open{display:flex}
+#dlg .card{max-width:820px;width:100%;position:relative}
+#dlg .hero{width:100%;border-radius:8px;margin-bottom:10px;display:block}
+#dlg .x{position:absolute;right:10px;top:4px;background:none;border:0;color:var(--mute);font-size:28px;cursor:pointer}
+.iconbtn{background:none;border:0;color:var(--tx);cursor:pointer;padding:4px;border-radius:8px;display:flex}.iconbtn:hover{background:#ffffff12}
+.login{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px;color:var(--tx);background:none;cursor:pointer;display:flex;gap:6px;align-items:center}
+#drawer{position:fixed;top:0;left:0;bottom:0;width:270px;background:#12151b;border-right:1px solid var(--line);transform:translateX(-100%);transition:transform .18s;z-index:6;padding:16px;overflow:auto}
+#drawer.open{transform:none}#shade{position:fixed;inset:0;background:#0007;display:none;z-index:5}#shade.open{display:block}
+#drawer h3.link{cursor:pointer}#drawer h3.link:hover{color:var(--acc)}
+#drawer h3{margin:4px 0 10px;font-size:15px;display:flex;align-items:center;gap:6px}#drawer .who{color:var(--mute);font-size:13px;margin-bottom:14px}
+.fav{display:flex;align-items:center;gap:8px;padding:6px;border-radius:8px;cursor:pointer}.fav:hover{background:#ffffff0d}
+.fav img{width:64px;border-radius:4px}.fav span{flex:1;font-size:14px}.fav .rm{color:var(--mute);background:none;border:0;cursor:pointer;font-size:16px}
+.chk{display:flex;gap:6px;align-items:center;color:var(--mute);font-size:14px;cursor:pointer;margin:0 0 12px}
+.star{width:auto!important;padding:0 14px;font-size:15px!important;font-weight:600;position:absolute;left:28px;top:26px;background:#000a;border:0;border-radius:999px;width:42px;height:42px;font-size:24px;cursor:pointer;color:#fff;line-height:1}
+.star.on{color:#ffcc33}
+.star.inline{position:static;float:right;margin:0 36px 0 8px;height:36px}
+.tile{position:relative}.tile .fs{position:absolute;left:6px;top:6px;color:#ffcc33;font-size:18px;text-shadow:0 0 4px #000}
+.ad{position:fixed;top:140px;width:160px;height:600px;border:1px dashed #3a3f4a;color:#555b66;display:none;align-items:center;justify-content:center;font-size:12px;border-radius:6px}
+.ad.l{left:calc(50% - 540px - 190px)}.ad.r{right:calc(50% - 540px - 190px)}
+@media(min-width:1460px){.ad{display:flex}}
+.chips{display:flex;gap:6px;flex-wrap:wrap;padding-top:12px}.chips:empty{display:none}
+.chip{display:inline-flex;align-items:center;gap:6px;background:#1d2633;border:1px solid #2d4260;color:#cfe3ff;border-radius:999px;padding:3px 6px 3px 12px;font-size:13px}
+.chip button{background:none;border:0;color:#9fb6d6;cursor:pointer;font-size:14px;padding:0 4px}.chip button:hover{color:#fff}
+.chip.reset{background:none;border-color:var(--line);color:var(--mute);padding:3px 12px;cursor:pointer}
+footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
+@media(max-width:600px){.tags{grid-template-columns:1fr}.tiles{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+ <div class="top"><button class="iconbtn" id="menu" title="메뉴"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><h1><a href="index.html" style="color:inherit;text-decoration:none"><b>패치</b>노트 모음</a></h1><small id="upd"></small><button class="login" style="margin-left:auto" id="login"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span id="loginTxt">로그인</span></button></div>
+ <div class="bar"><input id="q" placeholder="게임 이름이나 내용 검색 (예: 크립토, 버그)"><input type="date" id="day" title="날짜 찾기"><button id="favTog" type="button" class="tog" title="즐겨찾기한 게임만 보기">☆ 즐겨찾기</button><div class="info"><button id="infoBtn" type="button" hidden>게임 정보 보기</button></div><select id="g" hidden><option value="">모든 게임</option></select></div>
+</div></header>
+<div id="shade"></div>
+<aside id="drawer"><h3>☰ 메뉴</h3><div class="who" id="who"></div>
+ <input type="checkbox" id="onlyFav" hidden>
+ <h3 id="favHead" class="link" title="즐겨찾기한 게임 패치만 보기">★ 즐겨찾기 목록</h3><div id="favs"></div></aside>
+<div class="ad l">광고</div><div class="ad r">광고</div>
+<div class="wrap chips" id="chips"></div>
+<main class="wrap" id="list"></main>
+<div id="dlg"><div class="card" id="body"></div></div>
+<footer class="wrap">각 요약은 공식 스팀 공지·게임사 공식 패치노트를 AI 로 한국어 요약한 것입니다. 정확한 내용은 원문을 확인하세요. 게임 이미지는 각 게임사의 자산입니다.</footer>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const li=a=>a&&a.length?'<ul>'+a.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'';
+const ICON=i=>i.img?i.img:i.appid==='pkc'?'':i.appid==='lol'?'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg':i.appid==='hs'?'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4d71fe6ada64e43799a5c56b089bf96786d1cef2ae093a4995c3d9505dd5444.png':`https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${i.appid}/header.jpg`;
+const dayKey=t=>new Date(t*1000).toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'short'});
+let items=[],shown=[];
+// 로그인·즐겨찾기 (지금은 이 브라우저에만 저장. 실제 계정 로그인은 서버 연결 후 교체)
+// 로그인 = Firebase 구글 로그인, 즐겨찾기 = Firestore users/{uid}.favs (아래 module 스크립트가 window.FB 제공)
+let user=null,favs=new Set();
+const saveFavs=()=>{ if(user&&window.FB) FB.saveFavs([...favs]).catch(e=>console.error('즐겨찾기 저장 실패',e)) };
+window.onUserChange=(u,list)=>{ user=u?{name:u.displayName||u.email||'사용자'}:null; favs=new Set(list||[]); if(items.length){drawUser(); render();} };
+function toggleFav(game){ if(!user){alertLogin();return false} favs.has(game)?favs.delete(game):favs.add(game); saveFavs(); drawUser(); render(); return true }
+function alertLogin(){ $('who').innerHTML='즐겨찾기는 <b>로그인</b> 후 쓸 수 있습니다.'; openDrawer() }
+function setGame(n){if(n&&![...$('g').options].some(o=>o.value===n))$('g').add(new Option(n,n));$('g').value=n||''}
+function fillGames(){
+ const sel=$('g'),cur=sel.value,useFav=user&&favs.size;
+ const names=useFav?[...favs].sort():[...new Set(items.map(i=>i.game))].sort();
+ sel.innerHTML='';sel.add(new Option('모든 게임',''));
+ names.forEach(n=>sel.add(new Option(n,n)));setGame(cur);
+}
+function drawUser(){fillGames();
+ $('loginTxt').textContent=user?user.name:'로그인';
+ $('who').innerHTML=user?esc(user.name)+' 님 · <a href="#" id="logout">로그아웃</a>':'로그인하면 즐겨찾기를 쓸 수 있습니다.';
+ const lo=$('logout'); if(lo) lo.onclick=e=>{e.preventDefault();window.FB&&FB.logout()};
+ const g=[...favs].sort();
+ $('favs').innerHTML=!user?'':g.length?g.map(n=>{const it=items.find(i=>i.game===n)||{};return `<div class="fav" data-g="${esc(n)}">${ICON(it)?`<img src="${ICON(it)}" alt="">`:''}<span>${esc(n)}</span><button class="rm" data-rm="${esc(n)}" title="빼기">✕</button></div>`}).join(''):'<small style="color:var(--mute)">패치 창의 [☆ 게임 즐겨찾기] 로 추가하세요.</small>';
+}
+function openDrawer(){$('drawer').classList.add('open');$('shade').classList.add('open')}
+function closeDrawer(){$('drawer').classList.remove('open');$('shade').classList.remove('open')}
+function detail(i){
+ const url=typeof i.appid==='string'?i.url:`https://store.steampowered.com/news/app/${i.appid}/view/${i.gid}`;
+ const bal=(i.buffs.length||i.nerfs.length)?`<div class="tags"><div class="box up"><h3>▲ 상향</h3>${li(i.buffs)||'<small>없음</small>'}</div><div class="box down"><h3>▼ 하향</h3>${li(i.nerfs)||'<small>없음</small>'}</div></div>`:'';
+ return `<button class="x" onclick="closeDlg()">×</button>${ICON(i)?`<img class="hero" src="${ICON(i)}" alt="">`:''}<button class="star${ICON(i)?'':' inline'}${favs.has(i.game)&&user?' on':''}" data-fav="${esc(i.game)}" title="이 게임을 즐겨찾기">${favs.has(i.game)&&user?'★ 즐겨찾는 게임':'☆ 게임 즐겨찾기'}</button>
+  <div class="meta"><span class="game">${esc(i.game)}</span>·<span>${new Date(i.date*1000).toLocaleDateString('ko-KR')}</span></div>
+  <h2>${esc(i.title)}</h2><p class="sum">${esc(i.summary)}</p>${li(i.highlights)}${bal}
+  ${i.fixes.length?`<details><summary>버그 수정 ${i.fixes.length}건</summary>${li(i.fixes)}</details>`:''}
+  <div class="foot"><div class="src">원문: <a href="${url}" target="_blank" rel="noopener">${esc(i.origTitle)}</a></div><button class="allp" data-all="${esc(i.game)}">${esc(i.game)} 모든 패치 보기 →</button></div>`;
+}
+// 게임 정보 페이지가 있는 게임: 그 게임 패치만 볼 때 [게임 정보 보기] 버튼이 나타남
+const INFO={"리그 오브 레전드":"lol.html","전략적 팀 전투":"","포켓몬 챔피언스":"pkc.html","하스스톤":"hs.html","하스스톤 전장":"hs.html"};
+function syncTog(){const on=$("onlyFav").checked;$("favTog").classList.toggle("on",on);$("favTog").textContent=(on?"★":"☆")+" 즐겨찾기"}
+function chips(){
+ const c=[],g=$('g').value,dv=$('day').value,q=$('q').value.trim();
+ if(g)c.push(['g',esc(g)+' 패치']);
+ if($('onlyFav').checked&&user)c.push(['fav','★ 즐겨찾기한 게임']);
+ if(dv)c.push(['day',dv.replace(/-/g,'. ')+'.']);
+ if(q)c.push(['q','검색: '+esc(q)]);
+ $('chips').innerHTML=c.map(([k,t])=>`<span class="chip">${t}<button data-clr="${k}" title="풀기">✕</button></span>`).join('')+(c.length>1?'<button class="chip reset" data-clr="all">모두 풀기</button>':'');
+}
+function clearF(k){
+ if(k==='g'||k==='all')$('g').value='';
+ if(k==='fav'||k==='all')$('onlyFav').checked=false;
+ if(k==='day'||k==='all')$('day').value='';
+ if(k==='q'||k==='all')$('q').value='';
+ render();
+}
+function render(){
+ syncTog();chips();
+ $("infoBtn").hidden=!$("g").value;
+ const q=$('q').value.trim().toLowerCase(),g=$('g').value;
+ const of=$('onlyFav').checked&&user;
+ const dv=$('day').value;
+ shown=items.filter(i=>(!dv||new Date(i.date*1000).toLocaleDateString('sv')===dv)&&(!g||i.game===g)&&(!of||favs.has(i.game))&&(!q||JSON.stringify(i).toLowerCase().includes(q))).sort((a,b)=>b.date-a.date);
+ const days=[...new Set(shown.map(i=>dayKey(i.date)))];
+ $('list').innerHTML=days.map(d=>{const a=shown.filter(i=>dayKey(i.date)===d);
+  return `<section class="day"><h2>${d} · ${a.length}건</h2><div class="tiles">`+a.map(i=>`<div class="tile" data-i="${shown.indexOf(i)}">${favs.has(i.game)&&user?'<span class="fs">★</span>':''}
+   <div class="ic" style="${ICON(i)?`background-image:url('${ICON(i)}')`:''}">${ICON(i)?'':esc(i.game)}</div>
+   <div class="nm">${esc(i.game)}</div><div class="tt">${esc(i.title)}</div></div>`).join('')+'</div></section>'}).join('')||'<p>결과가 없습니다.</p>';
+}
+function closeDlg(){$('dlg').classList.remove('open')}
+$('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
+addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
+$('list').onclick=e=>{const t=e.target.closest('.tile');if(t){$('body').innerHTML=detail(shown[+t.dataset.i]);$('dlg').classList.add('open');$('dlg').scrollTop=0}};
+fetch('data.json').then(r=>r.json()).then(d=>{
+ items=d.items;
+ $('upd').textContent='마지막 갱신 '+new Date(d.updated).toLocaleString('ko-KR');
+ const P=new URLSearchParams(location.search);
+ if(P.get('game'))setGame(P.get('game'));
+ if(P.get('fav'))$('onlyFav').checked=true;
+ drawUser();render();
+});
+$('infoBtn').onclick=()=>{const g=$('g').value;if(g)location.href=INFO[g]||('info.html?game='+encodeURIComponent(g))};
+$('day').onchange=render;
+$('chips').onclick=e=>{const b=e.target.closest('[data-clr]');if(b)clearF(b.dataset.clr)};
+$('q').oninput=render;$('g').onchange=render;$('onlyFav').onchange=render;
+$('menu').onclick=openDrawer;
+$('favTog').onclick=()=>{if(!user){alertLogin();return}$('onlyFav').checked=!$('onlyFav').checked;render()};
+$('favHead').onclick=()=>{if(!user){alertLogin();return}$('onlyFav').checked=true;$('g').value='';$('day').value='';$('q').value='';render();closeDrawer();scrollTo(0,0)};$('shade').onclick=closeDrawer;
+$('login').onclick=()=>{ if(user){openDrawer();return} if(!window.FB){alert('로그인 모듈을 불러오는 중입니다. 잠시 후 다시 눌러 주세요.');return} FB.login().catch(e=>{console.error(e);alert('로그인 실패: '+(e.code||e.message))}) };
+$('body').onclick=e=>{const al=e.target.closest('[data-all]');if(al){$('q').value='';$('day').value='';$('onlyFav').checked=false;setGame(al.dataset.all);render();closeDlg();scrollTo(0,0);return}const b=e.target.closest('[data-fav]');if(!b)return;if(toggleFav(b.dataset.fav)){const on=favs.has(b.dataset.fav);b.classList.toggle('on',on);b.textContent=on?'★ 즐겨찾는 게임':'☆ 게임 즐겨찾기'}};
+$('favs').onclick=e=>{const r=e.target.closest('[data-rm]');if(r){favs.delete(r.dataset.rm);saveFavs();drawUser();render();return}
+ const f=e.target.closest('[data-g]');if(f){setGame(f.dataset.g);render();closeDrawer();scrollTo(0,0)}};
+</script>
+<script type="module" src="fb.js"></script>
+<script src="foot.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+[
+ {
+  "gid": "hs:37.2",
+  "appid": "hs",
+  "game": "하스스톤",
+  "date": 1795392000,
+  "url": "https://hearthstone.blizzard.com/ko-kr/news/24316976",
+  "origTitle": "An Early Look at Patch 37.2: Battlegrounds Season 15, 2v2 Tavern Brawl, and More",
+  "title": "하스스톤 37.2 패치 미리보기 — 전장 15시즌 '뒤틀린 제국'",
+  "summary": "12월 1일 37.2 패치와 함께 전장 15시즌이 시작됩니다. 새 키워드 3종과 새 영웅 2명이 추가되고 시간왜곡 선술집이 돌아오며, 장신구는 이번 시즌에서 빠집니다. 2대2 선술집 난투도 기간 한정으로 열립니다. (공식 미리보기 기준, 최종 내용은 달라질 수 있음)",
+  "highlights": [
+   "전장 15시즌 '뒤틀린 제국' 12월 1일 시작, 전장 평점 초기화",
+   "새 키워드: 튼튼함(공격받을 때 받는 피해 절반), 임무(목표 달성 시 1회 보상), 원소의 기원(정령과 잘 맞는 선술집 주문)",
+   "새 영웅: 이터누스, 두목 바네사(영웅 능력 '날 선 전략')",
+   "시간왜곡 선술집 복귀: 6턴·9턴에 크로눔으로 특별한 카드 구매",
+   "장신구 시즌 아웃, 은신 키워드 보너스 풀에서 제외",
+   "기간 한정 2대2 선술집 난투"
+  ],
+  "buffs": [],
+  "nerfs": [],
+  "fixes": [],
+  "manual": true
+ },
+ {
+  "appid": "pkc",
+  "game": "포켓몬 챔피언스",
+  "buffs": [
+   "베어가르기 사용 가능해짐"
+  ],
+  "nerfs": [
+   "왕구리: 막치기 사용 불가",
+   "브리두라스: 미러코트·메탈버스트 사용 불가",
+   "희망사항 PP 12 → 8",
+   "힘흡수 PP 12 → 8"
+  ],
+  "fixes": [
+   "일부 버그 수정"
+  ],
+  "manual": true,
+  "gid": "pkc:1.2.0",
+  "date": 1788836400,
+  "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71525",
+  "origTitle": "Pokémon Champions Ver. 1.2.0",
+  "title": "포켓몬 챔피언스 Ver. 1.2.0 — 레귤레이션 M-C",
+  "summary": "레귤레이션 M-C용 포켓몬과 도구가 추가되고 배틀 밸런스가 조정되었습니다. 배틀 기록 보기와 선출 화면 배틀 데이터 기능이 새로 생겼습니다.",
+  "highlights": [
+   "레귤레이션 M-C 포켓몬·지닌 도구 추가",
+   "새 기능: 로그 보기(이번 배틀의 모든 행동 기록)",
+   "새 기능: 선출 지원(포켓몬 선택 화면에 배틀 데이터 표시)"
+  ]
+ },
+ {
+  "appid": "pkc",
+  "game": "포켓몬 챔피언스",
+  "buffs": [],
+  "nerfs": [],
+  "fixes": [
+   "일부 버그 수정"
+  ],
+  "manual": true,
+  "gid": "pkc:1.2.2",
+  "date": 1791255600,
+  "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71525",
+  "origTitle": "Pokémon Champions Ver. 1.2.2",
+  "title": "포켓몬 챔피언스 Ver. 1.2.2 — 버그 수정",
+  "summary": "몇 가지 버그가 수정되었습니다. 밸런스 변경은 없습니다.",
+  "highlights": []
+ },
+ {
+  "appid": "pkc",
+  "game": "포켓몬 챔피언스",
+  "buffs": [
+   "싫은소리 명중 85% → 100%",
+   "강철날개 명중 90% → 100%",
+   "금속음 명중 85% → 100%",
+   "얼음숨결 명중 90% → 100%",
+   "스톤샤워 명중 90% → 95%",
+   "타오르는불꽃: 불꽃 강화 상태가 메가진화 후에도 유지",
+   "굳건한신념: 상대 대타출동 무시 효과 추가"
+  ],
+  "nerfs": [
+   "스톤샤워 풀죽음 확률 30% → 20%"
+  ],
+  "fixes": [],
+  "manual": true,
+  "gid": "pkc:2026-12-02",
+  "date": 1796180400,
+  "url": "https://mynintendonews.com/2026/11/18/pokemon-champions-balance-update-planned-for-2nd-december-patch-notes/",
+  "origTitle": "Pokémon Champions balance update planned for 2nd December (patch notes)",
+  "title": "[예정] 포켓몬 챔피언스 12월 2일 밸런스 업데이트",
+  "summary": "12월 2일 서버 점검 후 첫 기술·특성 밸런스 조정이 예정되어 있습니다. 여러 포켓몬이 새 기술을 배우고, 명중률이 낮던 기술들이 상향됩니다. (해외 기사 기준 예고, 실제 내용은 달라질 수 있음)",
+  "highlights": [
+   "자기암시: 후딘·아쿠스타·마임맨 등 20여 마리 사용 가능",
+   "이브이 진화형 7종: 치근거리기 사용 가능",
+   "염무왕 게으름피우기 · 독침붕·삼삼드래 날개쉬기 · 에몽가 순풍 · 블래키 원더룸"
+  ]
+ }
+]

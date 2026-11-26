@@ -1,0 +1,5 @@
+.cache/
+update.log
+node_modules/
+_*.mjs
+_*.cjs

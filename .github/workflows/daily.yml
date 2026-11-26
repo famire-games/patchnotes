@@ -1,0 +1,60 @@
+name: daily-update
+# 매일 06:00 KST(21:00 UTC): 패치노트 수집·요약 + 게임 정보 갱신 → 커밋 → GitHub Pages 배포
+on:
+  schedule:
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['site/**', 'manual.json', 'pkc_overrides.json', 'pkc_items.json', 'games.json']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: pokeapi-${{ github.run_id }}
+          restore-keys: pokeapi-
+      - name: update data
+        if: github.event_name != 'push'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+        run: |
+          node update.mjs || echo "update.mjs failed"
+          node lol_build.mjs || echo "lol failed"
+          node hs_build.mjs || echo "hs failed"
+          node pkc_build.mjs || echo "pkc failed"
+      - name: commit data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add site
+          git diff --cached --quiet || git commit -m "data: daily update $(date -u +%F)"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.d.outputs.page_url }}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

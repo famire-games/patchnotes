@@ -1,0 +1,11 @@
+{
+ "_설명": "PokeAPI 에 아직 반영 안 된 챔피언스 밸런스 조정. 패치가 나오면 여기에 추가. moves: 기술 수치 덮어쓰기, learn: 배울 수 있는 기술 추가(add)/삭제(remove)",
+ "moves": {
+  "wish": { "pp": 8, "_patch": "1.2.0" },
+  "strength-sap": { "pp": 8, "_patch": "1.2.0" }
+ },
+ "learn": {
+  "politoed": { "remove": ["pound"], "_patch": "1.2.0" },
+  "archaludon": { "remove": ["mirror-coat", "metal-burst"], "_patch": "1.2.0" }
+ }
+}
