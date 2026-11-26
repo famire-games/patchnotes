@@ -251,7 +251,7 @@ ${body}`;
   await sleep(1500);
 }
 // 손으로 정리한 패치(블리자드 등 자동 수집이 약관상 안 되는 게임): manual.json
-try { for (const m of JSON.parse(fs.readFileSync(new URL('manual.json', DIR)))) { db.items = db.items.filter(i => i.gid !== m.gid); db.items.push(m); } }
+try { const man = JSON.parse(fs.readFileSync(new URL('manual.json', DIR))); db.items = db.items.filter(i => !i.manual || man.some(m => m.gid === i.gid)); for (const m of man) { db.items = db.items.filter(i => i.gid !== m.gid); db.items.push(m); } }
 catch (e) { console.error('manual.json', e.message); }
 // 같은 게임·같은 버전 번호 글은 하나로 (언어별·미리보기·본 공지 중복). 내용이 가장 많은 글을 남김
 {
