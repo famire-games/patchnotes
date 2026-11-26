@@ -145,6 +145,45 @@ for (const N of LOUNGE) try {
   }
 } catch (e) { console.error(N.name + ' 수집 실패', e.message); }
 
+// 공식 홈페이지 업데이트 게시판 (목록에서 글 번호를 찾고, 글 페이지를 읽음)
+const UA = { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/158.0' };
+const SITES = [
+  { appid: 'maplestory', name: '메이플스토리', list: 'https://maplestory.nexon.com/News/Update', re: /href="\/news\/update\/(\d+)"/gi, url: id => `https://maplestory.nexon.com/news/update/${id}`,
+    t: /class="qs_title"[^>]*>([\s\S]*?)<\/p>/, d: /alt="작성 시간"\s*\/?>\s*(20\d\d)\.(\d\d)\.(\d\d)/ },
+  { appid: 'fconline', name: 'FC 온라인', list: 'https://fconline.nexon.com/news/notice/list', re: /href="\/news\/notice\/view\?n4articlesn=(\d+)"/gi, url: id => `https://fconline.nexon.com/news/notice/view?n4articlesn=${id}`,
+    t: /class="th subject">([^<]*)/, d: /class="th date">(20\d\d)\.(\d\d)\.(\d\d)/, only: /업데이트|패치|밸런스/ },
+];
+for (const S of SITES) try {
+  const list = await (await fetch(S.list, { headers: UA })).text();
+  const ids = [...new Set([...list.matchAll(S.re)].map(m => +m[1]))];
+  for (const id of ids.slice(0, 6)) {
+    const gid = S.appid + ':' + id;
+    if (seen.has(gid)) continue;
+    const url = S.url(id), h = await (await fetch(url, { headers: UA })).text();
+    const ld = h.match(/"headline":"([^"]*)"/)?.[1], ldd = h.match(/"datePublished":"([^"]*)"/)?.[1];
+    const title = htmlText((S.t && h.match(S.t)?.[1]) || ld || h.match(/<title>([^<]*)/)?.[1] || '').replace(/^수정\s*\d*\s*/, '').trim();
+    if (!title || S.only && !S.only.test(title)) { seen.add(gid); continue; }
+    const dm = S.d && h.match(S.d);
+    const date = dm ? Date.parse(`${dm[1]}-${dm[2]}-${dm[3]}T12:00:00+09:00`) / 1000 : ldd ? Date.parse(ldd) / 1000 : Date.now() / 1000;
+    candidates.push({ g: { appid: S.appid, name: S.name }, n: { gid, url, title, date,
+      contents: htmlText(h.match(/<body[\s\S]*<\/body>/)?.[0] || h), img: h.match(/property="og:image"\s+content="([^"]+)"/)?.[1] || '' } });
+    await sleep(500);
+  }
+} catch (e) { console.error(S.name + ' 수집 실패', e.message); }
+
+// 오버워치 공식 패치 노트 (한 페이지에 패치별 구역)
+try {
+  const h = await (await fetch('https://overwatch.blizzard.com/ko-kr/news/patch-notes/', { headers: UA })).text();
+  for (const part of h.split('class="PatchNotes-patch PatchNotes-live').slice(1, 4)) {
+    const title = htmlText(part.match(/PatchNotes-patchTitle[^>]*>([^<]*)/)?.[1] || '');
+    const dm = title.match(/(\d{4})년 (\d+)월 (\d+)일/); if (!dm) continue;
+    const gid = 'ow2:' + dm.slice(1).join('-');
+    if (seen.has(gid)) continue;
+    candidates.push({ g: { appid: 'ow2', name: '오버워치' }, n: { gid, title, url: 'https://overwatch.blizzard.com/ko-kr/news/patch-notes/',
+      date: Date.parse(`${dm[1]}-${dm[2].padStart(2, '0')}-${dm[3].padStart(2, '0')}T12:00:00+09:00`) / 1000, contents: htmlText('<div' + part), img: '' } });
+  }
+} catch (e) { console.error('오버워치 수집 실패', e.message); }
+
 candidates.sort((a, b) => b.n.date - a.n.date);
 console.log('새 패치 후보', candidates.length, '→ 요약', Math.min(MAX_NEW, candidates.length));
 
