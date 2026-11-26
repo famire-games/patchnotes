@@ -21,7 +21,7 @@
   login.className = 'nv-login';
   login.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span>로그인</span>';
   // 각 게임 정보 페이지 → 그 게임 패치노트로 돌아가는 버튼 (검색 줄 오른쪽 끝)
-  const GAME = { 'lol.html': '리그 오브 레전드', 'hs.html': '하스스톤', 'pkc.html': '포켓몬 챔피언스' }[location.pathname.split('/').pop()];
+  const GAME = { 'lol.html': '리그 오브 레전드', 'hs.html': '하스스톤 (전장)', 'pkc.html': '포켓몬 챔피언스' }[location.pathname.split('/').pop()];
   const bar = document.querySelector('header .bar');
   if (bar) {
     const inp = bar.querySelector('input'); if (inp) inp.style.maxWidth = '520px';

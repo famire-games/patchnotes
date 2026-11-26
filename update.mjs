@@ -5,6 +5,7 @@ const DIR = new URL('.', import.meta.url);
 const games = JSON.parse(fs.readFileSync(new URL('games.json', DIR)));
 const OUT = new URL('site/data.json', DIR);
 const db = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT)) : { items: [] };
+db.items = db.items.filter(i => !(i.appid === 'hs' && !i.manual && !i.split));
 const seen = new Set([...db.items.map(i => i.gid), ...(db.merged || [])]); // merged = 중복이라 합쳐 버린 글 (다시 요약하지 않음)
 const KEY = process.env.GEMINI_API_KEY;
 const MODELS = (process.env.GEMINI_MODEL || 'gemini-flash-lite-latest,gemini-3.8-flash').split(',');
@@ -191,9 +192,21 @@ for (const Z of BLZ) try {
     const gid = Z.appid + ':' + id;
     if (seen.has(gid) || !/패치 노트|핫픽스|긴급 수정/.test(title) || /미리 보기/.test(title)) continue;
     const url = 'https://news.blizzard.com' + path, a = await (await fetch(url, { headers: UA })).text();
-    candidates.push({ g: { appid: Z.appid, name: Z.name }, n: { gid, url, title,
-      date: Date.parse(a.match(/"datePublished":"([^"]*)/)?.[1] || '') / 1000 || Date.now() / 1000,
-      contents: htmlText(a.slice(Math.max(0, a.indexOf('class="blog"')))), img: a.match(/property="og:image"\s+content="([^"]+)"/)?.[1] || '' } });
+    const date = Date.parse(a.match(/"datePublished":"([^"]*)/)?.[1] || '') / 1000 || Date.now() / 1000;
+    const img = a.match(/property="og:image"\s+content="([^"]+)"/)?.[1] || '';
+    const blog = a.slice(Math.max(0, a.indexOf('class="blog"')));
+    if (Z.appid === 'hs') {
+      // 하스스톤 패치 노트를 '전장' 부분과 나머지로 나눔 (h2 단위, 오류 수정 안의 '전장' h3 도 전장 쪽)
+      let main = '', bg = '';
+      for (const sec of blog.split(/(?=<h2[\s>])/)) {
+        const h = htmlText(sec.match(/<h2[^>]*>([\s\S]*?)<\/h2>/)?.[1] || '');
+        if (/전장/.test(h)) { bg += sec; continue; }
+        for (const sub of sec.split(/(?=<h3[\s>])/)) (/^<h3[^>]*>[\s\S]*?전장[\s\S]*?<\/h3>/.test(sub) ? (bg += sub) : (main += sub));
+      }
+      const onlyBg = /전장/.test(title) && !/패치 노트/.test(title);
+      if (!onlyBg && htmlText(main).length > 200) candidates.push({ g: { appid: 'hs', name: '하스스톤' }, n: { gid, url, title, date, img, contents: htmlText(main) } });
+      if (htmlText(bg).length > 200) candidates.push({ g: { appid: 'hsbg', name: '하스스톤 (전장)' }, n: { gid: 'hsbg:' + id, url, title: title + ' (전장)', date, img, contents: htmlText(onlyBg ? blog : bg) } });
+    } else candidates.push({ g: { appid: Z.appid, name: Z.name }, n: { gid, url, title, date, img, contents: htmlText(blog) } });
     await sleep(500);
     if (got.size > 12) break;
   }
@@ -230,7 +243,7 @@ ${body}`;
   try {
     const s = await gemini(prompt);
     if (!s.isPatch) { seen.add(n.gid); continue; }
-    db.items.push({ gid: n.gid, appid: g.appid, game: g.name, date: n.date, url: n.url,
+    db.items.push({ ...(['hs', 'hsbg'].includes(g.appid) && { split: true }), gid: n.gid, appid: g.appid, game: g.name, date: n.date, url: n.url,
       origTitle: n.title, img: (n.img || '').replace(/&amp;/g, '&') || undefined, title: s.title, summary: s.summary, highlights: s.highlights || [],
       buffs: s.buffs || [], nerfs: s.nerfs || [], fixes: s.fixes || [] });
     added++; console.log('✓', g.name, '-', s.title);

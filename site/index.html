@@ -90,7 +90,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const li=a=>a&&a.length?'<ul>'+a.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'';
-const ICON=i=>i.img?i.img:i.appid==='pkc'?'':i.appid==='lol'?'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg':i.appid==='hs'?'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4d71fe6ada64e43799a5c56b089bf96786d1cef2ae093a4995c3d9505dd5444.png':`https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${i.appid}/header.jpg`;
+const ICON=i=>i.img?i.img:i.appid==='pkc'?'':i.appid==='lol'?'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg':['hs','hsbg'].includes(i.appid)?'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4d71fe6ada64e43799a5c56b089bf96786d1cef2ae093a4995c3d9505dd5444.png':`https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${i.appid}/header.jpg`;
 const dayKey=t=>new Date(t*1000).toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'short'});
 let items=[],shown=[];
 // 로그인·즐겨찾기 (지금은 이 브라우저에만 저장. 실제 계정 로그인은 서버 연결 후 교체)
@@ -126,7 +126,7 @@ function detail(i){
   <div class="foot"><div class="src">원문: <a href="${url}" target="_blank" rel="noopener">${esc(i.origTitle)}</a></div><button class="allp" data-all="${esc(i.game)}">${esc(i.game)} 모든 패치 보기 →</button></div>`;
 }
 // 게임 정보 페이지가 있는 게임: 그 게임 패치만 볼 때 [게임 정보 보기] 버튼이 나타남
-const INFO={"리그 오브 레전드":"lol.html","전략적 팀 전투":"","포켓몬 챔피언스":"pkc.html","하스스톤":"hs.html","하스스톤 전장":"hs.html"};
+const INFO={"리그 오브 레전드":"lol.html","전략적 팀 전투":"","포켓몬 챔피언스":"pkc.html","하스스톤":"","하스스톤 (전장)":"hs.html"};
 function syncTog(){const on=$("onlyFav").checked;$("favTog").classList.toggle("on",on);$("favTog").textContent=(on?"★":"☆")+" 즐겨찾기"}
 function chips(){
  const c=[],g=$('g').value,dv=$('day').value,q=$('q').value.trim();
