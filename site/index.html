@@ -181,6 +181,7 @@ $('favs').onclick=e=>{const r=e.target.closest('[data-rm]');if(r){favs.delete(r.
  const f=e.target.closest('[data-g]');if(f){setGame(f.dataset.g);render();closeDrawer();scrollTo(0,0)}};
 </script>
 <script type="module" src="fb.js"></script>
+<script>{const d=document.getElementById("day");const op=()=>{try{d.showPicker()}catch(e){}};d.addEventListener("click",op);d.addEventListener("focus",op);}</script>
 <script src="foot.js"></script>
 </body>
 </html>
