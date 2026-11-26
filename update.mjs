@@ -73,6 +73,23 @@ for (const R of RIOT) try {
   }
 } catch (e) { console.error(R.name + ' 수집 실패', e.message); }
 
+// 호요버스 공식 홈페이지 공지 (원신·붕괴: 스타레일) — 홈페이지가 쓰는 공지 데이터 주소
+const HOYO = [
+  { appid: 'genshin', name: '원신', key: 'a1b1f9d3315447cc', app: 32, chan: 397, link: id => `https://genshin.hoyoverse.com/ko/news/detail/${id}` },
+  { appid: 'hsr', name: '붕괴: 스타레일', key: '113fe6d3b4514cdd', app: 34, chan: 250, link: id => `https://hsr.hoyoverse.com/ko-kr/news/${id}` },
+];
+const HOYO_RE = /업데이트|버전|패치|문제 수정|밸런스|조정/;
+for (const H of HOYO) try {
+  const j = await (await fetch(`https://sg-public-api-static.hoyoverse.com/content_v2_user/app/${H.key}/getContentList?iAppId=${H.app}&iChanId=${H.chan}&iPageSize=10&iPage=1&sLangKey=ko-kr`)).json();
+  for (const x of j.data?.list || []) {
+    const gid = H.appid + ':' + x.iInfoId;
+    if (seen.has(gid) || !HOYO_RE.test(x.sTitle) || /점검 예고|사전 다운로드/.test(x.sTitle)) continue;
+    let img = ''; try { img = JSON.parse(x.sExt || '{}')['news-poster']?.[0]?.url || ''; } catch {}
+    candidates.push({ g: { appid: H.appid, name: H.name }, n: { gid, url: H.link(x.iInfoId), title: x.sTitle,
+      date: Date.parse(x.dtStartTime.replace(' ', 'T') + '+08:00') / 1000, contents: htmlText(x.sContent || ''), img } });
+  }
+} catch (e) { console.error(H.name + ' 수집 실패', e.message); }
+
 candidates.sort((a, b) => b.n.date - a.n.date);
 console.log('새 패치 후보', candidates.length, '→ 요약', Math.min(MAX_NEW, candidates.length));
 
