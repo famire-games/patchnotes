@@ -90,6 +90,61 @@ for (const H of HOYO) try {
   }
 } catch (e) { console.error(H.name + ' 수집 실패', e.message); }
 
+// 넥슨 공식 포럼 '업데이트' 게시판 (로그인 없이 공개 API)
+const NEXON = [
+  { appid: 'bluearchive', name: '블루 아카이브', alias: 'bluearchive', board: 1076 },
+];
+for (const N of NEXON) try {
+  const api = 'https://forum.nexon.com/api/v1';
+  const j = await (await fetch(`${api}/board/${N.board}/threads?alias=${N.alias}&pageNo=1&paginationType=PAGING&pageSize=10&blockSize=5&hideType=WEB`, { headers: { 'user-agent': 'Mozilla/5.0' } })).json();
+  for (const t of j.threads || []) {
+    const gid = N.appid + ':' + t.threadId;
+    if (seen.has(gid) || !/업데이트 상세|패치|밸런스/.test(t.title) || /예정|점검/.test(t.title) && !/상세/.test(t.title)) continue;
+    const d = await (await fetch(`${api}/thread/${t.threadId}?alias=${N.alias}`, { headers: { 'user-agent': 'Mozilla/5.0' } })).json();
+    candidates.push({ g: { appid: N.appid, name: N.name }, n: { gid, date: t.createDate, title: t.title,
+      url: `https://forum.nexon.com/${N.alias}/board_view?board=${N.board}&thread=${t.threadId}`,
+      contents: htmlText(d.content || ''), img: (d.content || '').match(/<img[^>]+src="([^"]+)"/)?.[1] || '' } });
+    await sleep(400);
+  }
+} catch (e) { console.error(N.name + ' 수집 실패', e.message); }
+
+// 레벨 인피니트 공식 홈페이지 공지 (니케: nikke-kr.com 공지사항)
+const LI = [
+  { appid: 'nikke', name: '승리의 여신: 니케', gameid: '16', area: 'na', p: 309, s: 892, link: id => `https://www.nikke-kr.com/newsdetail.html?content_id=${id}` },
+];
+for (const L of LI) try {
+  const H = { 'content-type': 'application/json', 'x-gameid': L.gameid, 'x-areaid': L.area, 'x-source': 'pc_web', 'x-language': 'ko' };
+  const B = `https://${L.area}-community.playerinfinite.com/api/gpts.information_feeds_svr.InformationFeedsSvr/`;
+  const post = async (ep, body) => (await fetch(B + ep, { method: 'POST', headers: H, body: JSON.stringify(body) })).json();
+  const r = await post('GetContentByLabel', { language: ['ko'], gameid: L.gameid, offset: 0, get_num: 10, ext_info_type_list: [0, 1, 2], primary_label_id: L.p, secondary_label_id: L.s, content_class: 0 });
+  for (const x of r.data?.info_content || []) {
+    const gid = L.appid + ':' + x.content_id;
+    if (seen.has(gid) || !/업데이트 공지|패치|밸런스/.test(x.title) || /런처/.test(x.title)) continue;
+    const d = (await post('GetContentInfoById', { content_id: x.content_id, language: ['ko'], gameid: L.gameid })).data || {};
+    candidates.push({ g: { appid: L.appid, name: L.name }, n: { gid, date: +x.pub_timestamp, title: x.title.trim(), url: L.link(x.content_id),
+      contents: htmlText(d.content || ''), img: (x.pic_urls || [])[0] || '' } });
+    await sleep(400);
+  }
+} catch (e) { console.error(L.name + ' 수집 실패', e.message); }
+
+// 네이버 게임 라운지 공식 '업데이트' 게시판 (운영진 글만 있는 게시판)
+const LOUNGE = [
+  { appid: 'trickcal', name: '트릭컬 리바이브', lounge: 'Trickcal', board: 11 },
+];
+for (const N of LOUNGE) try {
+  const A = 'https://comm-api.game.naver.com/nng_main/v1/community/lounge/' + N.lounge;
+  const j = await (await fetch(`${A}/feed?boardId=${N.board}&buffFilteringYN=N&limit=10&offset=0&order=NEW`)).json();
+  for (const { feed: f } of j.content?.feeds || []) {
+    const gid = N.appid + ':' + f.feedId;
+    if (seen.has(gid) || !/업데이트|패치|밸런스/.test(f.title) || /판매|상품/.test(f.title)) continue;
+    const d = (await (await fetch(`${A}/feed/${f.feedId}`)).json()).content?.feed || {};
+    const t = String(f.createdDate).replace(/(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)/, '$1-$2-$3T$4:$5:$6+09:00');
+    candidates.push({ g: { appid: N.appid, name: N.name }, n: { gid, date: Date.parse(t) / 1000, title: f.title,
+      url: `https://game.naver.com/lounge/${N.lounge}/board/detail/${f.feedId}`, contents: htmlText(d.contents || ''), img: f.repImageUrl || '' } });
+    await sleep(400);
+  }
+} catch (e) { console.error(N.name + ' 수집 실패', e.message); }
+
 candidates.sort((a, b) => b.n.date - a.n.date);
 console.log('새 패치 후보', candidates.length, '→ 요약', Math.min(MAX_NEW, candidates.length));
 
