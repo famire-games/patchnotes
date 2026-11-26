@@ -270,6 +270,13 @@ catch (e) { console.error('manual.json', e.message); }
   db.items = db.items.filter(i => !drop.includes(i));
   if (drop.length) console.log('중복 합침', drop.length);
 }
+// 스팀 공식 헤더 그림 주소 (새 게임은 주소 형식이 달라서 스토어 API 로 확인, 한 번만)
+db.icons = db.icons || {};
+for (const g of games) if (!db.icons[g.appid]) try {
+  const j = await (await fetch(`https://store.steampowered.com/api/appdetails?appids=${g.appid}&filters=basic`)).json();
+  const u = j[g.appid]?.data?.header_image; if (u) db.icons[g.appid] = u;
+  await sleep(300);
+} catch (e) { console.error('헤더 그림 실패', g.name, e.message); }
 db.items.sort((a, b) => b.date - a.date);
 db.items = db.items.slice(0, 500);
 db.updated = Date.now();

@@ -90,7 +90,9 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const li=a=>a&&a.length?'<ul>'+a.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'';
-const ICON=i=>i.img?i.img:i.appid==='pkc'?'':i.appid==='lol'?'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg':['hs','hsbg'].includes(i.appid)?'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4d71fe6ada64e43799a5c56b089bf96786d1cef2ae093a4995c3d9505dd5444.png':`https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${i.appid}/header.jpg`;
+let ICONS={};
+// 간판: 스팀 게임은 스팀 공식 헤더(460×215) 하나로 통일, 롤은 스플래시, 나머지는 검은 글자 간판
+const ICON=i=>ICONS[i.appid]||(i.appid==='lol'?'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg':'');
 const dayKey=t=>new Date(t*1000).toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'short'});
 let items=[],shown=[];
 // 로그인·즐겨찾기 (지금은 이 브라우저에만 저장. 실제 계정 로그인은 서버 연결 후 교체)
@@ -161,7 +163,7 @@ $('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
 addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
 $('list').onclick=e=>{const t=e.target.closest('.tile');if(t){$('body').innerHTML=detail(shown[+t.dataset.i]);$('dlg').classList.add('open');$('dlg').scrollTop=0}};
 fetch('data.json').then(r=>r.json()).then(d=>{
- items=d.items;
+ items=d.items; ICONS=d.icons||{};
  $('upd').textContent='마지막 갱신 '+new Date(d.updated).toLocaleString('ko-KR');
  const P=new URLSearchParams(location.search);
  if(P.get('game'))setGame(P.get('game'));
