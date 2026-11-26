@@ -25,7 +25,8 @@ main{padding:18px 16px 60px}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .12s,border-color .12s}
 .tile:hover{transform:translateY(-2px);border-color:var(--acc)}
-.tile .ic{aspect-ratio:460/215;background:#0b0d11 center/cover no-repeat;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;color:var(--acc);text-align:center;padding:6px}
+.tile .ic{aspect-ratio:460/215;background:#0b0d11 center/cover no-repeat;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;color:#fff;text-align:center;padding:10px;letter-spacing:-.5px}
+.tile .ic.txt{background:#000;border-bottom:1px solid #222;word-break:keep-all;line-height:1.25}
 .tile .nm{padding:8px 10px 0;font-weight:600;font-size:14px}
 .tile .tt{padding:0 10px 10px;color:var(--mute);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
@@ -58,7 +59,7 @@ a{color:var(--acc)}
 .chk{display:flex;gap:6px;align-items:center;color:var(--mute);font-size:14px;cursor:pointer;margin:0 0 12px}
 .star{width:auto!important;padding:0 14px;font-size:15px!important;font-weight:600;position:absolute;left:28px;top:26px;background:#000a;border:0;border-radius:999px;width:42px;height:42px;font-size:24px;cursor:pointer;color:#fff;line-height:1}
 .star.on{color:#ffcc33}
-.star.inline{position:static;float:right;margin:0 36px 0 8px;height:36px}
+.txtban{aspect-ratio:460/160;background:#000;border:1px solid #222;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;font-weight:800;letter-spacing:-1px}
 .tile{position:relative}.tile .fs{position:absolute;left:6px;top:6px;color:#ffcc33;font-size:18px;text-shadow:0 0 4px #000}
 .ad{position:fixed;top:140px;width:160px;height:600px;border:1px dashed #3a3f4a;color:#555b66;display:none;align-items:center;justify-content:center;font-size:12px;border-radius:6px}
 .ad.l{left:calc(50% - 540px - 190px)}.ad.r{right:calc(50% - 540px - 190px)}
@@ -118,7 +119,7 @@ function closeDrawer(){$('drawer').classList.remove('open');$('shade').classList
 function detail(i){
  const url=typeof i.appid==='string'?i.url:`https://store.steampowered.com/news/app/${i.appid}/view/${i.gid}`;
  const bal=(i.buffs.length||i.nerfs.length)?`<div class="tags"><div class="box up"><h3>▲ 상향</h3>${li(i.buffs)||'<small>없음</small>'}</div><div class="box down"><h3>▼ 하향</h3>${li(i.nerfs)||'<small>없음</small>'}</div></div>`:'';
- return `<button class="x" onclick="closeDlg()">×</button>${ICON(i)?`<img class="hero" src="${ICON(i)}" alt="">`:''}<button class="star${ICON(i)?'':' inline'}${favs.has(i.game)&&user?' on':''}" data-fav="${esc(i.game)}" title="이 게임을 즐겨찾기">${favs.has(i.game)&&user?'★ 즐겨찾는 게임':'☆ 게임 즐겨찾기'}</button>
+ return `<button class="x" onclick="closeDlg()">×</button>${ICON(i)?`<img class="hero" src="${ICON(i)}" alt="">`:`<div class="hero txtban">${esc(i.game)}</div>`}<button class="star${favs.has(i.game)&&user?' on':''}" data-fav="${esc(i.game)}" title="이 게임을 즐겨찾기">${favs.has(i.game)&&user?'★ 즐겨찾는 게임':'☆ 게임 즐겨찾기'}</button>
   <div class="meta"><span class="game">${esc(i.game)}</span>·<span>${new Date(i.date*1000).toLocaleDateString('ko-KR')}</span></div>
   <h2>${esc(i.title)}</h2><p class="sum">${esc(i.summary)}</p>${li(i.highlights)}${bal}
   ${i.fixes.length?`<details><summary>버그 수정 ${i.fixes.length}건</summary>${li(i.fixes)}</details>`:''}
@@ -152,7 +153,7 @@ function render(){
  const days=[...new Set(shown.map(i=>dayKey(i.date)))];
  $('list').innerHTML=days.map(d=>{const a=shown.filter(i=>dayKey(i.date)===d);
   return `<section class="day"><h2>${d} · ${a.length}건</h2><div class="tiles">`+a.map(i=>`<div class="tile" data-i="${shown.indexOf(i)}">${favs.has(i.game)&&user?'<span class="fs">★</span>':''}
-   <div class="ic" style="${ICON(i)?`background-image:url('${ICON(i)}')`:''}">${ICON(i)?'':esc(i.game)}</div>
+   <div class="ic${ICON(i)?'':' txt'}" style="${ICON(i)?`background-image:url('${ICON(i)}')`:''}">${ICON(i)?'':esc(i.game)}</div>
    <div class="nm">${esc(i.game)}</div><div class="tt">${esc(i.title)}</div></div>`).join('')+'</div></section>'}).join('')||'<p>결과가 없습니다.</p>';
 }
 function closeDlg(){$('dlg').classList.remove('open')}

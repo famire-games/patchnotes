@@ -24,7 +24,7 @@ document.title=(game||'게임')+' 정보 — 패치노트 모음';
 fetch('data.json').then(r=>r.json()).then(d=>{
  const it=d.items.find(i=>i.game===game)||{};
  const img=it.img?it.img:it.appid==='pkc'?'':it.appid&&typeof it.appid==='number'?`https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${it.appid}/header.jpg`:'';
- document.getElementById('box').innerHTML=`${img?`<img src="${img}" alt="">`:''}<div class="in"><h2>${esc(game)} 정보</h2>
+ document.getElementById('box').innerHTML=`${img?`<img src="${img}" alt="">`:`<div style="aspect-ratio:460/160;background:#000;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;font-weight:800">${esc(game)}</div>`}<div class="in"><h2>${esc(game)} 정보</h2>
   <p>이 게임의 정보 페이지는 준비 중입니다.</p><a class="btn" href="index.html">패치노트로 돌아가기</a></div>`;
 });
 </script>
