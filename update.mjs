@@ -5,7 +5,7 @@ const DIR = new URL('.', import.meta.url);
 const games = JSON.parse(fs.readFileSync(new URL('games.json', DIR)));
 const OUT = new URL('site/data.json', DIR);
 const db = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT)) : { items: [] };
-const seen = new Set(db.items.map(i => i.gid));
+const seen = new Set([...db.items.map(i => i.gid), ...(db.merged || [])]); // merged = 중복이라 합쳐 버린 글 (다시 요약하지 않음)
 const KEY = process.env.GEMINI_API_KEY;
 const MODELS = (process.env.GEMINI_MODEL || 'gemini-flash-lite-latest,gemini-3.8-flash').split(',');
 const PATCH_RE = /patch|update|hotfix|fix|changelog|release notes|version|v\d|season|업데이트|패치/i;
@@ -240,6 +240,23 @@ ${body}`;
 // 손으로 정리한 패치(블리자드 등 자동 수집이 약관상 안 되는 게임): manual.json
 try { for (const m of JSON.parse(fs.readFileSync(new URL('manual.json', DIR)))) { db.items = db.items.filter(i => i.gid !== m.gid); db.items.push(m); } }
 catch (e) { console.error('manual.json', e.message); }
+// 같은 게임·같은 버전 번호 글은 하나로 (언어별·미리보기·본 공지 중복). 내용이 가장 많은 글을 남김
+{
+  const ver = i => (i.origTitle + ' ' + i.title).match(/\d+\.\d+(?:\.\d+)*[a-z]?/i)?.[0];
+  // 스팀 공지만 (공식 홈페이지 글은 같은 버전이라도 내용이 다른 별도 글), PTB·테스트 서버는 따로
+  const key = i => typeof i.appid === 'number' && ver(i) && i.appid + '|' + ver(i) + (/PTB|테스트|베타|beta/i.test(i.origTitle + i.title) ? '|ptb' : '');
+  const size = i => [i.highlights, i.buffs, i.nerfs, i.fixes].reduce((n, a) => n + (a || []).length, 0) + (i.summary || '').length / 100;
+  const best = new Map();
+  for (const i of db.items) {
+    const v = key(i); if (!v) continue;
+    const k = v, b = best.get(k);
+    if (!b || size(i) > size(b)) best.set(k, i);
+  }
+  const keep = new Set(best.values()), drop = db.items.filter(i => key(i) && !keep.has(i));
+  db.merged = [...new Set([...(db.merged || []), ...drop.map(i => i.gid)])].slice(-2000);
+  db.items = db.items.filter(i => !drop.includes(i));
+  if (drop.length) console.log('중복 합침', drop.length);
+}
 db.items.sort((a, b) => b.date - a.date);
 db.items = db.items.slice(0, 500);
 db.updated = Date.now();
