@@ -1,9 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://famire-games.github.io/patchnotes/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://famire-games.github.io/patchnotes/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/?lang=zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/?lang=pt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/about.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/about.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/about.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/about.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/about.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/about.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/about.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/about.html?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/about.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/about.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/about.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/about.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/about.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/about.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/about.html?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/about.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/about.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/about.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/about.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/about.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/about.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/about.html?lang=zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/about.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/about.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/about.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/about.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/about.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/about.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/about.html?lang=pt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/about.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/about.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/about.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/about.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/about.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/about.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/privacy.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/privacy.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/privacy.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/privacy.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/privacy.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/privacy.html?lang=ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/privacy.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/privacy.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/privacy.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/privacy.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/privacy.html?lang=ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/privacy.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/privacy.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/privacy.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/privacy.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/privacy.html?lang=zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/privacy.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/privacy.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/privacy.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/privacy.html"/>
+  </url>
+  <url><loc>https://famire-games.github.io/patchnotes/privacy.html?lang=pt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/privacy.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/privacy.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/privacy.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/privacy.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/privacy.html"/>
+  </url>
   <url><loc>https://famire-games.github.io/patchnotes/lol.html</loc></url>
   <url><loc>https://famire-games.github.io/patchnotes/hs.html</loc></url>
   <url><loc>https://famire-games.github.io/patchnotes/pkc.html</loc></url>
-  <url><loc>https://famire-games.github.io/patchnotes/about.html</loc></url>
-  <url><loc>https://famire-games.github.io/patchnotes/privacy.html</loc></url>
 </urlset>

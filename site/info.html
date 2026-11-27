@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>게임 정보 — 패치노트 모음</title>
+<title>Patchwork</title>
+<script src="i18n.js"></script>
 <style>
 :root{--bg:#0f1115;--card:#171a21;--line:#262a33;--tx:#e6e8ec;--mute:#8a909c;--acc:#5aa9ff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 system-ui,"Malgun Gothic",sans-serif}
@@ -15,17 +16,18 @@ h1{font-size:20px;margin:0;padding:14px 0}h1 a{color:inherit;text-decoration:non
 </style>
 </head>
 <body>
-<header><div class="wrap"><h1><a href="index.html"><b>패치</b>노트 모음</a> · 게임 정보</h1></div></header>
+<header><div class="wrap"><h1><a href="index.html"><b>Patch</b>work</a> · <span id="pt"></span></h1></div></header>
 <main class="wrap"><div class="box" id="box"></div></main>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const game=new URLSearchParams(location.search).get('game')||'';
-document.title=(game||'게임')+' 정보 — 패치노트 모음';
+
 fetch('data.json').then(r=>r.json()).then(d=>{
+ NAMES=window.NAMES=d.names||{};const gn=GN(game)||T('game');document.title=T('info_t',gn)+' — Patchwork';document.getElementById('pt').textContent=T('info_t',gn);
  const it=d.items.find(i=>i.game===game)||{};
  const img=it.img?it.img:it.appid==='pkc'?'':it.appid&&typeof it.appid==='number'?`https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${it.appid}/header.jpg`:'';
- document.getElementById('box').innerHTML=`${img?`<img src="${img}" alt="">`:`<div style="aspect-ratio:460/160;background:#000;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;font-weight:800">${esc(game)}</div>`}<div class="in"><h2>${esc(game)} 정보</h2>
-  <p>이 게임의 정보 페이지는 준비 중입니다.</p><a class="btn" href="index.html">패치노트로 돌아가기</a></div>`;
+ document.getElementById('box').innerHTML=`${img?`<img src="${img}" alt="">`:`<div style="aspect-ratio:460/160;background:#000;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;font-weight:800">${esc(gn)}</div>`}<div class="in"><h2>${esc(T('info_t',gn))}</h2>
+  <p>${T('info_wip')}</p><a class="btn" href="index.html">${T('back_patch')}</a></div>`;
 });
 </script>
 <script src="nav.js"></script>

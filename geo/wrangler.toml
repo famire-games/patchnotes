@@ -1,0 +1,9 @@
+# 접속 IP 로 국가를 판정해 Firestore profiles/{uid}.country 에 적는 작은 서버 (Cloudflare Workers 무료)
+# 배포: npx wrangler deploy   비밀 값: npx wrangler secret put SA_KEY  (Firebase 서비스 계정 JSON 통째로)
+name = "patchnotes-geo"
+main = "index.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+PROJECT = "patchnotes-web"
+ORIGINS = "https://famire-games.github.io,http://localhost:8765"

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>리그 오브 레전드 정보 — 챔피언·룬·아이템 | 패치노트 모음</title>
+<title>리그 오브 레전드 정보 — 챔피언·룬·아이템 | Patchwork</title>
 <style>
 :root{--bg:#0f1115;--card:#171a21;--line:#262a33;--tx:#e6e8ec;--mute:#8a909c;--acc:#5aa9ff;--gold:#d8b45a}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 system-ui,"Malgun Gothic",sans-serif}
@@ -47,7 +47,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 </head>
 <body>
 <header><div class="wrap">
- <div class="top"><h1><a href="index.html"><b>패치</b>노트 모음</a> · 리그 오브 레전드</h1>
+ <div class="top"><h1><a href="index.html"><b>Patch</b>work</a> · 리그 오브 레전드</h1>
   <nav><button data-t="champ" class="on">챔피언</button><button data-t="rune">룬</button><button data-t="item">아이템</button></nav>
   <span class="ver" id="ver"></span></div>
  <div class="bar"><input id="q" placeholder="이름 검색"><select id="f"></select></div>
@@ -124,6 +124,7 @@ Promise.all(['champions','runes','items'].map(n=>fetch(`lol/${n}.json`).then(r=>
  C=c.champs;R=r.runes;I=i.items;V=c.v;$('ver').textContent='게임 데이터 '+V;filters();render();
 });
 </script>
+<script src="i18n.js"></script>
 <script src="nav.js"></script>
 <script src="foot.js"></script>
 </body>

@@ -1,10 +1,17 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>패치노트 모음 — 게임 업데이트 한국어 요약</title>
-<meta name="description" content="스팀 인기 게임 패치노트를 한국어로 요약하고 상향·하향·버그 수정을 한눈에 정리합니다.">
+<link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/?lang=en">
+<link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/?lang=ko">
+<link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/?lang=ja">
+<link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/?lang=zh">
+<link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/?lang=pt">
+<link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/">
+<title>Patchwork — Game Patch Notes, Summarized</title>
+<meta name="description" content="Summaries of the latest patch notes for popular games: buffs, nerfs and bug fixes at a glance.">
+<script src="i18n.js"></script>
 <style>
 :root{--bg:#0f1115;--card:#171a21;--line:#262a33;--tx:#e6e8ec;--mute:#8a909c;--acc:#5aa9ff;--up:#4cc38a;--down:#ef6b6b}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 system-ui,"Malgun Gothic",sans-serif}
@@ -26,7 +33,8 @@ main{padding:18px 16px 60px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .12s,border-color .12s}
 .tile:hover{transform:translateY(-2px);border-color:var(--acc)}
 .tile .ic{aspect-ratio:460/215;background:#0b0d11 center/cover no-repeat;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;color:#fff;text-align:center;padding:10px;letter-spacing:-.5px}
-.tile .ic.txt{background:#000;border-bottom:1px solid #222;word-break:keep-all;line-height:1.25}
+.tile .ic.txt{background:#000;border-bottom:1px solid #222;word-break:keep-all;line-height:1.25;flex-direction:column;gap:4px}
+.ic .pub,.txtban .pub{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;opacity:.65}.txtban .pub{font-size:14px}
 .tile .nm{padding:8px 10px 0;font-weight:600;font-size:14px}
 .tile .tt{padding:0 10px 10px;color:var(--mute);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
@@ -59,7 +67,7 @@ a{color:var(--acc)}
 .chk{display:flex;gap:6px;align-items:center;color:var(--mute);font-size:14px;cursor:pointer;margin:0 0 12px}
 .star{width:auto!important;padding:0 14px;font-size:15px!important;font-weight:600;position:absolute;left:28px;top:26px;background:#000a;border:0;border-radius:999px;width:42px;height:42px;font-size:24px;cursor:pointer;color:#fff;line-height:1}
 .star.on{color:#ffcc33}
-.txtban{aspect-ratio:460/160;background:#000;border:1px solid #222;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;font-weight:800;letter-spacing:-1px}
+.txtban{aspect-ratio:460/160;background:#000;border:1px solid #222;display:flex;flex-direction:column;gap:6px;text-align:center;padding:0 16px;align-items:center;justify-content:center;color:#fff;font-size:30px;font-weight:800;letter-spacing:-1px}
 .tile{position:relative}.tile .fs{position:absolute;left:6px;top:6px;color:#ffcc33;font-size:18px;text-shadow:0 0 4px #000}
 .ad{position:fixed;top:140px;width:160px;height:600px;border:1px dashed #3a3f4a;color:#555b66;display:none;align-items:center;justify-content:center;font-size:12px;border-radius:6px}
 .ad.l{left:calc(50% - 540px - 190px)}.ad.r{right:calc(50% - 540px - 190px)}
@@ -77,76 +85,102 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 .cmf button,.cmsort button{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:0 16px;font:inherit;font-weight:600;cursor:pointer}
 .cmsort{display:flex;gap:6px;margin-bottom:8px}.cmsort button{background:none;color:var(--mute);border:1px solid var(--line);padding:3px 10px;font-weight:400;font-size:13px}.cmsort button.on{color:var(--tx);border-color:var(--acc)}
 .cmi{padding:10px 0;border-bottom:1px solid var(--line)}.cmi .h{font-size:13px;color:var(--mute);display:flex;gap:8px;align-items:center}.cmi .h b{color:var(--tx)}.cmi .h .st{color:#ffcc33}
-.cmi p{margin:4px 0 6px;white-space:pre-wrap;word-break:break-word}.cmi .v{display:flex;gap:6px}.cmi .v button{background:none;border:1px solid var(--line);color:var(--mute);border-radius:999px;padding:1px 10px;font:inherit;font-size:13px;cursor:pointer}
+.cmi p{margin:4px 0 6px;white-space:pre-wrap;word-break:break-word}.flag{vertical-align:-2px;border-radius:2px;margin-right:4px}
+.ctry{display:flex;flex-wrap:wrap;gap:6px 12px;margin:-6px 0 16px;font-size:13px;color:var(--mute)}.ctry span{display:flex;align-items:center;gap:2px}.ctry b{color:#ffcc33;font-weight:600;margin-left:2px}
+.prof{display:flex;flex-direction:column;gap:8px;margin:10px 0 4px;padding:10px;border:1px solid var(--line);border-radius:10px}.prof label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--mute)}
+.prof input,.prof select{background:var(--bg);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:6px 8px;font:inherit;font-size:14px;min-width:0;max-width:none}
+.prof button{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:6px;font:inherit;font-weight:600;cursor:pointer}.prof small{min-height:1em}
+.cmi .v{display:flex;gap:6px}.cmi .v button{background:none;border:1px solid var(--line);color:var(--mute);border-radius:999px;padding:1px 10px;font:inherit;font-size:13px;cursor:pointer}
 .cmi .v button.on.u{color:var(--up);border-color:var(--up)}.cmi .v button.on.d{color:var(--down);border-color:var(--down)}.cmi .del{margin-left:auto;background:none;border:0;color:var(--mute);cursor:pointer;font-size:12px}
 </style>
 </head>
 <body>
 <header><div class="wrap">
- <div class="top"><button class="iconbtn" id="menu" title="메뉴"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><h1><a href="index.html" style="color:inherit;text-decoration:none"><b>패치</b>노트 모음</a></h1><small id="upd"></small><button class="login" style="margin-left:auto" id="login"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span id="loginTxt">로그인</span></button></div>
- <div class="bar"><input id="q" placeholder="게임 이름이나 내용 검색 (예: 크립토, 버그)"><input type="date" id="day" title="날짜 찾기"><button id="favTog" type="button" class="tog" title="즐겨찾기한 게임만 보기">☆ 즐겨찾기</button><div class="info"><button id="infoBtn" type="button" hidden>게임 정보 보기</button></div><select id="g" hidden><option value="">모든 게임</option></select></div>
+ <div class="top"><button class="iconbtn" id="menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><h1><a href="index.html" style="color:inherit;text-decoration:none"><span id="brand"></span></a></h1><small id="upd"></small><button class="login" style="margin-left:auto" id="login"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span id="loginTxt"></span></button></div>
+ <div class="bar"><input id="q"><input type="date" id="day"><button id="favTog" type="button" class="tog"></button><div class="info"><button id="infoBtn" type="button" hidden></button></div><select id="g" hidden></select></div>
 </div></header>
 <div id="shade"></div>
-<aside id="drawer"><h3>☰ 메뉴</h3><div class="who" id="who"></div>
+<aside id="drawer"><h3 id="menuH"></h3><div class="who" id="who"></div>
  <input type="checkbox" id="onlyFav" hidden>
- <h3 id="favHead" class="link" title="즐겨찾기한 게임 패치만 보기">★ 즐겨찾기 목록</h3><div id="favs"></div></aside>
-<div class="ad l">광고</div><div class="ad r">광고</div>
+ <h3 id="favHead" class="link"></h3><div id="favs"></div></aside>
+<div class="ad l"></div><div class="ad r"></div>
 <div class="wrap chips" id="chips"></div>
 <main class="wrap" id="list"></main>
 <div id="dlg"><div class="card" id="body"></div></div>
-<footer class="wrap">각 요약은 공식 스팀 공지·게임사 공식 패치노트를 AI 로 한국어 요약한 것입니다. 정확한 내용은 원문을 확인하세요. 게임 이미지는 각 게임사의 자산입니다.</footer>
+<footer class="wrap" id="note"></footer>
 <script>
 const $=id=>document.getElementById(id);
+// 화면 글자 = 언어별 (i18n.js)
+document.title=T('title');document.querySelector('meta[name=description]').content=T('desc');
+$('brand').innerHTML=T('brand');$('menu').title=T('menu');$('q').placeholder=T('search_ph');$('day').title=T('date_t');$('favTog').title=T('fav_t');
+$('infoBtn').textContent=T('info_btn');$('menuH').textContent='☰ '+T('menu');$('favHead').textContent=T('favlist');$('favHead').title=T('favlist_t');
+document.querySelectorAll('.ad').forEach(a=>a.textContent=T('ad'));$('note').textContent=T('footer_note');$('login').before(langPicker());
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const li=a=>a&&a.length?'<ul>'+a.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'';
 let ICONS={};
 // 간판: 스팀 게임은 스팀 공식 헤더(460×215) 하나로 통일, 롤은 스플래시, 나머지는 검은 글자 간판
+// 그림 간판이 없는 게임: 게임 이름 + 회사 이름 글자, 회사별 배경색 (그림을 쓰지 않음)
+const PUB={nexon:['NEXON','#0e3a2a'],blizzard:['Blizzard','#0b2447'],hoyo:['HoYoverse','#2e1a47'],riot:['Riot Games','#3b0f14'],li:['Level Infinite','#1d2b3a'],epid:['Epid Games','#3a2a10'],tpc:['The Pokémon Company','#3a3410']};
+const PUBOF={maplestory:'nexon',maplestorym:'nexon',maplestoryworlds:'nexon',bluearchive:'nexon',mabinogimobile:'nexon',kartrush:'nexon',fconline:'nexon',
+ hs:'blizzard',hsbg:'blizzard',d4:'blizzard',wow:'blizzard',ow2:'blizzard',genshin:'hoyo',hsr:'hoyo',val:'riot',tft:'riot',lol:'riot',nikke:'li',trickcal:'epid',pkc:'tpc'};
+const PUBI=i=>PUB[PUBOF[i.appid]];
+const BANBG=i=>{const p=PUBI(i);return p?`background:linear-gradient(135deg,${p[1]},#000 85%)`:''};
+const BANTX=i=>{const p=PUBI(i);return esc(GN(i.game))+(p?`<span class="pub">${esc(p[0])}</span>`:'')};
 const ICON=i=>ICONS[i.appid]||(i.appid==='lol'?'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg':'');
-const dayKey=t=>new Date(t*1000).toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'short'});
+const dayKey=t=>new Date(t*1000).toLocaleDateString(LOC,{year:'numeric',month:'long',day:'numeric',weekday:'short'});
 let items=[],shown=[];
 // 로그인·즐겨찾기 (지금은 이 브라우저에만 저장. 실제 계정 로그인은 서버 연결 후 교체)
 // 로그인 = Firebase 구글 로그인, 즐겨찾기 = Firestore users/{uid}.favs (아래 module 스크립트가 window.FB 제공)
 let user=null,favs=new Set();
 const saveFavs=()=>{ if(user&&window.FB) FB.saveFavs([...favs]).catch(e=>console.error('즐겨찾기 저장 실패',e)) };
-window.onUserChange=(u,list)=>{ user=u?{name:u.displayName||u.email||'사용자'}:null; favs=new Set(list||[]); if(items.length){drawUser(); render();} if(cur)drawCm(); };
+window.onUserChange=(u,list)=>{ user=u?{name:(window.FB&&FB.profile().nick)||T('set_nick')}:null; favs=new Set(list||[]); if(items.length){drawUser(); render();} if(cur)drawCm(); };
 function toggleFav(game){ if(!user){alertLogin();return false} favs.has(game)?favs.delete(game):favs.add(game); saveFavs(); drawUser(); render(); return true }
-function alertLogin(){ $('who').innerHTML='즐겨찾기는 <b>로그인</b> 후 쓸 수 있습니다.'; openDrawer() }
+function alertLogin(){ $('who').innerHTML=T('fav_need_login'); openDrawer() }
 function setGame(n){if(n&&![...$('g').options].some(o=>o.value===n))$('g').add(new Option(n,n));$('g').value=n||''}
 function fillGames(){
  const sel=$('g'),cur=sel.value,useFav=user&&favs.size;
  const names=useFav?[...favs].sort():[...new Set(items.map(i=>i.game))].sort();
- sel.innerHTML='';sel.add(new Option('모든 게임',''));
- names.forEach(n=>sel.add(new Option(n,n)));setGame(cur);
+ sel.innerHTML='';sel.add(new Option(T('all_games'),''));
+ names.forEach(n=>sel.add(new Option(GN(n),n)));setGame(cur);
 }
 function drawUser(){fillGames();
- $('loginTxt').textContent=user?user.name:'로그인';
- $('who').innerHTML=user?esc(user.name)+' 님 · <a href="#" id="logout">로그아웃</a>':'로그인하면 즐겨찾기를 쓸 수 있습니다.';
+ $('loginTxt').textContent=user?user.name:T('login');
+ $('who').innerHTML=user?T('hi',esc(user.name))+'<a href="#" id="logout">'+T('logout')+'</a>'+profForm():T('login_for_fav');
+ const ps=$('pfSave');if(ps)ps.onclick=saveProf;
  const lo=$('logout'); if(lo) lo.onclick=e=>{e.preventDefault();window.FB&&FB.logout()};
  const g=[...favs].sort();
- $('favs').innerHTML=!user?'':g.length?g.map(n=>{const it=items.find(i=>i.game===n)||{};return `<div class="fav" data-g="${esc(n)}">${ICON(it)?`<img src="${ICON(it)}" alt="">`:''}<span>${esc(n)}</span><button class="rm" data-rm="${esc(n)}" title="빼기">✕</button></div>`}).join(''):'<small style="color:var(--mute)">패치 창의 [☆ 게임 즐겨찾기] 로 추가하세요.</small>';
+ $('favs').innerHTML=!user?'':g.length?g.map(n=>{const it=items.find(i=>i.game===n)||{};return `<div class="fav" data-g="${esc(n)}">${ICON(it)?`<img src="${ICON(it)}" alt="">`:''}<span>${esc(GN(n))}</span><button class="rm" data-rm="${esc(n)}" title="${T('clear')}">✕</button></div>`}).join(''):'<small style="color:var(--mute)">'+T('fav_hint')+'</small>';
 }
+function profForm(){const p=FB.profile();
+ return `<div class="prof"><b style="color:var(--tx);font-size:13px">${T('profile')}</b><label>${T('nick')}<input id="pfNick" maxlength="20" placeholder="${T('nick_ph')}" value="${esc(p.nick)}"></label>
+ <label>${T('country')}<span style="color:var(--tx);font-size:14px">${p.country?FLAG(p.country)+esc(CNAME(p.country)):'-'}</span><small>${T('country_auto')}</small></label><button id="pfSave">${T('save')}</button><small id="pfMsg"></small></div>`}
+async function saveProf(){const n=$('pfNick').value.trim(),m=$('pfMsg');
+ if(n.length<2||n.length>20){m.style.color='var(--down)';m.textContent=T('nick_len');return}
+ try{await FB.saveProfile(n);user.name=n;$('loginTxt').textContent=n;m.style.color='var(--up)';m.textContent=T('saved');$('who').querySelector('*')&&($('who').firstChild.textContent=T('hi',n));if(cur)drawCm()}
+ catch(e){console.error(e);m.style.color='var(--down)';m.textContent=T('save_fail')}}
 function openDrawer(){$('drawer').classList.add('open');$('shade').classList.add('open')}
 function closeDrawer(){$('drawer').classList.remove('open');$('shade').classList.remove('open')}
-function detail(i){
+function detail(o){
+ const i={...o,...TX(o)};
  const url=typeof i.appid==='string'?i.url:`https://store.steampowered.com/news/app/${i.appid}/view/${i.gid}`;
- const bal=(i.buffs.length||i.nerfs.length)?`<div class="tags"><div class="box up"><h3>▲ 상향</h3>${li(i.buffs)||'<small>없음</small>'}</div><div class="box down"><h3>▼ 하향</h3>${li(i.nerfs)||'<small>없음</small>'}</div></div>`:'';
- return `<button class="x" onclick="closeDlg()">×</button>${ICON(i)?`<img class="hero" src="${ICON(i)}" alt="">`:`<div class="hero txtban">${esc(i.game)}</div>`}<button class="star${favs.has(i.game)&&user?' on':''}" data-fav="${esc(i.game)}" title="이 게임을 즐겨찾기">${favs.has(i.game)&&user?'★ 즐겨찾는 게임':'☆ 게임 즐겨찾기'}</button>
-  <div class="meta"><span class="game">${esc(i.game)}</span>·<span>${new Date(i.date*1000).toLocaleDateString('ko-KR')}</span></div>
+ const bal=(i.buffs.length||i.nerfs.length)?`<div class="tags"><div class="box up"><h3>${T('buffs')}</h3>${li(i.buffs)||'<small>'+T('none')+'</small>'}</div><div class="box down"><h3>${T('nerfs')}</h3>${li(i.nerfs)||'<small>'+T('none')+'</small>'}</div></div>`:'';
+ return `<button class="x" onclick="closeDlg()">×</button>${ICON(i)?`<img class="hero" src="${ICON(i)}" alt="">`:`<div class="hero txtban" style="${BANBG(i)}">${BANTX(i)}</div>`}<button class="star${favs.has(i.game)&&user?' on':''}" data-fav="${esc(i.game)}" title="${T('fav_game_t')}">${favs.has(i.game)&&user?T('fav_on'):T('fav_off')}</button>
+  <div class="meta"><span class="game">${esc(GN(i.game))}</span>·<span>${new Date(i.date*1000).toLocaleDateString(LOC)}</span></div>
   <h2>${esc(i.title)}</h2><p class="sum">${esc(i.summary)}</p>${li(i.highlights)}${bal}
-  ${i.fixes.length?`<details><summary>버그 수정 ${i.fixes.length}건</summary>${li(i.fixes)}</details>`:''}
-  <div class="foot"><div class="src">원문: <a href="${url}" target="_blank" rel="noopener">${esc(i.origTitle)}</a></div><button class="allp" data-all="${esc(i.game)}">${esc(i.game)} 모든 패치 보기 →</button></div>
-  <div class="cm" id="cm"><small style="color:var(--mute)">평점·댓글 불러오는 중…</small></div>`;
+  ${i.fixes.length?`<details><summary>${T('fixes',i.fixes.length)}</summary>${li(i.fixes)}</details>`:''}
+  <div class="foot"><div class="src">${T('source')}<a href="${url}" target="_blank" rel="noopener">${esc(i.origTitle)}</a></div><button class="allp" data-all="${esc(i.game)}">${esc(T('all_patches',GN(i.game)))}</button></div>
+  <div class="cm" id="cm"><small style="color:var(--mute)">${T('cm_loading')}</small></div>`;
 }
 // 게임 정보 페이지가 있는 게임: 그 게임 패치만 볼 때 [게임 정보 보기] 버튼이 나타남
 const INFO={"리그 오브 레전드":"lol.html","전략적 팀 전투":"","포켓몬 챔피언스":"pkc.html","하스스톤":"","하스스톤 (전장)":"hs.html"};
-function syncTog(){const on=$("onlyFav").checked;$("favTog").classList.toggle("on",on);$("favTog").textContent=(on?"★":"☆")+" 즐겨찾기"}
+function syncTog(){const on=$("onlyFav").checked;$("favTog").classList.toggle("on",on);$("favTog").textContent=(on?"★":"☆")+" "+T('fav')}
 function chips(){
  const c=[],g=$('g').value,dv=$('day').value,q=$('q').value.trim();
- if(g)c.push(['g',esc(g)+' 패치']);
- if($('onlyFav').checked&&user)c.push(['fav','★ 즐겨찾기한 게임']);
+ if(g)c.push(['g',esc(T('patches_of',GN(g)))]);
+ if($('onlyFav').checked&&user)c.push(['fav',T('fav_chip')]);
  if(dv)c.push(['day',dv.replace(/-/g,'. ')+'.']);
- if(q)c.push(['q','검색: '+esc(q)]);
- $('chips').innerHTML=c.map(([k,t])=>`<span class="chip">${t}<button data-clr="${k}" title="풀기">✕</button></span>`).join('')+(c.length>1?'<button class="chip reset" data-clr="all">모두 풀기</button>':'');
+ if(q)c.push(['q',esc(T('search',q))]);
+ $('chips').innerHTML=c.map(([k,t])=>`<span class="chip">${t}<button data-clr="${k}" title="${T('clear')}">✕</button></span>`).join('')+(c.length>1?'<button class="chip reset" data-clr="all">'+T('clear_all')+'</button>':'');
 }
 function clearF(k){
  if(k==='g'||k==='all')$('g').value='';
@@ -168,9 +202,9 @@ function render(more){
  const part=shown.slice(0,limit),days=new Map();
  part.forEach((i,n)=>{const k=dayKey(i.date);if(!days.has(k))days.set(k,[]);days.get(k).push([i,n])});
  $('list').innerHTML=[...days].map(([d,a])=>{const cnt=shown.filter(i=>i._k===d).length;
-  return `<section class="day"><h2>${d} · ${cnt}건</h2><div class="tiles">`+a.map(([i,n])=>`<div class="tile" data-i="${n}">${favs.has(i.game)&&user?'<span class="fs">★</span>':''}
-   <div class="ic${ICON(i)?'':' txt'}" style="${ICON(i)?`background-image:url('${ICON(i)}')`:''}">${ICON(i)?'':esc(i.game)}</div>
-   <div class="nm">${esc(i.game)}</div><div class="tt">${esc(i.title)}</div></div>`).join('')+'</div></section>'}).join('')+(shown.length>limit?'<div id="more" style="height:40px"></div>':'')||'<p>결과가 없습니다.</p>';
+  return `<section class="day"><h2>${d} · ${T('count',cnt)}</h2><div class="tiles">`+a.map(([i,n])=>`<div class="tile" data-i="${n}">${favs.has(i.game)&&user?'<span class="fs">★</span>':''}
+   <div class="ic${ICON(i)?'':' txt'}" style="${ICON(i)?`background-image:url('${ICON(i)}')`:BANBG(i)}">${ICON(i)?'':BANTX(i)}</div>
+   <div class="nm">${esc(GN(i.game))}</div><div class="tt">${esc(TX(i).title)}</div></div>`).join('')+'</div></section>'}).join('')+(shown.length>limit?'<div id="more" style="height:40px"></div>':'')||'<p>'+T('no_results')+'</p>';
  // 아래로 내리면 60개씩 더 그림
  if(io)io.disconnect();
  const m=$('more');if(m){io=new IntersectionObserver(e=>{if(e[0].isIntersecting){limit+=60;render(true)}},{rootMargin:'600px'});io.observe(m)}
@@ -179,49 +213,53 @@ function closeDlg(){$('dlg').classList.remove('open');cur=null}
 // ===== 커뮤니티: 별점 + 댓글(좋아요/싫어요) — Firestore patches/{pid} =====
 let cur=null,cmSort='new';
 const PID=i=>String(i.gid||i.url).replace(/[/.#$[]]/g,'_').slice(0,500);
-const ago=t=>{if(!t)return '방금';const s=(Date.now()-t.toMillis())/1000;return s<60?'방금':s<3600?Math.floor(s/60)+'분 전':s<86400?Math.floor(s/3600)+'시간 전':s<2592000?Math.floor(s/86400)+'일 전':t.toDate().toLocaleDateString('ko-KR')};
+const ago=t=>{if(!t)return T('just');const s=(Date.now()-t.toMillis())/1000;return s<60?T('just'):s<3600?T('m_ago',Math.floor(s/60)):s<86400?T('h_ago',Math.floor(s/3600)):s<2592000?T('d_ago',Math.floor(s/86400)):t.toDate().toLocaleDateString(LOC)};
 async function loadCm(i){
- cur={pid:PID(i),stars:{},list:[]};const pid=cur.pid;
+ cur={pid:PID(i),stars:{},ctry:{},list:[]};const pid=cur.pid;
  if(!window.FB){setTimeout(()=>cur&&cur.pid===pid&&loadCm(i),500);return}
- try{const [s,l]=await Promise.all([FB.getStars(pid),FB.comments(pid)]);if(!cur||cur.pid!==pid)return;cur.stars=s;cur.list=l;drawCm()}
- catch(e){console.error('커뮤니티 불러오기 실패',e);const el=$('cm');if(el)el.innerHTML='<small style="color:var(--mute)">평점·댓글을 불러오지 못했습니다.</small>'}
+ try{const [s,l]=await Promise.all([FB.getStars(pid),FB.comments(pid)]);if(!cur||cur.pid!==pid)return;cur.stars=s.stars;cur.ctry=s.ctry;cur.list=l;drawCm()}
+ catch(e){console.error('커뮤니티 불러오기 실패',e);const el=$('cm');if(el)el.innerHTML='<small style="color:var(--mute)">'+T('cm_fail')+'</small>'}
 }
+function ctryLine(){const g={};for(const [u,n] of Object.entries(cur.stars)){const c=cur.ctry[u]||'';if(!c)continue;(g[c]=g[c]||[]).push(n)}
+ const a=Object.entries(g).sort((x,y)=>y[1].length-x[1].length).slice(0,12);if(!a.length)return '';
+ return '<div class="ctry" title="'+T('by_country')+'">'+a.map(([c,v])=>`<span>${FLAG(c)}${esc(CNAME(c))}<b>★${(v.reduce((s,x)=>s+x,0)/v.length).toFixed(1)}</b>(${v.length})</span>`).join('')+'</div>'}
 function drawCm(){
  const el=$('cm');if(!el||!cur)return;const me=user&&FB.uid();
  const v=Object.values(cur.stars),avg=v.length?(v.reduce((a,b)=>a+b,0)/v.length):0,mine=me?cur.stars[me]||0:0;
  const sc=c=>Object.keys(c.up||{}).length-Object.keys(c.down||{}).length;
  const list=[...cur.list].sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);
- el.innerHTML=`<h3>이 패치 어땠나요?</h3><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ -'}</span><small>${v.length}명 평가</small>
-  <span class="stars" title="${me?'내 별점':'로그인하면 별점을 줄 수 있습니다'}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${mine?'<small>내 별점 '+mine+'점</small>':''}</div>
-  <h3>댓글 ${cur.list.length}</h3>
-  <div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?'이 패치에 대한 생각을 남겨 주세요':'로그인하면 댓글을 쓸 수 있습니다'}"></textarea><button data-post>등록</button></div>
-  ${cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">최신순</button><button data-sort="best" class="${cmSort==='best'?'on':''}">추천순</button></div>`:''}
+ el.innerHTML=`<h3>${T('cm_q')}</h3><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ -'}</span><small>${T('rated',v.length)}</small>
+  <span class="stars" title="${me?T('my_star_t'):T('login_star_t')}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${mine?'<small>'+T('my_star',mine)+'</small>':''}</div>${ctryLine()}
+  <h3>${T('comments',cur.list.length)}</h3>
+  <div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?T('cm_ph'):T('cm_ph_login')}"></textarea><button data-post>${T('post')}</button></div>
+  ${cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">${T('newest')}</button><button data-sort="best" class="${cmSort==='best'?'on':''}">${T('best')}</button></div>`:''}
   ${list.map(c=>{const u=me&&c.up&&c.up[me],d=me&&c.down&&c.down[me],st=cur.stars[c.uid];
-   return `<div class="cmi"><div class="h"><b>${esc(c.name||'사용자')}</b>${st?'<span class="st">'+'★'.repeat(st)+'</span>':''}<span>${ago(c.ts)}</span>${me===c.uid?`<button class="del" data-del="${c.id}">삭제</button>`:''}</div>
-   <p>${esc(c.text)}</p><div class="v"><button class="u${u?' on':''}" data-vote="${c.id}" data-v="1">👍 ${Object.keys(c.up||{}).length}</button><button class="d${d?' on':''}" data-vote="${c.id}" data-v="-1">👎 ${Object.keys(c.down||{}).length}</button></div></div>`}).join('')||'<small style="color:var(--mute)">첫 댓글을 남겨 보세요.</small>'}`;
+   return `<div class="cmi"><div class="h"><b>${FLAG(c.country)}${esc(c.name||T('user'))}</b>${st?'<span class="st">'+'★'.repeat(st)+'</span>':''}<span>${ago(c.ts)}</span>${me===c.uid?`<button class="del" data-del="${c.id}">${T('del')}</button>`:''}</div>
+   <p>${esc(c.text)}</p><div class="v"><button class="u${u?' on':''}" data-vote="${c.id}" data-v="1">👍 ${Object.keys(c.up||{}).length}</button><button class="d${d?' on':''}" data-vote="${c.id}" data-v="-1">👎 ${Object.keys(c.down||{}).length}</button></div></div>`}).join('')||'<small style="color:var(--mute)">'+T('first_cm')+'</small>'}`;
 }
 function cmErr(m){console.error(m);const el=$('cm');if(!el)return;let t=el.querySelector('.cmerr');if(!t){t=document.createElement('small');t.className='cmerr';t.style.cssText='color:var(--down);display:block;margin-bottom:8px';el.prepend(t)}t.textContent=m;clearTimeout(t._h);t._h=setTimeout(()=>t.remove(),3000)}
-function needLogin(){if(user)return false;closeDlg();alertLogin();return true}
+function needLogin(){if(!user){closeDlg();alertLogin();return true}
+ if(!FB.profile().nick){cmErr(T('nick_need'));closeDlg();openDrawer();setTimeout(()=>$('pfNick')&&$('pfNick').focus(),200);return true}return false}
 $('body').addEventListener('click',async e=>{
  if(!cur)return;const pid=cur.pid,me=user&&FB.uid();
- const r=e.target.closest('[data-rate]');if(r){if(needLogin())return;let n=+r.dataset.rate;if(cur.stars[me]===n){n=0;delete cur.stars[me]}else cur.stars[me]=n;drawCm();FB.rate(pid,n).catch(async er=>{console.error(er);try{cur.stars=await FB.getStars(pid)}catch(_){}drawCm();cmErr('별점을 저장하지 못했습니다.')});return}
+ const r=e.target.closest('[data-rate]');if(r){if(needLogin())return;let n=+r.dataset.rate;if(cur.stars[me]===n){n=0;delete cur.stars[me];delete cur.ctry[me]}else{cur.stars[me]=n;cur.ctry[me]=FB.profile().country||''}drawCm();FB.rate(pid,n).catch(async er=>{console.error(er);try{const s=await FB.getStars(pid);cur.stars=s.stars;cur.ctry=s.ctry}catch(_){}drawCm();cmErr(T('err_star'))});return}
  const s=e.target.closest('[data-sort]');if(s){cmSort=s.dataset.sort;drawCm();return}
  if(e.target.closest('[data-post]')){if(needLogin())return;const t=$('cmTxt').value.trim();if(!t)return;e.target.disabled=true;
-  try{await FB.addComment(pid,t);cur.list=await FB.comments(pid);drawCm()}catch(er){console.error(er);e.target.disabled=false;cmErr('댓글을 등록하지 못했습니다.')}return}
- const d=e.target.closest('[data-del]');if(d){try{await FB.delComment(pid,d.dataset.del);cur.list=cur.list.filter(c=>c.id!==d.dataset.del);drawCm()}catch(er){console.error(er);cmErr('삭제하지 못했습니다.')}return}
+  try{await FB.addComment(pid,t);cur.list=await FB.comments(pid);drawCm()}catch(er){console.error(er);e.target.disabled=false;cmErr(T('err_post'))}return}
+ const d=e.target.closest('[data-del]');if(d){try{await FB.delComment(pid,d.dataset.del);cur.list=cur.list.filter(c=>c.id!==d.dataset.del);drawCm()}catch(er){console.error(er);cmErr(T('err_del'))}return}
  const vb=e.target.closest('[data-vote]');if(vb){if(needLogin())return;const c=cur.list.find(x=>x.id===vb.dataset.vote);if(!c)return;
   const want=+vb.dataset.v,now=c.up&&c.up[me]?1:c.down&&c.down[me]?-1:0,v=now===want?0:want;
   c.up={...c.up};c.down={...c.down};delete c.up[me];delete c.down[me];if(v===1)c.up[me]=true;if(v===-1)c.down[me]=true;drawCm();
-  FB.vote(pid,c.id,v).catch(async er=>{console.error(er);try{cur.list=await FB.comments(pid)}catch(_){}drawCm();cmErr('투표를 저장하지 못했습니다.')})}
+  FB.vote(pid,c.id,v).catch(async er=>{console.error(er);try{cur.list=await FB.comments(pid)}catch(_){}drawCm();cmErr(T('err_vote'))})}
 });
 
 $('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
 addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
 $('list').onclick=e=>{const t=e.target.closest('.tile');if(t){$('body').innerHTML=detail(shown[+t.dataset.i]);$('dlg').classList.add('open');$('dlg').scrollTop=0;loadCm(shown[+t.dataset.i])}};
 fetch('data.json').then(r=>r.json()).then(d=>{
- items=d.items.sort((a,b)=>b.date-a.date); ICONS=d.icons||{};
- items.forEach(i=>{i._d=new Date(i.date*1000).toLocaleDateString('sv');i._k=dayKey(i.date);i._s=[i.game,i.title,i.origTitle,i.summary,...(i.highlights||[]),...(i.buffs||[]),...(i.nerfs||[]),...(i.fixes||[])].join(' ').toLowerCase()});
- $('upd').textContent='마지막 갱신 '+new Date(d.updated).toLocaleString('ko-KR');
+ items=d.items.sort((a,b)=>b.date-a.date); ICONS=d.icons||{}; NAMES=window.NAMES=d.names||{};
+ items.forEach(i=>{i._d=new Date(i.date*1000).toLocaleDateString('sv');i._k=dayKey(i.date);const x=TX(i);i._s=[i.game,GN(i.game),x.title,i.origTitle,x.summary,...(x.highlights||[]),...(x.buffs||[]),...(x.nerfs||[]),...(x.fixes||[])].join(' ').toLowerCase()});
+ $('upd').textContent=T('updated')+new Date(d.updated).toLocaleString(LOC);
  const P=new URLSearchParams(location.search);
  if(P.get('game'))setGame(P.get('game'));
  if(P.get('fav'))$('onlyFav').checked=true;
@@ -234,8 +272,8 @@ $('chips').onclick=e=>{const b=e.target.closest('[data-clr]');if(b)clearF(b.data
 $('menu').onclick=openDrawer;
 $('favTog').onclick=()=>{if(!user){alertLogin();return}$('onlyFav').checked=!$('onlyFav').checked;render()};
 $('favHead').onclick=()=>{if(!user){alertLogin();return}$('onlyFav').checked=true;$('g').value='';$('day').value='';$('q').value='';render();closeDrawer();scrollTo(0,0)};$('shade').onclick=closeDrawer;
-$('login').onclick=()=>{ if(user){openDrawer();return} if(!window.FB){alert('로그인 모듈을 불러오는 중입니다. 잠시 후 다시 눌러 주세요.');return} FB.login().catch(e=>{console.error(e);alert('로그인 실패: '+(e.code||e.message))}) };
-$('body').onclick=e=>{const al=e.target.closest('[data-all]');if(al){$('q').value='';$('day').value='';$('onlyFav').checked=false;setGame(al.dataset.all);render();closeDlg();scrollTo(0,0);return}const b=e.target.closest('[data-fav]');if(!b)return;if(toggleFav(b.dataset.fav)){const on=favs.has(b.dataset.fav);b.classList.toggle('on',on);b.textContent=on?'★ 즐겨찾는 게임':'☆ 게임 즐겨찾기'}};
+$('login').onclick=()=>{ if(user){openDrawer();return} if(!window.FB){alert(T('login_loading'));return} FB.login().catch(e=>{console.error(e);alert(T('login_fail')+(e.code||e.message))}) };
+$('body').onclick=e=>{const al=e.target.closest('[data-all]');if(al){$('q').value='';$('day').value='';$('onlyFav').checked=false;setGame(al.dataset.all);render();closeDlg();scrollTo(0,0);return}const b=e.target.closest('[data-fav]');if(!b)return;if(toggleFav(b.dataset.fav)){const on=favs.has(b.dataset.fav);b.classList.toggle('on',on);b.textContent=on?T('fav_on'):T('fav_off')}};
 $('favs').onclick=e=>{const r=e.target.closest('[data-rm]');if(r){favs.delete(r.dataset.rm);saveFavs();drawUser();render();return}
  const f=e.target.closest('[data-g]');if(f){setGame(f.dataset.g);render();closeDrawer();scrollTo(0,0)}};
 </script>

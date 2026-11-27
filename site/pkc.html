@@ -47,7 +47,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 </head>
 <body>
 <header><div class="wrap">
- <div class="top"><h1><a href="index.html"><b>패치</b>노트 모음</a> · 포켓몬 챔피언스</h1>
+ <div class="top"><h1><a href="index.html"><b>Patch</b>work</a> · 포켓몬 챔피언스</h1>
   <nav><button data-t="mons" class="on">포켓몬</button><button data-t="moves">기술</button><button data-t="abil">특성</button><button data-t="items">도구</button><button data-t="chart">타입 상성</button></nav></div>
  <div class="bar"><input id="q" placeholder="이름이나 효과 검색 (예: 리자몽, 순풍)"><select id="f"></select></div>
 </div></header>
@@ -144,6 +144,7 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.query
 $('q').oninput=render;$('f').onchange=render;
 fetch('pkc/data.json').then(r=>r.json()).then(d=>{D=d;filters();render()});
 </script>
+<script src="i18n.js"></script>
 <script src="nav.js"></script>
 <script src="foot.js"></script>
 </body>

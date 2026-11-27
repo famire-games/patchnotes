@@ -3,3 +3,6 @@ update.log
 node_modules/
 _*.mjs
 _*.cjs
+.wrangler/
+geo/.wrangler/
+*adminsdk*.json

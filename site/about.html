@@ -1,30 +1,118 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>사이트 소개 — 패치노트 모음</title>
-<meta name="description" content="여러 게임의 패치노트를 한국어로 요약해 날짜별로 모아 보는 비공식 팬 사이트입니다.">
+<link rel="alternate" hreflang="en" href="https://famire-games.github.io/patchnotes/about.html?lang=en">
+<link rel="alternate" hreflang="ko" href="https://famire-games.github.io/patchnotes/about.html?lang=ko">
+<link rel="alternate" hreflang="ja" href="https://famire-games.github.io/patchnotes/about.html?lang=ja">
+<link rel="alternate" hreflang="zh-Hans" href="https://famire-games.github.io/patchnotes/about.html?lang=zh">
+<link rel="alternate" hreflang="pt-BR" href="https://famire-games.github.io/patchnotes/about.html?lang=pt">
+<link rel="alternate" hreflang="x-default" href="https://famire-games.github.io/patchnotes/about.html">
+<title>About — Patchwork</title>
+<meta name="description" content="An unofficial fan site that collects and summarizes game patch notes by date.">
 <link rel="stylesheet" href="page.css">
+<script src="i18n.js"></script>
+<style>main[data-l]{display:none}main[data-l].on{display:block}</style>
 </head>
 <body>
-<header><div class="wrap"><div class="top"><h1><a href="index.html"><b>패치</b>노트 모음</a> · 사이트 소개</h1></div></div></header>
-<main class="wrap doc">
+<header><div class="wrap"><div class="top"><h1><a href="index.html"><b>Patch</b>work</a> · <span id="pt"></span></h1></div></div></header>
+
+<main class="wrap doc" data-l="en" data-t="About">
+<h2>What is this site?</h2>
+<p>Patchwork gathers update and patch notes from many games in one place, summarizes them briefly, and splits out buffs, nerfs and bug fixes. You can read summaries in English, Korean, Japanese, Chinese and Portuguese, even for games that only publish notes in one language.</p>
+<h2>How is it made?</h2>
+<ul>
+<li>Every day it collects new announcements from <b>official sources</b> such as Steam announcements (Steam Web API) and publishers' official patch notes.</li>
+<li>AI (Google Gemini) summarizes the original text. It is told not to add anything that is not in the source, and every summary links to the <b>original</b>.</li>
+<li>For games whose terms do not allow automatic collection (e.g. Hearthstone, Pokémon Champions), the operator reads the official announcement and writes the summary by hand.</li>
+<li>Game info pages are built from official APIs and public data (Blizzard Battle.net API, Riot Data Dragon, PokeAPI, etc.).</li>
+</ul>
+<h2>Community</h2>
+<p>Logged-in users can rate each patch and leave comments under a nickname. Your country is shown next to your nickname; it is detected automatically from your connection and cannot be chosen by hand.</p>
+<h2>Please note</h2>
+<p>AI summaries can be wrong. Always check the original for important details. If you find a mistake or a rights issue, contact us below and we will fix or remove it right away.</p>
+<h2>Operator & contact</h2>
+<p>Run by an individual (non-commercial fan project) · Email: <a href="mailto:meph0333@gmail.com">meph0333@gmail.com</a></p>
+</main>
+
+<main class="wrap doc" data-l="ko" data-t="사이트 소개">
 <h2>무엇을 하는 사이트인가요?</h2>
-<p>여러 게임의 업데이트·패치노트를 한곳에 모아, 한국어로 짧게 요약하고 상향·하향·버그 수정을 나눠 보여 줍니다. 영어로만 나오는 해외 게임 패치도 한국어로 빠르게 확인할 수 있습니다.</p>
+<p>여러 게임의 업데이트·패치노트를 한곳에 모아 짧게 요약하고, 상향·하향·버그 수정을 나눠 보여 줍니다. 한 언어로만 나오는 해외 게임 패치도 한국어·영어·일본어·중국어·포르투갈어로 볼 수 있습니다.</p>
 <h2>어떻게 만들어지나요?</h2>
 <ul>
-<li>스팀 공지(Steam Web API), 라이엇 게임즈 공식 패치노트 등 <b>공식 출처</b>에서 매일 새 공지를 모읍니다.</li>
-<li>AI(Google Gemini)가 원문을 한국어로 요약합니다. 원문에 없는 내용은 쓰지 않도록 하고, 모든 글에 <b>원문 링크</b>를 붙입니다.</li>
+<li>스팀 공지(Steam Web API), 게임사 공식 패치노트 등 <b>공식 출처</b>에서 매일 새 공지를 모읍니다.</li>
+<li>AI(Google Gemini)가 원문을 요약합니다. 원문에 없는 내용은 쓰지 않도록 하고, 모든 글에 <b>원문 링크</b>를 붙입니다.</li>
 <li>자동 수집이 허용되지 않는 게임(하스스톤, 포켓몬 챔피언스 등)은 운영자가 공식 발표를 읽고 직접 정리합니다.</li>
 <li>게임 정보 페이지는 각 게임사의 공식 API·공개 데이터(Blizzard Battle.net API, Riot Data Dragon, PokeAPI 등)로 만듭니다.</li>
 </ul>
+<h2>커뮤니티</h2>
+<p>로그인하면 패치마다 별점을 주고 닉네임으로 댓글을 남길 수 있습니다. 닉네임 옆에는 국가가 표시되며, 국가는 접속 위치로 자동으로 정해지고 직접 고를 수 없습니다.</p>
 <h2>주의</h2>
 <p>AI 요약은 틀릴 수 있습니다. 중요한 내용은 반드시 원문을 확인해 주세요. 잘못된 내용이나 권리 침해가 있으면 아래로 알려 주시면 바로 고치거나 내립니다.</p>
 <h2>운영·문의</h2>
 <p>운영: 개인(비영리 팬 프로젝트) · 이메일: <a href="mailto:meph0333@gmail.com">meph0333@gmail.com</a></p>
 </main>
+
+<main class="wrap doc" data-l="ja" data-t="サイト紹介">
+<h2>どんなサイトですか？</h2>
+<p>さまざまなゲームのアップデート・パッチノートを一か所に集めて短く要約し、強化・弱体化・バグ修正に分けて表示します。1つの言語でしか公開されない海外ゲームのパッチも、日本語・英語・韓国語・中国語・ポルトガル語で読めます。</p>
+<h2>どうやって作っていますか？</h2>
+<ul>
+<li>Steam のお知らせ（Steam Web API）や各社公式パッチノートなど、<b>公式の情報源</b>から毎日新しいお知らせを集めます。</li>
+<li>AI（Google Gemini）が原文を要約します。原文にない内容は書かないようにし、すべての記事に<b>原文リンク</b>を付けています。</li>
+<li>自動収集が認められていないゲーム（ハースストーン、ポケモンチャンピオンズなど）は、運営者が公式発表を読んで手作業でまとめます。</li>
+<li>ゲーム情報ページは各社の公式 API・公開データ（Blizzard Battle.net API、Riot Data Dragon、PokeAPI など）から作っています。</li>
+</ul>
+<h2>コミュニティ</h2>
+<p>ログインすると、パッチごとに評価をつけたり、ニックネームでコメントしたりできます。ニックネームの横には国が表示されます。国は接続元から自動で判定され、自分で選ぶことはできません。</p>
+<h2>ご注意</h2>
+<p>AI の要約は間違うことがあります。重要な内容は必ず原文をご確認ください。誤りや権利侵害があれば下記までご連絡いただければ、すぐに修正・削除します。</p>
+<h2>運営・お問い合わせ</h2>
+<p>運営：個人（非営利のファンプロジェクト）・メール：<a href="mailto:meph0333@gmail.com">meph0333@gmail.com</a></p>
+</main>
+
+<main class="wrap doc" data-l="zh" data-t="关于本站">
+<h2>这是什么网站？</h2>
+<p>Patchwork 将众多游戏的更新与补丁说明汇集在一处，进行简短摘要，并分为增强、削弱和错误修复展示。即使是只以一种语言发布的海外游戏补丁，也能用中文、英语、韩语、日语和葡萄牙语阅读。</p>
+<h2>内容是怎么来的？</h2>
+<ul>
+<li>每天从 Steam 公告（Steam Web API）及各厂商官方补丁说明等<b>官方来源</b>收集新公告。</li>
+<li>由 AI（Google Gemini）对原文进行摘要。要求不得编写原文中没有的内容，并且每篇摘要都附有<b>原文链接</b>。</li>
+<li>对于不允许自动收集的游戏（如炉石传说、宝可梦冠军），由运营者阅读官方公告后手动整理。</li>
+<li>游戏信息页面基于各厂商的官方 API 和公开数据（Blizzard Battle.net API、Riot Data Dragon、PokeAPI 等）制作。</li>
+</ul>
+<h2>社区</h2>
+<p>登录后可以为每个补丁评分，并以昵称发表评论。昵称旁会显示国家/地区，它根据访问位置自动判定，无法手动选择。</p>
+<h2>注意</h2>
+<p>AI 摘要可能有误。重要内容请务必查看原文。如发现错误或侵权，请通过下方联系方式告知，我们会立即修改或删除。</p>
+<h2>运营与联系</h2>
+<p>运营：个人（非商业粉丝项目）· 邮箱：<a href="mailto:meph0333@gmail.com">meph0333@gmail.com</a></p>
+</main>
+
+<main class="wrap doc" data-l="pt" data-t="Sobre">
+<h2>O que é este site?</h2>
+<p>O Patchwork reúne as notas de atualização de vários jogos num só lugar, resume tudo de forma breve e separa buffs, nerfs e correções de bugs. Você pode ler os resumos em português, inglês, coreano, japonês e chinês, mesmo de jogos que publicam as notas em um só idioma.</p>
+<h2>Como é feito?</h2>
+<ul>
+<li>Todos os dias coletamos novos anúncios de <b>fontes oficiais</b>, como os anúncios da Steam (Steam Web API) e as notas oficiais das empresas.</li>
+<li>Uma IA (Google Gemini) resume o texto original. Ela é instruída a não incluir nada que não esteja na fonte, e todo resumo traz o <b>link do original</b>.</li>
+<li>Para jogos cujos termos não permitem coleta automática (como Hearthstone e Pokémon Champions), o responsável lê o anúncio oficial e escreve o resumo à mão.</li>
+<li>As páginas de informações dos jogos usam APIs oficiais e dados públicos (Blizzard Battle.net API, Riot Data Dragon, PokeAPI etc.).</li>
+</ul>
+<h2>Comunidade</h2>
+<p>Usuários logados podem avaliar cada patch e comentar usando um apelido. O país aparece ao lado do apelido; ele é detectado automaticamente pela sua conexão e não pode ser escolhido manualmente.</p>
+<h2>Atenção</h2>
+<p>Resumos feitos por IA podem conter erros. Confira sempre o original para detalhes importantes. Se encontrar um erro ou problema de direitos, entre em contato abaixo e corrigiremos ou removeremos o conteúdo imediatamente.</p>
+<h2>Responsável e contato</h2>
+<p>Mantido por uma pessoa (projeto de fã sem fins lucrativos) · E-mail: <a href="mailto:meph0333@gmail.com">meph0333@gmail.com</a></p>
+</main>
+
 <footer class="wrap" id="foot"></footer>
+<script>
+{const m=document.querySelector(`main[data-l="${LANG}"]`)||document.querySelector('main[data-l="en"]');m.classList.add('on');
+ document.getElementById('pt').textContent=m.dataset.t;document.title=m.dataset.t+' — Patchwork';document.documentElement.lang=m.dataset.l}
+</script>
 <script src="foot.js"></script>
 </body>
 </html>

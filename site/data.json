@@ -7675,5 +7675,773 @@
   "4162040": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162040/22b56d833834d90674b30498f78e0839e48792db/header_alt_assets_2.jpg?t=1792533213",
   "4732690": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732690/28ddc0e937d3aeae5357541417d2c6af792a85f4/header.jpg?t=1795558796",
   "5019180": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5019180/6dabc3f404b51e08ab22763d3df4808081baa5e0/header.jpg?t=1795595091"
+ },
+ "names": {
+  "리그 오브 레전드": {
+   "pt": "League of Legends",
+   "ja": "リーグ・オブ・レジェンド",
+   "zh": "英雄联盟",
+   "en": "League of Legends"
+  },
+  "전략적 팀 전투": {
+   "pt": "Teamfight Tactics",
+   "ja": "チームファイト タクティクス",
+   "zh": "云顶之弈",
+   "en": "Teamfight Tactics"
+  },
+  "발로란트": {
+   "pt": "VALORANT",
+   "ja": "VALORANT",
+   "zh": "VALORANT",
+   "en": "VALORANT"
+  },
+  "오버워치": {
+   "pt": "Overwatch",
+   "ja": "オーバーウォッチ",
+   "zh": "守望先锋",
+   "en": "Overwatch"
+  },
+  "원신": {
+   "pt": "Genshin Impact",
+   "ja": "原神",
+   "zh": "原神",
+   "en": "Genshin Impact"
+  },
+  "붕괴: 스타레일": {
+   "pt": "Honkai: Star Rail",
+   "ja": "崩壊：スターレイル",
+   "zh": "崩坏：星穹铁道",
+   "en": "Honkai: Star Rail"
+  },
+  "블루 아카이브": {
+   "pt": "Blue Archive",
+   "ja": "ブルーアーカイブ",
+   "zh": "蔚蓝档案",
+   "en": "Blue Archive"
+  },
+  "마비노기 모바일": {
+   "pt": "Mabinogi Mobile",
+   "ja": "Mabinogi Mobile",
+   "zh": "Mabinogi Mobile",
+   "en": "Mabinogi Mobile"
+  },
+  "메이플스토리M": {
+   "pt": "MapleStory M",
+   "ja": "MapleStory M",
+   "zh": "MapleStory M",
+   "en": "MapleStory M"
+  },
+  "카트라이더 러쉬플러스": {
+   "pt": "KartRider Rush+",
+   "ja": "KartRider Rush+",
+   "zh": "KartRider Rush+",
+   "en": "KartRider Rush+"
+  },
+  "메이플스토리 월드": {
+   "pt": "MapleStory Worlds",
+   "ja": "MapleStory Worlds",
+   "zh": "MapleStory Worlds",
+   "en": "MapleStory Worlds"
+  },
+  "승리의 여신: 니케": {
+   "pt": "GODDESS OF VICTORY: NIKKE",
+   "ja": "勝利の女神：NIKKE",
+   "zh": "胜利女神：妮姬",
+   "en": "GODDESS OF VICTORY: NIKKE"
+  },
+  "트릭컬 리바이브": {
+   "pt": "Trickcal",
+   "ja": "Trickcal",
+   "zh": "Trickcal",
+   "en": "Trickcal"
+  },
+  "메이플스토리": {
+   "pt": "MapleStory",
+   "ja": "メイプルストーリー",
+   "zh": "冒险岛",
+   "en": "MapleStory"
+  },
+  "FC 온라인": {
+   "pt": "FC Online",
+   "ja": "FC Online",
+   "zh": "FC Online",
+   "en": "FC Online"
+  },
+  "디아블로 IV": {
+   "pt": "Diablo IV",
+   "ja": "ディアブロ IV",
+   "zh": "暗黑破坏神 IV",
+   "en": "Diablo IV"
+  },
+  "월드 오브 워크래프트": {
+   "pt": "World of Warcraft",
+   "ja": "ワールド オブ ウォークラフト",
+   "zh": "魔兽世界",
+   "en": "World of Warcraft"
+  },
+  "하스스톤": {
+   "pt": "Hearthstone",
+   "ja": "ハースストーン",
+   "zh": "炉石传说",
+   "en": "Hearthstone"
+  },
+  "하스스톤 (전장)": {
+   "pt": "Hearthstone (Campos de Batalha)",
+   "ja": "ハースストーン (バトルグラウンド)",
+   "zh": "炉石传说 (酒馆战棋)",
+   "en": "Hearthstone (Battlegrounds)"
+  },
+  "우마무스메": {
+   "pt": "Umamusume: Pretty Derby",
+   "ja": "ウマ娘 プリティーダービー",
+   "zh": "赛马娘",
+   "en": "Umamusume: Pretty Derby"
+  },
+  "포켓몬 챔피언스": {
+   "pt": "Pokémon Champions",
+   "ja": "ポケモンチャンピオンズ",
+   "zh": "宝可梦冠军",
+   "en": "Pokémon Champions"
+  },
+  "카운터 스트라이크 2": {
+   "en": "Counter-Strike 2",
+   "ja": "Counter-Strike 2",
+   "zh": "Counter-Strike 2",
+   "pt": "Counter-Strike 2"
+  },
+  "도타 2": {
+   "en": "Dota 2",
+   "ja": "Dota 2",
+   "zh": "Dota 2",
+   "pt": "Dota 2"
+  },
+  "배틀그라운드": {
+   "en": "PUBG: BATTLEGROUNDS",
+   "ja": "PUBG: BATTLEGROUNDS",
+   "zh": "PUBG: BATTLEGROUNDS",
+   "pt": "PUBG: BATTLEGROUNDS"
+  },
+  "에이펙스 레전드": {
+   "en": "Apex Legends",
+   "ja": "エーペックスレジェンズ",
+   "zh": "Apex Legends",
+   "pt": "Apex Legends"
+  },
+  "러스트": {
+   "en": "Rust",
+   "ja": "Rust",
+   "zh": "Rust",
+   "pt": "Rust"
+  },
+  "GTA 5": {
+   "en": "Grand Theft Auto V Legacy",
+   "ja": "グランド・セフト・オートV レガシー",
+   "zh": "Grand Theft Auto V 传承版",
+   "pt": "Grand Theft Auto V Legacy"
+  },
+  "발더스 게이트 3": {
+   "en": "Baldur's Gate 3",
+   "ja": "Baldur's Gate 3",
+   "zh": "博德之门3",
+   "pt": "Baldur's Gate 3"
+  },
+  "검은 신화: 오공": {
+   "en": "Black Myth: Wukong",
+   "ja": "黒神話：悟空",
+   "zh": "黑神话：悟空",
+   "pt": "Black Myth: Wukong"
+  },
+  "팰월드": {
+   "en": "Palworld",
+   "ja": "Palworld / パルワールド",
+   "zh": "Palworld / 幻兽帕鲁",
+   "pt": "Palworld"
+  },
+  "헬다이버즈 2": {
+   "en": "HELLDIVERS 2",
+   "ja": "HELLDIVERS 2",
+   "zh": "HELLDIVERS 绝地潜兵2",
+   "pt": "HELLDIVERS 2"
+  },
+  "레지던트 이블 4": {
+   "en": "Resident Evil 4",
+   "ja": "BIOHAZARD RE:4",
+   "zh": "Resident Evil 4",
+   "pt": "Resident Evil 4"
+  },
+  "엘든 링": {
+   "en": "ELDEN RING",
+   "ja": "ELDEN RING",
+   "zh": "艾尔登法环",
+   "pt": "ELDEN RING"
+  },
+  "워프레임": {
+   "en": "Warframe",
+   "ja": "Warframe",
+   "zh": "Warframe 星际战甲",
+   "pt": "Warframe"
+  },
+  "팀 포트리스 2": {
+   "en": "Team Fortress 2",
+   "ja": "Team Fortress 2",
+   "zh": "Team Fortress 2",
+   "pt": "Team Fortress 2"
+  },
+  "콜 오브 듀티": {
+   "en": "Call of Duty",
+   "ja": "Call of Duty",
+   "zh": "使命召唤",
+   "pt": "Call of Duty"
+  },
+  "몬스터 헌터 와일즈": {
+   "en": "Monster Hunter Wilds",
+   "ja": "モンスターハンターワイルズ",
+   "zh": "Monster Hunter Wilds",
+   "pt": "Monster Hunter Wilds"
+  },
+  "테라리아": {
+   "en": "Terraria",
+   "ja": "Terraria",
+   "zh": "Terraria",
+   "pt": "Terraria"
+  },
+  "스타듀 밸리": {
+   "en": "Stardew Valley",
+   "ja": "Stardew Valley",
+   "zh": "Stardew Valley",
+   "pt": "Stardew Valley"
+  },
+  "발헤임": {
+   "en": "Valheim",
+   "ja": "Valheim",
+   "zh": "Valheim: 英灵神殿",
+   "pt": "Valheim"
+  },
+  "로스트아크 (스팀 글로벌판)": {
+   "en": "Lost Ark",
+   "ja": "Lost Ark",
+   "zh": "Lost Ark",
+   "pt": "Lost Ark"
+  },
+  "마블 라이벌즈": {
+   "en": "Marvel Rivals",
+   "ja": "マーベル・ライバルズ",
+   "zh": "漫威争锋",
+   "pt": "Marvel Rivals"
+  },
+  "나라카: 블레이드포인트": {
+   "en": "NARAKA: BLADEPOINT",
+   "ja": "NARAKA: BLADEPOINT",
+   "zh": "永劫无间",
+   "pt": "NARAKA: BLADEPOINT"
+  },
+  "로켓 리그": {
+   "en": "Rocket League",
+   "ja": "Rocket League",
+   "zh": "Rocket League",
+   "pt": "Rocket League"
+  },
+  "레인보우 식스 시즈": {
+   "en": "Tom Clancy's Rainbow Six Siege",
+   "ja": "レインボーシックス シージ",
+   "zh": "彩虹六号：围攻",
+   "pt": "Tom Clancy's Rainbow Six Siege"
+  },
+  "패스 오브 엑자일": {
+   "en": "Path of Exile",
+   "ja": "Path of Exile",
+   "zh": "Path of Exile",
+   "pt": "Path of Exile"
+  },
+  "패스 오브 엑자일 2": {
+   "en": "Path of Exile 2",
+   "ja": "Path of Exile 2",
+   "zh": "Path of Exile 2",
+   "pt": "Path of Exile 2"
+  },
+  "페스모포비아": {
+   "en": "Phasmophobia",
+   "ja": "Phasmophobia",
+   "zh": "Phasmophobia 恐鬼症",
+   "pt": "Phasmophobia"
+  },
+  "리썰 컴퍼니": {
+   "en": "Lethal Company",
+   "ja": "Lethal Company",
+   "zh": "Lethal Company",
+   "pt": "Lethal Company"
+  },
+  "언턴드": {
+   "en": "Unturned",
+   "ja": "Unturned",
+   "zh": "Unturned",
+   "pt": "Unturned"
+  },
+  "아크: 서바이벌 이볼브드": {
+   "en": "ARK: Survival Evolved",
+   "ja": "ARK: Survival Evolved",
+   "zh": "ARK: Survival Evolved",
+   "pt": "ARK: Survival Evolved"
+  },
+  "이터널 리턴": {
+   "en": "Eternal Return",
+   "ja": "エターナルリターン",
+   "zh": "永恒轮回",
+   "pt": "Eternal Return"
+  },
+  "림버스 컴퍼니": {
+   "en": "Limbus Company",
+   "ja": "Limbus Company",
+   "zh": "Limbus Company",
+   "pt": "Limbus Company"
+  },
+  "명조: 워더링 웨이브": {
+   "en": "Wuthering Waves",
+   "ja": "Wuthering Waves",
+   "zh": "Wuthering Waves",
+   "pt": "Wuthering Waves"
+  },
+  "젠레스 존 제로": {
+   "en": "Zenless Zone Zero",
+   "ja": "ゼンレスゾーンゼロ",
+   "zh": "绝区零",
+   "pt": "Zenless Zone Zero"
+  },
+  "명일방주: 엔드필드": {
+   "en": "Arknights: Endfield",
+   "ja": "アークナイツ：エンドフィールド",
+   "zh": "明日方舟：终末地",
+   "pt": "Arknights: Endfield"
+  },
+  "에픽세븐": {
+   "en": "Epic Seven",
+   "ja": "エピックセブン",
+   "zh": "Epic Seven",
+   "pt": "Epic Seven"
+  },
+  "퍼니싱: 그레이 레이븐": {
+   "en": "Punishing: Gray Raven",
+   "ja": "パニシング：グレイレイヴン",
+   "zh": "Punishing: Gray Raven",
+   "pt": "Punishing: Gray Raven"
+  },
+  "스노우 브레이크: 포비든 존": {
+   "en": "Snowbreak: Containment Zone",
+   "ja": "スノウブレイク：禁域降臨",
+   "zh": "Snowbreak: Containment Zone",
+   "pt": "Snowbreak: Containment Zone"
+  },
+  "스트리노바": {
+   "en": "Strinova",
+   "ja": "Strinova",
+   "zh": "Strinova",
+   "pt": "Strinova"
+  },
+  "퍼스트 디센던트": {
+   "en": "The First Descendant",
+   "ja": "The First Descendant",
+   "zh": "The First Descendant",
+   "pt": "The First Descendant"
+  },
+  "더 파이널스": {
+   "en": "THE FINALS",
+   "ja": "THE FINALS",
+   "zh": "THE FINALS",
+   "pt": "THE FINALS"
+  },
+  "데이브 더 다이버": {
+   "en": "DAVE THE DIVER",
+   "ja": "デイヴ・ザ・ダイバー",
+   "zh": "潜水员戴夫 DAVE THE DIVER",
+   "pt": "DAVE THE DIVER"
+  },
+  "데드 바이 데이라이트": {
+   "en": "Dead by Daylight",
+   "ja": "デッドバイデイライト",
+   "zh": "黎明杀机",
+   "pt": "Dead by Daylight"
+  },
+  "데스티니 가디언즈": {
+   "en": "Destiny 2",
+   "ja": "Destiny 2",
+   "zh": "命运2",
+   "pt": "Destiny 2"
+  },
+  "사이버펑크 2077": {
+   "en": "Cyberpunk 2077",
+   "ja": "サイバーパンク2077",
+   "zh": "赛博朋克 2077",
+   "pt": "Cyberpunk 2077"
+  },
+  "데드락": {
+   "en": "Deadlock",
+   "ja": "Deadlock",
+   "zh": "Deadlock",
+   "pt": "Deadlock"
+  },
+  "시드 마이어의 문명 VII": {
+   "en": "Sid Meier's Civilization VII",
+   "ja": "シドマイヤーズ シヴィライゼーション VII",
+   "zh": "席德·梅尔的文明VII",
+   "pt": "Sid Meier's Civilization VII"
+  },
+  "씨 오브 시브즈": {
+   "en": "Sea of Thieves: 2026 Edition",
+   "ja": "Sea of Thieves: 2026 Edition",
+   "zh": "Sea of Thieves: 2026 Edition",
+   "pt": "Sea of Thieves: 2026 Edition"
+  },
+  "돈스타브 투게더": {
+   "en": "Don't Starve Together",
+   "ja": "Don't Starve Together",
+   "zh": "饥荒联机版",
+   "pt": "Don't Starve Together"
+  },
+  "우마무스메 프리티 더비": {
+   "en": "Umamusume: Pretty Derby",
+   "ja": "Umamusume: Pretty Derby"
+  },
+  "파이널 판타지 XIV": {
+   "en": "FINAL FANTASY XIV Online"
+  },
+  "소울마스크": {
+   "en": "Soulmask"
+  },
+  "새티스팩토리": {
+   "en": "Satisfactory"
+  },
+  "마운트 앤 블레이드 II: 배너로드": {
+   "en": "Mount & Blade II: Bannerlord"
+  },
+  "몬스터 헌터 라이즈": {
+   "en": "MONSTER HUNTER RISE",
+   "ja": "モンスターハンターライズ",
+   "zh": "MONSTER HUNTER RISE",
+   "pt": "MONSTER HUNTER RISE"
+  },
+  "연운십육성 (Where Winds Meet)": {
+   "en": "Where Winds Meet",
+   "ja": "風燕伝：Where Winds Meet",
+   "zh": "燕云十六声",
+   "pt": "Where Winds Meet"
+  },
+  "델타 포스": {
+   "en": "Delta Force",
+   "ja": "Delta Force",
+   "zh": "三角洲行动",
+   "pt": "Delta Force"
+  },
+  "원스 휴먼": {
+   "en": "Once Human",
+   "ja": "Once Human",
+   "zh": "七日世界",
+   "pt": "Once Human"
+  },
+  "아레나 브레이크아웃: 인피니트": {
+   "en": "Arena Breakout: Infinite",
+   "ja": "Arena Breakout: Infinite",
+   "zh": "暗区突围：无限",
+   "pt": "Arena Breakout: Infinite"
+  },
+  "인피니티 니키": {
+   "en": "Infinity Nikki",
+   "ja": "インフィニティニキ",
+   "zh": "无限暖暖",
+   "pt": "Infinity Nikki"
+  },
+  "구스구스덕": {
+   "en": "Goose Goose Duck",
+   "ja": "Goose Goose Duck",
+   "zh": "Goose Goose Duck",
+   "pt": "Goose Goose Duck"
+  },
+  "듀엣 나이트 어비스": {
+   "en": "Duet Night Abyss",
+   "ja": "Duet Night Abyss",
+   "zh": "Duet Night Abyss",
+   "pt": "Duet Night Abyss"
+  },
+  "팬텀 블레이드 제로": {
+   "en": "Phantom Blade Zero",
+   "ja": "Phantom Blade Zero",
+   "zh": "影之刃零",
+   "pt": "Phantom Blade Zero"
+  },
+  "메카라시": {
+   "en": "Mecharashi",
+   "ja": "Mecharashi",
+   "zh": "Mecharashi",
+   "pt": "Mecharashi"
+  },
+  "알비온 온라인": {
+   "en": "Albion Online",
+   "ja": "アルビオン・オンライン",
+   "zh": "阿尔比恩 ONLINE",
+   "pt": "Albion Online"
+  },
+  "브롤할라": {
+   "en": "Brawlhalla",
+   "ja": "Brawlhalla",
+   "zh": "Brawlhalla",
+   "pt": "Brawlhalla"
+  },
+  "스마이트 2": {
+   "en": "SMITE 2",
+   "ja": "SMITE 2",
+   "zh": "《神之浩劫2》",
+   "pt": "SMITE 2"
+  },
+  "eFootball": {
+   "en": "eFootball",
+   "ja": "eFootball",
+   "zh": "eFootball",
+   "pt": "eFootball"
+  },
+  "유로 트럭 시뮬레이터 2": {
+   "en": "Euro Truck Simulator 2",
+   "ja": "Euro Truck Simulator 2",
+   "zh": "Euro Truck Simulator 2",
+   "pt": "Euro Truck Simulator 2"
+  },
+  "배틀필드 6": {
+   "en": "Battlefield 6",
+   "ja": "Battlefield 6",
+   "zh": "战地风云 6",
+   "pt": "Battlefield 6"
+  },
+  "워 썬더": {
+   "en": "War Thunder",
+   "ja": "War Thunder",
+   "zh": "战争雷霆",
+   "pt": "War Thunder"
+  },
+  "어몽 어스": {
+   "en": "Among Us",
+   "ja": "Among Us",
+   "zh": "Among Us",
+   "pt": "Among Us"
+  },
+  "EA SPORTS FC 26": {
+   "en": "EA SPORTS FC 26",
+   "ja": "EA SPORTS FC 26",
+   "zh": "EA SPORTS FC 26",
+   "pt": "EA SPORTS FC 26"
+  },
+  "개리 모드": {
+   "en": "Garry's Mod",
+   "ja": "Garry's Mod",
+   "zh": "Garry's Mod",
+   "pt": "Garry's Mod"
+  },
+  "월드 오브 탱크": {
+   "en": "World of Tanks",
+   "ja": "World of Tanks",
+   "zh": "World of Tanks",
+   "pt": "World of Tanks"
+  },
+  "이스케이프 프롬 타르코프": {
+   "en": "Escape from Tarkov",
+   "ja": "Escape from Tarkov",
+   "zh": "Escape from Tarkov",
+   "pt": "Escape from Tarkov"
+  },
+  "크로스아웃": {
+   "en": "Crossout Remastered",
+   "ja": "Crossout Remastered",
+   "zh": "创世战车：重制版",
+   "pt": "Crossout Remastered"
+  },
+  "워페이스": {
+   "en": "Warface",
+   "ja": "Warface",
+   "zh": "Warface",
+   "pt": "Warface"
+  },
+  "월드 오브 워쉽": {
+   "en": "World of Warships",
+   "ja": "World of Warships",
+   "zh": "World of Warships",
+   "pt": "World of Warships"
+  },
+  "러시안 피싱 4": {
+   "en": "Russian Fishing 4",
+   "ja": "Russian Fishing 4",
+   "zh": "Russian Fishing 4",
+   "pt": "Russian Fishing 4"
+  },
+  "워 로봇": {
+   "en": "War Robots",
+   "ja": "War Robots",
+   "zh": "War Robots",
+   "pt": "War Robots"
+  },
+  "파밍 시뮬레이터 25": {
+   "en": "Farming Simulator 25",
+   "ja": "Farming Simulator 25",
+   "zh": "Farming Simulator 25",
+   "pt": "Farming Simulator 25"
+  },
+  "아노 117: 팍스 로마나": {
+   "en": "Anno 117: Pax Romana",
+   "ja": "Anno 117: Pax Romana",
+   "zh": "纪元117：罗马和平",
+   "pt": "Anno 117: Pax Romana"
+  },
+  "시티즈: 스카이라인 II": {
+   "en": "Cities: Skylines II",
+   "ja": "Cities: Skylines II",
+   "zh": "《都市：天际线2》",
+   "pt": "Cities: Skylines II"
+  },
+  "X4: 파운데이션": {
+   "en": "X4: Foundations",
+   "ja": "X4: Foundations",
+   "zh": "X4：基石",
+   "pt": "X4: Foundations"
+  },
+  "컨스트럭션 시뮬레이터": {
+   "en": "Construction Simulator",
+   "ja": "コンストラクションシミュレーター",
+   "zh": "建筑模拟器",
+   "pt": "Construction Simulator"
+  },
+  "레일로드 온라인": {
+   "en": "Railroads Online",
+   "ja": "Railroads Online",
+   "zh": "Railroads Online",
+   "pt": "Railroads Online"
+  },
+  "팩토리오": {
+   "en": "Factorio",
+   "ja": "Factorio",
+   "zh": "Factorio",
+   "pt": "Factorio"
+  },
+  "하츠 오브 아이언 IV": {
+   "en": "Hearts of Iron IV",
+   "ja": "Hearts of Iron IV",
+   "zh": "Hearts of Iron IV",
+   "pt": "Hearts of Iron IV"
+  },
+  "나이트 온라인": {
+   "en": "Knight Online",
+   "ja": "Knight Online",
+   "zh": "Knight Online",
+   "pt": "Knight Online"
+  },
+  "울프팀: 리부트": {
+   "en": "Wolfteam: Reboot",
+   "ja": "Wolfteam: Reboot",
+   "zh": "Wolfteam: Reboot",
+   "pt": "Wolfteam: Reboot"
+  },
+  "프로스트펑크 2": {
+   "en": "Frostpunk 2",
+   "ja": "フロストパンク2",
+   "zh": "冰汽时代2",
+   "pt": "Frostpunk 2"
+  },
+  "매너 로드": {
+   "en": "Manor Lords",
+   "ja": "Manor Lords マナー・ロード",
+   "zh": "庄园领主 Manor Lords",
+   "pt": "Manor Lords"
+  },
+  "위쳐 3: 와일드 헌트": {
+   "en": "The Witcher 3: Wild Hunt — Remastered",
+   "ja": "ウィッチャー３　ワイルドハント　リマスター",
+   "zh": "巫师3：狂猎 — 重制版",
+   "pt": "The Witcher 3: Wild Hunt — Remastered"
+  },
+  "다잉 라이트 2": {
+   "en": "Dying Light 2 Stay Human: Reloaded Edition",
+   "ja": "Dying Light 2 Stay Human: Reloaded Edition",
+   "zh": "消逝的光芒2: 重装上阵版",
+   "pt": "Dying Light 2 Stay Human: Reloaded Edition"
+  },
+  "다잉 라이트: 더 비스트": {
+   "en": "Dying Light: The Beast",
+   "ja": "Dying Light: The Beast",
+   "zh": "《消逝的光芒：困兽》",
+   "pt": "Dying Light: The Beast"
+  },
+  "하우스 플리퍼 2": {
+   "en": "House Flipper 2",
+   "ja": "ハウスフリッパー２",
+   "zh": "房产达人 2",
+   "pt": "House Flipper 2"
+  },
+  "중세 왕조": {
+   "en": "Medieval Dynasty",
+   "ja": "Medieval Dynasty",
+   "zh": "中世纪王朝",
+   "pt": "Medieval Dynasty"
+  },
+  "주유소 시뮬레이터": {
+   "en": "Gas Station Simulator",
+   "ja": "ガスステーションシミュレーター",
+   "zh": "加油站大亨",
+   "pt": "Gas Station Simulator"
+  },
+  "아토믹 하트": {
+   "en": "Atomic Heart",
+   "ja": "Atomic Heart",
+   "zh": "原子之心",
+   "pt": "Atomic Heart"
+  },
+  "고스트러너 2": {
+   "en": "Ghostrunner 2",
+   "ja": "Ghostrunner 2",
+   "zh": "幽灵行者 2（Ghostrunner 2）",
+   "pt": "Ghostrunner 2"
+  },
+  "소녀전선2: 망명": {
+   "en": "GIRLS' FRONTLINE 2: EXILIUM",
+   "ja": "ドールズフロントライン2：エクシリウム",
+   "zh": "GIRLS' FRONTLINE 2: EXILIUM",
+   "pt": "GIRLS' FRONTLINE 2: EXILIUM"
+  },
+  "철권 8": {
+   "en": "TEKKEN 8",
+   "ja": "鉄拳8",
+   "zh": "铁拳8",
+   "pt": "TEKKEN 8"
+  },
+  "스트리트 파이터 6": {
+   "en": "Street Fighter 6",
+   "ja": "Street Fighter 6",
+   "zh": "Street Fighter 6",
+   "pt": "Street Fighter 6"
+  },
+  "그랑블루 판타지 리링크": {
+   "en": "Granblue Fantasy: Relink",
+   "ja": "GRANBLUE FANTASY: Relink",
+   "zh": "Granblue Fantasy: Relink",
+   "pt": "Granblue Fantasy: Relink"
+  },
+  "드래곤볼 스파킹! 제로": {
+   "en": "DRAGON BALL: Sparking! ZERO",
+   "ja": "ドラゴンボール Sparking! ZERO",
+   "zh": "七龙珠 电光炸裂！ZERO",
+   "pt": "DRAGON BALL: Sparking! ZERO"
+  },
+  "그랑블루 판타지 버서스 라이징": {
+   "en": "Granblue Fantasy Versus: Rising",
+   "ja": "Granblue Fantasy Versus: Rising",
+   "zh": "Granblue Fantasy Versus: Rising",
+   "pt": "Granblue Fantasy Versus: Rising"
+  },
+  "판타시 스타 온라인 2 뉴 제네시스": {
+   "en": "Phantasy Star Online 2 New Genesis",
+   "ja": "ファンタシースターオンライン2 ニュージェネシス",
+   "zh": "Phantasy Star Online 2 New Genesis",
+   "pt": "Phantasy Star Online 2 New Genesis"
+  },
+  "작혼: 리치 마작": {
+   "en": "Mahjong Soul",
+   "ja": "雀魂 -じゃんたま-",
+   "zh": "雀魂",
+   "pt": "Mahjong Soul"
+  }
  }
 }

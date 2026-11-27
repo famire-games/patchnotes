@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>하스스톤 전장 정보 — 영웅·하수인·주문·장신구 | 패치노트 모음</title>
+<title>하스스톤 전장 정보 — 영웅·하수인·주문·장신구 | Patchwork</title>
 <style>
 :root{--bg:#0f1115;--card:#171a21;--line:#262a33;--tx:#e6e8ec;--mute:#8a909c;--acc:#5aa9ff;--gold:#d8b45a;--atk:#f0c040;--hp:#ef6b6b}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 system-ui,"Malgun Gothic",sans-serif}
@@ -44,7 +44,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 </head>
 <body>
 <header><div class="wrap">
- <div class="top"><h1><a href="index.html"><b>패치</b>노트 모음</a> · 하스스톤 전장</h1>
+ <div class="top"><h1><a href="index.html"><b>Patch</b>work</a> · 하스스톤 전장</h1>
   <nav><button data-t="minions" class="on">하수인</button><button data-t="heroes">영웅</button><button data-t="spells">선술집 주문</button><button data-t="timewarp">시간왜곡 선술집</button></nav></div>
  <div class="bar"><div class="mode"><button data-m="solo" class="on">솔로</button><button data-m="duo">듀오</button></div><input id="q" placeholder="이름이나 효과 검색 (예: 도발, 혈석)"><select id="f"></select></div>
  <div class="tiers" id="tiers"></div>
@@ -132,6 +132,7 @@ const SEASON={name:'15시즌',start:new Date('2026-12-01T00:00:00+09:00')};
 if(Date.now()<SEASON.start)document.getElementById('season').textContent='※ '+SEASON.name+' 기준 카드입니다. '+SEASON.name+'은 '+SEASON.start.toLocaleDateString('ko-KR')+' 에 시작합니다 (지금은 이전 시즌 진행 중).';
 fetch('hs/bg.json').then(r=>r.json()).then(d=>{D=d;filters();render()});
 </script>
+<script src="i18n.js"></script>
 <script src="nav.js"></script>
 <script src="foot.js"></script>
 </body>

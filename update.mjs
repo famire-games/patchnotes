@@ -1,4 +1,4 @@
-// 스팀 공지에서 패치노트를 모아 Gemini 로 한국어 요약 → site/data.json
+// 스팀 공지 등에서 패치노트를 모아 Gemini 로 요약(새 글 = 한·영·일·중·포, 예전 글 = 한·영) → site/data.json
 // 사용: node update.mjs   (GEMINI_API_KEY 필요, 이미 요약한 글은 건너뜀)
 import fs from 'node:fs';
 const DIR = new URL('.', import.meta.url);
@@ -232,21 +232,26 @@ let added = 0;
 for (const { g, n } of candidates.slice(0, MAX_NEW)) {
   const body = clean(n.contents).slice(0, ['lol', 'val', 'tft'].includes(g.appid) ? 30000 : 12000);
   if (body.length < 80) continue;
-  const prompt = `다음은 게임 "${g.name}"의 공식 패치 공지 원문이다. 한국 게이머를 위해 정리하라.
-원문에 없는 내용은 절대 지어내지 마라. 패치/업데이트 내용이 아니면 isPatch=false.
-JSON 으로만 답하라:
-{"isPatch":bool,"title":"한국어 제목(짧게)","summary":"2~3문장 요약","highlights":["주요 변경 최대 6개"],"buffs":["상향 항목(없으면 빈 배열)"],"nerfs":["하향 항목(없으면 빈 배열)"],"fixes":["버그 수정 최대 5개 요약"]}
+  const F = '{"title":"short title","summary":"2-3 sentence summary","highlights":["key changes, max 6"],"buffs":["buffs, [] if none"],"nerfs":["nerfs, [] if none"],"fixes":["bug fixes, max 5"]}';
+  const prompt = `Below is the official patch announcement for the game "${g.name}". Summarize it for gamers.
+Never invent anything not in the source. If it is not patch/update content, isPatch=false.
+Write the same summary in 5 languages: ko (Korean), en (English), ja (Japanese), zh (Simplified Chinese), pt (Brazilian Portuguese).
+Use each language's official/common names for the game, characters and items.
+Answer with JSON only:
+{"isPatch":bool,"ko":${F},"en":${F},"ja":${F},"zh":${F},"pt":${F}}
 
-제목: ${n.title}
-원문:
+Title: ${n.title}
+Source:
 ${body}`;
   try {
     const s = await gemini(prompt);
     if (!s.isPatch) { seen.add(n.gid); continue; }
+    const pick = o => ({ title: o?.title || '', summary: o?.summary || '', highlights: o?.highlights || [], buffs: o?.buffs || [], nerfs: o?.nerfs || [], fixes: o?.fixes || [] });
+    const ko = pick(s.ko || s.en), i18n = {};
+    for (const L of ['en', 'ja', 'zh', 'pt']) if (s[L]?.title) i18n[L] = pick(s[L]);
     db.items.push({ ...(['hs', 'hsbg'].includes(g.appid) && { split: true }), gid: n.gid, appid: g.appid, game: g.name, date: n.date, url: n.url,
-      origTitle: n.title, img: (n.img || '').replace(/&amp;/g, '&') || undefined, title: s.title, summary: s.summary, highlights: s.highlights || [],
-      buffs: s.buffs || [], nerfs: s.nerfs || [], fixes: s.fixes || [] });
-    added++; console.log('✓', g.name, '-', s.title);
+      origTitle: n.title, img: (n.img || '').replace(/&amp;/g, '&') || undefined, ...ko, i18n });
+    added++; console.log('✓', g.name, '-', ko.title);
   } catch (e) { console.error('요약 실패', g.name, e.message); }
   await sleep(1500);
 }
@@ -270,6 +275,53 @@ catch (e) { console.error('manual.json', e.message); }
   db.items = db.items.filter(i => !drop.includes(i));
   if (drop.length) console.log('중복 합침', drop.length);
 }
+// 예전(한국어만 있던) 요약을 영어로 번역 — 8개씩 묶어서, 실행마다 최대 BACKFILL 개
+{
+  const BACKFILL = +(process.env.BACKFILL || 120);
+  const todo = db.items.filter(i => !i.i18n?.en).slice(0, BACKFILL);
+  if (todo.length) console.log('영어 번역 대상', todo.length);
+  for (let k = 0; k < todo.length; k += 8) {
+    const part = todo.slice(k, k + 8);
+    const src = part.map((i, n) => ({ n, game: i.game, title: i.title, summary: i.summary, highlights: i.highlights || [], buffs: i.buffs || [], nerfs: i.nerfs || [], fixes: i.fixes || [] }));
+    try {
+      const r = await gemini(`Translate these Korean game patch summaries into natural English. Use the official English names of games, characters, items and terms. Keep the same structure and order. Answer with JSON only: {"items":[{"n":0,"title":"","summary":"","highlights":[],"buffs":[],"nerfs":[],"fixes":[]}]}
+
+${JSON.stringify(src)}`);
+      for (const t of r.items || []) {
+        const i = part[t.n]; if (!i || !t.title) continue;
+        i.i18n = { ...(i.i18n || {}), en: { title: t.title, summary: t.summary || '', highlights: t.highlights || [], buffs: t.buffs || [], nerfs: t.nerfs || [], fixes: t.fixes || [] } };
+      }
+    } catch (e) { console.error('영어 번역 실패', e.message); }
+    await sleep(1500);
+  }
+}
+// 게임 이름 언어별 (스팀은 스토어 이름, 그 밖은 아래 표) → data.json names[한국어 이름] = {en,ja,zh,pt}
+const NAMES = {
+  '리그 오브 레전드': { en: 'League of Legends', ja: 'リーグ・オブ・レジェンド', zh: '英雄联盟' },
+  '전략적 팀 전투': { en: 'Teamfight Tactics', ja: 'チームファイト タクティクス', zh: '云顶之弈' },
+  '발로란트': { en: 'VALORANT' }, '오버워치': { en: 'Overwatch', ja: 'オーバーウォッチ', zh: '守望先锋' },
+  '원신': { en: 'Genshin Impact', ja: '原神', zh: '原神' }, '붕괴: 스타레일': { en: 'Honkai: Star Rail', ja: '崩壊：スターレイル', zh: '崩坏：星穹铁道' },
+  '블루 아카이브': { en: 'Blue Archive', ja: 'ブルーアーカイブ', zh: '蔚蓝档案' }, '마비노기 모바일': { en: 'Mabinogi Mobile' },
+  '메이플스토리M': { en: 'MapleStory M' }, '카트라이더 러쉬플러스': { en: 'KartRider Rush+' }, '메이플스토리 월드': { en: 'MapleStory Worlds' },
+  '승리의 여신: 니케': { en: 'GODDESS OF VICTORY: NIKKE', ja: '勝利の女神：NIKKE', zh: '胜利女神：妮姬' }, '트릭컬 리바이브': { en: 'Trickcal' },
+  '메이플스토리': { en: 'MapleStory', ja: 'メイプルストーリー', zh: '冒险岛' }, 'FC 온라인': { en: 'FC Online' },
+  '디아블로 IV': { en: 'Diablo IV', ja: 'ディアブロ IV', zh: '暗黑破坏神 IV' }, '월드 오브 워크래프트': { en: 'World of Warcraft', ja: 'ワールド オブ ウォークラフト', zh: '魔兽世界' },
+  '하스스톤': { en: 'Hearthstone', ja: 'ハースストーン', zh: '炉石传说' }, '하스스톤 (전장)': { en: 'Hearthstone (Battlegrounds)', ja: 'ハースストーン (バトルグラウンド)', zh: '炉石传说 (酒馆战棋)', pt: 'Hearthstone (Campos de Batalha)' },
+  '우마무스메': { en: 'Umamusume: Pretty Derby', ja: 'ウマ娘 プリティーダービー', zh: '赛马娘' }, '판타시 스타 온라인 2 뉴 제네시스': { en: 'Phantasy Star Online 2 New Genesis', ja: 'ファンタシースターオンライン2 ニュージェネシス' }, '작혼: 리치 마작': { en: 'Mahjong Soul', ja: '雀魂 -じゃんたま-', zh: '雀魂', pt: 'Mahjong Soul' },
+  '포켓몬 챔피언스': { en: 'Pokémon Champions', ja: 'ポケモンチャンピオンズ', zh: '宝可梦冠军' },
+};
+db.names = db.names || {};
+for (const [k, v] of Object.entries(NAMES)) db.names[k] = { pt: v.en, ja: v.en, zh: v.en, ...v };
+for (const g of games) if (!db.names[g.name]?.en) try {
+  const o = {};
+  for (const [L, sl] of [['en', 'english'], ['ja', 'japanese'], ['zh', 'schinese'], ['pt', 'brazilian']]) {
+    const j = await (await fetch(`https://store.steampowered.com/api/appdetails?appids=${g.appid}&filters=basic&l=${sl}&cc=us`)).json();
+    let nm = j[g.appid]?.data?.name;
+    if (!nm) nm = (await (await fetch(`https://store.steampowered.com/api/appdetails?appids=${g.appid}&filters=basic&l=${sl}&cc=jp`)).json())[g.appid]?.data?.name; // 미국에서 안 파는 게임 if (nm) o[L] = nm.replace(/[™®]/g, '').trim();
+    await sleep(1600); // 스토어 API 는 5분에 약 200번까지
+  }
+  if (o.en) db.names[g.name] = o;
+} catch (e) { console.error('이름 실패', g.name, e.message); }
 // 스팀 공식 헤더 그림 주소 (새 게임은 주소 형식이 달라서 스토어 API 로 확인, 한 번만)
 db.icons = db.icons || {};
 for (const g of games) if (!db.icons[g.appid]) try {
