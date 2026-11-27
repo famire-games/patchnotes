@@ -228,7 +228,7 @@ function drawCm(){
  const v=Object.values(cur.stars),avg=v.length?(v.reduce((a,b)=>a+b,0)/v.length):0,mine=me?cur.stars[me]||0:0;
  const sc=c=>Object.keys(c.up||{}).length-Object.keys(c.down||{}).length;
  const list=[...cur.list].sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);
- el.innerHTML=`<h3>${T('cm_q')}</h3><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ -'}</span><small>${T('rated',v.length)}</small>
+ el.innerHTML=`<h3>${T('cm_q')}</h3><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ 0.0'}</span><small>${T('rated',v.length)}</small>
   <span class="stars" title="${me?T('my_star_t'):T('login_star_t')}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${mine?'<small>'+T('my_star',mine)+'</small>':''}</div>${ctryLine()}
   <h3>${T('comments',cur.list.length)}</h3>
   <div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?T('cm_ph'):T('cm_ph_login')}"></textarea><button data-post>${T('post')}</button></div>
