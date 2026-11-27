@@ -1,126 +1,1557 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://patchworkgg.pages.dev/?lang=en</loc>
+  <url><loc>https://patchworkgg.pages.dev/?lang=en</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/?lang=ko</loc>
+  <url><loc>https://patchworkgg.pages.dev/?lang=ko</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/?lang=ja</loc>
+  <url><loc>https://patchworkgg.pages.dev/?lang=ja</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/?lang=zh</loc>
+  <url><loc>https://patchworkgg.pages.dev/?lang=zh</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/?lang=pt</loc>
+  <url><loc>https://patchworkgg.pages.dev/?lang=pt</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/about.html?lang=en</loc>
+  <url><loc>https://patchworkgg.pages.dev/about.html?lang=en</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/about.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/about.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/about.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/about.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/about.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/about.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/about.html?lang=ko</loc>
+  <url><loc>https://patchworkgg.pages.dev/about.html?lang=ko</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/about.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/about.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/about.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/about.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/about.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/about.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/about.html?lang=ja</loc>
+  <url><loc>https://patchworkgg.pages.dev/about.html?lang=ja</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/about.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/about.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/about.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/about.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/about.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/about.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/about.html?lang=zh</loc>
+  <url><loc>https://patchworkgg.pages.dev/about.html?lang=zh</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/about.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/about.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/about.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/about.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/about.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/about.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/about.html?lang=pt</loc>
+  <url><loc>https://patchworkgg.pages.dev/about.html?lang=pt</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/about.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/about.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/about.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/about.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/about.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/about.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=en</loc>
+  <url><loc>https://patchworkgg.pages.dev/info.html?lang=en</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/info.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/info.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/info.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/info.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/info.html?lang=ko</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/info.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/info.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/info.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/info.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/info.html?lang=ja</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/info.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/info.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/info.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/info.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/info.html?lang=zh</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/info.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/info.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/info.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/info.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/info.html?lang=pt</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/info.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/info.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/info.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/info.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/lol.html?lang=en</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/lol.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/lol.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/lol.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/lol.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/lol.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/lol.html?lang=ko</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/lol.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/lol.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/lol.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/lol.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/lol.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/lol.html?lang=ja</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/lol.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/lol.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/lol.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/lol.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/lol.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/lol.html?lang=zh</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/lol.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/lol.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/lol.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/lol.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/lol.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/lol.html?lang=pt</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/lol.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/lol.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/lol.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/lol.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/lol.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/hs.html?lang=en</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/hs.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/hs.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/hs.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/hs.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/hs.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/hs.html?lang=ko</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/hs.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/hs.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/hs.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/hs.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/hs.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/hs.html?lang=ja</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/hs.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/hs.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/hs.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/hs.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/hs.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/hs.html?lang=zh</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/hs.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/hs.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/hs.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/hs.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/hs.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/hs.html?lang=pt</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/hs.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/hs.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/hs.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/hs.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/hs.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pkc.html?lang=en</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/pkc.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/pkc.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/pkc.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/pkc.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pkc.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pkc.html?lang=ko</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/pkc.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/pkc.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/pkc.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/pkc.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pkc.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pkc.html?lang=ja</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/pkc.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/pkc.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/pkc.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/pkc.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pkc.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pkc.html?lang=zh</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/pkc.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/pkc.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/pkc.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/pkc.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pkc.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pkc.html?lang=pt</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/pkc.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/pkc.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/pkc.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/pkc.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pkc.html?lang=pt"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=en</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/privacy.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/privacy.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/privacy.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/privacy.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/privacy.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/privacy.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=ko</loc>
+  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=ko</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/privacy.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/privacy.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/privacy.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/privacy.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/privacy.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/privacy.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=ja</loc>
+  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=ja</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/privacy.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/privacy.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/privacy.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/privacy.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/privacy.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/privacy.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=zh</loc>
+  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=zh</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/privacy.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/privacy.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/privacy.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/privacy.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/privacy.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/privacy.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=pt</loc>
+  <url><loc>https://patchworkgg.pages.dev/privacy.html?lang=pt</loc><lastmod>2026-11-27T07:21:33.014Z</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/privacy.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/privacy.html?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/privacy.html?lang=ja"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/privacy.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/privacy.html?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://patchworkgg.pages.dev/privacy.html"/>
   </url>
-  <url><loc>https://patchworkgg.pages.dev/lol.html</loc></url>
-  <url><loc>https://patchworkgg.pages.dev/hs.html</loc></url>
-  <url><loc>https://patchworkgg.pages.dev/pkc.html</loc></url>
+  <url><loc>https://patchworkgg.pages.dev/p/1850460852987922.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987922.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852987922.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987922.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ja/p/1850460852987922.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987922.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/zh/p/1850460852987922.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987922.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pt/p/1850460852987922.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987922.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987922.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/p/1850460852987799.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987799.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852987799.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987799.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ja/p/1850460852987799.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987799.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/zh/p/1850460852987799.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987799.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pt/p/1850460852987799.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852987799.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852987799.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852987287.html</loc><lastmod>2026-11-26T21:37:42.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852987287.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852986472.html</loc><lastmod>2026-11-26T17:21:48.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852986472.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852985647.html</loc><lastmod>2026-11-26T14:06:26.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985647.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852985610.html</loc><lastmod>2026-11-26T13:59:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985610.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/p/1850460852985445.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985445.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852985445.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985445.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ja/p/1850460852985445.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985445.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/zh/p/1850460852985445.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985445.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pt/p/1850460852985445.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985445.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985445.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/p/1850460852985444.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985444.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852985444.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985444.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ja/p/1850460852985444.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985444.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/zh/p/1850460852985444.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985444.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pt/p/1850460852985444.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/p/1850460852985444.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/p/1850460852985444.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852985051.html</loc><lastmod>2026-11-26T11:13:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852985051.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852984843.html</loc><lastmod>2026-11-26T10:14:05.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852984843.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852984423.html</loc><lastmod>2026-11-26T07:58:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852984423.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852984320.html</loc><lastmod>2026-11-26T07:05:13.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852984320.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852983749.html</loc><lastmod>2026-11-26T02:57:25.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852983749.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852983577.html</loc><lastmod>2026-11-26T01:58:38.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852983577.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/wow_24315281.html</loc><lastmod>2026-11-25T23:19:16.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/wow_24315281.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852982409.html</loc><lastmod>2026-11-25T18:02:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852982409.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852980500.html</loc><lastmod>2026-11-25T09:49:30.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852980500.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3586879.html</loc><lastmod>2026-11-25T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3586879.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/trickcal_8507320.html</loc><lastmod>2026-11-25T08:01:06.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/trickcal_8507320.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852980198.html</loc><lastmod>2026-11-25T08:00:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852980198.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852979301.html</loc><lastmod>2026-11-25T01:00:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852979301.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1850460852979142.html</loc><lastmod>2026-11-24T23:39:04.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1850460852979142.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/d4_24316980.html</loc><lastmod>2026-11-24T19:38:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/d4_24316980.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110447019.html</loc><lastmod>2026-11-24T17:01:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110447019.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110445832.html</loc><lastmod>2026-11-24T11:45:35.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110445832.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110444094.html</loc><lastmod>2026-11-23T23:27:44.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110444094.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110444052.html</loc><lastmod>2026-11-23T23:02:07.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110444052.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110443978.html</loc><lastmod>2026-11-23T22:36:22.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110443978.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/kartrush_3585758.html</loc><lastmod>2026-11-23T10:40:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/kartrush_3585758.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/bluearchive_3580170.html</loc><lastmod>2026-11-23T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/bluearchive_3580170.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110440939.html</loc><lastmod>2026-11-23T08:59:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110440939.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsbg_37_2.html</loc><lastmod>2026-11-23T00:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsbg_37_2.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110437415.html</loc><lastmod>2026-11-22T02:30:26.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110437415.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110432541.html</loc><lastmod>2026-11-20T15:00:35.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110432541.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110431286.html</loc><lastmod>2026-11-20T08:26:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110431286.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110430249.html</loc><lastmod>2026-11-19T23:45:07.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110430249.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110427959.html</loc><lastmod>2026-11-19T11:20:29.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110427959.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110427751.html</loc><lastmod>2026-11-19T09:59:33.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110427751.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110427665.html</loc><lastmod>2026-11-19T09:20:25.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110427665.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestory_816.html</loc><lastmod>2026-11-19T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestory_816.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/fconline_5268.html</loc><lastmod>2026-11-19T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/fconline_5268.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110426557.html</loc><lastmod>2026-11-19T00:57:59.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110426557.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110426441.html</loc><lastmod>2026-11-18T23:57:13.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110426441.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110425804.html</loc><lastmod>2026-11-18T20:00:46.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110425804.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110424239.html</loc><lastmod>2026-11-18T13:35:43.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110424239.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110423622.html</loc><lastmod>2026-11-18T10:30:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110423622.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110423528.html</loc><lastmod>2026-11-18T10:00:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110423528.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3582627.html</loc><lastmod>2026-11-18T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3582627.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/trickcal_8479236.html</loc><lastmod>2026-11-18T08:01:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/trickcal_8479236.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/trickcal_8479219.html</loc><lastmod>2026-11-18T08:00:32.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/trickcal_8479219.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3582596.html</loc><lastmod>2026-11-18T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3582596.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849827110421976.html</loc><lastmod>2026-11-17T23:40:07.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849827110421976.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849458702695438.html</loc><lastmod>2026-11-17T21:23:48.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849458702695438.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/lol__ko-kr_news_game-updates_league-of-legends-patch-26-23-notes.html</loc><lastmod>2026-11-17T19:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/lol__ko-kr_news_game-updates_league-of-legends-patch-26-23-notes.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/tft__ko-kr_news_game-updates_teamfight-tactics-patch-18-7.html</loc><lastmod>2026-11-17T19:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/tft__ko-kr_news_game-updates_teamfight-tactics-patch-18-7.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849458702694596.html</loc><lastmod>2026-11-17T17:18:01.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849458702694596.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849458702694051.html</loc><lastmod>2026-11-17T15:00:10.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849458702694051.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/kartrush_3582566.html</loc><lastmod>2026-11-17T07:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/kartrush_3582566.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849458702692273.html</loc><lastmod>2026-11-17T05:00:18.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849458702692273.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/ow2_2026-11-17.html</loc><lastmod>2026-11-17T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/ow2_2026-11-17.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/nikke_2a769139ac962a4ec4ab1a2a229f9271ee39.html</loc><lastmod>2026-11-16T08:00:25.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/nikke_2a769139ac962a4ec4ab1a2a229f9271ee39.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144184669.html</loc><lastmod>2026-11-12T21:23:07.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144184669.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144184520.html</loc><lastmod>2026-11-12T20:35:44.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144184520.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144184215.html</loc><lastmod>2026-11-12T18:51:48.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144184215.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144182299.html</loc><lastmod>2026-11-12T10:03:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144182299.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144182227.html</loc><lastmod>2026-11-12T09:44:14.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144182227.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144182226.html</loc><lastmod>2026-11-12T09:43:52.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144182226.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144182225.html</loc><lastmod>2026-11-12T09:43:34.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144182225.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/bluearchive_3580088.html</loc><lastmod>2026-11-12T05:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/bluearchive_3580088.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144180746.html</loc><lastmod>2026-11-11T23:03:20.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144180746.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144180230.html</loc><lastmod>2026-11-11T20:00:52.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144180230.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/kartrush_3579394.html</loc><lastmod>2026-11-11T13:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/kartrush_3579394.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3579343.html</loc><lastmod>2026-11-11T09:10:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3579343.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3579297.html</loc><lastmod>2026-11-11T09:00:01.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3579297.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/trickcal_8444408.html</loc><lastmod>2026-11-11T08:00:32.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/trickcal_8444408.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1849192144177157.html</loc><lastmod>2026-11-11T03:36:01.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1849192144177157.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_167246.html</loc><lastmod>2026-11-10T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_167246.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643359938.html</loc><lastmod>2026-11-10T15:26:47.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643359938.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/val__ko-kr_news_game-updates_valorant-patch-notes-13-10.html</loc><lastmod>2026-11-10T14:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/val__ko-kr_news_game-updates_valorant-patch-notes-13-10.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/bluearchive_3579037.html</loc><lastmod>2026-11-10T11:50:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/bluearchive_3579037.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643356687.html</loc><lastmod>2026-11-09T19:08:56.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643356687.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/bluearchive_3566313.html</loc><lastmod>2026-11-09T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/bluearchive_3566313.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643349012.html</loc><lastmod>2026-11-07T11:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643349012.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/wow_24307310.html</loc><lastmod>2026-11-07T03:01:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/wow_24307310.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643347277.html</loc><lastmod>2026-11-06T20:09:05.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643347277.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643344073.html</loc><lastmod>2026-11-06T03:23:29.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643344073.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/ow2_2026-11-6.html</loc><lastmod>2026-11-06T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/ow2_2026-11-6.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643343655.html</loc><lastmod>2026-11-06T00:32:07.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643343655.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643342973.html</loc><lastmod>2026-11-05T19:58:14.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643342973.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643342757.html</loc><lastmod>2026-11-05T19:01:23.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643342757.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643340963.html</loc><lastmod>2026-11-05T11:42:45.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643340963.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643340559.html</loc><lastmod>2026-11-05T10:00:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643340559.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643340420.html</loc><lastmod>2026-11-05T09:07:02.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643340420.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848664643339845.html</loc><lastmod>2026-11-05T05:02:30.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848664643339845.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848557880481544.html</loc><lastmod>2026-11-05T02:00:51.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848557880481544.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848557880481353.html</loc><lastmod>2026-11-05T00:54:07.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848557880481353.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848557880481281.html</loc><lastmod>2026-11-05T00:26:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848557880481281.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848557880479637.html</loc><lastmod>2026-11-04T15:40:35.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848557880479637.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1848557880478542.html</loc><lastmod>2026-11-04T10:06:19.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1848557880478542.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3575034.html</loc><lastmod>2026-11-04T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3575034.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/trickcal_8409501.html</loc><lastmod>2026-11-04T08:01:53.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/trickcal_8409501.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/trickcal_8409500.html</loc><lastmod>2026-11-04T08:01:22.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/trickcal_8409500.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/ow2_2026-11-4.html</loc><lastmod>2026-11-04T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/ow2_2026-11-4.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/genshin_167187.html</loc><lastmod>2026-11-03T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/genshin_167187.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/lol__ko-kr_news_game-updates_league-of-legends-patch-26-22-notes.html</loc><lastmod>2026-11-03T19:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/lol__ko-kr_news_game-updates_league-of-legends-patch-26-22-notes.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/tft__ko-kr_news_game-updates_teamfight-tactics-patch-18-6.html</loc><lastmod>2026-11-03T19:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/tft__ko-kr_news_game-updates_teamfight-tactics-patch-18-6.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hs_24307311.html</loc><lastmod>2026-11-03T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hs_24307311.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsbg_24307311.html</loc><lastmod>2026-11-03T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsbg_24307311.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302249180.html</loc><lastmod>2026-11-02T18:04:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302249180.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302249111.html</loc><lastmod>2026-11-02T17:51:52.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302249111.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302240743.html</loc><lastmod>2026-10-30T23:19:28.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302240743.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302240685.html</loc><lastmod>2026-10-30T22:42:28.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302240685.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302240420.html</loc><lastmod>2026-10-30T20:51:49.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302240420.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/uma_2026-10-30.html</loc><lastmod>2026-10-30T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/uma_2026-10-30.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302236295.html</loc><lastmod>2026-10-29T20:29:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302236295.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302236291.html</loc><lastmod>2026-10-29T20:28:24.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302236291.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302235142.html</loc><lastmod>2026-10-29T15:06:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302235142.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302234759.html</loc><lastmod>2026-10-29T13:27:50.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302234759.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302234132.html</loc><lastmod>2026-10-29T10:00:52.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302234132.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302234131.html</loc><lastmod>2026-10-29T10:00:29.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302234131.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302232686.html</loc><lastmod>2026-10-28T21:48:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302232686.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302231964.html</loc><lastmod>2026-10-28T17:04:51.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302231964.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302231335.html</loc><lastmod>2026-10-28T15:00:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302231335.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302230913.html</loc><lastmod>2026-10-28T13:11:25.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302230913.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302230509.html</loc><lastmod>2026-10-28T10:54:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302230509.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847920302230420.html</loc><lastmod>2026-10-28T10:18:51.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847920302230420.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/trickcal_8377618.html</loc><lastmod>2026-10-28T08:00:32.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/trickcal_8377618.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/val__ko-kr_news_game-updates_valorant-patch-notes-1309.html</loc><lastmod>2026-10-27T13:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/val__ko-kr_news_game-updates_valorant-patch-notes-1309.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847286114047107.html</loc><lastmod>2026-10-26T23:50:32.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114047107.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/bluearchive_3559967.html</loc><lastmod>2026-10-26T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/bluearchive_3559967.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847286114043924.html</loc><lastmod>2026-10-26T07:16:13.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114043924.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847286114034398.html</loc><lastmod>2026-10-22T22:56:10.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114034398.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847286114032326.html</loc><lastmod>2026-10-22T11:51:44.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114032326.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847286114031733.html</loc><lastmod>2026-10-22T08:28:34.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114031733.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestory_815.html</loc><lastmod>2026-10-22T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestory_815.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847286114029307.html</loc><lastmod>2026-10-21T15:45:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114029307.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3567319.html</loc><lastmod>2026-10-21T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3567319.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847286114027952.html</loc><lastmod>2026-10-21T08:05:14.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114027952.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/trickcal_8346911.html</loc><lastmod>2026-10-21T08:01:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/trickcal_8346911.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1847286114026951.html</loc><lastmod>2026-10-20T23:00:24.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114026951.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/lol__ko-kr_news_game-updates_league-of-legends-patch-26-21-notes.html</loc><lastmod>2026-10-20T18:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/lol__ko-kr_news_game-updates_league-of-legends-patch-26-21-notes.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/tft__ko-kr_news_game-updates_teamfight-tactics-patch-18-5.html</loc><lastmod>2026-10-20T18:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/tft__ko-kr_news_game-updates_teamfight-tactics-patch-18-5.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846651706695881.html</loc><lastmod>2026-10-20T16:06:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846651706695881.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846651706677729.html</loc><lastmod>2026-10-15T13:30:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846651706677729.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846651706677678.html</loc><lastmod>2026-10-15T13:15:01.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846651706677678.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846651706676865.html</loc><lastmod>2026-10-15T08:58:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846651706676865.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846651706676198.html</loc><lastmod>2026-10-15T03:11:58.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846651706676198.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846651706676001.html</loc><lastmod>2026-10-15T01:00:33.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846651706676001.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3563371.html</loc><lastmod>2026-10-14T09:51:30.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3563371.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3563175.html</loc><lastmod>2026-10-14T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3563175.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/bluearchive_3563137.html</loc><lastmod>2026-10-14T05:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/bluearchive_3563137.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/val__ko-kr_news_game-updates_valorant-patch-notes-13-08.html</loc><lastmod>2026-10-13T13:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/val__ko-kr_news_game-updates_valorant-patch-notes-13-08.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hs_24301454.html</loc><lastmod>2026-10-12T16:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hs_24301454.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846018067925601.html</loc><lastmod>2026-10-07T10:00:48.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846018067925601.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846018067925452.html</loc><lastmod>2026-10-07T09:01:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846018067925452.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1846018067924800.html</loc><lastmod>2026-10-07T02:30:27.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1846018067924800.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/lol__ko-kr_news_game-updates_league-of-legends-patch-26-20-notes.html</loc><lastmod>2026-10-06T18:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/lol__ko-kr_news_game-updates_league-of-legends-patch-26-20-notes.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/tft__ko-kr_news_game-updates_teamfight-tactics-patch-18-4.html</loc><lastmod>2026-10-06T18:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/tft__ko-kr_news_game-updates_teamfight-tactics-patch-18-4.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1845383656396226.html</loc><lastmod>2026-10-06T12:11:50.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1845383656396226.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3554383.html</loc><lastmod>2026-10-06T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3554383.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/pkc_1_2_2.html</loc><lastmod>2026-10-06T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/pkc_1_2_2.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hs_24303864.html</loc><lastmod>2026-10-01T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hs_24303864.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsbg_24303864.html</loc><lastmod>2026-10-01T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsbg_24303864.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1845383656378013.html</loc><lastmod>2026-09-30T15:17:51.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1845383656378013.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3554043.html</loc><lastmod>2026-09-30T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3554043.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hs_24294373.html</loc><lastmod>2026-09-29T21:57:23.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hs_24294373.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844751498235453.html</loc><lastmod>2026-09-29T21:00:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844751498235453.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844751498235329.html</loc><lastmod>2026-09-29T20:00:06.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844751498235329.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_166468.html</loc><lastmod>2026-09-27T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_166468.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/d4_24295395.html</loc><lastmod>2026-09-25T17:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/d4_24295395.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844751498224366.html</loc><lastmod>2026-09-25T12:18:42.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844751498224366.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844751498219861.html</loc><lastmod>2026-09-23T23:52:10.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844751498219861.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844751498216898.html</loc><lastmod>2026-09-22T23:15:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844751498216898.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/genshin_166383.html</loc><lastmod>2026-09-22T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/genshin_166383.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/val__ko-kr_news_game-updates_valorant-patch-notes-13-06.html</loc><lastmod>2026-09-22T13:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/val__ko-kr_news_game-updates_valorant-patch-notes-13-06.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestory_814.html</loc><lastmod>2026-09-22T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestory_814.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844115010502406.html</loc><lastmod>2026-09-21T20:03:33.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844115010502406.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844115010495663.html</loc><lastmod>2026-09-18T17:44:43.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844115010495663.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844115010494664.html</loc><lastmod>2026-09-18T12:43:25.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844115010494664.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844115010494049.html</loc><lastmod>2026-09-18T07:55:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844115010494049.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844115010493916.html</loc><lastmod>2026-09-18T06:23:46.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844115010493916.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestory_813.html</loc><lastmod>2026-09-17T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestory_813.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestory_812.html</loc><lastmod>2026-09-17T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestory_812.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3546090.html</loc><lastmod>2026-09-16T10:45:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3546090.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1844115010488639.html</loc><lastmod>2026-09-16T10:00:16.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1844115010488639.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3545062.html</loc><lastmod>2026-09-16T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3545062.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1843481262705400.html</loc><lastmod>2026-09-15T18:44:25.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1843481262705400.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1843481262705049.html</loc><lastmod>2026-09-15T16:14:21.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1843481262705049.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1843481262703464.html</loc><lastmod>2026-09-15T03:03:47.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1843481262703464.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1843481262687543.html</loc><lastmod>2026-09-08T23:00:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1843481262687543.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/pkc_1_2_0.html</loc><lastmod>2026-09-08T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/pkc_1_2_0.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1842846814452062.html</loc><lastmod>2026-09-07T03:04:45.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1842846814452062.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1842846814444212.html</loc><lastmod>2026-09-03T17:47:32.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1842846814444212.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hs_24296231.html</loc><lastmod>2026-09-03T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hs_24296231.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsbg_24296231.html</loc><lastmod>2026-09-03T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsbg_24296231.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1842212951304404.html</loc><lastmod>2026-08-28T21:37:19.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1842212951304404.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1842212951300120.html</loc><lastmod>2026-08-27T14:00:22.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1842212951300120.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3533160.html</loc><lastmod>2026-08-26T12:30:01.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3533160.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1842212951296408.html</loc><lastmod>2026-08-26T10:00:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1842212951296408.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3532699.html</loc><lastmod>2026-08-26T09:00:01.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3532699.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_165767.html</loc><lastmod>2026-08-25T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_165767.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hs_24293283.html</loc><lastmod>2026-08-24T16:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hs_24293283.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestory_811.html</loc><lastmod>2026-08-20T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestory_811.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1841579228663631.html</loc><lastmod>2026-08-19T20:00:31.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1841579228663631.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/mabinogimobile_3527689.html</loc><lastmod>2026-08-19T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/mabinogimobile_3527689.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1841579228661251.html</loc><lastmod>2026-08-19T00:08:04.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1841579228661251.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hs_24293284.html</loc><lastmod>2026-08-18T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hs_24293284.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsbg_24293284.html</loc><lastmod>2026-08-18T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsbg_24293284.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1840944183772872.html</loc><lastmod>2026-08-12T03:13:23.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1840944183772872.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/genshin_165655.html</loc><lastmod>2026-08-11T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/genshin_165655.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1840310314354539.html</loc><lastmod>2026-08-11T16:11:05.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1840310314354539.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1840310314338761.html</loc><lastmod>2026-08-05T10:00:40.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1840310314338761.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1840310314337696.html</loc><lastmod>2026-08-04T23:22:48.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1840310314337696.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1840310314337668.html</loc><lastmod>2026-08-04T22:59:32.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1840310314337668.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1839676055895261.html</loc><lastmod>2026-08-03T16:34:50.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1839676055895261.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1839676055886687.html</loc><lastmod>2026-07-30T23:58:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1839676055886687.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1839676055885737.html</loc><lastmod>2026-07-30T16:07:10.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1839676055885737.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3511993.html</loc><lastmod>2026-07-29T17:53:38.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3511993.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3511990.html</loc><lastmod>2026-07-29T17:47:27.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3511990.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3511972.html</loc><lastmod>2026-07-29T16:30:20.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3511972.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3511958.html</loc><lastmod>2026-07-29T15:59:26.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3511958.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3511927.html</loc><lastmod>2026-07-29T15:02:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3511927.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3510960.html</loc><lastmod>2026-07-29T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3510960.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1839041357038306.html</loc><lastmod>2026-07-28T13:26:12.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1839041357038306.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1838407329258435.html</loc><lastmod>2026-07-17T04:08:58.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1838407329258435.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1838407329253779.html</loc><lastmod>2026-07-15T10:00:29.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1838407329253779.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_165195.html</loc><lastmod>2026-07-14T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_165195.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1837955055366639.html</loc><lastmod>2026-07-14T16:33:46.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1837955055366639.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1836506165584478.html</loc><lastmod>2026-07-09T20:00:40.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1836506165584478.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestorym_3496416.html</loc><lastmod>2026-07-08T08:20:19.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestorym_3496416.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/genshin_165076.html</loc><lastmod>2026-06-30T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/genshin_165076.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1836506165554712.html</loc><lastmod>2026-06-26T17:13:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1836506165554712.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1836506165545438.html</loc><lastmod>2026-06-24T10:00:08.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1836506165545438.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/d4_24287406.html</loc><lastmod>2026-06-23T17:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/d4_24287406.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1834602721202516.html</loc><lastmod>2026-06-09T17:00:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1834602721202516.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1834602721196870.html</loc><lastmod>2026-06-07T20:00:52.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1834602721196870.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3453367.html</loc><lastmod>2026-06-03T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3453367.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1833968530899019.html</loc><lastmod>2026-06-01T23:52:33.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1833968530899019.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_164415.html</loc><lastmod>2026-05-31T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_164415.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1833334318568778.html</loc><lastmod>2026-05-21T12:32:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1833334318568778.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/genshin_164256.html</loc><lastmod>2026-05-19T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/genshin_164256.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_163625.html</loc><lastmod>2026-04-21T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_163625.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1830163047267496.html</loc><lastmod>2026-04-21T01:55:22.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1830163047267496.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1830163047256740.html</loc><lastmod>2026-04-16T07:46:35.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1830163047256740.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1828894815563326.html</loc><lastmod>2026-04-05T08:27:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1828894815563326.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1828441623109104.html</loc><lastmod>2026-03-30T05:59:41.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1828441623109104.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1827626365770693.html</loc><lastmod>2026-03-26T14:40:05.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1827626365770693.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3407280.html</loc><lastmod>2026-03-25T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3407280.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_163273.html</loc><lastmod>2026-03-24T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_163273.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1826992588602773.html</loc><lastmod>2026-03-17T02:12:06.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1826992588602773.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1826992588591637.html</loc><lastmod>2026-03-12T06:03:18.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1826992588591637.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1826992588588691.html</loc><lastmod>2026-03-10T23:04:21.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1826992588588691.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_162706.html</loc><lastmod>2026-02-12T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_162706.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1823191198601260.html</loc><lastmod>2026-01-29T04:19:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1823191198601260.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3359334.html</loc><lastmod>2026-01-28T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3359334.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1822556746166319.html</loc><lastmod>2026-01-26T05:00:57.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1822556746166319.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1821922921817276.html</loc><lastmod>2026-01-16T23:28:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1821922921817276.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1821922921809932.html</loc><lastmod>2026-01-14T07:57:41.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1821922921809932.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1819386365104075.html</loc><lastmod>2025-12-23T12:49:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1819386365104075.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/hsr_161539.html</loc><lastmod>2025-12-16T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/hsr_161539.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1818752592132358.html</loc><lastmod>2025-12-15T08:24:50.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1818752592132358.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1816849002010720.html</loc><lastmod>2025-11-20T13:24:05.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1816849002010720.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1815580768224213.html</loc><lastmod>2025-11-05T10:15:07.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1815580768224213.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3200473.html</loc><lastmod>2025-10-29T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3200473.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1813674388930575.html</loc><lastmod>2025-10-16T07:58:58.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1813674388930575.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1811772772540321.html</loc><lastmod>2025-10-04T11:40:12.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1811772772540321.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1811772772206565.html</loc><lastmod>2025-09-24T10:00:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1811772772206565.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1811138915557937.html</loc><lastmod>2025-09-23T15:06:20.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1811138915557937.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1808601382405904.html</loc><lastmod>2025-08-20T10:00:47.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1808601382405904.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1806698490682773.html</loc><lastmod>2025-07-31T13:29:16.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1806698490682773.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3052009.html</loc><lastmod>2025-07-23T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_3052009.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1803527891895267.html</loc><lastmod>2025-07-08T12:26:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1803527891895267.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1801617199407807.html</loc><lastmod>2025-06-06T00:21:24.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1801617199407807.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1801617199346487.html</loc><lastmod>2025-06-04T04:03:21.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1801617199346487.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1800991756395986.html</loc><lastmod>2025-06-01T03:43:51.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1800991756395986.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1800991756275473.html</loc><lastmod>2025-05-28T11:20:29.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1800991756275473.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1799817379628890.html</loc><lastmod>2025-05-20T13:07:57.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1799817379628890.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1799722702491181.html</loc><lastmod>2025-05-14T11:03:14.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1799722702491181.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/maplestoryworlds_2836105.html</loc><lastmod>2025-04-23T06:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/maplestoryworlds_2836105.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1797185861631543.html</loc><lastmod>2025-04-17T08:01:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1797185861631543.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1797185861601040.html</loc><lastmod>2025-04-16T09:45:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1797185861601040.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1792116353186191.html</loc><lastmod>2025-02-20T07:58:40.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1792116353186191.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1786573930663336.html</loc><lastmod>2024-12-20T18:14:21.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1786573930663336.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/1785774543572415.html</loc><lastmod>2024-12-13T23:08:24.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1785774543572415.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/p/6148070194801749418.html</loc><lastmod>2024-11-12T08:07:20.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/6148070194801749418.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/g/steam-3164330.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-3164330.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-3164330.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-3164330.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ja/g/steam-3164330.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-3164330.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/zh/g/steam-3164330.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-3164330.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pt/g/steam-3164330.html</loc><lastmod>2026-11-27T03:00:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-3164330.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-3164330.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/g/steam-2139460.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-2139460.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-2139460.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-2139460.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ja/g/steam-2139460.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-2139460.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/zh/g/steam-2139460.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-2139460.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pt/g/steam-2139460.html</loc><lastmod>2026-11-27T02:01:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-2139460.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-2139460.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1172470.html</loc><lastmod>2026-11-26T21:37:42.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1172470.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1422450.html</loc><lastmod>2026-11-26T17:21:48.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1422450.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-892970.html</loc><lastmod>2026-11-26T14:06:26.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-892970.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1049590.html</loc><lastmod>2026-11-26T13:59:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1049590.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/g/steam-394360.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-394360.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-394360.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-394360.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ja/g/steam-394360.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-394360.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/zh/g/steam-394360.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-394360.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pt/g/steam-394360.html</loc><lastmod>2026-11-26T13:06:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-394360.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-394360.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/g/steam-292030.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-292030.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-292030.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-292030.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ja/g/steam-292030.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-292030.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/zh/g/steam-292030.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-292030.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/pt/g/steam-292030.html</loc><lastmod>2026-11-26T13:05:54.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://patchworkgg.pages.dev/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://patchworkgg.pages.dev/ja/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://patchworkgg.pages.dev/zh/g/steam-292030.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://patchworkgg.pages.dev/pt/g/steam-292030.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1973530.html</loc><lastmod>2026-11-26T11:13:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1973530.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-2767030.html</loc><lastmod>2026-11-26T10:14:05.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2767030.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-2074920.html</loc><lastmod>2026-11-26T07:05:13.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2074920.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-440.html</loc><lastmod>2026-11-26T02:57:25.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-440.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/wow.html</loc><lastmod>2026-11-25T23:19:16.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/wow.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/mabinogimobile.html</loc><lastmod>2026-11-25T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/mabinogimobile.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/trickcal.html</loc><lastmod>2026-11-25T08:01:06.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/trickcal.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-4732690.html</loc><lastmod>2026-11-25T01:00:17.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-4732690.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-570.html</loc><lastmod>2026-11-24T23:39:04.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-570.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/d4.html</loc><lastmod>2026-11-24T19:38:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/d4.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-381210.html</loc><lastmod>2026-11-24T17:01:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-381210.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-739630.html</loc><lastmod>2026-11-24T11:45:35.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-739630.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-322330.html</loc><lastmod>2026-11-23T23:27:44.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-322330.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-730.html</loc><lastmod>2026-11-23T23:02:07.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-730.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/kartrush.html</loc><lastmod>2026-11-23T10:40:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/kartrush.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/bluearchive.html</loc><lastmod>2026-11-23T09:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/bluearchive.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/hsbg.html</loc><lastmod>2026-11-23T00:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/hsbg.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1282270.html</loc><lastmod>2026-11-20T08:26:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1282270.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1172620.html</loc><lastmod>2026-11-19T11:20:29.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1172620.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-2073850.html</loc><lastmod>2026-11-19T09:59:33.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2073850.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/maplestory.html</loc><lastmod>2026-11-19T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/maplestory.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/fconline.html</loc><lastmod>2026-11-19T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/fconline.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1203220.html</loc><lastmod>2026-11-18T13:35:43.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1203220.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-5019180.html</loc><lastmod>2026-11-18T10:30:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-5019180.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-3308670.html</loc><lastmod>2026-11-18T10:00:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-3308670.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/maplestoryworlds.html</loc><lastmod>2026-11-18T08:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/maplestoryworlds.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/lol.html</loc><lastmod>2026-11-17T19:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/lol.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/tft.html</loc><lastmod>2026-11-17T19:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/tft.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1599340.html</loc><lastmod>2026-11-17T17:18:01.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1599340.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/ow2.html</loc><lastmod>2026-11-17T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/ow2.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/nikke.html</loc><lastmod>2026-11-16T08:00:25.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/nikke.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-304930.html</loc><lastmod>2026-11-12T20:35:44.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-304930.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-3513350.html</loc><lastmod>2026-11-11T20:00:52.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-3513350.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/maplestorym.html</loc><lastmod>2026-11-11T09:10:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/maplestorym.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1868140.html</loc><lastmod>2026-11-11T03:36:01.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1868140.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/hsr.html</loc><lastmod>2026-11-10T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/hsr.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1295660.html</loc><lastmod>2026-11-10T15:26:47.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1295660.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/val.html</loc><lastmod>2026-11-10T14:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/val.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1938090.html</loc><lastmod>2026-11-05T19:01:23.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1938090.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-4125930.html</loc><lastmod>2026-11-05T00:26:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-4125930.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/genshin.html</loc><lastmod>2026-11-03T23:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/genshin.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/hs.html</loc><lastmod>2026-11-03T15:55:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/hs.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-359550.html</loc><lastmod>2026-11-02T17:51:52.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-359550.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/uma.html</loc><lastmod>2026-10-30T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/uma.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-2246340.html</loc><lastmod>2026-10-28T10:54:39.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2246340.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1091500.html</loc><lastmod>2026-10-21T15:45:15.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1091500.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-4162040.html</loc><lastmod>2026-10-20T23:00:24.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-4162040.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/pkc.html</loc><lastmod>2026-10-06T03:00:00.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/pkc.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-252950.html</loc><lastmod>2026-09-22T23:15:03.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-252950.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1623730.html</loc><lastmod>2026-09-15T03:03:47.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1623730.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1245620.html</loc><lastmod>2026-08-27T14:00:22.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1245620.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1085660.html</loc><lastmod>2026-06-09T17:00:09.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1085660.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1966720.html</loc><lastmod>2026-04-05T08:27:11.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1966720.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-1086940.html</loc><lastmod>2026-03-26T14:40:05.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-1086940.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-2668080.html</loc><lastmod>2026-01-26T05:00:57.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2668080.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-346110.html</loc><lastmod>2026-01-16T23:28:55.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-346110.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-2358720.html</loc><lastmod>2026-01-14T07:57:41.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-2358720.html"/>
+  </url>
+  <url><loc>https://patchworkgg.pages.dev/ko/g/steam-413150.html</loc><lastmod>2024-12-20T18:14:21.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/g/steam-413150.html"/>
+  </url>
 </urlset>

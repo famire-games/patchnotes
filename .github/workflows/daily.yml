@@ -1,12 +1,12 @@
 name: daily-update
-# 매일 06:00 KST(21:00 UTC): 패치노트 수집·요약 + 게임 정보 갱신 → 커밋 → GitHub Pages 배포
+# 6시간마다(KST 00·06·12·18시): 패치노트 수집·요약 + 게임 정보 갱신 → 커밋 → GitHub Pages 배포
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 3,9,15,21 * * *'
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['site/**', 'manual.json', 'pkc_overrides.json', 'pkc_items.json', 'games.json']
+    paths: ['site/**', 'build_pages.mjs', 'manual.json', 'pkc_overrides.json', 'pkc_items.json', 'games.json']
 permissions:
   contents: write
   pages: write
@@ -38,6 +38,7 @@ jobs:
           node lol_build.mjs || echo "lol failed"
           node hs_build.mjs || echo "hs failed"
           node pkc_build.mjs || echo "pkc failed"
+          node build_pages.mjs || echo "pages failed"
       - name: commit data
         if: github.event_name != 'push'
         run: |

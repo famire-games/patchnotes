@@ -6,4 +6,5 @@ node update.mjs >> update.log 2>&1
 node lol_build.mjs >> update.log 2>&1
 node hs_build.mjs >> update.log 2>&1
 node pkc_build.mjs >> update.log 2>&1
+node build_pages.mjs >> update.log 2>&1
 echo [%date% %time%] done >> update.log

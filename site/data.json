@@ -1,6 +1,182 @@
 {
  "items": [
   {
+   "gid": "1850460852987922",
+   "appid": 3164330,
+   "game": "인피니티 니키",
+   "date": 1795748411,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852987922",
+   "origTitle": "November 26: Patch Notes",
+   "title": "인피니티 니키 버전 3.0 패치 노트",
+   "summary": "인피니티 니키 버전 3.0 '어제와 내일의 이야기' 업데이트에 따른 모바일 기기 퀘스트 및 이벤트 오류, 의상 착용 및 염색 오류 등 다양한 버그가 수정되었습니다.",
+   "highlights": [
+    "모바일 기기 전용 퀘스트 및 이벤트 오류 수정",
+    "아우터 '리스타트 인베스티처' 이동 시 비정상 동작 수정",
+    "의상 '실켄 나이트파이어' 염색 효과 표시 오류 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "모바일 기기에서 어린 왕자 전용 퀘스트, 이벤트, 워프 스파이어 비정상 동작 수정",
+    "아우터 '리스타트 인베스티처' 이동 시 비정상 동작 수정",
+    "상호작용 알림이 '작업을 찾을 수 없음'으로 잘못 표시되던 문제 수정",
+    "'별빛 대회' 퇴장 시 게임 비정상 동작 수정",
+    "드레스 '실켄 나이트파이어'의 염색 효과 표시 오류 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Infinity Nikki Version 3.0 Patch Notes",
+     "summary": "Infinity Nikki Version 3.0 'Of Yesterday and Tomorrow' brings fixes for mobile device quest and event issues, outerwear movement glitches, and dyeing display errors.",
+     "highlights": [
+      "Fixed mobile quest and event display issues",
+      "Fixed movement glitch for outerwear 'Restarted Investiture'",
+      "Fixed dye effect display issue for dress 'Silken Nightfire'"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed mobile issues with The Little Prince quests, events, and Warp Spires",
+      "Fixed outerwear 'Restarted Investiture' abnormal behavior during movement",
+      "Fixed interaction notifications incorrectly showing 'Work not found'",
+      "Fixed game behaving incorrectly when exiting 'Starlight Contest'",
+      "Fixed dye effects of dress 'Silken Nightfire' displaying incorrectly"
+     ]
+    },
+    "ja": {
+     "title": "インフィニティニキ バージョン3.0パッチノート",
+     "summary": "『インフィニティニキ』バージョン3.0「昨日のことと明日のこと」のアップデートに伴い、モバイル端末でのクエストやイベントの不具合、衣装の挙動および染色表示のエラーなどが修正されました。",
+     "highlights": [
+      "モバイル端末における専用クエストとイベントの不具合修正",
+      "アウター「リスタートインベスティチャー」移動時の異常動作修正",
+      "ドレス「シルケンナイトファイア」の染色効果表示エラー修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "モバイル端末での星の王子さま専用クエストやイベント、ワープスパイアの不具合修正",
+      "アウター「リスタートインベスティチャー」移動時の異常動作修正",
+      "インタラクション通知が「仕事が見つかりません」と誤表示される問題の修正",
+      "「スターライトコンテスト」終了時のゲーム異常動作修正",
+      "ドレス「シルケンナイトファイア」の染色効果表示エラー修正"
+     ]
+    },
+    "zh": {
+     "title": "无限暖暖 3.0版本更新说明",
+     "summary": "《无限暖暖》3.0版本“昨日与明日之歌”发布，修复了移动端任务与活动异常、外套移动表现异常以及染色效果显示错误等问题。",
+     "highlights": [
+      "修复移动端专属任务及活动异常问题",
+      "修复外套“重启授职”移动时的异常表现",
+      "修复裙子“丝绸夜火”染色效果显示错误"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复移动端小王子专属任务、活动及传送spire异常问题",
+      "修复外套“重启授职”移动时表现异常的问题",
+      "修复交互提示错误显示“未找到工作”的问题",
+      "修复退出“星光大赛”时游戏异常的问题",
+      "修复裙子“丝绸夜火”染色效果显示错误的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas do Patch de Infinity Nikki Versão 3.0",
+     "summary": "A Versão 3.0 de Infinity Nikki 'De Ontem e de Amanhã' traz correções para erros de missões e eventos em dispositivos móveis, falhas de movimento de roupas e problemas de exibição de tingimento.",
+     "highlights": [
+      "Corrigidos problemas em missões e eventos mobile",
+      "Corrigida falha de movimento do casaco 'Restarted Investiture'",
+      "Corrigido erro de exibição de tingimento do vestido 'Silken Nightfire'"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigidos problemas em missões do Pequeno Príncipe, eventos e Torres de Dobra em dispositivos móveis",
+      "Corrigido comportamento anormal do casaco 'Restarted Investiture' ao se mover",
+      "Corrigido aviso de interação exibindo incorretamente 'Trabalho não encontrado'",
+      "Corrigido comportamento incorreto ao sair do 'Concurso Estelar'",
+      "Corrigidos efeitos de tingimento do vestido 'Silken Nightfire' exibidos incorretamente"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1850460852987799",
+   "appid": 2139460,
+   "game": "원스 휴먼",
+   "date": 1795744877,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852987799",
+   "origTitle": "3.2.1 Bug Fixes (November 26)",
+   "title": "11월 26일 3.2.1 패치 안내",
+   "summary": "원스 휴먼 3.2.1 업데이트를 통해 텔레포트 시 지형이나 빈 구조물에 끼이던 현상과 커스텀 서버 영지 내 배치물 높이 조절 오류가 수정되었습니다.",
+   "highlights": [
+    "공명 이동 텔레포트 시 지형 및 구조물 끼임 현상 수정",
+    "커스텀 서버 영지 내 디자인 레이아웃 높이 미조절 문제 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "공명 이동 중 텔레포트 시 특정 지형 또는 빈 구조물에 갇히는 문제 수정",
+    "커스텀 서버 일부 영지 내 배치 시 디자인 레이아웃 높이를 정밀하게 조절할 수 없던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "November 26 Patch 3.2.1",
+     "summary": "The Once Human 3.2.1 update fixes issues related to getting stuck after teleporting in Resonant Movements and inaccuracies when adjusting design layout heights on Custom Servers.",
+     "highlights": [
+      "Fixed getting stuck in terrain or hollow structures during Resonant Movements teleportation",
+      "Fixed design layout height adjustment issues in some Custom Server territories"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where players could get stuck in certain terrain or hollow structures when teleporting in Resonant Movements",
+      "Fixed an issue where players could not precisely adjust the height of design layouts when placing them in some territories on Custom Servers"
+     ]
+    },
+    "ja": {
+     "title": "11月26日 3.2.1 パッチノート",
+     "summary": "『원스 휴먼』の3.2.1アップデートにより、共鳴移動中のテレポートにおける地形や構造物へのスタック現象と、カスタムサーバーでの建築レイアウトの高さ調整不具合が修正されました。",
+     "highlights": [
+      "共鳴移動でのテレポート時の地形・空洞構造物へのスタックを修正",
+      "カスタムサーバーの一部の領地でのデザインレイアウトの高さ調整不具合を修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "共鳴移動でテレポートした際に特定の地形や空洞構造物の中にスタックする不具合を修正",
+      "カスタムサーバーの一部の領地でデザインレイアウトを配置する際、高さを正確に調整できなかった不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "11月26日 3.2.1 版本修复公告",
+     "summary": "《원스 휴먼》3.2.1版本更新修复了共鸣移动中传送卡地形以及自定义服务器中建筑布局高度无法精确调整的问题。",
+     "highlights": [
+      "修复共鸣移动传送时卡入地形或空心结构的问题",
+      "修复自定义服务器部分领地建筑布局高度调整异常的问题"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了在共鸣移动中传送时玩家可能卡在某些地形或空心结构中的问题",
+      "修复了在自定义服务器某些领地放置设计布局时无法精确调整高度的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas da Atualização 3.2.1 (26 de novembro)",
+     "summary": "A atualização 3.2.1 de Once Human corrige problemas onde jogadores ficavam presos após o teleporte em Movimentos Ressonantes e falhas no ajuste de altura de layouts em servidores personalizados.",
+     "highlights": [
+      "Corrigido problema de ficar preso no terreno ou estruturas ocas ao teleportar em Movimentos Ressonantes",
+      "Corrigido ajuste de altura de layouts de design em alguns territórios de Servidores Personalizados"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido um problema em que os jogadores podiam ficar presos em determinados terrenos ou estruturas ocas ao teleportar em Movimentos Ressonantes",
+      "Corrigido um problema em que os jogadores não conseguiam ajustar com precisão a altura dos layouts de design ao colocá-los em alguns territórios em Servidores Personalizados"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1850460852987287",
    "appid": 1172470,
    "game": "에이펙스 레전드",
@@ -109,6 +285,287 @@
     "언박싱 컬렉션 보상 팝업에 올바른 컬렉션 이름이 표시되도록 수정",
     "성수 툴팁에 실제 적용되는 방어력 증가 수치가 올바르게 표시되도록 수정"
    ]
+  },
+  {
+   "gid": "1850460852985445",
+   "appid": 394360,
+   "game": "하츠 오브 아이언 IV",
+   "date": 1795698363,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852985445",
+   "origTitle": "Hearts of Iron IV | Patch 1.20.1 & Studio Gold Update",
+   "title": "하츠 오브 아이언 IV 패치 1.20.1 및 스튜디오 골드 업데이트",
+   "summary": "발칸 반도 관련 밸런스를 조정하고 루마니아 포커스 및 이벤트의 여러 버그를 수정하는 1.20.1 패치가 적용되었습니다. 또한 생성형 AI를 활용하여 멀티플레이어 보안을 대폭 강화하고 네트워크 코드를 현대화했습니다.",
+   "highlights": [
+    "'발칸의 수호자' 및 '정교회의 보호자' 등 루마니아 관련 능력치 밸런스 하향 조정",
+    "루마니아 포커스 트리와 이벤트의 다양한 버그 및 진행 불가 현상 수정",
+    "AI 도구를 활용하여 클라우제비츠 엔진의 네트워크 계층 개편 및 명령어 검증 시스템 도입",
+    "멀티플레이어 치트 및 그리핑 방지 강화로 무단 조작 시 자동 퇴장 처리",
+    "약 2만 줄의 오래된 코드 삭제 및 400개 이상의 명령어 검증 업데이트"
+   ],
+   "buffs": [
+    "카롤 국왕이나 미하이 국왕에 따른 포커스 효과 분기 및 루마니아 '국군' 국민정신이 부대의 HP 능력치에 올바르게 적용되도록 개선"
+   ],
+   "nerfs": [
+    "'발칸의 수호자' 추가 비핵심 인력 보너스 25%에서 7.5%로 감소",
+    "'정교회의 보호자' 순응도 획득량 +0.25%에서 +0.15%로 감소",
+    "루마니아 개척 사회학자 조언자 디미트리 구스티의 순응도 획득량 +0.05%에서 +0.02%로 감소"
+   ],
+   "fixes": [
+    "루마니아 속국이 발칸 연방 통합을 거부하던 문제 수정",
+    "이유 마니우의 중복된 국가 지도자 체크 제거",
+    "루마니아 시작 국민정신 '루마니아 국군'이 유닛 HP 스탯에 정상적으로 반영되도록 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Hearts of Iron IV Patch 1.20.1 & Studio Gold Update",
+     "summary": "Patch 1.20.1 brings balance tweaks to Balkan mechanics and bug fixes for the Romanian focus tree. Additionally, the Studio Gold update introduces a major multiplayer networking overhaul using AI tools to combat cheaters and griefers.",
+     "highlights": [
+      "Reduced extra non-core manpower and compliance gains for certain Romanian national spirits and advisors",
+      "Improved focus tree branch hiding and monarchist diplomacy availability for Romania",
+      "Reworked networking layer and command validation in the Clausewitz engine using AI assistance",
+      "Deleted nearly 20,000 lines of old code and updated 400+ game commands to prevent exploits",
+      "Implemented automatic player removal and lobby notification for unauthorized command manipulation"
+     ],
+     "buffs": [
+      "Starting National Spirit 'Romanian Armed Forces' now correctly affects unit HP, and 'Improve Army Medical Care' correctly modifies it"
+     ],
+     "nerfs": [
+      "Reduced 'Defender of the Balkans' extra non-core manpower from 25% to 7.5%",
+      "Reduced compliance gain on 'Protector of the Orthodox' from +0.25% to +0.15%",
+      "Reduced compliance gain from Romanian advisor Dimitrie Gusti from +0.05% to +0.02%"
+     ],
+     "fixes": [
+      "Romanian subjects will no longer refuse Balkan Union integration",
+      "Removed a duplicate country leader check from Iuliu Maniu",
+      "Fixed 'A Show of Force' focus checking the wrong flag and never unlocking"
+     ]
+    },
+    "ja": {
+     "title": "ハーツ・オブ・アイアンIV パッチ1.20.1＆スタジオゴールド・アップデート",
+     "summary": "パッチ1.20.1では、バルカン半島のバランス調整やルーマニアのフォーカスツリーに関する多数のバグ修正が行われました。また、AIツールを活用してマルチ플레이어のネットワークコードを刷新し、不正行為や嫌がらせに対するセキュリティが大幅に強化されました。",
+     "highlights": [
+      "「バルカンの守護者」や「正教会の守護者」などの数値バランスを下方修正",
+      "ルーマニアのフォーカスツリー分岐やイベントの進行不能バグを修正",
+      "AI支援を活用してクラウゼヴィッツ・エンジンのネットワーク層とコマンド検証機能を刷新",
+      "約2万行の古いコードを削除し、400以上のコマンドを更新して不正行為を防止",
+      "不正なコマンドを送信したプレイヤーを自動的にゲームから除外する機能を追加"
+     ],
+     "buffs": [
+      "初期の国家精神「ルーマニア軍」がユニットのHPステータスに正しく影響するように修正"
+     ],
+     "nerfs": [
+      "「バルカンの守護者」の非中核人的資源ボーナスを25%から7.5%に削減",
+      "「正教会の守護者」の順応度獲得量を+0.25%から+0.15%に削減",
+      "ルーマニアの顧問ディミ트리・グスティによる順応度獲得量を+0.05%から+0.02%に削減"
+     ],
+     "fixes": [
+      "ルーマニアの属国がバルカン連盟への統合を拒否しなくなった",
+      "Iuliu Maniuの重複する国家指導者チェックを削除",
+      "「武力示威」フォーカスが間違ったフラグをチェックして解除されない不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "钢铁雄心4 1.20.1补丁及工作室黄金更新",
+     "summary": "1.20.1补丁调整了巴尔干地区的平衡性，并修复了罗马尼亚国策树的相关Bug。同时，工作室黄金更新利用AI工具大幅重构了多人游戏的网络层，有效防范作弊和恶意破坏行为。",
+     "highlights": [
+      "下调了“巴尔干守护者”及“东正教保护者”等罗马尼亚相关精神和顾问的数值收益",
+      "优化了罗马尼亚国策树的分支隐藏与君主制外交条件",
+      "借助AI辅助重构了克劳塞维茨引擎的网络层与命令验证机制",
+      "删除了近2万行旧代码并更新了400多条游戏命令以杜绝漏洞",
+      "对尝试操纵受保护命令的玩家进行自动检测并将其移出游戏"
+     ],
+     "buffs": [
+      "初始国家精神“罗马尼亚武装部队”现在可以正确影响单位生命值属性"
+     ],
+     "nerfs": [
+      "将“巴尔干守护者”提供的非核心人力加成从25%降至7.5%",
+      "将“东正教保护者”的顺从度获得从+0.25%降低至+0.15%",
+      "将罗马尼亚顾问迪米特里·古斯蒂提供的顺从度获得从+0.05%降低至+0.02%"
+     ],
+     "fixes": [
+      "罗马尼亚附庸国将不再拒绝加入巴尔干同盟整合",
+      "移除了尤柳·马纽重复的国家领袖检查",
+      "修复了“武力秀”国策检查错误旗标导致无法解锁的问题"
+     ]
+    },
+    "pt": {
+     "title": "Hearts of Iron IV | Atualização Patch 1.20.1 & Studio Gold",
+     "summary": "O Patch 1.20.1 traz ajustes de balanceamento para os Bálcãs e diversas correções de bugs para a árvore de foco da Romênia. Além disso, a atualização Studio Gold traz uma grande reformulação no multijogador usando ferramentas de IA para combater trapaceiros.",
+     "highlights": [
+      "Reduzido o bônus de mão de obra não-núcleo e ganho de complacência de certos espíritos nacionais romenos",
+      "Melhorias na ocultação de ramos e disponibilidade diplomática monarquista para a Romênia",
+      "Reformulação da camada de rede e validação de comandos no motor Clausewitz com auxílio de IA",
+      "Remoção de cerca de 20.000 linhas de código antigo e atualização de mais de 400 comandos",
+      "Implementação de remoção automática de jogadores que tentarem manipular comandos protegidos"
+     ],
+     "buffs": [
+      "O espírito nacional inicial 'Forças Armadas Romenas' agora afeta corretamente a vida (HP) das unidades"
+     ],
+     "nerfs": [
+      "Reduzido o bônus de mão de obra não-núcleo de 'Defensor dos Bálcãs' de 25% para 7,5%",
+      "Reduzido o ganho de complacência em 'Protetor dos Ortodoxos' de +0,25% para +0,15%",
+      "Reduzido o ganho de complacência do conselheiro romeno Dimitrie Gusti de +0,05% para +0,02%"
+     ],
+     "fixes": [
+      "Estados vassalos romenos não recusarão mais a integração da União Balcânica",
+      "Removida uma verificação duplicada de líder de país de Iuliu Maniu",
+      "Corrigido o foco 'Demonstração de Força' que verificava a bandeira errada e nunca desbloqueava"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1850460852985444",
+   "appid": 292030,
+   "game": "위쳐 3: 와일드 헌트",
+   "date": 1795698354,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852985444",
+   "origTitle": "Patch 5.02 for The Witcher 3: Wild Hunt — Remastered is live!",
+   "title": "더 위처 3: 와일드 헌트 패치 5.02",
+   "summary": "더 위처 3: 와일드 헌트 패치 5.02가 배포되었습니다. 이번 업데이트는 게임플레이, 밸런스, 비주얼, 포토 모드 개선 및 대륙 전반의 다양한 버그 수정을 포함합니다.",
+   "highlights": [
+    "게임플레이 및 밸런스 조정",
+    "스킬 및 변이체 밸런스 개편",
+    "포토 모드 기능 및 안정성 개선",
+    "PC 패스 트레이싱 및 레이 레이컨스트럭션 최적화",
+    "32:9 슈퍼 울트라와이드 화면비 지원"
+   ],
+   "buffs": [
+    "지연된 회복(Delayed Recovery) 탕약과 함께 사용 가능"
+   ],
+   "nerfs": [
+    "촉매(Catalyst) 아드 및 이그니 위력 보너스 10% 감소",
+    "지속형 문양(Sustained Glyphs) 표식 지속 시간 보너스 3초 감소",
+    "아드레날린 폭주(Adrenaline Rush) 공격력 및 표식 위력 보너스 20% 감소",
+    "고양이 눈(Cat Eyes) 피해 보너스 50 감소",
+    "마법 감각(Magic Sensibilities) 치명타 확률 15% 및 치명타 피해 50% 감소",
+    "변이된 피부(Mutated Skin) 아드레날린 포인트당 피해 감소량 5% 감소",
+    "날카로운 추위(Piercing Cold) 피해 보너스 500 감소"
+   ],
+   "fixes": [
+    "졸탄 치베이 괄트 카드 위치 오류 수정",
+    "모드 설치 및 제거 시 인벤토리 비워짐 현상 수정",
+    "뉴 게임+ 불러오기 시 아이템 레벨 요구 및 아론다이트 추가 피해 값 초기화 오류 수정",
+    "메디테이션 시간 무한 역행 현상 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "The Witcher 3: Wild Hunt Patch 5.02",
+     "summary": "Patch 5.02 for The Witcher 3: Wild Hunt is now live. This update brings gameplay and balance adjustments, visual improvements, photo mode updates, and numerous bug fixes across the Continent.",
+     "highlights": [
+      "Gameplay and balance adjustments",
+      "Skill and mutation balance updates",
+      "Photo Mode improvements and fixes",
+      "PC Path Tracing and Ray Reconstruction optimizations",
+      "Added support for 32:9 super-ultrawide aspect ratio"
+     ],
+     "buffs": [
+      "Delayed Recovery can now also be used with Decoctions"
+     ],
+     "nerfs": [
+      "Catalyst: Reduced Aard and Igni intensity bonus by 10%",
+      "Sustained Glyphs: Reduced Sign duration bonus by 3 seconds",
+      "Adrenaline Rush: Reduced Attack Power and Sign Intensity bonus by 20%",
+      "Cat Eyes: Reduced damage bonus by 50",
+      "Magic Sensibilities: Reduced critical hit chance by 15% and critical hit damage by 50%",
+      "Mutated Skin: Lowered damage reduction by 5% per Adrenaline Point",
+      "Piercing Cold: Reduced damage bonus by 500"
+     ],
+     "fixes": [
+      "Fixed Zoltan Chivay Gwent card spawning under Hanged Man's Tree",
+      "Fixed empty inventory bug caused by installing/uninstalling mods",
+      "Fixed New Game+ Aerondight damage value reset and item level requirement issues",
+      "Fixed meditation time going backwards indefinitely"
+     ]
+    },
+    "ja": {
+     "title": "ウィッチャー3 ワイルドハント パッチ5.02",
+     "summary": "『ウィッチャー3 ワイルドハント』のパッチ5.02が配信開始されました。このアップデートでは、ゲームプレイやバランス、ビジュアルの調整、フォトモードの改善、大陸全土の多数のバグ修正が行われています。",
+     "highlights": [
+      "ゲームプレイとバランスの調整",
+      "スキルと変異のバランス調整",
+      "フォトモードの機能改善",
+      "PCのパストラースおよびレイレコンストラクションの最適化",
+      "32:9スーパーウルトラワイドアスペクト比のサポート追加"
+     ],
+     "buffs": [
+      "遅延回復（Delayed Recovery）が変異抽出液でも使用可能に"
+     ],
+     "nerfs": [
+      "触媒（Catalyst）：アールドとイグニの威力ボーナスが10%減少",
+      "持続する印（Sustained Glyphs）：印の持続時間ボーナスが3秒減少",
+      "アドレナリンラッシュ（Adrenaline Rush）：攻撃力と印の威力ボーナスが20%減少",
+      "猫の目（Cat Eyes）：ダメージボーナスが50減少",
+      "魔法の感性（Magic Sensibilities）：クリティカルヒット率が15%、クリティカルヒットダメージが50%減少",
+      "変異誘発スキン（Mutated Skin）：アドレナリンポイントごとのダメージ軽減量が5%減少",
+      "冷気（Piercing Cold）：ダメージボーナスが500減少"
+     ],
+     "fixes": [
+      "ゾルタン・チヴェイのグウェントカードが「絞首刑人の木」の下に正しく出現するように修正",
+      "モジュールのインストールおよびアンインストールによりインベントリが空になる不具合を修正",
+      "ニューゲーム+のセーブデータ読み込みにおけるアロンダ이트の追加ダメージ値リセット等の不具合を修正",
+      "瞑想時間が無期限に逆戻りする不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "巫师3：狂猎 补丁 5.02",
+     "summary": "《巫师3：狂猎》5.02补丁现已上线。本次更新带来了游戏玩法、平衡性、视觉调整、照片模式改进以及大陆各处的许多错误修复。",
+     "highlights": [
+      "游戏玩法与平衡性调整",
+      "技能与突变平衡性重做",
+      "照片模式改进及修复",
+      "PC路径追踪与光线重建优化",
+      "新增支持 32:9 超宽屏比例"
+     ],
+     "buffs": [
+      "延迟恢复（Delayed Recovery）现在也可以配合煎药使用"
+     ],
+     "nerfs": [
+      "催化剂（Catalyst）：减少 10% 的阿尔德和伊格尼强度加成",
+      "持续法印（Sustained Glyphs）：法印持续时间加成减少 3 秒",
+      "肾上腺素激增（Adrenaline Rush）：攻击力和法印强度加成减少 20%",
+      "猫眼（Cat Eyes）：伤害加成减少 50",
+      "魔法感悟（Magic Sensibilities）：暴击率减少 15%，暴击伤害减少 50%",
+      "变异皮肤（Mutated Skin）：每个肾上腺素点的伤害减免降低 5%",
+      "刺骨寒冰（Piercing Cold）：伤害加成减少 500"
+     ],
+     "fixes": [
+      "修复了佐尔坦·齐威昆特牌会正确出现在威伦绞刑人树下的问题",
+      "修复了安装和卸载模组导致物品栏被清空的问题",
+      "修复了新游戏+加载存档时阿隆戴特伤害值重置及物品等级要求增加的问题",
+      "修复了冥想导致时间无限倒流的问题"
+     ]
+    },
+    "pt": {
+     "title": "The Witcher 3: Wild Hunt — Atualização 5.02",
+     "summary": "A atualização 5.02 para The Witcher 3: Wild Hunt já está disponível. Esta atualização traz ajustes de jogabilidade, balanceamento, visuais, melhorias no Modo Foto e várias correções de bugs em todo o Continente.",
+     "highlights": [
+      "Ajustes de jogabilidade e balanceamento",
+      "Atualizações de balanceamento de Habilidades e Mutações",
+      "Melhorias e correções no Modo Foto",
+      "Otimizações de Path Tracing e Ray Reconstruction para PC",
+      "Adicionado suporte para proporção 32:9 (superultrawide)"
+     ],
+     "buffs": [
+      "Recuperação Atrasada (Delayed Recovery) agora também pode ser usada com Decoctions"
+     ],
+     "nerfs": [
+      "Catalisador (Catalyst): Bônus de intensidade de Aard e Igni reduzido em 10%",
+      "Glifos Sustentados (Sustained Glyphs): Bônus de duração do Sinal reduzido em 3 segundos",
+      "Ímpeto de Adrenalina (Adrenaline Rush): Bônus de Poder de Ataque e Intensidade de Sinais reduzido em 20%",
+      "Olhos de Gato (Cat Eyes): Bônus de dano reduzido em 50",
+      "Sensibilidades Mágicas (Magic Sensibilities): Chance de acerto crítico reduzida em 15% e dano crítico reduzido em 50%",
+      "Pele Mutada (Mutated Skin): Redução de dano diminuída em 5% por Ponto de Adrenalina",
+      "Frio Cortante (Piercing Cold): Bônus de dano reduzido em 500"
+     ],
+     "fixes": [
+      "Corrigido o problema em que a carta de Gwent de Zoltan Chivay aparecia corretamente sob a Árvore do Homem Enforcado",
+      "Corrigido o problema em que instalar e desinstalar mods esvaziava os inventários",
+      "Corrigido o problema que redefinia o valor de dano da Aerondight ao carregar um save do Novo Jogo+",
+      "Corrigido o problema em que meditar fazia o tempo retroceder indefinidamente"
+     ]
+    }
+   }
   },
   {
    "gid": "1850460852985051",
@@ -7614,7 +8071,7 @@
    ]
   }
  ],
- "updated": 1795729866793,
+ "updated": 1795764078157,
  "merged": [
   "1849827110445079",
   "1849827110428767",
@@ -7623,54 +8080,111 @@
   "1847286114032016",
   "1846651706694551",
   "1826992588590467",
-  "1850460852986875"
+  "1850460852986875",
+  "1850460852986797"
  ],
  "icons": {
   "440": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
   "570": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1791407503",
   "730": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1793054556",
+  "4000": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
   "105600": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1792530636",
+  "227300": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1794502925",
   "230410": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/1a3e7c2a05ce4e5cad5ac4c7e858cf5b0934704e/header.jpg?t=1794847104",
+  "236390": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/09150b32d79fc827c2d24bc7ee200748a3c1e43e/header.jpg?t=1794405808",
   "238960": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/19a8acaddb5659ef3c1c91e5d6beb89abf10718d/header.jpg?t=1794430224",
   "252490": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
   "252950": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/3abd9ab079c8896a4762dbe34a853d89b7f704df/header_alt_assets_17.jpg?t=1791210513",
+  "261550": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261550/header.jpg?t=1764252300",
   "271590": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+  "291550": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291550/9b8872bfc11df391e8eb3c1194a38a7bee4529e9/header_alt_assets_13.jpg?t=1795011072",
+  "292030": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/4b5b1ba5061b8a992cc69ac58b4245434edb4296/header.jpg?t=1793900434",
   "304930": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304930/161ec2d6ace8a03afdb7a423510ff8f7d8b301ba/header.jpg?t=1783436894",
   "322330": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/050ea9c51a4e96f707309d33b7cdd38e0a6cbfff/header_alt_assets_51.jpg?t=1793044716",
   "346110": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1793226330",
   "359550": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/1c7b1ea3405a69c54429e2aa3dc31f3cbbeaa456/header_alt_assets_28.jpg?t=1792001976",
   "381210": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c5cf48bd5676caa7e505ef7e552598d2a01effcd/header_alt_assets_11.jpg?t=1795543658",
+  "386180": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386180/bb6ed52294d8461622661e69785db1005fda02d3/header.jpg?t=1795673231",
+  "389430": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/389430/header.jpg?t=1646706116",
+  "392160": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/392160/header.jpg?t=1783002135",
+  "394360": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1795531455",
   "413150": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
+  "427520": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ab9a2df0a77caebde20dc45adc021de8cdcf7cc5/header.jpg?t=1792752343",
+  "526870": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg?t=1791192059",
+  "534380": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1795608834",
+  "552990": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/dfc3d15ad7b723a0b1e0a93ce197a8fa3b05311f/header_alt_assets_20.jpg?t=1795524733",
   "553850": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header.jpg?t=1793395133",
   "578080": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1792718193",
+  "668580": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
   "739630": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/8fc6642a091321343695b2273f8f7137c5d26483/header_alt_assets_14.jpg?t=1795522435",
+  "761890": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/761890/ff6acbb6e6a1d9c3a64a297dc3f772bc5481835d/header.jpg?t=1788194761",
+  "766570": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/766570/header.jpg?t=1752656375",
+  "767560": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/767560/0d291b863576b43b588ab30a49d9991aea694ed8/header.jpg?t=1790758165",
+  "881020": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/header.jpg?t=1792403376",
   "892970": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/df65cafab20dae97a243c7cc988e8bf959e4b906/header.jpg?t=1791544831",
+  "945360": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/d611f3f87743b5121532023b1d3ee2dd0e96e772/header.jpg?t=1793821899",
+  "949230": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg?t=1794506466",
   "1049590": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1049590/cc407c5386e0374e0dca503419847562a53bfbf0/header.jpg?t=1794879050",
   "1085660": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/0ccf0dc0a8c4ec078db7ab99ddc820b2fa884441/header.jpg?t=1781815889",
   "1086940": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
   "1091500": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1794474878",
+  "1129580": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1129580/header.jpg?t=1792138818",
+  "1149620": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149620/ba073f748dc99c26ea9bf8e2eacda8ef449802a2/header.jpg?t=1793204580",
   "1172470": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4219c147f1e094297c726d537518babba7f3ae2d/header.jpg?t=1794958367",
   "1172620": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/579c6d544424019a032f4add98e8f923925c1cef/header.jpg?t=1793617680",
+  "1190970": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190970/8c1f79f92f6f775e0a2d21152b6189259a4005e0/header_alt_assets_12.jpg?t=1795088325",
   "1203220": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/5857b2eed59cad31bea023c1b59fbb7c7064e222/header.jpg?t=1793846487",
   "1245620": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1790290043",
+  "1273400": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1273400/header.jpg?t=1795513648",
   "1282270": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282270/e585ce95e0326a6ef1ae8c7e48017fe2b62ad1bf/header.jpg?t=1795401049",
   "1295660": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295660/header.jpg?t=1792718077",
+  "1363080": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg?t=1795530200",
+  "1364780": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1791866175",
+  "1407200": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/819fc92f7ddb96ef10792a6d72382c5b814d671a/header.jpg?t=1795004013",
   "1422450": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/aa249c5e8cc8f90941bd1dbdc311773cd1afe065/header.jpg?t=1790716179",
+  "1446780": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1792548454",
+  "1568590": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568590/header.jpg?t=1778102536",
   "1599340": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1763571534",
+  "1601580": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601580/c918af93dd09dc24a9b8fd8cddf709b4395bd9a5/header_alt_assets_7.jpg?t=1793719191",
   "1623730": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1795546914",
+  "1665460": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/86619d0fb7126b3d5276004175f9a62181223c0f/header.jpg?t=1792635226",
+  "1696810": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696810/062fd2c06932cabc4ff57db55e3e7c95910913ef/header_alt_assets_5.jpg?t=1795687984",
+  "1778820": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/bb40124a525d6146a7c1ee4848bf3a14aa716224/header.jpg?t=1794438159",
+  "1790600": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1790600/header.jpg?t=1785726916",
   "1868140": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg?t=1791478061",
   "1938090": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header.jpg?t=1794591176",
   "1966720": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1775380053",
   "1973530": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1973530/header.jpg?t=1793975559",
   "2050650": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
+  "2073620": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073620/eccc13f9398a6af599a78ec7a437d6540f43a3c5/header.jpg?t=1791983571",
   "2073850": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073850/4b0efa1275c8cedc030209eb174af726a5ca1776/header.jpg?t=1794480042",
   "2074920": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/defeb6250e6fafc1fec7967914c28b9715d6e639/header.jpg?t=1794892609",
+  "2139460": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/8af850ebf637ea738add68231db67ce451b1fadf/header.jpg?t=1795070830",
+  "2144740": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2144740/header.jpg?t=1793370527",
+  "2157560": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2157560/header.jpg?t=1793590022",
+  "2170050": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170050/ace24b9b712ef09a66709f4cbcf5e0de8ea16f6c/header.jpg?t=1775806282",
   "2246340": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1787549555",
+  "2300320": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300320/c2a205133d23cd24faf3c152d972a1d0177661b8/header.jpg?t=1793106374",
   "2358720": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1760601605",
+  "2437170": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437170/f9c294d02f4e9c2b6e262712dc4f3d1af0521d27/header_alt_assets_30.jpg?t=1794919952",
+  "2507950": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/9fc49ea59dfef12281d3c0d5da699f2a2e6dba67/header_alt_assets_17.jpg?t=1795759725",
+  "2646460": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646460/8580b9d3a4f484c8e865a51c89c8307521716151/header.jpg?t=1794366233",
   "2668080": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668080/065403315ab5a3ebbd3c07f85b6a3f40a1eb4ccd/header.jpg?t=1769627290",
   "2694490": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/4de5b38ea6defe96eb537cc99c001075aefd94a3/header.jpg?t=1795039854",
   "2767030": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/c82a472adcccdc8ad28c3a764150fb9629998a87/header_alt_assets_11.jpg?t=1795685356",
+  "2807960": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/c12d12ce3c7d217398d3fcad77427bfc9d57c570/header.jpg?t=1794834044",
+  "3008130": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008130/474a86847984d68aa1485734e450c0a86ada03b3/header.jpg?t=1794831213",
+  "3164330": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164330/ee0d5a2846a181ea16104ee1b7b65be982bef9e8/header.jpg?t=1795748716",
+  "3224770": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224770/d7ddfe8985d7be8db7a0195d5c482c4438ed929d/header.jpg?t=1773306345",
+  "3274580": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/038d88b3917b4f1c6919c8120adabf86a6702085/header_alt_assets_5.jpg?t=1793873126",
+  "3308670": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3308670/header.jpg?t=1789630153",
+  "3405690": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2d96aa1b06e453cd62dae9029d412f19e61932c3/header.jpg?t=1789751159",
   "3513350": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3513350/e8eba9795ee09675873ba60232a7ddcc4f222ad9/header.jpg?t=1794439536",
+  "3564740": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3564740/0247f0fd5d9007ac397fbed65c62f6ed14e0341f/header_alt_assets_11.jpg?t=1794552485",
+  "3889960": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889960/86e5516e11ba90b6d262148796cd0548d15fecfa/header.jpg?t=1793818883",
+  "3932890": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/4dd12ea3b00a4f8b67bfd629f3b9abbf8d5cab05/header_alt_assets_2.jpg?t=1794590253",
+  "3950020": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950020/98f3c6a6eb12cad30eb038ea0cc995cf6dcb9b9a/header.jpg?t=1792462693",
+  "4115450": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
   "4125930": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125930/920ecd43c6cdf179ee83203e1a09798f89889528/header.jpg?t=1793846420",
   "4162040": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162040/22b56d833834d90674b30498f78e0839e48792db/header_alt_assets_2.jpg?t=1792533213",
   "4732690": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732690/28ddc0e937d3aeae5357541417d2c6af792a85f4/header.jpg?t=1795558796",
@@ -8432,16 +8946,16 @@
    "pt": "Granblue Fantasy Versus: Rising"
   },
   "판타시 스타 온라인 2 뉴 제네시스": {
-   "en": "Phantasy Star Online 2 New Genesis",
+   "pt": "Phantasy Star Online 2 New Genesis",
    "ja": "ファンタシースターオンライン2 ニュージェネシス",
    "zh": "Phantasy Star Online 2 New Genesis",
-   "pt": "Phantasy Star Online 2 New Genesis"
+   "en": "Phantasy Star Online 2 New Genesis"
   },
   "작혼: 리치 마작": {
-   "en": "Mahjong Soul",
+   "pt": "Mahjong Soul",
    "ja": "雀魂 -じゃんたま-",
    "zh": "雀魂",
-   "pt": "Mahjong Soul"
+   "en": "Mahjong Soul"
   }
  }
 }

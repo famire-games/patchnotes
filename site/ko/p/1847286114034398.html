@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>카운터 스트라이크 2 업데이트 – 카운터 스트라이크 2 패치노트</title>
+<meta name="description" content="이번 카운터 스트라이크 2 업데이트에서는 맵 스크립팅과 관련된 다양한 기능과 클래스가 추가 및 개선되었습니다. 특히 인스턴스, 콘솔, 게임 규칙, 인질(Hostage) 관련 스크립트 함수들이 대거 추가되고 재정비되었습니다. 또한 여러 버그 수정과 함께 로그 및 자동 완성 기능이 향상되었습니다.">
+<link rel="canonical" href="https://patchworkgg.pages.dev/ko/p/1847286114034398.html">
+<link rel="alternate" hreflang="ko" href="https://patchworkgg.pages.dev/ko/p/1847286114034398.html">
+<meta property="og:title" content="카운터 스트라이크 2 업데이트 – 카운터 스트라이크 2 패치노트"><meta property="og:description" content="이번 카운터 스트라이크 2 업데이트에서는 맵 스크립팅과 관련된 다양한 기능과 클래스가 추가 및 개선되었습니다. 특히 인스턴스, 콘솔, 게임 규칙, 인질(Hostage) 관련 스크립트 함수들이 대거 추가되고 재정비되었습니다. 또한 여러 버그 수정과 함께 로그 및 자동 완성 기능이 향상되었습니다."><meta property="og:type" content="article">
+<link rel="alternate" type="application/rss+xml" title="Patchwork" href="https://patchworkgg.pages.dev/ko/feed.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"카운터 스트라이크 2 업데이트","datePublished":"2026-10-22T22:56:10.000Z","description":"이번 카운터 스트라이크 2 업데이트에서는 맵 스크립팅과 관련된 다양한 기능과 클래스가 추가 및 개선되었습니다. 특히 인스턴스, 콘솔, 게임 규칙, 인질(Hostage) 관련 스크립트 함수들이 대거 추가되고 재정비되었습니다. 또한 여러 버그 수정과 함께 로그 및 자동 완성 기능이 향상되었습니다.","about":{"@type":"VideoGame","name":"카운터 스트라이크 2"},"publisher":{"@type":"Organization","name":"Patchwork"}}</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2407147539092560" crossorigin="anonymous"></script>
+<style>:root{--bg:#0f1115;--card:#171a21;--line:#262a33;--tx:#e6e8ec;--mute:#8a909c;--acc:#5aa9ff;--up:#4cc38a;--down:#ef6b6b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.7 system-ui,"Malgun Gothic",sans-serif}
+header{border-bottom:1px solid var(--line)}.wrap{max-width:820px;margin:0 auto;padding:0 16px}.top{display:flex;gap:12px;align-items:center;padding:12px 0}
+.top a{color:inherit;text-decoration:none;font-weight:700;font-size:19px}.top b{color:var(--acc)}.lg{margin-left:auto;font-size:13px}.lg a{color:var(--mute);font-size:13px;font-weight:400;margin-left:8px}
+main{padding:20px 16px 40px}h1{font-size:24px;line-height:1.35;margin:6px 0}.meta{color:var(--mute);font-size:13px}.meta a{color:var(--acc)}
+h2{font-size:16px;margin:24px 0 6px}.up{color:var(--up)}.down{color:var(--down)}li{color:#cfd3da}.hero{width:100%;border-radius:10px;margin:14px 0}
+.btn{display:inline-block;background:var(--acc);color:#071425;padding:9px 16px;border-radius:8px;font-weight:600;text-decoration:none;margin:22px 0}
+.list a{display:block;padding:10px 0;border-bottom:1px solid var(--line);color:var(--tx);text-decoration:none}.list a:hover{color:var(--acc)}.list small{color:var(--mute);display:block}</style>
+</head>
+<body>
+<header><div class="wrap top"><a href="/?lang=ko">Patch<b>work</b></a><span class="lg"></span></div></header>
+<main class="wrap"><div class="meta"><a href="/ko/g/steam-730.html">카운터 스트라이크 2</a> · <time datetime="2026-10-22T22:56:10.000Z">2026년 10월 23일</time></div>
+<h1>카운터 스트라이크 2 업데이트</h1>
+<p>이번 카운터 스트라이크 2 업데이트에서는 맵 스크립팅과 관련된 다양한 기능과 클래스가 추가 및 개선되었습니다. 특히 인스턴스, 콘솔, 게임 규칙, 인질(Hostage) 관련 스크립트 함수들이 대거 추가되고 재정비되었습니다. 또한 여러 버그 수정과 함께 로그 및 자동 완성 기능이 향상되었습니다.</p><h2 class="">주요 변경</h2><ul><li>맵 스크립팅에 Instance.Precache 및 관련 상태 확인 메서드 추가</li><li>인질(Hostage) 관련 스크립트 메서드 및 이벤트 추가</li><li>새로운 최상위 내보내기 'Console' 추가 및 관련 Convar 메서드 제공</li><li>새로운 최상위 내보내기 'GameRules' 추가 및 관련 함수 이전</li><li>모든 게임 모드에서 레이더에 radar_element 표시 지원</li><li>로그 경고에 JS 콜 스칼 및 잘못된 인자 값 세부 정보 추가</li></ul><h2 class="">버그 수정</h2><ul><li>GameRules.AddTeamMoney(CSTeamMoneyReason.NONE) 사용 시 발생하던 크래시 수정</li><li>CSTeamMoneyReason 열거형 값이 point_script.d.ts와 일치하지 않던 문제 수정</li><li>CSWeaponAttackType 열거형 값이 point_script.d.ts와 일치하지 않던 문제 수정</li><li>CSRadarPoint.IsVisibleToTeam이 불리언 대신 숫자를 반환하던 문제 수정</li><li>CSObservablePoint.IsObservableForTeam이 불리언 대신 숫자를 반환하던 문제 수정</li></ul>
+<a class="btn" href="/?lang=ko&p=1847286114034398">Patchwork에서 평가·댓글 보기</a>
+<p class="meta">공식 공지 원문: <a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034398" rel="nofollow noopener" target="_blank">Counter-Strike 2 Update</a></p></main>
+<script>window.LANG="ko"</script><script src="/i18n.js"></script><script src="/foot.js"></script>
+</body>
+</html>

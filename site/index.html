@@ -281,6 +281,7 @@ fetch('data.json').then(r=>r.json()).then(d=>{
  const P=new URLSearchParams(location.search);
  if(P.get('game'))setGame(P.get('game'));
  if(P.get('fav'))$('onlyFav').checked=true;
+ if(P.get('p')){const i=items.find(x=>PID(x)===P.get('p'));if(i)setTimeout(()=>openItem(i))}
  drawUser();render();
 });
 $('infoBtn').onclick=()=>{const g=$('g').value;if(g)location.href=INFO[g]||('info.html?game='+encodeURIComponent(g))};
