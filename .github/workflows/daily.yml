@@ -45,7 +45,8 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
           git add site
           git diff --cached --quiet || git commit -m "data: daily update $(date -u +%F)"
-          git push
+          # 도는 동안 다른 커밋이 올라왔으면 받아서 위에 얹고 올림 (안 그러면 요약 결과가 버려짐)
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

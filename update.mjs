@@ -18,8 +18,11 @@ function clean(s) {
     .replace(/<[^>]+>/g, '').replace(/\{STEAM_CLAN_IMAGE\}\S*/g, '').replace(/\n{3,}/g, '\n\n').trim();
 }
 
+// 무료 한도(429)가 다 차면 그날은 더 부르지 않음 (헛도는 시간 줄이기)
+let QUOTA_OUT = false;
 async function gemini(prompt) {
-  let last;
+  if (QUOTA_OUT) throw new Error('quota out');
+  let last, q429 = 0;
   for (const m of MODELS) for (let k = 0; k < 2; k++) {
     try {
       const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent`, {
@@ -27,11 +30,12 @@ async function gemini(prompt) {
         headers: { 'x-goog-api-key': KEY, 'content-type': 'application/json' },
         body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }],
           generationConfig: { responseMimeType: 'application/json', temperature: 0.3 } }) });
-      if (!r.ok) throw new Error(m + ' ' + r.status);
+      if (!r.ok) { if (r.status === 429) q429++; throw new Error(m + ' ' + r.status); }
       const j = await r.json();
       return JSON.parse(j.candidates[0].content.parts.map(p => p.text || '').join(''));
     } catch (e) { last = e; await sleep(3000); }
   }
+  if (q429 >= MODELS.length * 2) { QUOTA_OUT = true; console.error('Gemini 무료 한도 소진 — 나머지는 다음 실행에서'); }
   throw last;
 }
 
