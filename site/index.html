@@ -86,6 +86,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 .cmf button,.cmsort button{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:0 16px;font:inherit;font-weight:600;cursor:pointer}
 .cmh{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.cmh h3{margin:0}.allbtn{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:6px 14px;font:inherit;font-weight:600;cursor:pointer;white-space:nowrap}
 .pendh{display:block;color:#ffcc33;font-size:12px;margin:-4px 0 6px}
+.rev span{line-height:1.3}.rev small{color:var(--mute)}
 .cmsort{display:flex;gap:6px;margin-bottom:8px}.cmsort button{background:none;color:var(--mute);border:1px solid var(--line);padding:3px 10px;font-weight:400;font-size:13px}.cmsort button.on{color:var(--tx);border-color:var(--acc)}
 .cmi{padding:10px 0;border-bottom:1px solid var(--line)}.cmi .h{font-size:13px;color:var(--mute);display:flex;gap:8px;align-items:center}.cmi .h b{color:var(--tx)}.cmi .h .st{color:#ffcc33}
 .cmi p{margin:4px 0 6px;white-space:pre-wrap;word-break:break-word}.flag{vertical-align:-2px;border-radius:2px;margin-right:4px}
@@ -106,7 +107,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 <div id="shade"></div>
 <aside id="drawer"><h3 id="menuH"></h3><div class="who" id="who"></div>
  <input type="checkbox" id="onlyFav" hidden>
- <h3 id="favHead" class="link"></h3><div id="favs"></div></aside>
+ <h3 id="favHead" class="link"></h3><div id="favs"></div><h3 id="revHead" style="margin-top:18px"></h3><div id="revs"></div></aside>
 <div class="ad l"></div><div class="ad r"></div>
 <div class="wrap chips" id="chips"></div>
 <main class="wrap" id="list"></main>
@@ -117,7 +118,7 @@ const $=id=>document.getElementById(id);
 // 화면 글자 = 언어별 (i18n.js)
 document.title=T('title');document.querySelector('meta[name=description]').content=T('desc');
 $('brand').innerHTML=T('brand');$('menu').title=T('menu');$('q').placeholder=T('search_ph');$('day').title=T('date_t');$('favTog').title=T('fav_t');
-$('infoBtn').textContent=T('info_btn');$('menuH').textContent='☰ '+T('menu');$('favHead').textContent=T('favlist');$('favHead').title=T('favlist_t');
+$('infoBtn').textContent=T('info_btn');$('menuH').textContent='☰ '+T('menu');$('favHead').textContent=T('favlist');$('favHead').title=T('favlist_t');$('revHead').textContent=T('my_reviews');
 document.querySelectorAll('.ad').forEach(a=>a.textContent=T('ad'));$('note').textContent=T('footer_note');$('login').before(langPicker());
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const li=a=>a&&a.length?'<ul>'+a.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'';
@@ -153,6 +154,8 @@ function drawUser(){fillGames();
  const ps=$('pfSave');if(ps)ps.onclick=saveProf;
  const lo=$('logout'); if(lo) lo.onclick=e=>{e.preventDefault();window.FB&&FB.logout()};
  const g=[...favs].sort();
+ const rv=user&&window.FB?FB.profile().reviews||[]:[],ri=rv.map(p=>items.find(i=>PID(i)===p)).filter(Boolean);
+ $('revHead').hidden=!user;$('revs').innerHTML=!user?'':ri.length?ri.map(i=>`<div class="fav rev" data-rev="${esc(PID(i))}">${ICON(i)?`<img src="${ICON(i)}" alt="">`:''}<span><b>${esc(GN(i.game))}</b><br><small>${esc(TX(i).title)}</small></span></div>`).join(''):'<small style="color:var(--mute)">'+T('no_reviews')+'</small>';
  $('favs').innerHTML=!user?'':g.length?g.map(n=>{const it=items.find(i=>i.game===n)||{};return `<div class="fav" data-g="${esc(n)}">${ICON(it)?`<img src="${ICON(it)}" alt="">`:''}<span>${esc(GN(n))}</span><button class="rm" data-rm="${esc(n)}" title="${T('clear')}">✕</button></div>`}).join(''):'<small style="color:var(--mute)">'+T('fav_hint')+'</small>';
 }
 function profForm(){const p=FB.profile();
@@ -258,8 +261,8 @@ $('body').addEventListener('click',async e=>{
  const s=e.target.closest('[data-sort]');if(s){cmSort=s.dataset.sort;drawCm();return}
  if(e.target.closest('[data-post]')){if(needLogin())return;const t=$('cmTxt').value.trim();if(!t)return;
   const has=cur.list.some(c=>c.uid===me&&c.id===me),n=pend||(has?cur.stars[me]||0:0);if(!n){cmErr(T('need_star'));return}e.target.disabled=true;
-  try{await FB.postReview(pid,t,n,has);cur.stars[me]=n;cur.ctry[me]=FB.profile().country||'';pend=0;cmEdit=false;cur.list=await FB.comments(pid);drawCm()}catch(er){console.error(er);e.target.disabled=false;cmErr(T('err_post'))}return}
- const d=e.target.closest('[data-del]');if(d){try{if(d.dataset.del===me){await FB.delMine(pid);delete cur.stars[me];delete cur.ctry[me]}else await FB.delComment(pid,d.dataset.del);cur.list=cur.list.filter(c=>c.id!==d.dataset.del);drawCm()}catch(er){console.error(er);cmErr(T('err_del'))}return}
+  try{await FB.postReview(pid,t,n,has);cur.stars[me]=n;cur.ctry[me]=FB.profile().country||'';pend=0;cmEdit=false;cur.list=await FB.comments(pid);drawCm();drawUser()}catch(er){console.error(er);e.target.disabled=false;cmErr(T('err_post'))}return}
+ const d=e.target.closest('[data-del]');if(d){try{if(d.dataset.del===me){await FB.delMine(pid);delete cur.stars[me];delete cur.ctry[me];drawUser()}else await FB.delComment(pid,d.dataset.del);cur.list=cur.list.filter(c=>c.id!==d.dataset.del);drawCm()}catch(er){console.error(er);cmErr(T('err_del'))}return}
  const vb=e.target.closest('[data-vote]');if(vb){if(needLogin())return;const c=cur.list.find(x=>x.id===vb.dataset.vote);if(!c)return;
   const want=+vb.dataset.v,now=c.up&&c.up[me]?1:c.down&&c.down[me]?-1:0,v=now===want?0:want;
   c.up={...c.up};c.down={...c.down};delete c.up[me];delete c.down[me];if(v===1)c.up[me]=true;if(v===-1)c.down[me]=true;drawCm();
@@ -268,6 +271,8 @@ $('body').addEventListener('click',async e=>{
 
 $('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
 addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
+function openItem(i){$('body').innerHTML=detail(i);$('dlg').classList.add('open');$('dlg').scrollTop=0;loadCm(i)}
+$('revs').onclick=e=>{const r=e.target.closest('[data-rev]');if(!r)return;const i=items.find(x=>PID(x)===r.dataset.rev);if(i){closeDrawer();openItem(i)}};
 $('list').onclick=e=>{const t=e.target.closest('.tile');if(t){$('body').innerHTML=detail(shown[+t.dataset.i]);$('dlg').classList.add('open');$('dlg').scrollTop=0;loadCm(shown[+t.dataset.i])}};
 fetch('data.json').then(r=>r.json()).then(d=>{
  items=d.items.sort((a,b)=>b.date-a.date); ICONS=d.icons||{}; NAMES=window.NAMES=d.names||{};

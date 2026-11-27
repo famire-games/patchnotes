@@ -11,6 +11,7 @@
 
   const D = {
     en: {
+      my_reviews: '✎ My reviews', no_reviews: 'Reviews you write will show up here.', 
       star_pending: 'Your rating is saved when you post your review.', need_star: 'Pick a star rating first.', 
       edit: 'Edit', edit_done: 'Save', report: 'Report', reported: 'Reported', ban: 'Ban', banned_done: 'Account banned and review deleted.', banned_msg: 'This account has been suspended.', nick_taken: 'That nickname is already taken.', admin_page: 'Admin', 
       all_rev: n => 'All reviews (' + n + ')', my_rev: 'My reviews only', no_mine: 'You have not left a review yet. Tap "All reviews" to read others.', admin_del: 'Delete (admin)', 
@@ -36,6 +37,7 @@
         'Hearthstone data: Blizzard Entertainment (Battle.net API) · Steam data: Powered by', 'Pokémon data: PokeAPI.']
     },
     ko: {
+      my_reviews: '✎ 내가 쓴 평가', no_reviews: '평가를 쓰면 여기에 모입니다.', 
       star_pending: '평가글을 등록하면 별점이 반영됩니다.', need_star: '별점을 먼저 골라 주세요.', 
       edit: '수정', edit_done: '수정 완료', report: '신고', reported: '신고됨', ban: '계정 정지', banned_done: '계정을 정지하고 평가를 지웠습니다.', banned_msg: '정지된 계정입니다.', nick_taken: '이미 쓰고 있는 닉네임입니다.', admin_page: '관리자', 
       all_rev: n => '모든 평가 보기 (' + n + ')', my_rev: '내 평가만 보기', no_mine: '아직 남긴 평가가 없습니다. 다른 사람 평가는 [모든 평가 보기]를 누르세요.', admin_del: '삭제(관리자)', 
@@ -61,6 +63,7 @@
         '하스스톤 데이터 출처: Blizzard Entertainment (Battle.net API) · 스팀 데이터: Powered by', '포켓몬 데이터: PokeAPI.']
     },
     ja: {
+      my_reviews: '✎ 自分の評価', no_reviews: '書いた評価がここに表示されます。', 
       star_pending: 'レビューを投稿すると評価が反映されます。', need_star: '先に星の数を選んでください。', 
       edit: '編集', edit_done: '保存', report: '通報', reported: '通報済み', ban: 'アカウント停止', banned_done: 'アカウントを停止し、評価を削除しました。', banned_msg: 'このアカウントは停止されています。', nick_taken: 'そのニックネームはすでに使われています。', admin_page: '管理', 
       all_rev: n => 'すべての評価を見る (' + n + ')', my_rev: '自分の評価だけ見る', no_mine: 'まだ評価を書いていません。他の人の評価は［すべての評価を見る］から。', admin_del: '削除（管理者）', 
@@ -86,6 +89,7 @@
         'ハースストーンのデータ：Blizzard Entertainment (Battle.net API) · Steam データ：Powered by', 'ポケモンのデータ：PokeAPI.']
     },
     zh: {
+      my_reviews: '✎ 我的评价', no_reviews: '你写的评价会显示在这里。', 
       star_pending: '发表评价后评分才会生效。', need_star: '请先选择星级。', 
       edit: '编辑', edit_done: '保存', report: '举报', reported: '已举报', ban: '封禁账号', banned_done: '已封禁账号并删除评价。', banned_msg: '该账号已被封禁。', nick_taken: '该昵称已被使用。', admin_page: '管理', 
       all_rev: n => '查看全部评价 (' + n + ')', my_rev: '只看我的评价', no_mine: '你还没有发表评价。点击［查看全部评价］查看他人的评价。', admin_del: '删除（管理员）', 
@@ -111,6 +115,7 @@
         '炉石传说数据来源：Blizzard Entertainment (Battle.net API) · Steam 数据：Powered by', '宝可梦数据：PokeAPI.']
     },
     pt: {
+      my_reviews: '✎ Minhas avaliações', no_reviews: 'Suas avaliações aparecerão aqui.', 
       star_pending: 'Sua nota é salva quando você publica a avaliação.', need_star: 'Escolha uma nota primeiro.', 
       edit: 'Editar', edit_done: 'Salvar', report: 'Denunciar', reported: 'Denunciado', ban: 'Banir conta', banned_done: 'Conta banida e avaliação excluída.', banned_msg: 'Esta conta está suspensa.', nick_taken: 'Esse apelido já está em uso.', admin_page: 'Admin', 
       all_rev: n => 'Ver todas as avaliações (' + n + ')', my_rev: 'Só as minhas', no_mine: 'Você ainda não avaliou. Toque em "Ver todas as avaliações" para ler as dos outros.', admin_del: 'Excluir (admin)', 

@@ -1,7 +1,7 @@
 // Firebase 구글 로그인 + Firestore 즐겨찾기 (모든 페이지 공용). 페이지는 window.onUserChange(u, favList) 를 정의.
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
-import { getFirestore, doc, getDoc, setDoc, updateDoc, deleteDoc, addDoc, getDocs, collection, query, orderBy, limit, serverTimestamp, deleteField, writeBatch, where } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+import { getFirestore, doc, getDoc, setDoc, updateDoc, deleteDoc, addDoc, getDocs, collection, query, orderBy, limit, serverTimestamp, deleteField, writeBatch, where, arrayUnion, arrayRemove } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
 const app = initializeApp({
   apiKey: 'AIzaSyCKZqX7BuB2lLbBHfzgWQBuj4sFA4AGXxM',
   authDomain: 'patchnotes-web.firebaseapp.com',
@@ -11,7 +11,7 @@ const app = initializeApp({
   appId: '1:656526578409:web:6846bafe40eac8881cd678'
 });
 const auth = getAuth(app), db = getFirestore(app);
-let admin = false, uid = null, prof = { nick: '', country: '' };
+let admin = false, uid = null, prof = { nick: '', country: '', reviews: [] };
 // 국가 = 접속 IP 로 서버(geo/ Cloudflare Worker)가 판정해 profiles/{uid}.country 에 기록. 사용자는 고를 수 없음
 const GEO_URL = 'https://patchnotes-geo.famire-patchnotes.workers.dev';
 async function detectCountry(u) {
@@ -55,12 +55,16 @@ window.FB = {
     if (edit) b.update(c, { text, ts: serverTimestamp() });
     else b.set(c, { uid, name: prof.nick, country: prof.country || '', text, ts: serverTimestamp(), up: {}, down: {} });
     b.set(doc(db, 'patches', pid), { stars: { [uid]: n }, ctry: { [uid]: prof.country || '' } }, { merge: true });
-    return b.commit();
+    // 내가 쓴 평가 목록 (메뉴에 보여 줌)
+    b.set(doc(db, 'users', uid), { reviews: arrayUnion(pid) }, { merge: true });
+    return b.commit().then(() => { if (!prof.reviews.includes(pid)) prof.reviews.unshift(pid); });
   },
   // 내 평가 지우기 = 글 + 별점 같이
   delMine: async (pid) => {
     const b = writeBatch(db);
     b.delete(doc(db, 'patches', pid, 'comments', uid));
+    b.set(doc(db, 'users', uid), { reviews: arrayRemove(pid) }, { merge: true });
+    prof.reviews = prof.reviews.filter(x => x !== pid);
     if ((await getDoc(doc(db, 'patches', pid))).data()?.stars?.[uid]) b.update(doc(db, 'patches', pid), { ['stars.' + uid]: deleteField(), ['ctry.' + uid]: deleteField() });
     return b.commit();
   },
@@ -80,9 +84,9 @@ window.FB = {
   vote: (pid, cid, v) => updateDoc(doc(db, 'patches', pid, 'comments', cid), { ['up.' + uid]: v === 1 ? true : deleteField(), ['down.' + uid]: v === -1 ? true : deleteField() })
 };
 onAuthStateChanged(auth, async (u) => {
-  uid = u ? u.uid : null; prof = { nick: '', country: '' };
+  uid = u ? u.uid : null; prof = { nick: '', country: '', reviews: [] };
   let list = [];
-  if (u) { try { const s = await getDoc(doc(db, 'users', u.uid)); const d = s.exists() ? s.data() : {}; list = d.favs || []; prof = { nick: d.nick || '', country: '' }; } catch (e) { console.error('즐겨찾기 불러오기 실패', e); } }
+  if (u) { try { const s = await getDoc(doc(db, 'users', u.uid)); const d = s.exists() ? s.data() : {}; list = d.favs || []; prof = { nick: d.nick || '', country: '', reviews: d.reviews || [] }; } catch (e) { console.error('즐겨찾기 불러오기 실패', e); } }
   admin = false;
   if (u) { try { prof.banned = (await getDoc(doc(db, 'banned', u.uid))).exists(); } catch (e) {} }
   if (u) { try { await getDoc(doc(db, 'admin', 'check')); admin = true; } catch (e) {} }
