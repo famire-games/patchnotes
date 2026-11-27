@@ -61,6 +61,7 @@ ${AD}
 }
 
 const out = (rel, s) => { const u = new URL('.' + rel, DIR); fs.mkdirSync(new URL('./', u), { recursive: true }); fs.writeFileSync(u, s); };
+const outP = (rel, s) => out(rel + '.html', s);
 // 예전 생성물 지우고 새로
 for (const L of LANGS) for (const d of ['p', 'g']) fs.rmSync(new URL(`.${pre(L)}/${d}/`, DIR), { recursive: true, force: true });
 
@@ -68,17 +69,17 @@ const items = db.items.filter(i => i.title).sort((a, b) => b.date - a.date);
 const urls = []; // [path, alts, lastmod]
 let n = 0;
 for (const i of items) {
-  const alts = langsOf(i), path = `/p/${FILE(i)}.html`;
+  const alts = langsOf(i), path = `/p/${FILE(i)}`;
   for (const L of alts) {
     const t = TX(i, L), U = UI[L], g = GN(i.game, L);
     const sec = (h, a, c = '') => a?.length ? `<h2 class="${c}">${h}</h2><ul>${a.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '';
     const title = `${t.title} – ${g} ${U.pn}`;
-    const body = `<div class="meta"><a href="${pre(L)}/g/${gslug(i)}.html">${esc(g)}</a> · <time datetime="${iso(i.date)}">${day(i.date, L)}</time></div>
+    const body = `<div class="meta"><a href="${pre(L)}/g/${gslug(i)}">${esc(g)}</a> · <time datetime="${iso(i.date)}">${day(i.date, L)}</time></div>
 <h1>${esc(t.title)}</h1>${i.img ? `<img class="hero" src="${esc(i.img)}" alt="${esc(g)}" loading="lazy">` : ''}
 <p>${esc(t.summary)}</p>${sec(U.hl, t.highlights)}${sec(U.buff, t.buffs, 'up')}${sec(U.nerf, t.nerfs, 'down')}${sec(U.fix, t.fixes)}
 <a class="btn" href="/?lang=${L}&p=${encodeURIComponent(PID(i))}">${U.open}</a>
 <p class="meta">${U.src}: <a href="${esc(i.url)}" rel="nofollow noopener" target="_blank">${esc(i.origTitle)}</a></p>`;
-    out(pre(L) + path, page({ L, path, alts, title, desc: t.summary, body, img: i.img,
+    outP(pre(L) + path, page({ L, path, alts, title, desc: t.summary, body, img: i.img,
       ld: { '@context': 'https://schema.org', '@type': 'Article', headline: t.title.slice(0, 110), datePublished: iso(i.date), description: t.summary, about: { '@type': 'VideoGame', name: g }, ...(i.img && { image: i.img }), publisher: { '@type': 'Organization', name: 'Patchwork' } } }));
     n++;
   }
@@ -88,12 +89,12 @@ for (const i of items) {
 const byGame = new Map();
 for (const i of items) { const k = gslug(i); if (!byGame.has(k)) byGame.set(k, []); byGame.get(k).push(i); }
 for (const [slug, list] of byGame) {
-  const alts = LANGS.filter(L => list.some(i => TX(i, L)?.title)), path = `/g/${slug}.html`;
+  const alts = LANGS.filter(L => list.some(i => TX(i, L)?.title)), path = `/g/${slug}`;
   for (const L of alts) {
     const U = UI[L], g = GN(list[0].game, L), mine = list.filter(i => TX(i, L)?.title);
-    const body = `<h1>${esc(g)} ${U.pn}</h1><p class="meta">${esc(U.latest.replace('{g}', g))}</p><div class="list">${mine.map(i => `<a href="${pre(L)}/p/${FILE(i)}.html">${esc(TX(i, L).title)}<small>${day(i.date, L)}</small></a>`).join('')}</div>
+    const body = `<h1>${esc(g)} ${U.pn}</h1><p class="meta">${esc(U.latest.replace('{g}', g))}</p><div class="list">${mine.map(i => `<a href="${pre(L)}/p/${FILE(i)}">${esc(TX(i, L).title)}<small>${day(i.date, L)}</small></a>`).join('')}</div>
 <a class="btn" href="/?lang=${L}&game=${encodeURIComponent(list[0].game)}">${U.all}</a>`;
-    out(pre(L) + path, page({ L, path, alts, title: `${g} ${U.pn} | Patchwork`, desc: U.latest.replace('{g}', g), body,
+    outP(pre(L) + path, page({ L, path, alts, title: `${g} ${U.pn} | Patchwork`, desc: U.latest.replace('{g}', g), body,
       ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: `${g} ${U.pn}`, about: { '@type': 'VideoGame', name: g } } }));
   }
   urls.push([path, alts, iso(list[0].date)]);
@@ -105,11 +106,11 @@ for (const L of LANGS) {
   const x = s => esc(s).replace(/'/g, '&apos;');
   out(pre(L) + '/feed.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Patchwork – ${UI[L].pn}</title><link>${BASE}/?lang=${L}</link><description>${x(UI[L].latest.replace('{g}', '').trim())}</description><language>${HL[L]}</language>
-${its.map(i => `<item><title>${x(GN(i.game, L) + ': ' + TX(i, L).title)}</title><link>${BASE}${pre(L)}/p/${FILE(i)}.html</link><guid>${BASE}${pre(L)}/p/${FILE(i)}.html</guid><pubDate>${new Date(i.date * 1000).toUTCString()}</pubDate><description>${x(TX(i, L).summary)}</description></item>`).join('\n')}
+${its.map(i => `<item><title>${x(GN(i.game, L) + ': ' + TX(i, L).title)}</title><link>${BASE}${pre(L)}/p/${FILE(i)}</link><guid>${BASE}${pre(L)}/p/${FILE(i)}</guid><pubDate>${new Date(i.date * 1000).toUTCString()}</pubDate><description>${x(TX(i, L).summary)}</description></item>`).join('\n')}
 </channel></rss>`);
 }
 // sitemap: 기존 고정 페이지 + 생성 페이지
-const fixed = ['/', '/about.html', '/info.html', '/lol.html', '/hs.html', '/pkc.html', '/privacy.html'];
+const fixed = ['/', '/about', '/info', '/lol', '/hs', '/pkc', '/privacy'];
 const now = new Date().toISOString();
 const ent = (path, alts, mod, q = L => `${BASE}${pre(L)}${path}`) => alts.map(L => `  <url><loc>${q(L)}</loc><lastmod>${mod}</lastmod>
 ${alts.map(a => `    <xhtml:link rel="alternate" hreflang="${HL[a]}" href="${q(a)}"/>`).join('\n')}
