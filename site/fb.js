@@ -13,7 +13,7 @@ const app = initializeApp({
 const auth = getAuth(app), db = getFirestore(app);
 let admin = false, uid = null, prof = { nick: '', country: '' };
 // 국가 = 접속 IP 로 서버(geo/ Cloudflare Worker)가 판정해 profiles/{uid}.country 에 기록. 사용자는 고를 수 없음
-const GEO_URL = 'https://patchnotes-geo.mingu5207-kim.workers.dev';
+const GEO_URL = 'https://patchnotes-geo.famire-patchnotes.workers.dev';
 async function detectCountry(u) {
   try {
     const r = await fetch(GEO_URL, { method: 'POST', headers: { authorization: 'Bearer ' + await u.getIdToken() } });
