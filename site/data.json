@@ -1,6 +1,197 @@
 {
  "items": [
   {
+   "gid": "1850460852989719",
+   "appid": 3564740,
+   "game": "연운십육성 (Where Winds Meet)",
+   "date": 1795787510,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852989719",
+   "origTitle": "Version 2.4 Patch Notes: Optimizations and Bug Fixes (November 27)",
+   "title": "연운십육성 버전 2.4 패치 노트",
+   "summary": "연운십육성 버전 2.4 패치에서는 [흑린] 세트의 시각 효과 및 얼굴 흐림 현상, 솔로 모드 특성 활성화 오류 등 여러 버그가 수정되었습니다. 또한 모바일 기기에서의 강호 전술 튜토리얼 멈춤 현상과 길드 본부 내 장난감 사용 불가 문제가 해결되었습니다.",
+   "highlights": [
+    "[흑린] 세트 시각 효과 및 승리 연출 오류 수정",
+    "솔로 모드 레벨 19 달성 시 기본 재능 미활성화 문제 해결",
+    "모바일 기기 강호 전술 튜토리얼 멈춤 현상 수정",
+    "[흑린] 장난감 및 오픈월드 보드게임 사용 불가 문제 해결",
+    "볼리비아 볼리아노(BOB) 환율 변동에 따른 일부 플랫폼 가격 조정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "[흑린] 세트 장착 시 손목 시각 효과가 불규칙하게 반복되던 문제 수정",
+    "[흑린] 세트 승리 컷씬 중 캐릭터 얼굴이 흐리게 보이던 문제 수정",
+    "솔로 모드 레벨 19 도달 후 기본 재능이 활성화되지 않던 문제 수정",
+    "모바일 기기에서 강호 전술 튜토리얼이 멈추던 문제 수정",
+    "길드 본부에서 [황제 의자] 장난감 사용이 불가능했던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Where Winds Meet Version 2.4 Patch Notes",
+     "summary": "The Version 2.4 update for Where Winds Meet addresses various bug fixes, including visual and facial blur issues for the [Ebon Scales] set and talent activation errors in Solo Mode. Additionally, it resolves tutorial freezes on mobile devices, open-world board game issues, and price adjustments based on recent currency exchange rate fluctuations.",
+     "highlights": [
+      "Fixed [Ebon Scales] set wrist VFX and victory cutscene facial blur",
+      "Resolved Solo Mode Level 19 basic talent activation issue",
+      "Fixed Jianghu Tactics tutorial freezing on mobile devices",
+      "Resolved issues with open-world board games and [Embearor Throne] toy in Guild Base",
+      "Adjusted pricing for select items due to Bolivian Boliviano exchange rate fluctuations"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where the wrist VFX for Set: [Ebon Scales] looped irregularly when equipped",
+      "Fixed an issue causing character faces to appear blurry during the Victory Cutscene for Set: [Ebon Scales]",
+      "Fixed an issue where Basic Talents failed to activate after reaching Solo Mode Level 19",
+      "Fixed an issue where the Jianghu Tactics tutorial would freeze on mobile devices",
+      "Fixed an issue preventing Toy: [Embearor Throne] from being used in the Guild Base"
+     ]
+    },
+    "ja": {
+     "title": "燕雲十六声 バージョン2.4パッチノート",
+     "summary": "『燕雲十六声』のバージョン2.4アップデートでは、「黒鱗」セットの視覚効果や顔のぼやけ、ソロモードでの才能未開放などの不具合が修正されました。さらに、モバイル端末でのチュートリアル停止やオープンワールドのボードゲーム使用不可問題などが解決されています。",
+     "highlights": [
+      "「黒鱗」セットの手首VFXおよび勝利カットシーンの顔のぼやけを修正",
+      "ソロモードレベル19到達時の基本才能未活性化問題を解決",
+      "モバイル端末での江湖戦術チュートリアル停止不具合を修正",
+      "ギルド拠点での「黒鱗」おもちゃおよびオープンワールドのボードゲーム使用不可問題を解決",
+      "ボリビア・ボリビアノの為替変動に伴う一部プラットフォームの価格調整"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "セット：[黒鱗]装備時、手首のVFXが不規則にループする不具合を修正",
+      "セット：[黒鱗]の勝利カットシーンでキャラクターの顔がぼやけて表示される不具合を修正",
+      "ソロモードレベル19到達後、基本才能が有効にならない不具合を修正",
+      "モバイル端末で江湖戦術チュートリアルがフリーズする不具合を修正",
+      "ギルド基地でおもちゃ：[皇帝の玉座]を使用できない不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "燕云十六声 2.4 版本更新公告",
+     "summary": "《燕云十六声》2.4 版本更新修复了多项游戏问题，包括【玄鳞】套装的特效与面部模糊、单人模式天赋未激活错误等。同时，还解决了移动设备上的江湖战术教程卡死、大世界棋类游戏无法游玩以及部分平台价格调整等问题。",
+     "highlights": [
+      "修复【玄鳞】套装手腕特效及胜利动画面部模糊问题",
+      "解决单人模式达到 19 级后基础天赋未能激活的问题",
+      "修复移动端江湖战术教程卡死的问题",
+      "解决帮会驻地无法使用玩具【帝皇宝座】及大世界棋类无法游玩的问题",
+      "根据玻利维亚诺汇率波动调整部分平台商品价格"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了装备套装：【玄鳞】时，手腕特效不规则循环的问题",
+      "修复了套装：【玄鳞】胜利动画期间角色面部显得模糊的问题",
+      "修复了达到单人模式 19 级后基础天赋未能激活的问题",
+      "修复了移动设备上江湖战术教程会卡死的问题",
+      "修复了无法在帮会驻地使用玩具：【帝皇宝座】的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas do Patch da Versão 2.4 de Where Winds Meet",
+     "summary": "A atualização da Versão 2.4 de Where Winds Meet traz correções de bugs, incluindo falhas visuais no conjunto [Ebon Scales], problemas de ativação de talentos no Modo Solo e travamentos de tutoriais em dispositivos móveis. Além disso, ajusta preços de itens devido a flutuações cambiais recentes.",
+     "highlights": [
+      "Corrigidos efeitos visuais de pulso e desfoque facial na cutscene de vitória do conjunto [Ebon Scales]",
+      "Resolvido problema de ativação de Talentos Básicos ao atingir o Nível 19 no Modo Solo",
+      "Corrigido travamento do tutorial de Táticas de Jianghu em dispositivos móveis",
+      "Resolvido problema que impedia o uso do brinquedo [Trono do Imperador] na Base da Guilda e jogos de tabuleiro",
+      "Ajuste de preços de determinados itens devido a flutuações na taxa de câmbio do Boliviano"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido um problema em que os efeitos visuais de pulso do Conjunto: [Ebon Scales] faziam loop irregularmente",
+      "Corrigido um problema que fazia o rosto do personagem parecer borrado na cutscene de vitória do Conjunto: [Ebon Scales]",
+      "Corrigido um problema em que os Talentos Básicos não ativavam ao atingir o Nível 19 do Modo Solo",
+      "Corrigido um problema em que o tutorial de Táticas de Jianghu travava em dispositivos móveis",
+      "Corrigido um problema que impedia o uso do Brinquedo: [Trono do Imperador] na Base da Guilda"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1850460852989350",
+   "appid": 236390,
+   "game": "워 썬더",
+   "date": 1795781256,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852989350",
+   "origTitle": "Community Update No.14: Plans and Looking into 2027",
+   "title": "워 썬더 커뮤니티 업데이트 및 2027년 계획",
+   "summary": "이번 워 썬더 업데이트에서는 GNSS 유도 클러스터 폭탄, 헬기 3인칭 조준 영역 표시기, 해안 미사일 시스템 등이 추가되며, 지상 장비 탄약 적재 로직이 개선됩니다. 또한 VBCI 필로테테스, VN20, T-80BV-RM, 미라주 2000-9 등의 신규 장비가 예고되었습니다.",
+   "highlights": [
+    "AGM-154A JSOW 등 GNSS 유도 클러스터 무기 추가",
+    "헬기 3인칭 시점 조준 영역 표시기 도입",
+    "핵심 업그레이드 내 해안 미사일 시스템 추가",
+    "탄약 적재 기본값 및 격납고 슬라이더 등 지상 장비 탄약 로직 개선",
+    "신규 장비: VBCI 필로테테스, VN20, T-80BV-RM, 미라주 2000-9 추가 예고",
+    "무료 데칼 코드 'SEKRITNIGEL' 배포 (12월 18일까지)"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "War Thunder Community Update and 2027 Plans",
+     "summary": "This War Thunder update introduces GNSS-guided cluster bombs, a 3rd person aiming zone indicator for helicopters, and coastal missile systems, alongside major improvements to ground vehicle ammo loading logic. New vehicles such as the VBCI Philoctetes, VN20, T-80BV-RM, and Mirage 2000-9 are also previewed.",
+     "highlights": [
+      "Introduction of GNSS-guided cluster weapons like the AGM-154A JSOW",
+      "3rd person aiming zone indicator for helicopters",
+      "Coastal missile systems added to Nuclear Escalation",
+      "Improved ammo loading logic with recommended default loads and hangar ammo slider",
+      "New vehicle previews: VBCI Philoctetes, VN20, T-80BV-RM, and Mirage 2000-9",
+      "Free decal code 'SEKRITNIGEL' available until December 18th"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "ウォーサンダー コミュニティアップデートと2027年の計画",
+     "summary": "今回のウォーサンダーのアップデートでは、GNSS誘導クラスター爆弾、ヘリコプターの3人称視点照準ゾーンインジケーター、沿岸ミサイルシステムが追加され、地上車両の弾薬搭載ロジックが改善されます。また、VBCI フィロテテス、VN20、T-80BV-RM、ミラージュ2000-9などの新車両が予告されています。",
+     "highlights": [
+      "AGM-154A JSOWなどのGNSS誘導クラスター兵器の追加",
+      "ヘリコプター用の3人称視点照準ゾーンインジケーターの実装",
+      "核エスカレーションに沿岸ミサイルシステムを追加",
+      "推奨弾薬量やハンガースライダーを含む地上車両の弾薬搭載ロジックの改善",
+      "新車両の予告：VBCI フィロテテス、VN20、T-80BV-RM、ミラージュ2000-9",
+      "無料デカールコード「SEKRITNIGEL」を12月18日まで配布"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "战争雷霆社区更新与2027年计划",
+     "summary": "本次《战争雷霆》更新引入了GNSS制导集束炸弹、直升机第三人称瞄准区域指示器以及海岸导弹系统，并优化了地面载具的弹药装载逻辑。同时预告了VBCI菲洛克特斯、VN20、T-80BV-RM和幻影2000-9等新载具。",
+     "highlights": [
+      "加入AGM-154A JSOW等GNSS制导集束武器",
+      "为直升机引入第三人称瞄准区域指示器窗口",
+      "在核战局中加入海岸导弹系统",
+      "改进地面载具弹药装载逻辑，提供推荐默认弹量与机库弹药滑块",
+      "新载具预告：VBCI菲洛克特斯、VN20、T-80BV-RM、幻影2000-9",
+      "免费贴花兑换码“SEKRITNIGEL”可用至12月18日"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização da Comunidade do War Thunder e Planos para 2027",
+     "summary": "Esta atualização do War Thunder introduz bombas de fragmentação guiadas por GNSS, um indicador de zona de mira em 3ª pessoa para helicópteros e sistemas de mísseis costeiros, além de melhorias na lógica de carregamento de munição para veículos terrestres. Novos veículos como o VBCI Philoctetes, VN20, T-80BV-RM e Mirage 2000-9 também foram pré-anunciados.",
+     "highlights": [
+      "Introdução de armas de fragmentação guiadas por GNSS, como o AGM-154A JSOW",
+      "Indicador de zona de mira em 3ª pessoa para helicópteros",
+      "Sistemas de mísseis costeiros adicionados na Escalada Nuclear",
+      "Melhoria na lógica de carregamento de munição com cargas padrão recomendadas e controle deslizante no hangar",
+      "Prévia de novos veículos: VBCI Philoctetes, VN20, T-80BV-RM e Mirage 2000-9",
+      "Código de decalque gratuito 'SEKRITNIGEL' disponível até 18 de dezembro"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1850460852988679",
    "appid": 1049590,
    "game": "이터널 리턴",
@@ -2979,14 +3170,14 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "Hearthstone Patch 37.2 Preview — Battlegrounds Season 15: Twisted Empire",
-     "summary": "Battlegrounds Season 15 begins with Patch 37.2 on December 1st. Three new keywords and two new heroes are added, the Timewarped Tavern returns, and Trinkets are rotating out this season. A limited-time 2v2 Tavern Brawl will also be held. (Based on the official preview; final content is subject to change.)",
+     "title": "Hearthstone 37.2 Patch Preview — Battlegrounds Season 15: Twisted Empire",
+     "summary": "Battlegrounds Season 15 begins with the 37.2 patch on December 1st. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are rotated out. A limited-time 2v2 Tavern Brawl will also open. (Based on the official preview; final content is subject to change)",
      "highlights": [
-      "Battlegrounds Season 15 'Twisted Empire' launches December 1st; Battlegrounds rating reset",
-      "New Keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Genesis (Tavern Spells that synergize well with Elementals)",
-      "New Heroes: Eternus, Boss Vancleef (Hero Power 'Sharp Strategy')",
-      "Return of the Timewarped Tavern: Purchase special cards using Chronum on turns 6 and 9",
-      "Trinkets rotated out of the season; Stealth keyword excluded from the bonus pool",
+      "Battlegrounds Season 15 'Twisted Empire' begins December 1st, Battlegrounds ratings reset",
+      "New keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
+      "New heroes: Eternus, Boss Misha (Hero Power 'Sharpened Strategy')",
+      "Timewarp Tavern returns: Purchase special cards with Chronum on turns 6 and 9",
+      "Trinkets rotated out, Stealth keyword removed from the bonus pool",
       "Limited-time 2v2 Tavern Brawl"
      ],
      "buffs": [],
@@ -5811,109 +6002,6 @@
      ],
      "buffs": [],
      "nerfs": [],
-     "fixes": []
-    }
-   }
-  },
-  {
-   "gid": "1849192144183200",
-   "appid": 3564740,
-   "game": "연운십육성 (Where Winds Meet)",
-   "date": 1794494804,
-   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183200",
-   "origTitle": "Version 2.4 Path Balance Adjustment Announcement (November 13)",
-   "title": "버전 2.4 경로 밸런스 조정 안내",
-   "summary": "연운십육성(Where Winds Meet) 버전 2.4 업데이트에서는 장비 성장 시스템 최적화, 내공 및 무예 밸런스 조정, 그리고 각종 편의성 기능이 추가되었습니다. 장비 복구 기능, 세트 자유 전환, 레벨 및 성장 속도 따라잡기 시스템 등이 개선되었습니다.",
-   "highlights": [
-    "'변조된 장비 복구' 기능 추가 및 장비 복구 필터 옵션 도입",
-    "소모품 없이 해제된 세트 간 자유로운 전환 기능 추가",
-    "티어 100 장비의 초기 각인 및 튜닝 확률 최적화",
-    "전투 빌드 저장 기능에 장비 연마 및 계발 설정 추가",
-    "내공 및 무예(무명검, 화판선 등) 밸런스 및 특성 조정"
-   ],
-   "buffs": [
-    "티어 100 장비 튜닝 라이브러리의 희귀 각인 출현율 상향",
-    "'청산우' 등 일부 내공 및 무예 스킬의 대미지 및 효과 상향"
-   ],
-   "nerfs": [
-    "일부 내공(계절의 칼날: 봄/겨울)의 즉시 기력 회복량 및 피해 감소치 조정"
-   ],
-   "fixes": [],
-   "i18n": {
-    "en": {
-     "title": "Version 2.4 Path Balance Adjustment Announcement",
-     "summary": "The Where Winds Meet Version 2.4 update brings progression optimizations, path and martial arts balance adjustments, and quality-of-life features. Key updates include modulated gear recovery, free set switching, and catch-up mechanics for leveling and gear.",
-     "highlights": [
-      "Added 'Modulated Gear Recovery' and source filter options for gear recovery",
-      "Introduced 'Free Unlocked Set Switching' without consuming Echo Jade",
-      "Optimized initial affixes and tuning drop rates for Tier 100 gear",
-      "Expanded battle build saving to include gear attuning and mystic skill settings",
-      "Adjusted balance and talents for various martial arts and inner ways"
-     ],
-     "buffs": [
-      "Increased appearance rates for rare affixes in Tier 100 tuning libraries",
-      "Enhanced damage multipliers and effects for specific martial arts and inner ways"
-     ],
-     "nerfs": [
-      "Adjusted immediate endurance recovery and damage reduction values for certain inner ways"
-     ],
-     "fixes": []
-    },
-    "ja": {
-     "title": "バージョン2.4 パスバランス調整のお知らせ",
-     "summary": "『燕雲十六声（Where Winds Meet）』のバージョン2.4アップデートでは、育成システムの最適化、内功および武芸のバランス調整、各種QoL機能の追加が行われました。変調装備の復元やセットの自由切り替え、レベル等のキャッチアップ機能が改善されています。",
-     "highlights": [
-      "「変調装備復元」機能と装備復元のソースフィルターを追加",
-      "消費アイテムなしで解放済みセットを自由に切り替え可能に",
-      "Tier 100装備の初期オフレッドおよびチューニング確率を最適化",
-      "戦闘ビルド保存に装備調律や神秘スキルの設定を追加",
-      "各種武芸や内功のバランスおよびタレントを調整"
-     ],
-     "buffs": [
-      "Tier 100チューニングライブラリのレアオフレッド出現率を上昇",
-      "特定の内功や武芸スキルの効果とダメージを上方修正"
-     ],
-     "nerfs": [
-      "一部の内功（季節の刃：春/冬）の即時気力回復量やダメージ軽減値を調整"
-     ],
-     "fixes": []
-    },
-    "zh": {
-     "title": "版本2.4路径平衡性调整公告",
-     "summary": "《燕云十六声》版本2.4更新带来了养成系统优化、路径与武艺平衡性调整以及多项便捷功能。主要内容包括模组装备找回、套装自由切换、等级与养成追赶机制等优化。",
-     "highlights": [
-      "新增【模组装备找回】功能及装备找回来源筛选选项",
-      "新增【已解锁套装自由切换】功能，切换不再消耗回音玉",
-      "优化100品级装备的初始词缀与洗炼概率",
-      "战斗配装保存新增装备调律、心法启悟等设置记录",
-      "调整各类武艺与心法的平衡性及天赋效果"
-     ],
-     "buffs": [
-      "上调100品级洗炼库中稀有词缀的出现概率",
-      "增强部分心法与武艺技能的伤害倍率及效果"
-     ],
-     "nerfs": [
-      "调整部分心法（如【四时锋：春/冬】）的即时耐力恢复及减伤数值"
-     ],
-     "fixes": []
-    },
-    "pt": {
-     "title": "Anúncio de Ajuste de Balanceamento da Versão 2.4",
-     "summary": "A atualização da Versão 2.4 de Where Winds Meet traz otimizações de progressão, ajustes de balanceamento de caminhos e artes marciais, além de melhorias de qualidade de vida. Os principais destaques incluem recuperação de equipamentos modulados, troca livre de conjuntos e mecânicas de aceleração de nível.",
-     "highlights": [
-      "Adicionado o recurso de recuperação de equipamentos modulados e filtros",
-      "Introduzida a troca livre de conjuntos desbloqueados sem custo",
-      "Otimizadas as taxas de afixos iniciais e sintonizações para equipamentos de Nível 100",
-      "Expandido o salvamento de builds para incluir sintonização de equipamentos",
-      "Ajustados o balanceamento e talentos de várias artes marciais e vias interiores"
-     ],
-     "buffs": [
-      "Aumentadas as taxas de aparição de afixos raros nas bibliotecas de sintonização de Nível 100",
-      "Melhorados os multiplicadores de dano e efeitos de certas artes marciais e vias interiores"
-     ],
-     "nerfs": [
-      "Ajustada a recuperação imediata de resistência e valores de redução de dano de certas vias interiores"
-     ],
      "fixes": []
     }
    }
@@ -10477,19 +10565,19 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "Uma Musume October 30 Update",
-     "summary": "In an unmaintained update, the new playable ★3 Uma Musume Aines Fujin and new support card banner were released, alongside the 'Agnes Tachyon's Factor Research' event.",
+     "title": "Umamusume October 30 Update",
+     "summary": "A maintenance-free update introduced the new playable ★3 Umamusume Aines Fushigin, new support card pickup banners, and the \"Agnes Tachyon's Factor Research\" event.",
      "highlights": [
-      "★3 Aines Fujin",
+      "★3 Aines Fushigin",
       "SSR Mejiro Ryan",
       "SR Kawakami Princess",
-      "Event 'Agnes Tachyon's Factor Research' (10/30 - 11/10)"
+      "Event \"Agnes Tachyon's Factor Research\" (10/30 - 11/10)"
      ],
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed mistranslations and spacing errors in home screen voice lines and training events",
-      "Fixed line breaks in Tamamo Cross SSR episode"
+      "Fixed mistranslations and spacing errors in home screen voices and training events",
+      "Fixed line-break issues in Tamamo Cross SSR episodes"
      ]
     }
    }
@@ -10733,6 +10821,79 @@
       "Corrigido um problema que impedia alguns jogadores de acessar as cenas interativas dos comerciantes",
       "Corrigido o comportamento dos bots PMC para que eles sempre considerem os jogadores como hostis"
      ]
+    }
+   }
+  },
+  {
+   "gid": "1847920302235355",
+   "appid": 1085660,
+   "game": "데스티니 가디언즈",
+   "date": 1793289632,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235355",
+   "origTitle": "Bungie Community Update – October 2026",
+   "title": "번지 커뮤니티 업데이트 - 데스티니 콘텐츠 복구 계획",
+   "summary": "번지는 플레이어와의 신뢰를 회복하고 데스티니 2를 온전하게 만들기 위해 볼트 처리되었던 과거 콘텐츠들을 다시 게임 내로 복구하는 '언볼팅(Unvaulting)' 계획을 발표했습니다. 첫 번째 단계로 붉은 전쟁, 포세이큰, 오시리스의 저주, 전쟁지능 캠페인과 관련 타격대, 레이드, 그리고 보상 개편이 이루어진 ‘나를 버린 자(Menagerie)’ 등이 무료로 제공될 예정입니다. 전체 포팅 작업은 사전 제작 단계를 거쳐 향후 약 12개월의 정식 제작 기간이 소요될 것으로 예상됩니다.",
+   "highlights": [
+    "붉은 전쟁, 포세이큰, 오시리스의 저주, 전쟁지능 캠페인 복구",
+    "관련 타격대 및 레이드/레이드 둥지 복구",
+    "보상 개편과 함께 '나를 버린 자(Menagerie)' 액티비티 복구",
+    "약 12개월의 정식 제작 기간 소요 예정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Bungie Community Update - Destiny Content Unvaulting Plan",
+     "summary": "Bungie announced an unvaulting initiative to restore previously vaulted content to Destiny 2, aiming to rebuild trust and make the game whole. The first pass will bring back campaigns, strikes, raids from Red War, Forsaken, Curse of Osiris, and Warmind, alongside the Menagerie with reprised rewards for all players. Full production for this porting process is expected to take around 12 months following the current pre-production phase.",
+     "highlights": [
+      "Restoring Red War, Forsaken, Curse of Osiris, and Warmind campaigns",
+      "Bringing back associated Strikes, Raids, and Raid Lairs",
+      "Returning the Menagerie activity with reprised rewards",
+      "Full production for porting estimated to take around 12 months"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "バンジーコミュニティアップデート - 『Destiny』コンテンツ復元計画",
+     "summary": "バンジーはプレイヤーとの信頼関係を再構築し、『Destiny 2』を完全なものにするため、過去に保管庫に入れられたコンテンツをゲーム内に戻す「アンボルト」計画を発表しました。第1弾として、「レッド・ウォー」、「孤独と影」、「オシリスの呪い」、「ウォーマインド」のキャンペーン、ストライク、レイドに加え、報酬が刷新された「メンジェリー」がすべてのプレイヤーに向けて復活します。移植作業の本格的な制作期間は約12ヶ月が見込まれています。",
+     "highlights": [
+      "「レッド・ウォー」「孤独と影」「オシリスの呪い」「ウォーマインド」のキャンペーン復元",
+      "関連するストライクやレイドの復活",
+      "報酬を刷新した「メンジェリー」の追加",
+      "移植のための本格制作期間は約12ヶ月を予定"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "Bungie 社区更新 - 《命运》内容解封计划",
+     "summary": "Bungie 公布了一项解封计划，旨在将此前被放入保管库的内容重新带回《命运2》，以重建信任并使游戏趋于完整。首批解封内容将面向所有玩家免费提供“红色战争”、“遗落之族”、“冥王诅咒”和“战争思维”的战役、打击与突袭，以及带有焕新奖励的“奇艺 menagerie”活动。移植工作的完整制作期预计约为 12 个月。",
+     "highlights": [
+      "恢复“红色战争”、“遗落之族”、“冥王诅咒”和“战争思维”战役",
+      "带回相关的打击、突袭与突袭巢穴",
+      "回归带有焕新奖励的“奇艺”活动",
+      "移植端口的完整制作预计需要约 12 个月"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização da Comunidade Bungie - Plano de Retorno de Conteúdo de Destiny",
+     "summary": "A Bungie anunciou uma iniciativa para trazer de volta o conteúdo que estava no cofre para Destiny 2, com o objetivo de reconstruir a confiança e tornar o jogo completo novamente. A primeira fase trará de volta as campanhas de Guerra Vermelha, Forsaken, Maldição de Osiris e Warmind, juntamente com Assaltos, Raides e a atividade Gerente com recompensas repaginadas para todos os jogadores. A produção completa para o processo de portabilidade deve durar cerca de 12 meses.",
+     "highlights": [
+      "Retorno das campanhas de Guerra Vermelha, Forsaken, Maldição de Osiris e Warmind",
+      "Retorno dos Assaltos, Raides e Covis de Raide associados",
+      "Retorno da atividade Gerente com recompensas repaginadas",
+      "Produção completa para a portabilidade estimada em cerca de 12 meses"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
     }
    }
   },
@@ -14505,7 +14666,7 @@
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed some bugs"
+      "Fixed several bugs"
      ]
     }
    }
@@ -15289,6 +15450,84 @@
    }
   },
   {
+   "gid": "1844751498230310",
+   "appid": 2170050,
+   "game": "울프팀: 리부트",
+   "date": 1790561574,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498230310",
+   "origTitle": "Update Announcement: 2026 September 29th",
+   "title": "9월 29일 업데이트 안내",
+   "summary": "울프팀: 리부트가 9월 29일 정기 점검을 통해 새로운 무기와 백팩, 상자 아이템을 추가하고 편의성을 개선합니다. 서버 재시작 및 배틀 패스 팝업창의 '오늘 하루 보지 않기' 기능이 추가됩니다.",
+   "highlights": [
+    "신규 드래곤 시리즈 무기 3종 추가 (AKEI-47, KAR 98K, MK-7G)",
+    "신규 백팩 'CHICK_BACKPACK' 추가",
+    "10월 월간 박스 인간/울프 추가",
+    "배틀 패스 팝업창 '오늘 하루 보지 않기' 옵션 추가",
+    "서버 재시작 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "September 29th Update Notice",
+     "summary": "Wolfteam: Reboot is undergoing an update on September 29th to introduce new weapons, a backpack, and monthly boxes. Convenience features such as the 'Don't Show Again Today' option for the Battle Pass pop-up have also been added.",
+     "highlights": [
+      "Added 3 new Dragon weapons (AKEI-47, KAR 98K, MK-7G)",
+      "Added CHICK_BACKPACK",
+      "Added Monthly Box for October (Humans and Wolves)",
+      "Added 'Don't Show Again Today' option for Battle Pass pop-up",
+      "Server restart"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "9月29日アップデートのご案内",
+     "summary": "ウルフチーム：リブートは9月29日にアップデートを実施し、新武器、バックパック、ボックスアイテムを追加します。バトルパスのポップアップに「今日はもう表示しない」機能が追加され、利便性が向上します。",
+     "highlights": [
+      "新規ドラゴン武器3種追加 (AKEI-47, KAR 98K, MK-7G)",
+      "新規バックパック「CHICK_BACKPACK」追加",
+      "10月用マンスリーボックス(人間/ウルフ)追加",
+      "バトルパスポップアップに「今日はもう表示しない」オプション追加",
+      "サーバー再起動"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "9月29日更新公告",
+     "summary": "《狼队：重启》将于9月29日进行更新，推出全新的武器、背包和每月宝箱道具。同时优化了游戏系统，为通行证弹窗增加了“今日不再显示”选项。",
+     "highlights": [
+      "新增3款龙系列武器 (AKEI-47, KAR 98K, MK-7G)",
+      "新增“CHICK_BACKPACK”背包",
+      "新增10月人类与狼月度宝箱",
+      "通行证弹窗新增“今日不再显示”选项",
+      "服务器重启"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Aviso de Atualização: 29 de Setembro",
+     "summary": "Wolfteam: Reboot passará por uma atualização em 29 de setembro para adicionar novas armas, uma mochila e caixas mensais. Melhorias de conveniência, como a opção 'Não mostrar novamente hoje' no pop-up do Passe de Batalha, também foram incluídas.",
+     "highlights": [
+      "Adicionadas 3 novas armas Dragon (AKEI-47, KAR 98K, MK-7G)",
+      "Adicionada a mochila CHICK_BACKPACK",
+      "Adicionadas Caixas Mensais de outubro para Humanos e Lobos",
+      "Adicionada a opção 'Não mostrar novamente hoje' no pop-up do Passe de Batalha",
+      "Reinicialização do servidor"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "hsr:166468",
    "appid": "hsr",
    "game": "붕괴: 스타레일",
@@ -15335,6 +15574,164 @@
       "Fixed errors in applying certain faction affinities and equations in Currency War and Simulated Universe: Divergent Universe",
       "Fixed abnormal character modeling, visual effects, motions, and camera directing in some content",
       "Fixed and optimized errors in Japanese and Korean voiceovers and dialogue subtitle text"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1844751498228714",
+   "appid": 1363080,
+   "game": "매너 로드",
+   "date": 1790496713,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498228714",
+   "origTitle": "New BETA version is available for testing (0.8.110)",
+   "title": "매너 로드 베타 업데이트 (0.8.110)",
+   "summary": "이번 베타 업데이트에서는 세이브 손상 및 충돌 문제가 수정되었으며, 농사 시스템 개편과 신규 개발 특전 '시골의 기초'가 추가되었습니다. 또한 신규 장인과 건물, 동물 배설물 및 비료 생산 시스템이 도입되었습니다.",
+   "highlights": [
+    "세이브 손상 및 로딩 시 충돌 문제 수정",
+    "농사 시스템 개편 및 의무적인 작물 윤작 도입",
+    "신규 개발 특전 '시골의 기초' (6종) 추가",
+    "신규 장인 '생선장수' 및 신규 건물 '거름더미' 추가",
+    "겨울 및 봄 작물 구분 적용",
+    "AI 도시 발전 및 전략 로직 개선"
+   ],
+   "buffs": [
+    "전투궁(Warbows) 데미지 23% 증가",
+    "소 및 양 번식 확률 40%로 증가",
+    "어족 자원 노드당 낚시터 15개로 증가"
+   ],
+   "nerfs": [
+    "석궁(Crossbows) 데미지 16% 감소",
+    "휴경지 비료 재생 속도 대폭 감소",
+    "심광산(Deep Mine) 산출량 감소",
+    "지역 부유도로 인한 비옥도 부스트 30% 감소"
+   ],
+   "fixes": [
+    "세이브 로드 시 발생하는 충돌 및 에러 수정",
+    "소 물류 정체 및 경로 찾기 관련 이슈 수정",
+    "건물 건설 속도 및 소 관련 문제 수정",
+    "철광석 및 소형 동물 풍부 지역 동시 보유 시 오프닝 특전 오작동 수정",
+    "거주지 업그레이드 전 빈 뒷마당에 증축이 빌드되던 현상 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Manor Lords Beta Update (0.8.110)",
+     "summary": "This beta update addresses save corruption and crash issues, overhauls the farming system with mandatory crop rotation, and introduces a new 'Rural Foundations' development perk category. New additions include the Fishmonger artisan, Dunghill building, and a fertilizer production system.",
+     "highlights": [
+      "Fixed save corruption and loading crash issues",
+      "Overhauled farming with mandatory crop rotation and seasonal crop splits",
+      "Added 'Rural Foundations' development perk category with 6 new perks",
+      "Added new Fishmonger artisan and Dunghill building",
+      "Introduced dung collection and fertilizer production mechanics",
+      "Improved AI town prosperity and behavior logic"
+     ],
+     "buffs": [
+      "Warbows damage increased by 23%",
+      "Cow and Sheep breeding chance increased to 40%",
+      "Fishing spots increased to 15 per Resource Node"
+     ],
+     "nerfs": [
+      "Crossbows damage decreased by 16%",
+      "Fallow Fields regenerate fertility at a significantly lower rate",
+      "Deep Mine output decreased",
+      "Fertility boost from Rich Fertility in a Region lowered by 30%"
+     ],
+     "fixes": [
+      "Fixed save corruption and crash on load",
+      "Fixed oxen logistics jams and pathfinding issues",
+      "Fixed building speed and oxen-related bugs",
+      "Fixed picking wrong Origin Perk when having rich Iron and rich Small game",
+      "Fixed building backyard extensions on plots where no family had moved in"
+     ]
+    },
+    "ja": {
+     "title": "マナー・ロード ベータアップデート (0.8.110)",
+     "summary": "今回のベータアップデートでは、セーブデータの破損やロード時のクラッシュが修正され、作物ローテーションの義務化を含む農業システムの大幅改修と新しい開発パーク「田舎の基礎」が追加されました。また、新しい職人や建物、肥料生産システムも導入されています。",
+     "highlights": [
+      "セーブデータの破損およびロード時のクラッシュを修正",
+      "強制的な作物ローテーションと季節ごとの作物分類を含む農業システムの改修",
+      "6つの新しいパークを含む「田舎の基礎」開発パークカテゴリの追加",
+      "新職人「魚屋」と新建物「肥溜め」の追加",
+      "家畜の糞の収集と肥料生産メカニズムの導入",
+      "AIの都市発展および行動ロジックの改善"
+     ],
+     "buffs": [
+      "ウォーボウ（Warbows）のダメージが23%増加",
+      "牛と羊の繁殖確率が40%に増加",
+      "魚の資源ノードごとの釣り場が15か所に増加"
+     ],
+     "nerfs": [
+      "クロスボウ（Crossbows）のダメージが16%減少",
+      "休耕地の肥沃度回復速度が大幅に低下",
+      "ディープマインの産出量が減少",
+      "地域の豊かな肥沃度による肥沃度ブーストが30%減少"
+     ],
+     "fixes": [
+      "セーブデータの破損およびロード時のクラッシュを修正",
+      "牛の物流渋滞や経路探索の問題を修正",
+      "建物の建設速度や牛に関する問題を修正",
+      "鉄と小動物の資源が豊富な場合に間違った初期パークが選択される不具合を修正",
+      "家族が引っ越していない区画に裏庭の拡張が建設される不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "庄园领主测试版更新 (0.8.110)",
+     "summary": "本次测试版更新修复了存档损坏和加载崩溃问题，彻底重构了包含强制轮作的农业系统，并新增了“乡村基石”开发特权。同时引入了新的手工业者、建筑以及粪肥生产系统。",
+     "highlights": [
+      "修复了存档损坏和加载崩溃的问题",
+      "重构农业系统，实行强制作物轮作并严格划分季节作物",
+      "新增包含6个新特权的“乡村基石”开发特权分类",
+      "新增鱼贩手工业者和粪堆建筑",
+      "引入牲畜粪便收集与肥料生产机制",
+      "改进了AI城镇的繁荣发展与行为逻辑"
+     ],
+     "buffs": [
+      "战弓（Warbows）伤害提高23%",
+      "牛和羊的繁殖几率提升至40%",
+      "每个鱼类资源点的钓鱼点增加至15个"
+     ],
+     "nerfs": [
+      "弩（Crossbows）伤害降低16%",
+      "休耕地恢复肥力的速度大幅降低",
+      "深层矿井的产出降低",
+      "区域富饶肥力提供的肥力加成降低30%"
+     ],
+     "fixes": [
+      "修复了存档损坏和加载崩溃",
+      "修复了牛群物流堵塞及寻路相关问题",
+      "修复了建筑速度及与牛相关的错误",
+      "修复了拥有富饶铁矿和富饶小动物时选错初始特权的问题",
+      "修复了在没有家庭入住的地块上建造后院扩建的问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização Beta de Manor Lords (0.8.110)",
+     "summary": "Esta atualização beta corrige problemas de corrupção de salvamento e travamentos, reformula o sistema de agricultura com rotação obrigatória de culturas e introduz a nova categoria de vantagens de desenvolvimento 'Fundações Rurais'. Novos artesãos, edifícios e um sistema de produção de fertilizantes também foram adicionados.",
+     "highlights": [
+      "Correção de corrupção de salvamento e travamentos ao carregar",
+      "Reformulação da agricultura com rotação obrigatória de culturas e divisão sazonal",
+      "Adicionada a categoria de vantagens 'Fundações Rurais' com 6 novas vantagens",
+      "Adicionados o novo artesão Peixeiro e o edifício Monte de Estesterco",
+      "Introduzidas mecânicas de coleta de esterco e produção de adubo",
+      "Melhorias na prosperidade das cidades de IA e lógica de comportamento"
+     ],
+     "buffs": [
+      "Dano dos arcos de guerra (Warbows) aumentado em 23%",
+      "Chance de reprodução de vacas e ovelhas aumentada para 40%",
+      "Número de pontos de pesca aumentado para 15 por nó de recurso"
+     ],
+     "nerfs": [
+      "Dano das ballestas/bestas (Crossbows) diminuído em 16%",
+      "Campos em pousio regeneram fertilidade a uma taxa significativamente menor",
+      "Produção da Mina Profunda diminuída",
+      "Bônus de fertilidade de Fertilidade Rica em uma região reduzido em 30%"
+     ],
+     "fixes": [
+      "Corrigida a corrupção de salvamento e travamentos ao carregar",
+      "Corrigidos congestionamentos de logísticas de bois e problemas de caminho",
+      "Corrigida a velocidade de construção e problemas relacionados a bois",
+      "Corrigida a seleção incorreta de vantagem inicial ao ter ferro rico e caça rica",
+      "Corrigida a construção de extensões de quintal em lotes sem nenhuma família"
      ]
     }
    }
@@ -15440,6 +15837,212 @@
       "Fixed terrain seam and crash bugs caused by distant snowball rolling",
       "Fixed errors and potential crashes in the online session player list",
       "Fixed a bug where item variations were not visually applied to item stands like shields"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1844751498224181",
+   "appid": 1129580,
+   "game": "중세 왕조",
+   "date": 1790334627,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498224181",
+   "origTitle": "Patch 2.7.0.3 on the Public Branch",
+   "title": "중세 왕조 패치 2.7.0.3",
+   "summary": "최근 출시와 관련된 일부 문제를 해결하고 추가 변경 사항을 포함하는 중세 왕조 2.7.0.3 업데이트가 공개 브랜치에 적용되었습니다.",
+   "highlights": [
+    "전설의 비둘기 창 제조법 추가",
+    "철제 창 제조법 제거",
+    "전설의 비둘기 트로피 제거",
+    "상인들이 더 이상 부활절 달걀을 판매하지 않음",
+    "전설 동물 장식 삭제 또는 변경 시 트로피가 인벤토리로 반환됨"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "최근 출시와 관련된 일부 문제 해결"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Medieval Dynasty Patch 2.7.0.3",
+     "summary": "Update 2.7.0.3 has been released on the public branch for Medieval Dynasty, resolving several issues from the recent release and introducing new adjustments.",
+     "highlights": [
+      "Added Legendary Pigeon Spear Recipe",
+      "Removed Iron Spear Recipe",
+      "Removed Legendary Pigeon Trophy",
+      "Vendors no longer sell Easter Eggs",
+      "Decorations from Legendary animals return trophies to inventory when deleted or changed"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Resolved some problems related to the recent release"
+     ]
+    },
+    "ja": {
+     "title": "メディーバル・ダイナスティ パッチ 2.7.0.3",
+     "summary": "『メディーバル・ダイナスティ』のパッチ2.7.0.3がパブリックブランチに配信され、最近のリリースに関連するいくつかの問題が修正されました。",
+     "highlights": [
+      "「伝説のハトの槍」のレシピを追加",
+      "「鉄の槍」のレシピを削除",
+      "「伝説のハトのトロフィー」を削除",
+      "商人がイースターエッグを販売しなくなった",
+      "伝説の動物の装飾を削除または変更すると、トロフィーがインベントリに戻る"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "最近のリリースに関連するいくつかの問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "中世纪王朝 2.7.0.3 更新补丁",
+     "summary": "《中世纪王朝》现已在公共分支发布 2.7.0.3 更新，解决了近期发布版本相关的一些问题并包含其他调整。",
+     "highlights": [
+      "添加了传奇鸽子矛配方",
+      "移除了铁矛配方",
+      "移除了传奇鸽子奖杯",
+      "商人不再出售复活节彩蛋",
+      "删除或更改传奇动物装饰时会返还奖杯至物品栏"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "解决了与近期发布相关的一些问题"
+     ]
+    },
+    "pt": {
+     "title": "Medieval Dynasty - Atualização 2.7.0.3",
+     "summary": "A atualização 2.7.0.3 foi lançada no ramo público de Medieval Dynasty, resolvendo problemas relacionados ao lançamento recente e trazendo novos ajustes.",
+     "highlights": [
+      "Adicionada a receita da Lança de Pombo Lendária",
+      "Removida a receita da Lança de Ferro",
+      "Removido o Troféu de Pombo Lendário",
+      "Vendedores não vendem mais Ovos de Páscoa",
+      "Decorações de animais lendários agora devolvem os troféus para o inventário ao serem excluídas ou alteradas"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Resolvidos alguns problemas relacionados ao lançamento recente"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1844751498221478",
+   "appid": 767560,
+   "game": "워 로봇",
+   "date": 1790255480,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221478",
+   "origTitle": "WAR ROBOTS 12.4 UPDATE NOTES",
+   "title": "워 로봇 12.4 업데이트 노트",
+   "summary": "이번 워 로봇 12.4 업데이트에서는 신규 로봇 '데도팔리'와 무기 시리즈 '이아라기', 신규 드론 '프레나', 그리고 얼티밋 쉘과 얼티밋 장비들이 추가되었습니다. 또한 신규 파일럿들과 함께 다양한 기술적 버그 수정이 적용되었습니다.",
+   "highlights": [
+    "신규 로봇 '데도팔리' 및 무기 '이아라기' 추가",
+    "신규 드론 '프레나' 추가",
+    "얼티밋 쉘, 얼티밋 라임, 얼티밋 글레이셔 추가",
+    "신규 파일럿 '도니 우', '안도르 미하르' 추가",
+    "이벤트 허브 및 일일 보상 포함된 시뮬레이션 에러 이벤트 시작"
+   ],
+   "buffs": [
+    "얼티밋 크라이오(냉기) 무기류 전반 상향 (발사 속도, 재장전 속도, 피해량, 광역 범위 증가)",
+    "얼티밋 쉘 방패가 어빌리티 활성화 시 완전히 재생되도록 개선 및 폭발 반경 확장"
+   ],
+   "nerfs": [],
+   "fixes": [
+    "내구도 연장 포탑이 의도보다 적은 내구도를 회복하던 문제 수정",
+    "텐서가 랩터의 회색 피해 감소 효과를 제거하던 문제 수정",
+    "신규 이벤트가 시작 시 표시되지 않던 문제 수정",
+    "일부 플레이어가 전투 중 검은색 또는 회색 화면을 겪던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "War Robots 12.4 Update Notes",
+     "summary": "The War Robots 12.4 update introduces the new robot 'Dedopali', the 'Iaraghi' weapon series, the new drone 'Prena', and Ultimate editions including Ultimate Shell and weapons. Various pilot additions and technical bug fixes are also included.",
+     "highlights": [
+      "New robot 'Dedopali' and 'Iaraghi' weapons added",
+      "New drone 'Prena' added",
+      "Ultimate Shell, Ultimate Rime, and Ultimate Glacier added",
+      "New pilots 'Donnie Woo' and 'Andor Miharr' added",
+      "Simulation Errors event launched with daily rewards"
+     ],
+     "buffs": [
+      "Ultimate cryogenic weapons buffed with increased fire rate, faster reload, higher damage, and larger AoE",
+      "Ultimate Shell physical shields fully regenerate on ability activation and blast radius expanded"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where Durability Extender turret increased less durability than intended",
+      "Fixed an issue where Tensor removed Raptor's Gray damage reduction",
+      "Fixed an issue where the new Event did not appear at startup",
+      "Fixed an issue where some players experienced a black or gray screen during combat"
+     ]
+    },
+    "ja": {
+     "title": "ウォーロボット 12.4アップデートノート",
+     "summary": "ウォーロボットの12.4アップデートでは、新ロボット「デドパリ」、新武器シリーズ「イアラギ」、新ドローン「プレナ」、アルティメット版シェルや武器が登場しました。さらに、新しいパイロットの追加や多くの不具合修正が行われています。",
+     "highlights": [
+      "新ロボット「デドパリ」と武器「イアラギ」を追加",
+      "新ドローン「プレナ」を追加",
+      "アルティメットシェル、アルティメットライム、アルティメットグラシアを追加",
+      "新パイロット「ドニー・ウー」「アンドル・ミハル」を追加",
+      "デイリー報酬付きの「シミュレーションエラー」イベントを開始"
+     ],
+     "buffs": [
+      "アルティメット冷凍武器が全般的に強化（発射速度、リロード速度、ダメージ、AoE範囲が向上）",
+      "アルティメットシェルの物理シールドがアビリティ発動時に全回復し、爆発範囲が拡大"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "耐久力拡張タレットが意図したより少ない耐久力しか回復しなかった不具合を修正",
+      "テンサーがラプターのグレーダメージ軽減効果を削除していた不具合を修正",
+      "起動時に新しいイベントが表示されなかった不具合を修正",
+      "一部のプレイヤーが戦闘中に黒または灰色の画面になる不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "War Robots 12.4 更新说明",
+     "summary": "《战神机器人》12.4版本更新推出了全新机器人“Dedopali”、武器系列“Iaraghi”、新无人机“Prena”，以及终极版（Ultimate）机甲和武器。同时还加入了新机师并修复了多项技术漏洞。",
+     "highlights": [
+      "新增机器人“Dedopali”及“Iaraghi”武器系列",
+      "新增无人机“Prena”",
+      "新增终极版机甲“Ultimate Shell”以及“Ultimate Rime”、“Ultimate Glacier”",
+      "新增机师“Donnie Woo”与“Andor Miharr”",
+      "开启包含每日奖励的“Simulation Errors”主题活动"
+     ],
+     "buffs": [
+      "终极冰冻武器全面增强，提升了射速、装填速度、伤害和范围",
+      "Ultimate Shell 的物理护盾在技能激活时可完全恢复，且爆炸范围扩大"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "修复了耐久度扩展炮塔增加的耐久度低于预期的问题",
+      "修复了 Tensor 移除 Raptor 灰色伤害减免的问题",
+      "修复了新活动在启动时未显示且没有跳转按钮的问题",
+      "修复了部分玩家在战斗中遇到黑屏或灰屏的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas de Atualização 12.4 do War Robots",
+     "summary": "A atualização 12.4 do War Robots traz o novo robô 'Dedopali', a série de armas 'Iaraghi', o novo drone 'Prena' e edições Ultimate, incluindo a Ultimate Shell e armas criogênicas. Além disso, novos pilotos foram adicionados e diversos bugs técnicos foram corrigidos.",
+     "highlights": [
+      "Adicionado o novo robô 'Dedopali' e armas 'Iaraghi'",
+      "Adicionado o novo drone 'Prena'",
+      "Adicionadas as edições Ultimate Shell, Ultimate Rime e Ultimate Glacier",
+      "Adicionados os novos pilotos 'Donnie Woo' e 'Andor Miharr'",
+      "Lançamento do evento Simulation Errors com recompensas diárias"
+     ],
+     "buffs": [
+      "Armas criogênicas Ultimate melhoradas com maior taxa de tiro, recarga mais rápida, maior dano e raio de área de efeito maior",
+      "Os escudos físicos da Ultimate Shell agora se regeneram totalmente ao ativar a habilidade, e o raio de explosão foi expandido"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido um problema em que a torre de Extensão de Durabilidade aumentava menos durabilidade do que o pretendido",
+      "Corrigido um problema em que o Tensor removia a redução de dano cinza do Raptor",
+      "Corrigido um problema em que o novo evento não aparecia na inicialização",
+      "Corrigido um problema em que alguns jogadores encontravam uma tela preta ou cinza durante o combate"
      ]
     }
    }
@@ -15805,6 +16408,74 @@
    }
   },
   {
+   "gid": "1844115010494197",
+   "appid": 2157560,
+   "game": "그랑블루 판타지 버서스 라이징",
+   "date": 1789723090,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010494197",
+   "origTitle": "Battle Season 14 begins today!",
+   "title": "배틀 시즌 14 개시",
+   "summary": "그랑블루 판타지 버서스 라이징의 배틀 시즌 14가 시작되었습니다. 이번 시즌은 2026년 9월 16일부터 11월 30일까지 진행되며, 시즌 13의 그랜드 마스터 보상은 순위 확정 후 며칠 내로 선물함에 지급될 예정입니다.",
+   "highlights": [
+    "배틀 시즌 14 시작",
+    "시즌 기간: 2026년 9월 16일 ~ 11월 30일 (PT)",
+    "시즌 13 그랜드 마스터 보상 순차 지급 예정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Battle Season 14 Begins",
+     "summary": "Battle Season 14 for Granblue Fantasy Versus: Rising has officially begun. Running from September 16 to November 30, 2026, the new season brings updated rankings, and Season 13 Grand Master rewards will be distributed soon.",
+     "highlights": [
+      "Battle Season 14 has started",
+      "Schedule: Sep 16 – Nov 30, 2026 (PT)",
+      "Season 13 Grand Master rewards distribution in progress"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "バトルパスシーズン14開幕",
+     "summary": "『グランブルーファンタジーヴァーサス -ライジング-』のバトルシーズン14が本日より開始されました。開催期間は2026年9月16日から11月30日までとなり、シーズン13グランドマスターの報酬は順次ギフトに配布されます。",
+     "highlights": [
+      "バトルシーズン14開始",
+      "開催期間: 2026年9月16日〜11月30日 (PT)",
+      "シーズン13グランドマスター報酬の配布予定"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "对战第14赛季开启",
+     "summary": "《碧蓝幻想 Versus：崛起》对战第14赛季已于今日正式开启。本赛季持续至2026年11月30日，第13赛季的大师段位奖励将在排名结算后陆续发放至礼物箱。",
+     "highlights": [
+      "对战第14赛季正式开启",
+      "活动时间：2026年9月16日至11月30日（PT）",
+      "第13赛季大师奖励将陆续发放"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Batalha da Temporada 14 Iniciada",
+     "summary": "A Temporada de Batalha 14 de Granblue Fantasy Versus: Rising começou hoje e vai até 30 de novembro de 2026. As recompensas de Grão-Mestre da Temporada 13 serão distribuídas em breve após a finalização dos rankings.",
+     "highlights": [
+      "Início da Temporada de Batalha 14",
+      "Período: 16 de set. a 30 de nov. de 2026 (PT)",
+      "Distribuição das recompensas de Grão-Mestre da Temporada 13"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1844115010494049",
    "appid": 1172620,
    "game": "씨 오브 시브즈",
@@ -15905,6 +16576,79 @@
       "Fixed an issue where enemies continued to take damage after Yugiri left Toxic Mist",
       "Fixed an issue where enemies entering Toxic Mist after its creation were unaffected"
      ]
+    }
+   }
+  },
+  {
+   "gid": "1844115010490707",
+   "appid": 2157560,
+   "game": "그랑블루 판타지 버서스 라이징",
+   "date": 1789614504,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010490707",
+   "origTitle": "Version 2.60 Patch Notes",
+   "title": "버전 2.60 패치 노트",
+   "summary": "그랑블루 판타지 버서스 라이징 버전 2.60 업데이트가 적용되었습니다. 신규 캐릭터 '이드'와 새로운 스테이지, 조작 타입, 그리고 체인 어택 시스템이 추가되었습니다.",
+   "highlights": [
+    "신규 캐릭터 '이드' 참전",
+    "신규 스테이지 및 조작 타입 추가",
+    "신규 체인 어택 시스템 도입",
+    "전반적인 배틀 및 시스템 조정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Version 2.60 Patch Notes",
+     "summary": "Granblue Fantasy Versus: Rising Version 2.60 update is now live. This update introduces the new playable character Id, a new stage and control scheme, and the Chain Attack system.",
+     "highlights": [
+      "Added new character Id",
+      "Added new stage and control scheme",
+      "Introduced new Chain Attack system",
+      "Battle and universal adjustments"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "Ver. 2.60 치 노트",
+     "summary": "『グランブルーファンタジーヴァーサス ライジング』Ver. 2.60アップデートが配信開始されました。新プレイアブルキャラクター「イーウィヤではない、イド」や新ステージ、新操作タイプ、チェ인アタックシステムが追加されました。",
+     "highlights": [
+      "新キャラクター「イド」参戦",
+      "新ステージと新操作タイプの追加",
+      "新チェインアタックシステムの実装",
+      "バトルおよび全体的な調整"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "版本 2.60 更新说明",
+     "summary": "《碧蓝幻想 Versus：崛起》版本 2.60 更新现已上线。本次更新推出了新角色“伊度”、全新关卡与操作类型，以及全新的连携攻击系统。",
+     "highlights": [
+      "新增角色“伊度”",
+      "新增关卡与操作类型",
+      "引入全新连携攻击系统",
+      "对战与通用调整"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Notas da Atualização Versão 2.60",
+     "summary": "A atualização da Versão 2.60 de Granblue Fantasy Versus: Rising já está disponível. Ela traz o novo personagem Id, um novo cenário, um novo tipo de controle e o sistema de Ataque em Cadeia.",
+     "highlights": [
+      "Adicionado o novo personagem Id",
+      "Adicionados novo cenário e tipo de controle",
+      "Introduzido o novo sistema de Ataque em Cadeia",
+      "Ajustes de batalha e gerais"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
     }
    }
   },
@@ -16036,6 +16780,207 @@
       "Fixed an issue where skill effect transparency options were not applied to certain skill effects",
       "Fixed an issue where Mechanic's Crest of the Solar attack damage was incorrectly applied to some enemies",
       "Fixed an issue where Overload Mana deactivated when MP reached 0"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1844115010490551",
+   "appid": 881020,
+   "game": "그랑블루 판타지 리링크",
+   "date": 1789606853,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010490551",
+   "origTitle": "Ver. 2.0.6 Update Information",
+   "title": "Ver. 2.0.6 업데이트 안내",
+   "summary": "그랑블루 판타지 리링크 Ver. 2.0.6 업데이트가 적용되었습니다. '그랑블루 판타지 버서스 라이징' 연동 특전 추가 및 퀘스트와 진 관련 버그가 수정되었습니다.",
+   "highlights": [
+    "그랑블루 판타지 버서스 라이징 연동 특전 '종말의 인과검' 추가",
+    "'The World' 퀘스트 천체구 능력 피해 관련 버그 수정",
+    "특성 레벨 15 전용 진이 레벨 11로 얻어지던 현상 수정 및 소지품 내 진 일괄 보정",
+    "브라질 심의 등급 12세에서 14세로 변경"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "New World Order 및 On the Threshold of The World 퀘스트 중 의도치 않은 피해를 입던 버그 수정",
+    "특성 레벨 15 진이 레벨 11로 잘못 획득되던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Ver. 2.0.6 Update Information",
+     "summary": "The Ver. 2.0.6 update for Granblue Fantasy: Relink is now live. It adds a tie-in bonus with Granblue Fantasy Versus: Rising and resolves various bug fixes.",
+     "highlights": [
+      "Added Karmic Sword of the Apocalypse tie-in bonus with Granblue Fantasy Versus: Rising",
+      "Fixed a bug involving unintended damage during The World's Celestial Sphere ability",
+      "Fixed a bug where single-trait sigils were incorrectly obtained at T. Lvl 11 instead of 15 and corrected existing inventory items",
+      "ClassInd content rating in Brazil changed from 12 to 14"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a bug causing unintended damage during New World Order or On the Threshold of The World quests",
+      "Fixed an intermittent bug where single-trait sigils were incorrectly obtained at T. Lvl 11 instead of 15"
+     ]
+    },
+    "ja": {
+     "title": "Ver. 2.0.6アップデート情報",
+     "summary": "『グランブルーファンタジー リリンク』Ver. 2.0.6アップデートが配信開始されました。『グランブルーファンタジーヴァーサス -ライジング-』との連動特典の追加や、クエストおよびジーンの不具合修正が行われています。",
+     "highlights": [
+      "『グランブルーファンタジーヴァーサス -ライジング-』との連動特典「終末の因果剣」の追加",
+      "「The World」の天体球アビリティ発動時の意図しないダメージに関する不具合修正",
+      "単一特性のジーンがLv11で取得されていた不具合の修正と所持品の自動修正",
+      "ブラジルにおける年齢レーティングが12歳以上から14歳以上へ変更"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "「New World Order」または「On the Threshold of The World」クエストで意図せずダメージを受けていた不具合の修正",
+      "単一特性を持つジーンが誤ってLv11で取得されていた不具合の修正"
+     ]
+    },
+    "zh": {
+     "title": "Ver. 2.0.6 更新资讯",
+     "summary": "《碧蓝幻想：Relink》Ver. 2.0.6 更新现已发布。本次更新追加了与《碧蓝幻想 Versus：崛起》的联动特典，并修复了相关任务及因子的问题。",
+     "highlights": [
+      "追加与《碧蓝幻想 Versus：崛起》的联动特典“终末因果剑”",
+      "修复“The World”天体球技能发动时受到的不当伤害问题",
+      "修复特性等级15的因子被错误获取为11级的Bug，并修正背包内受影响的因子",
+      "巴西内容分级从 12 调整为 14"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复在 New World Order 或 On the Threshold of The World 任务中受到意外伤害的Bug",
+      "修复单特性因子被错误获取为等级11而非15的Bug"
+     ]
+    },
+    "pt": {
+     "title": "Informações da Atualização Ver. 2.0.6",
+     "summary": "A atualização Ver. 2.0.6 de Granblue Fantasy: Relink foi lançada. Ela adiciona um bônus de vinculação com Granblue Fantasy Versus: Rising e corrige bugs em missões e selos.",
+     "highlights": [
+      "Adicionado o bônus de vinculação 'Espada Cármica do Apocalipse' de Granblue Fantasy Versus: Rising",
+      "Corrigido bug de dano indesejado ao ativar a habilidade Esfera Celestial de The World",
+      "Corrigido bug em que selos de traço único eram obtidos no Nv. 11 em vez do Nv. 15, com correção automática no inventário",
+      "Classificação indicativa no Brasil alterada de 12 para 14 anos"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido bug que causava dano indesejado nas missões New World Order ou On the Threshold of The World",
+      "Corrigido bug intermitente em que selos com traço único eram obtidos incorretamente no Nv. 11"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1844115010489360",
+   "appid": 4000,
+   "game": "개리 모드",
+   "date": 1789570808,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010489360",
+   "origTitle": "September 2026 Update",
+   "title": "2026년 9월 업데이트",
+   "summary": "개리 모드 2026년 9월 업데이트가 적용되어 윈도우 64비트 바이너리 지원, 스폰메뉴 및 플레이어 모델 선택기 개편, 그리고 다양한 버그 수정이 이루어졌습니다.",
+   "highlights": [
+    "윈도우 게임 클라이언트, 전용 서버, 개발자 도구를 위한 64비트 바이너리 추가",
+    "스폰메뉴에 해킹된 맨학 NPC 추가 및 드랍쉽 NPC가 피해를 입도록 변경",
+    "스폰메뉴에 하위 카테고리 기능 추가",
+    "플레이어 모델 선택기 메뉴 개편",
+    "독립형 인서전시(2014) 게임 마운트 지원 추가",
+    "17일 핫픽스를 통한 충돌 및 오류 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "슈트/체력 충전기 엔티티 및 컴바인 지뢰를 Lua 엔티티로 오버라이드하는 기능 재활성화",
+    "'Failed to init Steamworks' 충돌 대화 상자에 해결 단계 추가",
+    "리눅스 전용 서버에서 특정 애드온이 마운트되지 않던 문제 해결",
+    "커뮤니티 애드온으로 인한 Lua 오류 방지를 위한 패널 코드 폴백 추가",
+    "네이티브 32비트 리눅스 클라이언트 시작 시 충돌 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "September 2026 Update",
+     "summary": "The September 2026 Update for Garry's Mod is now live, introducing 64-bit binaries for Windows, spawnmenu and player model selector overhauls, and various fixes.",
+     "highlights": [
+      "Added 64-bit binaries for the Windows game client, dedicated servers, and developer tools",
+      "Added Hacked Manhacks NPC and made Dropship NPC take damage in Sandbox",
+      "Added subcategories to spawnmenu content tabs",
+      "Overhauled player model selector menu with categories and improved rendering",
+      "Added support for mounting standalone Insurgency (2014)",
+      "Released September 17 hotfix for crashes and Linux server issues"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Re-enabled ability to override suit/health charger entities & combine mines with Lua entities",
+      "Added solution steps to 'Failed to init Steamworks' crash dialog",
+      "Fixed certain addons with weird file names refusing to be mounted on Linux dedicated servers",
+      "Added fallbacks in panel code to prevent Lua errors from community addons",
+      "Fixed crash on start up on native 32-bit Linux client"
+     ]
+    },
+    "ja": {
+     "title": "2026年9月アップデート",
+     "summary": "Garry's Modの2026年9月アップデートが配信開始され、Windows向け64ビットバイナリの導入、スポーンメニューとプレイヤーモデル選択画面の刷新、各種修正が行われました。",
+     "highlights": [
+      "Windows版ゲームクライアント、専用サーバー、開発ツール向けの64ビットバイナリを追加",
+      "ハックされたマンハックNPCの追加およびサンドボックスでドロップシップNPCがダメージを受けるように変更",
+      "スポーンメニューのコンテンツタブにサブカテゴリ機能を追加",
+      "プレイヤーモデル選択メニューを刷新",
+      "スタンドアロンのInsurgency (2014)のマウントに対応",
+      "9月17日のホットフィックスによるクラッシュおよび不具合の修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "スーツ/体力チャージャーエンティティおよびコンバインマインをLuaエンティティで上書きする機能を再有効化",
+      "「Failed to init Steamworks」クラッシュダイアログに対処手順を追加",
+      "Linux専用サーバーで一部のファイル名の奇怪なアドオンがマウントされない問題を修正",
+      "コミュニティアドオンに起因するLuaエラーを防ぐためのパネルコードのフォールバックを追加",
+      "ネイティブ32ビットLinuxクライアントでの起動時のクラッシュを修正"
+     ]
+    },
+    "zh": {
+     "title": "2026年9月更新",
+     "summary": "盖瑞模组（Garry's Mod）2026年9月更新现已上线，引入了Windows 64位二进制文件支持、生成菜单和玩家模型选择器重构，以及各项修复。",
+     "highlights": [
+      "为Windows游戏客户端、专用服务器和开发者工具添加了64位二进制文件",
+      "在生成菜单中新增了被黑客入侵的Manhacks NPC，并使Dropship NPC在沙盒中可受到伤害",
+      "生成菜单的内容标签页现可支持子分类",
+      "重构了带有分类和改进渲染的玩家模型选择器菜单",
+      "新增对挂载独立游戏《叛乱 (2014)》的支持",
+      "通过9月17日热修复解决崩溃和服务器问题"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "重新启用覆盖护甲/生命值充能器实体及联合军地雷与Lua实体的功能",
+      "为“Failed to init Steamworks”崩溃对话框添加了解决方案步骤",
+      "修复了Linux专用服务器上某些文件名奇怪的addon拒绝被挂载的问题",
+      "在面板代码中添加了后备方案以防止社区addon引发的Lua错误",
+      "修复了原生32位Linux客户端启动时崩溃的问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização de Setembro de 2026",
+     "summary": "A atualização de setembro de 2026 do Garry's Mod já está disponível, trazendo binários de 64 bits para Windows, reformulação do menu de spawn e do seletor de modelos, além de várias correções.",
+     "highlights": [
+      "Adicionados binários de 64 bits para o cliente de jogo do Windows, servidores dedicados e ferramentas de desenvolvedor",
+      "Adicionado novo NPC (Hacked Manhacks) e permitido que o Dropship receba dano no Sandbox",
+      "Adicionadas subcategorias às abas de conteúdo do menu de spawn",
+      "Menu seletor de modelos de jogador reformulado com categorias e renderização melhorada",
+      "Adicionado suporte para montar o jogo standalone Insurgency (2014)",
+      "Lançado hotfix em 17 de setembro para resolver travamentos e problemas em servidores Linux"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Reativada a capacidade de substituir entidades de carregador de traje/vida e minas dos Combine com entidades Lua",
+      "Adicionadas etapas de solução ao diálogo de erro 'Failed to init Steamworks'",
+      "Corrigidos certos addons com nomes de arquivos estranhos que recusavam ser montados em servidores dedicados Linux",
+      "Adicionados fallbacks no código de painel para evitar erros de Lua causados por addons da comunidade",
+      "Corrigido travamento na inicialização em clientes Linux nativos de 32 bits"
      ]
     }
    }
@@ -16207,6 +17152,84 @@
    }
   },
   {
+   "gid": "1843481262705394",
+   "appid": 1568590,
+   "game": "구스구스덕",
+   "date": 1789497742,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705394",
+   "origTitle": "v4.11 Controller + Quality of Life",
+   "title": "v4.11 컨트롤러 및 편의성 패치",
+   "summary": "구스구스덕 v4.11 업데이트가 적용되어 스팀 덱 인증을 위한 컨트롤러 지원 개선, 편의성 향상, 버그 수정 및 최적화가 진행되었습니다.",
+   "highlights": [
+    "스팀 덱 인증을 위한 컨트롤러 지원 개편 및 접근성 향상",
+    "다가오는 이벤트 및 콘텐츠 준비 작업 진행",
+    "각종 버그 수정, 최적화 및 편의성 개선 적용"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "각종 게임 내 버그 수정 및 최적화 진행"
+   ],
+   "i18n": {
+    "en": {
+     "title": "v4.11 Controller + Quality of Life",
+     "summary": "Goose Goose Duck v4.11 is here, bringing controller support improvements for Steam Deck verification, quality of life updates, bug fixes, and optimizations.",
+     "highlights": [
+      "Controller support overhaul and accessibility improvements for Steam Deck verification",
+      "Preparations for upcoming events and future content",
+      "Various bug fixes, optimizations, and quality of life improvements"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Various bug fixes and game optimizations"
+     ]
+    },
+    "ja": {
+     "title": "v4.11 コントローラー＋品質改善",
+     "summary": "グースグースダックのv4.11アップデートが配信され、Steam Deck認証に向けたコントローラー対応の改善、品質向上、バグ修正、最適化が行われました。",
+     "highlights": [
+      "Steam Deck認証に向けたコントローラーサポートの刷新とアクセシビリティの向上",
+      "今後のイベントやコンテンツに向けた準備",
+      "各種バグ修正、最適化、ゲーム全体の品質改善"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "ゲーム内の各種バグ修正と最適化"
+     ]
+    },
+    "zh": {
+     "title": "v4.11 手柄与体验优化",
+     "summary": "鹅鸭杀 v4.11 版本现已发布，带来了接近 Steam Deck 验证的手柄支持改进、体验优化、漏洞修复以及游戏优化。",
+     "highlights": [
+      "手柄支持全面重做，提升 Steam Deck 验证的可用性与无障碍体验",
+      "为即将到来的活动和内容做好准备工作",
+      "包含各种漏洞修复、优化和游戏体验提升"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了各种游戏内漏洞并进行了优化"
+     ]
+    },
+    "pt": {
+     "title": "v4.11 Controles + Melhorias de Qualidade de Vida",
+     "summary": "O Goose Goose Duck v4.11 chegou, trazendo melhorias no suporte a controles para a verificação do Steam Deck, atualizações de qualidade de vida, correções de bugs e otimizações.",
+     "highlights": [
+      "Atualização do suporte a controles e melhorias de acessibilidade para o Steam Deck",
+      "Preparativos para futuros eventos e conteúdos",
+      "Várias correções de bugs, otimizações e melhorias de qualidade de vida"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Várias correções de bugs e otimizações no jogo"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1843481262705049",
    "appid": 1599340,
    "game": "로스트아크 (스팀 글로벌판)",
@@ -16287,6 +17310,84 @@
    }
   },
   {
+   "gid": "1843481262688553",
+   "appid": 3446920,
+   "game": "메카라시",
+   "date": 1788947727,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262688553",
+   "origTitle": "[Mirrored Perception] Update Announcement",
+   "title": "[거울에 비친 지각] 업데이트 안내",
+   "summary": "메카라시 신규 업데이트가 적용되며, 신규 파일럿, ST, 무기, 백팩 및 다양한 이벤트와 시스템이 추가됩니다.",
+   "highlights": [
+    "신규 파일럿(아다, 오필리아, 앤더슨, 사피엔시아, 카샤 등) 및 ST(하스테레이즈, 우로보로스, 오디세우스 등) 추가",
+    "신규 S+ 무기 2종 및 SS 무기 2종, SS 백팩 2종 추가",
+    "신규 시스템 '신경 구동 - 칩 오버클럭' 추가",
+    "신규 무장 정복 스테이지 그룹 '운명의 끝' 및 링 시즌 10 개방",
+    "신규 스토리 이벤트 '별빛의 인도' 및 다양한 출석 및 보상 이벤트 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "[Mirrored Perception] Update Announcement",
+     "summary": "A new update for Mecharashi introduces new pilots, STs, weapons, backpacks, events, and the Chip Overclocking system.",
+     "highlights": [
+      "Added new pilots (Ada, Ophelia, Anderson, Sapientia, Cassha) and STs (Hasteraze, Ouroboros, Odysseus, etc.)",
+      "Added 2 new S+ weapons, 2 new SS weapons, and 2 new SS backpacks",
+      "Added Neural Drive - Chip Overclocking feature",
+      "Added new Armed Conquest Stage Group 'The End of Destiny' and opened Ring Season 10",
+      "Launched the limited-time 'Guided by Starlight' story event along with sign-in and reward events"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "[鏡像知覚]アップデートのお知らせ",
+     "summary": "『メカラシ』のアップデートにより、新パイロットやST、武器、バックパック、新システムおよび各種イベントが実装されます。",
+     "highlights": [
+      "新パイロット（エイダ、オフェリア、アンダーソン、サピエンティア、カシャなど）およびST（ハステレイズ、ウロボロス、オデュッセウスなど）を追加",
+      "新S+武器2種、SS武器2種、SSバックパック2種を追加",
+      "新システム「神経駆動 - チップオーバークロック」を追加",
+      "新武装コンクエストステージグループ「運命の終焉」およびリングシーズン10を追加",
+      "期間限定ストーリーイベント「星明かりの導き」および各種ログインイベントを開催"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "[镜像感知]更新公告",
+     "summary": "《钢岚》迎来了全新版本更新，推出了多位新机师与ST、武器、背包，并开放了芯片超频系统及丰富活动。",
+     "highlights": [
+      "新增限定机师（艾达、奥菲莉亚、安德森、萨碧恩蒂亚、卡夏等）及ST（哈斯特雷兹、乌洛波罗斯、奥德修斯等）",
+      "新增2款S+武器、2款SS武器及2款SS背包",
+      "新增神经驱动-芯片超频系统",
+      "新增武装讨伐关卡组“命运的终结”并开启竞技场（Ring）第10赛季",
+      "开启限时剧情活动“星光引路人”及签到、充值等丰富福利活动"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Anúncio de Atualização [Percepção Espelhada]",
+     "summary": "Uma nova atualização para Mecharashi traz novos pilotos, STs, armas, mochilas, além de novos sistemas e eventos por tempo limitado.",
+     "highlights": [
+      "Adicionados novos pilotos (Ada, Ophelia, Anderson, Sapientia, Cassha) e STs (Hasteraze, Ouroboros, Odysseus, etc.)",
+      "Adicionadas 2 novas armas S+, 2 armas SS e 2 mochilas SS",
+      "Adicionado o sistema de Direção Neural - Overclock de Chip",
+      "Adicionado o novo grupo de estágios de Conquista Armada 'O Fim do Destino' e a 10ª Temporada do Ring",
+      "Lançamento do evento de história por tempo limitado 'Guidados pela Luz das Estrelas' e eventos de login"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1843481262687543",
    "appid": 4162040,
    "game": "젠레스 존 제로",
@@ -16325,6 +17426,84 @@
    }
   },
   {
+   "gid": "1842846814454653",
+   "appid": 3950020,
+   "game": "듀엣 나이트 어비스",
+   "date": 1788840816,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814454653",
+   "origTitle": "[Paradise's 22nd White Bunny] Version Update Notes",
+   "title": "듀엣 나이트 어비스 '낙원의 22번째 하얀 토끼' 버전 업데이트",
+   "summary": "듀엣 나이트 어비스가 신규 스토리 퀘스트, 지역, 캐릭터, 무기를 포함한 '낙원의 22번째 하얀 토끼' 버전을 업데이트했습니다. 신규 캐릭터 팔시와 꿈속의 소년/소녀가 추가되었으며, 마신 쐐기 및 다양한 이벤트가 진행됩니다.",
+   "highlights": [
+    "신규 메인 스토리 '황혼의장 제2막: 낙원의 22번째 하얀 토끼' 추가",
+    "신규 지역 '아르카노 산' 및 관련 지역 추가",
+    "신규 캐릭터 '팔시'(화 속성) 및 '꿈속의 소년/소녀'(수 속성) 추가",
+    "신규 무기 '소리 없는 울음', '상퀴스 산кту스', '붉은 깃털' 추가",
+    "녹토야저 수동 기능 확장 및 다양한 신규 마신 쐐기 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Duet Night Abyss 'Paradise's 22nd White Bunny' Version Update",
+     "summary": "Duet Night Abyss has released the 'Paradise's 22nd White Bunny' version update featuring new story quests, areas, characters, and weapons. New characters Falsi and The Boy/Girl in the Dream have been added, alongside new Demon Wedges and events.",
+     "highlights": [
+      "Added Main Story Twilight Arc Chapter 2: Paradise's 22nd White Bunny",
+      "Added new area Mount Arcano and related regions",
+      "Added new characters Falsi (Pyro) and The Boy / Girl in the Dream (Hydro)",
+      "Added new weapons Stifled Howl, Sanguis Sanctus, and Sanguine Plume",
+      "Added various new Demon Wedges and Noctoyager Manual progression rewards"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "デュエットナイトアビス「楽園の22番目の白うさぎ」バージョンアップデート",
+     "summary": "デュエットナイトアビスは、新ストーリークエスト、エリア、キャラクター、武器を含む「楽園の22番目の白うさぎ」バージョンアップデートを実施しました。新キャラクターの「ファルシ」と「夢の中の少年/少女」が追加され、魔神の楔や各種イベントが開催されます。",
+     "highlights": [
+      "新メインストーリー「トワイライトアーク 第2章：楽園の22番目の白うさぎ」を追加",
+      "新エリア「アルカノ山」および関連地域を追加",
+      "新キャラクター「ファルシ」（炎属性）および「夢の中の少年/少女」（水属性）を追加",
+      "新武器「息を潜める遠吠え」、「サングイス・サンクトゥス」、「サングイン・プルーム」を追加",
+      "ノクトボイジャーマニュアルの進行報酬や新しい魔神の楔を追加"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "《双相回音》“乐园的第二十二只白兔”版本更新",
+     "summary": "《双相回音》推出了“乐园的第二十二只白兔”版本更新，带来了全新的剧情任务、区域、角色和武器。新增了火属性角色法尔西以及梦中的少年/少女，并开放了全新的魔神楔石与丰富活动。",
+     "highlights": [
+      "新增主线剧情：暮光篇 第二章《乐园的第二十二只白兔》",
+      "新增全新区域“阿尔卡诺山”及相关地图",
+      "新增角色：法尔西（火属性）与梦中的少年/少女（水属性）",
+      "新增武器：双刀“沉郁低嚎”、鞭刃“圣血”、灾厄武器双枪“血羽”",
+      "新增多款魔神楔石及夜航者手册等级奖励"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização da Versão 'O 22º Coelho Branco do Paraíso' de Duet Night Abyss",
+     "summary": "Duet Night Abyss lançou a atualização da versão 'O 22º Coelho Branco do Paraíso', trazendo novas missões de história, áreas, personagens e armas. Os novos personagens Falsi e O Menino/Menina no Sonho foram adicionados, junto com novas Cunhas de Demônio e eventos.",
+     "highlights": [
+      "Adicionada a nova história principal: Arco do Crepúsculo Capítulo 2: O 22º Coelho Branco do Paraíso",
+      "Adicionada a nova área Monte Arcano e regiões relacionadas",
+      "Adicionados novos personagens Falsi (Pyro) e O Menino / Menina no Sonho (Hydro)",
+      "Adicionadas novas armas Uivo Sufocado, Sanguis Sanctus e Pluma Sanguínea",
+      "Adicionadas várias novas Cunhas de Demônio e recompensas do Manual do Noctoyager"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "appid": "pkc",
    "game": "포켓몬 챔피언스",
    "buffs": [
@@ -16354,24 +17533,102 @@
    "i18n": {
     "en": {
      "title": "Pokémon Champions Ver. 1.2.0 — Regulation M-C",
-     "summary": "Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features include Battle Log viewing and battle data display on the team preview screen.",
+     "summary": "Pokémon and held items for Regulation M-C have been added, and battle balance has been adjusted. New features include Battle Log viewing and battle data display on the team selection screen.",
      "highlights": [
-      "Added Pokémon and held items for Regulation M-C",
-      "New Feature: Battle Log (records all actions in the current battle)",
-      "New Feature: Selection Support (displays battle data on the Pokémon selection screen)"
+      "Added Regulation M-C Pokémon and held items",
+      "New feature: Battle Log (records all actions in the current battle)",
+      "New feature: Selection Support (displays battle data on the Pokémon selection screen)"
      ],
      "buffs": [
-      "Can now use Slash"
+      "Slash can now be used"
      ],
      "nerfs": [
-      "Politoed: Can no longer use Pound",
-      "Archaludon: Can no longer use Mirror Coat and Metal Burst",
+      "Politoed: Cannot use Scratch",
+      "Archaludon: Cannot use Mirror Coat and Metal Burst",
       "Wish PP changed from 12 to 8",
       "Strength Sap PP changed from 12 to 8"
      ],
      "fixes": [
-      "Fixed some bugs"
+      "Fixed several bugs"
      ]
+    }
+   }
+  },
+  {
+   "gid": "1842846814454272",
+   "appid": 3950020,
+   "game": "듀엣 나이트 어비스",
+   "date": 1788826678,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814454272",
+   "origTitle": "The new version [Paradise's 22nd White Bunny] is now available.",
+   "title": "파라다이스의 22번째 하얀 토끼",
+   "summary": "듀엣 나이트 어비스의 신규 버전 '파라다이스의 22번째 하얀 토끼'가 업데이트되었습니다. 신규 지역 아르카노 산맥, 신규 화염 속성 캐릭터 팔시, 그리고 다양한 무기 및 이벤트가 추가되었습니다.",
+   "highlights": [
+    "신규 지역 '아르카노 산맥' 및 관련 구역 오픈",
+    "신규 화염 속성 캐릭터 '팔시' 추가",
+    "신규 무기 듀얼 블레이드, 윕블레이드, 재앙 무기 듀얼 건 추가",
+    "메인 스토리 '황혼의 장 제2막' 및 사이드 스토리 업데이트",
+    "다양한 버전 이벤트 및 신규 데몬 웨지 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Paradise's 22nd White Bunny",
+     "summary": "The new version 'Paradise's 22nd White Bunny' is now available in Duet Night Abyss. This update introduces the new area Mount Arcano, the new Pyro character Falsi, along with new weapons, stories, and events.",
+     "highlights": [
+      "New area 'Mount Arcano' and related regions opened",
+      "New Pyro character 'Falsi' added",
+      "New weapons including Dual Blades, Whipblade, and Calamity Weapon Dual Guns",
+      "Main Story Twilight Arc Chapter 2 and Side Stories updated",
+      "Various version events and new Demon Wedges added"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "楽園の22番目の白うさぎ",
+     "summary": "デュエットナイトアビスの新バージョン「楽園の22番目の白うさぎ」が配信開始されました。新エリア「アルカノ山脈」、新炎属性キャラクター「ファルシ」、新しい武器やストーリー、イベントが追加されました。",
+     "highlights": [
+      "新エリア「アルカノ山脈」および関連区域が開放",
+      "新炎属性キャラクター「ファルシ」を追加",
+      "新武器のデュアルブレード、ウィップブレード、災厄武器デュアルガンを追加",
+      "メインストーリー「黄昏の章 第二幕」およびサイドストーリーを更新",
+      "多数のバージョンイベントや新しいデーモンウェッジを追加"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "乐园的第22只白兔",
+     "summary": "《双相回音》全新版本“乐园的第22只白兔”现已推出。本次更新开放了全新区域阿尔卡诺山，推出了全新焰属性角色法尔茜，以及多款新武器、剧情和版本活动。",
+     "highlights": [
+      "开放全新区域“阿尔卡诺山”及相关区域",
+      "新增全新焰属性角色“法尔茜”",
+      "新增双刀、鞭刃及灾厄武器双枪",
+      "更新主线剧情“黄昏篇 第二幕”及支线剧情",
+      "上线多项版本活动及全新恶魔契印"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "O 22º Coelhinho Branco do Paraíso",
+     "summary": "A nova versão 'O 22º Coelhinho Branco do Paraíso' já está disponível em Duet Night Abyss. Esta atualização traz a nova área Monte Arcano, a nova personagem Pyro Falsi, além de novas armas, histórias e eventos.",
+     "highlights": [
+      "Nova área 'Monte Arcano' e regiões relacionadas abertas",
+      "Nova personagem Pyro 'Falsi' adicionada",
+      "Novas armas incluindo Lâminas Duplas, Lâmina-Chicote e Arma de Calamidade Armas Duplas",
+      "Atualização do Capítulo 2 do Arco Crepúsculo da História Principal e Histórias Secundárias",
+      "Vários eventos de versão e novas Cunhas de Demônio adicionados"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
     }
    }
   },
@@ -16600,6 +17857,129 @@
    }
   },
   {
+   "gid": "1842846814443656",
+   "appid": 3405690,
+   "game": "EA SPORTS FC 26",
+   "date": 1788447807,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814443656",
+   "origTitle": "EA SPORTS FC™ 27 | Closed Beta Feedback Update",
+   "title": "EA SPORTS FC 27 클로ปิด 베타 피드백 업데이트",
+   "summary": "EA SPORTS FC 27 클로ปิด 베타 피드백을 반영하여 어깨 싸움, 팀 압박, 가속도(AcceleRATE), 선수 잠금(Player Lock) 등의 게임플레이 조정 사항을 공개했습니다. 출시 초기에는 대규모 밸런스 패치 대신 버그 수정과 타겟팅된 조정을 중심으로 운영할 계획입니다.",
+   "highlights": [
+    "어깨 싸움 연속 입력 시 속도가 감소하고 팔을 뻗는 동작 추가",
+    "수비 진영 삼분의 일 지역에서는 팀 압박 효과가 발동하지 않도록 변경",
+    "가속도(AcceleRATE) 프로필의 영향력을 약간 줄이고 여성 선수 신장 기준 조정",
+    "선수 잠금(Player Lock) 사용 시 볼 소유 선수가 자동으로 수비를 피하지 않도록 변경",
+    "칩 패스(Dinked Pass)가 완전 수동으로 변경되며 입력 방식 수정",
+    "코너킥 시 낙하 지점 자동 보정이 제거되고 자유 이동 제공"
+   ],
+   "buffs": [],
+   "nerfs": [
+    "Bruiser+ 플레이스타일의 추가 이점 약간 감소",
+    "가속도(AcceleRATE) 프로필이 달리기 성능에 미치는 영향력 약간 감소",
+    "선수 잠금 중 CPU가 조종하는 볼 소유 선수의 패스 오차 약간 증가"
+   ],
+   "fixes": [
+    "어깨 싸움을 연속으로 입력해 추격하던 의도치 않은 플레이 방식 수정",
+    "낮은 수비 깊이 설정 시 수비 라인이 여전히 높게 유지되던 문제 조정",
+    "그라운드 패스 연타 시 칩 패스가 의도치 않게 발동하던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "EA SPORTS FC 27 Closed Beta Feedback Update",
+     "summary": "Based on Closed Beta feedback, EA SPORTS FC 27 is introducing gameplay adjustments covering physical play, Team Press, AcceleRATE, Player Lock, and more. The team plans a measured approach for early title updates, avoiding major balance shifts and focusing on targeted fixes.",
+     "highlights": [
+      "Repeatedly pressing Shoulder Challenge causes defenders to stick out an arm and lose speed",
+      "Team Press has no effect when the ball is in your defensive third",
+      "Slightly reduced the impact of AcceleRATE profiles and adjusted the height threshold for female players",
+      "Player Lock no longer causes the ball carrier to automatically avoid defenders",
+      "Dinked Passes are now fully manual and use the Through Pass double-tap input",
+      "Corner kicks feature free manual movement without auto-correcting toward the ball landing spot"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Slightly reduced the additional benefit provided by Bruiser+",
+      "Slightly reduced the impact of AcceleRATE profiles on running performance",
+      "Slightly increased the error in passes made by the CPU-controlled ball carrier during Player Lock"
+     ],
+     "fixes": [
+      "Addressed repeatedly pressing Shoulder Challenge while chasing opponents",
+      "Adjusted lower defensive depth settings to better reflect conservative positioning",
+      "Stopped Dinked Passes from triggering accidentally via multiple Ground Pass inputs"
+     ]
+    },
+    "ja": {
+     "title": "EA SPORTS FC 27 クローズドベータ フィードバックアップデート",
+     "summary": "クローズドベータでのフィードバックをもとに、身体接触、チームプレス、AcceleRATE、プレイヤーロックなどの調整内容が発表されました。リリース初期のアップデートでは、大幅なバランス変更を避け、ターゲットを絞った修正やバグ対応を中心に行う方針です。",
+     "highlights": [
+      "ショルダーチャレンジの連続入力により、ディフェンダーが腕を伸ばしてスピードが低下するように変更",
+      "自陣のディフェンシブサード内ではチームスカッドの効果が無効化",
+      "AcceleRATEプロファイルの影響力をわずかに減少し、女性選手の身長閾値を調整",
+      "プレイヤーロック使用時、ボールキャリアが自動でディフェンダーを避けなくなるように変更",
+      "ディンクパスが完全マニュアル化され、スルーパスのダブルタップ入力に変更",
+      "コーナーキックで落下地点への自動補正がなくなり、完全な自由移動に"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Bruiser+の追加効果をわずかに削減",
+      "ランニングパフォーマンスに対するAcceleRATEプロファイルの影響力をわずかに削減",
+      "プレイヤーロック中のCPU制御ボールキャリアのパスミス率をわずかに増加"
+     ],
+     "fixes": [
+      "相手を追いかけながらショルダーチャレンジを連打する意図しない挙動を修正",
+      "低いディフェンスプッシュ設定がより保守的な位置取りに反映されるよう調整",
+      "グラウンドパスの複数回入力でディンクパスが誤発動する問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "EA SPORTS FC 27 封闭测试反馈更新",
+     "summary": "基于封闭测试的反馈，EA SPORTS FC 27 公布了针对身体对抗、团队压迫、加速类型（AcceleRATE）、球员锁（Player Lock）等内容的调整。官方计划在游戏发布初期采取审慎的更新策略，避免大幅平衡性调整，专注于针对性的修复。",
+     "highlights": [
+      "连续按肩部对抗会导致防守球员伸出手臂并减速",
+      "当球在己方防守三区内时，团队压迫将不再起作用",
+      "稍微降低了加速类型（AcceleRATE）对运行表现的影响，并调整了女性球员的身高门槛",
+      "使用球员锁时，带球球员不再会自动绕过或避开防守球员",
+      "挑传（Dinked Pass）现已完全改为手动，并需通过双击直塞键触发",
+      "角球取消了自动移动至落点的辅助，提供完全自由移动"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "稍微降低了强悍（Bruiser+）带来的额外增益",
+      "稍微降低了加速类型配置文件对跑步表现的影响",
+      "稍微增加了球员锁期间由CPU控制的带球球员的传球失误率"
+     ],
+     "fixes": [
+      "解决了在追逐对手时重复连按肩部对抗的问题",
+      "调整了较低的防守深度设置，使其更好地反映保守的后防站位",
+      "修复了多次按地面传球输入时意外触发挑传的问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização de Feedback do Beta Fechado de EA SPORTS FC 27",
+     "summary": "Com base no feedback do Beta Fechado, o EA SPORTS FC 27 traz ajustes na jogabilidade, incluindo jogo físico, Pressão de Equipe, AcceleRATE, Trava de Jogador e mais. A equipe adotará uma abordagem cautelosa nas primeiras atualizações de título, evitando grandes mudanças de balanceamento e focando em correções direcionadas.",
+     "highlights": [
+      "Pressionar repetidamente o Desarme de Ombro faz o defensor esticar o braço e perder velocidade",
+      "A Pressão de Equipe não tem efeito quando a bola está no seu terço defensivo",
+      "Redução leve no impacto dos perfis AcceleRATE e ajuste no limite de altura para jogadoras",
+      "A Trava de Jogador não faz mais o portador da bola evitar defensores automaticamente",
+      "Os passes cavados (Dinked Passes) agora são totalmente manuais e usam o comando de dois toques no Passe em Profundidade",
+      "Os escanteios contam com movimento livre sem assistência de direção para o ponto de queda da bola"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Reduzido ligeiramente o benefício adicional do Estilo de Jogo Bruiser+",
+      "Reduzido ligeiramente o impacto dos perfis AcceleRATE no desempenho de corrida",
+      "Aumentado ligeiramente o erro nos passes feitos pelo portador da bola controlado pela CPU durante a Trava de Jogador"
+     ],
+     "fixes": [
+      "Correção para o uso repetido do Desarme de Ombro ao perseguir o adversário",
+      "Ajustadas as configurações de profundidade defensiva baixa para refletir um posicionamento mais conservador",
+      "Impedido que passes cavados fossem acionados acidentalmente ao pressionar o Passe Rasteiro múltiplas vezes"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1842212951304404",
    "appid": 304930,
    "game": "언턴드",
@@ -16629,6 +18009,129 @@
      "nerfs": [],
      "fixes": [
       "Patched exploits for known security vulnerabilities"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1842212951302112",
+   "appid": 881020,
+   "game": "그랑블루 판타지 리링크",
+   "date": 1787896620,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951302112",
+   "origTitle": "Ver. 2.0.5 Update Information (Updated 3:00 p.m., Sep 14, 2026 [JST])",
+   "title": "Ver. 2.0.5 업데이트 안내",
+   "summary": "그랑블루 판타지 리링크 Ver. 2.0.5 업데이트가 배포되었습니다. 페딜의 밸런스 조정 및 갈란자의 버그 수정, 퀘스트 보상 MSP 상향 등이 적용되었습니다.",
+   "highlights": [
+    "페딜의 '통찰: 피니싱 터치' 효과 최대 레벨 및 마법 구체 공격력 조정",
+    "일부 Chaos++ 및 Defy Infinity 난이도 퀘스트의 클리어 보상 MSP 대폭 상향",
+    "MSP 보유 상한선이 9,999,999로 증가",
+    "한정 보물 번들 재고 문제 수정 및 조건부 초기화",
+    "갈란자 및 벨제붑 관련 버그 수정"
+   ],
+   "buffs": [
+    "일부 퀘스트 클리어 시 지급되는 MSP 보상 상향 (예: Defy Infinity 모든 퀘스트 250,000으로 증가)"
+   ],
+   "nerfs": [
+    "페딜의 '통찰: 피니싱 터치' 최대 레벨을 10에서 5로 축소 및 효과 미적용 시 마법 구체 공격력 감소"
+   ],
+   "fixes": [
+    "갈란자가 오의 게이지가 가득 차지 않았어도 오의를 사용할 수 있던 버그 수정",
+    "특정 퀘스트 진행 중 카메라가 정상 작동하지 않던 소프트록 현상 수정",
+    "키 아이템과 챕터 셀렉트 간의 꼬마 깃털(wee pincers) 수집 개수 불일치 버그 수정",
+    "마스터 트레이너 장착 제한을 초과하여 장착할 수 있던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Ver. 2.0.5 Update Information",
+     "summary": "The Ver. 2.0.5 update for Granblue Fantasy: Relink has been released, bringing character adjustments, quest reward increases, and various bug fixes.",
+     "highlights": [
+      "Adjusted Fediel's 'Insight: Finishing Touch' max effect level and magic orb damage",
+      "Increased MSP rewards for clearing several Chaos++ and Defy Infinity quests",
+      "Increased the MSP value cap to 9,999,999",
+      "Fixed and reset issues related to limited-supply Conflux treasure bundles",
+      "Fixed camera issues and softlocks during specific online co-op quests"
+     ],
+     "buffs": [
+      "Increased MSP awarded for clearing various Chaos++ quests and all Defy Infinity quests"
+     ],
+     "nerfs": [
+      "Reduced Fediel's max level of Enhanced Combo Finishers from 10 to 5, and lowered magic orb damage without the effect"
+     ],
+     "fixes": [
+      "Fixed a bug allowing Gallanza to activate Skybound Art without a full SBA gauge",
+      "Fixed intermittent camera malfunctions and softlocks in quests like The Not Forgotten Sky",
+      "Fixed a discrepancy between wee pincer counts in Key Items and Chapter Select",
+      "Fixed a bug allowing players to equip master traits beyond the equip limit"
+     ]
+    },
+    "ja": {
+     "title": "Ver. 2.0.5アップデート内容のお知らせ",
+     "summary": "『グランブルーファンタジー リリンク』のVer. 2.0.5アップデートが配信され、キャラクターの調整やクエスト報酬のMSP引き上げ、各種不具合の修正が行われました。",
+     "highlights": [
+      "フェディエルの「洞察：フィニッシング・タッチ」の効果最大レベルおよび魔法弾の攻撃力を調整",
+      "一部の「Chaos++」および「Defy Infinity」クエストのクリア報酬MSPを上方修正",
+      "MSPの所持上限を9,999,999に引き上げ",
+      "限定数の塊晶トレジャーバンドルの在庫リセット対応",
+      "特定のオンライン協力プレイ時におけるカメラ不具合やソフトロックを修正"
+     ],
+     "buffs": [
+      "一部クエストのクリア時獲得MSPが増加（Defy Infinity全クエストは250,000に変更など）"
+     ],
+     "nerfs": [
+      "フェディエルの強化コンボフィニッシャー効果の最大Lvを10から5に変更し、効果未発動時の魔法弾攻撃力を下方修正"
+     ],
+     "fixes": [
+      "ガランザが奥義ゲージ満タンでなくても奥義を発動できた不具合を修正",
+      "「忘れられた空」等でボスが攻撃範囲外に残り進行不能になる不具合を修正",
+      "所持アイテムとチャプターセレクト間での小ピンサー救出数のズレを修正",
+      "マスタートレイトを装備上限を超えて装備できた不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "Ver. 2.0.5 更新公告",
+     "summary": "《碧蓝幻想 Relink》Ver. 2.0.5 更新已发布，包含了角色调整、任务 MSP 奖励提升以及多项问题修复。",
+     "highlights": [
+      "调整了菲迪尔的“洞察：临门一脚”最大效果等级及魔法球攻击力",
+      "大幅提升了部分 Chaos++ 及 Defy Infinity 难度任务的通关 MSP 奖励",
+      "将 MSP 的持有上限提升至 9,999,999",
+      "修复并重置了限购浑然一体宝物捆绑包的相关库存问题",
+      "修复了特定联机任务中的镜头异常与卡死问题"
+     ],
+     "buffs": [
+      "提升了通关多个 Chaos++ 任务以及所有 Defy Infinity 任务获得的 MSP 奖励"
+     ],
+     "nerfs": [
+      "将菲迪尔的强化连击收招效果最大等级由 10 级下调至 5 级，并降低了无该效果时的魔法球伤害"
+     ],
+     "fixes": [
+      "修复了加兰扎在奥义槽未满时即可释放奥义的错误",
+      "修复了《被遗忘的天空》等任务中概率出现的镜头故障与软死锁问题",
+      "修复了关键道具与章节选择中迷你钳蟹救援数量不一致的错误",
+      "修复了能够超上限装备大师特质的错误"
+     ]
+    },
+    "pt": {
+     "title": "Informações da Atualização Ver. 2.0.5",
+     "summary": "A atualização Ver. 2.0.5 de Granblue Fantasy: Relink foi lançada, trazendo ajustes em personagens, aumento nas recompensas de MSP e várias correções de bugs.",
+     "highlights": [
+      "Ajustado o nível máximo e o dano das orbes mágicas do efeito 'Insolação: Toque Final' de Fediel",
+      "Aumentadas as recompensas de MSP ao concluir missões de dificuldade Chaos++ e Defy Infinity",
+      "Aumentado o limite de MSP para 9.999.999",
+      "Correção e redefinição de estoque para pacotes limitados de tesouros de Conflux",
+      "Corrigidos problemas de câmera e travamentos (softlocks) em missões online específicas"
+     ],
+     "buffs": [
+      "Aumentada a quantidade de MSP concedida ao concluir várias missões Chaos++ e todas de Defy Infinity"
+     ],
+     "nerfs": [
+      "Reduzido o nível máximo do efeito de Finalizadores de Combo Aprimorado de Fediel de 10 para 5, e diminuído o dano das orbes sem o efeito"
+     ],
+     "fixes": [
+      "Corrigido bug que permitia a Gallanza ativar sua Arte do Céu sem a barra de SBA cheia",
+      "Corrigido bug intermitente de câmera e travamento em missões como O Céu Esquecido",
+      "Corrigida divergência entre o número de pinus resgatados nos Itens Chave e na Seleção de Capítulo",
+      "Corrigido bug que permitia equipar traços mestre além do limite permitido"
      ]
     }
    }
@@ -16956,6 +18459,172 @@
       "Fixed an issue where Baron Vashj's attack could be interrupted by Mystical Decoy",
       "Fixed an issue where Objection! triggered before Counterfeit Blade",
       "Fixed an issue where Violet Punisher failed to properly inherit and transfer keyword effects in certain situations"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1841579228675609",
+   "appid": 766570,
+   "game": "러시안 피싱 4",
+   "date": 1787580028,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228675609",
+   "origTitle": "Server restart and client update.",
+   "title": "서버 재시작 및 클라이언트 업데이트",
+   "summary": "러시안 피싱 4 서버 재시작 및 클라이언트 업데이트가 진행됩니다. 점검 시간은 약 6시간 소요됩니다.",
+   "highlights": [
+    "서버 재시작",
+    "게임 클라이언트 업데이트",
+    "점검 시간 약 6시간"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Server Restart and Client Update",
+     "summary": "Russian Fishing 4 will undergo a server restart and client update. The maintenance will take approximately 6 hours.",
+     "highlights": [
+      "Server restart",
+      "Game client update",
+      "Maintenance time approx. 6h"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "サーバー再起動とクライアントアップデート",
+     "summary": "ロシアンフィッシング4のサーバー再起動とクライアントアップデートを実施します。メンテナンス時間は約6時間の予定です。",
+     "highlights": [
+      "サーバーの再起動",
+      "ゲームクライアントのアップデート",
+      "メンテナンス時間約6時間"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "服务器重启与客户端更新",
+     "summary": "俄罗斯钓鱼4将进行服务器重启与客户端更新。维护时间大约持续6小时。",
+     "highlights": [
+      "服务器重启",
+      "游戏客户端更新",
+      "维护时间约6小时"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Reinicialização do servidor e atualização do cliente",
+     "summary": "O Russian Fishing 4 realizará uma reinicialização do servidor e atualização do cliente. O tempo de manutenção será de aproximadamente 6 horas.",
+     "highlights": [
+      "Reinicialização do servidor",
+      "Atualização do cliente do jogo",
+      "Tempo de manutenção aprox. 6h"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1841579228664477",
+   "appid": 766570,
+   "game": "러시안 피싱 4",
+   "date": 1787205712,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228664477",
+   "origTitle": "Patchnotes 20.08.2026",
+   "title": "2026년 8월 20일 패치 노트",
+   "summary": "어종 모델링 개선, 편의성 설정 추가 및 스피닝 낚시 조정이 이루어졌습니다. 전 지역의 게임 세계가 초기화되어 물고기의 서식지와 선호 미끼가 변경되었습니다.",
+   "highlights": [
+    "북극곤나물, 야츠, 멥기, 대서양연어, 푸른도미 등 어종 모델 개선",
+    "'잡은 물고기 화면 단축키' 설정 추가",
+    "제작 레시피 자동 채우기 시 무게가 가장 낮은 물고기 우선 선택",
+    "일부 지역(구불구불한 소류지, 수라강, 벨라야강, 구리 호수, 노르웨이어 바다) 게임 세계 현실감 조정",
+    "스피닝 낚시 효율성 추가 조정",
+    "모든 수역의 게임 세계 초기화 (서식지 및 미끼 선호도 변경)"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "릴 메커니즘 교체 시 재부팅해야만 기어비 매개변수가 적용되던 문제 수정",
+    "보트의 竿(낚싯대) 거치대에 놓인 낚싯대를 집어 들 수 없던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Patchnotes 20.08.2026",
+     "summary": "Fish models have been improved, a new hotkey setting has been added, and spin fishing effectiveness has been adjusted. The game world has been reset across all water bodies, changing fish habitats and preferences.",
+     "highlights": [
+      "Improved fish models for Arctic Char, Ide, Burbot, Atlantic Salmon, and Blue Bream",
+      "Added 'Caught Fish Screen Hotkeys' setting",
+      "Lowest weight fish selected first when auto-filling crafting recipes from keepnet",
+      "Gameplay realism adjustments in Winding Rivulet, Sura River, Belaya River, Copper Lake, and Norwegian Sea",
+      "Adjustments to improve spin fishing effectiveness",
+      "Game world reset for all water bodies, changing fish habitats and bait/lure preferences"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed gear ratio parameters only applying after restart when replacing reel mechanisms",
+      "Fixed issue where it was impossible to pick up a rod placed in a rod holder on a boat"
+     ]
+    },
+    "ja": {
+     "title": "パッチノート 2026.08.20",
+     "summary": "魚のモデル改善、新しい設定の追加、およびルアー釣りの調整が行われました。すべての水域でゲームワールドがリセットされ、魚の生息地や好みが変更されました。",
+     "highlights": [
+      "イワナ、ウグイ、ゲンロクダイ、アトランティックサーモン、ブルーブリームのモデル改善",
+      "「釣った魚画面のホットキー」設定の追加",
+      "クラフトレシピの自動入力時に最も軽い魚が最初に選択されるように変更",
+      "一部地域（曲がりくねった小川、スラ川、ベラヤ川、カッパー湖、ノルウェー海）のゲームリアリズム調整",
+      "ルアー釣りの効率を向上させるための追加調整",
+      "すべての水域でゲームワールドがリセットされ、魚の生息地や餌・ルアーの好みが変化"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "リールのギア比を変更した際、ゲームを再起動しないと反映されなかった不具合を修正",
+      "ボートのロッドホルダーに置いた竿を拾えなくなることがある不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "2026年8月20日更新说明",
+     "summary": "改善了部分鱼类模型，新增了快捷键设置，并对路亚钓鱼进行了调整。所有水域的游戏世界已重置，鱼类栖息地及饵料偏好可能发生变化。",
+     "highlights": [
+      "改善了北极红点鲑、拟鲤、江鳕、大西洋鲑和蓝鳊的鱼类模型",
+      "新增“已捕获鱼类屏幕快捷键”设置",
+      "从鱼护自动填充制作配方时，优先选择重量最轻的鱼",
+      "对蜿蜒小溪、苏拉河、别拉亚河、铜湖和挪威海的游戏世界进行了现实感调整",
+      "对路亚钓鱼进行了旨在提高效率的额外调整",
+      "重置了所有水域的游戏世界，鱼类可能会改变栖息地以及对饵料和路亚的偏好"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了更换具有不同齿轮比的卷线器机制时，新齿轮比参数仅在重启游戏后应用的问题",
+      "修复了在某些情况下无法拿起船上钓竿支架中的钓竿的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas de Atualização 20.08.2026",
+     "summary": "Os modelos de peixes foram melhorados, uma nova configuração de atalhos foi adicionada e a pesca com spinning foi ajustada. O mundo do jogo foi redefinido em todos os corpos d'água, alterando habitats e preferências de Iscas.",
+     "highlights": [
+      "Melhoria nos modelos de peixes: Salmão-do-ártico, Ide, Tainha, Salmão-do-atlântico e Blue Bream",
+      "Adicionada a configuração de atalhos para a tela de peixe capturado",
+      "Peixe com menor peso selecionado primeiro ao preencher automaticamente receitas de fabricação",
+      "Ajustes de realismo de jogabilidade no Córrego Sinuoso, Rio Sura, Rio Belaya, Lago Cobre e Mar da Noruega",
+      "Ajustes adicionais para melhorar a eficácia da pesca com spinning",
+      "Mundo do jogo redefinido para todos os corpos d'água, alterando habitats de peixes e preferências de iscas"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido o problema em que parâmetros de relação de engrenagem eram aplicados apenas após reiniciar o jogo ao substituir o mecanismo da carretilha",
+      "Corrigido o problema em que era impossível pegar uma vara colocada no suporte de vara em um barco"
      ]
     }
    }
@@ -20751,7 +22420,7 @@
    }
   }
  ],
- "updated": 1795773823688,
+ "updated": 1795795029981,
  "merged": [
   "1849827110445079",
   "1849827110428767",
@@ -20774,7 +22443,8 @@
   "1847920302237072",
   "1847920302230610",
   "1847286114048481",
-  "1846651706675921"
+  "1846651706675921",
+  "1849192144183200"
  ],
  "icons": {
   "440": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
