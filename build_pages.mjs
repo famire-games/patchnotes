@@ -123,3 +123,10 @@ ${urls.map(([p, a, m]) => ent(p, a, m)).join('\n')}
 </urlset>
 `);
 console.log('정적 페이지', n, '게임 목록', byGame.size, 'sitemap URL', urls.reduce((s, u) => s + u[1].length, 0) + fixed.length * LANGS.length);
+// 새 페이지(2일 안)는 IndexNow 로 Bing·네이버에 바로 알림 (Actions 에서만: INDEXNOW=1)
+if (process.env.INDEXNOW) {
+  const KEY = 'c873a8ede0ab23209b77dc951359c790', cut = Date.now() - 2 * 864e5;
+  const fresh = urls.filter(u => Date.parse(u[2]) > cut).flatMap(([p, a]) => a.map(L => `${BASE}${pre(L)}${p}`));
+  if (fresh.length) for (const ep of ['https://api.indexnow.org/indexnow', 'https://searchadvisor.naver.com/indexnow'])
+    try { const r = await fetch(ep, { method: 'POST', headers: { 'content-type': 'application/json; charset=utf-8' }, body: JSON.stringify({ host: 'patchworkgg.pages.dev', key: KEY, keyLocation: `${BASE}/${KEY}.txt`, urlList: fresh }) }); console.log('IndexNow', ep, r.status, fresh.length); } catch (e) { console.error('IndexNow', e.message); }
+}

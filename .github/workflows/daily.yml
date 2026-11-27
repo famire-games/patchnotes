@@ -38,7 +38,7 @@ jobs:
           node lol_build.mjs || echo "lol failed"
           node hs_build.mjs || echo "hs failed"
           node pkc_build.mjs || echo "pkc failed"
-          node build_pages.mjs || echo "pages failed"
+          INDEXNOW=1 node build_pages.mjs || echo "pages failed"
       - name: commit data
         if: github.event_name != 'push'
         run: |
