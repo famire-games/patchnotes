@@ -165,6 +165,7 @@ function profForm(){const p=FB.profile();
  <label>${T('country')}<span style="color:var(--tx);font-size:14px">${p.country?FLAG(p.country)+esc(CNAME(p.country)):'-'}</span><small>${T('country_auto')}</small></label><button id="pfSave">${T('save')}</button><small id="pfMsg"></small></div>`}
 async function saveProf(){const n=$('pfNick').value.trim(),m=$('pfMsg');
  if(n.length<2||n.length>20){m.style.color='var(--down)';m.textContent=T('nick_len');return}
+ if(/admin/i.test(n)){m.style.color='var(--down)';m.textContent=T('nick_bad');return}
  try{await FB.saveProfile(n);user.name=n;$('loginTxt').textContent=n;m.style.color='var(--up)';m.textContent=T('saved');$('who').querySelector('*')&&($('who').firstChild.textContent=T('hi',n));if(cur)drawCm()}
  catch(e){console.error(e);m.style.color='var(--down)';m.textContent=e.message==='taken'?T('nick_taken'):T('save_fail')}}
 function openDrawer(){$('drawer').classList.add('open');$('shade').classList.add('open')}

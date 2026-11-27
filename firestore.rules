@@ -35,7 +35,7 @@ service cloud.firestore {
         && (!('nick' in request.resource.data)
             || (resource != null && resource.data.get('nick', null) == request.resource.data.nick)
             || (request.resource.data.nick is string
-                && request.resource.data.nick.matches('[^/]{2,20}') && !request.resource.data.nick.matches('[.]+')
+                && request.resource.data.nick.matches('[^/]{2,20}') && !request.resource.data.nick.matches('[.]+') && !request.resource.data.nick.lower().matches('.*admin.*')
                 && getAfter(/databases/$(database)/documents/nicks/$(request.resource.data.nick.lower())).data.uid == uid));
     }
     // 닉네임 자리: 비어 있을 때만 차지, 내 것만 지움
