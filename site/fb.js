@@ -49,6 +49,21 @@ window.FB = {
   comments: async (pid) => (await getDocs(query(collection(db, 'patches', pid, 'comments'), orderBy('ts', 'desc'), limit(200)))).docs.map(d => ({ id: d.id, ...d.data() })),
   // 평가(댓글)는 계정당 패치마다 1개: 문서 이름 = 내 uid. 이미 있으면 내용만 고침
   addComment: (pid, text) => setDoc(doc(db, 'patches', pid, 'comments', uid), { uid, name: prof.nick, country: prof.country || '', text, ts: serverTimestamp(), up: {}, down: {} }),
+  // 평가 = 글 + 별점을 한 번에 (별점은 글이 있어야만 저장됨, 규칙도 검사)
+  postReview: (pid, text, n, edit) => {
+    const b = writeBatch(db), c = doc(db, 'patches', pid, 'comments', uid);
+    if (edit) b.update(c, { text, ts: serverTimestamp() });
+    else b.set(c, { uid, name: prof.nick, country: prof.country || '', text, ts: serverTimestamp(), up: {}, down: {} });
+    b.set(doc(db, 'patches', pid), { stars: { [uid]: n }, ctry: { [uid]: prof.country || '' } }, { merge: true });
+    return b.commit();
+  },
+  // 내 평가 지우기 = 글 + 별점 같이
+  delMine: async (pid) => {
+    const b = writeBatch(db);
+    b.delete(doc(db, 'patches', pid, 'comments', uid));
+    if ((await getDoc(doc(db, 'patches', pid))).data()?.stars?.[uid]) b.update(doc(db, 'patches', pid), { ['stars.' + uid]: deleteField(), ['ctry.' + uid]: deleteField() });
+    return b.commit();
+  },
   editComment: (pid, text) => updateDoc(doc(db, 'patches', pid, 'comments', uid), { text, ts: serverTimestamp() }),
   // 신고: reports/{pid~cid~내uid} (한 사람이 같은 글은 한 번만)
   report: (pid, cid, why) => setDoc(doc(db, 'reports', pid + '~' + cid + '~' + uid), { pid, cid, by: uid, why: why || '', ts: serverTimestamp() }),

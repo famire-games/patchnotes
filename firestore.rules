@@ -65,21 +65,23 @@ service cloud.firestore {
       allow read, delete: if isAdmin();
     }
 
-    // 패치 별점: 누구나 읽기, 회원은 stars 안의 자기 칸만 1~5로 바꾸거나 지움(취소)
+    // 패치 별점: 누구나 읽기, 회원은 stars 안의 자기 칸만 1~5로 바꾸거나 지움 — 평가글이 있어야만
     // ctry 안의 자기 칸 = 서버가 판정한 내 국가와 같아야 함
     match /patches/{pid} {
       allow read: if true;
       allow create: if member()
         && request.resource.data.keys().hasOnly(['stars', 'ctry'])
         && request.resource.data.stars.keys().hasOnly([request.auth.uid])
-        && okStar(request.resource.data.stars[request.auth.uid])
+        && okStar(request.resource.data.stars[request.auth.uid]) && hasReview()
         && okCtry(request.resource.data.get('ctry', {}), {});
       allow update: if member()
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['stars', 'ctry'])
         && request.resource.data.stars.diff(resource.data.stars).affectedKeys().hasOnly([request.auth.uid])
-        && (!(request.auth.uid in request.resource.data.stars) || okStar(request.resource.data.stars[request.auth.uid]))
+        && (!(request.auth.uid in request.resource.data.stars) || (okStar(request.resource.data.stars[request.auth.uid]) && hasReview()))
         && okCtry(request.resource.data.get('ctry', {}), resource.data.get('ctry', {}));
       function okStar(n) { return n is int && n >= 1 && n <= 5; }
+      // 별점은 내 평가글과 함께만 (같은 묶음으로 쓰므로 '쓴 뒤' 기준으로 확인)
+      function hasReview() { return existsAfter(/databases/$(database)/documents/patches/$(pid)/comments/$(request.auth.uid)); }
       function okCtry(now, before) {
         return now is map && now.diff(before).affectedKeys().hasOnly([request.auth.uid])
           && (!(request.auth.uid in now) || now[request.auth.uid] == myCountry());

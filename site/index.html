@@ -84,6 +84,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 .cmf{display:flex;gap:8px;margin-bottom:12px}.cmf textarea{flex:1;background:var(--bg);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:8px 10px;font:inherit;resize:vertical;min-height:44px}
 .cmf button,.cmsort button{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:0 16px;font:inherit;font-weight:600;cursor:pointer}
 .cmh{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.cmh h3{margin:0}.allbtn{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:6px 14px;font:inherit;font-weight:600;cursor:pointer;white-space:nowrap}
+.pendh{display:block;color:#ffcc33;font-size:12px;margin:-4px 0 6px}
 .cmsort{display:flex;gap:6px;margin-bottom:8px}.cmsort button{background:none;color:var(--mute);border:1px solid var(--line);padding:3px 10px;font-weight:400;font-size:13px}.cmsort button.on{color:var(--tx);border-color:var(--acc)}
 .cmi{padding:10px 0;border-bottom:1px solid var(--line)}.cmi .h{font-size:13px;color:var(--mute);display:flex;gap:8px;align-items:center}.cmi .h b{color:var(--tx)}.cmi .h .st{color:#ffcc33}
 .cmi p{margin:4px 0 6px;white-space:pre-wrap;word-break:break-word}.flag{vertical-align:-2px;border-radius:2px;margin-right:4px}
@@ -213,28 +214,30 @@ function render(more){
 }
 function closeDlg(){$('dlg').classList.remove('open');cur=null}
 // ===== 커뮤니티: 별점 + 댓글(좋아요/싫어요) — Firestore patches/{pid} =====
-let cur=null,cmSort='new',cmAll=false,cmEdit=false;
+// pend = 고른 별점(평가글을 등록해야 저장됨)
+let cur=null,cmSort='new',cmAll=false,cmEdit=false,pend=0;
 const PID=i=>String(i.gid||i.url).replace(/[/.#$[]]/g,'_').slice(0,500);
 const ago=t=>{if(!t)return T('just');const s=(Date.now()-t.toMillis())/1000;return s<60?T('just'):s<3600?T('m_ago',Math.floor(s/60)):s<86400?T('h_ago',Math.floor(s/3600)):s<2592000?T('d_ago',Math.floor(s/86400)):t.toDate().toLocaleDateString(LOC)};
 async function loadCm(i){
- cur={pid:PID(i),stars:{},ctry:{},list:[]};cmAll=false;cmEdit=false;const pid=cur.pid;
+ cur={pid:PID(i),stars:{},ctry:{},list:[]};cmAll=false;cmEdit=false;pend=0;const pid=cur.pid;
  if(!window.FB){setTimeout(()=>cur&&cur.pid===pid&&loadCm(i),500);return}
  try{const [s,l]=await Promise.all([FB.getStars(pid),FB.comments(pid)]);if(!cur||cur.pid!==pid)return;cur.stars=s.stars;cur.ctry=s.ctry;cur.list=l;drawCm()}
  catch(e){console.error('커뮤니티 불러오기 실패',e);const el=$('cm');if(el)el.innerHTML='<small style="color:var(--mute)">'+T('cm_fail')+'</small>'}
 }
-function ctryLine(){const g={};for(const [u,n] of Object.entries(cur.stars)){const c=cur.ctry[u]||'';if(!c)continue;(g[c]=g[c]||[]).push(n)}
+const liveStars=()=>Object.entries(cur.stars).filter(([u])=>cur.list.some(c=>c.uid===u));
+function ctryLine(){const g={};for(const [u,n] of liveStars()){const c=cur.ctry[u]||'';if(!c)continue;(g[c]=g[c]||[]).push(n)}
  const a=Object.entries(g).sort((x,y)=>y[1].length-x[1].length).slice(0,12);if(!a.length)return '';
  return '<div class="ctry" title="'+T('by_country')+'">'+a.map(([c,v])=>`<span title="${esc(CNAME(c))}">${FLAG(c)}<b>★${(v.reduce((s,x)=>s+x,0)/v.length).toFixed(1)}</b>(${v.length})</span>`).join('')+'</div>'}
 function drawCm(){
  const el=$('cm');if(!el||!cur)return;const me=user&&FB.uid();
- const v=Object.values(cur.stars),avg=v.length?(v.reduce((a,b)=>a+b,0)/v.length):0,mine=me?cur.stars[me]||0:0;
+ const v=liveStars().map(x=>x[1]),avg=v.length?(v.reduce((a,b)=>a+b,0)/v.length):0,mine=pend||(me&&cur.list.some(c=>c.uid===me)?cur.stars[me]||0:0);
  const sc=c=>Object.keys(c.up||{}).length-Object.keys(c.down||{}).length;
  // 기본은 내 평가(댓글)만, [모든 평가 보기]를 누르면 전부
  const list=[...cur.list].filter(c=>cmAll||(me&&c.uid===me)).sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);const adm=FB.isAdmin(),mineC=me&&cur.list.find(c=>c.uid===me);
  el.innerHTML=`<div class="cmh"><h3>${T('cm_q')}</h3><button class="allbtn" data-all-rev>${cmAll?T('my_rev'):T('all_rev',cur.list.length)}</button></div><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ 0.0'}</span><small>${T('rated',v.length)}</small>
   <span class="stars" title="${me?T('my_star_t'):T('login_star_t')}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${ctryLine()}</div>
   <h3>${T('comments',cur.list.length)}</h3>
-  ${mineC&&!cmEdit?'':`<div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?T('cm_ph'):T('cm_ph_login')}">${cmEdit&&mineC?esc(mineC.text):''}</textarea><button data-post>${cmEdit?T('edit_done'):T('post')}</button></div>`}
+  ${mineC&&!cmEdit?'':`${pend?'<small class="pendh">'+T('star_pending')+'</small>':''}<div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?T('cm_ph'):T('cm_ph_login')}">${cmEdit&&mineC?esc(mineC.text):''}</textarea><button data-post>${cmEdit?T('edit_done'):T('post')}</button></div>`}
   ${cmAll&&cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">${T('newest')}</button><button data-sort="best" class="${cmSort==='best'?'on':''}">${T('best')}</button></div>`:''}
   ${list.map(c=>{const u=me&&c.up&&c.up[me],d=me&&c.down&&c.down[me],st=cur.stars[c.uid];
    return `<div class="cmi"><div class="h"><b>${FLAG(c.country)}${esc(c.name||T('user'))}</b>${st?'<span class="st">'+'★'.repeat(st)+'</span>':''}<span>${ago(c.ts)}</span>${me===c.uid?`<button class="del" data-edit>${T('edit')}</button><button class="del" data-del="${c.id}">${T('del')}</button>`:adm?`<button class="del" data-del="${c.id}" style="color:var(--down)">${T('admin_del')}</button><button class="del" data-ban="${c.id}" style="color:var(--down)">${T('ban')}</button>`:me?`<button class="del" data-rep="${c.id}">${T('report')}</button>`:''}</div>
@@ -246,15 +249,16 @@ function needLogin(){if(!user){closeDlg();alertLogin();return true}
  if(!FB.profile().nick){cmErr(T('nick_need'));closeDlg();openDrawer();setTimeout(()=>$('pfNick')&&$('pfNick').focus(),200);return true}return false}
 $('body').addEventListener('click',async e=>{
  if(!cur)return;const pid=cur.pid,me=user&&FB.uid();
- const r=e.target.closest('[data-rate]');if(r){if(needLogin())return;let n=+r.dataset.rate;if(cur.stars[me]===n){n=0;delete cur.stars[me];delete cur.ctry[me]}else{cur.stars[me]=n;cur.ctry[me]=FB.profile().country||''}drawCm();FB.rate(pid,n).catch(async er=>{console.error(er);try{const s=await FB.getStars(pid);cur.stars=s.stars;cur.ctry=s.ctry}catch(_){}drawCm();cmErr(T('err_star'))});return}
+ const r=e.target.closest('[data-rate]');if(r){if(needLogin())return;const n=+r.dataset.rate;pend=pend===n?0:n;if(pend&&cur.list.some(c=>c.uid===me))cmEdit=true;const keep=$('cmTxt')?.value;drawCm();if(keep&&$('cmTxt'))$('cmTxt').value=keep;return}
  if(e.target.closest('[data-all-rev]')){cmAll=!cmAll;drawCm();return}
  if(e.target.closest('[data-edit]')){cmEdit=true;drawCm();const ta=$('cmTxt');if(ta){ta.focus();ta.selectionStart=ta.value.length}return}
  const rp=e.target.closest('[data-rep]');if(rp){if(needLogin())return;try{await FB.report(pid,rp.dataset.rep,'')}catch(er){console.error(er)}rp.textContent=T('reported');rp.disabled=true;return}
  const bn=e.target.closest('[data-ban]');if(bn&&FB.isAdmin()){const c=cur.list.find(x=>x.id===bn.dataset.ban);if(!c)return;try{await FB.ban(c.uid,'comment '+pid);await FB.delComment(pid,c.id);cur.list=cur.list.filter(x=>x.id!==c.id);drawCm();cmErr(T('banned_done'))}catch(er){console.error(er);cmErr(T('err_del'))}return}
  const s=e.target.closest('[data-sort]');if(s){cmSort=s.dataset.sort;drawCm();return}
- if(e.target.closest('[data-post]')){if(needLogin())return;const t=$('cmTxt').value.trim();if(!t)return;e.target.disabled=true;
-  try{const has=cur.list.some(c=>c.uid===me);await (has?FB.editComment(pid,t):FB.addComment(pid,t));cmEdit=false;cur.list=await FB.comments(pid);drawCm()}catch(er){console.error(er);e.target.disabled=false;cmErr(T('err_post'))}return}
- const d=e.target.closest('[data-del]');if(d){try{await FB.delComment(pid,d.dataset.del);cur.list=cur.list.filter(c=>c.id!==d.dataset.del);drawCm()}catch(er){console.error(er);cmErr(T('err_del'))}return}
+ if(e.target.closest('[data-post]')){if(needLogin())return;const t=$('cmTxt').value.trim();if(!t)return;
+  const has=cur.list.some(c=>c.uid===me&&c.id===me),n=pend||(has?cur.stars[me]||0:0);if(!n){cmErr(T('need_star'));return}e.target.disabled=true;
+  try{await FB.postReview(pid,t,n,has);cur.stars[me]=n;cur.ctry[me]=FB.profile().country||'';pend=0;cmEdit=false;cur.list=await FB.comments(pid);drawCm()}catch(er){console.error(er);e.target.disabled=false;cmErr(T('err_post'))}return}
+ const d=e.target.closest('[data-del]');if(d){try{if(d.dataset.del===me){await FB.delMine(pid);delete cur.stars[me];delete cur.ctry[me]}else await FB.delComment(pid,d.dataset.del);cur.list=cur.list.filter(c=>c.id!==d.dataset.del);drawCm()}catch(er){console.error(er);cmErr(T('err_del'))}return}
  const vb=e.target.closest('[data-vote]');if(vb){if(needLogin())return;const c=cur.list.find(x=>x.id===vb.dataset.vote);if(!c)return;
   const want=+vb.dataset.v,now=c.up&&c.up[me]?1:c.down&&c.down[me]?-1:0,v=now===want?0:want;
   c.up={...c.up};c.down={...c.down};delete c.up[me];delete c.down[me];if(v===1)c.up[me]=true;if(v===-1)c.down[me]=true;drawCm();
