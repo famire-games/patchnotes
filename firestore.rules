@@ -16,26 +16,56 @@ service cloud.firestore {
       return request.auth != null && request.auth.token.email_verified == true
         && request.auth.token.email in ['mingu5207.kim@gmail.com'];
     }
+    function banned() { return exists(/databases/$(database)/documents/banned/$(request.auth.uid)); }
+    // 로그인 + 닉네임 있음 + 정지 안 됨 → 활동 가능
+    function member() { return request.auth != null && myNick().size() >= 2 && !banned(); }
+    // 광고 막기: 링크·주소·메신저 초대가 들어간 글은 거절
+    function noAds(t) {
+      return !t.lower().matches('(?s).*(https?://|www\\.|discord\\.gg|t\\.me/|\\.com|\\.net|\\.org|\\.kr|\\.io|\\.gg|\\.xyz|\\.shop|\\.link|bit\\.ly|텔레그램|카톡|오픈채팅|오픈톡).*');
+    }
+    function okText(t) { return t is string && t.size() >= 1 && t.size() <= 1000 && noAds(t); }
+
     // 관리자 확인용: 읽을 수 있으면 관리자
     match /admin/{d} { allow read: if isAdmin(); }
 
-    // 로그인 + 닉네임이 있어야 활동 가능
-    function member() { return request.auth != null && myNick().size() >= 2; }
-
-    // 즐겨찾기·닉네임: 본인 것만
+    // 즐겨찾기·닉네임: 본인 것만. 닉네임을 바꾸면 nicks/{소문자 닉네임} 이 내 것이어야 함(중복 방지)
     match /users/{uid} {
       allow read: if request.auth != null && request.auth.uid == uid;
       allow write: if request.auth != null && request.auth.uid == uid
         && (!('nick' in request.resource.data)
-            || (request.resource.data.nick is string && request.resource.data.nick.size() >= 2 && request.resource.data.nick.size() <= 20));
+            || (resource != null && resource.data.get('nick', null) == request.resource.data.nick)
+            || (request.resource.data.nick is string
+                && request.resource.data.nick.matches('[^/]{2,20}') && !request.resource.data.nick.matches('[.]+')
+                && getAfter(/databases/$(database)/documents/nicks/$(request.resource.data.nick.lower())).data.uid == uid));
+    }
+    // 닉네임 자리: 비어 있을 때만 차지, 내 것만 지움
+    match /nicks/{n} {
+      allow read: if true;
+      allow create: if request.auth != null && request.resource.data.keys().hasOnly(['uid']) && request.resource.data.uid == request.auth.uid
+        && n.matches('[^/A-Z]{2,20}');
+      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
     }
     // 국가: 본인만 읽기, 쓰기는 서버만 (서버는 규칙을 거치지 않음)
     match /profiles/{uid} {
       allow read: if request.auth != null && request.auth.uid == uid;
       allow write: if false;
     }
+    // 정지된 계정: 본인과 관리자만 읽기, 관리자만 쓰기
+    match /banned/{uid} {
+      allow read: if request.auth != null && (request.auth.uid == uid || isAdmin());
+      allow write: if isAdmin();
+    }
+    // 신고: 회원이 자기 이름으로 한 번씩, 관리자만 읽고 지움
+    match /reports/{id} {
+      allow create: if member()
+        && id == request.resource.data.pid + '~' + request.resource.data.cid + '~' + request.auth.uid
+        && request.resource.data.keys().hasOnly(['pid', 'cid', 'by', 'why', 'ts'])
+        && request.resource.data.by == request.auth.uid && request.resource.data.ts == request.time
+        && request.resource.data.why is string && request.resource.data.why.size() <= 200;
+      allow read, delete: if isAdmin();
+    }
 
-    // 패치 별점: 누구나 읽기, 닉네임 있는 사람은 stars 안의 자기 칸만 1~5로 바꾸거나 지움(취소)
+    // 패치 별점: 누구나 읽기, 회원은 stars 안의 자기 칸만 1~5로 바꾸거나 지움(취소)
     // ctry 안의 자기 칸 = 서버가 판정한 내 국가와 같아야 함
     match /patches/{pid} {
       allow read: if true;
@@ -55,24 +85,30 @@ service cloud.firestore {
           && (!(request.auth.uid in now) || now[request.auth.uid] == myCountry());
       }
 
-      // 댓글: 누구나 읽기, 내 닉네임·내 국가로만 쓰기(1~1000자), 본인만 삭제, 좋아요/싫어요는 자기 칸만
+      // 평가(댓글): 계정당 패치마다 1개 (문서 이름 = 내 uid). 내 닉네임·국가로만, 광고 링크 금지
+      // 본인은 내용 수정·삭제, 관리자는 아무 글이나 삭제, 좋아요/싫어요는 자기 칸만
       match /comments/{cid} {
         allow read: if true;
-        allow create: if member()
+        allow create: if member() && cid == request.auth.uid
           && request.resource.data.keys().hasOnly(['uid','name','country','text','ts','up','down'])
           && request.resource.data.uid == request.auth.uid
           && request.resource.data.name == myNick()
           && request.resource.data.get('country', '') == myCountry()
-          && request.resource.data.text is string
-          && request.resource.data.text.size() >= 1 && request.resource.data.text.size() <= 1000
+          && okText(request.resource.data.text)
           && request.resource.data.ts == request.time
           && request.resource.data.up.size() == 0 && request.resource.data.down.size() == 0;
         allow delete: if (request.auth != null && resource.data.uid == request.auth.uid) || isAdmin();
-        allow update: if member()
-          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['up','down'])
-          && request.resource.data.up.diff(resource.data.up).affectedKeys().hasOnly([request.auth.uid])
-          && request.resource.data.down.diff(resource.data.down).affectedKeys().hasOnly([request.auth.uid])
-          && !(request.auth.uid in request.resource.data.up && request.auth.uid in request.resource.data.down);
+        allow update: if member() && (
+          // 본인: 내용만 고침
+          (resource.data.uid == request.auth.uid
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['text', 'ts'])
+            && okText(request.resource.data.text) && request.resource.data.ts == request.time)
+          ||
+          // 누구나: 좋아요/싫어요 자기 칸만
+          (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['up','down'])
+            && request.resource.data.up.diff(resource.data.up).affectedKeys().hasOnly([request.auth.uid])
+            && request.resource.data.down.diff(resource.data.down).affectedKeys().hasOnly([request.auth.uid])
+            && !(request.auth.uid in request.resource.data.up && request.auth.uid in request.resource.data.down)));
       }
     }
   }
