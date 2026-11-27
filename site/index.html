@@ -220,7 +220,7 @@ function closeDlg(){$('dlg').classList.remove('open');cur=null}
 // ===== 커뮤니티: 별점 + 댓글(좋아요/싫어요) — Firestore patches/{pid} =====
 // pend = 고른 별점(평가글을 등록해야 저장됨)
 let cur=null,cmSort='new',cmAll=false,cmEdit=false,pend=0;
-const PID=i=>String(i.gid||i.url).replace(/[/.#$[]]/g,'_').slice(0,500);
+const PID=i=>String(i.gid||i.url).replace(/[\/.#$\[\]]/g,'_').slice(0,500);
 const ago=t=>{if(!t)return T('just');const s=(Date.now()-t.toMillis())/1000;return s<60?T('just'):s<3600?T('m_ago',Math.floor(s/60)):s<86400?T('h_ago',Math.floor(s/3600)):s<2592000?T('d_ago',Math.floor(s/86400)):t.toDate().toLocaleDateString(LOC)};
 async function loadCm(i){
  cur={pid:PID(i),stars:{},ctry:{},list:[]};cmAll=false;cmEdit=false;pend=0;const pid=cur.pid;
