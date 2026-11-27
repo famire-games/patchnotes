@@ -47,9 +47,22 @@ jobs:
           git diff --cached --quiet || git commit -m "data: daily update $(date -u +%F)"
           # 도는 동안 다른 커밋이 올라왔으면 받아서 위에 얹고 올림 (안 그러면 요약 결과가 버려짐)
           for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+      # 예전 주소(famire-games.github.io/patchnotes)는 새 주소로 넘기기만 함 (사이트는 Cloudflare Pages: patchworkgg.pages.dev)
+      - name: redirect pages
+        run: |
+          mkdir -p _redirect
+          for f in site/*.html; do n=$(basename "$f"); cat > "_redirect/$n" <<HTML
+          <!doctype html><meta charset="utf-8"><title>Patchwork</title>
+          <link rel="canonical" href="https://patchworkgg.pages.dev/$n">
+          <meta http-equiv="refresh" content="0;url=https://patchworkgg.pages.dev/$n">
+          <script>location.replace('https://patchworkgg.pages.dev/$n'+location.search+location.hash)</script>
+          <a href="https://patchworkgg.pages.dev/$n">patchworkgg.pages.dev</a>
+          HTML
+          done
+          cp _redirect/index.html _redirect/404.html
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: _redirect
   deploy:
     needs: build
     runs-on: ubuntu-latest
