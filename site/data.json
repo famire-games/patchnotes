@@ -1,6 +1,182 @@
 {
  "items": [
   {
+   "gid": "1850460852990422",
+   "appid": 304930,
+   "game": "언턴드",
+   "date": 1795798733,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852990422",
+   "origTitle": "3.26.3.16 Patch Notes",
+   "title": "3.26.3.16 패치 노트",
+   "summary": "이번 패치에는 서버 관리와 관련된 사소한 변경 사항이 주로 포함되어 있습니다. 신뢰할 수 없는 사람의 서버 초대나 의심스러운 서버 참여 시 주의가 필요합니다. 올해 초 악성 워크숍 콘텐츠와 관련된 신고가 증가한 바 있습니다.",
+   "highlights": [
+    "서버 관리 관련 사소한 변경 사항 적용",
+    "악성 워크숍 콘텐츠 주의 공지"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "3.26.3.16 Patch Notes",
+     "summary": "This patch primarily includes minor changes related to server moderation. Players are reminded to use caution when accepting unexpected server invites or joining servers from untrusted sources. Earlier this year, there was an increase in reports regarding malicious Workshop content.",
+     "highlights": [
+      "Minor server moderation changes applied",
+      "Caution advised regarding malicious Workshop content"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "3.26.3.16 パッチノート",
+     "summary": "今回のパッチには、サーバー管理に関する軽微な変更が主に含まれています。見知らぬ人からのサーバー招待や、信頼できないサーバーへの参加には十分注意してください。今年初めには、悪意のあるワークショップコンテンツに関する報告が増加しています。",
+     "highlights": [
+      "サーバー管理に関する軽微な変更の適用",
+      "悪意のあるワークショップコンテンツに対する注意喚起"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "3.26.3.16 更新说明",
+     "summary": "本次更新主要包含与服务器管理相关的微小改动。提醒玩家在接受意料之外的服务器邀请或加入不信任的人的服务器时要小心。今年早些时候，涉及恶意创意工坊内容的举报有所增加。",
+     "highlights": [
+      "应用服务器管理相关的微小改动",
+      "提醒注意恶意创意工坊内容"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Notas da Atualização 3.26.3.16",
+     "summary": "Esta atualização inclui principalmente pequenas alterações relacionadas à moderação de servidores. É lembrado aos jogadores que tenham cuidado ao aceitar convites inesperados para servidores ou ao entrar em servidores de pessoas em quem não confiam. No início deste ano, houve um aumento nos relatos envolvendo conteúdo malicioso da Oficina.",
+     "highlights": [
+      "Pequenas alterações de moderação de servidores aplicadas",
+      "Aviso de cautela sobre conteúdo malicioso da Oficina"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1850460852990215",
+   "appid": 1696810,
+   "game": "레일로드 온라인",
+   "date": 1795795362,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852990215",
+   "origTitle": "Railroads Online - Kinetic Update - Patch 1",
+   "title": "레일로드 온라인 - 키네틱 업데이트 패치 1",
+   "summary": "레일로드 온라인의 키네틱 업데이트 패치 1이 적용되었습니다. 새로운 이동 시스템에 맞춰 선로 연결 주의사항이 안내되었으며, 산업 시설 연결점 표시, 증기 소비 및 컷오프 시뮬레이션 조정, 실린더 밸브 기능 추가와 함께 다양한 버그가 수정되었습니다.",
+   "highlights": [
+    "산업 시설의 연결점이 철도 침목으로 표시되어 식별이 쉬워졌습니다.",
+    "증기 소비 및 컷오프 시뮬레이션이 합리적인 수준으로 조정되었습니다.",
+    "실린더 밸브 활성화 시 견인력이 약간 증가합니다.",
+    "선로 연결 시 겹치거나 여러 개가 한 곳에 연결되지 않도록 주의해야 합니다."
+   ],
+   "buffs": [
+    "실린더 밸브 활성화 시 견인력이 약간 증가합니다."
+   ],
+   "nerfs": [],
+   "fixes": [
+    "대규모 저장 게임에서 클라이언트 차량이 제대로 업데이트되지 않던 치명적 오류 수정",
+    "산업 시설에 충돌이 없거나 화물 아이템을 수락하지 않던 문제 수정",
+    "연돌이 시야에서 벗어났을 때 배기 파티클이 사라지던 문제 수정",
+    "기관차 UI에서 클라이언트 수위가 동기화되지 않던 문제 수정",
+    "핸드카가 장작 저장을 사용하던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Railroads Online - Kinetic Update Patch 1",
+     "summary": "Patch 1 for the Kinetic Update of Railroads Online is now live. This update introduces railroad ties to identify industry connection points, adjusts steam consumption and cutoff simulation, adds a tractive effort boost to cylinder valves, and fixes various bugs.",
+     "highlights": [
+      "Connection points at industries are now represented by a railroad tie for easier identification.",
+      "Steam consumption and cutoff simulation have been adjusted to reasonable levels.",
+      "Activating cylinder valves now adds a small boost in tractive effort.",
+      "Proper track linking is now crucial for the new movement system."
+     ],
+     "buffs": [
+      "Activating cylinder valves adds a small boost in tractive effort."
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a Fatal Error where Client cars were not properly updated on large save games.",
+      "Fixed an issue where industries lacked collision or did not accept freight items.",
+      "Fixed an issue where exhaust particles disappeared when the smokestack was out of the player's view.",
+      "Fixed an issue where the client water level was not synchronized in the loco UI.",
+      "Fixed an issue where the handcar was using the firewood storage."
+     ]
+    },
+    "ja": {
+     "title": "レイルロード・オンライン - キネティック・アップデート パチ 1",
+     "summary": "『レイルロード・オンライン（Railroads Online）』のキネティック・アップデート パチ 1が配信開始されました。産業施設の接続点が枕木で表示されるようになり、蒸気消費とカットオフシミュレーションの調整、シリンダーバルブによる牽引力ブーストの追加、および多数のバグ修正が行われています。",
+     "highlights": [
+      "産業施設の接続点が鉄道の枕木で表示されるようになりました。",
+      "蒸気消費量とカットオフシミュレーションが適切なレベルに調整されました。",
+      "シリンダーバルブを有効にすると、牽引力がわずかに向上します。",
+      "新しい移動システムのために、線路の適切な接続が重要になりました。"
+     ],
+     "buffs": [
+      "シリンダーバルブを有効にすると、牽引力がわずかに向上します。"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "大規模なセーブデータでクライアント車両が正しく更新されない致命的なエラーを修正しました。",
+      "産業施設にコリ전がない、または貨物アイテムを受け付けない問題を修正しました。",
+      "煙突がプレイヤーの視界外に出たときに排気パーティクルが消える問題を修正しました。",
+      "機関車UIでクライアントの水位が同期されない問題を修正しました。",
+      "ハンドカーが薪のストレージを使用していた問題を修正しました。"
+     ]
+    },
+    "zh": {
+     "title": "铁路在线 - 动力更新补丁 1",
+     "summary": "《铁路在线》（Railroads Online）动力更新补丁 1 现已推出。本次更新用枕木标记产业连接点以方便识别，调整了蒸汽消耗与截断模拟，为气缸阀门添加了微小的牵引力提升，并修复了多项错误。",
+     "highlights": [
+      "产业连接点现在由铁路枕木表示，以便更容易识别。",
+      "蒸汽消耗和截断模拟已调整至合理水平。",
+      "激活气缸阀门现在可微幅提升牵引力。",
+      "为了适应新的移动系统，正确连接轨道变得非常重要。"
+     ],
+     "buffs": [
+      "激活气缸阀门现在可微幅提升牵引力。"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "修复了大型存档中客户端车辆无法正确更新的严重错误。",
+      "修复了产业缺乏碰撞或不接受货运物品的问题。",
+      "修复了当烟囱不在玩家视野内时排气颗粒消失的问题。",
+      "修复了客户端水位未在机车 UI 中同步的问题。",
+      "修复了手摇车使用柴火存储的问题。"
+     ]
+    },
+    "pt": {
+     "title": "Railroads Online - Atualização Cinetica - Correção 1",
+     "summary": "A Correção 1 da Atualização Cinetica de Railroads Online já está disponível. Esta atualização introduz dormentes de ferrovia para identificar pontos de conexão nas indústrias, ajusta o consumo de vapor e a simulação de corte, adiciona um bônus de esforço de tração às válvulas dos cilindros e corrige diversos bugs.",
+     "highlights": [
+      "Os pontos de conexão nas indústrias agora são representados por um dormente de ferrovia para facilitar a identificação.",
+      "O consumo de vapor e a simulação de corte foram ajustados para níveis razoáveis.",
+      "Ativar as válvulas dos cilindros adiciona um pequeno bônus no esforço de tração.",
+      "O correto encadeamento dos trilhos é fundamental para o novo sistema de movimento."
+     ],
+     "buffs": [
+      "Ativar as válvulas dos cilindros adiciona um pequeno bônus no esforço de tração."
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido um Erro Fatal onde os vagões do cliente não eram atualizados corretamente em jogos salvos grandes.",
+      "Corrigido um problema onde as indústrias careciam de colisão ou não aceitavam itens de frete.",
+      "Corrigido um problema onde as partículas de escape desapareciam quando a chaminé ficava fora da visão do jogador.",
+      "Corrigido um problema onde o nível de água do cliente não era sincronizado na interface da locomotiva.",
+      "Corrigido um problema onde o vagão manual usava o armazenamento de lenha."
+     ]
+    }
+   }
+  },
+  {
    "gid": "1850460852989719",
    "appid": 3564740,
    "game": "연운십육성 (Where Winds Meet)",
@@ -3171,13 +3347,13 @@
    "i18n": {
     "en": {
      "title": "Hearthstone 37.2 Patch Preview — Battlegrounds Season 15: Twisted Empire",
-     "summary": "Battlegrounds Season 15 begins with the 37.2 patch on December 1st. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are rotated out. A limited-time 2v2 Tavern Brawl will also open. (Based on the official preview; final content is subject to change)",
+     "summary": "Battlegrounds Season 15 begins with the 37.2 patch on December 1st. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are removed for this season. A limited-time 2v2 Tavern Brawl will also be held. (Based on official preview, final content is subject to change)",
      "highlights": [
-      "Battlegrounds Season 15 'Twisted Empire' begins December 1st, Battlegrounds ratings reset",
+      "Battlegrounds Season 15 'Twisted Empire' begins December 1st, Battlegrounds rating reset",
       "New keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
-      "New heroes: Eternus, Boss Misha (Hero Power 'Sharpened Strategy')",
-      "Timewarp Tavern returns: Purchase special cards with Chronum on turns 6 and 9",
-      "Trinkets rotated out, Stealth keyword removed from the bonus pool",
+      "New heroes: Eternus, Ringleader Vanessa (Hero Power 'Sharpened Strategy')",
+      "Return of Timewarp Tavern: Purchase special cards with Chronum on turns 6 and 9",
+      "Trinkets rotate out of the season, Stealth keyword excluded from bonus pool",
       "Limited-time 2v2 Tavern Brawl"
      ],
      "buffs": [],
@@ -7946,6 +8122,79 @@
    }
   },
   {
+   "gid": "1848664643356039",
+   "appid": 2807960,
+   "game": "배틀필드 6",
+   "date": 1794240129,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643356039",
+   "origTitle": "Battlefield 6 | REDSEC Season 5 Casino Heist Trailer",
+   "title": "배틀필드 6 REDSEC 시즌 5 카지노 하이스트",
+   "summary": "배틀필드 6에 신규 유럽 카지노 맵과 다양한 무기, 장비가 추가되는 카지노 하이스트 업데이트가 11월 10일에 시작됩니다. 플레이어들은 멀티플레이어와 REDSEC에서 계약을 완료하고 한정 화폐인 DOUGH를 획득하여 보상을 해제할 수 있습니다.",
+   "highlights": [
+    "신규 유럽 카지노 맵 추가",
+    "신규 NSW4 카빈, ADS-17 6GHz 신호 교란기, M142 MRAS 탑승장비 추가",
+    "멀티플레이어 및 REDSEC 계약 완료를 통한 DOUGH 한정 화폐 획득",
+    "카지노 하이스트 이벤트 보상 해제"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Battlefield 6 REDSEC Season 5 Casino Heist",
+     "summary": "The Casino Heist update for Battlefield 6 begins on November 10, bringing a new European Casino map, weapons, and vehicles. Players can complete contracts in Multiplayer and REDSEC to earn the limited-time DOUGH currency and unlock event rewards.",
+     "highlights": [
+      "Added new European Casino map",
+      "Added NSW4 Carbine, ADS-17 6GHz Signal Jammer, and M142 MRAS Vehicle",
+      "Complete contracts in Multiplayer and REDSEC to earn DOUGH limited-time currency",
+      "Unlock rewards during the Casino Heist event"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "バトルフィールド6 REDSEC シーズン5 カジノ・ハイスト",
+     "summary": "『バトルフィールド 6』にて、11月10日より新マップ「ヨーロピアン・カジノ」や新しい武器・乗り物が登場する「カジノ・ハイスト」が開始されます。マルチプレイヤーやREDSECで契約を完了し、期間限定通貨「DOUGH」を獲得してイベント報酬をアンロックしましょう。",
+     "highlights": [
+      "新しいヨーロピアン・カジノマップを追加",
+      "NSW4カービン、ADS-17 6GHz信号妨害機、M142 MRASビークルを追加",
+      "マルチプレイヤーとREDSECで契約を完了し、期間限定通貨DOUGHを獲得",
+      "カジノ・ハイストイベント中の報酬をアンロック"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "战地风云 6 REDSEC 第 5 赛季赌场大劫案",
+     "summary": "《战地风云 6》“赌场大劫案”将于 11 月 10 日上线，带来全新的欧洲赌场地图以及多款新武器和载具。玩家可以在多人模式和 REDSEC 中完成合同，赚取限时货币 DOUGH 并解锁活动奖励。",
+     "highlights": [
+      "加入全新欧洲赌场地图",
+      "加入 NSW4 卡宾枪、ADS-17 6GHz 信号干扰器和 M142 MRAS 载具",
+      "在多人模式和 REDSEC 中完成合同以获取限时货币 DOUGH",
+      "在赌场大劫案活动期间解锁奖励"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Battlefield 6: REDSEC Temporada 5 Casino Heist",
+     "summary": "A atualização Casino Heist para o Battlefield 6 começa em 10 de novembro, trazendo um novo mapa de cassino europeu, além de novas armas e veículos. Os jogadores podem concluir contratos no Multiplayer e REDSEC para ganhar a moeda limitada DOUGH e desbloquear recompensas do evento.",
+     "highlights": [
+      "Adicionado novo mapa Casino Europeu",
+      "Adicionados a Carabina NSW4, o Bloqueador de Sinal ADS-17 de 6GHz e o Veículo M142 MRAS",
+      "Conclua contratos no Multiplayer e REDSEC para ganhar a moeda por tempo limitado DOUGH",
+      "Desbloqueie recompensas durante o evento Casino Heist"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "bluearchive:3566313",
    "appid": "bluearchive",
    "game": "블루 아카이브",
@@ -10566,9 +10815,9 @@
    "i18n": {
     "en": {
      "title": "Umamusume October 30 Update",
-     "summary": "A maintenance-free update introduced the new playable ★3 Umamusume Aines Fushigin, new support card pickup banners, and the \"Agnes Tachyon's Factor Research\" event.",
+     "summary": "A maintenance-free update introduced the new playable ★3 Umamusume Aines Fujin and new support card pickups, alongside the \"Agnes Tachyon's Factor Research\" event.",
      "highlights": [
-      "★3 Aines Fushigin",
+      "★3 Aines Fujin",
       "SSR Mejiro Ryan",
       "SR Kawakami Princess",
       "Event \"Agnes Tachyon's Factor Research\" (10/30 - 11/10)"
@@ -10576,8 +10825,8 @@
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed mistranslations and spacing errors in home screen voices and training events",
-      "Fixed line-break issues in Tamamo Cross SSR episodes"
+      "Fixed mistranslations and spacing issues in home voices and training events",
+      "Fixed line break issue in Tamamo Cross SSR episode"
      ]
     }
    }
@@ -14666,7 +14915,7 @@
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed several bugs"
+      "Fixed some bugs"
      ]
     }
    }
@@ -17310,6 +17559,79 @@
    }
   },
   {
+   "gid": "1843481262690370",
+   "appid": 4000,
+   "game": "개리 모드",
+   "date": 1788986654,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690370",
+   "origTitle": "September 2026 Update is coming soon",
+   "title": "게리 모드 9월 업데이트 예고",
+   "summary": "게리 모드의 다음 업데이트가 9월 16일 오후 3시(GMT)에 출시될 예정입니다. 기존 서버와 역호환되며, 출시 전 사전 공개(Pre-Release) 베타 브랜치를 통해 테스트에 참여할 수 있습니다.",
+   "highlights": [
+    "9월 16일 오후 3시(GMT) 출시 예정",
+    "기존 서버와 역호환 가능",
+    "Pre-Release, Dev, x86-64 베타 브랜치에서 사전 테스트 가능",
+    "GitHub 또는 공식 디스코드에서 버그 제보 가능"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Garry's Mod September Update Announcement",
+     "summary": "The next Garry's Mod update is scheduled for release on September 16th at 3PM GMT. It will be backwards compatible with existing servers, and players can help test upcoming changes via the Pre-Release beta branch.",
+     "highlights": [
+      "Scheduled release on September 16th at 3PM GMT",
+      "Backwards compatible with existing servers",
+      "Test upcoming changes via Pre-Release, Dev, and x86-64 beta branches",
+      "Report bugs on GitHub or the official Discord"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "Garry's Mod 9月アップデート予告",
+     "summary": "Garry's Modの次期アップデートが9月16日午後3時（GMT）に配信予定です。既存サーバーとの後方互換性があり、Pre-Releaseベータブランチを通じて事前テストに参加できます。",
+     "highlights": [
+      "9月16日午後3時（GMT）にリリース予定",
+      "既存サーバーと後方互換性あり",
+      "Pre-Release、Dev、x86-64ベータブランチで事前テスト可能",
+      "GitHubや公式Discordでバグ報告を受付"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "盖瑞模组 9 月更新预告",
+     "summary": "盖瑞模组的下次更新计划于 GMT 9 月 16 日下午 3 点发布。该更新将与现有服务器保持向后兼容，玩家可以通过 Pre-Release 测试分支协助进行测试。",
+     "highlights": [
+      "计划于 GMT 9 月 16 日下午 3 点发布",
+      "与现有服务器保持向后兼容",
+      "可通过 Pre-Release、Dev 和 x86-64 测试分支进行预览和测试",
+      "可在 GitHub 或官方 Discord 报告发现的问题"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Anúncio da Atualização de Setembro do Garry's Mod",
+     "summary": "A próxima atualização do Garry's Mod está programada para ser lançada em 16 de setembro às 15h GMT. Ela será retrocompatível com servidores existentes, e os jogadores podem ajudar a testar as mudanças através do ramo beta Pre-Release.",
+     "highlights": [
+      "Lançamento agendado para 16 de setembro às 15h GMT",
+      "Retrocompatível com servidores existentes",
+      "Teste antecipado disponível nos ramos beta Pre-Release, Dev e x86-64",
+      "Relate bugs no GitHub ou no Discord oficial"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1843481262688553",
    "appid": 3446920,
    "game": "메카라시",
@@ -17533,23 +17855,23 @@
    "i18n": {
     "en": {
      "title": "Pokémon Champions Ver. 1.2.0 — Regulation M-C",
-     "summary": "Pokémon and held items for Regulation M-C have been added, and battle balance has been adjusted. New features include Battle Log viewing and battle data display on the team selection screen.",
+     "summary": "Pokémon and items for Regulation M-C have been added and battle balance has been adjusted. New features such as battle log viewing and battle data on the selection screen have been added.",
      "highlights": [
       "Added Regulation M-C Pokémon and held items",
-      "New feature: Battle Log (records all actions in the current battle)",
+      "New feature: Log View (records all actions of the current battle)",
       "New feature: Selection Support (displays battle data on the Pokémon selection screen)"
      ],
      "buffs": [
       "Slash can now be used"
      ],
      "nerfs": [
-      "Politoed: Cannot use Scratch",
+      "Politoed: Cannot use Pound",
       "Archaludon: Cannot use Mirror Coat and Metal Burst",
-      "Wish PP changed from 12 to 8",
-      "Strength Sap PP changed from 12 to 8"
+      "Wish PP 12 -> 8",
+      "Strength Sap PP 12 -> 8"
      ],
      "fixes": [
-      "Fixed several bugs"
+      "Fixed some bugs"
      ]
     }
    }
@@ -18713,6 +19035,139 @@
    }
   },
   {
+   "gid": "1841579228662390",
+   "appid": 261550,
+   "game": "마운트 앤 블레이드 II: 배너로드",
+   "date": 1787141105,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228662390",
+   "origTitle": "Beta Patch Notes - WS v1.3.0 / BL v1.5.0",
+   "title": "마운트 앤 블레이드 II: 배너로드 베타 패치 v1.3.0 / v1.5.0",
+   "summary": "이번 배너로드 베타 패치에서는 해상 콘텐츠 접근성을 높이고 플레이어 선택권을 확장하는 다양한 신규 기능이 도입되었습니다. 샌드박스 시작 시 함선 보유 여부 선택, 페리 시스템, 정박 기능 등이 추가되었으며, 본편에는 고급 시작 옵션, 혈전(Blood Feuds), 특성 효과 등이 도입되었습니다.",
+   "highlights": [
+    "샌드박스 시작 시 함선 보유 여부 선택 가능",
+    "해안 마을 간 이동을 위한 페리 시스템 추가",
+    "도시 항구 정박 기능 및 해안 성에서의 승하선 추가",
+    "고급 시작 옵션(플레이어 시작 옵션, 캠페인 시나리오, 모디파이어) 추가",
+    "클랜원 처형 시 발생하는 혈전(Blood Feuds) 시스템 도입",
+    "캐릭터 특성에 따른 특성 효과 추가"
+   ],
+   "buffs": [
+    "육상 및 해상 이동 속도 15% 증가",
+    "선박 수리 시 획득하는 보츠와인(Boatswain) 경험치 증가"
+   ],
+   "nerfs": [
+    "해전에서 비해군(Mariner, Boatswain, Shipmaster 외) 퍽들의 비총독 효과 대부분 50% 감소"
+   ],
+   "fixes": [
+    "해상 마을 습격 임무 전투 패배 직후 시뮬레이션 시작 시 승리로 처리되던 버그 수정",
+    "출항 후 플레이어 파티의 위치 오류로 인해 정착지 진입이 불가능하던 버그 수정",
+    "Mariner - Forceful 퍽의 부가 효과가 정상 적용되지 않던 버그 수정",
+    "캠페인 시간에 따른 날씨가 월드맵 일부 지역에 올바르게 적용되지 않던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Mount & Blade II: Bannerlord Beta Patch v1.3.0 / v1.5.0",
+     "summary": "This beta patch for Bannerlord improves naval content access and expands player choices with new features. Key additions include starting with a ship in sandbox mode, a ferry system, port mooring, advanced campaign starting options, blood feuds, and trait effects.",
+     "highlights": [
+      "Choose to start with a ship at the beginning of Sandbox games",
+      "Added a ferry system for travel between coastal villages",
+      "Added mooring at town ports and embark/disembark at coastal castles",
+      "Introduced advanced starting options (player starts, campaign scenarios, modifiers)",
+      "Added blood feuds system triggered by clan member executions",
+      "Introduced trait effects tied to character traits"
+     ],
+     "buffs": [
+      "Increased land and sea travel speeds by 15%",
+      "Increased Boatswain experience gained from repairing ships"
+     ],
+     "nerfs": [
+      "Reduced most non-governor perks' effects by 50% when used in naval battles"
+     ],
+     "fixes": [
+      "Fixed a bug causing lost Seaborne Village Raid simulations to be considered wins if started immediately after defeat",
+      "Fixed position errors after setting sail that prevented entering settlements",
+      "Fixed a bug preventing the Mariner - Forceful perk secondary effect from applying properly",
+      "Fixed world map weather not applying correctly based on campaign time in certain areas"
+     ]
+    },
+    "ja": {
+     "title": "マウント＆ブレイド II: バナーロード ベータパッチ v1.3.0 / v1.5.0",
+     "summary": "今回のバナーロードのベータパッチでは、海軍コンテンツへのアクセス改善とプレイヤーの選択肢を広げる新機能が多数導入されました。サンドバックス開始時の船舶選択、フェリーシステム、港への係留機能のほか、高度な開始オプション、血讐、特性効果などが追加されています。",
+     "highlights": [
+      "サンドボックスゲーム開始時に船舶を所持するか選択可能に",
+      "沿岸村落間を移動できるフェリーシステムを追加",
+      "町の港への係留機能および沿岸の城での乗降船を追加",
+      "高度な開始オプション（プレイヤー開始オプション、キャンペーンシナリオ、モディファイア）の導入",
+      "一族メンバーの処刑により発生する血讐システムの追加",
+      "キャラクターの特性に連動する特性効果の追加"
+     ],
+     "buffs": [
+      "陸上および海上での移動速度が15%上昇",
+      "船舶修理時に獲得するボトスワインの経験値が増加"
+     ],
+     "nerfs": [
+      "海戦で使用時、ほとんどの非総督パークの効果を50%減少"
+     ],
+     "fixes": [
+      "海上村落襲撃ミッションの戦闘敗北直後にシミュレーションを開始すると勝利扱いになっていたバグを修正",
+      "出航後にプレイヤー部隊の位置エラーが発生し、集落に入れなくなっていたバグを修正",
+      "Mariner - Forceful パークの副次効果が正常に適用されなかったバグを修正",
+      "キャンペーン時間に基づく天候がワールドマップの一部に正しく適用されなかったバグを修正"
+     ]
+    },
+    "zh": {
+     "title": "骑马与砍杀2：霸主 测试版补丁 v1.3.0 / v1.5.0",
+     "summary": "本次《骑马与砍杀2：霸主》测试版补丁旨在改善海战内容的可玩性并丰富玩家选择。主要新增了沙盒开局选择船只、渡轮系统、港口停泊功能，以及高级开局选项、血海深仇机制和特质效果等内容。",
+     "highlights": [
+      "沙盒游戏开局时可选择是否拥有船只",
+      "新增可在沿岸村庄之间旅行的渡轮系统",
+      "城镇港口新增停泊功能，沿岸城堡新增登船和离船功能",
+      "引入高级开局选项（玩家开局选项、战役剧本、修改器）",
+      "引入因处决家族成员而触发的血海深仇系统",
+      "新增与角色特质相绑定的特质效果"
+     ],
+     "buffs": [
+      "陆上和海上旅行速度提升15%",
+      "修理船只获得的船长（Boatswain）经验值增加"
+     ],
+     "nerfs": [
+      "在海战中使用时，大多数非总督类Perk的效果降低50%"
+     ],
+     "fixes": [
+      "修复了海上村庄突袭任务战败后立即开始模拟会被判定为胜利的bug",
+      "修复了起航后玩家部队出现位置错误导致无法进入定居点的bug",
+      "修复了Mariner - Forceful特长次要效果无法正确生效的bug",
+      "修复了部分大地图区域未根据战役时间正确应用天气效果的bug"
+     ]
+    },
+    "pt": {
+     "title": "Mount & Blade II: Bannerlord - Patch Beta v1.3.0 / v1.5.0",
+     "summary": "Este patch beta de Bannerlord melhora o acesso ao conteúdo naval e expande as escolhas dos jogadores com novos recursos. As adições incluem começar com um navio no modo sandbox, sistema de balsa, amarração em portos, além de opções avançadas de início, rivalidades sangrentas e efeitos de traços.",
+     "highlights": [
+      "Escolha começar com um navio no início de jogos Sandbox",
+      "Adicionado sistema de balsa para viagens entre vilas costeiras",
+      "Adicionada amarração em portos de vilas e embarque/desembarque em castelos costeiros",
+      "Introduzidas opções avançadas de início (inícios de jogador, cenários de campanha, modificadores)",
+      "Adicionado sistema de rivalidades sangrentas (Blood Feuds) ativado por execuções de clã",
+      "Introduzidos efeitos de traços vinculados aos traços de personalidade do personagem"
+     ],
+     "buffs": [
+      "Aumento de 15% nas velocidades de viagem terrestre e marítima",
+      "Aumento da experiência de Contramestre (Boatswain) ganha ao reparar navios"
+     ],
+     "nerfs": [
+      "Reduzidos em 50% os efeitos da maioria das vantagens que não são de governador quando usadas em batalhas navais"
+     ],
+     "fixes": [
+      "Corrigido um bug que fazia a simulação de derrota em Invasão a Vila Naval ser considerada vitória se iniciada logo após a batalha",
+      "Corrigidos erros de posição do grupo do jogador após zarpar, que impediam a entrada em assentamentos",
+      "Corrigido um bug que impedia que o efeito secundário da vantagem Mariner - Forceful se aplicasse corretamente",
+      "Corrigido um bug que impedia que partes do mapa-múndiaplicassem o clima correto com base no tempo de campanha"
+     ]
+    }
+   }
+  },
+  {
    "gid": "mabinogimobile:3527689",
    "appid": "mabinogimobile",
    "game": "마비노기 모바일",
@@ -18775,6 +19230,99 @@
       "Fixed an issue where the 'Enchant Amplification Icon' was not displayed on enchanted equipment",
       "Fixed an issue where an error popup appeared when entering already-used coupon numbers on the coupon redemption screen",
       "Fixed an issue where monsters disappeared when a pet with a shield applied became incapacitated"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1841579228661647",
+   "appid": 2170050,
+   "game": "울프팀: 리부트",
+   "date": 1787118003,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228661647",
+   "origTitle": "Update Announcement: 2026 August 20th",
+   "title": "8월 20일 업데이트 안내",
+   "summary": "울프팀: 리부트가 8월 20일 정기 점검을 통해 신규 해적 테마 무기, 문신, 스티커 및 스크래치 박스를 추가합니다. 또한 서버 재시작, 소소한 버그 수정 및 파워 아이템 슬롯의 편의성이 개선되었습니다.",
+   "highlights": [
+    "신규 1911 SE PIRATE, AER-15 PIRATE, EM-32 PIRATE 무기 추가",
+    "PIRATE 테마 문신(B, L, R) 및 세트 아이템 추가",
+    "Sticker PIRATE 및 PurpleFire ScratchBox 추가",
+    "월간 인간/울프 박스(Monthly Box_26_9) 추가",
+    "파워 아이템 슬롯 편의성 개선"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "서버 재시작",
+    "사소한 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "August 20th Update",
+     "summary": "Wolfteam: Reboot is releasing an update on August 20th featuring new Pirate-themed weapons, tattoos, stickers, and scratch boxes. The update also includes server restarts, minor bug fixes, and convenience improvements for the Power item slot.",
+     "highlights": [
+      "Added new 1911 SE PIRATE, AER-15 PIRATE, and EM-32 PIRATE weapons",
+      "Added PIRATE tattoos (B, L, R) and Tattoo SET",
+      "Added Sticker PIRATE and PurpleFire ScratchBox",
+      "Added Monthly Box_26_9 for Humans and Wolves",
+      "Improved convenience features in the Power item Slot"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Restarted the server",
+      "Fixed minor bugs"
+     ]
+    },
+    "ja": {
+     "title": "8月20日アップデートのご案内",
+     "summary": "「ウルフチーム：リブート」は8月20日のアップデートを通じて、新しい海賊テーマの武器、タトゥー、ステッカー、スクラッチボックスを追加します。さらに、サーバーの再起動、軽微なバグ修正、パワーアイテムスロットの利便性が改善されました。",
+     "highlights": [
+      "新武器「1911 SE PIRATE」「AER-15 PIRATE」「EM-32 PIRATE」を追加",
+      "PIRATEテーマのタトゥー(B, L, R)およびセットアイテムを追加",
+      "Sticker PIRATEおよびPurpleFire ScratchBoxを追加",
+      "月間ヒューマン/ウルフボックス(Monthly Box_26_9)を追加",
+      "パワーアイテムスロットの利便性機能の改善"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "サーバーの再起動",
+      "軽微なバグの修正"
+     ]
+    },
+    "zh": {
+     "title": "8月20日更新公告",
+     "summary": "《狼队：重启》将于8月20日进行更新，推出全新的海盗主题武器、纹身、贴纸和刮刮乐宝箱。此外，本次更新还包含了重启服务器、修复小错误以及优化能量道具槽的便捷功能。",
+     "highlights": [
+      "新增 1911 SE PIRATE、AER-15 PIRATE、EM-32 PIRATE 武器",
+      "新增 PIRATE 主题纹身（B、L、R）及套装道具",
+      "新增 PIRATE 贴纸与 PurpleFire 刮刮宝箱",
+      "新增 26_9 月度人类与狼箱子",
+      "优化能量道具槽的便捷功能"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "重启服务器",
+      "修复小错误"
+     ]
+    },
+    "pt": {
+     "title": "Atualização de 20 de agosto",
+     "summary": "O Wolfteam: Reboot trará uma atualização em 20 de agosto com novas armas, tatuagens, adesivos e caixas de raspar com o tema Pirata. A atualização também inclui reinicialização de servidores, correções de bugs menores e melhorias de conveniência no slot de itens de poder.",
+     "highlights": [
+      "Adicionadas novas armas 1911 SE PIRATE, AER-15 PIRATE e EM-32 PIRATE",
+      "Adicionadas tatuagens PIRATE (B, L, R) e conjunto de tatuagem",
+      "Adicionados Sticker PIRATE e PurpleFire ScratchBox",
+      "Adicionadas Monthly Box_26_9 para Humanos e Lobos",
+      "Melhoria no recurso de conveniência do slot de itens de poder"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Reinicialização do servidor",
+      "Correção de bugs menores"
      ]
     }
    }
@@ -18964,6 +19512,74 @@
    }
   },
   {
+   "gid": "1840944183787155",
+   "appid": 1568590,
+   "game": "구스구스덕",
+   "date": 1786997510,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183787155",
+   "origTitle": "v4.10.03 Hotpatch: PC FPS Drop Update (PC ONLY)",
+   "title": "v4.10.03 핫패치 (PC 전용)",
+   "summary": "구스구스덕 PC 버전의 마우스 포인터 처리 관련 프레임 저하 및 끊김 현상을 해결하기 위한 핫패치가 배포되었습니다. 마우스 이동 시 발생하던 성능 저하 문제를 완화하도록 내부 변경 사항이 적용되었습니다.",
+   "highlights": [
+    "v4.10.03 업데이트 배포",
+    "마우스 포인터 처리 변경으로 프레임 저하 및 끊김 현상 완화",
+    "업데이트 후에도 문제 지속 시 지원 티켓 또는 이메일 접수 요청"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "v4.10.03 Hotpatch (PC Only)",
+     "summary": "A hotpatch for Goose Goose Duck has been released to address stuttering and FPS drops on Windows PCs. Changes have been made to reduce the impact of mouse pointer handling on frame rates.",
+     "highlights": [
+      "Released update v4.10.03",
+      "Reduced stuttering and FPS drops related to mouse pointer handling",
+      "Players still experiencing issues are encouraged to submit a support ticket"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "v4.10.03 ホットパッチ（PC版限定）",
+     "summary": "Goose Goose DuckのWindows PC版におけるカクつきやFPS低下の問題に対処するためのホットパッチが配信されました。マウスカーソルの処理に関連するフレームレート低下を軽減するための変更が行われました。",
+     "highlights": [
+      "v4.10.03アップデートの配信",
+      "マウスカーソル処理によるカクつきやFPS低下を軽減",
+      "アップデート後も問題が続く場合はサポートへ連絡を要請"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "v4.10.03 热修补程序（仅限PC）",
+     "summary": "鹅鸭杀发布了热修补程序，以解决Windows PC玩家遇到的卡顿和掉帧问题。官方已进行更改以减少鼠标指针处理对帧率的影响。",
+     "highlights": [
+      "发布 v4.10.03 更新",
+      "减少与鼠标指针处理相关的卡顿和掉帧",
+      "若更新后仍有问题请提交支持工单或发送邮件"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Hotpatch v4.10.03 (Apenas para PC)",
+     "summary": "Um hotpatch para Goose Goose Duck foi lançado para resolver travamentos e quedas de FPS em PCs com Windows. Alterações foram feitas para reduzir o impacto do manuseio do ponteiro do mouse na taxa de quadros.",
+     "highlights": [
+      "Lançamento da atualização v4.10.03",
+      "Redução de travamentos e quedas de FPS relacionados ao ponteiro do mouse",
+      "Solicitação de envio de ticket de suporte caso o problema persista"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1840944183772872",
    "appid": 1623730,
    "game": "팰월드",
@@ -19104,6 +19720,294 @@
    }
   },
   {
+   "gid": "1840310314351373",
+   "appid": 261550,
+   "game": "마운트 앤 블레이드 II: 배너로드",
+   "date": 1786363746,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314351373",
+   "origTitle": "War Sails Modding Kit Release & Patch WS v1.2.8 / BL v1.4.8",
+   "title": "War Sails 모딩 킷 및 패치 WS v1.2.8 / BL v1.4.8",
+   "summary": "마운트 앤 블레이드 II: 배너로드(Mount & Blade II: Bannerlord) War Sails 모딩 킷이 출시되었으며, 충돌 수정, 그래픽 오류 해결 및 모딩 기능이 개선된 패치가 적용되었습니다.",
+   "highlights": [
+    "War Sails 모딩 킷 스팀 출시",
+    "해상 세계 지도 및 선박 제작 지원 추가",
+    "손상된 게임 파일 감지 및 경고 시스템 추가",
+    "셰이더 컴파일 오류 대응 폴백 시스템 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "사망한 저명인이 해상 캐러밴을 가졌을 때 발생하던 충돌 수정",
+    "오스티칸의 소유자가 적대적일 때 군나르와의 대화 시 발생하던 충돌 수정",
+    "탑승 에이전트 사망 시 말 고삐 시각적 오류 수정",
+    "래그돌 떨림 현상 수정",
+    "멀티플레이어 미션 리셋 시 데칼이 제거되던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "War Sails Modding Kit & Patch WS v1.2.8 / BL v1.4.8",
+     "summary": "The War Sails Modding Kit for Mount & Blade II: Bannerlord is now available, alongside a new patch that fixes several crashes, adds corrupted file detection, and improves modding tools.",
+     "highlights": [
+      "War Sails Modding Kit released on Steam",
+      "Support for naval world maps and ship creation",
+      "Added corrupted game file detection and warnings",
+      "Shader compilation fallback system to prevent crashes"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed crash related to deceased notables with caravans at sea",
+      "Fixed crash during War Sails storyline conversation with Gunnar",
+      "Fixed horse rein visual bug upon mounted agent death",
+      "Fixed jittering on ragdolls",
+      "Fixed decal removal bug in Multiplayer mission reset"
+     ]
+    },
+    "ja": {
+     "title": "War Sailsモディングキット＆パッチ WS v1.2.8 / BL v1.4.8",
+     "summary": "『マウント＆ブレイドII：バナーロード（Mount & Blade II: Bannerlord）』のWar Sailsモディングキットが配信開始され、各種クラッシュの修正や破損ファイルの検出機能、モディングツールの改善が行われました。",
+     "highlights": [
+      "War SailsモディングキットがSteamで配信開始",
+      "海上のワールドマップや船舶作成機能の追加",
+      "破損したゲームファイルの検出と警告システムを追加",
+      "シェーダーコンパイルのフォールバックシステム追加"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "死亡した名士が海上にキャラバンを所持していた際のクラッシュを修正",
+      "オスティカンの所有者が敵対している時のグンナルとの会話中のクラッシュを修正",
+      "騎乗エージェント死亡時の馬の手綱の表示バグを修正",
+      "ラグドールのジッタリング（震え）を修正",
+      "マルチプレイヤーのミッションリセット時にデカールが消去されるバグを修正"
+     ]
+    },
+    "zh": {
+     "title": "战帆MOD制作包及补丁 WS v1.2.8 / BL v1.4.8",
+     "summary": "《骑马与砍杀2：霸主》（Mount & Blade II: Bannerlord）现已推出战帆MOD制作包，并发布了修复崩溃、增加损坏文件检测及优化MOD工具的全新补丁。",
+     "highlights": [
+      "战帆MOD制作包在Steam上架",
+      "支持创建海战世界地图与船只",
+      "新增损坏游戏文件检测及警告系统",
+      "新增着色器编译兜底系统以防止崩溃"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了已故名流在海上有商队时导致的崩溃",
+      "修复了战帆剧情中与贡纳尔对话时的崩溃",
+      "修复了骑乘角色死亡时马缰绳视觉错误",
+      "修复了布娃娃系统的抖动问题",
+      "修复了多人游戏任务重置时贴花被移除的Bug"
+     ]
+    },
+    "pt": {
+     "title": "Kit de Modificação War Sails & Patch WS v1.2.8 / BL v1.4.8",
+     "summary": "O Kit de Modificação War Sails para Mount & Blade II: Bannerlord já está disponível, trazendo correções de erros, detecção de arquivos corrompidos e melhorias nas ferramentas de mod.",
+     "highlights": [
+      "Kit de Modificação War Sails lançado na Steam",
+      "Suporte para criação de mapas mundiais navais e navios",
+      "Adicionado sistema de detecção e avisos para arquivos corrompidos",
+      "Sistema de fallback para compilação de shaders"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido erro que ocorria com notáveis falecidos e caravanas no mar",
+      "Corrigido erro durante a história de War Sails ao falar com Gunnar",
+      "Corrigido erro visual nas rédeas do cavalo ao morrer montado",
+      "Corrigido tremor em ragdolls",
+      "Corrigido erro que removia decalques no reset de missões multiplayer"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1840310314351327",
+   "appid": 767560,
+   "game": "워 로봇",
+   "date": 1786362429,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314351327",
+   "origTitle": "WAR ROBOTS 12.3 UPDATE NOTES",
+   "title": "워 로봇 12.3 업데이트",
+   "summary": "신규 이벤트 '태양, 바다, 강철'이 8월 11일에 시작되며, 새로운 로봇 Fang, 타이탄 Sirocco 및 다양한 무기와 파일럿이 추가되었습니다. 또한 장비 화면 개편 및 여러 플랫폼의 기술적 문제가 수정되었습니다.",
+   "highlights": [
+    "신규 로봇 Fang 및 무기 Harmattan 추가",
+    "신규 타이탄 Sirocco 및 무기 Barq 추가",
+    "얼티밋 레이븐 및 얼티밋 아토마이저 추가",
+    "신규 파일럿 Nadir Rakhim, Renard Aurel, Erika Storm 추가",
+    "장비 화면 UI 개편",
+    "참가자 창 및 맵 텍스처 관련 버그 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "PlayStation FFA 모드 참가자 창에서 플레이어 이름이 잘못된 열에 표시되던 문제 수정",
+    "PlayStation 및 Xbox의 야만타우 맵에서 누락된 텍스처 수정",
+    "Xbox에서 리더보드 점수가 표시되지 않던 버그 수정",
+    "Hank의 표류 조선소에서 빈 공간을 탭할 때 정보 툴팁이 열리던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "War Robots 12.3 Update",
+     "summary": "The 'Sun, Sea, Steel' event begins on August 11, introducing the new robot Fang, titan Sirocco, weapons, pilots, and ultimate editions. This update also brings UI improvements to the Equipment screen and several bug fixes.",
+     "highlights": [
+      "New robot Fang and weapons Harmattan added",
+      "New titan Sirocco and weapons Barq added",
+      "Ultimate Raven and Ultimate Atomizer added",
+      "New pilots Nadir Rakhim, Renard Aurel, and Erika Storm added",
+      "Reworked Equipment screen UI",
+      "Technical fixes for maps, leaderboards, and UI"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed player names in wrong columns within Participants window during FFA on PlayStation",
+      "Fixed Ultimate Rhino's movement speed not scaling correctly with pilot skills",
+      "Fixed missing textures on Yamantau map on PlayStation and Xbox",
+      "Fixed Leaderboard points failing to appear in Leaderboard window on Xbox",
+      "Fixed tapping empty space in Hank's Drifting Shipyard accidentally triggering tooltips"
+     ]
+    },
+    "ja": {
+     "title": "ウォーロボット 12.3アップデート",
+     "summary": "8月11日に新イベント「サン、シー、スティール」が開催され、新ロボット「Fang」、タイタン「Sirocco」、新しい武器やパイロットが追加されました。さらに、装備画面のUI改修や不具合の修正も行われています。",
+     "highlights": [
+      "新ロボット「Fang」および武器「Harmattan」を追加",
+      "新タイタン「Sirocco」および武器「Barq」を追加",
+      "アルティメット・レイヴンおよびアルティメット・アトマイザーを追加",
+      "新パイロットを追加",
+      "装備画面のUIを刷新",
+      "各種プラットフォームでのバグ修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "PlayStationのFFAモード参加者ウィンドウでプレイヤー名が誤った列に表示される問題を修正",
+      "パイロットスキルでアルティメット・ライノの移動速度が正しくスケーリングしない問題を修正",
+      "PlayStationおよびXboxのヤマタウマップの欠落したテクスチャを修正",
+      "Xboxでリーダーボードのポイントが表示されないバグを修正",
+      "ハンクの漂流造船所の何もない場所をタップするとツールチップが誤作動する問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "战神机器人 12.3 更新",
+     "summary": "全新活动“太阳、海洋与钢铁”将于 8 月 11 日开启，推出新机器人 Fang、泰坦 Sirocco 以及全新武器和机师。本次更新还重做装备界面并修复了多项技术问题。",
+     "highlights": [
+      "加入新机器人 Fang 及武器 Harmattan",
+      "加入新泰坦 Sirocco 及武器 Barq",
+      "加入终极版 Raven 与终极版 Atomizer",
+      "加入新机师 Nadir Rakhim、Renard Aurel 和 Erika Storm",
+      "重做装备界面 UI",
+      "修复地图、排行榜及界面相关漏洞"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复 PlayStation 上 FFA 模式参与者窗口中玩家名字显示在错误列中的问题",
+      "修复终极犀牛移动速度无法随机师技能正确缩放的问题",
+      "修复 PlayStation 和 Xbox 上 Yamantau 地图缺失纹理的问题",
+      "修复 Xbox 上排行榜分数无法在排行榜窗口中显示的问题",
+      "修复点击汉克漂流造船厂空白处会意外触发提示框的问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização 12.3 de War Robots",
+     "summary": "O evento 'Sol, Mar e Aço' começa em 11 de agosto, trazendo o novo robô Fang, o titã Sirocco, novas armas, pilotos e edições supremas. A atualização também inclui melhorias na interface de equipamentos e correções de bugs.",
+     "highlights": [
+      "Adicionado o novo robô Fang e armas Harmattan",
+      "Adicionado o novo titã Sirocco e armas Barq",
+      "Adicionadas as edições Supremas do Raven e do Atomizer",
+      "Novos pilotos Nadir Rakhim, Renard Aurel e Erika Storm",
+      "Tela de equipamentos reformulada",
+      "Correções de bugs técnicos e de interface"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido um problema em que os nomes dos jogadores apareciam nas colunas erradas no modo FFA no PlayStation",
+      "Corrigido o movimento do Ultimate Rhino que não escalava corretamente com habilidades de piloto",
+      "Corrigidas texturas ausentes no mapa Yamantau no PlayStation e Xbox",
+      "Corrigido um bug onde os pontos do placar não apareciam no Xbox",
+      "Corrigido toque em espaço vazio no Estaleiro Flutuante do Hank que acionava dicas de ferramentas acidentalmente"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1840310314343924",
+   "appid": 881020,
+   "game": "그랑블루 판타지 리링크",
+   "date": 1786082639,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314343924",
+   "origTitle": "[Released Aug 7] Ver. 2.0.4 Update Information",
+   "title": "Ver. 2.0.4 업데이트 안내",
+   "summary": "그랑블루 판타지 리링크 Ver. 2.0.4 업데이트가 배포되었습니다. 그랑사이퍼 갑판에서 저장하여 발생했던 운명의 파괴자 등급 플레이어의 세이브 데이터 로드 불능 버그가 수정되었습니다.",
+   "highlights": [
+    "Ver. 2.0.4 업데이트 적용",
+    "그랑사이퍼 갑판 저장 시 세이브 로드 불가 현상 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "운명의 파괴자 등급 플레이어가 그랑사이퍼 갑판에서 저장했을 때 세이브 데이터를 불러올 수 없던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Ver. 2.0.4 Update Information",
+     "summary": "The ver. 2.0.4 update for Granblue Fantasy: Relink has been released. It fixes a critical bug that prevented Fatebreaker-grade players from loading their saved data when saved on the Grandcypher's deck.",
+     "highlights": [
+      "Released Ver. 2.0.4 update",
+      "Fixed save data loading issue on Grandcypher's deck"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a bug that prevented Fatebreaker-grade players from loading their saved data if they saved while on the Grandcypher's deck"
+     ]
+    },
+    "ja": {
+     "title": "Ver. 2.0.4アップデート情報",
+     "summary": "『グランブルーファンタジー リリンク』のVer. 2.0.4アップデートが配信開始されました。グランサイファーの甲板でセーブした際に運命の破壊者ランクのプレイヤーがセーブデータをロードできなくなる不具合が修正されました。",
+     "highlights": [
+      "Ver. 2.0.4アップデートの配信",
+      "グランサイファーの甲板でのセーブデータロードに関する不具合修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "運命の破壊者ランクのプレイヤーがグランサイファーの甲板でセーブした際、セーブデータをロードできなくなる不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "Ver. 2.0.4 更新资讯",
+     "summary": "《碧蓝幻想 Relink》Ver. 2.0.4 更新已正式发布。本次更新修复了“命运破坏者”阶级玩家在格兰赛芬号甲板上保存时无法读取存档的严重错误。",
+     "highlights": [
+      "发布 Ver. 2.0.4 更新",
+      "修复格兰赛芬号甲板存档读取异常"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了“命运破坏者”阶级玩家在格兰赛芬号甲板上保存游戏后无法读取存档的漏洞"
+     ]
+    },
+    "pt": {
+     "title": "Informações da Atualização Ver. 2.0.4",
+     "summary": "A atualização ver. 2.0.4 de Granblue Fantasy: Relink foi lançada. Ela corrige um bug que impedia jogadores de nível Destruidor do Destino de carregar seus dados salvos caso tivessem salvado no convés da Grandcypher.",
+     "highlights": [
+      "Lançamento da atualização Ver. 2.0.4",
+      "Correção de carregamento de dados salvos no convés da Grandcypher"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido um bug que impedia jogadores de nível Destruidor do Destino de carregar seus dados salvos ao salvar no convés da Grandcypher"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1840310314338761",
    "appid": 3308670,
    "game": "소녀전선2: 망명",
@@ -19234,6 +20138,256 @@
    }
   },
   {
+   "split": true,
+   "gid": "hs:24290432",
+   "appid": "hs",
+   "game": "하스스톤",
+   "date": 1785776100,
+   "url": "https://news.blizzard.com/ko-kr/article/24290432/36-2",
+   "origTitle": "36.2 패치 노트",
+   "img": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/lo/LOQ0BA8DK4WG1785194773245.jpg",
+   "title": "하스스톤 36.2 패치 노트",
+   "summary": "하스스톤 36.2 패치에서는 새로운 전장 시즌과 소규모 밸런스 조정, '주라마트의 광란!' 이벤트 및 다크문 축제 보물이 추가되었습니다. 또한 유니티 버전 업그레이드와 함께 다양한 오류 수정 및 게임 개선 사항이 적용되었습니다.",
+   "highlights": [
+    "새로운 전장 시즌 시작",
+    "악마사냥꾼 직업의 흉포한 공허비늘 하향 조정",
+    "'주라마트의 광란!' 게임내 이벤트 진행",
+    "영웅 난이도 선술집 난투 개최",
+    "칠석 투랄리온 및 칠석 알레리아 신화/다이아몬드 영웅 스킨 출시",
+    "Unity 엔진 업그레이드에 따른 최소 시스템 사양 변경"
+   ],
+   "buffs": [],
+   "nerfs": [
+    "흉포한 공허비늘"
+   ],
+   "fixes": [
+    "속박 풀린 크룰의 전투의 함성 발동 시 게임판이 어두워져 있던 시각적 오류 수정",
+    "주문이 아닌 카드를 낸 후 종말의 그림자를 낼 수 있었던 오류 수정",
+    "조각난 용의 영혼이 생성하는 정수를 시네스트라가 두 번 시전할 수 있었던 오류 수정",
+    "같은 턴에 마나 연소를 2장 내면 효과가 하나만 적용되던 오류 수정",
+    "준비가 비정상적으로 아감마간의 효과를 발동시키던 오류 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Hearthstone Patch 36.2 Notes",
+     "summary": "Hearthstone Patch 36.2 brings a new Battlegrounds season, small balance adjustments, the 'Rampage of Zuramat' event, and Darkmoon Faire Treasures. It also includes a Unity engine upgrade along with numerous bug fixes and improvements.",
+     "highlights": [
+      "New Battlegrounds season launched",
+      "Nerf to Demon Hunter card Feral Voidscale",
+      "'Rampage of Zuramat!' in-game event",
+      "Heroic Tavern Brawl returns",
+      "Tanabata Turalyon and Alleria hero skins introduced",
+      "Unity engine upgrade and minimum system requirements update"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Feral Voidscale"
+     ],
+     "fixes": [
+      "Fixed visual bug where Krul the Unshackled's battlecry darkened the board until the end of the game",
+      "Fixed bug allowing Shadow of Doom to be played after playing a non-spell card with no valid effects",
+      "Fixed bug where Sinestra could cast the essence generated by Fragmented Dragon Soul twice",
+      "Fixed bug where playing two Mana Burns in the same turn applied only one effect",
+      "Fixed bug where Preparation abnormally triggered Agamaggan's effect"
+     ]
+    },
+    "ja": {
+     "title": "ハースストーン パッチ 36.2 パッチノート",
+     "summary": "ハースストーンパッチ36.2では、新しいバトルグラウンドシーズン、小規模なバランス調整、「ジュラマートの暴走！」イベント、ダークムーン・フェアの宝物が実装されました。さらに、Unityエンジンのアップグレードや多数の不具合修正が行われています。",
+     "highlights": [
+      "新しいバトルグラウンドシーズンの開始",
+      "デーモンハンターのカード「凶暴な虚空うろこ」の弱体化",
+      "ゲーム内イベント「ジュラマートの暴走！」開催",
+      "英雄乱闘ステップの復活",
+      "七夕トゥラリオンおよび七夕アレーリアのスキン登場",
+      "Unityエンジンのアップグレードと最小システム要件の変更"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "凶暴な虚空うろこ"
+     ],
+     "fixes": [
+      "「枷を解かれしクルル」の雄叫び発動後、ゲーム終了までボードが暗くなる視覚的不具合を修正",
+      "呪文以外のカードをプレイした後、無効な効果にもかかわらず「厄災の影」をプレイできた不具合を修正",
+      "シネストラが「砕けた竜の魂」の精髄を2回発動できた不具合を修正",
+      "同一ターンに「マナ燃焼」を2枚プレイすると1つしか適用されなかった不具合を修正",
+      "「腹心の予期」が異常にアガマガンの効果を誘発していた不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "炉石传说 36.2 版本说明",
+     "summary": "《炉石传说》36.2补丁带来了全新的酒馆战棋赛季、小幅平衡性调整、“祖拉玛特之狂乱”活动以及暗月马戏团宝藏。此外，游戏升级了Unity引擎并修复了大量Bug。",
+     "highlights": [
+      "全新的酒馆战棋赛季开启",
+      "削弱恶魔猎手卡牌“凶暴虚空鳞”",
+      "开启“祖拉玛特之狂乱！”游戏内活动",
+      "英雄乱斗模式回归",
+      "推出七夕图拉扬和奥蕾莉亚英雄皮肤",
+      "Unity引擎升级及最低系统配置更新"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "凶暴虚空鳞"
+     ],
+     "fixes": [
+      "修复了释放解禁者库鲁尔的战吼后棋盘会变暗直到游戏结束的视觉错误",
+      "修复了打出非随从/非法术卡后，在没有有效效果时仍能打出厄运之影的错误",
+      "修复了希奈丝特拉可以双倍施法由破碎真龙之魂生成的精华的错误",
+      "修复了同一回合打出两张法力燃烧时只生效一个的错误",
+      "修复了伺机待发异常触发阿迦玛甘效果的错误"
+     ]
+    },
+    "pt": {
+     "title": "Notas do Patch 36.2 de Hearthstone",
+     "summary": "O patch 36.2 de Hearthstone traz uma nova temporada dos Campos de Batalha, pequenos ajustes de balanceamento, o evento 'Fúria de Zuramat!' e os Tesouros de Negraluna. Também inclui uma atualização da engine Unity e diversas correções de bugs.",
+     "highlights": [
+      "Nova temporada dos Campos de Batalha iniciada",
+      "Nerf na carta de Caçador de Demônios Escama do Vazio Feral",
+      "Evento no jogo 'Fúria de Zuramat!'",
+      "Retorno da Contenda da Taverna Heroica",
+      "Novas skins de herói Turalyon e Alleria de Tanabata",
+      "Atualização da engine Unity e requisitos mínimos de sistema"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Escama do Vazio Feral"
+     ],
+     "fixes": [
+      "Correção de um bug visual onde o Grito de Guerra de Krul, o Desacorrentado escurecia o tabuleiro até o fim da partida",
+      "Correção de um bug que permitia jogar Sombra da Perdição após jogar uma carta que não era feitiço sem efeitos válidos",
+      "Correção de um bug onde Sinestra podia conjurar duas vezes a essência gerada por Alma do Dragão Fragmentada",
+      "Correção de um bug onde jogar duas Queimas de Mana no mesmo turno aplicava apenas um efeito",
+      "Correção de um bug onde Preparação ativava o efeito de Agamaggan de forma anormal"
+     ]
+    }
+   }
+  },
+  {
+   "split": true,
+   "gid": "hsbg:24290432",
+   "appid": "hsbg",
+   "game": "하스스톤 (전장)",
+   "date": 1785776100,
+   "url": "https://news.blizzard.com/ko-kr/article/24290432/36-2",
+   "origTitle": "36.2 패치 노트 (전장)",
+   "img": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/lo/LOQ0BA8DK4WG1785194773245.jpg",
+   "title": "하스스톤 전장 36.2 패치 노트",
+   "summary": "하스스톤 전장에 14시즌 '달라란의 어둠의 선물'이 시작되어 신규 시스템 어둠의 선물, '사용' 키워드, 금고 및 물고기 미끼 메커니즘, 그리고 장신구와 대규모 하수인 개편이 적용됩니다. 또한 영웅 7명의 상향 조정과 독소 키워드 개편, 4자리 이상 통계 가독성 개선이 이루어졌습니다.",
+   "highlights": [
+    "신규 시스템 '어둠의 선물' 추가 (골드로 어둠의 선물 발견)",
+    "신규 키워드 '사용' 추가 (모집 단계 골드 사용 능력 발동)",
+    "새로운 해적 시너지 '금고' 및 야수 시너지 '물고기 미끼' 도입",
+    "장신구 목록 유지 및 하수인/선술집 주문 대거 개편",
+    "독소 키워드 및 오색비룡 변경, 4자리 이상 숫자 가독성 압축",
+    "전장 14시즌 보상의 길 및 신규 영웅/외형 아이템 추가"
+   ],
+   "buffs": [
+    "카리엘 롬: 능력 비용 1 -> 0",
+    "강화로봇: 능력 두 번 발동",
+    "에드윈 밴클리프: 카드 5장 -> 4장 구매 후 강화",
+    "대군주 사울팽: 하수인 4마리 -> 3마리 산 후 개선",
+    "불의 군주 라그나로스: 카드 16장 -> 12장 산 후 획득",
+    "라카니슈: 4턴 -> 3턴마다 강화",
+    "태더란 블러드워처: 네 번째 -> 세 번째 선술집 주문 비용 (0)"
+   ],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Hearthstone Battlegrounds Patch 36.2",
+     "summary": "Battlegrounds Season 14 'Dalaran's Dark Gifts' is here, introducing the Dark Gifts system, the 'Spend' keyword, Vault and Fish Bait mechanics, trinkets, and a massive minion refresh. Additionally, seven heroes have been buffed, the Venomous keyword was updated, and stat readability for numbers over 4 digits was improved.",
+     "highlights": [
+      "Added 'Dark Gifts' system to discover gifts using Gold",
+      "Added 'Spend' keyword to trigger special minion abilities during Recruits",
+      "Introduced Pirate 'Vault' and Beast 'Fish Bait' synergies",
+      "Trinkets retained alongside a massive minion and tavern spell overhaul",
+      "Updated Venomous keyword and Chromatic Drake, plus 4+ digit number compression",
+      "Season 14 Battlegrounds Track and new heroes/cosmetics added"
+     ],
+     "buffs": [
+      "Karim Rom: Hero power cost 1 -> 0",
+      "Anodized Robo Cub: Hero power triggers twice (Wait, Anodized/Enhance-o: Enhance-o Mechano triggers twice)",
+      "Edwin VanCleef: 5 cards -> 4 cards to upgrade",
+      "Overlord Saurfang: 4 minions -> 3 minions to improve",
+      "Ragnaros the Firelord: 16 cards -> 12 cards for Sulfuras",
+      "Lich Baz'hial (Rakanishu): 4 turns -> 3 turns to upgrade (Rakanishu)",
+      "Tethered Bloodwatcher (Tetheran): 4th -> 3rd tavern spell costs (0)"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "ハーストーン バトルグラウンド パッチ36.2ノート",
+     "summary": "バトルグラウンドシーズン14「ダララの闇の贈り物」が開幕し、新システム「闇の贈り物」、新キーワード「使用」、金庫と釣り餌メカニズム、装飾品、および大規模なミニオン入れ替えが実装されます。さらに、7体のヒーローの強化、猛毒キーワードの調整、4桁以上の数値の視認性改善が行われました。",
+     "highlights": [
+      "新システム「闇の贈り物」追加（ゴールドで闇の贈り物を発見）",
+      "新キーワード「使用」追加（酒場フェーズでゴールドを使い特殊能力を発動）",
+      "海賊のシナジー「金庫」および野獣のシナジー「釣り餌」を追加",
+      "装飾品が続投し、ミニオンと酒場呪文を大規模に改編",
+      "「猛毒」キーワードおよび「クロマティック・ドレイク」の変更、4桁以上の数値圧縮",
+      "シーズン14バトルグラウンドロードマップと新ヒーロー・外見アイテムの追加"
+     ],
+     "buffs": [
+      "キャリエール・ローム：ヒーローパワーコスト 1 -> 0",
+      "エンハンス・メッカン：能力が2回発動する",
+      "エドウィン・ヴァンクリーフ：カード5枚 -> 4枚購入で強化",
+      "大君主サウルファング：ミニオン4体 -> 3体購入で改善",
+      "ラグナロス：カード16枚 -> 12枚購入でラグナロスのハンマー獲得",
+      "ラカニッシュ：4ターン -> 3ターンごとに強化",
+      "テーダラン・ブラッドウォッチャー：4番目 -> 3番目の酒場呪文のコストが(0)に"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "炉石传说酒馆战棋 36.2 更新说明",
+     "summary": "酒馆战棋第14赛季“达拉然的黑暗礼物”正式开启，引入了黑暗礼物系统、全新“消耗”机制、金库与鱼饵机制、饰品以及海量的随从更新。此外，7位英雄得到了增强，剧毒关键词进行了调整，并优化了4位数以上数值的可读性。",
+     "highlights": [
+      "新增“黑暗礼物”系统（消耗金币发现黑暗礼物）",
+      "新增“消耗”关键词（在招募阶段消耗金币触发特殊随从技能）",
+      "引入海盗“金库”与野兽“鱼饵”新机制",
+      "饰品系统保留，并重做大量随从与酒馆法术",
+      "更新“剧毒”关键词与多彩幼龙，压缩4位数以上数值显示",
+      "第14赛季战棋路线及新英雄、外观装饰上线"
+     ],
+     "buffs": [
+      "凯瑞尔·罗姆：英雄技能费用 1 -> 0",
+      "强化机器人：技能触发两次",
+      "艾德温·范克里夫：购买5张 -> 4张随从后升级",
+      "萨鲁法尔大王：购买4个 -> 3个随从后提升",
+      "拉格纳罗斯：购买16张 -> 12张卡牌后获得炎魔之王",
+      "拉卡尼休：每4回合 -> 3回合升级",
+      "塔瑟兰·血脉守护者：第四个 -> 第三个酒馆法术消耗为(0)"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Notas do Patche 36.2 de Hearthstone: Campos de Batalha",
+     "summary": "A 14ª Temporada dos Campos de Batalha, 'Presentes Sombrios de Dalaran', chegou trazendo o sistema de Presentes Sombrios, a nova palavra-chave 'Gastar', mecânicas de Cofre e Isca de Peixe, berloques e uma grande reformulação de lacaios. Além disso, sete heróis receberam melhorias, a palavra-chave Venenoso foi atualizada e a legibilidade de números acima de 4 dígitos foi otimizada.",
+     "highlights": [
+      "Adicionado o sistema 'Presentes Sombrios' (use Ouro para descobrir presentes)",
+      "Adicionada a palavra-chave 'Gastar' (gaste Ouro na fase de recrutamento para ativar habilidades)",
+      "Introduzidas sinergias de Pirata 'Cofre' e Fera 'Isca de Peixe'",
+      "Berloques mantidos junto a uma grande reformulação de lacaios e magias da taverna",
+      "Atualização na palavra-chave Venenoso e Draco Cromático, além de compressão de números grandes",
+      "Trilha dos Campos de Batalha da 14ª Temporada e novos heróis/visuais adicionados"
+     ],
+     "buffs": [
+      "Kariel Rom: Custo do Poder Heroico 1 -> 0",
+      "Mecano-Enfeitiçado: O Poder Heroico é disparado duas vezes",
+      "Edwin VanCleef: Comprar 5 cartas -> 4 cartas para aprimorar",
+      "Alto-senhor Saurofang: Comprar 4 lacaios -> 3 lacaios para melhorar",
+      "Ragnaros, o Senhor do Fogo: Comprar 16 cartas -> 12 cartas para obter Sulfuras",
+      "Rakanishu: A cada 4 turnos -> 3 turnos para aprimorar",
+      "Tetheran Bloodwatcher: O quarto -> terceiro feitiço da taverna custa (0)"
+     ],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1839676055895261",
    "appid": 304930,
    "game": "언턴드",
@@ -19280,6 +20434,69 @@
       "Fixed server prefab component ordering exception issues",
       "Fixed compatibility between classic canned beans skins and eating animations"
      ]
+    }
+   }
+  },
+  {
+   "gid": "1839676055889982",
+   "appid": 2157560,
+   "game": "그랑블루 판타지 버서스 라이징",
+   "date": 1785558434,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055889982",
+   "origTitle": "Battle Season 13 begins today!",
+   "title": "배틀 시즌 13 개시",
+   "summary": "그랑블루 판타지 버서스 라이징의 배틀 시즌 13이 시작되었습니다. 시즌 12 그랜드 마스터 보상은 순위 확정 후 며칠 내로 선물 상자에 지급됩니다.",
+   "highlights": [
+    "배틀 시즌 13 시작",
+    "시즌 12 그랜드 마스터 보상 순차 지급 예정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Battle Season 13 Begins",
+     "summary": "Battle Season 13 for Granblue Fantasy Versus: Rising is now underway. Grand Master rewards for Season 12 will be distributed to gift crates after rankings are finalized.",
+     "highlights": [
+      "Battle Season 13 is now live",
+      "Season 12 Grand Master rewards to be distributed soon"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "バトルパスシーズン13開幕",
+     "summary": "『グランブルーファンタジーヴァーサス -ライジング-』にてバトルシーズン13が開始されました。シーズン12のグランドマスター報酬は、ランキング確定後に順次プレゼントボックスに配布されます。",
+     "highlights": [
+      "バトルシーズン13開幕",
+      "シーズン12グランドマスター報酬の順次配布予定"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "战斗赛季 13 现已开启",
+     "summary": "《碧蓝幻想 Versus：崛起》战斗赛季 13 已正式开启。赛季 12 的宗师奖励将在排名确定后发放至礼物箱中。",
+     "highlights": [
+      "战斗赛季 13 现已开启",
+      "赛季 12 宗师奖励将陆续发放"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Batalha da Temporada 13 Inicia",
+     "summary": "A Temporada 13 de Batalha de Granblue Fantasy Versus: Rising já começou. As recompensas de Grão-Mestre da Temporada 12 serão distribuídas para a caixa de presentes após a finalização dos rankings.",
+     "highlights": [
+      "Temporada 13 de Batalha iniciada",
+      "Recompensas de Grão-Mestre da Temporada 12 serão enviadas em breve"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
     }
    }
   },
@@ -19684,6 +20901,260 @@
    }
   },
   {
+   "gid": "1839041357036785",
+   "appid": 3950020,
+   "game": "듀엣 나이트 어비스",
+   "date": 1785188462,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357036785",
+   "origTitle": "Duet Night Abyss – July 28, 2026 [Paradise Prelude] Version Update Notes",
+   "title": "듀엣 나이트 어비스 '낙원의 서곡' 버전 업데이트 안내",
+   "summary": "7월 28일 업데이트를 통해 신규 물 속성 캐릭터 '아다'와 다양한 무기, 사이드퀘스트 및 이벤트가 추가되었습니다. 점검 보상으로 300 Phoxene 등이 지급되며, 새로운 비밀 서한 로테이션과 데몬 웨지가 도입되었습니다.",
+   "highlights": [
+    "신규 물 속성 캐릭터 '아다' 추가",
+    "신규 무기 'The Best Day', 'Sanguis Sanctus', 'Obsidian Heart-Reaper' 및 'Sovereign Ember' 추가",
+    "신규 사이드 퀘스트 및 이벤트 'Bloomfield Station: Tales Untold' 등 추가",
+    "새로운 비밀 서한 로테이션 및 데몬 웨지 도입"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Duet Night Abyss 'Paradise Prelude' Version Update",
+     "summary": "The July 28 update introduces the new Hydro character 'Ada', new weapons, side quests, and events. Maintenance compensation includes 300 Phoxene and other items, alongside new Secret Letter rotations and Demon Wedges.",
+     "highlights": [
+      "Added new Hydro character 'Ada'",
+      "Added new weapons: 'The Best Day', 'Sanguis Sanctus', 'Obsidian Heart-Reaper', and 'Sovereign Ember'",
+      "Added new side quests and events such as 'Bloomfield Station: Tales Untold'",
+      "Introduced new Secret Letter rotations and Demon Wedges"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "デュ엣 나이트 어비스「楽園の前奏曲」バージョンアップのお知らせ",
+     "summary": "7月28日のアップデートにて、新水属性キャラクター「エイダ」、新武器、サイドクエスト、イベントが追加されました。メンテナンス報酬として300 Phoxeneなどが配布され、新たなシークレットレターや魔導楔（デーモンウェッジ）が導入されました。",
+     "highlights": [
+      "新水属性キャラクター「エイダ」を追加",
+      "新武器「The Best Day」「Sanguis Sanctus」「Obsidian Heart-Reaper」「Sovereign Ember」を追加",
+      "新サイドクエストおよびイベント「Bloomfield Station: Tales Untold」等を追加",
+      "新しいシークレットレターのローテーションと魔導楔を導入"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "《双生视界：深渊》“乐园前奏”版本更新说明",
+     "summary": "7月28日更新推出了全新水属性角色“艾达”、新武器、支线任务及活动。维护补偿包含300 Phoxene等奖励，并引入了全新的秘信轮换和魔楔系统。",
+     "highlights": [
+      "新增水属性角色“艾达”",
+      "新增武器“The Best Day”、“Sanguis Sanctus”、“Obsidian Heart-Reaper”与“Sovereign Ember”",
+      "新增支线任务及“Bloomfield Station: Tales Untold”等活动",
+      "推出全新的秘信轮换与魔楔"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização da Versão 'Prelúdio do Paraíso' de Duet Night Abyss",
+     "summary": "A atualização de 28 de julho introduz a nova personagem Hydro 'Ada', novas armas, missões secundárias e eventos. A compensação de manutenção inclui 300 Phoxene, além de novas rotações de Carta Secreta e Cunhos Demoníacos.",
+     "highlights": [
+      "Adicionada a nova personagem Hydro 'Ada'",
+      "Adicionadas novas armas: 'The Best Day', 'Sanguis Sanctus', 'Obsidian Heart-Reaper' e 'Sovereign Ember'",
+      "Adicionadas novas missões secundárias e eventos como 'Bloomfield Station: Tales Untold'",
+      "Introduzidas novas rotações de Cartas Secretas e Cunhos Demoníacos"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1839041357036705",
+   "appid": 3950020,
+   "game": "듀엣 나이트 어비스",
+   "date": 1785185074,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357036705",
+   "origTitle": "Duet Night Abyss – July 28, 2026 [Paradise Prelude] Version Update Notes",
+   "title": "7월 28일 [낙원의 전조] 버전 업데이트 안내",
+   "summary": "듀엣 나이트 어비스가 7월 28일 [낙원의 전조] 버전으로 대규모 업데이트를 진행합니다. 신규 물 속성 캐릭터 '에이다', 신규 무기 및 비밀 편지 로테이션, 그리고 다양한 신규 스토리와 이벤트가 추가됩니다.",
+   "highlights": [
+    "신규 물 속성 캐릭터 '에이다' 및 신규 무기 추가",
+    "신규 스토리 퀘스트 및 사이드 퀘스트 5종 추가",
+    "비밀 편지 및 녹턴 에코즈 스테이지 보상 로테이션 개편",
+    "신규 이벤트 [블룸필드 정류장: 전해지지 않은 이야기] 및 [하얀 밤의 녹턴] 개최",
+    "신규 캐릭터 및 무기 마석(데몬 웨지) 추가",
+    "점검 보상으로 포시센 300개 및 육성 재화 지급"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "July 28 [Paradise Prelude] Version Update",
+     "summary": "Duet Night Abyss receives the [Paradise Prelude] version update on July 28, bringing the new Hydro character 'Ada', new weapons, secret letter rotations, and various new story quests and events.",
+     "highlights": [
+      "Added new Hydro character 'Ada' and new weapons",
+      "Added new side quests and story content",
+      "Updated Secret Letter and Nocturnal Echoes reward rotations",
+      "New events including [Bloomfield Station: Tales Untold] and [Nocturne in White]",
+      "Added new character and weapon Demon Wedges",
+      "Maintenance compensation including 300 Phoxene and upgrade materials"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "7月28日「楽園の前奏曲」バージョンアップのお知らせ",
+     "summary": "『デュ엣 나이트 어비스』（デュエットナイトアビス）は7月28日に「楽園の前奏曲」バージョンへアップデートを実施します。新水属性キャラクター「エイダ」、新武器、シークレットレターのローテーション、および新しいストーリーやイベントが追加されます。",
+     "highlights": [
+      "新水属性キャラクター「エイダ」および新武器の実装",
+      "新規サイドクエストおよびストーリーの追加",
+      "シークレットレターおよび夜の残響の報酬ローテーション更新",
+      "新イベント「ブルームフィールド駅：語られざる物語」および「白夜の夜想曲」の開催",
+      "新キャラクターおよび武器の魔石（デモンウェッジ）の追加",
+      "メンテナンスのお詫びとしてフォクセン300個などを配付"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "7月28日【乐园序曲】版本更新说明",
+     "summary": "《双相回音》将于7月28日进行【乐园序曲】版本更新，推出全新水属性角色“艾达”、全新武器、密函轮换，以及多项全新剧情任务与活动。",
+     "highlights": [
+      "新增水属性角色“艾达”及多款新武器",
+      "新增5个支线任务及相关剧情",
+      "更新密函与夜色回响关卡奖励轮换",
+      "开启【布鲁姆菲尔德站：未竟的故事】与【白夜夜想曲】等新活动",
+      "新增多款角色与武器魔楔",
+      "发放维护补偿：Phoxene×300及养成材料"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização da Versão [Prelúdio do Paraíso] em 28 de Julho",
+     "summary": "Duet Night Abyss recebe a atualização da versão [Prelúdio do Paraíso] em 28 de julho, trazendo a nova personagem Hydro 'Ada', novas armas, rotações de Cartas Secretas e vários novos eventos e missões de história.",
+     "highlights": [
+      "Adicionada a nova personagem Hydro 'Ada' e novas armas",
+      "Novas missões secundárias e de história adicionadas",
+      "Atualização nas rotações de recompensas de Cartas Secretas e Eco Noturno",
+      "Novos eventos incluindo [Estação Bloomfield: Histórias Ocultas] e [Noturno em Branco]",
+      "Adicionadas novas Cunhas de Demônio para personagens e armas",
+      "Compensação de manutenção incluindo 300 Phoxene e materiais de aprimoramento"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1839041357023152",
+   "appid": 2170050,
+   "game": "울프팀: 리부트",
+   "date": 1784700505,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357023152",
+   "origTitle": "Update Announcement: 2026 July 23th",
+   "title": "7월 23일 업데이트 안내",
+   "summary": "울프팀: 리부트가 7월 23일 서버 점검을 통해 업데이트를 진행합니다. 새로운 쇼군 무기 세트, 캐릭터, 시스템 개선 및 버그 수정이 적용됩니다.",
+   "highlights": [
+    "신규 무기 AEPC-9 SHOGUN, DHS-D2 SHOGUN, PEACEMAKER SHOGUN 추가",
+    "신규 타투 및 스티커, 캐릭터(Ruslan Ionov - Camo, Kyle Worker - Camo) 추가",
+    "선물 상자 내 [Claim Page] 기능 추가",
+    "푸시 마인 데미지 상향 (160에서 220으로 증가)"
+   ],
+   "buffs": [
+    "푸시 마인 데미지 증가 (160 -> 220)"
+   ],
+   "nerfs": [],
+   "fixes": [
+    "Camp RedRoof 맵 버그 수정",
+    "부활(respawn) 관련 버グ 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "July 23 Update Announcement",
+     "summary": "Wolfteam: Reboot is releasing an update on July 23. This update brings new Shogun weapon sets, characters, system improvements, and bug fixes.",
+     "highlights": [
+      "Added new Shogun weapons, tattoos, and stickers",
+      "Added new characters Ruslan Ionov - Camo and Kyle Worker - Camo",
+      "Added a new [Claim Page] feature to the Gift Box",
+      "Increased push mine damage from 160 to 220"
+     ],
+     "buffs": [
+      "Increased push mine damage (160 -> 220)"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed bugs on the Camp RedRoof map",
+      "Fixed the respawn bug"
+     ]
+    },
+    "ja": {
+     "title": "7月23日アップデートのお知らせ",
+     "summary": "ウルフチーム：リブート（Wolfteam: Reboot）は7月23日にアップデートを実施します。新たなショー군（SHOGUN）武器セット、キャラクター、システム改善およびバグ修正が行われます。",
+     "highlights": [
+      "新規武器AEPC-9 SHOGUN、DHS-D2 SHOGUN、PEACEMAKER SHOGUNの追加",
+      "新規タトゥー、ステッカー、キャラクター（Ruslan Ionov - Camo、Kyle Worker - Camo）の追加",
+      "ギフトボックスに新しい[Claim Page]機能を追加",
+      "プッシュマインのダメージを増加（160→220）"
+     ],
+     "buffs": [
+      "プッシュマインのダメージ増加 (160 -> 220)"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Camp RedRoofマップのバグ修正",
+      "リスポーンバグの修正"
+     ]
+    },
+    "zh": {
+     "title": "7月23日更新公告",
+     "summary": "《狼队：重启》（Wolfteam: Reboot）将于7月23日进行更新。本次更新带来了全新的Shogun武器套装、角色、系统优化以及错误修复。",
+     "highlights": [
+      "新增AEPC-9 SHOGUN、DHS-D2 SHOGUN、PEACEMAKER SHOGUN武器",
+      "新增纹身、贴纸以及角色（Ruslan Ionov - Camo、Kyle Worker - Camo）",
+      "礼物盒新增 [Claim Page] 功能",
+      "推力地雷伤害从 160 增加到 220"
+     ],
+     "buffs": [
+      "增加推力地雷伤害 (160 -> 220)"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "修复 Camp RedRoof 地图的错误",
+      "修复复活（respawn）错误"
+     ]
+    },
+    "pt": {
+     "title": "Anúncio de Atualização de 23 de Julho",
+     "summary": "O Wolfteam: Reboot receberá uma atualização em 23 de julho. A atualização inclui novos conjuntos de armas Shogun, personagens, melhorias de sistema e correções de bugs.",
+     "highlights": [
+      "Adicionados novos conjuntos de armas, tatuagens e adesivos Shogun",
+      "Adicionados novos personagens Ruslan Ionov - Camo e Kyle Worker - Camo",
+      "Adicionado o novo recurso [Claim Page] na Caixa de Presentes",
+      "Aumento do dano da mina de impulso de 160 para 220"
+     ],
+     "buffs": [
+      "Aumento do dano da mina de impulso (160 -> 220)"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Correção de bugs no mapa Camp RedRoof",
+      "Correção do bug de renascimento (respawn)"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1838407329258435",
    "appid": 4125930,
    "game": "퍼니싱: 그레이 레이븐",
@@ -19883,6 +21354,104 @@
      "buffs": [],
      "nerfs": [],
      "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1836506165580665",
+   "appid": 261550,
+   "game": "마운트 앤 블레이드 II: 배너로드",
+   "date": 1783516947,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165580665",
+   "origTitle": "Patch Notes - WS v1.2.7 / BL v1.4.7",
+   "title": "마운트 앤 블레이드 II: 배너로드 v1.4.7 및 워 세일즈 v1.2.7 패치",
+   "summary": "워 세일즈 확장팩과 배너로드 본편을 위한 신규 패치가 배포되었습니다. 해상 약탈 편의성 개선, PS5 로딩 시간 단축, 그리고 다양한 플랫폼의 치명적인 충돌 및 버그가 수정되었습니다.",
+   "highlights": [
+    "해상 마을 약탈 시 수동 함선 선택 기능 추가",
+    "함선에 마우스 호버 시 소유주 툴팁 표시",
+    "PS5 플랫폼의 저장 및 불러오기 시간 단축",
+    "배너 리더의 문장 레이어 제한 해제"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "방패가 포함된 함선 업그레이드와 겹치는 위치에서 승선용 갈고리가 비활성화되던 버그 수정",
+    "워 세일즈 스토리라인 중 '구나르의 계약 환영' 옵션이 나타나지 않던 문제 해결",
+    "플레이어 캐릭터 뒤에 있는 부대를 잘못 지정하던 진형 타겟팅 버그 수정",
+    "AI 행동 코드 및 캠페인 지도에서 발생하던 여러 충돌 현상 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Mount & Blade II: Bannerlord WS v1.2.7 / BL v1.4.7 Patch",
+     "summary": "A new update has been released for the War Sails expansion and the base game. It introduces quality-of-life features for naval raids, improves PS5 loading times, and fixes numerous crashes and bugs across platforms.",
+     "highlights": [
+      "Added manual ship selection for seaborne village raids",
+      "Added ship owner tooltips when hovering over vessels",
+      "Improved save and load times on PS5",
+      "Made banner layers unlimited in the banner reader"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a bug causing boarding hooks to be disabled on overlapping ship shield upgrades",
+      "Fixed missing 'Hail to Gunnar's contract' option in the War Sails storyline",
+      "Fixed formation targeting incorrectly selecting formations behind the player",
+      "Fixed multiple crashes related to AI behavior, campaign map actions, and memory issues"
+     ]
+    },
+    "ja": {
+     "title": "マウント＆ブレイド II: バナーロード WS v1.2.7 / BL v1.4.7 パッチ",
+     "summary": "「War Sails」拡張パックとゲーム本編に向けた新しいパッチが配信されました。海上の村襲撃の利便性向上、PS5でのロード時間短縮、および各種プラットフォームでのクラッシュやバグ修正が含まれています。",
+     "highlights": [
+      "海上の村襲撃時の手動艦艇選択機能を追加",
+      "艦艇にカーソルを合わせると所有者が表示されるツールチップを追加",
+      "PS5でのセーブおよびロード時間を短縮",
+      "バナーリーダーのバナーレイヤー数を無制限に変更"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "シールド付き艦艇アップグレードと重なる場所で乗り込みフックが無効化される不具合を修正",
+      "War Sailsストーリーラインで「グナーの契約に乾杯」の選択肢が表示されない不具合を修正",
+      "プレイヤーキャラクターの後方にある陣形を誤って選択するターゲットの不具合を修正",
+      "AIの行動コードやキャンペーンマップなどで発生していた多数のクラッシュを修正"
+     ]
+    },
+    "zh": {
+     "title": "骑马与砍杀2：霸主 WS v1.2.7 / BL v1.4.7 更新补丁",
+     "summary": "骑马与砍杀2本体及“战帆 (War Sails)”扩展包迎来了全新更新。本次更新带来了海上劫掠的便利性改进、PS5加载时间缩短，并修复了多个平台上的崩溃和漏洞。",
+     "highlights": [
+      "海上村庄劫掠新增手动选择船只功能",
+      "悬停在船只上时可查看其所有者的提示信息",
+      "改善了PS5上的保存和加载时间",
+      "取消了旗帜阅读器中旗帜图层的数量限制"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了登船钩爪在与带盾的船只升级重叠时失效的漏洞",
+      "修复了“战帆”剧情中“向贡纳尔的契约致敬”选项不显示的问题",
+      "修复了阵型锁定错误选中玩家角色身后阵型的漏洞",
+      "修复了AI行为代码、战役地图及其他场景中发生的多次崩溃问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização Mount & Blade II: Bannerlord WS v1.2.7 / BL v1.4.7",
+     "summary": "Uma nova atualização foi lançada para a expansão War Sails e para o jogo base. Ela traz melhorias de qualidade de vida para invasões navais, tempos de carregamento mais rápidos no PS5 e corrige diversos travamentos e bugs.",
+     "highlights": [
+      "Adicionada seleção manual de navios para invasões de vilas pelo mar",
+      "Adicionada dica de ferramenta com o proprietário ao passar o cursor sobre o navio",
+      "Melhoria nos tempos de salvamento e carregamento no PS5",
+      "Removido o limite de camadas de estandartes no leitor de estandartes"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido bug que desativava ganchos de abordagem em locais sobrepostos com melhorias de escudo",
+      "Corrigido bug que impedia a aparição da opção do contrato de Gunnar na história de War Sails",
+      "Corrigido bug de mira de formação que selecionava incorretamente formações atrás do jogador",
+      "Corrigidos vários travamentos relacionados ao comportamento de IA, mapa de campanha e problemas de memória"
+     ]
     }
    }
   },
@@ -22420,7 +23989,7 @@
    }
   }
  ],
- "updated": 1795795029981,
+ "updated": 1795816406578,
  "merged": [
   "1849827110445079",
   "1849827110428767",
