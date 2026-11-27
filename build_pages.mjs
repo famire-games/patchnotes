@@ -75,7 +75,7 @@ for (const i of items) {
     const sec = (h, a, c = '') => a?.length ? `<h2 class="${c}">${h}</h2><ul>${a.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '';
     const title = `${t.title} – ${g} ${U.pn}`;
     const body = `<div class="meta"><a href="${pre(L)}/g/${gslug(i)}">${esc(g)}</a> · <time datetime="${iso(i.date)}">${day(i.date, L)}</time></div>
-<h1>${esc(t.title)}</h1>${i.img ? `<img class="hero" src="${esc(i.img)}" alt="${esc(g)}" loading="lazy">` : ''}
+<h1>${esc(t.title)}</h1>${i.maint ? `<p class="meta"><b>UTC ${new Date(i.maint.s * 1000).toISOString().slice(0, 16).replace("T", " ")} ~ ${i.maint.e ? new Date(i.maint.e * 1000).toISOString().slice(11, 16) : "?"}</b></p>` : ""}${i.img ? `<img class="hero" src="${esc(i.img)}" alt="${esc(g)}" loading="lazy">` : ''}
 <p>${esc(t.summary)}</p>${sec(U.hl, t.highlights)}${sec(U.buff, t.buffs, 'up')}${sec(U.nerf, t.nerfs, 'down')}${sec(U.fix, t.fixes)}
 <a class="btn" href="/?lang=${L}&p=${encodeURIComponent(PID(i))}">${U.open}</a>
 <p class="meta">${U.src}: <a href="${esc(i.url)}" rel="nofollow noopener" target="_blank">${esc(i.origTitle)}</a></p>`;

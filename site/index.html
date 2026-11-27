@@ -38,6 +38,7 @@ main{padding:18px 16px 60px}
 .tile .ic{aspect-ratio:460/215;background:#0b0d11 center/cover no-repeat;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;color:#fff;text-align:center;padding:10px;letter-spacing:-.5px}
 .tile .ic.txt{background:#000;border-bottom:1px solid #222;word-break:keep-all;line-height:1.25;flex-direction:column;gap:4px}
 .ic .pub,.txtban .pub{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;opacity:.65}.txtban .pub{font-size:14px}
+.mb{display:inline-block;background:#e0a030;color:#1a1406;font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;margin-right:6px;vertical-align:2px}.mt{color:#e0a030;font-weight:600;margin:4px 0 8px}
 .tile .nm{padding:8px 10px 0;font-weight:600;font-size:14px}
 .tile .tt{padding:0 10px 10px;color:var(--mute);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
@@ -170,13 +171,16 @@ async function saveProf(){const n=$('pfNick').value.trim(),m=$('pfMsg');
  catch(e){console.error(e);m.style.color='var(--down)';m.textContent=e.message==='taken'?T('nick_taken'):T('save_fail')}}
 function openDrawer(){$('drawer').classList.add('open');$('shade').classList.add('open')}
 function closeDrawer(){$('drawer').classList.remove('open');$('shade').classList.remove('open')}
+// 점검 글: "11/28 UTC 02:00~06:00 (약 4시간) 동안 점검 예상"
+function MT(i){const m=i.maint;if(!m)return'';const f=t=>new Date(t*1000).toISOString().slice(11,16),s=new Date(m.s*1000);
+ const d=(s.getUTCMonth()+1)+'/'+s.getUTCDate(),h=m.e?Math.round((m.e-m.s)/360)/10:'?';return T('maint_line',d,f(m.s),m.e?f(m.e):'?',h)}
 function detail(o){
  const i={...o,...TX(o)};
  const url=typeof i.appid==='string'?i.url:`https://store.steampowered.com/news/app/${i.appid}/view/${i.gid}`;
  const bal=(i.buffs.length||i.nerfs.length)?`<div class="tags"><div class="box up"><h3>${T('buffs')}</h3>${li(i.buffs)||'<small>'+T('none')+'</small>'}</div><div class="box down"><h3>${T('nerfs')}</h3>${li(i.nerfs)||'<small>'+T('none')+'</small>'}</div></div>`:'';
  return `<button class="x" onclick="closeDlg()">×</button>${ICON(i)?`<img class="hero" src="${ICON(i)}" alt="">`:`<div class="hero txtban" style="${BANBG(i)}">${BANTX(i)}</div>`}<button class="star${favs.has(i.game)&&user?' on':''}" data-fav="${esc(i.game)}" title="${T('fav_game_t')}">${favs.has(i.game)&&user?T('fav_on'):T('fav_off')}</button>
   <div class="meta"><span class="game">${esc(GN(i.game))}</span>·<span>${new Date(i.date*1000).toLocaleDateString(LOC)}</span></div>
-  <h2>${esc(i.title)}</h2><p class="sum">${esc(i.summary)}</p>${li(i.highlights)}${bal}
+  <h2>${i.maint?'<span class="mb">'+T('maint')+'</span>':''}${esc(i.title)}</h2>${i.maint?'<p class="mt">'+esc(MT(i))+'</p>':''}<p class="sum">${esc(i.summary)}</p>${li(i.highlights)}${bal}
   ${i.fixes.length?`<details><summary>${T('fixes',i.fixes.length)}</summary>${li(i.fixes)}</details>`:''}
   <div class="foot"><div class="src">${T('source')}<a href="${url}" target="_blank" rel="noopener">${esc(i.origTitle)}</a></div><button class="allp" data-all="${esc(i.game)}">${esc(T('all_patches',GN(i.game)))}</button></div>
   <div class="cm" id="cm"><small style="color:var(--mute)">${T('cm_loading')}</small></div>`;
@@ -214,7 +218,7 @@ function render(more){
  $('list').innerHTML=[...days].map(([d,a])=>{const cnt=shown.filter(i=>i._k===d).length;
   return `<section class="day"><h2>${d} · ${T('count',cnt)}</h2><div class="tiles">`+a.map(([i,n])=>`<div class="tile" data-i="${n}">${favs.has(i.game)&&user?'<span class="fs">★</span>':''}
    <div class="ic${ICON(i)?'':' txt'}" style="${ICON(i)?`background-image:url('${ICON(i)}')`:BANBG(i)}">${ICON(i)?'':BANTX(i)}</div>
-   <div class="nm">${esc(GN(i.game))}</div><div class="tt">${esc(TX(i).title)}</div></div>`).join('')+'</div></section>'}).join('')+(shown.length>limit?'<div id="more" style="height:40px"></div>':'')||'<p>'+T('no_results')+'</p>';
+   <div class="nm">${i.maint?'<span class="mb">'+T('maint')+'</span>':''}${esc(GN(i.game))}</div><div class="tt">${esc(i.maint?MT(i):TX(i).title)}</div></div>`).join('')+'</div></section>'}).join('')+(shown.length>limit?'<div id="more" style="height:40px"></div>':'')||'<p>'+T('no_results')+'</p>';
  // 아래로 내리면 60개씩 더 그림
  if(io)io.disconnect();
  const m=$('more');if(m){io=new IntersectionObserver(e=>{if(e[0].isIntersecting){limit+=60;render(true)}},{rootMargin:'600px'});io.observe(m)}

@@ -10,6 +10,7 @@ const seen = new Set([...db.items.map(i => i.gid), ...(db.merged || [])]); // me
 const KEY = process.env.GEMINI_API_KEY;
 const MODELS = (process.env.GEMINI_MODEL || 'gemini-flash-lite-latest,gemini-3.8-flash').split(',');
 const PATCH_RE = /patch|update|hotfix|fix|changelog|release notes|version|v\d|season|업데이트|패치/i;
+const MAINT_RE = /maintenance|downtime|server (?:down|outage)|점검|メンテナンス|维护/i;
 const MAX_NEW = +(process.env.MAX_NEW || 40);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -45,7 +46,7 @@ for (const g of games) {
     const r = await fetch(`https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=${g.appid}&count=8&maxlength=0&feeds=steam_community_announcements`);
     const j = await r.json();
     for (const n of j.appnews?.newsitems || []) {
-      if (seen.has(n.gid) || !PATCH_RE.test(n.title)) continue;
+      if (seen.has(n.gid) || !PATCH_RE.test(n.title) && !MAINT_RE.test(n.title)) continue;
       candidates.push({ g, n });
     }
   } catch (e) { console.error('fetch fail', g.name, e.message); }
@@ -229,6 +230,22 @@ try {
   }
 } catch (e) { console.error('오버워치 수집 실패', e.message); }
 
+// 라이엇 서버 상태 (공개 JSON): 예정·진행 중인 점검을 글로 올림
+for (const [appid, name, u] of [['lol', '리그 오브 레전드', 'https://lol.secure.dyn.riotcdn.net/channels/public/x/status/kr1.json'],
+  ['val', '발로란트', 'https://valorant.secure.dyn.riotcdn.net/channels/public/x/status/kr.json']]) try {
+  const j = await (await fetch(u)).json();
+  for (const m of j.maintenances || []) {
+    const gid = appid + '-maint:' + m.id;
+    if (seen.has(gid)) continue;
+    const tr = a => (a || []).filter(t => /ko_KR|en_US/.test(t.locale)).map(t => t.content).join('\n');
+    const title = (m.titles || []).find(t => t.locale === 'ko_KR')?.content || (m.titles || []).find(t => t.locale === 'en_US')?.content || 'Maintenance';
+    candidates.push({ g: { appid, name }, n: { gid, url: appid === 'lol' ? 'https://status.riotgames.com/lol?region=kr1' : 'https://status.riotgames.com/valorant?region=kr', title, img: '',
+      date: Date.parse(m.created_at || m.updated_at) / 1000 || Date.now() / 1000,
+      contents: ['Server maintenance notice (Riot status page). status: ' + m.maintenance_status, 'platforms: ' + (m.platforms || []).join(','),
+        'created: ' + m.created_at, tr(m.titles), ...(m.updates || []).map(x => x.created_at + ': ' + tr(x.translations))].join('\n') } });
+  }
+} catch (e) { console.error(name + ' 서버 상태 실패', e.message); }
+
 candidates.sort((a, b) => b.n.date - a.n.date);
 console.log('새 패치 후보', candidates.length, '→ 요약', Math.min(MAX_NEW, candidates.length));
 
@@ -238,11 +255,12 @@ for (const { g, n } of candidates.slice(0, MAX_NEW)) {
   if (body.length < 80) continue;
   const F = '{"title":"short title","summary":"2-3 sentence summary","highlights":["key changes, max 6"],"buffs":["buffs, [] if none"],"nerfs":["nerfs, [] if none"],"fixes":["bug fixes, max 5"]}';
   const prompt = `Below is the official patch announcement for the game "${g.name}". Summarize it for gamers.
-Never invent anything not in the source. If it is not patch/update content, isPatch=false.
+Never invent anything not in the source. If it is neither patch/update content nor a server maintenance/downtime notice, isPatch=false.
+If it announces server maintenance or downtime, set "maint" to the scheduled window converted to UTC ISO 8601 ({"start":"2026-01-31T02:00:00Z","end":"2026-01-31T06:00:00Z"}, end null if unknown); otherwise "maint":null. For a maintenance notice, the title should say it is maintenance and the summary should say when and what is affected.
 Write the same summary in 5 languages: ko (Korean), en (English), ja (Japanese), zh (Simplified Chinese), pt (Brazilian Portuguese).
 Use each language's official/common names for the game, characters and items.
 Answer with JSON only:
-{"isPatch":bool,"ko":${F},"en":${F},"ja":${F},"zh":${F},"pt":${F}}
+{"isPatch":bool,"maint":null,"ko":${F},"en":${F},"ja":${F},"zh":${F},"pt":${F}}
 
 Title: ${n.title}
 Source:
@@ -254,7 +272,7 @@ ${body}`;
     const ko = pick(s.ko || s.en), i18n = {};
     for (const L of ['en', 'ja', 'zh', 'pt']) if (s[L]?.title) i18n[L] = pick(s[L]);
     db.items.push({ ...(['hs', 'hsbg'].includes(g.appid) && { split: true }), gid: n.gid, appid: g.appid, game: g.name, date: n.date, url: n.url,
-      origTitle: n.title, img: (n.img || '').replace(/&amp;/g, '&') || undefined, ...ko, i18n });
+      origTitle: n.title, ...(s.maint?.start && Date.parse(s.maint.start) && { maint: { s: Date.parse(s.maint.start) / 1000, e: Date.parse(s.maint.end) / 1000 || null } }), img: (n.img || '').replace(/&amp;/g, '&') || undefined, ...ko, i18n });
     added++; console.log('✓', g.name, '-', ko.title);
   } catch (e) { console.error('요약 실패', g.name, e.message); }
   await sleep(1500);
