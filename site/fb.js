@@ -11,7 +11,7 @@ const app = initializeApp({
   appId: '1:656526578409:web:6846bafe40eac8881cd678'
 });
 const auth = getAuth(app), db = getFirestore(app);
-let uid = null, prof = { nick: '', country: '' };
+let admin = false, uid = null, prof = { nick: '', country: '' };
 // 국가 = 접속 IP 로 서버(geo/ Cloudflare Worker)가 판정해 profiles/{uid}.country 에 기록. 사용자는 고를 수 없음
 const GEO_URL = 'https://patchnotes-geo.mingu5207-kim.workers.dev';
 async function detectCountry(u) {
@@ -30,6 +30,7 @@ window.FB = {
   uid: () => uid,
   // 닉네임: users/{uid}.nick (활동은 닉네임으로만), 국가: profiles/{uid}.country (서버가 기록)
   profile: () => prof,
+  isAdmin: () => admin,
   saveProfile: async (nick) => { await setDoc(doc(db, 'users', uid), { nick }, { merge: true }); prof = { ...prof, nick }; },
   getStars: async (pid) => { const s = await getDoc(doc(db, 'patches', pid)); const d = s.exists() ? s.data() : {}; return { stars: d.stars || {}, ctry: d.ctry || {} }; },
   // n = 0 이면 내 별점 취소
@@ -44,6 +45,8 @@ onAuthStateChanged(auth, async (u) => {
   uid = u ? u.uid : null; prof = { nick: '', country: '' };
   let list = [];
   if (u) { try { const s = await getDoc(doc(db, 'users', u.uid)); const d = s.exists() ? s.data() : {}; list = d.favs || []; prof = { nick: d.nick || '', country: '' }; } catch (e) { console.error('즐겨찾기 불러오기 실패', e); } }
+  admin = false;
+  if (u) { try { await getDoc(doc(db, 'admin', 'check')); admin = true; } catch (e) {} }
   if (u) prof.country = await detectCountry(u);
   window.__fbUser = [u, list];
   if (window.onUserChange) window.onUserChange(u, list);

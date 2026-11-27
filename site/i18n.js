@@ -11,6 +11,7 @@
 
   const D = {
     en: {
+      all_rev: n => 'All reviews (' + n + ')', my_rev: 'My reviews only', no_mine: 'You have not left a review yet. Tap "All reviews" to read others.', admin_del: 'Delete (admin)', 
       info_t: g => g + ' info', info_wip: 'The info page for this game is coming soon.', back_patch: 'Back to patch notes', game: 'Game', 
       set_nick: 'Set nickname', country_auto: 'Detected automatically from your connection.', 
       profile: 'Nickname & country', nick: 'Nickname', nick_ph: '2–20 characters', country: 'Country', save: 'Save', saved: 'Saved.', save_fail: 'Could not save.', nick_len: 'Nickname must be 2–20 characters.', nick_need: 'Set a nickname in the menu first.', by_country: 'By country', 
@@ -33,6 +34,7 @@
         'Hearthstone data: Blizzard Entertainment (Battle.net API) · Steam data: Powered by', 'Pokémon data: PokeAPI.']
     },
     ko: {
+      all_rev: n => '모든 평가 보기 (' + n + ')', my_rev: '내 평가만 보기', no_mine: '아직 남긴 평가가 없습니다. 다른 사람 평가는 [모든 평가 보기]를 누르세요.', admin_del: '삭제(관리자)', 
       info_t: g => g + ' 정보', info_wip: '이 게임의 정보 페이지는 준비 중입니다.', back_patch: '패치노트로 돌아가기', game: '게임', 
       set_nick: '닉네임 정하기', country_auto: '접속 위치로 자동으로 정해집니다.', 
       profile: '닉네임·국가', nick: '닉네임', nick_ph: '2~20자', country: '국가', save: '저장', saved: '저장했습니다.', save_fail: '저장하지 못했습니다.', nick_len: '닉네임은 2~20자로 정해 주세요.', nick_need: '메뉴에서 닉네임을 먼저 정해 주세요.', by_country: '국가별', 
@@ -55,6 +57,7 @@
         '하스스톤 데이터 출처: Blizzard Entertainment (Battle.net API) · 스팀 데이터: Powered by', '포켓몬 데이터: PokeAPI.']
     },
     ja: {
+      all_rev: n => 'すべての評価を見る (' + n + ')', my_rev: '自分の評価だけ見る', no_mine: 'まだ評価を書いていません。他の人の評価は［すべての評価を見る］から。', admin_del: '削除（管理者）', 
       info_t: g => g + ' の情報', info_wip: 'このゲームの情報ページは準備中です。', back_patch: 'パッチノートに戻る', game: 'ゲーム', 
       set_nick: 'ニックネーム設定', country_auto: '接続元から自動で判定されます。', 
       profile: 'ニックネーム・国', nick: 'ニックネーム', nick_ph: '2〜20文字', country: '国', save: '保存', saved: '保存しました。', save_fail: '保存できませんでした。', nick_len: 'ニックネームは2〜20文字にしてください。', nick_need: '先にメニューでニックネームを設定してください。', by_country: '国別', 
@@ -77,6 +80,7 @@
         'ハースストーンのデータ：Blizzard Entertainment (Battle.net API) · Steam データ：Powered by', 'ポケモンのデータ：PokeAPI.']
     },
     zh: {
+      all_rev: n => '查看全部评价 (' + n + ')', my_rev: '只看我的评价', no_mine: '你还没有发表评价。点击［查看全部评价］查看他人的评价。', admin_del: '删除（管理员）', 
       info_t: g => g + ' 信息', info_wip: '该游戏的信息页面正在准备中。', back_patch: '返回补丁说明', game: '游戏', 
       set_nick: '设置昵称', country_auto: '根据访问位置自动判定。', 
       profile: '昵称·国家', nick: '昵称', nick_ph: '2~20 个字符', country: '国家/地区', save: '保存', saved: '已保存。', save_fail: '保存失败。', nick_len: '昵称需为 2~20 个字符。', nick_need: '请先在菜单中设置昵称。', by_country: '按国家', 
@@ -99,6 +103,7 @@
         '炉石传说数据来源：Blizzard Entertainment (Battle.net API) · Steam 数据：Powered by', '宝可梦数据：PokeAPI.']
     },
     pt: {
+      all_rev: n => 'Ver todas as avaliações (' + n + ')', my_rev: 'Só as minhas', no_mine: 'Você ainda não avaliou. Toque em "Ver todas as avaliações" para ler as dos outros.', admin_del: 'Excluir (admin)', 
       info_t: g => 'Info de ' + g, info_wip: 'A página de informações deste jogo está em preparação.', back_patch: 'Voltar às notas de patch', game: 'Jogo', 
       set_nick: 'Definir apelido', country_auto: 'Detectado automaticamente pela sua conexão.', 
       profile: 'Apelido e país', nick: 'Apelido', nick_ph: '2–20 caracteres', country: 'País', save: 'Salvar', saved: 'Salvo.', save_fail: 'Não foi possível salvar.', nick_len: 'O apelido deve ter de 2 a 20 caracteres.', nick_need: 'Defina um apelido no menu primeiro.', by_country: 'Por país', 

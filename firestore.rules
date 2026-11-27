@@ -11,6 +11,14 @@ service cloud.firestore {
       return exists(/databases/$(database)/documents/profiles/$(request.auth.uid))
         ? get(/databases/$(database)/documents/profiles/$(request.auth.uid)).data.get('country', '') : '';
     }
+    // 관리자: 이 구글 계정(이메일 인증된 것)만. 사이트 코드에는 이메일이 없음
+    function isAdmin() {
+      return request.auth != null && request.auth.token.email_verified == true
+        && request.auth.token.email in ['mingu5207.kim@gmail.com'];
+    }
+    // 관리자 확인용: 읽을 수 있으면 관리자
+    match /admin/{d} { allow read: if isAdmin(); }
+
     // 로그인 + 닉네임이 있어야 활동 가능
     function member() { return request.auth != null && myNick().size() >= 2; }
 
@@ -59,7 +67,7 @@ service cloud.firestore {
           && request.resource.data.text.size() >= 1 && request.resource.data.text.size() <= 1000
           && request.resource.data.ts == request.time
           && request.resource.data.up.size() == 0 && request.resource.data.down.size() == 0;
-        allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+        allow delete: if (request.auth != null && resource.data.uid == request.auth.uid) || isAdmin();
         allow update: if member()
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['up','down'])
           && request.resource.data.up.diff(resource.data.up).affectedKeys().hasOnly([request.auth.uid])

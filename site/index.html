@@ -83,6 +83,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 .stars button{background:none;border:0;font-size:26px;line-height:1;cursor:pointer;color:#3a3f4a;padding:0 2px}.stars button.on{color:#ffcc33}.stars button:hover{transform:scale(1.15)}
 .cmf{display:flex;gap:8px;margin-bottom:12px}.cmf textarea{flex:1;background:var(--bg);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:8px 10px;font:inherit;resize:vertical;min-height:44px}
 .cmf button,.cmsort button{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:0 16px;font:inherit;font-weight:600;cursor:pointer}
+.cmh{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.cmh h3{margin:0}.allbtn{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:6px 14px;font:inherit;font-weight:600;cursor:pointer;white-space:nowrap}
 .cmsort{display:flex;gap:6px;margin-bottom:8px}.cmsort button{background:none;color:var(--mute);border:1px solid var(--line);padding:3px 10px;font-weight:400;font-size:13px}.cmsort button.on{color:var(--tx);border-color:var(--acc)}
 .cmi{padding:10px 0;border-bottom:1px solid var(--line)}.cmi .h{font-size:13px;color:var(--mute);display:flex;gap:8px;align-items:center}.cmi .h b{color:var(--tx)}.cmi .h .st{color:#ffcc33}
 .cmi p{margin:4px 0 6px;white-space:pre-wrap;word-break:break-word}.flag{vertical-align:-2px;border-radius:2px;margin-right:4px}
@@ -211,11 +212,11 @@ function render(more){
 }
 function closeDlg(){$('dlg').classList.remove('open');cur=null}
 // ===== 커뮤니티: 별점 + 댓글(좋아요/싫어요) — Firestore patches/{pid} =====
-let cur=null,cmSort='new';
+let cur=null,cmSort='new',cmAll=false;
 const PID=i=>String(i.gid||i.url).replace(/[/.#$[]]/g,'_').slice(0,500);
 const ago=t=>{if(!t)return T('just');const s=(Date.now()-t.toMillis())/1000;return s<60?T('just'):s<3600?T('m_ago',Math.floor(s/60)):s<86400?T('h_ago',Math.floor(s/3600)):s<2592000?T('d_ago',Math.floor(s/86400)):t.toDate().toLocaleDateString(LOC)};
 async function loadCm(i){
- cur={pid:PID(i),stars:{},ctry:{},list:[]};const pid=cur.pid;
+ cur={pid:PID(i),stars:{},ctry:{},list:[]};cmAll=false;const pid=cur.pid;
  if(!window.FB){setTimeout(()=>cur&&cur.pid===pid&&loadCm(i),500);return}
  try{const [s,l]=await Promise.all([FB.getStars(pid),FB.comments(pid)]);if(!cur||cur.pid!==pid)return;cur.stars=s.stars;cur.ctry=s.ctry;cur.list=l;drawCm()}
  catch(e){console.error('커뮤니티 불러오기 실패',e);const el=$('cm');if(el)el.innerHTML='<small style="color:var(--mute)">'+T('cm_fail')+'</small>'}
@@ -227,15 +228,16 @@ function drawCm(){
  const el=$('cm');if(!el||!cur)return;const me=user&&FB.uid();
  const v=Object.values(cur.stars),avg=v.length?(v.reduce((a,b)=>a+b,0)/v.length):0,mine=me?cur.stars[me]||0:0;
  const sc=c=>Object.keys(c.up||{}).length-Object.keys(c.down||{}).length;
- const list=[...cur.list].sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);
- el.innerHTML=`<h3>${T('cm_q')}</h3><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ 0.0'}</span><small>${T('rated',v.length)}</small>
+ // 기본은 내 평가(댓글)만, [모든 평가 보기]를 누르면 전부
+ const list=[...cur.list].filter(c=>cmAll||(me&&c.uid===me)).sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);const adm=FB.isAdmin();
+ el.innerHTML=`<div class="cmh"><h3>${T('cm_q')}</h3><button class="allbtn" data-all-rev>${cmAll?T('my_rev'):T('all_rev',cur.list.length)}</button></div><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ 0.0'}</span><small>${T('rated',v.length)}</small>
   <span class="stars" title="${me?T('my_star_t'):T('login_star_t')}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${mine?'<small>'+T('my_star',mine)+'</small>':''}</div>${ctryLine()}
   <h3>${T('comments',cur.list.length)}</h3>
   <div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?T('cm_ph'):T('cm_ph_login')}"></textarea><button data-post>${T('post')}</button></div>
-  ${cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">${T('newest')}</button><button data-sort="best" class="${cmSort==='best'?'on':''}">${T('best')}</button></div>`:''}
+  ${cmAll&&cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">${T('newest')}</button><button data-sort="best" class="${cmSort==='best'?'on':''}">${T('best')}</button></div>`:''}
   ${list.map(c=>{const u=me&&c.up&&c.up[me],d=me&&c.down&&c.down[me],st=cur.stars[c.uid];
-   return `<div class="cmi"><div class="h"><b>${FLAG(c.country)}${esc(c.name||T('user'))}</b>${st?'<span class="st">'+'★'.repeat(st)+'</span>':''}<span>${ago(c.ts)}</span>${me===c.uid?`<button class="del" data-del="${c.id}">${T('del')}</button>`:''}</div>
-   <p>${esc(c.text)}</p><div class="v"><button class="u${u?' on':''}" data-vote="${c.id}" data-v="1">👍 ${Object.keys(c.up||{}).length}</button><button class="d${d?' on':''}" data-vote="${c.id}" data-v="-1">👎 ${Object.keys(c.down||{}).length}</button></div></div>`}).join('')||'<small style="color:var(--mute)">'+T('first_cm')+'</small>'}`;
+   return `<div class="cmi"><div class="h"><b>${FLAG(c.country)}${esc(c.name||T('user'))}</b>${st?'<span class="st">'+'★'.repeat(st)+'</span>':''}<span>${ago(c.ts)}</span>${me===c.uid?`<button class="del" data-del="${c.id}">${T('del')}</button>`:adm?`<button class="del" data-del="${c.id}" style="color:var(--down)">${T('admin_del')}</button>`:''}</div>
+   <p>${esc(c.text)}</p><div class="v"><button class="u${u?' on':''}" data-vote="${c.id}" data-v="1">👍 ${Object.keys(c.up||{}).length}</button><button class="d${d?' on':''}" data-vote="${c.id}" data-v="-1">👎 ${Object.keys(c.down||{}).length}</button></div></div>`}).join('')||'<small style="color:var(--mute)">'+(cmAll||!cur.list.length?T('first_cm'):T('no_mine'))+'</small>'}`;
 }
 function cmErr(m){console.error(m);const el=$('cm');if(!el)return;let t=el.querySelector('.cmerr');if(!t){t=document.createElement('small');t.className='cmerr';t.style.cssText='color:var(--down);display:block;margin-bottom:8px';el.prepend(t)}t.textContent=m;clearTimeout(t._h);t._h=setTimeout(()=>t.remove(),3000)}
 function needLogin(){if(!user){closeDlg();alertLogin();return true}
@@ -243,6 +245,7 @@ function needLogin(){if(!user){closeDlg();alertLogin();return true}
 $('body').addEventListener('click',async e=>{
  if(!cur)return;const pid=cur.pid,me=user&&FB.uid();
  const r=e.target.closest('[data-rate]');if(r){if(needLogin())return;let n=+r.dataset.rate;if(cur.stars[me]===n){n=0;delete cur.stars[me];delete cur.ctry[me]}else{cur.stars[me]=n;cur.ctry[me]=FB.profile().country||''}drawCm();FB.rate(pid,n).catch(async er=>{console.error(er);try{const s=await FB.getStars(pid);cur.stars=s.stars;cur.ctry=s.ctry}catch(_){}drawCm();cmErr(T('err_star'))});return}
+ if(e.target.closest('[data-all-rev]')){cmAll=!cmAll;drawCm();return}
  const s=e.target.closest('[data-sort]');if(s){cmSort=s.dataset.sort;drawCm();return}
  if(e.target.closest('[data-post]')){if(needLogin())return;const t=$('cmTxt').value.trim();if(!t)return;e.target.disabled=true;
   try{await FB.addComment(pid,t);cur.list=await FB.comments(pid);drawCm()}catch(er){console.error(er);e.target.disabled=false;cmErr(T('err_post'))}return}
