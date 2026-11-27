@@ -1,6 +1,79 @@
 {
  "items": [
   {
+   "gid": "1850460852988679",
+   "appid": 1049590,
+   "game": "이터널 리턴",
+   "date": 1795769333,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852988679",
+   "origTitle": "13.2b Hotfix",
+   "title": "13.2b 핫픽스",
+   "summary": "이터널 리턴 13.2b 핫픽스가 적용되었습니다. 게임을 재시작하여 업데이트를 다운로드할 수 있습니다. 특정 상황에서 아이템 상호작용이 불가능하던 문제가 수정되었습니다.",
+   "highlights": [
+    "13.2b 핫픽스 적용",
+    "아이템 상호작용 오류 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "특정 상황에서 아이템과 상호작용할 수 없던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "13.2b Hotfix",
+     "summary": "The 13.2b Hotfix has been released for Eternal Return. Please restart the game to download the update. This hotfix resolves an issue where item interactions were impossible in certain situations.",
+     "highlights": [
+      "13.2b Hotfix released",
+      "Fixed item interaction issue"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where interaction with items was impossible in certain situations."
+     ]
+    },
+    "ja": {
+     "title": "13.2bホットフィックス",
+     "summary": "『이터널 리턴（Eternal Return）』の13.2bホットフィックスが適用されました。ゲームを再起動してアップデートをダウンロードしてください。特定状況でアイテムとのインタラクションができなかった問題が修正されました。",
+     "highlights": [
+      "13.2bホットフィックス適用",
+      "アイテム相互作用の不具合修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "特定状況においてアイテムとのインタラクションが不可能だった問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "13.2b 热修复",
+     "summary": "永恒轮回 13.2b 热修复已上线。请重启游戏以下载更新。本次修复了在某些情况下无法与物品进行交互的问题。",
+     "highlights": [
+      "上线 13.2b 热修复",
+      "修复物品交互问题"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了在特定情况下无法与物品进行交互的问题"
+     ]
+    },
+    "pt": {
+     "title": "Hotfix 13.2b",
+     "summary": "O Hotfix 13.2b foi lançado para Eternal Return. Reinicie o jogo para baixar a atualização. Esta correção resolve um problema em que a interação com itens era impossível em certas situações.",
+     "highlights": [
+      "Hotfix 13.2b lançado",
+      "Correção de interação com itens"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Correção de um problema em que a interação com itens era impossível em certas situações."
+     ]
+    }
+   }
+  },
+  {
    "gid": "1850460852987922",
    "appid": 3164330,
    "game": "인피니티 니키",
@@ -2907,13 +2980,13 @@
    "i18n": {
     "en": {
      "title": "Hearthstone Patch 37.2 Preview — Battlegrounds Season 15: Twisted Empire",
-     "summary": "Battlegrounds Season 15 begins on December 1 with Patch 37.2. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are rotated out. A limited-time 2v2 Tavern Brawl will also open. (Based on official preview, final details are subject to change)",
+     "summary": "Battlegrounds Season 15 begins with Patch 37.2 on December 1st. Three new keywords and two new heroes are added, the Timewarped Tavern returns, and Trinkets are rotating out this season. A limited-time 2v2 Tavern Brawl will also be held. (Based on the official preview; final content is subject to change.)",
      "highlights": [
-      "Battlegrounds Season 15 'Twisted Empire' starts December 1, Battlegrounds MMR reset",
-      "New keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
-      "New heroes: Eternus, Boss Vancleef (Hero Power 'Sharp Strategy')",
-      "Return of Timewarp Tavern: Purchase special cards using Chronum on turns 6 and 9",
-      "Trinkets rotated out, Stealth keyword removed from the bonus pool",
+      "Battlegrounds Season 15 'Twisted Empire' launches December 1st; Battlegrounds rating reset",
+      "New Keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Genesis (Tavern Spells that synergize well with Elementals)",
+      "New Heroes: Eternus, Boss Vancleef (Hero Power 'Sharp Strategy')",
+      "Return of the Timewarped Tavern: Purchase special cards using Chronum on turns 6 and 9",
+      "Trinkets rotated out of the season; Stealth keyword excluded from the bonus pool",
       "Limited-time 2v2 Tavern Brawl"
      ],
      "buffs": [],
@@ -10404,19 +10477,19 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "Umamusume October 30 Update",
-     "summary": "In this unmaintained update, the new playable ★3 Umamusume Aines Fushigin and new support card pickup were released, and the \"Agnes Tachyon's Factor Research\" event began.",
+     "title": "Uma Musume October 30 Update",
+     "summary": "In an unmaintained update, the new playable ★3 Uma Musume Aines Fujin and new support card banner were released, alongside the 'Agnes Tachyon's Factor Research' event.",
      "highlights": [
-      "★3 Aines Fushigin",
+      "★3 Aines Fujin",
       "SSR Mejiro Ryan",
       "SR Kawakami Princess",
-      "Event \"Agnes Tachyon's Factor Research\" (10/30 - 11/10)"
+      "Event 'Agnes Tachyon's Factor Research' (10/30 - 11/10)"
      ],
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed mistranslations and spacing errors in home voice lines and training events",
-      "Fixed line breaks in Tamamo Cross SSR episodes"
+      "Fixed mistranslations and spacing errors in home screen voice lines and training events",
+      "Fixed line breaks in Tamamo Cross SSR episode"
      ]
     }
    }
@@ -11014,6 +11087,89 @@
    }
   },
   {
+   "gid": "1847920302232072",
+   "appid": 1190970,
+   "game": "하우스 플리퍼 2",
+   "date": 1793208873,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232072",
+   "origTitle": "🧱 The Custom Materials Update is HERE! 🤯",
+   "title": "커스텀 재질 업데이트 출시",
+   "summary": "하우스 플리퍼 2에 커스텀 재질을 지원하는 첫 번째 콘텐츠 업데이트가 적용되었습니다. 이제 플레이어는 모드닷아이오(Mod.io)를 통해 커스텀 재질을 만들고 공유할 수 있으며, 멀티플레이 및 협동 플레이 시 필요한 파일이 자동으로 동기화됩니다. 또한 렌더링 파이프라인 성능 최적화와 함께 낮과 밤 주기를 비활성화하는 기능이 추가되었습니다.",
+   "highlights": [
+    "샌드박스 및 스토리 모드에서 커스텀 재질(벽지, 가구 패턴, 목재 등) 추가 가능",
+    "Mod.io의 커스텀 하우스 및 작업에 필요한 커스텀 에셋 자동 다운로드 지원",
+    "협동 플레이(크로스플레이 포함) 시 커스텀 재질 및 커스텀 사진 자동 동기화",
+    "게임 내 Mod.io 브라우저 개편 및 콘텐츠 라이브러리 추가",
+    "블렌더 애드온 및 웹 업로더를 통한 커스텀 재질 제작 지원",
+    "낮과 밤 주기(Day/Night cycle) 비활성화 기능 추가 및 렌더링 성능 최적화"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "The Custom Materials Update Is Here",
+     "summary": "House Flipper 2 has released the Custom Materials Update, bringing the first wave of expanded community-made custom content support. Players can now create and use custom wallpapers, patterns, and textures across modes, with automatic downloading and syncing for co-op and Mod.io files. Additionally, the update features rendering optimizations, a new in-game content library, and the ability to disable the day/night cycle.",
+     "highlights": [
+      "Added ability to create and use Custom Materials in Sandbox and Story modes",
+      "Mod.io houses and jobs now automatically list and download missing Custom Assets",
+      "Automatic synchronization of Custom Materials and Custom Pictures in Co-op",
+      "Refreshed in-game Mod.io browser and new in-game Content Library",
+      "Blender Addon and web uploader introduced for custom material creation",
+      "Added option to disable the Day/Night cycle and improved rendering pipeline performance"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "カスタムマテリアル・アップデート配信",
+     "summary": "『ハウス・フリッパー 2』にカスタムマテリアル機能を追加するアップデートが配信されました。Mod.ioを介したカスタム素材の作成や利用が可能になり、協力プレイ時の自動同期や、Mod.ioアセットの自動ダウンロードに対応しています。さらに、描画パイプラインの最適化や昼夜サイクルの無効化機能などが追加されました。",
+     "highlights": [
+      "サンドボックスおよびストーリーモードでカスタムマテリアルの追加と使用が可能に",
+      "Mod.ioの家やジョブで必要なカスタムアセットが自動ダウンロードされるように改善",
+      "協力プレイ（クロスプレイ含む）でのカスタムマテリアルとカスタム写真の自動同期",
+      "ゲーム内のMod.ioブラウザの刷新とコンテンツライブラリの追加",
+      "Blenderアドオンやウェブアップローダーを通じたカスタム素材作成のサポート",
+      "昼夜サイクルの無効化機能の追加およびレンダリングパフォーマンスの向上"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "自定义材质更新上线",
+     "summary": "《房产达人2》迎来了自定义材质更新，推出了社区自制内容支持计划的第一部分。玩家现在可以在沙盒和故事模式中使用自定义材质，Mod.io上的房屋和任务支持自动下载缺失资产，联机合作时也会自动同步材质和图片。此外，本次更新还优化了渲染管线性能，并新增了关闭昼夜循环的功能。",
+     "highlights": [
+      "新增在沙盒和故事模式中创建和使用自定义材质的功能",
+      "Mod.io的房屋和工作现在会自动列出并下载所需的自定义资产文件",
+      "合作模式下支持自定义材质和自定义图片的自动同步",
+      "焕然一新的游戏内Mod.io浏览器与全新的游戏内内容库",
+      "推出Blender插件和网页上传工具，方便玩家制作自定义材质",
+      "新增禁用昼夜循环的功能，并大幅优化渲染管线和环境性能"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização de Materiais Personalizados Disponível",
+     "summary": "House Flipper 2 recebeu a Atualização de Materiais Personalizados, introduzindo a primeira fase de suporte a conteúdos criados pela comunidade. Os jogadores agora podem criar e usar materiais personalizados em vários modos, com sincronização automática de arquivos no modo cooperativo e downloads automáticos de assets do Mod.io. O patch também traz melhorias de desempenho de renderização e a opção de desativar o ciclo de dia e noite.",
+     "highlights": [
+      "Adicionada a capacidade de criar e usar Materiais Personalizados nos modos Sandbox e História",
+      "Casas e trabalhos do Mod.io agora baixam automaticamente os arquivos de Custom Assets faltando",
+      "Sincronização automática de Materiais Personalizados e Imagens Personalizadas no modo Cooperativo",
+      "Navegador do Mod.io reformulado e nova Biblioteca de Conteúdo dentro do jogo",
+      "Adicionado Addon para o Blender e uploader web para ajudar na criação de materiais",
+      "Opção para desativar o ciclo de Dia/Noite e melhorias significativas no pipeline de renderização"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1847920302231964",
    "appid": 1938090,
    "game": "콜 오브 듀티",
@@ -11311,6 +11467,119 @@
    }
   },
   {
+   "gid": "1847286114049046",
+   "appid": 394360,
+   "game": "하츠 오브 아이언 IV",
+   "date": 1793109909,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114049046",
+   "origTitle": "Hearts of Iron IV | QoL Patch Notes 1.19.4 (Updated Nov. 5th)",
+   "title": "하츠 오브 아이언 IV QoL 패치 1.19.4",
+   "summary": "알림 그룹화, 자원 자동 거래, 수리 우선순위 대기열 등 다양한 편의성(QoL) 기능이 대거 추가되었습니다. 또한 그동안 커뮤니티에서 요청된 밸런스 조정 사항과 방대한 버그 수정이 포함되어 있습니다.",
+   "highlights": [
+    "알림 스팸을 줄이기 위한 알림 그룹화 기능 추가",
+    "사용 가능한 공장을 할당할 수 있는 자원 자동 거래 옵션 도입",
+    "건설창 내 수리 우선순위 대기열 추가",
+    "정보 기관 업그레이드 대기열 추가",
+    "포위되지 않은 경우 의병(자원봉사군) 철수 옵션 추가",
+    "세션 간 유지되는 함대 구성 저장 기능 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "협동 멀티플레이어 게임에서 경력 프로필 데이터 추적 태그가 여러 번 추가되어 발생하던 크래시 수정",
+    "채팅 스팸으로 인해 추방당하던 버그 수정",
+    "우루과이가 세력 가입이 막히던 문제 수정",
+    "태국(시암) 관련 포커스 및 디시전 오류 수정",
+    "일본 제국 세력의 요구 관련 다양한 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Hearts of Iron IV QoL Patch 1.19.4",
+     "summary": "A large War Effort update focusing on quality-of-life features such as notification grouping, automated resource trading, and a construction repair priority queue. It also integrates final changes from the Open Beta alongside numerous balance changes and bug fixes.",
+     "highlights": [
+      "Added notification grouping to reduce notification spam",
+      "Added option to automate resource trading with factory allocation",
+      "Added a repair priority queue in the construction window",
+      "Added option to queue intelligence agency upgrades",
+      "Added option to recall volunteer forces if none are encircled",
+      "Added ability to save fleet compositions persistently"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed crash related to career profile data tags in co-op multiplayer",
+      "Fixed bug where spamming chat could lead to being kicked",
+      "Fixed instances where Uruguay could be locked out of joining factions",
+      "Fixed Phayap Army declaring separate wars on China instead of joining existing ones",
+      "Fixed various Japanese Imperial Factions demand bugs and instant completion exploits"
+     ]
+    },
+    "ja": {
+     "title": "ハーツ・オブ・アイアン IV QoLパッチ 1.19.4",
+     "summary": "通知のグループ化、資源自動貿易、建設ウィンドウの修理優先度キューなどの様々なQoL（利便性）機能が多数追加されました。オープンベータからの最終的な変更点に加え、バランス調整や多数のバグ修正も含まれています。",
+     "highlights": [
+      "通知スパムを軽減する通知グループ化機能を追加",
+      "貿易に割り当てる工場を指定できる資源自動貿易オプションを追加",
+      "建設ウィンドウに修理優先度キューを追加",
+      "情報機関アップグレードのキュー機能を追加",
+      "包囲されていなければ義勇軍を呼び戻すオプションを追加",
+      "艦隊構成をセッション永続的に保存する機能を追加"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "協力マルチプレイでキャリアプロファイルデータのタグが重複追加されクラッシュする不具合を修正",
+      "チャットの連投によりキックされるバグを修正",
+      "ウルグアイが陣営に参加できなくなる場合がある問題を修正",
+      "タイのパヤップ軍が中国に対して単独で戦争布告していた問題を修正",
+      "日本帝国派閥の要求に関する様々なバグや即時完了の不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "钢铁雄心4 QoL补丁 1.19.4",
+     "summary": "推出了一项大型战争努力更新，重点关注通知分组、自动资源贸易和建筑修理优先级队列等生活质量（QoL）功能。同时整合了公开测试版的最后改动，并带来了大量的平衡性调整和Bug修复。",
+     "highlights": [
+      "添加通知分组以减少通知轰炸",
+      "添加自动资源贸易选项，可分配用于贸易的工厂数量",
+      "在建造窗口中添加修理优先级队列",
+      "添加排队升级情报机构的选项",
+      "添加在未被包围时召回志愿军的选项",
+      "添加保存舰队配置并在会话间持久保留的功能"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了合作多人游戏中生涯资料数据标签被多次添加导致崩溃的Bug",
+      "修复了刷屏导致被踢出的Bug",
+      "修复乌拉圭可能被阻止加入阵营的问题",
+      "修复帕雅普军队对中国宣战而不是加入现有战争的问题",
+      "修复日本帝国派系要求的各种Bug和立即完成的漏洞"
+     ]
+    },
+    "pt": {
+     "title": "Hearts of Iron IV | Atualização de QoL 1.19.4",
+     "summary": "Uma grande atualização de esforço de guerra com foco em melhorias de qualidade de vida (QoL), como agrupamento de notificações, negociação automatizada de recursos e fila de prioridade de reparo. Também traz ajustes de balanceamento e diversas correções de bugs.",
+     "highlights": [
+      "Adicionado agrupamento de notificações para reduzir spam",
+      "Adicionada opção de automatizar o comércio de recursos com alocação de fábricas",
+      "Adicionada uma fila de prioridade de reparo na janela de construção",
+      "Adicionada a opção de colocar melhorias da Agência de Inteligência na fila",
+      "Adicionada a opção de retirar forças voluntárias caso nenhuma esteja cercada",
+      "Adicionada a opção de salvar composições de frotas de forma persistente"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido bug em que tags eram adicionadas várias vezes no modo multijogador cooperativo, causando crash",
+      "Corrigido bug em que spamar o chat podia levar a ser expulso",
+      "Corrigidas instâncias em que o Uruguai ficava impedido de entrar em facções",
+      "Corrigido o Exército Phayap declarando guerras separadas à China em vez de entrar na guerra existente",
+      "Corrigidos vários bugs de demandas das Facções Imperiais Japonesas e exploits de conclusão instantânea"
+     ]
+    }
+   }
+  },
+  {
    "gid": "val:/ko-kr/news/game-updates/valorant-patch-notes-1309",
    "appid": "val",
    "game": "발로란트",
@@ -11426,6 +11695,129 @@
    }
   },
   {
+   "gid": "1847286114045144",
+   "appid": 767560,
+   "game": "워 로봇",
+   "date": 1793025884,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114045144",
+   "origTitle": "WAR ROBOTS 12.5 UPDATE NOTES",
+   "title": "워 로봇 12.5 업데이트",
+   "summary": "우주 전쟁 테마의 '할로윈 인터로퍼' 이벤트가 시작되며, 신규 로봇 '넥톤'과 무기 '메스머', 드론 '오브젝트', 모더쉽 '로스웰'이 추가되었습니다. 또한 궁극의 '로키'와 '구스트', 신규 파일럿들이 등장하며 다양한 로봇과 무기 밸런스가 조정되었습니다.",
+   "highlights": [
+    "신규 로봇 '넥톤' 및 무기 '메스머' 시리즈 추가",
+    "신규 드론 '오브젝트' 및 모더쉽 '로스웰' 출시",
+    "궁극의 '로키' 및 '구스트' 얼티밋 에디션 추가",
+    "신규 파일럿(더 마시안, 오르슨 바레트, 다리안 그리어) 등장",
+    "전술적 이동: 그라운드 제로 구역 효과 추가",
+    "대규모 로봇 및 무기 밸런스 조정"
+   ],
+   "buffs": [
+    "아밋 (Ammit) 내구도 상향",
+    "스콜피온 (Scorpion), 림스 (Lynx), 이미기 (Imugi) 등 일부 로봇 스펙 상향",
+    "루멘 (Lumen) 및 류켄/아토믹 계열 일부 무기 대미지 상향"
+   ],
+   "nerfs": [
+    "쇼고스 (Shoggoth) 및 아낙소르 (Anaksor) 내구도 및 능력치 너프",
+    "아밋 (Ammit) 이동 속도 감소 및 재사용 대기시간 증가",
+    "이아라기 (Iaraghi) 계열 무기 대미지 하향"
+   ],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "War Robots 12.5 Update",
+     "summary": "The Halloween Interlopers event brings the new robot Nekton, Mesmer weapons, Object drone, and Roswell mothership to the game. Ultimate Loki and Ultimate Gust join the Ultimate editions, alongside new pilots and extensive robot and weapon balance changes.",
+     "highlights": [
+      "New robot Nekton and Mesmer weapon series",
+      "New Object drone and Roswell mothership",
+      "Ultimate editions: Ultimate Loki and Ultimate Gust",
+      "New pilots: The Martian, Orson Barret, and Darian Grief",
+      "Tactical Shift: Ground Zero active area effects",
+      "Extensive robot and weapon balance tweaks"
+     ],
+     "buffs": [
+      "Ammit durability increased",
+      "Lynx, Imugi, Ochokochi, Scorpion, and several other robots buffed",
+      "Lumen, Quarker/Atomizer/Nucleon, and select weapon damage increased"
+     ],
+     "nerfs": [
+      "Shoggoth durability and Aegis capacity decreased",
+      "Anaksor durability and built-in weapon damage decreased",
+      "Iaraghi weapon series damage decreased"
+     ],
+     "fixes": []
+    },
+    "ja": {
+     "title": "ウォーロボット 12.5アップデート",
+     "summary": "ハロウィン・インターローパーズイベントが開催され、新ロボット「ネクトン」や「メスメル」武器、ドローン「オブジェクト」、母艦「ロズウェル」が追加されました。アルティメット版の「ロキ」と「ガスト」、新パイロットも登場し、多数のバランス調整が行われました。",
+     "highlights": [
+      "新ロボット「ネクトン」と「メスメル」武器シリーズの実装",
+      "新ドローン「オブジェクト」と母艦「ロズウェル」の追加",
+      "アルティメット版「ロキ」「ガスト」の登場",
+      "新パイロット（ザ・マーシャン、オーソン・バレット、ダリアン・グリーフ）の追加",
+      "戦術的シフト：グラウンド・ゼロのエリア効果",
+      "広範囲なロボットおよび武器のバランス調整"
+     ],
+     "buffs": [
+      "アミットの耐久値が上昇",
+      "リンクス、イムギ、オチョコチ、スコーピオンなどの性能向上",
+      "ルーメンやクォーカー等の武器ダメージが増加"
+     ],
+     "nerfs": [
+      "ショゴスの耐久値とイージス容量が減少",
+      "アナクセルの耐久値と内蔵武器ダメージが減少",
+      "イアラギ武器シリーズのダメージが下方修正"
+     ],
+     "fixes": []
+    },
+    "zh": {
+     "title": "战机器人 12.5 更新",
+     "summary": "万圣节领航员活动正式开启，推出全新机器人“涅克顿”、梅斯梅尔武器、“对象”无人机以及“罗斯威尔”母舰。终极版洛基和终极版古斯特震撼登场，并伴随多位新机师及大量的平衡性调整。",
+     "highlights": [
+      "推出新机器人“涅克顿”和梅斯梅尔武器系列",
+      "新增“对象”无人机与“罗斯威尔”母舰",
+      "加入终极版洛基与终极版古斯特",
+      "新增多位机师（火星人、奥森·巴雷特、达里安·格里夫）",
+      "战术转移：零号地带区域效果",
+      "大范围的机器人与武器平衡性调整"
+     ],
+     "buffs": [
+      "阿米特耐久度提升",
+      "山猫、伊姆吉、奥丘科奇、蝎子等机器人属性增强",
+      "流明及部分武器伤害上调"
+     ],
+     "nerfs": [
+      "修戈斯耐久度与神盾护盾容量下调",
+      "阿纳克索尔耐久度及自带武器伤害降低",
+      "伊拉吉系列武器伤害削弱"
+     ],
+     "fixes": []
+    },
+    "pt": {
+     "title": "War Robots Atualização 12.5",
+     "summary": "O evento Intrusos de Halloween chega com o novo robô Nekton, armas Mesmer, o drone Object e a nave-mãe Roswell. Loki Supremo e Gust Supremo entram nas edições definitivas, acompanhados de novos pilotos e amplos ajustes de balanceamento.",
+     "highlights": [
+      "Novo robô Nekton e série de armas Mesmer",
+      "Novo drone Object e nave-mãe Roswell",
+      "Edições Supremas: Loki Supremo e Gust Supremo",
+      "Novos pilotos (O Marciano, Orson Barret e Darian Grief)",
+      "Mudança Tática: Efeitos de área no Ground Zero",
+      "Amplos ajustes de balanceamento em robôs e armas"
+     ],
+     "buffs": [
+      "Durabilidade do Ammit aumentada",
+      "Lynx, Imugi, Ochokochi, Scorpion e outros robôs melhorados",
+      "Dano de Lumen e de outras armas selecionadas aumentado"
+     ],
+     "nerfs": [
+      "Durabilidade e capacidade Aegis do Shoggoth reduzidas",
+      "Durabilidade e dano da arma embutida do Anaksor reduzidos",
+      "Dano da série de armas Iaraghi reduzido"
+     ],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "bluearchive:3559967",
    "appid": "bluearchive",
    "game": "블루 아카이브",
@@ -11495,6 +11887,164 @@
      "buffs": [],
      "nerfs": [],
      "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1847286114040182",
+   "appid": 1363080,
+   "game": "매너 로드",
+   "date": 1792862247,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114040182",
+   "origTitle": "Beta bugfixes (Version 0.8.117)",
+   "title": "매너 로드 0.8.117 베타 패치 노트",
+   "summary": "농경 시스템과 작물 성장 방식이 개편되고 호밀의 수확량과 보너스가 상향되었습니다. 삼림관의 식목 밀도 감소 및 야생 양봉 시스템 개선 등 다양한 밸런스 조정과 게임 충돌을 비롯한 여러 버그가 수정되었습니다.",
+   "highlights": [
+    "농경 및 지력 회복 주기 개편 (연말 집중 성장 및 미파종 밭의 지력 회복)",
+    "호밀 지력 보너스(1.5배→1.75배) 및 수확량 7% 증가",
+    "삼림관의 나무 심기 밀도 약 66% 감소",
+    "야생 양봉가(Zeidler)의 꿀 채취 메커니즘 및 친화도 공식 조정",
+    "유닛 빠른 체력 회복 조건 변경 (적과 160m 이상 이격 필요)",
+    "인공지능(AI) 도로 배치 및 건물 방향 정렬 개선"
+   ],
+   "buffs": [
+    "호밀의 지력 보너스가 1.5배에서 1.75배로 증가하고 수확량이 7% 상향",
+    "작물이 지정되었으나 파종되지 않은 밭이 휴경지처럼 지력을 회복하도록 변경"
+   ],
+   "nerfs": [
+    "삼림관의 나무 식목 밀도 약 66% 감소",
+    "훈제 생선의 거래 가치 소폭 감소",
+    "바이덴 힌터란더 개발 특성의 채광 부스트 10% 감소",
+    "작물 성장 중 다른 지력 상승 폭 감소 (휴경 주기 중요성 증가)",
+    "유닛 빠른 체력 회복 시 가장 가까운 적으로부터 최소 160m 떨어져 있어야 하도록 변경"
+   ],
+   "fixes": [
+    "산림 면적이 넓을수록 꿀과 밀랍 수확량이 줄어들던 야생 양봉가 확률 버그 수정",
+    "깃발을 든 군인 세이브 로드, 영주 저택 성벽 전투 등 발생하던 게임 충돌 오류 4종 수정",
+    "약탈자가 분뇨와 비료를 훔쳐 가던 문제 수정",
+    "특정 개발 특성으로 인해 농업에 긍정적/부정적 효과가 중복 적용되던 문제 수정",
+    "광산, 채석장, 채집소 등에서 생산 한도가 정상 작동하지 않던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Manor Lords Beta Patch 0.8.117",
+     "summary": "This beta update reworks farming growth and fertility cycles while boosting rye yields. It also adjusts balance for foresters, beekeepers, and combat regeneration, alongside addressing multiple crashes and gameplay bugs.",
+     "highlights": [
+      "Farming overhaul: fertility and growth concentrate near cycle end; unplanted fields recover fertility as fallow",
+      "Rye fertility bonus increased (x1.5 to x1.75) and yield increased by 7%",
+      "Forester tree planting density reduced by roughly 66%",
+      "Zeidler (Honey Hunting) affinity and hive establishment mechanics adjusted",
+      "Fast unit HP regeneration now requires being at least 160m from enemies",
+      "AI improvements for road layouts, central market enclosures, and building placement"
+     ],
+     "buffs": [
+      "Rye fertility bonus increased from x1.5 to x1.75 and crop yield increased by 7%",
+      "Fields with selected crops that remain unplanted now regenerate fertility as if fallow"
+     ],
+     "nerfs": [
+      "Forester tree planting density reduced by approximately 66%",
+      "Smoked Fish trade value reduced slightly",
+      "Weiden Hinterlanders mining boost reduced by 10%",
+      "Other fertility types replenish slightly less while crops grow, making fallow cycles more necessary",
+      "Fast HP regeneration requires units to be at least 160 meters away from enemy units"
+     ],
+     "fixes": [
+      "Fixed Zeidler Honey Hunting chance being inverted with woodland coverage",
+      "Fixed multiple crashes including banner carriers on load, Manor wall combat, and butcher gantry upgrades",
+      "Fixed raiders stealing Dung and Fertilizer",
+      "Fixed perks causing double positive or double negative farming modifiers",
+      "Fixed production limits not functioning for Mines, Quarries, and Gatherer Camps"
+     ]
+    },
+    "ja": {
+     "title": "Manor Lords ベータパッチ 0.8.117",
+     "summary": "農業と地力回復サイクルの刷新に加え、ライ麦の収穫量増加などの調整が行われました。森林官の植林密度低下や養蜂メカニクスの改修、各種クラッシュを含む多数の不具合が修正されています。",
+     "highlights": [
+      "農業サイクルの改修（未播種の畑の地力回復や収穫期後半での成長集中）",
+      "ライ麦の地力ボーナス（1.5倍→1.75倍）および収穫量7%増加",
+      "森林官の植林密度が約66%減少",
+      "養蜂家（ツァイドラー）の蜂蜜ハント親和性とメカニクス調整",
+      "ユニットの高速HP自動回復に敵から160m以上離れる条件を追加",
+      "AIによる道路敷設や市場周辺の建物の配置を改善"
+     ],
+     "buffs": [
+      "ライ麦の地力ボーナスが1.5倍から1.75倍に上昇し、収穫量が7%増加",
+      "作物が指定されているが未播種の畑が休耕地と同様に地力を回復するように変更"
+     ],
+     "nerfs": [
+      "森林官の植林密度が約66%低下",
+      "燻製魚の取引価格をわずかに引き下げ",
+      "開発特性「ヴァイデンの後背地」の採掘ブーストを10%減少",
+      "作物成長中の他作物の地力回復量が低下（休耕の重要度が増加）",
+      "ユニットの高速HP回復が敵から160m以上離れていないと発動しないように変更"
+     ],
+     "fixes": [
+      "森林が多いほど蜂蜜や蜜蝋の入手確率が下がる養蜂家の計算不具合を修正",
+      "旗手セーブデータのロード時や館の壁上での戦闘時に発生する各種クラッシュを修正",
+      "略奪者が糞便や肥料を略奪していく問題を修正",
+      "特定のパークによる農業への重複効果（二重加算・二重減算）を修正",
+      "鉱山、採石場、採集小屋で生産上限が機能しなかった不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "庄园领主 0.8.117 测试版更新",
+     "summary": "本次测试版更新重构了农耕生长与地力恢复机制，并提高了黑麦产量。同时调整了护林人植树密度和野蜂采集机制，并修复了包括崩溃在内的大量漏洞。",
+     "highlights": [
+      "农耕机制调整：生长与休耕恢复集中在周期后期，未播种田地可如休耕般恢复地力",
+      "黑麦地力加成由1.5倍提升至1.75倍，产量增加7%",
+      "护林人植树密度降低约66%",
+      "野蜂采蜜人（Zeidler）采集几率及亲和度公式调整",
+      "单位快速生命恢复现在要求距离最近敌军至少160米",
+      "优化了AI的道路规划及市场周边的建筑布局"
+     ],
+     "buffs": [
+      "黑麦的地力加成从1.5倍提升至1.75倍，产量增加7%",
+      "已选定作物但未播种的田地现在会像休耕地一样恢复地力"
+     ],
+     "nerfs": [
+      "护林人的植树密度降低约66%",
+      "熏鱼的贸易价值略微降低",
+      "魏登内陆人特性的采矿加成降低10%",
+      "作物生长期间其他地力恢复略微减缓，休耕周期更加必要",
+      "单位快速生命恢复必须远离最近敌军160米以上"
+     ],
+     "fixes": [
+      "修复了林地越多野蜂人蜜蜡收获越少的概率反转错误",
+      "修复了包含旗手读档、庄园城墙战斗及屠夫升降架升级等在内的多项崩溃问题",
+      "修复了强盗会偷取粪便与肥料的漏洞",
+      "修复了部分发展点导致农耕受到双重加成或双重扣除的问题",
+      "修复了矿井、采石场和采集营地中生产限制失效的问题"
+     ]
+    },
+    "pt": {
+     "title": "Manor Lords Atualização Beta 0.8.117",
+     "summary": "Esta versão beta reformula o crescimento agrícola e a fertilidade do solo, aumentando o rendimento do centeio. Foram feitos ajustes de equilíbrio para guardas-florestais e apicultores, além de correções para vários travamentos e bugs.",
+     "highlights": [
+      "Revisão da agricultura: crescimento e fertilidade concentram-se no fim do ciclo; campos não plantados recuperam fertilidade",
+      "Bônus de fertilidade do centeio aumentado (x1,5 para x1,75) e colheita aumentada em 7%",
+      "Densidade de plantio de árvores dos Guardas-florestais reduzida em aprox. 66%",
+      "Mecânica de Afinidade de Caça ao Mel para apicultores (Zeidlers) rebalanceada",
+      "Regeneração rápida de vida agora exige estar a pelo menos 160m de unidades inimigas",
+      "Melhorias na IA para traçado de estradas e orientação de construções"
+     ],
+     "buffs": [
+      "Bônus de fertilidade do centeio aumentado de x1,5 para x1,75 e colheita aumentada em 7%",
+      "Campos com culturas selecionadas mas sem plantio agora recuperam fertilidade como pousio"
+     ],
+     "nerfs": [
+      "Densidade de plantio de árvores dos Guardas-florestais reduzida em cerca de 66%",
+      "Valor comercial de Peixe Defumado ligeiramente reduzido",
+      "Bônus de mineração de Weiden Hinterlanders reduzido em 10%",
+      "Outras fertilidades regeneram um pouco menos durante o cultivo, tornando ciclos de pousio essenciais",
+      "Regeneração rápida de vida requer estar a pelo menos 160 metros de distância de inimigos"
+     ],
+     "fixes": [
+      "Correção na chance invertida de coleta dos apicultores em relação à cobertura florestal",
+      "Correção de múltiplos travamentos do jogo (porta-estandartes ao carregar, combate na muralha do Solar, etc.)",
+      "Correção de saqueadores roubando Esterco e Fertilizante",
+      "Correção de vantagens aplicando modificadores duplicados (positivos ou negativos) na agricultura",
+      "Correção dos limites de produção que não funcionavam para Minas, Pedreiras e Acampamentos de Coletores"
+     ]
     }
    }
   },
@@ -11890,6 +12440,89 @@
    }
   },
   {
+   "gid": "1847286114027922",
+   "appid": 2170050,
+   "game": "울프팀: 리부트",
+   "date": 1792569341,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114027922",
+   "origTitle": "Update Announcement: 2026 October 22nd",
+   "title": "10월 22일 업데이트 안내",
+   "summary": "울프팀: 리부트가 10월 22일에 업데이트를 진행합니다. 피에로 테마의 신규 무기, 타투, 스티커 및 월간 상자가 추가되며 서버가 재시작됩니다.",
+   "highlights": [
+    "M6A3 PIERROT 무기 추가",
+    "UTX-15 PIERROT 무기 추가",
+    "EMP-5 PIERROT 무기 추가",
+    "PIERROT 타투 및 세트 추가",
+    "PIERROT 스티커 추가",
+    "월간 상자 추가 및 서버 재시작"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "October 22nd Update Announcement",
+     "summary": "Wolfteam: Reboot will undergo an update on October 22nd. New PIERROT-themed weapons, tattoos, stickers, and monthly boxes will be added, along with a server restart.",
+     "highlights": [
+      "Added M6A3 PIERROT weapon",
+      "Added UTX-15 PIERROT weapon",
+      "Added EMP-5 PIERROT weapon",
+      "Added PIERROT tattoos and set",
+      "Added PIERROT sticker",
+      "Added monthly boxes and server restart"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "10月22日アップデートのお知らせ",
+     "summary": "Wolfteam: Rebootは10月22日にアップデートを実施します。PIERROTテーマの新武器、タトゥー、ステッカー、マンスリーボックスが追加され、サーバーが再起動されます。",
+     "highlights": [
+      "M6A3 PIERROT武器の追加",
+      "UTX-15 PIERROT武器の追加",
+      "EMP-5 PIERROT武器の追加",
+      "PIERROTタトゥーおよびセットの追加",
+      "PIERROTステッカーの追加",
+      "マンスリーボックスの追加とサーバー再起動"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "10月22日更新公告",
+     "summary": "Wolfteam: Reboot 将于 10 月 22 日进行更新。本次更新将添加 PIERROT 主题的新武器、纹身、贴纸以及月度礼盒，并重启服务器。",
+     "highlights": [
+      "新增 M6A3 PIERROT 武器",
+      "新增 UTX-15 PIERROT 武器",
+      "新增 EMP-5 PIERROT 武器",
+      "新增 PIERROT 纹身及套装",
+      "新增 PIERROT 贴纸",
+      "新增月度礼盒并重启服务器"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Anúncio de Atualização de 22 de Outubro",
+     "summary": "O Wolfteam: Reboot realizará uma atualização em 22 de outubro. Novas armas, tatuagens, adesivos com tema PIERROT e caixas mensais serão adicionados, junto com a reinicialização do servidor.",
+     "highlights": [
+      "Adicionada arma M6A3 PIERROT",
+      "Adicionada arma UTX-15 PIERROT",
+      "Adicionada arma EMP-5 PIERROT",
+      "Adicionadas tatuagens e conjunto PIERROT",
+      "Adicionado adesivo PIERROT",
+      "Adicionadas caixas mensais e reinicialização do servidor"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1847286114026951",
    "appid": 4162040,
    "game": "젠레스 존 제로",
@@ -12167,6 +12800,192 @@
       "Added new equipment slot 'Vambraces'",
       "Expanded Tier 4 endgame content (new tiers for Chaos Rift, Shade of the Guardian, and Haal's Hourglass)",
       "Added new Chaos Gate tiers for advanced adventurers"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1846651706695207",
+   "appid": 2300320,
+   "game": "파밍 시뮬레이터 25",
+   "date": 1792501829,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706695207",
+   "origTitle": "Patch 1.25 for Farming Simulator 25 now available!",
+   "title": "파밍 시뮬레이터 25 패치 1.25",
+   "summary": "파밍 시뮬레이터 25의 패치 1.25가 배포되었습니다. 동물 일꾼 고용 기능, 연중 포도나무 재배 및 다양한 팩 업데이트와 버그 수정이 포함되어 있습니다.",
+   "highlights": [
+    "말과 알파카를 관리할 동물 일꾼 고용 가능",
+    "포도나무를 연중 언제나 심을 수 있음",
+    "포도나무 및 올리브 과수원 경계 페인팅 추가",
+    "플레이어 HUD에 건설 단계 진행 상황 표시",
+    "차량 디스플레이 편의 화면 다크 모드 및 GPS 아이콘 개선"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "게임 시작 시 태양 대신 달이 뜨는 현상 수정",
+    "울타리 스냅 각도 수정",
+    "아직 베지 않은 나무에 그루터기 커터가 작동하던 문제 수정",
+    "플레이어 스타일 변경 후 수동 도구 오류 수정",
+    "Hori 트럭 컨트롤 휠 입력 바인딩 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Farming Simulator 25 Patch 1.25",
+     "summary": "Patch 1.25 for Farming Simulator 25 is now available, introducing animal workers, year-round vineyard planting, and numerous pack updates and bug fixes.",
+     "highlights": [
+      "Hire animal workers for horses and alpacas",
+      "Vineyards can now be planted all year round",
+      "New boundary painting for vineyards and olive orchards",
+      "Added progress of each construction step to Player HUD",
+      "Vehicle displays: dark mode for convenience screen and improved GPS icons"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed the moon rising instead of the sun at the start of a day",
+      "Fixed the fence snapping angle",
+      "Fixed the stump cutter on trees that hadn’t been cut yet",
+      "Fixed hand tools after changing the player style",
+      "Fixed input bindings for the Hori truck control wheel"
+     ]
+    },
+    "ja": {
+     "title": "ファーミングシミュレーター 25 パッチ 1.25",
+     "summary": "ファーミングシミュレーター 25のパッチ1.25が配信開始されました。動物の作業員の追加、年間を通じたブドウ畑の植栽、および多数のパック更新とバグ修正が含まれています。",
+     "highlights": [
+      "馬やアルパカの世話をする動物の作業員を雇用可能に",
+      "ブドウ畑を通年で植え付け可能に",
+      "ブドウ畑とオリーブ果樹園用の新しい境界ペインティング",
+      "プレイヤーHUDに建設ステップの進捗状況を追加",
+      "車両ディスプレイの利便性画面用ダークモードとGPSアイコンの改善"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "一日の始まりに太陽ではなく月が昇る不具合を修正",
+      "フェンスのスナップ角度を修正",
+      "まだ切断されていない木に対する切り株カッターを修正",
+      "プレイヤースタイル変更後のハンドツールを修正",
+      "Hori製トラックコントロールホイールの入力バインドを修正"
+     ]
+    },
+    "zh": {
+     "title": "模拟农场 25 更新补丁 1.25",
+     "summary": "《模拟农场 25》1.25 版本补丁现已发布，带来了动物工人雇佣功能、全年种植葡萄园以及多项DLC更新和错误修复。",
+     "highlights": [
+      "可为马匹和羊驼雇佣动物工人",
+      "葡萄园现在可以全年种植",
+      "新增葡萄园和橄榄园的边界绘制功能",
+      "玩家HUD中新增各项建造步骤的进度",
+      "车辆显示屏：便利屏幕的暗黑模式以及改进的GPS图标"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了天刚亮时月亮升起而不是太阳的问题",
+      "修复了栅栏吸附角度",
+      "修复了未砍伐树木上的树桩切割机问题",
+      "修复了更改玩家风格后的手持工具问题",
+      "修复了 Hori 卡车方向盘的输入绑定"
+     ]
+    },
+    "pt": {
+     "title": "Farming Simulator 25 - Atualização 1.25",
+     "summary": "A atualização 1.25 para o Farming Simulator 25 já está disponível, trazendo trabalhadores para animais, plantio de vinhedos o ano todo e várias melhorias e correções de bugs.",
+     "highlights": [
+      "Contrate trabalhadores de animais para cavalos e alpacas",
+      "Vinhedos agora podem ser plantados o ano todo",
+      "Nova pintura de limites para vinhedos e olivais",
+      "Adicionado o progresso de cada etapa de construção no HUD do jogador",
+      "Displays de veículos: modo escuro para a tela de conveniência e ícones de GPS aprimorados"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigida a lua nascendo em vez do sol no início do dia",
+      "Corrigido o ângulo de encaixe da cerca",
+      "Corrigido o cortador de tocos em árvores que ainda não haviam sido cortadas",
+      "Corrigidas as ferramentas manuais após alterar o estilo do jogador",
+      "Corrigidas as associações de teclas para o volante de controle de caminhão Hori"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1846651706693387",
+   "appid": 3950020,
+   "game": "듀엣 나이트 어비스",
+   "date": 1792462438,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706693387",
+   "origTitle": "Duet Night Abyss – October 20, 2026 [Towards the Dawn] Version Update Notes",
+   "title": "듀엣 나이트 어비스 '여명이 밝아올 때' 버전 업데이트",
+   "summary": "듀엣 나이트 어비스가 신규 캐릭터 '리듬: 플레임라우트'와 신규 무기, 스토리 퀘스트, 이벤트 등을 포함한 '여명이 밝아올 때' 대규모 업데이트를 진행합니다. 신규 데몬 웨지 및 비밀 편지 로테이션 추가와 함께 다양한 기념 이벤트가 개최됩니다.",
+   "highlights": [
+    "신규 일렉트로 캐릭터 '리듬: 플레임라우트' 추가",
+    "신규 무기 '축복받은 짐' 및 '모자의 연회', '끝없는 수수께끼' 추가",
+    "신규 이벤트 퀘스트 '여명이 밝아올 때' 및 스토리 이벤트 진행",
+    "신규 데몬 웨지 및 녹토이저 매뉴얼 보상 확장",
+    "다양한 기념 보상 및 로그인 이벤트 '내일이 다가올 때' 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Duet Night Abyss 'Towards the Dawn' Version Update",
+     "summary": "Duet Night Abyss presents the 'Towards the Dawn' update, featuring the new electro character 'Rhythm: Flamewrought', new weapons, story quests, and exciting events. Players can also experience new demon wedges, updated secret letter rotations, and anniversary rewards.",
+     "highlights": [
+      "Added new Electro character 'Rhythm: Flamewrought'",
+      "Added new weapons 'Blessed Burden', 'The Hatter\\'s Banquet', and 'Endless Enigma'",
+      "New event quest 'Towards the Dawn' and character story events",
+      "New demon wedges and expanded Noctoyager Manual rewards",
+      "Anniversary Splendor and login event 'As Tomorrow Nears'"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "デュエットナイトアビス「夜明けに向かって」バージョンアップデート",
+     "summary": "デュエットナイトアビスにて、新キャラクター「リズム：フレイムロウト」や新武器、ストーリークエスト、各種イベントが追加される「夜明けに向かって」アップデートが実施されます。新たな魔導刻印や秘密の手紙ローテーションも登場します。",
+     "highlights": [
+      "新雷属性キャラクター「リズム：フレイムロウト」を追加",
+      "新武器「祝福の重荷」「マッドハッターの宴」「エンドレス・エニグマ」を追加",
+      "新イベントクエスト「夜明けに向かって」およびキャラクター専用ストーリーを開催",
+      "新魔導刻印およびノクトヴォイジャーマニュアルの報酬を拡張",
+      "記念イベントおよびログインボーナス「明日が近づくとき」を開催"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "《双生视界：深空之眼》或《듀엣 나이트 어비스》“迎向破晓”版本更新",
+     "summary": "《듀엣 나이트 어비스》推出“迎向破晓”版本更新，带来了全新电属性角色“律动：炎铸”、新武器、剧情任务以及丰富活动。同时更新了全新恶魔楔文与秘密信件轮换机制，开启多项庆典活动。",
+     "highlights": [
+      "新增电属性角色“律动：炎铸”",
+      "新增武器“祝福之重”、“疯帽匠的宴会”及“无尽之谜”",
+      "上线全新活动任务“迎向破晓”及角色剧情活动",
+      "新增恶魔楔文并扩展夜航者手册奖励",
+      "开启周年庆典与登录活动“当明日临近”"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização de Versão 'Rumo ao Amanhecer' de Duet Night Abyss",
+     "summary": "Duet Night Abyss traz a atualização 'Rumo ao Amanhecer', apresentando a nova personagem eletro 'Rhythm: Flamewrought', novas armas, missões de história e eventos especiais. A atualização também inclui novas cunhas de demônio e rotações de cartas secretas.",
+     "highlights": [
+      "Adicionada a nova personagem Eletro 'Rhythm: Flamewrought'",
+      "Adicionadas novas armas 'Blessed Burden', 'The Hatter\\'s Banquet' e 'Endless Enigma'",
+      "Nova missão de evento 'Rumo ao Amanhecer' e eventos de história",
+      "Novas cunhas de demônio e expansão das recompensas do Manual Noctoyager",
+      "Eventos comemorativos e de login 'Como o Amanhecer se Aproxima'"
      ],
      "buffs": [],
      "nerfs": [],
@@ -12618,6 +13437,164 @@
    }
   },
   {
+   "gid": "1846651706672605",
+   "appid": 291550,
+   "game": "브롤할라",
+   "date": 1791931109,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706672605",
+   "origTitle": "Ascended Teros & 11th Anniversary Event – Patch 11.00",
+   "title": "승천한 테로스 & 11주년 기념 이벤트 – 패치 11.00",
+   "summary": "브롤할라 11주년을 기념하는 갈라 이벤트가 시작되며, 새로운 '승천한 테로스' 스킨과 다양한 상점 아이템이 추가되었습니다. 또한 BCX 2026을 앞두고 무기 및 레전드들의 최종 밸런스 조정과 실험적 기능이 적용되었습니다.",
+   "highlights": [
+    "11주년 기념 갈라 이벤트 및 벡터가 주관하는 이벤트 센터 개설",
+    "신규 '승천한 테로스' 에픽 스킨 번들 출시",
+    "신규 '엘리시움' 브롤볼 지도 및 실험적 무기 스폰 개선 추가",
+    "칭화와 바오바오의 공식 토너먼트 사용 허용 및 첫 밸런스 패치",
+    "카타르, 블래스터, 차크람, 해머 등 주요 무기 밸런스 조정",
+    "아다, 가스파르, 그내시, 마코, 센티넬, 테로스, 자리엘 등 레전드 시그니처 조정"
+   ],
+   "buffs": [
+    "카타르 중립 라이트 데미지 증가",
+    "해머 사이드 라이트 및 다운 라이트 데미지 증가",
+    "그내시 중립 해머 최소 차지 시간 감소",
+    "마코 사이드 및 다운 그레이드소드 데미지 및 판정 강화",
+    "센티넬 중립 카타르 및 중립 해머 선딜 및 후딜레이 완화"
+   ],
+   "nerfs": [
+    "카타르 사이드 라이트, 다운 라이트, 다운 에어 데미지 감소",
+    "블래스터 사이드 라이트 빗나갈 시 회복 시간 증가 및 다운 라이트 데미지 감소",
+    "차크람 후방 가속도 및 최대 속도 제한",
+    "아다 스피어 시그니처 성능 하향",
+    "자리엘 중립 보우 및 다운 건틀릿 성능 하향"
+   ],
+   "fixes": [
+    "칭화와 바오바오 사이드 캐논에서 최종 타격 전 대상이 떨어지던 현상 수정",
+    "테로스 사이드 악스 최대 차지 시간 단축으로 애니메이션 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Ascended Teros & 11th Anniversary Event – Patch 11.00",
+     "summary": "Celebrate Brawlhalla's 11th Anniversary with a Gala event hosted by Vector, featuring the new Ascended Teros Epic Skin and event rewards. This update also delivers final balance adjustments ahead of BCX 2026, experimental weapon spawn changes, and Qinghua & Baobao's tournament debut.",
+     "highlights": [
+      "11th Anniversary Gala Event hosted by Vector with exclusive rewards",
+      "New Ascended Teros Epic Skin bundle and thematic items",
+      "New Elysium Brawlball map and experimental weapon spawn improvements",
+      "First balance pass for Qinghua & Baobao, making them legal for official tournaments",
+      "Weapon balance updates for Katars, Blasters, Chakram, and Hammer",
+      "Legend balance adjustments for Ada, Caspian, Gnash, Mako, Qinghua & Baobao, Sentinel, Teros, and Zariel"
+     ],
+     "buffs": [
+      "Katars Neutral Light total damage increased",
+      "Hammer Side Light and Down Light damage increased",
+      "Gnash Neutral Hammer minimum charge time decreased",
+      "Mako Side and Down Greatsword damage and utility enhanced",
+      "Sentinel Neutral Katars and Neutral Hammer recover time and momentum improved"
+     ],
+     "nerfs": [
+      "Katars Side Light, Down Light, and Down Air damage decreased",
+      "Blasters Side Light recovery on miss increased and Down Light damage decreased",
+      "Chakram backwards acceleration and max speed on miss decreased",
+      "Ada Side and Down Spear force and damage reduced",
+      "Zariel Neutral Bow and Down Gauntlets force and damage reduced"
+     ],
+     "fixes": [
+      "Fixed an issue with Qinghua & Baobao Side Cannon where targets could be dropped before the final hit",
+      "Decreased Teros Side Axe maximum charge time to fix an animation bug"
+     ]
+    },
+    "ja": {
+     "title": "アセンデッド・テロス＆11周年記念イベント – パッチ11.00",
+     "summary": "ベクトルが主催する華やかなガラとともにブロルフラ11周年記念イベントが開幕し、新スキン「アセンデッド・テロス」や多数の報酬が登場しました。さらに、BCX 2026に向けた最終バランス調整や実験的機能、チンファ＆バオバオのトーナメント解禁が実装されています。",
+     "highlights": [
+      "ベクトル主催の11周年記念ガラ・イベントとイベントセンターの開催",
+      "新スキン「アセンデッド・テロス」および記念アイテムの追加",
+      "新マップ「エリシウム・ブロルボール」と実験的な武器スポーンの改善",
+      "チンファ＆バオバオの公式大会使用解禁と初のバランス調整",
+      "カタール、ブラスター、チャクラム、ハンマーなどの武器バランス調整",
+      "エイダ、カスピアングナッシュ、マコ、センティ넬、テロス、ザリエルなどのレ전드調整"
+     ],
+     "buffs": [
+      "カタール・ニュートラルライトのダメージ増加",
+      "ハンマー・サイドライトおよびダウンライトのダメージ増加",
+      "グナッシュ・ニュートラルハンマーの最小チャージ時間短縮",
+      "マコ・サイドおよびダウングレートソードのダメージと判定強化",
+      "センティ넬・ニュートラルカタールおよびハンマーの挙動改善"
+     ],
+     "nerfs": [
+      "カタール・サイド、ダウンライト、ダウンエアのダメージ低下",
+      "ブラスター・サイドライトのミス時硬化時間増加およびダウンライトのダメージ低下",
+      "チャクラムのミス時における後方への加速と最大速度の低下",
+      "エイダのランスシグニチャーの性能下方修正",
+      "ザリエルのニュートラルボウおよびダウンガントレットの性能下方修正"
+     ],
+     "fixes": [
+      "チンファ＆バオバオのサイドキャノンで最終ヒット前にターゲットが外れてしまう不具合の修正",
+      "テロスのサイド・アックスの最大チャージ時間を短縮しアニメーションの不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "飞升特罗斯与 11 周年庆典活动 – 11.00 版本补丁",
+     "summary": "由维クター主持的盛大晚会拉开了英灵乱战 11 周年庆典的序幕，带来了全新的“飞升特罗斯”史诗皮肤及活动奖励。本次更新还为 BCX 2026 做好了最终平衡性调整，加入了实验性武器生成改进，并让青华与宝宝正式加入官方锦标赛。",
+     "highlights": [
+      "维クター主持的 11 周年晚会活动与活动中心开启",
+      "全新“飞升特罗斯”史诗皮肤礼包及主题物品上线",
+      "全新“极乐世界”乱战球地图与实验性武器生成机制改进",
+      "青华与宝宝迎来首轮平衡性调整并解锁官方赛事使用权",
+      "对拳套、双枪、环刃、锤子等武器进行了平衡调整",
+      "对艾达、卡斯帕因、格纳什、玛科、森蒂纳尔、特罗斯和扎瑞尔等传奇进行了调整"
+     ],
+     "buffs": [
+      "拳套中立轻攻击总伤害增加",
+      "锤子侧轻攻击与下轻攻击伤害增加",
+      "格纳什中立锤子最小蓄力时间减少",
+      "玛科侧重剑与下重剑伤害及判定增强",
+      "森蒂纳尔中立拳套与中立锤子后摇及动量改善"
+     ],
+     "nerfs": [
+      "拳套侧轻、下轻及下重攻击伤害降低",
+      "双枪侧轻攻击失误后摇增加，下轻攻击伤害降低",
+      "环刃失误后的后向加速度与最大速度降低",
+      "艾达长矛相关技能伤害与击飞力削弱",
+      "扎瑞尔中立弓与下拳套性能削弱"
+     ],
+     "fixes": [
+      "修复了青华与宝宝侧加农炮可能在最后一击前掉落目标的问题",
+      "缩短了特罗斯侧斧的最大蓄力时间以修复动画错误"
+     ]
+    },
+    "pt": {
+     "title": "Teros Ascendido e Evento de 11º Aniversário – Patch 11.00",
+     "summary": "Celebre o 11º aniversário de Brawlhalla com um evento de Gala organizado por Vector, trazendo o novo visual épico Teros Ascendido e recompensas exclusivas. Esta atualização também traz ajustes finais de equilíbrio para a BCX 2026, melhorias experimentais de surgimento de armas e a estreia de Qinghua & Baobao em torneios oficiais.",
+     "highlights": [
+      "Evento de Gala do 11º Aniversário organizado por Vector com o Centro de Eventos",
+      "Novo pacote de visual épico Teros Ascendido e itens comemorativos",
+      "Novo mapa de Brawlball Elysium e melhorias experimentais no surgimento de armas",
+      "Primeira rodada de balanceamento para Qinghua & Baobao, tornando-os legais para torneios",
+      "Ajustes de balanceamento de armas para Katars, Blasters, Chakram e Martelo",
+      "Ajustes de balanceamento para as Lendas Ada, Caspian, Gnash, Mako, Sentinel, Teros e Zariel"
+     ],
+     "buffs": [
+      "Dano total do Ataque Leve Neutro de Katars aumentado",
+      "Dano do Ataque Leve Lateral e Leve Baixo do Martelo aumentado",
+      "Tempo mínimo de carga do Martelo Neutro de Gnash diminuído",
+      "Dano e utilidade dos ataques de Espadão Lateral e Baixo de Mako aprimorados",
+      "Tempo de recuperação e momento dos Katars Neutros e Martelo Neutro de Sentinel melhorados"
+     ],
+     "nerfs": [
+      "Dano dos ataques Leve Lateral, Leve Baixo e Aéreo Baixo de Katars diminuído",
+      "Tempo de recuperação ao errar o Ataque Leve Lateral de Blasters aumentado e dano do Leve Baixo reduzido",
+      "Aceleração e velocidade máxima para trás ao errar com o Chakram diminuídas",
+      "Força e dano das assinaturas de Lança de Ada reduzidos",
+      "Força e dano do Arco Neutro e Manoplas Baixas de Zariel reduzidos"
+     ],
+     "fixes": [
+      "Corrigido um problema no Canhão Lateral de Qinghua & Baobao onde o alvo podia cair antes do golpe final",
+      "Tempo máximo de carga do Machado Lateral de Teros diminuído para corrigir um bug de animação"
+     ]
+    }
+   }
+  },
+  {
    "gid": "val:/ko-kr/news/game-updates/valorant-patch-notes-13-08",
    "appid": "val",
    "game": "발로란트",
@@ -12681,6 +13658,69 @@
    }
   },
   {
+   "gid": "1846018067943613",
+   "appid": 39210,
+   "game": "파이널 판타지 XIV",
+   "date": 1791887629,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067943613",
+   "origTitle": "Patch 7.57 Notes",
+   "title": "파이널 판타지 XIV 패치 7.57 노트",
+   "summary": "파이널 판타지 XIV 패치 7.57은 일본 데이터 센터에 동일 지역 플레이어 매칭 시스템을 도입하고 '불굴의 도가니' 관련 조정을 적용했습니다.",
+   "highlights": [
+    "일본 데이터 센터 동일 지역 플레이어 매칭 도입",
+    "불굴의 도가니 관련 조정 적용"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "FINAL FANTASY XIV Patch 7.57 Notes",
+     "summary": "Patch 7.57 introduces same-region player matchmaking to the Japanese data centers and implements various adjustments to the Crucible of the Unbroken.",
+     "highlights": [
+      "Same-region player matchmaking added to Japanese data centers",
+      "Adjustments made to the Crucible of the Unbroken"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "ファイナルファンタジーXIV パッチ7.57 変更点",
+     "summary": "パッチ7.57では、日本データセンターにおける同一リージョン内プレイヤーのマッチング導入や、「砕かれざる者の試練」に関する調整が行われました。",
+     "highlights": [
+      "日本データセンターに同一リージョン内プレイヤーのマッチングを導入",
+      "「砕かれざる者の試練」に関する各種調整"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "最终幻想14 7.57版本更新笔记",
+     "summary": "7.57版本为日本数据中心引入了同区域玩家匹配功能，并对“不屈者的熔炉”进行了多项调整。",
+     "highlights": [
+      "日本数据中心引入同区域玩家匹配功能",
+      "对“不屈者的熔炉”进行了调整"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Notas do Patch 7.57 de FINAL FANTASY XIV",
+     "summary": "O Patch 7.57 introduz o sistema de pareamento de jogadores da mesma região nos centros de dados do Japão, além de trazer diversos ajustes ao Crucible of the Unbroken.",
+     "highlights": [
+      "Pareamento de jogadores da mesma região nos centros de dados do Japão",
+      "Ajustes aplicados ao Crucible of the Unbroken"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "split": true,
    "gid": "hs:24301454",
    "appid": "hs",
@@ -12728,6 +13768,325 @@
       "Fixed a bug where Beaststalker Tavish could Discover Colossal minions",
       "Fixed a bug where Spiked Mount did not grant Taunt to the targeted minion",
       "Fixed a bug where Professor Slate hero skin was missing a combat voice line"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1846018067941164",
+   "appid": 526870,
+   "game": "새티스팩토리",
+   "date": 1791815943,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067941164",
+   "origTitle": "1.2 Update Fixes v1.2.4.1",
+   "title": "새티스팩토리 v1.2.4.1 핫픽스",
+   "summary": "새티스팩토리 v1.2.4.1 패치는 오디오 모드 호환성을 위한 오디오 라우팅 재활성화 및 Wwise 버전 업데이트를 포함합니다. 또한, 게임 저장 시 표지판이 지워지는 현상과 다양한 크래시 문제를 해결했습니다.",
+   "highlights": [
+    "오디오 라우팅 및 메타사운드 기본 작동 재활성화",
+    "내부 Wwise 버전을 2025.1.6으로 업데이트",
+    "Engine.ini를 원래 상태로 복원"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "저장 파일 로드 시 주변 표지판이 빈 상태로 초기화되는 문제 수정",
+    "콘솔에서 오디오 및 Wwise 관련 멈춤 현상 수정",
+    "철도/컨베이어 벨트 및 처리량 모니터 관련 크래시 수정",
+    "데디케이트 서버에서 컨베이어 처리량 모니터 설치 시 발생하는 크래시 수정",
+    "게임 종료 시 발생하는 오디오 관련 크래시 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Satisfactory v1.2.4.1 Update Fixes",
+     "summary": "The Satisfactory v1.2.4.1 patch re-enables audio routing to fix audio-related mods, updates the Wwise version, and resolves several important crashes and bugs. Key fixes include preventing signs from being wiped upon loading and fixing console audio freezes.",
+     "highlights": [
+      "Re-enabled Audio Routing and Metasound for audio mods",
+      "Updated internal Wwise version to 2025.1.6",
+      "Restored Engine.ini to original status"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed signs around a Pioneer getting wiped blank upon loading a save",
+      "Fixed Audio/WWise related freeze on Consoles",
+      "Fixed crash when aiming at a Conveyor Belt with dismantled Throughput Monitors",
+      "Fixed Dedicated Server crash when placing a Conveyor Throughput Monitor",
+      "Fixed audio-related crash when exiting the game"
+     ]
+    },
+    "ja": {
+     "title": "Satisfactory v1.2.4.1 アップデート修正",
+     "summary": "Satisfactoryのv1.2.4.1パッチでは、オーディオモดの互換性を復元するためのオーディオルーティングの再有効化やWwiseのバージョンアップが行われました。また、セーブ時の看板消失や各種クラッシュ・フリーズの問題が修正されています。",
+     "highlights": [
+      "オーディオルーティングとメタサウンドの機能を再有効化",
+      "内部Wwiseバージョンを2025.1.6にアップデート",
+      "Engine.iniを元の状態に復元"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "セーブデータロード時に周囲の看板が消えて空白になる現象を修正",
+      "コンソール版でのオーディオ/Wwise関連のフリーズを修正",
+      "コンベアベルトの処理量モニターに関するクラッシュを修正",
+      "専用サーバーでコンベア処理量モニターを設置時のクラッシュを修正",
+      "ゲーム終了時のオーディオ関連クラッシュを修正"
+     ]
+    },
+    "zh": {
+     "title": "《满意工厂》v1.2.4.1 更新修复",
+     "summary": "《满意工厂》v1.2.4.1 补丁重新启用了音频路由以支持音频MOD，更新了Wwise版本，并修复了多项严重的崩溃和Bug。重点修复了加载存档时标牌变空白以及控制台音频卡死的问题。",
+     "highlights": [
+      "重新启用音频路由和Metasound以支持音频MOD",
+      "将内部Wwise版本更新至2025.1.6",
+      "将 Engine.ini 恢复至原始状态"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复加载存档时先锋周围的标牌被清空变白的问题",
+      "修复主机上的音频/Wwise相关卡死问题",
+      "修复瞄准带有已拆卸输送带吞吐量监视器的传送带时崩溃的问题",
+      "修复专用服务器上放置输送带吞吐量监视器时崩溃的问题",
+      "修复退出游戏时与音频相关的崩溃问题"
+     ]
+    },
+    "pt": {
+     "title": "Correções da Atualização v1.2.4.1 de Satisfactory",
+     "summary": "O patch v1.2.4.1 de Satisfactory reativa o roteamento de áudio para compatibilidade com mods, atualiza a versão do Wwise e resolve vários travamentos e bugs importantes. As correções incluem evitar que placas sejam apagadas ao carregar um save e travamentos relacionados a áudio.",
+     "highlights": [
+      "Reativado o roteamento de áudio e Metasound para mods",
+      "Atualizada a versão interna do Wwise para 2025.1.6",
+      "Engine.ini restaurado ao status original"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido o bug em que placas ao redor do Pioneer ficavam em branco ao carregar um save",
+      "Corrigido travamento relacionado a áudio/Wwise nos consoles",
+      "Corrigido travamento ao mirar em uma esteira com Monitores de Vazão desmontados",
+      "Corrigido travamento em Servidor Dedicado ao colocar um Monitor de Vazão de Esteira",
+      "Corrigido travamento relacionado a áudio ao sair do jogo"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1846018067929400",
+   "appid": 292030,
+   "game": "위쳐 3: 와일드 헌트",
+   "date": 1791460971,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067929400",
+   "origTitle": "Patch 5.01 is live!",
+   "title": "위쳐 3: 와일드 헌트 - 패치 5.01 배포",
+   "summary": "위쳐 3: 와일드 헌트 리마스터 패치 5.01이 적용되었습니다. 이번 패치에서는 칼날 기름 자동 적용, 회피 지연, UI 및 PC 그래픽 설정 관련 버그가 수정되고 비주얼과 스킬 효과가 개선되었습니다.",
+   "highlights": [
+    "칼날 기름 자동 적용 기능 수정",
+    "폭발하는 방패 스킬에 피해 반사 추가",
+    "블룸, 레이 트레이싱, 패스 트레이싱 등 비주얼 조정",
+    "PC 그래픽 설정 및 GPU 인식 오류 수정",
+    "비즈마 상자의 내 보상 및 트위치/빌리빌리 드롭스 관련 문제 수정",
+    "세이브 파일 데이터 관련 문제 수정 및 대책 마련"
+   ],
+   "buffs": [
+    "폭발하는 방패 스킬에 피해 반사 추가"
+   ],
+   "nerfs": [],
+   "fixes": [
+    "칼날 기름 자동 적용 기능이 현재 게임 세션에서 켜져 있을 때만 작동하던 문제 수정",
+    "특정 상황에서 플레이어가 조종하는 배가 통제 불능으로 움직이던 문제 수정",
+    "제럴드가 Aard 마무리 일격 후 죽은 적과 충돌하던 문제 수정",
+    "회피 시 의도치 않게 반응이 지연되던 문제 수정",
+    "옵션이 비활성화되어 있어도 폭탄을 던질 수 있던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "The Witcher 3: Wild Hunt - Patch 5.01 is Live",
+     "summary": "Patch 5.01 is now available for The Witcher 3: Wild Hunt — Remastered. This update brings gameplay adjustments like damage reflection to Exploding Shield, fixes for blade oils, dodge delays, and various PC and UI bug fixes.",
+     "highlights": [
+      "Fixed Automatically Apply Blade Oils feature issue",
+      "Added damage reflection to the Exploding Shield skill",
+      "Visual adjustments including Bloom, Ray Tracing, and Path Tracing",
+      "PC-specific graphics settings and GPU selection fixes",
+      "Fixed My Rewards and Twitch/Bilibili Drops chest issue in Vizima",
+      "Added measures to address save file data issues"
+     ],
+     "buffs": [
+      "Added damage reflection to the Exploding Shield skill"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where Automatically Apply Blade Oils only worked if enabled during the current session",
+      "Fixed uncontrolled movement of player-controlled boats under specific circumstances",
+      "Fixed an issue where dodging could have an unintentionally delayed response",
+      "Fixed an issue where Geralt's Stamina was fully drained when sprinting and dodging simultaneously",
+      "Fixed an issue where the GTAO Quality setting would reset after restarting"
+     ]
+    },
+    "ja": {
+     "title": "ウィッチャー3 ワイルドハント - パッチ 5.01 配信開始",
+     "summary": "『ウィッチャー3 ワイルドハント リマスター』のパッチ5.01が配信開始されました。ブレードオイルの自動適用、回避の遅延、UIおよびPC版のグラフィック設定に関する不具合の修正、ビジュアルの調整が行われました。",
+     "highlights": [
+      "「ブレードオイルの自動適用」機能の不具合を修正",
+      "「爆薬の盾」スキルにダメージ反射を追加",
+      "ブルーム、レイトレーシング、パストレーシングなどのビジュアル調整",
+      "PC版のグラフィック設定およびGPU選択の不具合を修正",
+      "ヴィジマのチェストにおける「マイリワード」およびTwitch/Bilibiliドロップスの問題を修正",
+      "セーブデータに関する問題の修正と対策を追加"
+     ],
+     "buffs": [
+      "「爆薬の盾」スキルにダメージ反射を追加"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "「ブレードオイルの自動適用」機能が現在のゲームセッション内で有効にした場合のみ機能する不具合を修正",
+      "特定の状況下でプレイヤーのボートが制御不能になり地形を無視する不具合を修正",
+      "回避アクションの応答が意図せず遅延する不具合を修正",
+      "ダッシュと回避を同時に行った際、ゲラルトのスタミナが完全に枯渇する不具合を修正",
+      "GTAOクオリティ設定がゲーム再起動後にリセットされる不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "巫师3：狂猎 - 5.01补丁上线",
+     "summary": "《巫师3：狂猎》复刻版 5.01 补丁现已上线。本次更新修复了自动涂抹剑油、闪避延迟、UI 及 PC 图形设置等问题，并调整了视觉效果和技能机制。",
+     "highlights": [
+      "修复“自动涂抹剑油”功能仅在当前游戏会话中启用的问题",
+      "为“爆炸盾牌”技能添加伤害反弹效果",
+      "视觉效果调整，包括泛光、光线追踪和路径追踪",
+      "修复 PC 端图形设置重置及 GPU 选择错误问题",
+      "修复维吉玛箱子中“我的奖励”及 Twitch/Bilibili 掉落物不显示的问题",
+      "修复并采取措施应对存档文件数据问题"
+     ],
+     "buffs": [
+      "为“爆炸盾牌”技能添加伤害反弹效果"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "修复在特定情况下玩家操控的船只失控并穿地的问题",
+      "修复杰洛特在阿尔德法印终结技后与死敌发生碰撞的问题",
+      "修复闪避响应可能出现非预期延迟的问题",
+      "修复杰洛特在同时冲刺和闪避时体力完全耗尽的问题",
+      "修复游戏重启后 GTAO 质量设置重置的问题"
+     ]
+    },
+    "pt": {
+     "title": "The Witcher 3: Wild Hunt - Atualização 5.01 disponível",
+     "summary": "A atualização 5.01 já está disponível para The Witcher 3: Wild Hunt — Remastered. Esta atualização traz melhorias visuais, adição de reflexão de dano na habilidade Escudo Explosivo, além de correções para óleos de espada, atrasos de esquiva e problemas de PC/UI.",
+     "highlights": [
+      "Correção no recurso de aplicação automática de óleos de espada",
+      "Adicionado reflexo de dano à habilidade Escudo Explosivo",
+      "Ajustes visuais incluindo Bloom, Ray Tracing e Path Tracing",
+      "Correções de configurações gráficas específicas para PC e seleção de GPU",
+      "Correção no baú de Vizima para Recompensas e Drops da Twitch/Bilibili",
+      "Adicionadas medidas para resolver problemas com arquivos de salvamento"
+     ],
+     "buffs": [
+      "Adicionado reflexo de dano à habilidade Escudo Explosivo"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Correção de um problema onde a aplicação automática de óleos funcionava apenas se habilitada na sessão atual",
+      "Correção de um problema onde barcos controlados pelo jogador podiam se mover descontroladamente",
+      "Correção de um atraso não intencional na resposta ao esquivar",
+      "Correção de um problema onde a Vigor de Geralt era totalmente esgotada ao correr e esquivar simultaneamente",
+      "Correção de um problema onde a configuração de qualidade GTAO era redefinida após reiniciar o jogo"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1846018067926054",
+   "appid": 1129580,
+   "game": "중세 왕조",
+   "date": 1791378237,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067926054",
+   "origTitle": "Patch 2.7.0.4 on the Public Branch",
+   "title": "퍼블릭 브랜치 패치 2.7.0.4",
+   "summary": "중세 왕조의 퍼블릭 브랜치에 2.7.0.4 패치가 적용되어 전설 동물의 전리품 드랍 오류와 시장 가판대 관련 문제가 수정되었습니다.",
+   "highlights": [
+    "전설 동물이 전리품을 2개 드랍하던 문제 수정",
+    "클라이언트 플레이어가 사냥 세트를 제작하지 못하던 문제 수정",
+    "시장 가판대에서 정교한 아이템과 전설 아이템 제거"
+   ],
+   "buffs": [],
+   "nerfs": [
+    "전설 동물이 전리품을 2개 드랍하던 문제 수정"
+   ],
+   "fixes": [
+    "전설 동물이 전리품 2개 드랍 현상 수정",
+    "호스트가 사냥 세트를 가졌을 때 클라이언트 제작 불가 현상 수정",
+    "시장 가판대의 정교한 및 전설 아이템 제거"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Patch 2.7.0.4 on Public Branch",
+     "summary": "Update 2.7.0.4 has been released for the Public Branch of Medieval Dynasty, fixing several issues related to legendary animals, crafting, and market stalls.",
+     "highlights": [
+      "Legendary animals no longer drop 2 trophies",
+      "Fixed clients unable to craft the Hunting Set",
+      "Removed Exquisite and Legendary items from Market Stall"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Legendary animals no longer drop 2 trophies"
+     ],
+     "fixes": [
+      "Fixed legendary animals dropping 2 trophies",
+      "Fixed clients unable to craft Hunting Set when host had it",
+      "Removed Exquisite and Legendary items from Market Stall"
+     ]
+    },
+    "ja": {
+     "title": "パブリックブランチ パッチ2.7.0.4",
+     "summary": "Medieval Dynastyのパブリックブランチ向けにアップデート2.7.0.4が配信され、伝説の動物やクラフト、市場の露店に関する問題が修正されました。",
+     "highlights": [
+      "伝説の動物がトロフィーを2個ドロップしなくなりました",
+      "ホストが所持していてもクライアントがハンティングセットを作成できなかった問題を修正",
+      "市場の露店から極上のアイテムと伝説のアイテムを削除"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "伝説の動物がトロフィーを2個ドロップしなくなった修正"
+     ],
+     "fixes": [
+      "伝説の動物がトロフィーを2個ドロップする不具合の修正",
+      "ホストがハンティングセットを所持しているのにクライアントが作成できなかった不具合の修正",
+      "市場の露店から極上および伝説のアイテムを削除"
+     ]
+    },
+    "zh": {
+     "title": "公共分支 2.7.0.4补丁",
+     "summary": "《中世纪王朝》发布了公共分支2.7.0.4更新，修复了与传奇动物、制作以及集市摊位相关的一些问题。",
+     "highlights": [
+      "传奇动物不再掉落2个战利品",
+      "修复了主机拥有时客户端无法制作狩猎套装的问题",
+      "从集市摊位中移除了精致和传奇物品"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "传奇动物不再掉落2个战利品"
+     ],
+     "fixes": [
+      "修复传奇动物掉落2个战利品的问题",
+      "修复主机拥有狩猎套装时客户端无法制作的问题",
+      "从集市摊位移除精致和传奇物品"
+     ]
+    },
+    "pt": {
+     "title": "Patch 2.7.0.4 no Ramo Público",
+     "summary": "A atualização 2.7.0.4 foi lançada para o Ramo Público de Medieval Dynasty, corrigindo problemas relacionados a animais lendários, criação e barracas de mercado.",
+     "highlights": [
+      "Animais lendários não deixam mais cair 2 troféus",
+      "Clientes não conseguiam criar o Conjunto de Caça mesmo se o host o tivesse",
+      "Itens Requintados e Lendários removidos da Barraca do Mercado"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Animais lendários não deixam mais cair 2 troféus"
+     ],
+     "fixes": [
+      "Corrigido animais lendários soltando 2 troféus",
+      "Corrigido clientes sem conseguir criar o Conjunto de Caça",
+      "Removidos itens Requintados e Lendários da Barraca do Mercado"
      ]
     }
    }
@@ -13152,6 +14511,94 @@
    }
   },
   {
+   "gid": "1845383656383544",
+   "appid": 1568590,
+   "game": "구스구스덕",
+   "date": 1790879617,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656383544",
+   "origTitle": "v4.12 - Trick or Treat: Wereduck",
+   "title": "v4.12 늑대오리 업데이트",
+   "summary": "구스구스덕에 신규 역할인 늑대오리가 추가되고 핼러윈 이벤트와 드래프트 모드 개선이 적용되었습니다. 늑대오리는 마을 주민을 처치해 부하로 만들고 팩을 강화하여 승리할 수 있습니다.",
+   "highlights": [
+    "신규 역할 늑대오리 추가: 변신하여 마을 주민을 처치하고 부하로 부활시킴",
+    "신규 늑대오리 능력: 야성의 본능, 팩 멘탈리티(패시브)",
+    "신규 트릭 오어 트릿 드래프트 추가",
+    "드래프트 화면 UI 시각적 업데이트",
+    "한정 기간 핼러윈 트릭 및 트릿 이벤트 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "각종 버그 수정 및 최적화 진행"
+   ],
+   "i18n": {
+    "en": {
+     "title": "v4.12 - Trick or Treat: Wereduck",
+     "summary": "Goose Goose Duck has been updated with the new Wereduck role, a new Draft mode, and limited-time Halloween content. The Wereduck wins by killing Villagers, turning eliminated players into Thralls to strengthen the pack.",
+     "highlights": [
+      "New Trick or Treat Role: Wereduck",
+      "New Wereduck abilities: Transform, Feral Instinct, and Pack Mentality",
+      "New Trick or Treat Draft mode",
+      "Updated Draft Screen UI",
+      "Limited-time Halloween Tricks and Treats event"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Various bug fixes and optimizations"
+     ]
+    },
+    "ja": {
+     "title": "v4.12 - トリック・オア・トリート：ワーダック",
+     "summary": "グースグースダックに新しいワーダックの役職、ドラフトモード、および期間限定のハロウィンコンテンツが追加されました。ワーダックは村人を倒して従者にし、パックを強化して勝利を目指します。",
+     "highlights": [
+      "新しい役職「ワーダック」の追加",
+      "ワーダックの新しい能力：変身、野生の本能、パックメンタリティ",
+      "新しいトリック・オア・トリート・ドラフトの追加",
+      "ドラフト画面のUIビジュアルを更新",
+      "期間限定のハロウィンイベント「トリック＆トリート」の開催"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "様々なバグ修正と最適化を実施"
+     ]
+    },
+    "zh": {
+     "title": "v4.12 - 不给糖就捣蛋：狼鸭",
+     "summary": "鹅鸭杀推出了全新角色狼鸭、全新的选人模式以及限时万圣节内容。狼鸭需要通过击杀村民并将他们转化为爪牙来壮大自己的团队并赢得胜利。",
+     "highlights": [
+      "新增万圣节角色：狼鸭",
+      "新增狼鸭技能：变形、野性本能和群体意识",
+      "新增万圣节选人模式",
+      "更新选人界面的视觉外观",
+      "限时万圣节捣蛋与糖果活动"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "包含各种错误修复与优化"
+     ]
+    },
+    "pt": {
+     "title": "v4.12 - Gosturas ou Travessuras: Pato-Lis",
+     "summary": "Goose Goose Duck foi atualizado com o novo papel de Pato-Lis, um novo modo de escolha e conteúdo de Halloween por tempo limitado. O Pato-Lis vence eliminando Aldeões e transformando-os em Lacaios para fortalecer sua matilha.",
+     "highlights": [
+      "Novo papel de Gosturas ou Travessuras: Pato-Lis",
+      "Novas habilidades do Pato-Lis: Transformação, Instinto Feral e Mentalidade de Matilha",
+      "Novo modo de escolha de Gosturas ou Travessuras",
+      "Interface da Tela de Escolha atualizada",
+      "Evento de Gosturas e Travessuras de Halloween por tempo limitado"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Várias correções de bugs e otimizações"
+     ]
+    }
+   }
+  },
+  {
    "split": true,
    "gid": "hs:24303864",
    "appid": "hs",
@@ -13307,6 +14754,104 @@
       "Fixed Arch-Villain Rafaam and Ghost of the Victim from appearing in anomaly lobbies",
       "Fixed Angler Spellweaver from offering Echoing Voice",
       "Fixed Sinister Invitation to offer higher-tier minions more frequently"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1845383656381526",
+   "appid": 292030,
+   "game": "위쳐 3: 와일드 헌트",
+   "date": 1790864588,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656381526",
+   "origTitle": "Hotfix 5.00c is out now!",
+   "title": "위쳐 3: 와일드 헌트 핫픽스 5.00c 배포",
+   "summary": "위쳐 3: 와일드 헌트 스팀 버전용 핫픽스 5.00c가 배포되었습니다. 이번 패치에서는 문서 폴더 경로 문제와 오디오, 그래픽 및 성능 관련 버그들이 수정되었습니다.",
+   "highlights": [
+    "특수 문자가 포함된 문서 폴더 경로에서 저장 및 불러오기 불가 문제 수정",
+    "벨렌 지역 시각 효과 조정 (블룸, 식생 조명, 채도, 패스 트레이싱 조명 등)",
+    "일부 유저의 헤어웍스(HairWorks) 활성화 시 발생하던 성능 및 시각적 문제 수정 원복",
+    "클래식(1.32) 버전 실행 불가 문제 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "문서 폴더 경로에 특수 문자가 있을 때 게임 저장 및 불러오기가 안 되던 문제 수정",
+    "일시 정지 메뉴 탭 이동 후 음성 오디오가 다른 게임 오디오보다 현저히 작아지던 문제 수정",
+    "마케팅 텔레메트리 설정이 올바르게 저장되지 않던 문제 수정",
+    "클래식(1.32) 버전 실행이 불가능하던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "The Witcher 3: Wild Hunt Hotfix 5.00c Released",
+     "summary": "Hotfix 5.00c is now available for the Steam version of The Witcher 3: Wild Hunt. This update resolves save/load issues caused by special characters in file paths, audio bugs, and visual adjustments in Velen.",
+     "highlights": [
+      "Fixed save/load issues when the Documents folder path contained special characters",
+      "Made various visual adjustments in Velen, including Bloom, vegetation lighting, and Path Tracing",
+      "Reverted changes causing performance and visual issues with HairWorks for some users",
+      "Fixed an issue preventing players from launching the Classic (1.32) version"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where the game couldn't be saved or loaded with special characters in the Documents folder path",
+      "Fixed an issue where voiceover audio became quieter after navigating pause menu tabs",
+      "Fixed marketing telemetry settings not saving properly",
+      "Fixed an issue where launching the Classic (1.32) version was not possible"
+     ]
+    },
+    "ja": {
+     "title": "ウィッチャー3 ワイルドハント ホットフィックス 5.00c配信開始",
+     "summary": "『ウィッチャー3 ワイルドハント』Steam版に向けてホットフィックス 5.00cの配信が開始されました。このアップデートでは、セーブ・ロードの不具合やオーディオの音量問題、ヴェレンでの視覚的な調整などが行われています。",
+     "highlights": [
+      "ドキュメントフォルダのパスに特殊文字が含まれる場合セーブやロードができない不具合を修正",
+      "ヴェレンにおけるブルーム、植生のライティング、彩度、パストラシングライティングなどの視覚的調整を実施",
+      "一部のユーザーでHairWorks有効時に発生していたパフォーマンスおよび視覚的問題の修正を以前の状態に戻しました",
+      "クラシック（1.32）版を起動できない不具合を修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "ドキュメントフォルダのパスに特殊文字が含まれる場合にゲームのセーブやロードができなかった問題を修正",
+      "ポーズメニューのタブを切り替えた後、ボイス音声が他のゲーム内音声よりも大幅に小さくなる問題を修正",
+      "マーケティングテレメトリーの設定が正しく保存されない問題を修正",
+      "クラシック（1.32）版のゲームを起動できなかった問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "《巫师3：狂猎》热修补丁 5.00c 发布",
+     "summary": "《巫师3：狂猎》Steam版热修补丁 5.00c 现已发布。本次更新修复了文档路径特殊字符导致的存档问题、音频异常以及威伦地区的视觉效果调整。",
+     "highlights": [
+      "修复了文档文件夹路径包含特殊字符时无法存档或读档的问题",
+      "对威伦进行了各种视觉调整，包括泛光、植被光照、饱和度和路径追踪光照",
+      "回滚了一项导致部分用户启用 HairWorks 时出现严重性能和视觉问题的更改",
+      "修复了无法启动经典版（1.32）游戏的问题"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了文档文件夹路径包含特殊字符时游戏无法存档或读档的问题",
+      "修复了浏览暂停菜单标签后语音音量比其他游戏内音频显著变小的问题",
+      "修复了营销遥测设置未正确保存的问题",
+      "修复了无法启动经典版（1.32）游戏的问题"
+     ]
+    },
+    "pt": {
+     "title": "Hotfix 5.00c de The Witcher 3: Wild Hunt já está disponível",
+     "summary": "O hotfix 5.00c já está disponível para a versão de Steam de The Witcher 3: Wild Hunt. Esta atualização corrige problemas de salvamento, bugs de áudio e traz ajustes visuais em Velen.",
+     "highlights": [
+      "Corrigido um problema em que o jogo não podia ser salvo ou carregado se o caminho da pasta Documentos contivesse caracteres especiais",
+      "Feitos vários ajustes visuais em Velen, incluindo brilho, iluminação de vegetação, saturação e Path Tracing",
+      "Revertida uma alteração que causava problemas significativos de desempenho e visuais com o HairWorks ativado para alguns usuários",
+      "Corrigido um problema em que não era possível iniciar a versão Clássica (1.32) do jogo"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido um problema em que o jogo não podia ser salvo ou carregado se o caminho da pasta Documentos contivesse caracteres especiais",
+      "Corrigido um problema em que a voz podia ficar significativamente mais baixa do que outros áudios após navegar pelas abas do menu de pausa",
+      "Corrigido um problema em que as configurações de telemetria de marketing não eram salvas corretamente",
+      "Corrigido um problema em que não era possível iniciar a versão Clássica (1.32) do jogo"
      ]
     }
    }
@@ -13529,6 +15074,217 @@
      "buffs": [],
      "nerfs": [],
      "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1844751498234200",
+   "appid": 2300320,
+   "game": "파밍 시뮬레이터 25",
+   "date": 1790687497,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498234200",
+   "origTitle": "Free Content Update #7 + Patch 1.24 for FS25",
+   "title": "파밍 시뮬레이터 25 무료 콘텐츠 업데이트 #7 및 패치 1.24",
+   "summary": "파밍 시뮬레이터 25의 무료 콘텐츠 업데이트 #7과 패치 1.24가 배포되었습니다. 시리즈에 새로 합류한 SOLÀ를 포함해 4대의 신규 장비가 추가되었으며 다양한 버그 수정 및 개선 사항이 적용되었습니다.",
+   "highlights": [
+    "시리즈 최초로 SOLÀ 브랜드 및 장비 추가",
+    "Merlo EW 25.5 및 Skoda Fabia 차량 추가",
+    "멀티플레이어 서버 설정 비용 관련 버그 수정",
+    "고속 이동 시 비 효과 및 차량 셰이더 빗방울 효과 개선",
+    "Highlands Fishing 및 Straw Harvest 등 확장팩 패치 적용"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "멀티플레이어 서버에서 설정 변경 시 비용이 차감되지 않던 문제 수정",
+    "JCB Fastrac 4000 iCON 전면 그릴 메시 크기 수정",
+    "소 헛간짚 평면 위치 수정",
+    "베일 파쇄기가 처리할 수 없는 인근 베일을 집어 들던 문제 수정",
+    "생산 중단 후 팔레타이저 벨트와 롤러가 계속 회전하던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Farming Simulator 25 Free Content Update #7 + Patch 1.24",
+     "summary": "Free Content Update #7 and Patch 1.24 are now available for Farming Simulator 25. The update introduces four new machines including the series debut of SOLÀ, alongside various bug fixes and improvements.",
+     "highlights": [
+      "SOLÀ brand makes its series debut with two machines",
+      "Added Merlo EW 25.5 and Skoda Fabia",
+      "Fixed configuration money deduction on multiplayer servers",
+      "Improved rain and raindrop shader effects",
+      "Applied updates to Highlands Fishing and Straw Harvest packs"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed configurations not deducting money on multiplayer servers",
+      "Fixed front grille mesh size on the JCB Fastrac 4000 iCON",
+      "Fixed cow barn straw plane position",
+      "Fixed bale shredders grabbing nearby bales they could not process",
+      "Fixed palletizer belts and rollers continuing to spin after production stopped"
+     ]
+    },
+    "ja": {
+     "title": "ファーミングシミュレーター 25：無料コンテンツアップデート #7 ＆ パッチ 1.24",
+     "summary": "『ファーミングシミュレーター 25』向けに無料コンテンツアップデート #7 とパッチ 1.24 が配信開始されました。新ブランドのSOLÀを含む4台の新マシーンが追加され、様々な修正と改善が行われています。",
+     "highlights": [
+      "シリーズ初登場となるSOLÀブランドのマシーンを追加",
+      "MerloとSkodaの新しい乗り物を追加",
+      "マルチプレイヤーサーバーでの設定費用控除の不具合を修正",
+      "雨の効果と車両シェイダーの雨粒表現を改善",
+      "各種拡張パックおよびMOD関連のアップデート"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "マルチプレイヤーサーバーで構成変更時の料金が正しく差し引かれない問題を修正",
+      "JCB Fastrac 4000 iCONのフロントグリルメッシュサイズを修正",
+      "牛舎の藁の平面位置を修正",
+      "ベールシュレッダーが処理できない近くのベールを掴んでしまう問題を修正",
+      "生産停止後もパレタイザーのベルトとローラーが回転し続ける問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "模拟农场 25 免费内容更新 #7 + 补丁 1.24",
+     "summary": "《模拟农场 25》现已推出免费内容更新 #7 和 1.24 补丁。本次更新加入了四台新机器，包括首次亮相该系列的 SOLÀ 品牌，同时包含了多项错误修复与改进。",
+     "highlights": [
+      "SOLÀ 品牌首次加入游戏系列",
+      "新增 Merlo EW 25.5 和 Skoda Fabia 车辆",
+      "修复联机服务器配置未扣除金钱的问题",
+      "优化雨天效果及车辆着色器雨滴效果",
+      "包含多个扩展包和模组相关更新"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复联机服务器中配置未扣除金钱的问题",
+      "修复 JCB Fastrac 4000 iCON 前格栅网格大小",
+      "修复牛棚稻草平面位置",
+      "修复打捆粉碎机抓取无法处理的附近草捆的问题",
+      "修复生产停止后码垛机皮带和滚筒继续旋转的问题"
+     ]
+    },
+    "pt": {
+     "title": "Farming Simulator 25: Atualização Gratuita de Conteúdo #7 + Patch 1.24",
+     "summary": "A Atualização Gratuita de Conteúdo #7 e o Patch 1.24 já estão disponíveis para o Farming Simulator 25. A atualização traz quatro novas máquinas, incluindo a estreia da marca SOLÀ na série, além de várias correções e melhorias.",
+     "highlights": [
+      "Estreia da marca SOLÀ na série com duas novas máquinas",
+      "Adicionados o veículo Merlo EW 25.5 e o carro Skoda Fabia",
+      "Correção na dedução de dinheiro em servidores multiplayer",
+      "Melhorias nos efeitos de chuva e shaders de gotas",
+      "Atualizações aplicadas em pacotes de expansão"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido o problema de configurações não deduzirem dinheiro em servidores multiplayer",
+      "Corrigido o tamanho da malha da grade dianteira no JCB Fastrac 4000 iCON",
+      "Corrigida a posição do plano de palha no celeiro de vacas",
+      "Corrigidos trituradores de fardos que pegavam fardos próximos que não podiam processar",
+      "Corrigidas as correias e rolos do paletizador que continuavam girando após a parada da produção"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1844751498233633",
+   "appid": 1363080,
+   "game": "매너 로드",
+   "date": 1790672803,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498233633",
+   "origTitle": "BETA hotfix (0.8.111)",
+   "title": "매너 로드 베타 핫픽스 0.8.111",
+   "summary": "매너 로드 베타 0.8.111 핫픽스는 농경 및 필드 시스템의 다양한 오류를 수정하고 UI를 개선했습니다. 또한 인공지능이 허브 정원 업그레이드를 구매하며, 소와 수레의 길 선호도가 조정되었습니다.",
+   "highlights": [
+    "필드 타임라인 작업 시각 효과 개선 및 완료 표시 기능 추가",
+    "AI가 허브 정원 업그레이드 구매",
+    "수레가 있는 소의 도로 선호도 재조정",
+    "시즌 과제, 유지보수, 연료, 수확량 탭 및 가족 아이콘 UI 스타일 개편"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "심층 광산 붕괴로 노동자 사망 시 발생하는 충돌 수정",
+    "텍스처 소프트 참조 가비지 컬렉션 관련 잠재적 충돌 수정",
+    "사냥개 복귀 시 보너스 수확량을 주지 않던 오류 수정",
+    "겨울 작물이 봄에 '자라는 중' 대신 '현재 작업 없음'으로 표시되던 오류 수정",
+    "늦게 파종되거나 큰 필드의 수확 불가 현상 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Manor Lords Beta Hotfix (0.8.111)",
+     "summary": "The Manor Lords beta hotfix 0.8.111 introduces UI styling updates, AI improvements for upgrades, and numerous bug fixes related to farming fields. It also resolves specific crashes involving worker deaths and texture garbage collection.",
+     "highlights": [
+      "Field timeline tasks fade when completed and show 'completed' on hover",
+      "AI will now buy the Herb Garden upgrade",
+      "Oxen with carts have a high preference for following roads",
+      "New and adjusted styling for various UI tabs and the Family icon"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed crash from worker killed when Deep Mine collapsed",
+      "Fixed potential crashes caused by texture soft reference garbage collection",
+      "Fixed Hunting Hound not giving bonus yield when getting back to Hunting Camp",
+      "Fixed Winter crops showing 'No Current Task' during Spring instead of 'Growing'",
+      "Fixed late-sown or large fields not allowing harvest because they hadn't grown enough"
+     ]
+    },
+    "ja": {
+     "title": "マンorロード ベータホットフィックス (0.8.111)",
+     "summary": "「Manor Lords（マナー・ロード）」のベータホットフィックス0.8.111では、農地に関する多数の不具合修正やUIのスタイリング変更が行われました。さらに、AIがハーブ園のアップグレードを購入するようになり、牛と荷車の移動AIも調整されました。",
+     "highlights": [
+      "完了した畑のタイムラインタスクが薄くなり、ホバー時に「完了」と表示",
+      "AIがハーブ園のアップグレードを購入するように変更",
+      "荷車付きの牛の道路優先度を再調整",
+      "季節の割り当て、維持費、燃料、収穫量タブなどのUIスタイルを改善"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "深部鉱山の崩落で作業員が死亡した際のクラッシュを修正",
+      "テクスチャのソフト参照のガベージコレクションによる潜在的なクラッシュを修正",
+      "狩猟犬が狩猟キャンプに戻った際に追加収穫量を与えなかった不具合を修正",
+      "冬作物が春に「成長中」ではなく「現在のタスクなし」と表示されていた不具合を修正",
+      "十分に成長していない遅播きや大規模な畑で収穫ができなかった不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "庄园领主 测试版热修复 (0.8.111)",
+     "summary": "《庄园领主》（Manor Lords）版本 0.8.111 测试版热修复改进了农田系统的显示与判定，调整了 AI 行为，并修复了多项崩溃和游戏错误。",
+     "highlights": [
+      "田地时间线任务完成后会部分淡化，悬停时显示“已完成”",
+      "AI 现在会购买药草园升级",
+      "带手推车的牛对跟随道路有很高的偏好",
+      "更新了季节分配、维护、燃料和产量标签以及家庭图标的样式"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了深层矿井坍塌导致工人死亡时的崩溃问题",
+      "修复了纹理软引用垃圾回收可能引起的崩溃",
+      "修复了猎犬返回猎人营地时不提供额外产量的问题",
+      "修复了冬作物在春季显示“无当前任务”而不是“生长中”的问题",
+      "修复了晚播或大面积田地因生长不足而不允许收获的问题"
+     ]
+    },
+    "pt": {
+     "title": "Hotfix do Beta de Manor Lords (0.8.111)",
+     "summary": "O hotfix beta 0.8.111 de Manor Lords traz melhorias na interface, ajustes no comportamento da IA para melhorias e várias correções de bugs relacionados à agricultura e campos.",
+     "highlights": [
+      "Tarefas na linha do tempo do campo ficam esmaecidas quando concluídas",
+      "A IA agora comprará a melhoria do Jardim de Ervas",
+      "Bois com carrinhos agora têm alta preferência por seguir estradas",
+      "Novo estilo para guias de Tarefas Sazonais, Manutenção, Combustível, Rendimento e ícone da Família"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido travamento causado por trabalhador morto quando a Mina Profunda desmoronava",
+      "Corrigidos travamentos potenciais causados pela coleta de lixo de referência suave de textura",
+      "Corrigido o Cão de Caça que não dava rendimento bônus ao retornar ao Acampamento de Caça",
+      "Corrigido o cultivo de inverno mostrando 'Nenhuma Tarefa Atual' durante a primavera em vez de 'Crescendo'",
+      "Corrigido campos semeados tarde ou grandes que não permitiam a colheita por não terem crescido o suficiente"
+     ]
     }
    }
   },
@@ -14306,7 +16062,26 @@
    "nerfs": [],
    "fixes": [
     "챌린저스 월드 골드리치 VIP 멤버십 PLUS 안내 문구 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "September 17th (Thu) Patch Update",
+     "summary": "The September 17th patch for MapleStory M introduced new systems such as Combat Power Guide, Union Stats, and Freestyle Coupons. Various quality-of-life improvements were also made, including bulk soul crafting, potential resetting, and making Buff Freezers permanent.",
+     "highlights": [
+      "Added Combat Power Guide and revamped Union Stats",
+      "Added Freestyle Coupons to remove gender restrictions",
+      "Added bulk soul crafting and potential resetting features",
+      "Made Buff Freezer effects permanent and organized related items/currencies",
+      "Permanently opened the Pocket Slot and expanded the maximum single transaction limit in the Meso Market",
+      "Expanded base and maximum inventory/storage slots by 100 and 60 respectively"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed guide text typos in Challengers World Goldrich VIP Membership PLUS"
+     ]
+    }
+   }
   },
   {
    "gid": "1844115010488639",
@@ -14326,7 +16101,23 @@
    ],
    "buffs": [],
    "nerfs": [],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "September 17 Update Overview",
+     "summary": "The September 17th update for Girls' Frontline 2: Exilium introduced new limited-time events, Doll and Weapon Pick-up banners, as well as new costumes and weapon skins. Players can obtain Collapse Pieces and cultivation materials by participating in various events.",
+     "highlights": [
+      "Hosted multiple limited-time events including Voyage Logs",
+      "Increased pick-up rates for Dolls Sopo, Lorelei, and Alba, along with designated weapons",
+      "Released new costumes for Springfield, Lewis, Sopo, and Alba",
+      "Discounted sales for the new weapon skin 'Coldsteel Accolade'",
+      "Provided 2x benefits and rewards for certain limited-time events"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "mabinogimobile:3545062",
@@ -14348,7 +16139,24 @@
    ],
    "buffs": [],
    "nerfs": [],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "September 17th (Thu) Update Notes",
+     "summary": "The September 17th update for Mabinogi Mobile introduced new content 'Nightmare Drill', and expanded high-difficulty options such as 'Very Hard' and 'Hell 3' for the field boss Droch Fhinn, Eirel Raid, and Lunda Abyss. Various convenience systems and events such as AI Connector (Beta), Level Skip Tickets, Memory Imprint Presets, and Guild Missions were also introduced.",
+     "highlights": [
+      "Added 'Very Hard' difficulty for field boss Droch Fhinn",
+      "Added new solo content 'Nightmare Drill' in Gairech Hill",
+      "Added 'Very Hard' difficulty for Eirel Raid and 'Hell 3' difficulty for Lunda Abyss",
+      "Added PC version-exclusive 'Mabinogi Mobile AI Connector (Beta)'",
+      "Added Level 55 and Level 85 Skip Tickets",
+      "Added Memory Imprint Preset feature and Recommended Activities tab"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "1843481262705400",
@@ -14374,7 +16182,29 @@
     "보관함에서 평온의 장화 분해 시 쿨타임이 적용되지 않던 문제 수정",
     "베인의 악몽이 디버프 면역 대상의 시야를 제거하던 문제 수정",
     "현상금 사냥꾼의 '큰 사냥감' 특성이 보너스 골드를 주지 않던 문제 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "Dota 2 Gameplay Patch 7.41f",
+     "summary": "Dota 2 patch 7.41f has been released, addressing various in-game bugs and interaction errors. Issues related to terrain getting stuck around the top Roshan pit and problems with several heroes' skills and items have been resolved.",
+     "highlights": [
+      "Fixed an issue where heroes could hide in terrain near the top Roshan pit",
+      "Fixed a bug related to sale displays for unsellable items",
+      "Fixed an issue where cooldowns were not applied when dismantling Tranquil Boots",
+      "Fixed hero skill errors for Bane, Bounty Hunter, Elder Titan, and others",
+      "Fixed Spirit Breaker's Planar Pocket interaction error"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed locations where heroes could hide in the top Roshan pit terrain",
+      "Fixed an issue where unsellable items could be displayed as sellable during the initial sell period",
+      "Fixed an issue where cooldowns were not applied when dismantling Tranquil Boots in the stash",
+      "Fixed an issue where Bane's Nightmare removed vision from debuff-immune targets",
+      "Fixed an issue where Bounty Hunter's 'Big Game' talent did not grant bonus gold"
+     ]
+    }
+   }
   },
   {
    "gid": "1843481262705049",
@@ -14398,7 +16228,27 @@
     "상급 재련 완화 적용"
    ],
    "nerfs": [],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "September Update: Dimensionalist and Gear Progression Improvements",
+     "summary": "The new class 'Dimensionalist' is added alongside a massive revamp to simplify the gear progression path from Tier 3 to Tier 4. In addition, advanced honing mitigations, growth boost shops, a new Guardian, balance patches for all classes, and various events are applied.",
+     "highlights": [
+      "Released new class 'Dimensionalist'",
+      "Revamped gear progression path from Tier 3 to Tier 4",
+      "Applied advanced honing mitigations and added growth boost shop items",
+      "Added new Guardian 'Guardian's Shade'",
+      "Applied balance changes for all classes",
+      "Hosted 4 events including Jump-Up Boost and Mahakala Returns"
+     ],
+     "buffs": [
+      "Accelerated gear progression speed from Tier 3 to Tier 4 (targeted at new and returning players)",
+      "Applied advanced honing mitigations"
+     ],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "1843481262703464",
@@ -14418,7 +16268,23 @@
    "fixes": [
     "일부 플레이어에게 지형, 건물 등의 텍스처가 현저히 낮은 해상도로 로딩되던 문제 수정",
     "플레이어 부활 후 일부 맵 아이콘 필터가 의도치 않게 해제되던 문제 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "v1.0.5 Bug Fix Patch",
+     "summary": "Version 1.0.5 fixes issues where low-resolution textures were loaded for some players and map icon filters turned off after respawn.",
+     "highlights": [
+      "Fixed an issue where textures for terrain and buildings loaded in low resolution",
+      "Fixed an issue where map icon filters unintentionally turned off after respawning"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where terrain and building textures loaded at significantly lower resolutions for some players",
+      "Fixed an issue where certain map icon filters were unintentionally disabled after a player respawned"
+     ]
+    }
+   }
   },
   {
    "gid": "1843481262687543",
@@ -14439,7 +16305,24 @@
    ],
    "buffs": [],
    "nerfs": [],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Version 3.2 'Their Own Secret History' Update",
+     "summary": "Zenless Zone Zero Version 3.2 update introduces new S-Rank Agents Claret and Roxy, a new main story, areas, and various events. A total of 600 Polychromes will be distributed as server update and bug fix compensation.",
+     "highlights": [
+      "Added new S-Rank Agents Claret (Electric, Armor-bearer) and Roxy (Wind, Stun)",
+      "Added Main Story Season 3 Chapter 3 'Their Own Secret History'",
+      "Added new areas including 'Roscalifer - Vairium District'",
+      "Added new limited-time costumes for Nankong, Aria, and Sunna",
+      "Added beginner's guide selective limited S-Rank Agent and W-Engine rewards",
+      "Hosted various new events including the attendance event 'All-New Program'"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "appid": "pkc",
@@ -14471,17 +16354,17 @@
    "i18n": {
     "en": {
      "title": "Pokémon Champions Ver. 1.2.0 — Regulation M-C",
-     "summary": "Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features include viewing battle logs and battle data on the selection screen.",
+     "summary": "Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features include Battle Log viewing and battle data display on the team preview screen.",
      "highlights": [
-      "Added Regulation M-C Pokémon and held items",
-      "New feature: Log View (records all actions of the current battle)",
-      "New feature: Selection Support (displays battle data on the Pokémon selection screen)"
+      "Added Pokémon and held items for Regulation M-C",
+      "New Feature: Battle Log (records all actions in the current battle)",
+      "New Feature: Selection Support (displays battle data on the Pokémon selection screen)"
      ],
      "buffs": [
       "Can now use Slash"
      ],
      "nerfs": [
-      "Politoed: Can no longer use Scratch",
+      "Politoed: Can no longer use Pound",
       "Archaludon: Can no longer use Mirror Coat and Metal Burst",
       "Wish PP changed from 12 to 8",
       "Strength Sap PP changed from 12 to 8"
@@ -14525,7 +16408,38 @@
     "Co-op 모드에서 참여 플레이어가 호스트의 길드에 올바르지 않게 가입되던 문제 수정",
     "특정 상태에서 킬라마리 프리모의 파트너 스킬 Lv. 2와 Lv. 3 효과가 반전되던 문제 수정",
     "상점에서 여러 아이템 판매 시 판매 금액이 잘못 계산되던 문제 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "v1.0.4 Balance Adjustment and Bug Fix Patch",
+     "summary": "Palworld v1.0.4 update has been released. Along with new sub-missions, Pal and combat balance adjustments, and fishing system improvements, various bug and performance stability issues have been fixed.",
+     "highlights": [
+      "Added new sub-missions 'Beyond Dimensions' and 'From the Far Side of the Moon'",
+      "Adjusted summoned Pals and base Pals to prioritize skills expected to deal higher damage",
+      "Adjusted fishing difficulty and rewards in Sunreach and World Tree regions",
+      "Changed returned materials from cancelled production facility tasks to go directly into the inventory",
+      "Changed the default FPS cap to 120 on the PC version",
+      "Fixed various crash, multiplayer, and server-related bugs"
+     ],
+     "buffs": [
+      "Materials from cancelled production facility tasks are returned directly to the inventory",
+      "Improved building cancellations or dismantles so only overweight materials drop in front of the player's feet",
+      "Fixed the map to reopen when approaching an unlocked tower from an unexplored area",
+      "Added a name search function to the Palpedia"
+     ],
+     "nerfs": [
+      "Changed the minimum use distance of 'Power Bomb' to reduce unnatural repetitive backsteps",
+      "Changed players and Pals so they no longer catch fire upon touching player-placed campfires"
+     ],
+     "fixes": [
+      "Fixed an issue where controls became unresponsive after returning to the title screen due to a connection error during loading",
+      "Fixed an issue where recalled Pals could not be re-summoned immediately after being summoned",
+      "Fixed an issue where participating players incorrectly joined the host's guild in Co-op mode",
+      "Fixed an issue where Killamari Primo's partner skill Lv. 2 and Lv. 3 effects were reversed under certain conditions",
+      "Fixed an issue where sale amounts were calculated incorrectly when selling multiple items at a shop"
+     ]
+    }
+   }
   },
   {
    "gid": "1842846814444212",
@@ -18837,7 +20751,7 @@
    }
   }
  ],
- "updated": 1795768483879,
+ "updated": 1795773823688,
  "merged": [
   "1849827110445079",
   "1849827110428767",
@@ -18857,7 +20771,10 @@
   "1848664643344642",
   "1848664643339882",
   "1847920302239191",
-  "1847920302237072"
+  "1847920302237072",
+  "1847920302230610",
+  "1847286114048481",
+  "1846651706675921"
  ],
  "icons": {
   "440": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
