@@ -87,7 +87,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 .cmsort{display:flex;gap:6px;margin-bottom:8px}.cmsort button{background:none;color:var(--mute);border:1px solid var(--line);padding:3px 10px;font-weight:400;font-size:13px}.cmsort button.on{color:var(--tx);border-color:var(--acc)}
 .cmi{padding:10px 0;border-bottom:1px solid var(--line)}.cmi .h{font-size:13px;color:var(--mute);display:flex;gap:8px;align-items:center}.cmi .h b{color:var(--tx)}.cmi .h .st{color:#ffcc33}
 .cmi p{margin:4px 0 6px;white-space:pre-wrap;word-break:break-word}.flag{vertical-align:-2px;border-radius:2px;margin-right:4px}
-.ctry{display:flex;flex-wrap:wrap;gap:6px 12px;margin:-6px 0 16px;font-size:13px;color:var(--mute)}.ctry span{display:flex;align-items:center;gap:2px}.ctry b{color:#ffcc33;font-weight:600;margin-left:2px}
+.ctry{display:flex;flex-wrap:wrap;gap:6px 12px;margin:0 0 0 6px;font-size:13px;color:var(--mute)}.ctry span{display:flex;align-items:center;gap:2px}.ctry b{color:#ffcc33;font-weight:600;margin-left:2px}
 .prof{display:flex;flex-direction:column;gap:8px;margin:10px 0 4px;padding:10px;border:1px solid var(--line);border-radius:10px}.prof label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--mute)}
 .prof input,.prof select{background:var(--bg);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:6px 8px;font:inherit;font-size:14px;min-width:0;max-width:none}
 .prof button{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:6px;font:inherit;font-weight:600;cursor:pointer}.prof small{min-height:1em}
@@ -232,7 +232,7 @@ function drawCm(){
  // 기본은 내 평가(댓글)만, [모든 평가 보기]를 누르면 전부
  const list=[...cur.list].filter(c=>cmAll||(me&&c.uid===me)).sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);const adm=FB.isAdmin(),mineC=me&&cur.list.find(c=>c.uid===me);
  el.innerHTML=`<div class="cmh"><h3>${T('cm_q')}</h3><button class="allbtn" data-all-rev>${cmAll?T('my_rev'):T('all_rev',cur.list.length)}</button></div><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ 0.0'}</span><small>${T('rated',v.length)}</small>
-  <span class="stars" title="${me?T('my_star_t'):T('login_star_t')}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${mine?'<small>'+T('my_star',mine)+'</small>':''}</div>${ctryLine()}
+  <span class="stars" title="${me?T('my_star_t'):T('login_star_t')}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${ctryLine()}</div>
   <h3>${T('comments',cur.list.length)}</h3>
   ${mineC&&!cmEdit?'':`<div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?T('cm_ph'):T('cm_ph_login')}">${cmEdit&&mineC?esc(mineC.text):''}</textarea><button data-post>${cmEdit?T('edit_done'):T('post')}</button></div>`}
   ${cmAll&&cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">${T('newest')}</button><button data-sort="best" class="${cmSort==='best'?'on':''}">${T('best')}</button></div>`:''}
