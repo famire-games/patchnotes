@@ -70,6 +70,15 @@ a{color:var(--acc)}
 .chip.reset{background:none;border-color:var(--line);color:var(--mute);padding:3px 12px;cursor:pointer}
 footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 @media(max-width:600px){.tags{grid-template-columns:1fr}.tiles{grid-template-columns:repeat(2,1fr)}}
+.cm{margin-top:22px;border-top:1px solid var(--line);padding-top:16px}.cm h3{margin:0 0 10px;font-size:16px}
+.rate{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:16px}.rate .avg{font-size:22px;font-weight:700;color:#ffcc33}.rate small{color:var(--mute)}
+.stars button{background:none;border:0;font-size:26px;line-height:1;cursor:pointer;color:#3a3f4a;padding:0 2px}.stars button.on{color:#ffcc33}.stars button:hover{transform:scale(1.15)}
+.cmf{display:flex;gap:8px;margin-bottom:12px}.cmf textarea{flex:1;background:var(--bg);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:8px 10px;font:inherit;resize:vertical;min-height:44px}
+.cmf button,.cmsort button{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:0 16px;font:inherit;font-weight:600;cursor:pointer}
+.cmsort{display:flex;gap:6px;margin-bottom:8px}.cmsort button{background:none;color:var(--mute);border:1px solid var(--line);padding:3px 10px;font-weight:400;font-size:13px}.cmsort button.on{color:var(--tx);border-color:var(--acc)}
+.cmi{padding:10px 0;border-bottom:1px solid var(--line)}.cmi .h{font-size:13px;color:var(--mute);display:flex;gap:8px;align-items:center}.cmi .h b{color:var(--tx)}.cmi .h .st{color:#ffcc33}
+.cmi p{margin:4px 0 6px;white-space:pre-wrap;word-break:break-word}.cmi .v{display:flex;gap:6px}.cmi .v button{background:none;border:1px solid var(--line);color:var(--mute);border-radius:999px;padding:1px 10px;font:inherit;font-size:13px;cursor:pointer}
+.cmi .v button.on.u{color:var(--up);border-color:var(--up)}.cmi .v button.on.d{color:var(--down);border-color:var(--down)}.cmi .del{margin-left:auto;background:none;border:0;color:var(--mute);cursor:pointer;font-size:12px}
 </style>
 </head>
 <body>
@@ -99,7 +108,7 @@ let items=[],shown=[];
 // 로그인 = Firebase 구글 로그인, 즐겨찾기 = Firestore users/{uid}.favs (아래 module 스크립트가 window.FB 제공)
 let user=null,favs=new Set();
 const saveFavs=()=>{ if(user&&window.FB) FB.saveFavs([...favs]).catch(e=>console.error('즐겨찾기 저장 실패',e)) };
-window.onUserChange=(u,list)=>{ user=u?{name:u.displayName||u.email||'사용자'}:null; favs=new Set(list||[]); if(items.length){drawUser(); render();} };
+window.onUserChange=(u,list)=>{ user=u?{name:u.displayName||u.email||'사용자'}:null; favs=new Set(list||[]); if(items.length){drawUser(); render();} if(cur)drawCm(); };
 function toggleFav(game){ if(!user){alertLogin();return false} favs.has(game)?favs.delete(game):favs.add(game); saveFavs(); drawUser(); render(); return true }
 function alertLogin(){ $('who').innerHTML='즐겨찾기는 <b>로그인</b> 후 쓸 수 있습니다.'; openDrawer() }
 function setGame(n){if(n&&![...$('g').options].some(o=>o.value===n))$('g').add(new Option(n,n));$('g').value=n||''}
@@ -125,7 +134,8 @@ function detail(i){
   <div class="meta"><span class="game">${esc(i.game)}</span>·<span>${new Date(i.date*1000).toLocaleDateString('ko-KR')}</span></div>
   <h2>${esc(i.title)}</h2><p class="sum">${esc(i.summary)}</p>${li(i.highlights)}${bal}
   ${i.fixes.length?`<details><summary>버그 수정 ${i.fixes.length}건</summary>${li(i.fixes)}</details>`:''}
-  <div class="foot"><div class="src">원문: <a href="${url}" target="_blank" rel="noopener">${esc(i.origTitle)}</a></div><button class="allp" data-all="${esc(i.game)}">${esc(i.game)} 모든 패치 보기 →</button></div>`;
+  <div class="foot"><div class="src">원문: <a href="${url}" target="_blank" rel="noopener">${esc(i.origTitle)}</a></div><button class="allp" data-all="${esc(i.game)}">${esc(i.game)} 모든 패치 보기 →</button></div>
+  <div class="cm" id="cm"><small style="color:var(--mute)">평점·댓글 불러오는 중…</small></div>`;
 }
 // 게임 정보 페이지가 있는 게임: 그 게임 패치만 볼 때 [게임 정보 보기] 버튼이 나타남
 const INFO={"리그 오브 레전드":"lol.html","전략적 팀 전투":"","포켓몬 챔피언스":"pkc.html","하스스톤":"","하스스톤 (전장)":"hs.html"};
@@ -165,10 +175,49 @@ function render(more){
  if(io)io.disconnect();
  const m=$('more');if(m){io=new IntersectionObserver(e=>{if(e[0].isIntersecting){limit+=60;render(true)}},{rootMargin:'600px'});io.observe(m)}
 }
-function closeDlg(){$('dlg').classList.remove('open')}
+function closeDlg(){$('dlg').classList.remove('open');cur=null}
+// ===== 커뮤니티: 별점 + 댓글(좋아요/싫어요) — Firestore patches/{pid} =====
+let cur=null,cmSort='new';
+const PID=i=>String(i.gid||i.url).replace(/[/.#$[]]/g,'_').slice(0,500);
+const ago=t=>{if(!t)return '방금';const s=(Date.now()-t.toMillis())/1000;return s<60?'방금':s<3600?Math.floor(s/60)+'분 전':s<86400?Math.floor(s/3600)+'시간 전':s<2592000?Math.floor(s/86400)+'일 전':t.toDate().toLocaleDateString('ko-KR')};
+async function loadCm(i){
+ cur={pid:PID(i),stars:{},list:[]};const pid=cur.pid;
+ if(!window.FB){setTimeout(()=>cur&&cur.pid===pid&&loadCm(i),500);return}
+ try{const [s,l]=await Promise.all([FB.getStars(pid),FB.comments(pid)]);if(!cur||cur.pid!==pid)return;cur.stars=s;cur.list=l;drawCm()}
+ catch(e){console.error('커뮤니티 불러오기 실패',e);const el=$('cm');if(el)el.innerHTML='<small style="color:var(--mute)">평점·댓글을 불러오지 못했습니다.</small>'}
+}
+function drawCm(){
+ const el=$('cm');if(!el||!cur)return;const me=user&&FB.uid();
+ const v=Object.values(cur.stars),avg=v.length?(v.reduce((a,b)=>a+b,0)/v.length):0,mine=me?cur.stars[me]||0:0;
+ const sc=c=>Object.keys(c.up||{}).length-Object.keys(c.down||{}).length;
+ const list=[...cur.list].sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);
+ el.innerHTML=`<h3>이 패치 어땠나요?</h3><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ -'}</span><small>${v.length}명 평가</small>
+  <span class="stars" title="${me?'내 별점':'로그인하면 별점을 줄 수 있습니다'}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${mine?'<small>내 별점 '+mine+'점</small>':''}</div>
+  <h3>댓글 ${cur.list.length}</h3>
+  <div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?'이 패치에 대한 생각을 남겨 주세요':'로그인하면 댓글을 쓸 수 있습니다'}"></textarea><button data-post>등록</button></div>
+  ${cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">최신순</button><button data-sort="best" class="${cmSort==='best'?'on':''}">추천순</button></div>`:''}
+  ${list.map(c=>{const u=me&&c.up&&c.up[me],d=me&&c.down&&c.down[me],st=cur.stars[c.uid];
+   return `<div class="cmi"><div class="h"><b>${esc(c.name||'사용자')}</b>${st?'<span class="st">'+'★'.repeat(st)+'</span>':''}<span>${ago(c.ts)}</span>${me===c.uid?`<button class="del" data-del="${c.id}">삭제</button>`:''}</div>
+   <p>${esc(c.text)}</p><div class="v"><button class="u${u?' on':''}" data-vote="${c.id}" data-v="1">👍 ${Object.keys(c.up||{}).length}</button><button class="d${d?' on':''}" data-vote="${c.id}" data-v="-1">👎 ${Object.keys(c.down||{}).length}</button></div></div>`}).join('')||'<small style="color:var(--mute)">첫 댓글을 남겨 보세요.</small>'}`;
+}
+function cmErr(m){console.error(m);const el=$('cm');if(!el)return;let t=el.querySelector('.cmerr');if(!t){t=document.createElement('small');t.className='cmerr';t.style.cssText='color:var(--down);display:block;margin-bottom:8px';el.prepend(t)}t.textContent=m;clearTimeout(t._h);t._h=setTimeout(()=>t.remove(),3000)}
+function needLogin(){if(user)return false;closeDlg();alertLogin();return true}
+$('body').addEventListener('click',async e=>{
+ if(!cur)return;const pid=cur.pid,me=user&&FB.uid();
+ const r=e.target.closest('[data-rate]');if(r){if(needLogin())return;let n=+r.dataset.rate;if(cur.stars[me]===n){n=0;delete cur.stars[me]}else cur.stars[me]=n;drawCm();FB.rate(pid,n).catch(async er=>{console.error(er);try{cur.stars=await FB.getStars(pid)}catch(_){}drawCm();cmErr('별점을 저장하지 못했습니다.')});return}
+ const s=e.target.closest('[data-sort]');if(s){cmSort=s.dataset.sort;drawCm();return}
+ if(e.target.closest('[data-post]')){if(needLogin())return;const t=$('cmTxt').value.trim();if(!t)return;e.target.disabled=true;
+  try{await FB.addComment(pid,t);cur.list=await FB.comments(pid);drawCm()}catch(er){console.error(er);e.target.disabled=false;cmErr('댓글을 등록하지 못했습니다.')}return}
+ const d=e.target.closest('[data-del]');if(d){try{await FB.delComment(pid,d.dataset.del);cur.list=cur.list.filter(c=>c.id!==d.dataset.del);drawCm()}catch(er){console.error(er);cmErr('삭제하지 못했습니다.')}return}
+ const vb=e.target.closest('[data-vote]');if(vb){if(needLogin())return;const c=cur.list.find(x=>x.id===vb.dataset.vote);if(!c)return;
+  const want=+vb.dataset.v,now=c.up&&c.up[me]?1:c.down&&c.down[me]?-1:0,v=now===want?0:want;
+  c.up={...c.up};c.down={...c.down};delete c.up[me];delete c.down[me];if(v===1)c.up[me]=true;if(v===-1)c.down[me]=true;drawCm();
+  FB.vote(pid,c.id,v).catch(async er=>{console.error(er);try{cur.list=await FB.comments(pid)}catch(_){}drawCm();cmErr('투표를 저장하지 못했습니다.')})}
+});
+
 $('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
 addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
-$('list').onclick=e=>{const t=e.target.closest('.tile');if(t){$('body').innerHTML=detail(shown[+t.dataset.i]);$('dlg').classList.add('open');$('dlg').scrollTop=0}};
+$('list').onclick=e=>{const t=e.target.closest('.tile');if(t){$('body').innerHTML=detail(shown[+t.dataset.i]);$('dlg').classList.add('open');$('dlg').scrollTop=0;loadCm(shown[+t.dataset.i])}};
 fetch('data.json').then(r=>r.json()).then(d=>{
  items=d.items.sort((a,b)=>b.date-a.date); ICONS=d.icons||{};
  items.forEach(i=>{i._d=new Date(i.date*1000).toLocaleDateString('sv');i._k=dayKey(i.date);i._s=[i.game,i.title,i.origTitle,i.summary,...(i.highlights||[]),...(i.buffs||[]),...(i.nerfs||[]),...(i.fixes||[])].join(' ').toLowerCase()});

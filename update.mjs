@@ -278,7 +278,7 @@ for (const g of games) if (!db.icons[g.appid]) try {
   await sleep(300);
 } catch (e) { console.error('헤더 그림 실패', g.name, e.message); }
 db.items.sort((a, b) => b.date - a.date);
-db.items = db.items.slice(0, 500);
+db.items = db.items.slice(0, 1000);
 db.updated = Date.now();
 fs.mkdirSync(new URL('site/', DIR), { recursive: true });
 fs.writeFileSync(OUT, JSON.stringify(db, null, 1));
