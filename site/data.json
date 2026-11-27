@@ -1050,6 +1050,79 @@
    }
   },
   {
+   "gid": "1850460852984799",
+   "appid": 2073850,
+   "game": "더 파이널스",
+   "date": 1795687192,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852984799",
+   "origTitle": "Update 12.5.0",
+   "title": "더 파이널스 업데이트 12.5.0",
+   "summary": "그랜드 메이저 2026 대회를 기념하는 업데이트가 적용되었습니다. 새로운 상점 상품이 추가되고 트위치 드롭스로 특별 보상을 획득할 수 있습니다.",
+   "highlights": [
+    "그랜드 메이저 2026 대회 개최 (드림핵 스톡홀름)",
+    "더 프라임타이머 세트 및 메이저 포스 세트 상점 출시",
+    "트위치 드롭스 시청 보상 추가 (1~5시간 시청 시 각종 치장품 및 무기 스킨)",
+    "픽엠 잠금 시간 안내 (11월 26일 자정)"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "THE FINALS Update 12.5.0",
+     "summary": "The update celebrates the upcoming Grand Major 2026 tournament. New store bundles are available, and special Twitch Drops can be earned by watching the event.",
+     "highlights": [
+      "Grand Major 2026 kicks off live from DreamHack Stockholm",
+      "The Primetimer Set and Major Force Set added to the store",
+      "Twitch Drops available for watching the event (1 to 5 hours)",
+      "Pick'ems lock at midnight CET on November 26"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "THE FINALS アップデート 12.5.0",
+     "summary": "グランド・メジャー2026の開催を記念するアップデートです。新ストアバンドルが登場し、Twitch Dropsで特別な報酬を獲得できます。",
+     "highlights": [
+      "グランド・メジャー2026がドリームハック・ストックホルムで開幕",
+      "ストアに「ザ・プライムタイマー・セット」と「メジャー・フォース・セット」を追加",
+      "Twitch Dropsの視聴報酬が登場（1〜5時間視聴）",
+      "ピックエムのロック時刻が11月26日深夜に設定"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "THE FINALS 更新 12.5.0",
+     "summary": "本次更新旨在迎接盛大的 2026 年巅峰S级联赛。商店推出了全新套装，玩家还可以通过观看直播获得 Twitch 掉宝奖励。",
+     "highlights": [
+      "2026 年巅峰S级联赛在斯德哥尔摩 DreamHack 开赛",
+      "商店上架“黄金时段套装”和“S级联赛力量套装”",
+      "推出 Twitch 掉宝活动（观看 1 至 5 小时可获得奖励）",
+      "赛事预测（Pick'ems）于 11 月 26 日午夜截止"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "THE FINALS Atualização 12.5.0",
+     "summary": "A atualização celebra o torneio Grand Major 2026. Novos conjuntos da loja foram adicionados e recompensas especiais do Twitch Drops estão disponíveis para quem assistir ao evento.",
+     "highlights": [
+      "Grand Major 2026 começa ao vivo da DreamHack Estocolmo",
+      "Conjunto O Horário Nobre e Conjunto Força do Major adicionados à loja",
+      "Drops da Twitch disponíveis por assistir ao evento (1 a 5 horas)",
+      "Previsões (Pick'ems) fecham à meia-noite de 26 de novembro"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1850460852984423",
    "appid": 1973530,
    "game": "림버스 컴퍼니",
@@ -2721,7 +2794,23 @@
    "fixes": [
     "수능 완주 기념 패키지 일괄구매 버튼이 동작하지 않는 현상 수정",
     "할로윈 아이템 구매 시 팝업에 구매 재화가 '루찌'로 표시되는 현상 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "November 23 (Mon) Seamless Patch Notice",
+     "summary": "A seamless patch was applied upon reconnecting after 7:38 PM on November 23. An issue where the CSAT Completion Commemorative Package could not be purchased in bulk and a currency display error in the Halloween item purchase popup have been fixed.",
+     "highlights": [
+      "Fixed issue with the CSAT Completion Commemorative Package bulk purchase button",
+      "Fixed currency display error when purchasing Halloween items"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where the CSAT Completion Commemorative Package bulk purchase button did not work",
+      "Fixed an issue where the currency in the popup was displayed as 'Lucci' when purchasing Halloween items"
+     ]
+    }
+   }
   },
   {
    "gid": "bluearchive:3580170",
@@ -2743,7 +2832,24 @@
    ],
    "buffs": [],
    "nerfs": [],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "11/24 Update Details",
+     "summary": "A regular maintenance of Blue Archive will take place on November 24, featuring the rerun of the event story 'Pandemic Hazard ~The Miracle Pancake~' and pickup recruitment for Sena (Casual), Juri (Part-time), Nagusa, and Niya. Additionally, various contents and reward campaigns including the Joint Firing Drill (Escort) and Grand Assault Binah (Field) will be held.",
+     "highlights": [
+      "Pickup recruitment rerun for Sena (Casual), Juri (Part-time), Nagusa, and Niya",
+      "Event story rerun 'Pandemic Hazard ~The Miracle Pancake~' held",
+      "Joint Firing Drill - Escort held (Indoor, Special Armor)",
+      "Grand Assault - Binah (Field) held",
+      "Content shop items updated and purchase limits reset",
+      "3x Campaign for Bounty, Commission, Schedule, Campaign, and 2x Account EXP"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "1849827110440939",
@@ -2761,7 +2867,21 @@
    "nerfs": [],
    "fixes": [
     "시너지 효과 노트 내용 변경 (스레드스핀 4티어 전용 -> E.G.O별로 상이할 수 있음으로 변경)"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "November 26 Patch Notice",
+     "summary": "This is the update notice scheduled for November 26, 2026, in Limbus Company. Content regarding the activation conditions of synergy effects has been revised.",
+     "highlights": [
+      "Revised synergy effect activation conditions"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Changed synergy effect note content (from Threadspin Tier 4 exclusive -> changed to may vary by E.G.O)"
+     ]
+    }
+   }
   },
   {
    "gid": "hsbg:37.2",
@@ -2786,14 +2906,14 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "Hearthstone 37.2 Patch Preview — Battlegrounds Season 15: Twisted Empire",
-     "summary": "Battlegrounds Season 15 begins alongside patch 37.2 on December 1st. Three new keywords and two new heroes are being added, the Time-Warped Tavern returns, and trinkets are rotated out this season. A limited-time 2v2 Tavern Brawl will also be available. (Based on official preview, final content is subject to change)",
+     "title": "Hearthstone Patch 37.2 Preview — Battlegrounds Season 15: Twisted Empire",
+     "summary": "Battlegrounds Season 15 begins on December 1 with Patch 37.2. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are rotated out. A limited-time 2v2 Tavern Brawl will also open. (Based on official preview, final details are subject to change)",
      "highlights": [
-      "Battlegrounds Season 'Twisted Empire' launches on December 1st, Battlegrounds ratings reset",
-      "New Keywords: Sturdy (takes half damage when attacked), Quest (grants a reward upon completing an objective), Origin of Elements (Tavern spells that synergize well with Elementals)",
-      "New Heroes: Iternus, Boss Varga (Hero Power 'Sharp Strategy')",
-      "Return of the Time-Warped Tavern: Use Chronum to purchase special cards on turns 6 and 9",
-      "Trinkets rotated out for the season, Stealth keyword removed from bonus pools",
+      "Battlegrounds Season 15 'Twisted Empire' starts December 1, Battlegrounds MMR reset",
+      "New keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
+      "New heroes: Eternus, Boss Vancleef (Hero Power 'Sharp Strategy')",
+      "Return of Timewarp Tavern: Purchase special cards using Chronum on turns 6 and 9",
+      "Trinkets rotated out, Stealth keyword removed from the bonus pool",
       "Limited-time 2v2 Tavern Brawl"
      ],
      "buffs": [],
@@ -2818,7 +2938,21 @@
    ],
    "buffs": [],
    "nerfs": [],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Arknights: Endfield New Version Update Notice",
+     "summary": "The new version of Arknights: Endfield, 'Meeting You in the World o'Shrooms', will be officially released on November 25, 2026. Through Developer Communication (DEV Comm), major optimizations and adjustments for this version are shared.",
+     "highlights": [
+      "New version [Meeting You in the World o'Shrooms] released",
+      "Official release date: November 25, 2026",
+      "Major optimizations and adjustments to be applied"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "1849827110433047",
@@ -2966,7 +3100,33 @@
     "덕트 테이프 애드온 수치 하향",
     "폭발 선물 애드온 수치 하향"
    ],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Dead by Daylight: The Terrifier PTB Live Update",
+     "summary": "The toy powers and add-ons of the new Killer 'The Terrifier' have been adjusted based on PTB feedback. Performance metrics such as the bicycle horn, handgun, and tortured status have been modified, and some add-ons have been buffed or nerfed.",
+     "highlights": [
+      "Increased detection radius for the bicycle horn",
+      "Decreased throw speed and increased duration of the acid pool for the acid bottle",
+      "Increased movement speed when aiming the handgun",
+      "Increased duration of the tortured status and inflicted the oblivious status when downing a survivor tortured with the Max Lethality Toy",
+      "Completely reworked Brooke's Pustule add-on",
+      "Nerfed Duct Tape and Explosive Gift add-on values, buffed Jonathan's Skull add-on values"
+     ],
+     "buffs": [
+      "Increased bicycle horn detection radius",
+      "Increased movement speed when aiming the handgun",
+      "Increased tortured status duration",
+      "Buffed Jonathan's Skull add-on effects"
+     ],
+     "nerfs": [
+      "Decreased acid bottle throw speed",
+      "Nerfed Duct Tape add-on values",
+      "Nerfed Explosive Gift add-on values"
+     ],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "1849827110432044",
@@ -3272,7 +3432,30 @@
     "오드리가 특정 지형에서 정상 배치되지 않던 문제 및 각성 2가 비정상적인 오브젝트에 배치되던 문제 수정",
     "폭파 모드에서 진영 교체 단계 시 첫 주무기 교체가 실패할 수 있던 문제 수정",
     "사격장 모드에서 치요의 무기 데미지가 비정상적이던 문제 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "26SP6 Season and New Event Update",
+     "summary": "The Strinova 26SP6 'String Sea Starsong' season begins, bringing various season rewards, new events, and shop items. In addition, bugs related to certain characters like Nora, Audrey, and Chiyo as well as game modes have been fixed.",
+     "highlights": [
+      "Official launch of 26SP6 season 'String Sea Starsong' and season rewards provided",
+      "Season check-in, season event shop, and baguette discount event held",
+      "'Cappuny's Delicious Day' new event and quests opened",
+      "Orbital Resonance 'Honeyberry Milkshake' and 'Dawn's Bloom' opened",
+      "Cat Adoption Guide event and beach vacation themed costumes return",
+      "Fixed bugs and mode errors related to Nora, Audrey, and Chiyo"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue in Outbreak mode where Nora's Q skill preview state would freeze",
+      "Fixed a model error that occurred when Nora performed an aerial jump",
+      "Fixed an issue where Audrey could not be placed properly on certain terrains and Awakening 2 was placed on abnormal objects",
+      "Fixed an issue in Demolition mode where the first primary weapon switch could fail during the faction switch phase",
+      "Fixed an issue in Firing Range mode where Chiyo's weapon damage was abnormal"
+     ]
+    }
+   }
   },
   {
    "gid": "1849827110430249",
@@ -3294,7 +3477,25 @@
    "fixes": [
     "잘못된 계정 정지(밴) 현상 수정",
     "하드웨어 차단 시스템 오류 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "Anti-Cheat Team Update",
+     "summary": "A recent anti-cheat update caused an issue where approximately 1,000 players were incorrectly banned, but the detection feature has been disabled and all bans have been rescinded. Additionally, an error in the hardware ban system has been resolved, and work is underway to unban hardware for hacked accounts.",
+     "highlights": [
+      "Rescinded bans for approximately 1,000 accounts incorrectly banned due to an error",
+      "Disabled the problematic detection feature",
+      "Resolved device misidentification issue in the hardware ban system",
+      "Currently working on removing hardware bans for hacked accounts"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed incorrect account suspension (ban) issue",
+      "Fixed hardware ban system error"
+     ]
+    }
+   }
   },
   {
    "gid": "1849827110427959",
@@ -3321,7 +3522,30 @@
     "슬루프가 뒤집히거나 일시적으로 전복될 확률을 줄이도록 메갈로돈 공격 개선",
     "그레이마로우의 유령이 머리를 피격당했을 때 일관되게 피해를 입도록 수정",
     "크로우즈 네스트에 보관된 보루가 오랜 시간 방치되어도 사라지지 않도록 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "Sea of Thieves Update 3.9.2",
+     "summary": "Sea of Thieves Patch 3.9.2 significantly reduces the overall installation size, expands Custom Sins, improves the free camera, and includes various gameplay quality-of-life improvements and bug fixes.",
+     "highlights": [
+      "Significantly reduced the game's overall installation size across all supported platforms",
+      "Added new legendary location 'Old Boot Fort' to Custom Sins",
+      "Enabled free camera entry into captain's quarters and below deck on all ship types and skeleton ships",
+      "Improved shop interface to view required commendations and progress simultaneously",
+      "Mitigated post-ranged weapon hit jump prevention and movement interpolation issues through network optimization",
+      "Various in-game events such as Season 21 Fame Rally and Last Ship Standing scheduled to be held"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue where health bars were not displayed correctly when taking damage immediately after reaching full health",
+      "Resolved an issue where ship sails could not be raised or repaired after faction battles",
+      "Improved Megalodon attacks to reduce the probability of sloops flipping or temporarily capsizing",
+      "Fixed Greymarrow's ghost to consistently take damage when hit in the head",
+      "Fixed stronghold kegs stored in the crow's nest to not disappear even when left unattended for a long time"
+     ]
+    }
+   }
   },
   {
    "gid": "1849827110427751",
@@ -5710,6 +5934,149 @@
    }
   },
   {
+   "gid": "1849192144182636",
+   "appid": 2507950,
+   "game": "델타 포스",
+   "date": 1794484846,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144182636",
+   "origTitle": "November 12 Update | Balance Adjustments and Bug Fixes",
+   "title": "11월 12일 업데이트 안내",
+   "summary": "델타 포스 11월 12일 업데이트를 통해 마르텔로 스킬 조정, S12 운명의 계약 난이도 완화, 제니스 포트 전면전 밸런스 조정 및 다양한 버그가 수정되었습니다.",
+   "highlights": [
+    "마르텔로 스모크 헤일로 사운드 감쇠 및 카메라 회전 소리 조정",
+    "S12 운명의 계약 전문가 조련사 복귀 임무 난이도 완화",
+    "제니스 포트 배치 거점 및 차량 제공 방식 조정",
+    "차량 보급소 쿨타임 동기화 적용",
+    "로비 뮤직 플레이어에 S12 오로라 트랙 추가",
+    "건스미스 미해제 및 연막을 통한 핑 오류 등 각종 버그 수정"
+   ],
+   "buffs": [
+    "마르텔로 아리에테 적중 요구 횟수 감소 (6회 -> 3회)",
+    "로버의 계약 임무 목표 변경을 통한 난이도 완화"
+   ],
+   "nerfs": [
+    "마르텔로 스모크 헤일로 30미터 이후 사운드 감쇠 증가",
+    "차량 보급소 서비스 완료 시 모든 차량 보급소가 동시에 쿨타임 진입"
+   ],
+   "fixes": [
+    "버스 폭발 후 캐릭터 및 차량의 비정상적인 데미지 수정",
+    "전쟁 모드에서 건스미스가 잠금 해제되지 않던 문제 수정",
+    "표준 핑 및 로버의 명령 핑이 연막을 통과하지 못하던 문제 수정",
+    "무기 상자에서 만료된 기간제 부착물이 나오던 문제 수정",
+    "컨트롤러로 조준 시 발생하던 지연 현상 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "November 12 Update",
+     "summary": "The November 12 update for Delta Force brings operator balance adjustments for Martelo, S12 Fate Contracts difficulty changes, Warfare map adjustments for Zenith Port, and various bug fixes.",
+     "highlights": [
+      "Adjusted Martelo's Smoke Halo sound range and camera rotation audio",
+      "Easier completion requirements for S12 Fate Contracts: Expert Handler",
+      "Zenith Port deployment base and vehicle supply adjustments",
+      "Vehicle Supply Stations now share a simultaneous cooldown",
+      "Added S12 - Aurora tracks to the lobby music player",
+      "Fixed issues regarding pings through smoke and Gunsmithing in Warfare"
+     ],
+     "buffs": [
+      "Reduced Martelo's Ariete hit requirement from 6 to 3 in Expert Handler",
+      "Adjusted Rover's contract task requirements for easier completion"
+     ],
+     "nerfs": [
+      "Increased sound attenuation beyond 30 meters for Martelo's Smoke Halo",
+      "All Vehicle Supply Stations enter cooldown simultaneously after servicing"
+     ],
+     "fixes": [
+      "Fixed abnormal damage to characters and vehicles after bus explosions",
+      "Fixed an issue where Gunsmith could not be unlocked in Warfare",
+      "Fixed standard and Rover command pings not passing through smoke",
+      "Fixed Weapon Crates yielding expired limited-time Attachments",
+      "Fixed a delay when aiming down sights with a controller"
+     ]
+    },
+    "ja": {
+     "title": "11月12日アップデート",
+     "summary": "デルタフォスの11月12日アップデートでは、マルテロのバランス調整、S12運命の契約の難易度緩和、ゼニス・ポートの戦場バランス調整、および各種不具合の修正が行われました。",
+     "highlights": [
+      "マルテロのスモークヘイローのサウンド減衰とカメラ回転音の調整",
+      "S12運命の契約「エキスパートハンドラー」の復帰難易度調整",
+      "ゼニス・ポートの配備拠点および車両の調整",
+      "車両補給所のクールダウンの同時適用",
+      "ロビーミュージックプレイヤーにS12オーロラのトラックを追加",
+      "煙幕を通過できなかったピンやガンスミス未開放の不具合を修正"
+     ],
+     "buffs": [
+      "マルテロのアリエテ命中必要回数を6回から3回に減少",
+      "ローバーの契約ミッションの目標変更による難易度緩和"
+     ],
+     "nerfs": [
+      "マルテロのスモークヘイローの30メートル以降のサウンド減衰を増加",
+      "車両補給所の整備完了後、すべての車両補給所が同時にクールダウンに入る"
+     ],
+     "fixes": [
+      "バス爆発後のキャラクターと車両の異常ダメージを修正",
+      "ウォーフェアでガンスミスのロックが解除されない問題を修正",
+      "標準ピンおよびローバーの命令ピンが煙幕を通過しない問題を修正",
+      "武器箱から期限切れの期間限定アタッチメントが排出される問題を修正",
+      "コントローラーで照準を合わせる際の遅延を修正"
+     ]
+    },
+    "zh": {
+     "title": "11月12日更新公告",
+     "summary": "三角洲行动11月12日更新带来了玛特洛平衡性调整、S12命运契约难度调整、 zenith港全面战场平衡调整以及多项Bug修复。",
+     "highlights": [
+      "调整玛特洛的烟雾光环声音衰减范围及转动镜头时的机械音",
+      "降低S12命运契约中专家驯兽师的回归任务难度",
+      "调整 zenith港（泽尼斯港）的部署基地与载具配置",
+      "载具补给站完成维修后将同时进入冷却",
+      "大厅音乐播放器新增S12-极光音轨",
+      "修复全面战场中无法解锁改枪以及标记无法穿过烟雾等问题"
+     ],
+     "buffs": [
+      "减少玛特洛使用公羊命中敌人的次数要求（6次减至3次）",
+      "通过更改罗孚的契约任务目标来降低完成难度"
+     ],
+     "nerfs": [
+      "增加玛特洛烟雾光环在30米以外的声音衰减",
+      "车辆补给站在完成补给后，所有补给站将同时进入冷却状态"
+     ],
+     "fixes": [
+      "修复公交车爆炸后角色和载具受到异常伤害的问题",
+      "修复全面战场中无法解锁改枪的问题",
+      "修复标准标记和罗孚指令标记无法穿过烟雾的问题",
+      "修复武器箱可能产出过期限时配件的问题",
+      "修复手柄瞄准时的延迟问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização de 12 de novembro",
+     "summary": "A atualização de 12 de novembro de Delta Force traz ajustes de equilíbrio para Martelo, alterações na dificuldade dos Contratos do Destino S12, ajustes no Porto Zenith para o modo Guerra e diversas correções de bugs.",
+     "highlights": [
+      "Ajustes no alcance de atenuação de som e áudio de rotação de câmera do Halo de Fumaça de Martelo",
+      "Ajustes de dificuldade para o retorno dos Contratos do Destino S12: Tratador Especialista",
+      "Ajustes de bases de implantação e suprimento de veículos no Porto Zenith",
+      "Estações de Suprimento de Veículos agora entram em recarga simultaneamente",
+      "Adicionadas faixas de S12 - Aurora ao reprodutor de música do lobby",
+      "Correções em marcações através de fumaça e no Armeiro no modo Guerra"
+     ],
+     "buffs": [
+      "Reduzido o requisito de acertos do Ariete de Martelo de 6 para 3 no Tratador Especialista",
+      "Ajustes nas tarefas de contrato de Rover para facilitar a conclusão"
+     ],
+     "nerfs": [
+      "Aumentada a atenuação de som além de 30 metros para o Halo de Fumaça de Martelo",
+      "Todas as Estações de Suprimento de Veículos entram em recarga simultaneamente após o serviço"
+     ],
+     "fixes": [
+      "Corrigido dano anormal a personagens e veículos após explosões de ônibus",
+      "Corrigido um problema onde o Armeiro não podia ser desbloqueado no modo Guerra",
+      "Corrigido problema em que marcações padrão e de comando de Rover não atravessavam fumaça",
+      "Corrigido problema em que Caixas de Armas forneciam acessórios temporários expirados",
+      "Corrigido atraso ao mirar com um controle"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1849192144182299",
    "appid": 2073850,
    "game": "더 파이널스",
@@ -5967,6 +6334,129 @@
    }
   },
   {
+   "gid": "1849192144181309",
+   "appid": 2646460,
+   "game": "소울마스크",
+   "date": 1794452770,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144181309",
+   "origTitle": "Soulmask 1.0 Update Patch #25",
+   "title": "소울마스크 1.0 업데이트 패치 #25",
+   "summary": "소울마스크 1.0 업데이트 패치 #25가 적용되었습니다. 이번 업데이트는 클라이언트 업데이트를 포함하며, 야생 당나귀 전투 배치 기능 추가 및 기술 트리 조정, 각종 버그가 수정되었습니다.",
+   "highlights": [
+    "저레벨 야만인 막사에서 망자의 날 스킨 상태 제거",
+    "정예 보스에게서 망자의 날 특수 능력 제거",
+    "관리 모드 기술 트리의 생산 기지 및 풍차 시설 부족 수준 요구 사항을 레벨 2로 조정",
+    "야생 당나귀 전투 배치 가능"
+   ],
+   "buffs": [
+    "야생 당나귀를 이제 전투에 배치할 수 있습니다."
+   ],
+   "nerfs": [
+    "저레벨 야만인 막사의 망자의 날 스킨 상태 제거",
+    "정예 보스의 망자의 날 특수 능력 제거"
+   ],
+   "fixes": [
+    "길들여진 알파카가 바닥과 기초에 끼이는 문제 수정",
+    "영광의 찬가 위의 배설물이 물에 들어갈 때 지워지지 않는 문제 수정",
+    "붉은 수정 구성의 비정상적인 문제 수정",
+    "플레이어가 수동으로 방충제나 제초제를 사용할 수 없는 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Soulmask 1.0 Update Patch #25",
+     "summary": "Soulmask 1.0 Update Patch #25 has been released. This update requires a client update and includes adjustments to barbarian barracks, elite bosses, tech tree requirements, and combat deployment of wild donkeys alongside various bug fixes.",
+     "highlights": [
+      "Removed Day of the Dead skin states from low-level Barbarian Barracks",
+      "Removed Day of the Dead special abilities from elite bosses",
+      "Adjusted production base and windmill tech tree requirements to Level 2",
+      "Wild donkeys can now be deployed in combat"
+     ],
+     "buffs": [
+      "Wild donkeys can now be deployed in combat."
+     ],
+     "nerfs": [
+      "Removed Day of the Dead skin states from low-level Barbarian Barracks",
+      "Removed Day of the Dead special abilities from elite bosses"
+     ],
+     "fixes": [
+      "Fixed domesticated alpacas becoming stuck in floors and foundations",
+      "Fixed feces on Glorious Hymn not clearing when entering water",
+      "Fixed abnormal issues with Red Crystal configurations",
+      "Fixed players sometimes being unable to manually use insect repellent or herbicide"
+     ]
+    },
+    "ja": {
+     "title": "ソウルマスク 1.0 アップデートパッチ #25",
+     "summary": "ソウルマスク 1.0 アップデートパッチ #25が配信されました。クライアントのアップデートが必要となり、低レベルの野蛮人の宿営地や精鋭ボスからの「死者の日」関連の削除、野生ロバの戦闘配置などが実装されました。",
+     "highlights": [
+      "低レベルの野蛮人の宿営地から死者の日のスキン状態を削除",
+      "精鋭ボスから死者の日の特殊能力を削除",
+      "管理モードの技術ツリーの生産拠点と風車の施設要求レベルをレベル2に調整",
+      "野生ロバを戦闘に配置可能に"
+     ],
+     "buffs": [
+      "野生ロバを戦闘に配置できるようになりました。"
+     ],
+     "nerfs": [
+      "低レベルの野蛮人の宿営地の死者の日スキン状態を削除",
+      "精鋭ボスの死者の日特殊能力を削除"
+     ],
+     "fixes": [
+      "飼い慣らされたアルパカが床や土台に埋まる問題を修正",
+      "グロリアス・ヒム上のフンが水に入った際に消えない問題を修正",
+      "レッドクリスタル設定の異常な問題を修正",
+      "プレイヤーが虫除けや除草剤を手動で使用できないことがある問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "魂之假面 1.0 更新补丁 #25",
+     "summary": "《魂之假面》1.0 版本发布了更新补丁 #25。本次更新需要更新客户端，移除了部分万灵节外观与特殊能力，调整了科技树需求，并允许野生驴参与战斗，同时修复了多项bug。",
+     "highlights": [
+      "移除了低级野蛮人营地的万灵节皮肤状态",
+      "移除了精英BOSS的万灵节特殊能力",
+      "将管理模式科技树中生产基地和风车设施的部落等级要求调整为2级",
+      "野驴现在可以部署参与战斗"
+     ],
+     "buffs": [
+      "野驴现在可以部署参与战斗。"
+     ],
+     "nerfs": [
+      "移除了低级野蛮人营地的万灵节皮肤状态",
+      "移除了精英BOSS的万灵节特殊能力"
+     ],
+     "fixes": [
+      "修复了驯养的羊驼可能卡在地面和地基中的问题",
+      "修复了进入水中时“荣耀赞美诗”上的粪便无法被清除的问题",
+      "修复了红水晶配置的异常问题",
+      "修复了玩家有时无法手动使用驱虫剂或除草剂的问题"
+     ]
+    },
+    "pt": {
+     "title": "Soulmask Atualização Patch #25",
+     "summary": "O Patch #25 da atualização 1.0 de Soulmask foi lançado. Esta atualização exige a atualização do cliente e traz remoções de estados de Dia dos Mortos, ajustes na árvore tecnológica, suporte a combate com burros selvagens e correções de bugs.",
+     "highlights": [
+      "Removidos os estados de skin do Dia dos Mortos dos Acampamentos de Bárbaros de nível baixo",
+      "Removidas as habilidades especiais do Dia dos Mortos dos chefes elite",
+      "Ajustado o requisito de nível de tribo para Base de Produção e Moinho de Vento na árvore tecnológica para o Nível 2",
+      "Burros selvagens agora podem ser mobilizados em combate"
+     ],
+     "buffs": [
+      "Burros selvagens agora podem ser mobilizados em combate."
+     ],
+     "nerfs": [
+      "Removidos os estados de skin do Dia dos Mortos dos Acampamentos de Bárbaros de nível baixo",
+      "Removidas as habilidades especiais do Dia dos Mortos dos chefes elite"
+     ],
+     "fixes": [
+      "Corrigido um problema em que alpacas domesticadas ficavam presas em pisos e fundações",
+      "Corrigido um problema em que as fezes no Hino Glorioso não eram limpas ao entrar na água",
+      "Corrigidos problemas anormais com as configurações de Cristal Vermelho",
+      "Corrigido um problema em que os jogadores às vezes não conseguiam usar repelente de insetos ou herbicida manualmente"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1849192144180746",
    "appid": 730,
    "game": "카운터 스트라이크 2",
@@ -6045,6 +6535,139 @@
      "buffs": [],
      "nerfs": [],
      "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1849192144179132",
+   "appid": 261550,
+   "game": "마운트 앤 블레이드 II: 배너로드",
+   "date": 1794411194,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144179132",
+   "origTitle": "Patch Notes - WS v1.3.7 / BL v1.5.7",
+   "title": "마운트 앤 블레이드 II: 배너로드 v1.5.7 / 워 세일즈 v1.3.7 업데이트",
+   "summary": "이번 대규모 업데이트는 해상 콘텐츠 대폭 확장, 고급 시작 옵션(ASO), 성격 특성 효과, 혈족 복수 시스템 등을 도입했습니다. 이제 플레이어는 배 없이도 페리를 이용하거나 항구에 함선을 정박할 수 있으며, 다양한 해상 무작위 이벤트와 전투 현장 조사를 경험할 수 있습니다.",
+   "highlights": [
+    "배가 없어도 이동할 수 있는 해상 페리 시스템 및 항구 함선 정박 기능 추가",
+    "시작 조건과 난이도를 자유롭게 조정하는 고급 시작 옵션(ASO) 도입",
+    "캐릭터 성격 특성에 따른 고유한 긍정적 및 부정적 효과 적용",
+    "처형으로 시작되는 새로운 혈족 복수 시스템 추가",
+    "해상 전투 시 탑승용 밧줄 파괴 가능 및 물리 엔진 개선",
+    "캠페인 지도 위에서 조사 가능한 전투 현장과 잔해 추가"
+   ],
+   "buffs": [
+    "선박 수리 시 획득하는 보츠와인(Boatswain) 숙련도 경험치 증가"
+   ],
+   "nerfs": [
+    "해상 전투에서 마리너, 보츠와인, 쉽마스터 외의 일반 퍽 효과 50% 감소"
+   ],
+   "fixes": [
+    "해상 마을 습격 패배 시뮬레이션이 승리로 처리되던 버그 수정",
+    "출항 후 플레이어 파티의 위치 오류로 정예 정착지 진입이 안 되던 현상 해결",
+    "캠페인 지도와 미션 간 날씨가 일치하지 않던 버그 수정",
+    "함선 충돌 시 과도한 카메라 흔들림 및 중복 피해 발생 오류 수정",
+    "전투에서 후퇴한 함선이 임무 점수판에 파괴된 것으로 표시되던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Mount & Blade II: Bannerlord v1.5.7 / War Sails v1.3.7 Patch Notes",
+     "summary": "This major update expands naval gameplay with ferries, mooring, naval random events, and enhanced boarding mechanics. It also introduces Advanced Starting Options for sandboxes, meaningful personality traits, blood feuds, and granular clan party controls.",
+     "highlights": [
+      "Added a ferry system for coastal travel without ships and port mooring for fleets",
+      "Introduced Advanced Starting Options (ASO) to customize campaign scenarios, player starts, and modifiers",
+      "Personality traits now grant distinct positive and negative gameplay effects",
+      "Executions can now trigger blood feuds between clans that last until resolved",
+      "Naval boarding ropes can now be targeted and destroyed to prevent enemy bridging",
+      "Added investigable Battle Sites and Wreckages on the campaign map for loot and experience"
+     ],
+     "buffs": [
+      "Increased Boatswain skill experience gained from repairing ships"
+     ],
+     "nerfs": [
+      "Reduced most non-governor and non-naval perks' effects by 50% in naval battles"
+     ],
+     "fixes": [
+      "Fixed a bug causing lost Seaborne Village Raid simulations to count as wins",
+      "Fixed party position errors after setting sail that prevented entering settlements",
+      "Fixed campaign map and mission scenes having inconsistent weather conditions",
+      "Fixed ship collisions causing excessive camera shakes or multiple damage instances",
+      "Fixed retreated ships displaying as destroyed in mission scoreboards"
+     ]
+    },
+    "ja": {
+     "title": "マウント＆ブレイド II: バナーロード v1.5.7 / ウォー・セイルズ v1.3.7 パッチノート",
+     "summary": "今回の大型アップデートでは、フェリーや船舶係留、海上のランダムイベント、搭乗メカニズムの改善など海戦コンテンツが大幅に拡張されました。さらに、サンドボックスの高度な開始オプション、性格特性の効果、血縁の復讐システムなどが導入されています。",
+     "highlights": [
+      "船舶なしで移動できる海岸フェリーシステムと港での船舶係留機能を追加",
+      "キャンペーンのシナリオや開始状態を自由に変更できる高度な開始オプション(ASO)の導入",
+      "キャラクターの性格特性に独自のプラスおよびマイナス効果を追加",
+      "処刑によって発生し、解決まで続く血縁の復讐システムを実装",
+      "海戦時に敵の接近橋となる接続ロープを破壊することが可能に",
+      "キャンペーンマップ上で調査可能な戦闘跡地や残骸を追加"
+     ],
+     "buffs": [
+      "船舶の修理で獲得できるボートスウェイン（水夫長）スキルの経験値を増加"
+     ],
+     "nerfs": [
+      "海戦において海事・水夫長・船長カテゴリ以外のほとんどのパーク効果を50%減少"
+     ],
+     "fixes": [
+      "海上の村の襲撃で敗北したシミュレーションが勝利扱いになる不具合を修正",
+      "出항後にパーティの位置エラーが発生して集落に入れなくなる問題を解決",
+      "キャンペーンマップとミッションシーンの間で天候が一致しない不具合を修正",
+      "船の衝突時に過剰なカメラ揺れや複数回のダメージが発生する不具合を修正",
+      "撤退した船がミッションのスコアボードで撃破と表示される不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "骑马与砍杀2：霸主 v1.5.7 / 战帆 v1.3.7 更新日志",
+     "summary": "本次重大更新大幅扩展了海军玩法，加入了渡轮、船舶停泊、海上随机事件及强化的登船机制。同时引入了高级开局选项、有实际影响的性格特质、血海深仇系统以及更细致的家族队伍控制。",
+     "highlights": [
+      "新增无需船舶即可在沿海村庄之间移动的渡轮系统以及港口船舶停泊功能",
+      "引入高级开局选项（ASO），可定制战役剧本、玩家开局身份和游戏修正器",
+      "性格特质现在会带来具体的正面和负面游戏效果",
+      "处决可能触发家族间的血海深仇，直到通过特定方式化解",
+      "海战中的连接绳索现在可以被攻击并摧毁，从而阻止敌方搭桥",
+      "在大地图上添加了可供调查的战场遗址和残骸，可获取战利品与经验"
+     ],
+     "buffs": [
+      "增加通过修理船舶获得的船长/水手长技能经验"
+     ],
+     "nerfs": [
+      "在海战中，将大多数非船长、水手长类特长（Perk）的效果降低50%"
+     ],
+     "fixes": [
+      "修复了海上村庄袭击战失败模拟被判定为胜利的错误",
+      "修复了起航后队伍位置错误导致无法进入定居点的问题",
+      "修复了大地图与任务场景天气不一致的错误",
+      "修复了船只碰撞导致镜头剧烈晃动或造成多次伤害的错误",
+      "修复了撤退的船只在任务记分牌中显示为被摧毁的错误"
+     ]
+    },
+    "pt": {
+     "title": "Mount & Blade II: Bannerlord v1.5.7 / War Sails v1.3.7 - Notas da Atualização",
+     "summary": "Esta grande atualização expande a jogabilidade naval com balsas, amarração de navios, eventos aleatórios no mar e mecânicas de abordagem aprimoradas. Também introduz Opções Avançadas de Início, traços de personalidade significativos, rivalidades de sangue e controle refinado de clãs.",
+     "highlights": [
+      "Adicionado sistema de balsas para viagens costeiras sem navios e amarração de frotas em portos",
+      "Introduzidas Opções Avançadas de Início (ASO) para personalizar cenários de campanha e começos",
+      "Traços de personalidade agora concedem efeitos positivos e negativos claros na gameplay",
+      "Execuções agora podem iniciar inimizades de sangue entre clãs até que sejam resolvidas",
+      "Cordas de fixação em batalhas navais agora podem ser destruídas para evitar a abordagem inimiga",
+      "Adicionados locais de batalha e escombros investigáveis no mapa de campanha para espólios e XP"
+     ],
+     "buffs": [
+      "Aumentada a experiência da habilidade de Contramestre (Boatswain) ganha ao reparar navios"
+     ],
+     "nerfs": [
+      "Reduzidos em 50% os efeitos da maioria das vantagens não voltadas para habilidades navais durante batalhas no mar"
+     ],
+     "fixes": [
+      "Corrigido um bug em que simulações perdidas de Inveja a Vilarejo Marítimo contavam como vitórias",
+      "Corrigidos erros de posição do grupo após zarpar que impediam a entrada em assentamentos",
+      "Corrigida a inconsistência de clima entre o mapa de campanha e as cenas de missões",
+      "Corrigido bug em colisões de navios que causavam tremores excessivos na câmera ou dano múltiplo",
+      "Corrigido navios recuados exibidos como destruídos no placar da missão"
+     ]
     }
    }
   },
@@ -6253,6 +6876,99 @@
    }
   },
   {
+   "gid": "1849192144177650",
+   "appid": 1129580,
+   "game": "중세 왕조",
+   "date": 1794384007,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144177650",
+   "origTitle": "Patch 2.7.0.5 on the Public Branch",
+   "title": "퍼블릭 브랜치 패치 2.7.0.5 배포",
+   "summary": "중세 왕조(Medieval Dynasty) 퍼블릭 브랜치에 최근 출시 관련 문제를 해결하고 추가 변경 사항을 포함하는 2.7.0.5 패치가 적용되었습니다. 전설 동물 스폰 위치 오류 및 투척 돌의 물고기 피해 적용 문제 등이 수정되었습니다.",
+   "highlights": [
+    "전설 동물 스폰 위치 오류 수정",
+    "투척 돌이 물고기에게 피해를 주지 않던 문제 해결",
+    "협동 모드 관련 버그 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "계곡 맵 경계 너머로 전설 동물이 스폰되던 문제 수정",
+    "투척 돌이 물고기에게 피해를 주지 않던 문제 수정",
+    "특정 상황에서 산적 무기류에 산적 피해 배율이 적용되지 않던 문제 수정",
+    "협동 모드에서 말 탑승 시 덫 마스터 기술 버그가 나타나던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Patch 2.7.0.5 on the Public Branch",
+     "summary": "Medieval Dynasty update 2.7.0.5 is now available on the Public Branch, resolving issues related to the recent release. This update includes fixes for Legendary Animal spawning, throwing rock damage, and co-op skill bugs.",
+     "highlights": [
+      "Fixed Legendary Animal spawning outside the map border",
+      "Fixed throwing rocks not damaging fish",
+      "Resolved co-op trapping master skill bugs"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Legendary Animal spawning beyond the Valley map border",
+      "Throwing Rocks not dealing damage to fish",
+      "Bandit damage multiplier having no effect on bandit weapons in certain cases",
+      "Trapping Master skill bugs appearing if players were on horses in Co-op mode"
+     ]
+    },
+    "ja": {
+     "title": "パブリックブランチパッチ 2.7.0.5",
+     "summary": "Medieval Dynasty（メディーバル・ダイナスティ）のパブリックブランチにアップデート2.7.0.5が配信され、最近のリリースに関連する問題が修正されました。伝説の動物のスポーン位置や投擲石のダメージに関する修正が含まれています。",
+     "highlights": [
+      "伝説の動物のスポーン位置の不具合を修正",
+      "投擲石が魚にダメージを与えない問題を修正",
+      "Co-opモードでのスキルバグを修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "伝説の動物がバレーマップの境界を超えてスポーンする問題",
+      "投擲石が魚にダメージを与えない問題",
+      "特定の状況で山賊の武器に山賊ダメージ倍率が効果を持たない問題",
+      "Co-opモードでプレイヤーが馬に乗っている場合に罠師スキルのバグが発生する問題"
+     ]
+    },
+    "zh": {
+     "title": "公共分支 2.7.0.5 补丁",
+     "summary": "《Medieval Dynasty》发布了公共分支 2.7.0.5 更新，解决了近期发布相关的一些问题。本次更新修复了传奇动物生成位置、投掷石块伤害以及合作模式技能漏洞。",
+     "highlights": [
+      "修复传奇动物在地图边界外生成的问题",
+      "修复投掷石块对鱼类不造成伤害的问题",
+      "修复合作模式中的相关技能漏洞"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "传奇动物在山谷地图边界外生成",
+      "投掷石块对鱼类不造成伤害",
+      "在某些情况下山贼伤害倍率对山贼武器无效",
+      "在合作模式中玩家骑马时出现捕猎大师技能漏洞"
+     ]
+    },
+    "pt": {
+     "title": "Atualização 2.7.0.5 no Ramo Público",
+     "summary": "A atualização 2.7.0.5 de Medieval Dynasty já está disponível no Ramo Público, resolvendo problemas relacionados ao lançamento recente. A atualização inclui correções para o surgimento de animais lendários, dano de pedras arremessadas e erros de habilidades no modo cooperativo.",
+     "highlights": [
+      "Correção no surgimento de animais lendários fora do mapa",
+      "Correção no dano de pedras arremessadas contra peixes",
+      "Correção de bugs de habilidades no modo cooperativo"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Animais lendários surgindo além dos limites do mapa do Vale",
+      "Pedras arremessadas não causando dano aos peixes",
+      "Multiplicador de dano de bandidos sem efeito em armas de bandidos em certos casos",
+      "Bugs da habilidade Mestre em Armadilhas aparecendo se os jogadores estivessem a cavalo no modo cooperativo"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1849192144177157",
    "appid": 1868140,
    "game": "데이브 더 다이버",
@@ -6346,6 +7062,89 @@
    }
   },
   {
+   "gid": "1848664643359946",
+   "appid": 2807960,
+   "game": "배틀필드 6",
+   "date": 1794324532,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643359946",
+   "origTitle": "Battlefield 6 Season 5: Casino Heist",
+   "title": "배틀필드 6 시즌 5: 카지노 하이스트",
+   "summary": "배틀필드 6 시즌 5 '카지노 하이스트' 업데이트가 라스베이거스를 배경으로 진행됩니다. 신규 이벤트, 맵, 장비 및 경쟁전을 위한 엘리트 시리즈가 추가되었습니다.",
+   "highlights": [
+    "신규 이벤트 카지노 하이스트 추가 (정복, 에스컬레이션, 배틀 로얄 등)",
+    "신규 맵 '유러피안 카지노' 추가",
+    "신규 차량 M142 MRAS 추가",
+    "신규 무기 NSW4 추가",
+    "신규 가젯 ADS-17 6Ghz 신호 교란기 추가",
+    "신규 경쟁전 엘리트 시리즈 도입"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Battlefield 6 Season 5: Casino Heist",
+     "summary": "Battlefield 6 Season 5: Casino Heist transforms Las Vegas into a warzone. This update introduces a new event, map, hardware, and competitive Elite Series.",
+     "highlights": [
+      "New Casino Heist event on the Strip and casino floor",
+      "New Battlefield 6 map 'European Casino'",
+      "New vehicle M142 MRAS mobile rocket artillery",
+      "New weapon NSW4 short-range carbine",
+      "New gadget ADS-17 6Ghz Signal Jammer",
+      "New competitive Elite Series for Battlefield REDSEC"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "バトルフィールド 6 シーズン5：カジノ・ハイスト",
+     "summary": "『バトルフィールド 6』シーズン5「カジノ・ハイスト」では、ラスベガスが戦場と化します。新イベント、マップ、ハードウェア、および競技向けの「エリート・シリーズ」が追加されました。",
+     "highlights": [
+      "新イベント「カジノ・ハイスト」の開催",
+      "新マップ「ヨーロピアン・カジノ」の追加",
+      "新ビークル「M142 MRAS」の追加",
+      "新武器「NSW4」の追加",
+      "新ガジェット「ADS-17 6Ghz」シグナルジャマーの追加",
+      "競技プレイ向けの「エリート・シリーズ」の導入"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "战地风云 6 第五赛季：赌场大劫掠",
+     "summary": "《战地风云 6》第五赛季“赌场大劫掠”将拉斯韦加斯变为战区。本次更新带来了全新活动、地图、硬件以及竞技精英系列赛。",
+     "highlights": [
+      "推出全新活动“赌场大劫掠”",
+      "加入全新地图“欧洲赌场”",
+      "新增载具 M142 MRAS 移动火箭炮",
+      "新增武器 NSW4 短距离卡宾枪",
+      "新增战术装备 ADS-17 6Ghz 信号干扰器",
+      "引入全新的精英系列赛以支持竞技对战"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Battlefield 6 Temporada 5: Casino Heist",
+     "summary": "A Temporada 5 de Battlefield 6: Casino Heist transforma Las Vegas em uma zona de guerra. Esta atualização traz um novo evento, mapa, equipamentos e a competitiva Elite Series.",
+     "highlights": [
+      "Novo evento Casino Heist na Strip e no cassino",
+      "Novo mapa de Battlefield 6 'European Casino'",
+      "Novo veículo M142 MRAS de artilharia de foguetes",
+      "Nova arma NSW4 carabina de curto alcance",
+      "Novo gadget ADS-17 6Ghz Signal Jammer",
+      "Nova Elite Series voltada para o cenário competitivo"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1848664643359938",
    "appid": 1295660,
    "game": "시드 마이어의 문명 VII",
@@ -6397,6 +7196,114 @@
       "Fixed an issue where players could not skip the first-meet cinematic",
       "Fixed various animation delays and text issues for Ashoka and Ibn Battuta",
       "Fixed an issue where Edward Teach and Ada Lovelace appeared as unlock conditions for players without the British DLC"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1848664643359580",
+   "appid": 949230,
+   "game": "시티즈: 스카이라인 II",
+   "date": 1794319701,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643359580",
+   "origTitle": "Patch 1.6.4f1 - Seasonal Shift",
+   "title": "패치 1.6.4f1 - 계절의 변화",
+   "summary": "시티즈: 스카이라인 II의 1.6.4f1 패치가 배포되었습니다. 이번 업데이트는 다가올 DLC의 기반을 마련하고 오픈 베타의 개선 사항을 적용하며, Paradox Mods 개선 및 다양한 버그 수정을 포함합니다.",
+   "highlights": [
+    "패러독스 뉴스레터 구독 시 대형 우체국 고유 건물 해제 가능",
+    "오픈 베타의 개선 사항 및 최신 업스케일러 적용 (DLSS 4.5, FSR 3, XeSS 3)",
+    "Paradox Mods 기능 대폭 개선 및 탐색 탭 추가",
+    "건물이 없는 회사 과다 생성으로 인한 성능 저하 문제 수정",
+    "수력 발전소가 작동하지 않던 문제 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "건물이 없는 회사가 너무 많이 생성되어 성능 저하를 유발하던 문제 수정",
+    "수력 발전소가 작동하지 않던 문제 수정",
+    "성장 꺼짐 설정된 나무가 계속 자라던 문제 수정",
+    "시작 시 모드 콘텐츠가 로드되지 않던 문제 수정",
+    "메뉴에서 게임 모드 이미지에 마우스 올릴 때 깜빡이던 현상 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Patch 1.6.4f1 - Seasonal Shift",
+     "summary": "Patch 1.6.4f1 for Cities: Skylines II is now live. It lays the groundwork for the upcoming Park Adventures DLC, brings Open Beta improvements to the live game, and includes Paradox Mods enhancements and bug fixes.",
+     "highlights": [
+      "Unlock the Grand Post Office signature building by subscribing to the Paradox Newsletter",
+      "Brings Open Beta improvements and updated upscalers (DLSS 4.5, FSR 3, XeSS 3)",
+      "Major improvements to Paradox Mods navigation and features",
+      "Fixed performance issues caused by cities building up too many companies with no buildings",
+      "Fixed the Hydroelectric Power Plant not functioning"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed cities building up too many companies with no buildings causing performance issues",
+      "Fixed the Hydroelectric Power Plant not functioning",
+      "Fixed trees with growth turned off continuing to grow",
+      "Fixed mod content sometimes not loading on startup",
+      "Fixed game mode image flickering when hovered in the menu"
+     ]
+    },
+    "ja": {
+     "title": "パッチ 1.6.4f1 - シーズナル・シフト",
+     "summary": "『シティーズ：スカイライン II』のパッチ 1.6.4f1が配信開始されました。このアップデートは今後のDLCの土台となり、オープンベータの改善点をライブ版に適用し、Paradox Modsの機能向上やバグ修正を行います。",
+     "highlights": [
+      "Paradoxニュースレ터の購読で新しい固有施設「大郵便局」をアンロック可能",
+      "オープンベータの改善と最新アップスケーラー（DLSS 4.5、FSR 3、XeSS 3）の更新",
+      "Paradox Modsのブラウジング機能やタブの改善",
+      "建物がない会社が過剰に発生してパフォーマンスが低下する問題の修正",
+      "水力発電所が機能していなかった問題の修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "建物がない会社が過剰に発生してパフォーマンス低下を引き起こす問題を修正",
+      "水力発電所が機能していなかった問題を修正",
+      "成長オフに設定された木が成長し続ける問題を修正",
+      "起動時にModコンテンツが読み込まれないことがある問題を修正",
+      "メニューでゲームモード画像にホバーした際のちらつきを修正"
+     ]
+    },
+    "zh": {
+     "title": "补丁 1.6.4f1 - 季节更替",
+     "summary": "《都市：天际线 II》1.6.4f1 现已发布。本次更新为即将到来的 DLC 奠定了基础，将公开测试版的改进带入正式版，并包含 Paradox Mods 的增强以及错误修复。",
+     "highlights": [
+      "订阅 Paradox 通讯即可解锁全新的标志性建筑——宏伟邮局",
+      "引入公开测试版的改进并更新了超分辨率技术（DLSS 4.5、FSR 3、XeSS 3）",
+      "大幅改进 Paradox Mods 的浏览标签页与功能",
+      "修复了城市建立过多无建筑公司导致性能下降的问题",
+      "修复了水力发电厂无法运作的问题"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了城市建立过多无建筑公司导致性能下降的问题",
+      "修复了水力发电厂无法运作的问题",
+      "修复了关闭生长的树木继续生长的问题",
+      "修复了启动时模组内容有时无法加载的问题",
+      "修复了菜单中悬停游戏模式图像时闪烁的问题"
+     ]
+    },
+    "pt": {
+     "title": "Patch 1.6.4f1 - Mudança Sazonal",
+     "summary": "O Patch 1.6.4f1 para Cities: Skylines II já está disponível. Esta atualização serve de base para a próxima DLC, traz melhorias do Open Beta para o jogo principal e inclui aprimoramentos no Paradox Mods e correções de bugs.",
+     "highlights": [
+      "Desbloqueie o novo edifício emblemático Grand Post Office assinando a Newsletter da Paradox",
+      "Traz melhorias do Open Beta e atualizações de upscalers (DLSS 4.5, FSR 3, XeSS 3)",
+      "Melhorias significativas na navegação e recursos do Paradox Mods",
+      "Corrigido problema de desempenho causado pelo acúmulo de empresas sem edifícios",
+      "Corrigida a Usina Hidrelétrica que não estava funcionando"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido o acúmulo de empresas sem edifícios causando problemas de desempenho",
+      "Corrigida a Usina Hidrelétrica que não funcionava",
+      "Corrigidas árvores com crescimento desativado que continuavam crescendo",
+      "Corrigido o conteúdo de mods às vezes não carregar na inicialização",
+      "Corrigido o piscar da imagem do modo de jogo ao passar o mouse no menu"
      ]
     }
    }
@@ -6512,6 +7419,177 @@
    }
   },
   {
+   "gid": "1848664643358872",
+   "appid": 39210,
+   "game": "파이널 판타지 XIV",
+   "date": 1794307268,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643358872",
+   "origTitle": "Patch 7.58 Notes",
+   "title": "파이널 판타지 XIV 패치 7.58",
+   "summary": "파이널 판타지 XIV 패치 7.58에서는 북미 및 유럽 데이터 센터의 동일 지역 매칭 도입과 함께, 연금술의 도가니 관련 조정 및 AAC 헤비급 (영웅)의 초월하는 힘이 강화되었습니다.",
+   "highlights": [
+    "북미 및 유럽 데이터 센터 동일 지역 플레이어 매칭 도입",
+    "연금술의 도가니 조정",
+    "AAC 헤비급 (영웅) 초월하는 힘 효과 강화"
+   ],
+   "buffs": [
+    "AAC 헤비급 (영웅) 초월하는 힘 효과 강화"
+   ],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "FINAL FANTASY XIV Patch 7.58",
+     "summary": "Patch 7.58 introduces same-region player matchmaking for the North American and European data centers, along with adjustments to the Crucible of the Unbroken and a strengthened Echo effect in AAC Heavyweight Tier (Savage).",
+     "highlights": [
+      "Same-region player matchmaking for NA and EU data centers",
+      "Adjustments to the Crucible of the Unbroken",
+      "Strengthened Echo effect in AAC Heavyweight Tier (Savage)"
+     ],
+     "buffs": [
+      "Strengthened Echo effect in AAC Heavyweight Tier (Savage)"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "ファイナルファンタジーXIV パッチ7.58",
+     "summary": "パッチ7.58では、北米および欧州データセンターにおける同一リージョン内でのマッチング導入に加え、クラシブル・オブ・ジ・アンブロークンの調整や、AACヘビー級【零式】における超える力の強化が行われました。",
+     "highlights": [
+      "北米および欧州データセンターの同一リージョンマッチング導入",
+      "クラシブル・オブ・ジ・アンブロークンの調整",
+      "AACヘビー級【零式】の超える力強化"
+     ],
+     "buffs": [
+      "AACヘビー级【零式】の超える力効果強化"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "最终幻想14 6.58版本更新说明",
+     "summary": "最终幻想14 7.58版本更新为北美和欧洲数据中心引入了同区域玩家匹配功能，并对破碎熔炉进行了调整，同时增强了AAC重量级零式中超越之力的效果。",
+     "highlights": [
+      "北美和欧洲数据中心引入同区域匹配",
+      "调整破碎熔炉",
+      "增强AAC重量级零式中的超越之力效果"
+     ],
+     "buffs": [
+      "增强AAC重量级零式中的超越之力效果"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "FINAL FANTASY XIV - Patch 7.58",
+     "summary": "O Patch 7.58 introduz o pareamento de jogadores da mesma região para os centros de dados da América do Norte e Europa, além de vários ajustes no Crucible of the Unbroken e um efeito do Echo fortalecido no AAC Heavyweight Tier (Savage).",
+     "highlights": [
+      "Pareamento de mesma região para os centros de dados NA e EU",
+      "Ajustes no Crucible of the Unbroken",
+      "Efeito do Echo fortalecido no AAC Heavyweight Tier (Savage)"
+     ],
+     "buffs": [
+      "Efeito do Echo fortalecido no AAC Heavyweight Tier (Savage)"
+     ],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1848664643358653",
+   "appid": 1696810,
+   "game": "레일로드 온라인",
+   "date": 1794302771,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643358653",
+   "origTitle": "Railroads Online: The Kinetic Update",
+   "title": "더 키네틱 업데이트",
+   "summary": "레일로드 온라인의 퍼블릭 베타 브랜치에 열차 물리 엔진 전면 개편, 새로운 사운드, 탈선 시스템 등을 도입하는 '더 키네틱 업데이트'가 적용되었습니다.",
+   "highlights": [
+    "열차 이동 시뮬레이션 및 물리학 전면 재구축",
+    "휠 슬립 및 모래 사용 기능 추가",
+    "공기 브레이크 및 압축기 시스템 도입",
+    "탈선 설정 및 간편한 복구 기능 추가",
+    "실시간 사운드 시스템 도입",
+    "시각적 개선 및 최적화 진행"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "다수의 버그 수정 및 개선 적용"
+   ],
+   "i18n": {
+    "en": {
+     "title": "The Kinetic Update",
+     "summary": "The Kinetic Update is now available on the Public Beta Branch, bringing a complete overhaul of train movement physics, new dynamic sounds, and air brake systems to Railroads Online.",
+     "highlights": [
+      "Completely rebuilt train movement simulation and physics",
+      "Added wheel slip mechanics and sand usage",
+      "Introduced air brakes and compressor systems",
+      "Added derailment settings and one-click re-railing",
+      "New real-time sound system for locomotives and facilities",
+      "Visual improvements and optimizations"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Numerous additional bug fixes and improvements"
+     ]
+    },
+    "ja": {
+     "title": "キネティック・アップデート",
+     "summary": "レイルロード・オンラインのパブリックベータブランチにて、列車移動の物理演算の刷新、新しいダイナミックサウンド、エアブレーキシステムなどを導入する「キネティック・アップデート」が配信開始されました。",
+     "highlights": [
+      "列車の移動シミュレーションと物理演算を完全に再構築",
+      "空転（ホイールスリップ）と砂撒き機能の追加",
+      "エアブレーキとコンプレッサーシステムの導入",
+      "脱線設定とワンクリック復旧機能の追加",
+      "リアルタイムサウンドシステムの導入",
+      "視覚的な改善と最適化"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "多数のバグ修正と改善"
+     ]
+    },
+    "zh": {
+     "title": "动能更新",
+     "summary": "《铁路在线》现已在公开测试分支推出“动能更新”，带来了列车移动物理机制的全面重构、全新的动态音效以及空气制动系统。",
+     "highlights": [
+      "完全重构列车移动模拟与物理机制",
+      "新增车轮打滑机制与沙子使用功能",
+      "引入空气制动与压缩机系统",
+      "新增脱轨设置与一键复轨功能",
+      "加入实时音效系统",
+      "视觉效果提升与优化"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "大量错误修复与改进"
+     ]
+    },
+    "pt": {
+     "title": "A Atualização Cinética",
+     "summary": "A Atualização Cinética já está disponível no Ramo Beta Público de Railroads Online, trazendo uma reformulação completa na física de movimento dos trens, novos sons dinâmicos e sistemas de freio a ar.",
+     "highlights": [
+      "Simulação de movimento de trens e física completamente reconstruídas",
+      "Adicionada mecânica de derrapagem de rodas e uso de areia",
+      "Introduzidos freios a ar e sistemas de compressores",
+      "Adicionadas configurações de descarriamento e re-carriamento com um clique",
+      "Novo sistema de som em tempo real",
+      "Melhorias visuais e otimizações"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Inumeras correções de bugs e melhorias adicionais"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1848664643356687",
    "appid": 381210,
    "game": "데드 바이 데이라이트",
@@ -6550,6 +7628,159 @@
       "The Executioner: Increased delay between Punishment of the Damned segments from 0.001 seconds to 0.015 seconds"
      ],
      "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1848664643356438",
+   "appid": 2807960,
+   "game": "배틀필드 6",
+   "date": 1794247216,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643356438",
+   "origTitle": "BATTLEFIELD 6 GAME UPDATE 2.1.2.0",
+   "title": "배틀필드 6 업데이트 2.1.2.0",
+   "summary": "배틀필드 6의 2.1.2.0 업데이트는 새로운 유럽 카지노 맵과 카지노 하이스트 이벤트, 시즌 리더보드 시스템, 그리고 다양한 무기 및 부착물 밸런스 패치를 도입합니다. 또한 M142 MRAS 차량이 정복 맵에 추가되고 베가스 스트립의 소규모 모드 및 포털 기능이 확장되었습니다.",
+   "highlights": [
+    "신규 맵 '유럽 카지노' 추가",
+    "신규 이벤트 '카지노 하이스트' 및 DOUGH 통화 도입",
+    "시즌 리더보드 시스템 추가",
+    "신규 무기 NSW4 카빈, 가젯 ADS-17 6GHz, 차량 M142 MRAS 추가",
+    "베가스 스트립에 러시, 팀 데스매치, 도미네이션 모드 추가",
+    "배틀필드 6 무료 체험 및 서버 브라우저 공개 테스트 진행"
+   ],
+   "buffs": [
+    "GRT-BC 기본 조준 속도가 상향되어 기관단총 수준으로 조정",
+    "M/60 50발 루즈 벨트 장착 시 기본 탄약이 150발에서 250발로 증가"
+   ],
+   "nerfs": [
+    "미니 스카우트: 150m 이상 거리에서 헤드샷 한 방 처치 능력이 제거되고 데미지 감소",
+    "SCW-10: 55m 및 75m 거리에 따른 데미지 감소 단계 추가",
+    "KTS100 MK8: 장전 속도 버프 조정 및 핸들링 패널티 적용",
+    "확장 탄창 (KV9, SCW-10, SG 553R 등): 무기 견착 및 장전 속도 패널티 추가"
+   ],
+   "fixes": [
+    "VCR-2의 아이언 사이트가 2.50x 광학 장비와 겹치던 문제 수정",
+    "Z84M 장전 애니메이션 중 풀탭이 올바르게 표시되도록 수정",
+    "L115에 표준 소음기 장착 시 의도된 힙파이어 정확도 페널티가 적용되도록 수정",
+    "MK24 파편탄 부착물 포인트 비용 오류 수정",
+    "VSSM 및 LMR27의 부착물 3D 미리보기 정렬 및 흐림 문제 해결"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Battlefield 6 Game Update 2.1.2.0",
+     "summary": "Battlefield 6 Update 2.1.2.0 introduces the European Casino map, Casino Heist event, seasonal Leaderboards, and extensive weapon and attachment balancing. It also brings the M142 MRAS to Conquest, new modes to Vegas Strip, and numerous quality-of-life improvements.",
+     "highlights": [
+      "New Map: European Casino",
+      "New Event: Casino Heist with limited-time DOUGH currency",
+      "New seasonal Leaderboards system with career, mode, and class filtering",
+      "New additions: NSW4 Carbine, ADS-17 6GHz gadget, and M142 MRAS vehicle",
+      "Expanded Vegas Strip to support Rush, Team Deathmatch, and Domination",
+      "Server Browser Limited Public Scale Test rolling out"
+     ],
+     "buffs": [
+      "GRT-BC base aim-down-sights speed increased by one tier",
+      "M/60 with 50-Round Loose Belt now grants 250 total rounds on spawn instead of 150"
+     ],
+     "nerfs": [
+      "Mini Scout: Added a third damage drop-off step at 150m, removing one-hit headshot kills beyond 150m",
+      "SCW-10: Added damage drop-off steps at 55m and 75m",
+      "KTS100 MK8: Adjusted magazine attributes and handling to prevent AR-like behavior",
+      "Extended Magazines (KV9, SCW-10, SG 553R): Added draw speed and ADS speed penalties"
+     ],
+     "fixes": [
+      "Iron sights no longer clip into the 2.50x optic on the VCR-2",
+      "Z84M pull tab now displays correctly during reload animations",
+      "Equipping the Standard Suppressor on the L115 applies the intended hip-fire accuracy penalty",
+      "Corrected the attachment point cost for the Frangible ammunition on MK24",
+      "Resolved attachment 3D preview misalignment for VSSM and LMR27 in Loadouts"
+     ]
+    },
+    "ja": {
+     "title": "バトルフィールド 6 ゲームアップデート 2.1.2.0",
+     "summary": "バトルフィールド 6のアップデート2.1.2.0では、新マップ「ヨーロピアンカジノ」、カジノ・ハイストイベント、シーズンリーダーボードシステム、そして幅広い武器とアタッチメントのバランス調整が実装されます。さらに、M142 MRASの征服マップへの追加やベガスストリップのモード拡張が行われます。",
+     "highlights": [
+      "新マップ「ヨーロピアンカジノ」の追加",
+      "新イベント「カジノ・ハイスト」と限定通貨DOUGHの実装",
+      "新たなシーズンリーダーボードシステムの導入",
+      "新武器NSW4カービン、ガジェットADS-17 6GHz、ビークルM142 MRASの追加",
+      "ベガスストリップにラッシュ、チームデスマッチ、ドミネーションを追加",
+      "サーバーブラウザーの限定パブリックテスト実施"
+     ],
+     "buffs": [
+      "GRT-BCの基礎ADS速度が1段階上昇",
+      "M/60の50連ルーズベルト装着時、初期スポーン弾数が150発から250発に増加"
+     ],
+     "nerfs": [
+      "ミニスカウト：150m以降のダメージ減衰が追加され、150m超でのヘッドショット一撃キルを削除",
+      "SCW-10：55mおよび75mにダメージ減衰ステップを追加",
+      "KTS100 MK8：マガジン属性とハンドリングを調整し、アサルトライフルとしての運用を抑制",
+      "拡張マガジン各種（KV9、SCW-10、SG 553R）：武器取り出し速度やADS速度のペナルティを追加"
+     ],
+     "fixes": [
+      "VCR-2のアイアンサイトが2.50x光学照準器にクリッピングする問題を修正",
+      "Z84Mのリロードアニメーション時のプルタブの表示を修正",
+      "L115に標準サプレッサーを装着した際の腰だめ撃ち精度ペナルティを正しく適用",
+      "MK24のフレングリブル弾薬のアタッチメントポイントコストを修正",
+      "ロードアウトメニューでのVSSMおよびLMR27の3Dプレビューのズレを修正"
+     ]
+    },
+    "zh": {
+     "title": "战地风云 6 游戏更新 2.1.2.0",
+     "summary": "战地风云 6 的 2.1.2.0 更新带来了全新的欧洲赌场地图、赌场劫案活动、赛季排行榜系统，以及广泛的武器和配件平衡性调整。此外，M142 MRAS 载具现已加入征服模式地图，拉斯维加斯大道也扩展了更多小型模式。",
+     "highlights": [
+      "新地图：欧洲赌场",
+      "新活动：赌场劫案，包含全新限时货币 DOUGH",
+      "全新的赛季排行榜系统",
+      "新武器 NSW4 卡宾枪、战术装备 ADS-17 6GHz 以及載具 M142 MRAS",
+      "拉斯维加斯大道新增突袭、团队死斗和统治模式",
+      "推出服务器浏览器公开压力测试"
+     ],
+     "buffs": [
+      "GRT-BC 的基础瞄准速度提升一级，以匹配冲锋枪基准",
+      "M/60 装备 50 发散弹带时，复活初始总弹药量从 150 发增加到 250 发"
+     ],
+     "nerfs": [
+      "迷你侦察枪：在 150 米处增加第三段伤害衰减，移除 150 米外的爆头一击必杀",
+      "SCW-10：在 55 米和 75 米处新增伤害衰减阶段",
+      "KTS100 MK8：调整了弹匣属性与操控性，防止其表现得像一把超大型突击步枪",
+      "扩展弹匣（KV9、SCW-10、SG 553R 等）：新增拔枪速度和瞄准速度惩罚"
+     ],
+     "fixes": [
+      "修复了 VCR-2 铁瞄具会穿入 2.50x 光学瞄准镜的问题",
+      "修复了 Z84M 在装填动画中拉柄显示不正确的问题",
+      "为 L115 装配标准消音器时现在会正确应用腰射精度惩罚",
+      "修正了 MK24 碎甲弹配件的点数消耗错误",
+      "解决了配装界面中 VSSM 和 LMR27 的 3D 预览错位和模糊的问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização 2.1.2.0 de Battlefield 6",
+     "summary": "A Atualização 2.1.2.0 de Battlefield 6 traz o novo mapa Cassino Europeu, o evento Casino Heist, sistemas de placares sazonais e um amplo balanceamento de armas e acessórios. A atualização também expande o M142 MRAS para os mapas de Conquista e adiciona novos modos na Vegas Strip.",
+     "highlights": [
+      "Novo Mapa: European Casino",
+      "Novo Evento: Casino Heist com a moeda temporária DOUGH",
+      "Novo sistema de Placares Sazonais com filtros de carreira, modos e classes",
+      "Novas adições: Carabina NSW4, dispositivo ADS-17 6GHz e veículo M142 MRAS",
+      "Expansão da Vegas Strip para suportar Rush, Team Deathmatch e Domination",
+      "Testes públicos limitados do Navegador de Servidores"
+     ],
+     "buffs": [
+      "Velocidade base de mira da GRT-BC aumentada em um nível para equiparar-se a submetralhadoras",
+      "M/60 com a fita solta de 50 projéteis agora concede 250 munições totais ao renascer em vez de 150"
+     ],
+     "nerfs": [
+      "Mini Scout: Adicionado um terceiro estágio de queda de dano a 150m, removendo o abate com um tiro na cabeça além de 150m",
+      "SCW-10: Adicionados estágios de queda de dano a 55m e 75m",
+      "KTS100 MK8: Atributos de carregador e manuseio reajustados",
+      "Carregadores Expandidos (KV9, SCW-10, SG 553R): Adicionadas penalidades de velocidade de saque e de mira"
+     ],
+     "fixes": [
+      "As miras metálicas não entram mais na ótica 2.50x da VCR-2",
+      "A aba de puxar da Z84M agora é exibida corretamente durante as animações de recarga",
+      "Equipar o Silenciador Padrão na L115 agora aplica a penalidade de precisão de tiro livre intencional",
+      "Corrigido o custo de pontos de acessório para a munição fragmentada na MK24",
+      "Resolvido um problema em que as pré-visualizações 3D de acessórios da VSSM e LMR27 apareciam desalinhadas"
+     ]
     }
    }
   },
@@ -6996,6 +8227,167 @@
    }
   },
   {
+   "gid": "1848664643341262",
+   "appid": 534380,
+   "game": "다잉 라이트 2",
+   "date": 1793884025,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643341262",
+   "origTitle": "Update 1.30.2 – Immerse Gamepack by Embody is now LIVE!",
+   "title": "업데이트 1.30.2 - 임머스 게임팩",
+   "summary": "다잉 라이트 2 스테이 휴먼에 에몸디(Embody)의 맞춤형 360° 공간 음향 기능인 임머스 게임팩이 추가되었습니다. 표준 스테레오 헤드폰이나 이어폰을 지원하며, 14일 무료 체험판을 통해 향상된 방향성 사운드를 경험할 수 있습니다.",
+   "highlights": [
+    "에몸디의 맞춤형 360° 공간 음향 '임머스 게임팩' 추가",
+    "설정 > 오디오 > 향상된 헤드폰 모드에서 켜고 끌 수 있음",
+    "모든 표준 스테레오 헤드폰 및 이어폰과 호환",
+    "14일 무료 체험 제공 (신용카드 불필요)",
+    "체험판 종료 후 평생 라이선스 구매 가능"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Update 1.30.2 – Immerse Gamepack",
+     "summary": "The Immerse Gamepack by Embody is now live, bringing personalized 360° spatial audio to Dying Light 2 Stay Human. Players can enjoy enhanced directional sound with any standard stereo headphones and try the feature with a 14-day free trial.",
+     "highlights": [
+      "Added Immerse Gamepack by Embody for personalized 360° spatial audio",
+      "Toggle via Settings > Audio > Enhanced Headphone Mode",
+      "Compatible with any standard stereo headphones or earbuds",
+      "14-day free trial with no credit card required",
+      "Optional lifetime license available for purchase after the trial"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "アップデート 1.30.2 – Immerse ゲームパック",
+     "summary": "『다잉 라이트 2 스테이 휴먼』に Embody のパーソナライズされた 360°立体音響「Immerse ゲームパック」が追加されました。標準的なステレオヘッドホンやイヤホンに対応しており、14日間の無料トライアルで向上した指向性サウンドを体験できます。",
+     "highlights": [
+      "Embody によるパーソナライズされた 360°立体音響を追加",
+      "設定 > オーディオ > 強化ヘッドホンモードで切り替え可能",
+      "あらゆる標準ステレオヘッドホンやイヤホンに対応",
+      "クレジットカード不要の14日間無料トライアルを提供",
+      "トライアル終了後は有料の永久ライセンスを購入可能"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "更新 1.30.2 – Immerse 游戏包",
+     "summary": "《消逝的光芒 2：人与仁之战》现已推出 Embody 的 Immerse 游戏包，带来个性化的 360° 空气声效。玩家可以通过任何标准立体声耳机体验增强的定向声音，并享受 14 天免费试用。",
+     "highlights": [
+      "新增由 Embody 推出的个性化 360° 空间音频",
+      "可在“设置”>“音频”>“增强型耳机模式”中切换",
+      "兼容任何标准立体声耳机或耳塞",
+      "提供 14 天免费试用，无需信用卡",
+      "试用结束后可购买永久许可证"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização 1.30.2 – Pacote de Jogo Immerse",
+     "summary": "O Immerse Gamepack da Embody já está disponível em Dying Light 2 Stay Human, trazendo áudio espacial 360° personalizado. Os jogadores podem aproveitar som direcional aprimorado com qualquer fone de ouvido estéreo padrão e testar o recurso com um teste gratuito de 14 dias.",
+     "highlights": [
+      "Adicionado o Immerse Gamepack da Embody para áudio espacial 360° personalizado",
+      "Ative ou desative em Configurações > Áudio > Modo de Fone de Ouvido Aprimorado",
+      "Compatível com qualquer fone de ouvido estéreo padrão",
+      "Teste gratuito de 14 dias sem necessidade de cartão de crédito",
+      "Licença vitalícia opcional disponível para compra após o teste"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1848664643341260",
+   "appid": 3008130,
+   "game": "다잉 라이트: 더 비스트",
+   "date": 1793884011,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643341260",
+   "origTitle": "Update 1.8.1 – Immerse Gamepack by Embody is now LIVE!",
+   "title": "업데이트 1.8.1: Embody Immerse 게임팩 출시",
+   "summary": "다잉 라이트: 더 비스트에 Embody와의 파트너십을 통한 개인 맞춤형 360° 공간 음향 기능이 추가되었습니다. 향상된 방향성 사운드를 통해 주변의 감염자 위치를 더욱 정확하게 파악할 수 있으며, 14일간 무료 체험이 제공됩니다.",
+   "highlights": [
+    "Embody의 Immerse 게임팩 공간 음향 추가",
+    "개인 맞춤형 360° 방향성 사운드 제공",
+    "설정에서 향상된 헤드폰 모드 켜기/끄기 가능",
+    "모든 표준 스테레오 헤드폰 및 이어폰 호환",
+    "14일 무료 체험 제공 (신용카드 및 구독 불필요)",
+    "체험판 이후 평생 라이선스 구매 가능"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Update 1.8.1: Immerse Gamepack by Embody is LIVE",
+     "summary": "Personalized 360° spatial audio powered by Embody has been added to Dying Light: The Beast. This feature enhances directional sound to help pinpoint incoming Infected and includes a 14-day free trial.",
+     "highlights": [
+      "Immerse Gamepack by Embody added",
+      "Personalized 360° spatial audio for better directional sound",
+      "Toggle via Settings > Audio > Enhanced Headphone Mode",
+      "Compatible with any standard stereo headphones or earbuds",
+      "14-day free trial with no credit card required",
+      "Optional lifetime license available after trial"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "アップデート 1.8.1：Embody製Immerseゲームパック配信開始",
+     "summary": "『다잉 라이트: 더 비스트』にEmbodyとのパートナーシップによるパーソナライズされた360°立体音響機能が追加されました。方向音響が強化され、接近する感染者の位置を正確に把握できるようになります。また、14日間の無料トライアルが利用可能です。",
+     "highlights": [
+      "Embody製「Immerse Gamepack」の追加",
+      "個人の耳に合わせた360°空間オーディオ",
+      "設定の「Enhanced Headphone Mode」で切り替え可能",
+      "あらゆる標準ステレオヘッドホンやイヤホンに対応",
+      "14日間の無料トライアル（クレジットカード不要）",
+      "トライアル終了後は永続ライセンスの購入が可能"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "更新 1.8.1：Embody Immerse 游戏包现已上线",
+     "summary": "《消逝的光芒：野兽》现已加入由 Embody 推出的个性化 360° 空间音频功能。该功能可增强方向音效，帮助玩家精准定位周围的感染者，并提供 14 天免费试用。",
+     "highlights": [
+      "新增 Embody 的 Immerse 游戏包",
+      "提供针对个人耳部优化的 360° 空间音频",
+      "可在“设置 > 音频 > 增强耳机模式”中切换",
+      "兼容任意标准立体声耳机或耳塞",
+      "提供 14 天完整功能免费试用（无需信用卡）",
+      "试用结束后可选择一次性购买永久许可证"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização 1.8.1: Pacote de Jogo Immerse da Embody Disponível",
+     "summary": "Áudio espacial 360° personalizado pela Embody foi adicionado a Dying Light: The Beast. O recurso aprimora o som direcional para ajudar a identificar infectados próximos e inclui um teste gratuito de 14 dias.",
+     "highlights": [
+      "Adicionado o Pacote de Jogo Immerse da Embody",
+      "Áudio espacial 360° personalizado para som direcional aprimorado",
+      "Ative/desative em Configurações > Áudio > Modo de Fone Aprimorado",
+      "Compatível com qualquer fone de ouvido ou auricular estéreo padrão",
+      "Teste gratuito de 14 dias sem necessidade de cartão de crédito",
+      "Licença vitalícia opcional disponível após o período de teste"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1848664643340963",
    "appid": 5019180,
    "game": "에픽세븐",
@@ -7039,6 +8431,164 @@
       "Fixed an issue where unnecessary text was displayed at the top of the screen during [Secret Rabbit Hole] story progression",
       "Fixed an issue where the injury effect did not intermittently trigger when Chaos Festival Axegod attacked",
       "Fixed an intermittent connection error upon game launch"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1848664643340589",
+   "appid": 3274580,
+   "game": "아노 117: 팍스 로마나",
+   "date": 1793873120,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643340589",
+   "origTitle": "Anno 117: Pax Romana – Update 3.0",
+   "title": "아노 117: 팍스 로마나 업데이트 3.0",
+   "summary": "아노 117: 팍스 로마나(Anno 117: Pax Romana) 업데이트 3.0 및 'Dawn of the Delta' DLC가 출시되었습니다. 이번 업데이트는 스탬프 모드, 통계 화면 탭 추가, 밸런스 조정 및 다양한 버그 수정을 포함합니다.",
+   "highlights": [
+    "스탬프 모드 추가: 거주지 및 생산 레이아웃을 저장하고 폴더별로 정리 가능",
+    "통계 화면에 저장고 및 아이템/전문가 탭 추가",
+    "신규 세이브 게임의 기본 난이도가 '보통'으로 변경되어 물자 소비량 증가",
+    "축제 비용 및 요구 물자 양이 게임 진행도에 맞춰 재조정",
+    "콘솔 및 PC 버전의 설치 용량 최적화 및 성능 개선",
+    "퀘스트 로그에서 퀘스트 숨기기 기능 추가"
+   ],
+   "buffs": [
+    "초반 난이도 상승을 보상하기 위해 시작 자금 증가",
+    "중후반 이후 축제 비용 감소 (엔드게임 비용 50,000에서 25,000 코인으로 인하)",
+    "라티움 제분소(Latium Mills)의 생산 속도 상향",
+    "수로 저수조(Aqueduct Cistern) 및 기관의 범위 미리보기 조정 및 범위 소폭 증가"
+   ],
+   "nerfs": [
+    "수도교 관련 전문가 '아퀼라 둘키스(Aquila Dulcis)' 및 '둑투아리우스(Ductuarius)'의 물 공급 보너스 하향",
+    "라티움 제분소의 유지비 및 노동력 소모량 증가",
+    "새로운 세이브 게임의 기본 물자 소비량 증가"
+   ],
+   "fixes": [
+    "'만료된 메모' 알림 클릭 시 발생하던 크래시 수정",
+    "콘솔에서 자동 저장 제한이 작동하지 않던 문제 수정",
+    "와인 관련 상품(포도, 벌집, 와인)이 무역항 및 통계 화면에서 누락되던 문제 수정",
+    "파괴된 적 성문 잔해를 군사 유닛이 통과하지 못하던 문제 수정",
+    "함선이 지도 가장자리 밖으로 나가 선택이나 이동이 불가능해지던 패드 제어 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Anno 117: Pax Romana – Update 3.0",
+     "summary": "Update 3.0 and the 'Dawn of the Delta' DLC for Anno 117: Pax Romana are now live. This update brings the new Stamp Mode, expanded Statistics Screen tabs, various balancing changes, and extensive bug fixes.",
+     "highlights": [
+      "Added Stamp Mode to save, name, and organize residential or production layouts",
+      "Added Storage and Item/Specialist tabs to the Statistics Screen",
+      "Changed default difficulty for new save games to 'Normal', increasing goods consumption",
+      "Rebalanced festival costs and required goods based on progression",
+      "Optimized install and update sizes on PS5 and Xbox Series X|S",
+      "Added option to hide quests from the quest log"
+     ],
+     "buffs": [
+      "Increased starting money to compensate for the tougher early game",
+      "Reduced festival costs from mid-game onward (end-game cost cut from 50,000 to 25,000 coins)",
+      "Increased Latium Mills production speed",
+      "Slightly increased Aqueduct Cistern range to match the updated area of effect preview"
+     ],
+     "nerfs": [
+      "Reduced aqueduct-related specialists' water supply bonus (Aquila Dulcis and Ductuarius)",
+      "Increased maintenance and workforce requirements for Latium Mills",
+      "Increased goods consumption for new save games"
+     ],
+     "fixes": [
+      "Fixed a crash when clicking the 'Expired Notes' notification",
+      "Fixed autosave limit not working on consoles",
+      "Fixed wine-related goods missing from trading posts, trade routes, and statistics",
+      "Fixed military units unable to pass through destroyed enemy gate ruins",
+      "Fixed an issue where ships sent to the edge of the map became unselectable with a gamepad"
+     ]
+    },
+    "ja": {
+     "title": "Anno 117: Pax Romana – アップデート 3.0",
+     "summary": "『Anno 117: Pax Romana（アノ117: パックス・ロマナ）』のアップデート3.0およびDLC「Dawn of the Delta」が配信開始されました。スタンプモードの追加、統計画面のタブ拡張、バランス調整、多数のバグ修正が含まれています。",
+     "highlights": [
+      "スタンプモードの追加：お気に入りの居住地や生産レイアウトを保存・整理可能",
+      "統計画面にストレージタブとアイテム/専門家タブを追加",
+      "新しいセーブデータの基本難易度が「ノーマル」に変更され、物品の消費量が上昇",
+      "進行度に合わせて祭りの費用と必要物品を再調整",
+      "PS5およびXbox Series X|Sでのインストールサイズを縮小・最適化",
+      "クエストログからクエストを非表示にする機能を追加"
+     ],
+     "buffs": [
+      "序盤の難易度上昇を補うため、開始時の所持金を増加",
+      "中盤以降の祭りの費用を削減（エンドゲームのコストを50,000から25,000コインに半減）",
+      "ラティウム製粉所の生産速度を向上",
+      "水道橋の貯水槽の範囲プレビューを調整し、範囲を微増"
+     ],
+     "nerfs": [
+      "水道橋関連の専門家（アキラ・デュルキスおよびドゥクトゥアリウス）の水供給ボーナスを下方修正",
+      "ラティウム製粉所の維持費と労働力を増加",
+      "新規セーブデータにおける物品の消費量を増加"
+     ],
+     "fixes": [
+      "「期限切れのメモ」通知をクリックした際に発生するクラッシュを修正",
+      "コンソールで自動セーブの制限が機能していなかった問題を修正",
+      "ワイン関連の商品（ブドウ、ハチミツ、ワイン）が交易所や統計画面から欠落していた問題を修正",
+      "軍事ユニットが破壊された敵の門の残骸を通過できなかった問題を修正",
+      "マップの端に送られた船がゲームパッドで選択・移動できなくなる問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "纪元 117：罗马和平 – 3.0 更新",
+     "summary": "《纪元 117：罗马和平》(Anno 117: Pax Romana) 3.0 更新及“三角洲的曙光”DLC 现已上线。本次更新带来了图章模式、统计界面标签页扩展、平衡性调整以及大量错误修复。",
+     "highlights": [
+      "新增图章模式：可保存、命名并整理住宅或生产布局",
+      "统计界面新增仓储标签页和物品/专家标签页",
+      "新存档的默认难度变更为“普通”，商品消耗量随之增加",
+      "根据游戏进度重新平衡了节日费用及所需商品数量",
+      "优化了 PS5 和 Xbox Series X|S 平台的游戏安装包大小",
+      "任务日志中新增了隐藏任务的功能"
+     ],
+     "buffs": [
+      "增加了初始资金以弥补前期较高的难度",
+      "降低了中后期举办节日的费用（终局成本从 50,000 降至 25,000 金币）",
+      "提高了拉提姆磨坊的生产速度",
+      "略微扩大了高架渠蓄水池的范围以匹配调整后的效果预览"
+     ],
+     "nerfs": [
+      "下调了水渠相关专家（阿基拉·杜尔基斯和杜库图里乌斯）的供水加成",
+      "增加了拉提姆磨坊的维护费和劳动力消耗",
+      "新存档的商品消耗量提升"
+     ],
+     "fixes": [
+      "修复了点击“过期笔记”通知时导致的游戏崩溃",
+      "修复了主机端自动保存限制失效的问题",
+      "修复了贸易站、贸易路线及统计界面中缺少葡萄酒相关商品（葡萄、蜂巢、葡萄酒）的问题",
+      "修复了军事单位无法穿过被摧毁的敌方城门废墟的问题",
+      "修复了使用手柄时发送到地图边缘的船只无法被选中或移动的问题"
+     ]
+    },
+    "pt": {
+     "title": "Anno 117: Pax Romana – Atualização 3.0",
+     "summary": "A Atualização 3.0 e o DLC 'Dawn of the Delta' de Anno 117: Pax Romana já estão disponíveis. Esta atualização traz o Modo Carimbo, novas abas na Tela de Estatísticas, ajustes de balanceamento e correções de bugs.",
+     "highlights": [
+      "Adicionado o Modo Carimbo para salvar, nomear e organizar layouts de residências ou produção",
+      "Adicionadas abas de Armazenamento e de Itens/Especialistas na Tela de Estatísticas",
+      "A dificuldade padrão para novos jogos salvos mudou para 'Normal', aumentando o consumo de mercadorias",
+      "Rebalanceados os custos de festivais e mercadorias necessárias com base no progresso",
+      "Otimizado o tamanho de instalação e atualização no PS5 e Xbox Series X|S",
+      "Adicionada a opção de ocultar missões no registro de missões"
+     ],
+     "buffs": [
+      "Aumento do dinheiro inicial para compensar a dificuldade inicial maior",
+      "Redução no custo dos festivais a partir do meio do jogo (custo final reduzido de 50.000 para 25.000 moedas)",
+      "Aumento da velocidade de produção dos Moinhos de Lácio",
+      "Leve aumento no alcance da Cisterna do Aqueduto para corresponder à visualização"
+     ],
+     "nerfs": [
+      "Reduzido o bônus de suprimento de água dos especialistas em aquedutos (Aquila Dulcis e Ductuarius)",
+      "Aumentada a manutenção e a mão de obra necessária para os Moinhos de Lácio",
+      "Aumentado o consumo de mercadorias para novos jogos salvos"
+     ],
+     "fixes": [
+      "Corrigido um travamento ao clicar na notificação de 'Notas Expiradas'",
+      "Corrigido o limite de salvamento automático que não funcionava nos consoles",
+      "Corrigido o desaparecimento de mercadorias relacionadas a vinho (uvas, favos de mel e vinho) do posto comercial e estatísticas",
+      "Corrigido o problema em que unidades militares não conseguiam passar pelas ruínas de portões inimigos destruídos",
+      "Corrigido um problema em que navios enviados à borda do mapa ficavam injogáveis com controle"
      ]
     }
    }
@@ -7213,6 +8763,79 @@
       "Celeste: Dazzling Trick - T3 silence duration reduced from +1.25s to +0.75s",
       "Deadman Danny: Close The Deal - Bonus damage to under half health targets reduced from +75% to +55%"
      ],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1848557880481706",
+   "appid": 389430,
+   "game": "나이트 온라인",
+   "date": 1793847841,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481706",
+   "origTitle": "[Patch Notes] November 4th 2026",
+   "title": "11월 4일 패치 노트",
+   "summary": "나이트 온라인에 로낙랜드 볼 루푸스 보스 이벤트가 시작되었으며, 게임 내 동영상 녹화 기능이 업데이트되었습니다. 또한 로보 보스 이벤트가 종료되었습니다.",
+   "highlights": [
+    "로낙랜드 볼 루푸스 보스 이벤트 시작 (4주간)",
+    "루푸스 보스는 3시간마다 리스폰 (시간 변동 가능)",
+    "동영상 녹화 시 시작 날짜 및 시간 표시 기능 추가",
+    "로낙랜드 볼 로보 보스 이벤트 종료"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "November 4th Patch Notes",
+     "summary": "The Ronark Land Bowl Lupus Boss event has begun in Knight Online, and the in-game video recording feature has been updated. Additionally, the Lobo Boss event has ended.",
+     "highlights": [
+      "Ronark Land Bowl Lupus Boss event started (4 weeks)",
+      "Lupus Boss spawns every 3 hours with random time shifts",
+      "Video recording feature updated to display date and time",
+      "Ronark Land Bowl Lobo Boss event ended"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "11月4日パッチノート",
+     "summary": "ナイトオンラインにてロナークランドボウル・ルプスボスイベントが開始され、ゲーム内動画録画機能がアップデートされました。また、ロボボスイベントは終了しました。",
+     "highlights": [
+      "ロナークランドボウル・ルプスボスイベント開始（4週間）",
+      "ルプスボスが3時間ごとにリスポーン（時間変動あり）",
+      "動画録画開始時に日時を表示するよう機能をアップデート",
+      "ロナークランドボウル・ロボボスイベント終了"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "11月4日更新公告",
+     "summary": "《Knight Online》knightonline开启了罗纳克土地碗卢普斯BOSS活动，并更新了游戏内视频录制功能。同时，洛博BOSS活动已结束。",
+     "highlights": [
+      "开启罗纳克土地碗卢普斯BOSS活动（为期4周）",
+      "卢普斯BOSS每3小时刷新一次（刷新时间可能会随机浮动）",
+      "更新视频录制功能以显示录制开始的日期和时间",
+      "罗纳克土地碗洛博BOSS活动结束"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Notas do Patch de 4 de Novembro",
+     "summary": "O evento do Chefe Lupus em Ronark Land Bowl começou em Knight Online, e o recurso de gravação de vídeo no jogo foi atualizado. Além disso, o evento do Chefe Lobo foi encerrado.",
+     "highlights": [
+      "Início do evento do Chefe Lupus em Ronark Land Bowl (4 semanas)",
+      "O Chefe Lupus renasce a cada 3 horas com variação de tempo",
+      "Atualização no recurso de gravação de vídeo para exibir data e hora",
+      "Fim do evento do Chefe Lobo em Ronark Land Bowl"
+     ],
+     "buffs": [],
+     "nerfs": [],
      "fixes": []
     }
    }
@@ -7419,6 +9042,129 @@
       "Fixed missing functional description for the Utara Fishing Rod",
       "Fixed issue where promotional videos did not play during Martin Tweed's dialogue",
       "Fixed dialogue highlight color error when giving gifts to Harta"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1848557880478393",
+   "appid": 4115450,
+   "game": "팬텀 블레이드 제로",
+   "date": 1793784029,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478393",
+   "origTitle": "Phantom Blade Zero — Patch Notes (Version 1.0302256)",
+   "title": "팬텀 블레이드 제로 버전 1.0302256 패치 노트",
+   "summary": "팬텀 블레이드 제로의 버전 1.0302256 패치가 배포되었습니다. 오디오 및 조작 설정 추가, 전투 및 보스 밸런스 조정, 그리고 다양한 성능 개선 및 버그 수정이 포함되어 있습니다.",
+   "highlights": [
+    "타격음 및 타격 임팩트 사운드 강도 설정 추가",
+    "키보드 및 컨트롤러의 '상호작용 / 대화' 키 재할당 지원",
+    "Wayfarer 및 Pathbreaker 난이도에서 '화, 치명적인 약혼자'의 잡기 공격 빈도 감소",
+    "셰이더 컴파일 프로세스 개선을 통한 실행 시간 단축 및 블루투스 컨트롤러 끊김 현상 감소",
+    "NVIDIA Reflex 및 V-Sync 설정 관련 개선",
+    "특정 AMD 그래픽 카드에서의 헤어렌더링 오류 수정 등 각종 버그 수정"
+   ],
+   "buffs": [],
+   "nerfs": [
+    "Wayfarer 및 Pathbreaker 난이도에서 화, 치명적인 약혼자의 잡기 공격 빈도 감소"
+   ],
+   "fixes": [
+    "특정 조건에서 진행이 불가능해지던 문제 수정",
+    "플레이어 캐릭터가 끼이던 환경적 문제 수정",
+    "컷씬 및 시각적 관련 다양한 문제 수정",
+    "전투 관련 여러 문제 수정",
+    "특정 AMD 그래픽 카드와 드라이버 버전에서의 캐릭터 머리카락 렌더링 오류 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Phantom Blade Zero Version 1.0302256 Patch Notes",
+     "summary": "Version 1.0302256 of Phantom Blade Zero is now live. This update introduces new audio and control options, performance improvements, combat adjustments, and various bug fixes.",
+     "highlights": [
+      "Added audio settings for Hit Sound and Hit Impact Sound Intensity",
+      "Added support for remapping 'Interact / Talk' for keyboard and controllers",
+      "Reduced grab attack frequency for Hua, Deadly Betrothed on Wayfarer and Pathbreaker difficulties",
+      "Updated shader compilation to reduce startup times and reduced Bluetooth controller stuttering",
+      "Improved NVIDIA Reflex behavior with V-Sync enabled",
+      "Fixed various progress-blocking issues and rendering glitches"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Reduced grab attack frequency for Hua, Deadly Betrothed on Wayfarer and Pathbreaker difficulties"
+     ],
+     "fixes": [
+      "Fixed issues that could prevent progression under certain conditions",
+      "Fixed environmental issues causing the player character to become stuck",
+      "Fixed various issues with cutscenes and visuals",
+      "Fixed several combat-related issues",
+      "Fixed character hair rendering on certain AMD graphics cards with specific drivers"
+     ]
+    },
+    "ja": {
+     "title": "ファントムブレード・ゼロ バージョン1.0302256パッチノート",
+     "summary": "『ファントムブレード・ゼロ』のバージョン1.0302256パッチが配信されました。新しいオーディオおよび操作オプションの追加、パフォーマンスの向上、戦闘調整、および各種不具合の修正が含まれています。",
+     "highlights": [
+      "オーディオ設定に「ヒット音」と「ヒットインパクト音」の強さ調整を追加",
+      "キーボードおよびコントローラーの「インタラクト / 会話」のキー割り当て変更をサポート",
+      "WayfarerおよびPathbreaker難易度における「華・致命的な許嫁」の掴み攻撃の頻度を減少",
+      "シェーダーコンパイルプロセスの更新による起動時間の短縮とBluetoothコントローラーのスタッター軽減",
+      "NVIDIA Reflexと垂直同期（V-Sync）の動作改善",
+      "進行不能バグや特定AMD製GPUでの描画不具合の修正"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "WayfarerおよびPathbreaker難易度における華・致命的な許嫁の掴み攻撃の頻度減少"
+     ],
+     "fixes": [
+      "特定条件下での進行不能問題の修正",
+      "プレイヤーキャラクターがスタックする環境的問題の修正",
+      "カットシーンやビジュアルに関する各種問題の修正",
+      "戦闘に関するいくつかの問題の修正",
+      "特定のAMD製グラフィックカードおよびドライバーでのキャラクターの髪のレンダリング不具合の修正"
+     ]
+    },
+    "zh": {
+     "title": "《影之刃零》1.0302256版本更新说明",
+     "summary": "《影之刃零》1.0302256版本更新现已上线。本次更新带来了全新的音频与键位选项、性能优化、战斗调整以及多项Bug修复。",
+     "highlights": [
+      "音频设置中新增“打击音效强度”与“打击受击音效强度”选项",
+      "支持键盘与手柄重新绑定“交互 / 对话”按键",
+      "在漫游者和破路者难度下，降低了“魂刃”或相关Boss（如华，致命婚约者）的抓取攻击频率",
+      "优化着色器编译流程以显著缩短启动时间，并减少蓝牙手柄引起的卡顿",
+      "改进了在开启垂直同步时“NVIDIA Reflex”设置为自动时的表现",
+      "修复了进度阻碍问题及特定AMD显卡上的毛发渲染错误"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "在漫游者和破路者难度下减少了华，致命婚约者的抓取攻击频率"
+     ],
+     "fixes": [
+      "修复了在特定条件下可能阻止游戏进程的问题",
+      "修复了导致玩家角色卡住的环境问题",
+      "修复了过场动画和视觉效果的各种问题",
+      "修复了多项与战斗相关的问题",
+      "修复了特定驱动版本的AMD显卡上角色头发渲染错误的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas da Atualização Versão 1.0302256 de Phantom Blade Zero",
+     "summary": "A versão 1.0302256 de Phantom Blade Zero já está disponível. Esta atualização traz novas opções de áudio e controles, melhorias de desempenho, ajustes de combate e diversas correções de bugs.",
+     "highlights": [
+      "Adicionadas opções de intensidade de som de acerto e de impacto nas configurações de áudio",
+      "Adicionado suporte para remapear 'Interagir / Conversar' para teclado e controle",
+      "Reduzida a frequência de ataques de agarrão de Hua, Noiva Mortal nas dificuldades Wayfarer e Pathbreaker",
+      "Atualizado o processo de compilação de shaders para reduzir o tempo de inicialização e engasgos com controles Bluetooth",
+      "Melhoria no funcionamento do NVIDIA Reflex com V-Sync ativado",
+      "Correções de falhas de progressão e problemas visuais"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Reduzida a frequência de ataques de agarrão de Hua, Noiva Mortal nas dificuldades Wayfarer e Pathbreaker"
+     ],
+     "fixes": [
+      "Corrigidos problemas que podiam impedir a progressão sob certas condições",
+      "Corrigidos problemas ambientais que podiam fazer o personagem ficar preso",
+      "Corrigidos vários problemas com cutscenes e visuais",
+      "Corrigidos vários problemas relacionados ao combate",
+      "Corrigido um erro de renderização de cabelo em certas placas de vídeo AMD com versões de driver específicas"
      ]
     }
    }
@@ -7908,6 +9654,89 @@
    }
   },
   {
+   "gid": "1847920302252588",
+   "appid": 2807960,
+   "game": "배틀필드 6",
+   "date": 1793721761,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302252588",
+   "origTitle": "Battlefield 6 - Community Update - Server Browser Coming Soon",
+   "title": "배틀필드 6 서버 브라우저 출시 안내",
+   "summary": "배틀필드 6의 서버 브라우저 기능이 당초 예정보다 앞당겨져 11월 10일 페이즈 2 출시 직후부터 단계적으로 도입됩니다. 이번 업데이트를 통해 공식 및 플레이어 호스팅 서버에 직접 접속할 수 있으며, 상세 필터링, 정렬, 전체 진행도 및 마스터리 보상이 지원됩니다.",
+   "highlights": [
+    "11월 10일 페이즈 2 이후 단계적 출시 예정",
+    "빠른 플레이(Quickplay) 메뉴에서 바로 서버 브라우저 접근 가능",
+    "공식 스튜디오 서버 및 플레이어 호스팅 서버 통합 제공",
+    "맵, 모드, 핑, 플레이어 수 기준 상세 필터링 및 정렬 지원",
+    "모든 공식 서버에서 전체 XP, 무기 마스터리, 도전 과제 진행 가능",
+    "연속 라운드 플레이를 지원하는 지속형 로비(Persistent Lobbies) 도입"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Battlefield 6 Server Browser Coming Soon",
+     "summary": "The Server Browser for Battlefield 6 is arriving earlier than planned, beginning a staged rollout shortly after Phase 2 launches on November 10. Players will be able to browse official and player-hosted servers directly with granular filtering, persistent lobbies, and full progression support.",
+     "highlights": [
+      "Staged rollout begins shortly after Phase 2 launches on November 10",
+      "Access the Server Browser directly within the Quickplay row menu",
+      "Unified browsing for both Official Studios and Player-hosted servers",
+      "Granular filtering and sorting by map, mode, ping, and player count",
+      "Full XP, weapon mastery, and challenge progression on all official servers",
+      "Persistent lobbies allowing squads to stay together across consecutive rounds"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "バトルフィールド6 サーバーブラウザーまもなく登場",
+     "summary": "『バトルフィールド6』のサーバーブラウザーが予定より前倒しされ、11月10日のフェーズ2開始直後から段階的に導入されます。詳細なフィルター機能、常時接続ロビー、完全な進行状況の同期を備え、公式およびプレイヤーホストサーバーへ直接アクセスできるようになります。",
+     "highlights": [
+      "11月10日のフェーズ2開始直後から段階的ロールアウトを開始",
+      "クイックプレイメニュー内から直接サーバーブラウザーにアクセス可能",
+      "公式スタジオおよびプレイヤーホストサーバーを統合して閲覧可能",
+      "マップ、モード、ピン、プレイヤー数による詳細なフィルターと並び替え機能",
+      "すべての公式サーバーで完全なXP、武器マスタリー、チャレンジ進行が可能",
+      "連続するラウンドを通じてスクワッドが同じサーバーに留まれる持続型ロビー"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "《战地风云6》服务器浏览器即将推出",
+     "summary": "《战地风云6》的服务器浏览器将比原计划更早推出，并将于11月10日第二阶段上线后不久开始分阶段部署。玩家可以通过详细的筛选、持久大厅以及完整的进度支持，直接访问官方和玩家托管的服务器。",
+     "highlights": [
+      "分阶段部署将于11月10日第二阶段上线后不久开始",
+      "直接在快速匹配行菜单中访问服务器浏览器",
+      "统一浏览官方工作室服务器和玩家托管服务器",
+      "支持按地图、模式、延迟和玩家数量进行详细筛选与排序",
+      "所有官方服务器均可获得完整的经验值、武器精通和挑战进度",
+      "支持小队在连续多局比赛中保留在同一服务器的持久大厅"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Navegador de Servidores chegando ao Battlefield 6",
+     "summary": "O Navegador de Servidores do Battlefield 6 chegará mais cedo do que o planejado, iniciando uma distribuição gradual logo após o lançamento da Fase 2 em 10 de novembro. Os jogadores poderão navegar diretamente por servidores oficiais e hospedados por jogadores, contando com filtros detalhados, lobbies persistentes e progressão completa.",
+     "highlights": [
+      "Distribuição gradual começa logo após o lançamento da Fase 2 em 10 de novembro",
+      "Acesse o Navegador de Servidores diretamente na linha de Jogo Rápido",
+      "Navegação unificada para servidores dos Estúdios Oficiais e hospedados por jogadores",
+      "Filtros e ordenação detalhados por mapa, modo, ping e contagem de jogadores",
+      "XP completo, maestria de armas e progressão de desafios em todos os servidores oficiais",
+      "Lobbies persistentes permitindo que os esquadrões permaneçam juntos por rodadas consecutivas"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "split": true,
    "gid": "hs:24307311",
    "appid": "hs",
@@ -8236,6 +10065,164 @@
    }
   },
   {
+   "gid": "1847920302241640",
+   "appid": 1363080,
+   "game": "매너 로드",
+   "date": 1793438297,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302241640",
+   "origTitle": "Version 0.8.117 gets promoted to the default branch",
+   "title": "버전 0.8.117 업데이트",
+   "summary": "매너 로드(Manor Lords) 버전 0.8.117이 기본 브랜치로 승격되었습니다. 새로운 개발 특전, 생선 장수 및 거름터 건물이 추가되었으며, 농업, 가축, 군사 및 AI 시스템 전반에 걸쳐 대규모 조정과 버그 수정이 이루어졌습니다.",
+   "highlights": [
+    "정착지 레벨 3에서 해제 가능한 '농촌 기반' 특전 카테고리 추가",
+    "생선과 소금으로 훈제 생선을 생산하는 새로운 장인 '생선 장수' 추가",
+    "거름을 모으고 비료를 생산하는 새로운 건물 '거름터' 추가",
+    "계절 작물 시스템 도입 및 작물 순환 상시 활성화",
+    "다양한 개발 특전 및 신규 업그레이드 추가"
+   ],
+   "buffs": [
+    "전투궁(Warbows) 데미지 23% 증가",
+    "호밀(Rye) 비료 보너스 x1.5에서 x1.75로 증가 및 수확량 7% 증가",
+    "소 및 양의 번식 확률 40%로 증가",
+    "자원 노드당 어로 지점 수 15개로 증가"
+   ],
+   "nerfs": [
+    "석궁(Crossbows) 데미지 16% 감소",
+    "심부 광산(Deep Mine) 산출량 감소",
+    "지역의 풍요로움으로 얻는 비료 보너스 30% 감소",
+    "작물 성장 속도 2.4% 감소"
+   ],
+   "fixes": [
+    "잘못된 기원 특전 선택 문제 수정",
+    "필요를 충족하기 위해 수입된 상품을 수출하던 문제 수정",
+    "사냥 제한 도달로 사냥터 근로자가 반복 고용/해고되던 문제 수정",
+    "석재가 풍부하지 않은 지역에서 석공소 건설 불가 문제 수정",
+    "과수원을 잠재적 확장 구역으로 계산하여 주거 공간이 과도하게 건설되던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Version 0.8.117 Update",
+     "summary": "Version 0.8.117 of Manor Lords has been promoted to the default branch. This update introduces new development perks, a fishmonger, a dunghill building, extensive farming and livestock overhauls, military adjustments, and numerous bug fixes.",
+     "highlights": [
+      "Added “Rural Foundations” Perk Category with six new perks, unlockable at Settlement Level 3",
+      "Added new Artisan: Fishmonger, producing Smoked Fish from Fish and Salt",
+      "Added new Building: Dunghill to collect Dung and produce Fertilizer",
+      "Official split of crops into Winter and Spring with mandatory Crop Rotation",
+      "Added various new development perks and building upgrades"
+     ],
+     "buffs": [
+      "Warbows do 23% more damage",
+      "Rye’s fertility bonus increased from x1.5 to x1.75 and yield increased 7%",
+      "Livestock breeding chance for Cows and Sheep increased to 40%",
+      "Increased fishing spots number to 15 per Resource Node"
+     ],
+     "nerfs": [
+      "Crossbows do 16% less damage",
+      "Decreased the output from the Deep Mine",
+      "Fertility boost gained from having Rich Fertility in a Region lowered by 30%",
+      "Crops grow 2.4% slower"
+     ],
+     "fixes": [
+      "Fixed picking wrong Origin Perk when having rich Iron and rich Small game",
+      "Fixed exporting goods imported to fill a need",
+      "Fixed constantly firing and hiring workers at the Hunting Camp",
+      "Fixed not being able to build a Stonemason’s Station in a region without Rich Stone",
+      "Fixed constructing too much living space due to counting orchards as potential expansion plots"
+     ]
+    },
+    "ja": {
+     "title": "バージョン 0.8.117 アップデート",
+     "summary": "『マナー・ロード (Manor Lords)』のバージョン 0.8.117 がデフォルトブランチに昇格しました。新たな開発パーク、魚屋、肥溜め建物の追加に加え、農業や家畜、軍事システムの調整、多数のバグ修正が行われています。",
+     "highlights": [
+      "集落レベル3でアンロック可能な6つの新パークを含む「農村の基礎」パークカテゴリを追加",
+      "魚と塩から燻製魚を生産する新しい職人「魚屋」を追加",
+      "糞を集めて肥料を生産する新しい建物「肥溜め」を追加",
+      "作物を冬作物と春作物に正式に分割し、輪作を常時有効化",
+      "様々な新しい開発パークと建物のアップグレードを追加"
+     ],
+     "buffs": [
+      "ウォーボウのダメージが23%増加",
+      "ライ麦の肥沃度ボーナスがx1.5からx1.75に増加し、収穫量が7%増加",
+      "牛と羊の家畜繁殖確率が40%に増加",
+      "資源ノードあたりの釣りスポット数が15個に増加"
+     ],
+     "nerfs": [
+      "クロスボウのダメージが16%減少",
+      "深部鉱山の産出量を減少",
+      "地域内の豊かな肥沃度による肥沃度ボーナスを30%減少",
+      "作物の成長速度が2.4%低下"
+     ],
+     "fixes": [
+      "豊富な鉄と豊富な小動物がいる場合に間違った出身パークを選択する不具合を修正",
+      "ニーズを満たすために輸入した商品を輸出してしまう不具合を修正",
+      "狩猟小屋で狩猟上限に達したため労働者の解雇と雇用が常に行われる不具合を修正",
+      "豊富な石がない地域で石工の作業場を建設できない不具合を修正",
+      "果樹園を潜在的な拡張区画としてカウントし、居住スペースを作りすぎてしまう不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "版本 0.8.117 更新",
+     "summary": "《庄园领主》（Manor Lords）版本 0.8.117 现已推送至默认分支。本次更新引入了新的发展特长、鱼贩和粪堆建筑，并对农业、牲畜、军事系统进行了全面调整及大量错误修复。",
+     "highlights": [
+      "新增“乡村基础”特长类别，包含六个新特长，可在定居点 3 级时解锁",
+      "新增匠人：鱼贩，利用鱼和盐生产熏鱼",
+      "新增建筑：粪堆，指定家庭可收集粪便并生产肥料",
+      "正式将农作物分为冬作和春作，并强制开启作物轮作",
+      "新增多项发展特长及建筑升级"
+     ],
+     "buffs": [
+      "战弓（Warbows）伤害提高 23%",
+      "黑麦的肥沃度加成从 x1.5 提升至 x1.75，产量增加 7%",
+      "牛和羊的牲畜繁殖几率提高至 40%",
+      "每个资源点的钓鱼点数量增加至 15 个"
+     ],
+     "nerfs": [
+      "弩（Crossbows）伤害降低 16%",
+      "降低了深层矿井的产出",
+      "区域富饶肥沃度带来的肥沃度加成降低 30%",
+      "农作物生长速度减慢 2.4%"
+     ],
+     "fixes": [
+      "修复了拥有富饶铁矿和富饶小动物时选择错误初始特长的问题",
+      "修复了出口为满足需求而进口的货物的问题",
+      "修复了狩猎营地因达到狩猎上限而不断解雇和雇佣工人的问题",
+      "修复了在没有富饶石材的地区无法建造石匠铺的问题",
+      "修复了因将果园算作潜在扩展地块而建造过多居住空间的问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização da Versão 0.8.117",
+     "summary": "A versão 0.8.117 de Manor Lords foi promovida para o branch padrão. Esta atualização traz novas vantagens de desenvolvimento, um peixeiro e a construção de esterqueira, além de grandes reformas na agricultura e pecuária, ajustes militares e várias correções de bugs.",
+     "highlights": [
+      "Adicionada categoria de vantagens 'Fundações Rurais' com seis novas vantagens, desbloqueáveis no Nível de Assentamento 3",
+      "Novo Artesão adicionado: Peixeiro, que produz Peixe Defumado a partir de Peixe e Sal",
+      "Nova construção adicionada: Esterqueira, onde famílias designadas coletam esterco e produzem fertilizante",
+      "Divisão oficial de colheitas em Culturas de Inverno e Primavera com Rotação de Culturas obrigatória",
+      "Adicionadas várias novas vantagens de desenvolvimento e melhorias de edifícios"
+     ],
+     "buffs": [
+      "Arcos de guerra (Warbows) causam 23% mais dano",
+      "Bônus de fertilidade do centeio aumentado de x1.5 para x1.75 e rendimento aumentado em 7%",
+      "Chance de reprodução de gado e ovelhas aumentada para 40%",
+      "Número de pontos de pesca aumentado para 15 por Nó de Recurso"
+     ],
+     "nerfs": [
+      "Bestas (Crossbows) causam 16% menos dano",
+      "Diminuída a produção da Mina Profunda",
+      "Bônus de fertilidade ganho por ter Fertilidade Rica em uma região reduzido em 30%",
+      "As colheitas crescem 2,4% mais devagar"
+     ],
+     "fixes": [
+      "Corrigida a seleção incorreta de Vantagem de Origem ao ter Ferro Rico e Caça Pequena Rica",
+      "Corrigida a exportação de mercadorias importadas para suprir uma necessidade",
+      "Corrigida a contratação e demissão constante de trabalhadores no Acampamento de Caça",
+      "Corrigida a incapacidade de construir uma Estação de Pedreiro em uma região sem Pedra Rica",
+      "Corrigida a construção de espaço habitacional excessivo devido à contagem de pomares como lotes de expansão"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1847920302240743",
    "appid": 440,
    "game": "팀 포트리스 2",
@@ -8417,19 +10404,19 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "October 30 Update",
-     "summary": "A maintenance-free update has been released featuring the new playable ★3 Umamusume Agnes Digital, new support card pickups, and the \"Agnes Tachyon's Factor Research\" event.",
+     "title": "Umamusume October 30 Update",
+     "summary": "In this unmaintained update, the new playable ★3 Umamusume Aines Fushigin and new support card pickup were released, and the \"Agnes Tachyon's Factor Research\" event began.",
      "highlights": [
-      "★3 Eines Fujin",
+      "★3 Aines Fushigin",
       "SSR Mejiro Ryan",
       "SR Kawakami Princess",
-      "Event: \"Agnes Tachyon's Factor Research\" (10/30 - 11/10)"
+      "Event \"Agnes Tachyon's Factor Research\" (10/30 - 11/10)"
      ],
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed mistranslations and spacing errors in Home Screen voices and training events",
-      "Fixed line break issues in Tamamo Cross SSR episodes"
+      "Fixed mistranslations and spacing errors in home voice lines and training events",
+      "Fixed line breaks in Tamamo Cross SSR episodes"
      ]
     }
    }
@@ -8544,6 +10531,134 @@
       "Fixed a bug where knocked-back creatures failed to land properly in the ocean or sank",
       "Fixed a bug where leaf piles did not pop up when swept or hit by explosives",
       "Fixed animation bugs for Spiky Carapace skins"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1847920302235601",
+   "appid": 3932890,
+   "game": "이스케이프 프롬 타르코프",
+   "date": 1793292990,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235601",
+   "origTitle": "Patch 1.3.0.0",
+   "title": "이스케이프 프롬 타르코프 패치 1.3.0.0",
+   "summary": "할로윈 인게임 이벤트와 가을 날씨 시즌이 추가되었으며, PvE 존에 고난이도 PMC 봇이 추가되었습니다. 또한 신규 은신처 커스터마이제이션, 스킬 성장 메커니즘 조정 및 다양한 버그가 수정되었습니다.",
+   "highlights": [
+    "신규 할로윈 인게임 이벤트 추가",
+    "인게임 날씨 시즌을 가을로 변경",
+    "PvE 존에 고난이도 PMC 봇 추가",
+    "신규 은신처 커스터마이제이션 세트 추가",
+    "Unity 6 엔진 업데이트 일정이 11월 중순(1.3.5.0 업데이트)으로 연기"
+   ],
+   "buffs": [
+    "시즌 모드에서의 모든 스킬 레벨업 속도 대폭 증가",
+    "플레이어가 설치한 트립와이어의 지속 시간 증가",
+    "무기 스킬 레벨업 속도가 다른 스킬들과 일치하도록 상향"
+   ],
+   "nerfs": [],
+   "fixes": [
+    "낮은 PMC 카르마 플레이어가 없는 레이드에서 파르티잔 스폰 확률이 잘못 계산되던 문제 수정",
+    "무기 기능고장 후 탄창 장전 및 해제가 안 되던 문제 수정",
+    "특정 광학 장비 사용 시 잘못된 시야각 수정",
+    "상인 인터랙티브 씬에 접근하지 못하던 문제 수정",
+    "PMC 봇이 항상 플레이어를 적대적으로 인식하도록 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Escape from Tarkov Patch 1.3.0.0",
+     "summary": "Patch 1.3.0.0 introduces a new Halloween event, fall weather, high-difficulty PMC bots in the PvE Zone, and new Hideout customization options. It also adjusts skill leveling mechanics and fixes various bugs.",
+     "highlights": [
+      "Added a new Halloween in-game event",
+      "Switched the in-game weather season to fall",
+      "Added high-difficulty PMC bots to the PvE Zone",
+      "Added new Hideout customization sets",
+      "Unity 6 switch moved to mid-November (update 1.3.5.0)"
+     ],
+     "buffs": [
+      "Significantly increased the leveling speed of all skills in Seasonal mode",
+      "Increased the lifetime of player-placed tripwires",
+      "Increased weapon skill leveling speed to match other skills"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed incorrect Partisan spawn chance calculation in raids without low PMC karma players",
+      "Fixed issues with loading/unloading magazines after a weapon malfunction",
+      "Fixed incorrect field of view for certain optics",
+      "Fixed access issues to traders' interactive scenes",
+      "Fixed PMC bot behavior so they always consider players hostile"
+     ]
+    },
+    "ja": {
+     "title": "Escape from Tarkov パッチ 1.3.0.0",
+     "summary": "パッチ1.3.0.0では、ハロウィンイベントの実装、秋への季節変更、PvEゾーンへの高難易도PMCボットの追加、新しい隠れ家のカスタマイズが導入されました。また、スキルのレベリング調整や多くの不具合修正が行われています。",
+     "highlights": [
+      "新しいハロウィンゲーム内イベントを追加",
+      "ゲーム内の天候シーズンを秋に変更",
+      "PvEゾーンに高難易도PMCボットを追加",
+      "新しい隠れ家カスタマイズセットを追加",
+      "Unity 6への移行が11月中旬（アップデート1.3.5.0）に変更"
+     ],
+     "buffs": [
+      "シーズンモードにおけるすべてのスキルのレベリング速度を大幅に増加",
+      "プレイヤーが設置したトリップワイヤーの持続時間を増加",
+      "武器スキルのレベリング速度を他のスキルと同等に上方修正"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "低いPMCカルマのプレイヤーがいないレイドでのPartisanのスポーン確率の誤った計算を修正",
+      "武器のジャム発生後にマガジンの着脱ができなくなる不具合を修正",
+      "特定の光学機器使用時の視野角の不具合を修正",
+      "トレーダーのインタラクティブシーンにアクセスできない不具合を修正",
+      "PMCボットが常にプレイヤーを敵対視するように修正"
+     ]
+    },
+    "zh": {
+     "title": "逃离塔科夫 补丁 1.3.0.0",
+     "summary": "补丁 1.3.0.0 推出了全新的万圣节活动、秋季天气、PvE 区域的高难度 PMC 机器人以及新的藏身处自定义选项。同时调整了技能升级机制并修复了多个错误。",
+     "highlights": [
+      "添加了新的万圣节游戏内活动",
+      "将游戏内天气季节切换为秋季",
+      "在 PvE 区域添加了高难度 PMC 机器人",
+      "添加了新的藏身处自定义套装",
+      "Unity 6 引擎更新推迟至 11 月中旬（1.3.5.0 版本）"
+     ],
+     "buffs": [
+      "显著增加了赛季模式下所有技能的升级速度",
+      "增加了玩家放置的绊雷的持续时间",
+      "提升了武器技能升级速度，使其与其他技能相匹配"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "修复了在没有低 PMC 声望玩家的对局中帕蒂赞（Partisan）生成几率计算错误的问题",
+      "修复了武器故障后弹匣无法装填或取出的问题",
+      "修复了使用某些瞄具时的视野错误",
+      "修复了部分玩家无法访问商人交互场景的问题",
+      "修复了 PMC 机器人现在总是将玩家视为敌人的行为逻辑"
+     ]
+    },
+    "pt": {
+     "title": "Escape from Tarkov Patch 1.3.0.0",
+     "summary": "O patch 1.3.0.0 traz um novo evento de Halloween, clima de outono, bots PMC de alta dificuldade na Zona PvE e novas opções de customização do Esconderijo. Ele também ajusta a progressão de habilidades e corrige vários bugs.",
+     "highlights": [
+      "Adicionado novo evento de Halloween no jogo",
+      "A temporada climática do jogo foi alterada para o outono",
+      "Adicionados bots PMC de alta dificuldade na Zona PvE",
+      "Adicionados novos conjuntos de customização do Esconderijo",
+      "Mudança para a Unity 6 adiada para meados de novembro (atualização 1.3.5.0)"
+     ],
+     "buffs": [
+      "Aumentada significativamente a velocidade de progressão de todas as habilidades no modo de Temporada",
+      "Aumentado o tempo de vida das armadilhas de arame (tripwires) colocadas por jogadores",
+      "Aumentada a velocidade de progressão da habilidade de armas para corresponder às outras habilidades"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido o cálculo incorreto da chance de surgimento do Partisan em invasões sem jogadores com baixakarma de PMC",
+      "Corrigido um problema que impedia carregar ou descarregar carregadores após uma pane na arma",
+      "Corrigido o campo de visão incorreto ao usar certas miras",
+      "Corrigido um problema que impedia alguns jogadores de acessar as cenas interativas dos comerciantes",
+      "Corrigido o comportamento dos bots PMC para que eles sempre considerem os jogadores como hostis"
      ]
     }
    }
@@ -8742,6 +10857,114 @@
       "Fixed an error related to Black Cat's ultimate keybind",
       "Fixed a bug related to Invisible Woman exiting invisibility",
       "Fixed a map return error that occurred when selecting 'Play Again' after a Timesquare match"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1847920302233930",
+   "appid": 3564740,
+   "game": "연운십육성 (Where Winds Meet)",
+   "date": 1793263097,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233930",
+   "origTitle": "Version 2.3 Patch Notes: Optimizations and Bug Fixes (October 29)",
+   "title": "버전 2.3 패치 및 최적화 안내",
+   "summary": "연운십육성의 10월 29일 패치는 길드전 시간 오류에 대한 사과 및 조치와 함께, 배틀패스 일정 조정, 상점 및 아이템 관련 오류 수정을 포함하고 있습니다. 또한 악세서리 장착 불가, 헤어스타일 표시 오류 및 다양한 퀘스트와 칭호 관련 버그가 수정되었습니다.",
+   "highlights": [
+    "'가을밤의 변덕' 장신구 및 '청초한 우아함' 헤어스타일 오류 수정",
+    "길드전 비정상 오픈에 따른 점수 롤백 및 보상 지급 안내",
+    "배틀패스 '붉은 속삭임' 종료 시간 변경 및 주간 경험치 상한 초기화 시간 조정",
+    "특정 길드 기술 발동 조건 최적화 및 서예 보물 설정 저장 불가 문제 수정",
+    "칭호 및 청허 가루비 관련 버그 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "'가을밤의 변덕' 장신구 구입 후 장착 불가 및 의상실 이상 현상 수정",
+    "일부 유랑자에게 '가을밤의 변덕' 장신구가 상점에서 누락된 문제 수정",
+    "PS5에서 캠페인 '태산의 눈보라' 대화 진행 불가 문제 수정",
+    "우편 보상 수령 불가 및 삭제 불가 현상 수정",
+    "'만개한 반박', '무쌍 카드 마스터', '우주 투척' 칭호 활성화/사용 불가 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Version 2.3 Patch Notes and Optimizations",
+     "summary": "The October 29 update for Where Winds Meet includes fixes for the Guild War timing issue, adjustments to the Battle Pass schedule, and various bug fixes for items, hairstyles, and quests. Additionally, several accessory and title issues have been resolved across all servers.",
+     "highlights": [
+      "Fixed accessory [Autumn Eve Whimsy] and hairstyle [Pristine Grace] display/equipping bugs",
+      "Rolled back abnormal Guild War scores and sent compensation to affected players",
+      "Adjusted Battle Pass [Scarlet Whispers] end time and weekly EXP cap reset time",
+      "Optimized activation conditions for certain Guild Techniques",
+      "Fixed unclaimable mail, broken quests, and unusable titles"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed issue where [Autumn Eve Whimsy] could not be equipped and caused Wardrobe issues",
+      "Fixed missing [Autumn Eve Whimsy] in the Shop for certain players",
+      "Fixed PS5 issue preventing dialogue completion in Campaign [Mount Tai Blizzard]",
+      "Fixed mail reward re-claiming and deletion issues",
+      "Fixed unactivatable titles [Blooming Rebuttal], [Unrivaled Cardmaster], and [Cast the Cosmos]"
+     ]
+    },
+    "ja": {
+     "title": "バージョン2.3パッチノートと最適化",
+     "summary": "『燕雲十六声』の10月29日アップデートでは、ギルド戦の時間異常に関するお詫びと調整、バトルパスのスケジュール変更、各種アイテムや髪型、クエストの不具合修正が行われました。アクセサリーの装備不可や称号の不具合なども修正されています。",
+     "highlights": [
+      "アクセサリー「秋夜の気まぐれ」や髪型「清らかな気品」の不具合を修正",
+      "ギルド戦の異常オープンに伴うスコアのロールバックと補償の配布",
+      "バトルパス「紅のささやき」の終了時間および週間経験値リセット時間の調整",
+      "一部のギルド技術の発動条件の最適化",
+      "メールの不具合、クエスト進行不可、称号の使用不可問題を修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "アクセサリー「秋夜の気まぐれ」が装備できずワードローブに異常をきたす不具合を修正",
+      "一部の旅人向けにショップから「秋夜の気まぐれ」が消えていた不具合を修正",
+      "PS5におけるキャンペーン「泰山の吹雪」の会話進行不可問題を修正",
+      "メール報酬の再受取不可および削除不可の問題を修正",
+      "称号「満開の反論」「無双のカードマスター」「宇宙を投ずる」のアクティブ化不可問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "版本 2.3 补丁说明与优化",
+     "summary": "《燕云十六声》10月29日更新包含了对先前帮会战时间异常问题的说明与处理、通行证时间调整、以及各种道具、发型和任务的修复。此外，还修复了饰品穿戴异常及称号激活失败等问题。",
+     "highlights": [
+      "修复饰品【秋夜意趣】与发型【冰清玉洁】的相关显示及装备异常",
+      "对帮会战异常期间的积分进行回溯并向受影响玩家发放补偿",
+      "调整战令【绯红低语】结束时间及每周经验上限重置时间",
+      "优化部分帮会技术的触发条件",
+      "修复邮件无法删除、任务无法完成及称号无法激活等问题"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复饰品【秋夜意趣】购买后无法装备并导致衣柜异常的问题",
+      "修复部分游侠商店中缺少【秋夜意趣】饰品的问题",
+      "修复PS5上战役【泰山暴雪】对话无法完成的问题",
+      "修复部分邮件奖励无法重复领取导致邮件无法删除的问题",
+      "修复【繁花反驳】、【无双牌手】和【投射苍穹】等称号获取后无法激活或使用的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas da Atualização da Versão 2.3 e Otimizações",
+     "summary": "A atualização de 29 de outubro de Where Winds Meet inclui correções para o problema de horário da Guerra de Guildas, ajustes no Passe de Batalha e diversas correções de bugs em itens, penteados e missões. Além disso, problemas com acessórios e títulos foram resolvidos em todos os servidores.",
+     "highlights": [
+      "Corrigidos bugs de exibição e equipamento do acessório [Capricho da Noite de Outono] e penteado [Graça Pristina]",
+      "Reversão de pontuações anormais da Guerra de Guildas e envio de compensação",
+      "Ajustado o horário de término do Passe de Batalha [Sussurros Escarlates] e o reset de EXP semanal",
+      "Otimizadas as condições de ativação de certas Técnicas de Guilda",
+      "Corrigidos problemas com e-mails, missões e títulos que não podiam ser ativados"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido o problema em que o acessório [Capricho da Noite de Outono] não podia ser equipado e causava falhas no Guarda-Roupas",
+      "Corrigido o sumiço do acessório [Capricho da Noite de Outono] na Loja para certos jogadores",
+      "Corrigido problema no PS5 que impedia a conclusão de diálogos na Campanha [Nevasca do Monte Tai]",
+      "Corrigido problema onde certas recompensas de e-mail não podiam ser resgatadas, impedindo a exclusão",
+      "Corrigidos títulos [Contraponto Florescente], [Mestre de Cartas Inigualável] e [Lançar o Cosmos] que não podiam ser ativados"
      ]
     }
    }
@@ -9933,7 +12156,23 @@
    ],
    "buffs": [],
    "nerfs": [],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Judge of Death - October Update",
+     "summary": "A new Legion Raid-tier content, 'The Judge of Death Velgardin', has been added alongside new combat trials, a reward track, and a new equipment slot, 'Vambraces'. Additionally, Tier 4 endgame content has been expanded with new tiers for Chaos Rift, Shade of the Guardian, and Haal's Hourglass, as well as higher-tier Chaos Gates.",
+     "highlights": [
+      "Added new Shadow Raid 'The Judge of Death Velgardin'",
+      "Introduced new combat trials and reward tracks",
+      "Added new equipment slot 'Vambraces'",
+      "Expanded Tier 4 endgame content (new tiers for Chaos Rift, Shade of the Guardian, and Haal's Hourglass)",
+      "Added new Chaos Gate tiers for advanced adventurers"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "1846651706677729",
@@ -9964,7 +12203,34 @@
    "nerfs": [
     "솔리드 스네이크: 솔리튼 레이더 MK III 정밀 모드 충전량 3회로 감소"
    ],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Y11S3 Mid-Season Update Designer Notes",
+     "summary": "Covers balance changes for the Rainbow Six Siege Y11S3 mid-season update. It includes operator adjustments for Noor, Tachanka, Solid Snake, and Valkyrie, alongside changes to equipment and environmental elements.",
+     "highlights": [
+      "Buffed Noor's Horus Lance Launcher performance and response speed",
+      "Added an impact-detonation firing mode to Tachanka's Shumika Launcher",
+      "Reduced the precision mode charge amount for Solid Snake's Soliton Radar MK III",
+      "Added Glaive-12 to Valkyrie's weapon loadout slot",
+      "Increased fire damage and reduced Capitao's Fire Bolt deployment delay",
+      "Changed barbed wire to completely stop and self-detonate BU-GI"
+     ],
+     "buffs": [
+      "Noor: Reduced Horus Lance Launcher drilling time, increased guard break intensity, reduced equip animation time, increased damage to 80, etc.",
+      "Tachanka: Added impact detonation firing mode for Shumika Launcher",
+      "Valkyrie: Added secondary weapon Glaive-12",
+      "Capitao: Reduced Fire Bolt deployment delay to 0.9 seconds",
+      "Clash: Increased enemy retreat speed reduction effect to 10%",
+      "Osa: Relaxed TALON-8 Clear Shield placement restrictions",
+      "Fire damage: Increased to 14 HP"
+     ],
+     "nerfs": [
+      "Solid Snake: Reduced Soliton Radar MK III precision mode charges to 3"
+     ],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "1846651706677678",
@@ -10001,7 +12267,40 @@
     "누르의 호루스 랜스 런처 조준선이 조준선 투명도 옵션의 영향을 받지 않는 현상 수정",
     "오사의 탤런-8 방패 배치 시 오른쪽 버튼이 켜짐에서 꺼짐으로 바뀌는 현상 수정",
     "누어의 호루스 랜스 투사체가 전기 철조망에 파괴될 때 시추 소리가 나는 현상 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "Y11S3.2 Balancing Patch Notes",
+     "summary": "The Rainbow Six Siege Y11S3.2 update features buffs to Noor's Horus Lance Launcher, the addition of a firing mode for Tachanka's Shumika Launcher, nerfs to Solid Snake's Soliton Radar MK III, and weapon additions for Valkyrie. It also includes various operator tweaks and gameplay bug fixes.",
+     "highlights": [
+      "Reduced drilling time and increased damage for Noor's Horus Lance Launcher",
+      "Added a projectile impact incendiary detonation firing mode to Tachanka's Shumika Launcher",
+      "Reduced precision mode charges for Solid Snake's Soliton Radar MK III",
+      "Added Glaive-12 to Valkyrie's secondary weapons",
+      "Changed BU-GI to become entangled, fully stop, and self-detonate upon touching barbed wire",
+      "Fixed an issue where defenders lost points when destroying their own barbed wire"
+     ],
+     "buffs": [
+      "Noor: Reduced shield, soft surface, and hard surface drilling time of Horus Lance Launcher to 1.5 seconds",
+      "Noor: Increased guard break intensity to 100% when projectile impacts a shield",
+      "Noor: Reduced equipment equip animation timing to 0.4 seconds",
+      "Noor: Increased Horus Lance impact damage against operators to 80",
+      "Capitao: Reduced Fire Bolt spread delay to 0.9 seconds",
+      "Clash: Increased enemy retreat slow effect to 10%",
+      "Osa: Relaxed TALON-8 Clear Shield placement restrictions and increased fire damage to 14"
+     ],
+     "nerfs": [
+      "Solid Snake: Reduced Soliton Radar MK III precision mode charges to 3"
+     ],
+     "fixes": [
+      "Fixed an issue where defenders lost points when destroying their own barbed wire",
+      "Fixed an issue where Noor's Horus Lance projectile hitbox was too large",
+      "Fixed an issue where Noor's Horus Lance launcher crosshair was unaffected by the crosshair transparency option",
+      "Fixed an issue where placing Osa's TALON-8 shield changed the right button from on to off",
+      "Fixed an issue where a drilling sound played when Noor's Horus Lance projectile was destroyed by electric barbed wire"
+     ]
+    }
+   }
   },
   {
    "gid": "1846651706676865",
@@ -10029,7 +12328,31 @@
     "치트 검과 치트 슬레지가 특정 상황에서 치트로 인식되지 않던 버그 수정",
     "클라이언트 수직 동기화 설정 시 전용 서버가 최대 프레임 제한 없이 구동되던 CPU 낭비 문제 수정",
     "일부 사용자의 Xbox One/Xbox Series S|X 세션 간 설정 저장 실패 문제 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "Valheim Patch 1.0.20 Release",
+     "summary": "Loot drop rates now increase based on monster star ratings, and an issue where probability logic was unintentionally reset between sessions has been fixed. Additionally, due to patching delays on the Mac App Store, crossplay between those platforms is temporarily restricted.",
+     "highlights": [
+      "Increased loot drop rates based on monster star ratings",
+      "Fixed pseudo-random drop logic that was unintentionally reset between player sessions",
+      "Bulk-cleared cheated flags for previous version items and structures",
+      "Fixed a dedicated server CPU over-consumption bug related to VSync",
+      "Adjusted attachment positions for holstered weapons",
+      "Fixed an Xbox platform setting save error"
+     ],
+     "buffs": [
+      "Monster loot drop rates now increase based on star ratings"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a potential exploit related to the Forge of Potency",
+      "Fixed a bug where cheated swords and cheated sledges were not recognized as cheats in certain situations",
+      "Fixed a CPU waste issue where dedicated servers ran without a max frame rate cap when clients set VSync",
+      "Fixed a setting save failure issue between Xbox One/Xbox Series S|X sessions for some users"
+     ]
+    }
+   }
   },
   {
    "gid": "1846651706676198",
@@ -10067,7 +12390,41 @@
     "Baba: Baba's Brew 방어막 감소 (100 -> 90)",
     "Baba: Baba's Brew 쿨타임 증가 (25초 -> 27초)"
    ],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Deadlock 10-14-2026 Minor Patch",
+     "summary": "This patch adjusts stats for heroes and items including Radiant Regeneration, Baba, and Deadman Danny. Baba received overall nerfs, while Deadman Danny received buffs.",
+     "highlights": [
+      "Reduced Radiant Regeneration's Spirit scaling.",
+      "Nerfed Baba's Spirit resistance and base gun resistance.",
+      "Nerfed Baba's overall skill cooldowns and shield effects.",
+      "Increased Deadman Danny's health regen and base health.",
+      "Buffed Deadman Danny's gun damage and skill power.",
+      "Reduced Deadman Danny's rocket jump self-damage and changed it to Spirit damage."
+     ],
+     "buffs": [
+      "Deadman Danny: Increased health regeneration (2.5 -> 3.25)",
+      "Deadman Danny: Increased base health (680 -> 730)",
+      "Deadman Danny: Increased reserve gun base bullet damage (12 -> 15)",
+      "Deadman Danny: Increased charged gun bullet damage (44 -> 48)",
+      "Deadman Danny: Reduced Strix Salvo cooldown (30s -> 25s)",
+      "Deadman Danny: Reduced rocket jump self-damage and changed to Spirit damage"
+     ],
+     "nerfs": [
+      "Radiant Regeneration: Reduced Spirit scaling (0.04 -> 0.035)",
+      "Baba: Reduced Spirit resistance scaling (0.12 -> 0.1)",
+      "Baba: Added -7% base gun resistance",
+      "Baba: Threadsap - Enemy Spirit reduction effect ends upon Baba's death",
+      "Baba: Increased Threadsap cooldown (26s -> 28s)",
+      "Baba: Increased Granny Long Legs cooldown (30s -> 32s)",
+      "Baba: Reduced Baba's Brew shield scaling (1.2 -> 0.7)",
+      "Baba: Reduced Baba's Brew shield amount (100 -> 90)",
+      "Baba: Increased Baba's Brew cooldown (25s -> 27s)"
+     ],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "1846651706676001",
@@ -10088,7 +12445,24 @@
    ],
    "buffs": [],
    "nerfs": [],
-   "fixes": []
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "[Sanctuary of Ink] Version Update Notice",
+     "summary": "The new version [Sanctuary of Ink] for Arknights: Endfield is updating. New regions, main and exploration missions, operators, weapons, enemies, and various events and challenge modes will be introduced. 900 currency will be given as compensation for the update and bug fixes respectively.",
+     "highlights": [
+      "Added new main mission [Chapter II Process VIII: Paint with Fresh Ink]",
+      "Added new 6-star operator and [Argent Flow]",
+      "Added new 6-star weapons [Jade Vessel (Greatsword)], [Lunar Calling (Sword)], etc.",
+      "Added new region [Wuling - Si's Painting] and new enemies",
+      "Hosted various new events such as [Yuanyuan's Blazing Stoves] and [Carly's Verdant Anthology]",
+      "Updated [Echoes of War] and [Umbral Monument] challenge content"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "maplestorym:3563371",
@@ -10118,7 +12492,32 @@
     "호영 '선기 : 분신 둔갑 태을선인' 자동전투 미사용 현상 수정",
     "데몬어벤져 '컨버전 스타포스' 패시브 효과 최소 단위 관련 오류 수정",
     "'매직 서킷 풀 드라이브' 스킬 공격 타입이 물리로 설정된 현상 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "10/15 Patch: Artium Region and Ascent Skills Added",
+     "summary": "The new Grandis region 'Artium' and 'Ascent Skills' for all classes have been added to MapleStory M. Combat power guides and various content UIs have been completely revamped, along with updates to various events and shop items.",
+     "highlights": [
+      "Added new Grandis region 'Artium' and Authenticforce field",
+      "Added Ascent Skills for all classes and HEXA Matrix skill cores",
+      "Improved combat power guide and recommended stats guidance for unreflected items",
+      "Completely revamped UI for Arcane/Authentic symbols and various daily content",
+      "Hosted large-scale 10th-anniversary events such as 'Protect Aru and Eru's Festival'",
+      "Fixed and improved skill bugs for some classes including Soul Master and Demon Avenger"
+     ],
+     "buffs": [
+      "Changed Soul Master to allow movement when using 'Cross the Styx' during the 'Elysion' buff"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a bug showing incorrect ignore defense rates in Shadower's 'Cutdown' skill description",
+      "Fixed an issue where 'Rift of Boundary' did not trigger when hitting with Cross the Styx during Soul Master's 'Elysion' buff",
+      "Fixed an issue where Hoyoung's 'Sage: Clone Transformation - Tai Hsu' was not used during auto-battle",
+      "Fixed an error related to the minimum unit of the passive effect for Demon Avenger's 'Conversion Star Force'",
+      "Fixed an issue where the attack type for the 'Magic Circuit Full Drive' skill was set to physical"
+     ]
+    }
+   }
   },
   {
    "gid": "mabinogimobile:3563175",
@@ -10153,7 +12552,37 @@
     "화이트 서큐버스 어려움/매우 어려움에서 블랙 서큐버스 브레이크 후 각성 버프 획득 시 일부 스킬 쿨타임이 초기화되지 않던 현상 수정",
     "도적 계열 '스러스트 킥' + '전진' 룬 적용 시 히트 콤보가 정상적으로 쌓이지 않던 현상 수정",
     "던전 클리어 시 임무 미선택 상태에서 전리품이 없어도 안내 문구가 표시되던 현상 수정"
-   ]
+   ],
+   "i18n": {
+    "en": {
+     "title": "10/15 Update Notes Summary",
+     "summary": "The October 15 update for Mabinogi Mobile adds new Halloween events and quests, new difficulties for Rundal Abyss, a guild integration system, and Pet Expeditions. In addition, certain skills and rune effects for Mage and Rogue classes have been buffed, alongside various quality-of-life improvements and bug fixes.",
+     "highlights": [
+      "Added new event quests, showroom, photo booth, and side game 'Candy Match Survival'",
+      "Added 'Very Hard 2' and 'Hell 4' difficulties for Rundal Abyss",
+      "Added 'Guild Integration' system allowing members to move to other guilds",
+      "Added 'Pet Expedition' feature to feed pets and acquire loot",
+      "Started Nightmare Drill Season 2 and adjusted demonic resistance and pressure",
+      "Added a chance to remove equipment curses when interacting with a campfire"
+     ],
+     "buffs": [
+      "Increased charge-stage damage by up to 16.7% when applying Mage class 'Plasma Cloak' skill + accessory rune 'Storm'",
+      "Increased additional hit probability for Mage class 'Charge Electricity' from 10% to 15%",
+      "Increased additional attack activation probability for Rogue class 'Burst Punch' + accessory rune 'Ascension'",
+      "Added an effect to Rogue class 'Deadly Impact' increasing critical damage proportional to strike enhancement stats by up to 10%"
+     ],
+     "nerfs": [
+      "Reduced HP and attack power following level adjustments for Airel Raid Very Hard difficulty"
+     ],
+     "fixes": [
+      "Fixed a typo in Armor Rune: Twilight Breath description from 'Periodic Damage: Divine' to 'Periodic Damage: Judgment'",
+      "Fixed an issue where stone pillars did not summon when a Rogue class played Kabrak Intro/Hard solo",
+      "Fixed an issue where some skill cooldowns were not reset when acquiring the Awakening buff after breaking Black Succubus in White Succubus Hard/Very Hard",
+      "Fixed an issue where hit combos did not stack properly when Rogue class 'Thrust Kick' + 'Advance' rune was applied",
+      "Fixed an issue where an instruction message was displayed even without loot in an unselected mission state upon dungeon clear"
+     ]
+    }
+   }
   },
   {
    "gid": "bluearchive:3563137",
@@ -10717,7 +13146,7 @@
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed minor bugs"
+      "Fixed some bugs"
      ]
     }
    }
@@ -12042,23 +14471,23 @@
    "i18n": {
     "en": {
      "title": "Pokémon Champions Ver. 1.2.0 — Regulation M-C",
-     "summary": "New Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features such as battle log viewing and team preview battle data have been introduced.",
+     "summary": "Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features include viewing battle logs and battle data on the selection screen.",
      "highlights": [
       "Added Regulation M-C Pokémon and held items",
-      "New Feature: Battle Log (records all actions from the current battle)",
-      "New Feature: Selection Support (displays battle data on the Pokémon selection screen)"
+      "New feature: Log View (records all actions of the current battle)",
+      "New feature: Selection Support (displays battle data on the Pokémon selection screen)"
      ],
      "buffs": [
-      "Slash can now be learned/used"
+      "Can now use Slash"
      ],
      "nerfs": [
-      "Politoed: Cannot use Pound",
-      "Archaludon: Cannot use Mirror Coat or Metal Burst",
-      "Wish: PP reduced from 12 to 8",
-      "Strength Sap: PP reduced from 12 to 8"
+      "Politoed: Can no longer use Scratch",
+      "Archaludon: Can no longer use Mirror Coat and Metal Burst",
+      "Wish PP changed from 12 to 8",
+      "Strength Sap PP changed from 12 to 8"
      ],
      "fixes": [
-      "Fixed minor bugs"
+      "Fixed some bugs"
      ]
     }
    }
@@ -16408,7 +18837,7 @@
    }
   }
  ],
- "updated": 1795766179332,
+ "updated": 1795768483879,
  "merged": [
   "1849827110445079",
   "1849827110428767",
@@ -16423,13 +18852,19 @@
   "1850460852979495",
   "1849827110441234",
   "1849827110427628",
-  "1849827110423343"
+  "1849827110423343",
+  "1849192144181214",
+  "1848664643344642",
+  "1848664643339882",
+  "1847920302239191",
+  "1847920302237072"
  ],
  "icons": {
   "440": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
   "570": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1791407503",
   "730": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1793054556",
   "4000": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
+  "39210": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg?t=1793815364",
   "105600": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1792530636",
   "227300": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1794502925",
   "230410": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/1a3e7c2a05ce4e5cad5ac4c7e858cf5b0934704e/header.jpg?t=1794847104",
@@ -16467,6 +18902,7 @@
   "945360": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/d611f3f87743b5121532023b1d3ee2dd0e96e772/header.jpg?t=1793821899",
   "949230": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg?t=1794506466",
   "1049590": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1049590/cc407c5386e0374e0dca503419847562a53bfbf0/header.jpg?t=1794879050",
+  "1056640": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1056640/10c2c4df29004d5397c01e1819d209a464332ead/header.jpg?t=1795139494",
   "1085660": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/0ccf0dc0a8c4ec078db7ab99ddc820b2fa884441/header.jpg?t=1781815889",
   "1086940": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
   "1091500": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1794474878",
@@ -16521,6 +18957,7 @@
   "3274580": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/038d88b3917b4f1c6919c8120adabf86a6702085/header_alt_assets_5.jpg?t=1793873126",
   "3308670": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3308670/header.jpg?t=1789630153",
   "3405690": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2d96aa1b06e453cd62dae9029d412f19e61932c3/header.jpg?t=1789751159",
+  "3446920": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3446920/header.jpg?t=1753936366",
   "3513350": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3513350/e8eba9795ee09675873ba60232a7ddcc4f222ad9/header.jpg?t=1794439536",
   "3564740": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3564740/0247f0fd5d9007ac397fbed65c62f6ed14e0341f/header_alt_assets_11.jpg?t=1794552485",
   "3889960": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889960/86e5516e11ba90b6d262148796cd0548d15fecfa/header.jpg?t=1793818883",
