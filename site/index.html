@@ -224,7 +224,7 @@ async function loadCm(i){
 }
 function ctryLine(){const g={};for(const [u,n] of Object.entries(cur.stars)){const c=cur.ctry[u]||'';if(!c)continue;(g[c]=g[c]||[]).push(n)}
  const a=Object.entries(g).sort((x,y)=>y[1].length-x[1].length).slice(0,12);if(!a.length)return '';
- return '<div class="ctry" title="'+T('by_country')+'">'+a.map(([c,v])=>`<span>${FLAG(c)}${esc(CNAME(c))}<b>★${(v.reduce((s,x)=>s+x,0)/v.length).toFixed(1)}</b>(${v.length})</span>`).join('')+'</div>'}
+ return '<div class="ctry" title="'+T('by_country')+'">'+a.map(([c,v])=>`<span title="${esc(CNAME(c))}">${FLAG(c)}<b>★${(v.reduce((s,x)=>s+x,0)/v.length).toFixed(1)}</b>(${v.length})</span>`).join('')+'</div>'}
 function drawCm(){
  const el=$('cm');if(!el||!cur)return;const me=user&&FB.uid();
  const v=Object.values(cur.stars),avg=v.length?(v.reduce((a,b)=>a+b,0)/v.length):0,mine=me?cur.stars[me]||0:0;
