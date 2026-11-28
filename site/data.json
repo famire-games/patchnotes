@@ -1,6 +1,149 @@
 {
  "items": [
   {
+   "gid": "1850460852992316",
+   "appid": 4115450,
+   "game": "팬텀 블레이드 제로",
+   "date": 1795844413,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852992316",
+   "origTitle": "Phantom Blade Zero — Patch Notes (Version 1.0304629)",
+   "title": "팬텀 블레이드 제로 버전 1.0304629 패치 노트",
+   "summary": "팬텀 블레이드 제로의 버전 1.0304629 패치가 배포되었습니다. 이번 업데이트는 전투 어시스트 및 마우스 락온 감도 설정 추가, 메모리 사용량 및 최적화 개선, 그리고 다수의 버그 수정과 무기 및 스킬 밸런스 조정을 포함하고 있습니다.",
+   "highlights": [
+    "설정에 전투 어시스트 및 자동 강제 카메라 어시스트 옵션 추가",
+    "마우스 락온 타겟 전환 감도 설정 추가 (0으로 설정 시 비활성화 가능)",
+    "비디오 및 시스템 메모리 사용량 감소 (컷신 및 눈 내리는 지역 중심)",
+    "부드러운 뱀 검(Soft Snake Sword)의 조작 및 효과 업데이트 (처형 유지 시 검꽃 방패 시전)",
+    "지형 이동 및 작은 장애물 통과 시 걸림 현상 개선",
+    "AMD 그래픽 카드 화면 깨짐 및 각종 전투/진행 불가 버그 수정"
+   ],
+   "buffs": [
+    "가드 자세에서의 측면 회피 무적 시간 증가"
+   ],
+   "nerfs": [
+    "전투 등차구슬(War Wagon Phantom Edge)의 '대지의 강타(Earthshaking Slam)' 스킬의 중복 대미지 및 비정상적인 다중 히트 버그 수정",
+    "부채 장신구(Dance Fan accessory)의 대미지 보너스가 모든 스킬에 적용되던 오류 수정",
+    "누오 가면(Nuo Mask)이 기교형 팬텀 에지의 잔화 기력(Remnant Spark) 소모량을 무단으로 줄이던 오류 수정"
+   ],
+   "fixes": [
+    "AMD Radeon RX 9000 시리즈에서 볼륨 클라우드의 밝은 사각형 아티팩트 현상 수정",
+    "일부 적이 종을 울려 초기화한 후 보이지 않던 상태로 이동 및 공격하던 문제 수정",
+    "보스가 전투 중 특정 조건에서 행동을 멈추던 현상 수정",
+    "퀘스트 진행을 방해하거나 보상 획득을 막던 문제 수정 ('운명을 거스르다' 도전과제 포함)",
+    "루 마을의 아핑 부부와 상호작용 실패 문제 및 사기 호박 파편 획득 불가 오류 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Phantom Blade Zero Patch Notes (Version 1.0304629)",
+     "summary": "Version 1.0304629 update for Phantom Blade Zero has been released. This patch introduces combat assist options, mouse lock-on sensitivity adjustments, memory usage optimizations, and numerous bug fixes and balance corrections.",
+     "highlights": [
+      "Added Combat Assist settings and Automatic Strong Camera Assist option",
+      "Added Mouse Lock-On Target Switching Sensitivity option",
+      "Reduced video and system memory usage, especially in cutscenes and snowy areas",
+      "Updated Soft Snake Sword controls and effects (Hold Execute for Sword Blossom Shield)",
+      "Improved movement over small rocks, low steps, and gentle slopes",
+      "Fixed graphics artifacts on AMD GPUs and various quest/combat progression bugs"
+     ],
+     "buffs": [
+      "Increased the invulnerability window for sidesteps in Guard Stance"
+     ],
+     "nerfs": [
+      "Fixed Earthshaking Slam skill hitting repeatedly and incorrectly stacking damage",
+      "Fixed Dance Fan accessory's damage bonus incorrectly applying to and stacking on all skills",
+      "Fixed Nuo Mask accessory incorrectly reducing Remnant Spark cost for Artifice-type Phantom Edges"
+     ],
+     "fixes": [
+      "Fixed bright square artifacts in volumetric clouds on AMD Radeon RX 9000 Series",
+      "Fixed an issue where reset enemies could remain invisible while moving and attacking",
+      "Fixed bosses stopping action during combat under certain conditions",
+      "Fixed progression blockers and quest reward issues, including the 'Defy Destiny' achievement",
+      "Fixed issues preventing interaction with A-Ping and her husband in the Village of Lu"
+     ]
+    },
+    "ja": {
+     "title": "ファントム・ブレード・ゼロ バージョン 1.0304629 パッチノート",
+     "summary": "『ファントム・ブレード・ゼロ』のバージョン1.0304629アップデートが配信されました。本パッチでは、戦闘アシストやマウスのロックオン感度設定の追加、メモリ使用量の削減、各種不具合の修正とバランス調整が行われています。",
+     "highlights": [
+      "設定に「戦闘アシスト」項目および「自動強カメラアシスト」オプションを追加",
+      "マウスロックオン時のターゲット切り替え感度調整機能を追加",
+      "ビデオメモリおよびシステムメモリの使用量を削減（カットシーンや雪景色エリアで顕著）",
+      "ソフト・スネークソードの操作と効果を更新（長押し処刑で「剣花盾」を発動）",
+      "小石や低い段差、緩やかな坂道での移動時の引っかかりを改善",
+      "AMD製GPUでのグラフィック崩れや多数の進行不能バグを修正"
+     ],
+     "buffs": [
+      "ガードスタンスにおけるサイドステップの無敵時間を延長"
+     ],
+     "nerfs": [
+      "ウォーワゴン・ファントムエッジのスキル「地揺らしの強撃（Earthshaking Slam）」が多段ヒットしてダメージが不正に重複する不具合を修正",
+      "ダンスファンのアクセサリによるダメージボーナスが全スキルに適用され重複していた不具合を修正",
+      "ヌオの仮面アクセサリが技巧型ファントムエッジの「残滓の火花（Remnant Spark）」コストを不正に軽減していた不具合を修正"
+     ],
+     "fixes": [
+      "AMD Radeon RX 9000シリーズでボリュメトリッククラウドに明るい四角いアーティファクトが発生する不具合を修正",
+      "鐘でリセットした敵が、移動・攻撃可能な状態のまま透明になり続ける不具合を修正",
+      "特定の条件下でボスが戦闘中に動かなくなる不具合を修正",
+      "クエストの進行不能や報酬未獲得の問題を修正（実績「運命への反逆」を含む）",
+      "芦村（Village of Lu）のアピン夫妻とのインタラクト失敗やアイテム未取得の不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "《影之刃零》1.0304629 版本更新说明",
+     "summary": "《影之刃零》1.0304629 版本更新现已发布。本次更新加入了战斗辅助与鼠标锁定切换灵敏度设置、优化了内存占用，并修复了大量的游戏Bug及平衡性问题。",
+     "highlights": [
+      "设置中新增“战斗辅助”板块与“自动强力镜头辅助”选项",
+      "新增“鼠标锁定目标切换灵敏度”调节功能",
+      "降低了显存及系统内存占用（过场动画及雪地场景效果最显著）",
+      "更新了软蛇剑的操作与效果（长按处决可施展剑花盾）",
+      "优化了穿过小石头、低矮台阶和平缓斜坡时的移动表现",
+      "修复了AMD显卡图形伪影以及各项战斗与进度受阻Bug"
+     ],
+     "buffs": [
+      "增加了防御姿态下侧步的无敌帧时间"
+     ],
+     "nerfs": [
+      "修复了战车幻刃的技能“地动山摇”（Earthshaking Slam）会错误地重复判定并叠加伤害的问题",
+      "修复了舞蹈扇饰品的伤害加成效果会常驻并叠加到所有技能上的问题",
+      "修复了傩面具饰品错误减少机关类幻刃之残芒火花消耗的问题"
+     ],
+     "fixes": [
+      "修复了在AMD Radeon RX 9000系列显卡上，体积云可能出现明亮方形伪影的问题",
+      "修复了敌人被钟重置后可能隐形但仍可移动和攻击的问题",
+      "修复了Boss在某些条件下战斗中停止行动的问题",
+      "修复了导致任务卡死或无法获得奖励的问题（包含“逆天而行”成就）",
+      "修复了芦村中与阿萍夫妇互动失败导致无法获得杀气琥珀碎片的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas da Atualização 1.0304629 de Phantom Blade Zero",
+     "summary": "A atualização 1.0304629 de Phantom Blade Zero foi lançada. Este patch traz opções de assistência de combate, sensibilidade de mira com o mouse, otimização de uso de memória e diversas correções de bugs e ajustes de balanceamento.",
+     "highlights": [
+      "Adicionada a seção de Assistência de Combate nas configurações e a opção de Assistência Automática de Câmera Forte",
+      "Adicionada sensibilidade de troca de alvo com o bloqueio do mouse",
+      "Reduzido o uso de memória de vídeo e de sistema, com melhorias em cenas e áreas nevadas",
+      "Atualizados os controles e efeitos da Espada Cobra Macia (Segurar Execução para Escudo de Flores de Espada)",
+      "Melhorada a movimentação sobre pequenas pedras, degraus baixos e encostas",
+      "Corrigidos artefatos gráficos em placas AMD e vários bugs de progressão e combate"
+     ],
+     "buffs": [
+      "Aumentada a janela de invulnerabilidade para passos laterais na Postura de Guarda"
+     ],
+     "nerfs": [
+      "Corrigido um problema onde a habilidade 'Earthshaking Slam' do Vagão de Guerra Phantom Edge causava dano acumulado incorreto por acertos repetidos",
+      "Corrigido um problema onde o bônus de dano do acessório Leque de Dança permanecia ativo e aplicava-se a todas as habilidades",
+      "Corrigido um problema onde o acessório Máscara Nuo reduzia incorretamente o custo de Faísca Remanescente para Lâminas Fantasmas do tipo Artifício"
+     ],
+     "fixes": [
+      "Corrigido um problema de artefatos quadrados brilhantes em nuvens volumétricas nas placas AMD Radeon RX 9000 Series",
+      "Corrigido um problema em que alguns inimigos podiam ficar invisíveis após o reset com o sino, mantendo-se capazes de atacar",
+      "Corrigido um problema em que chefes podiam parar de agir durante o combate sob certas condições",
+      "Corrigidos bloqueios de progressão e problemas de recompensas de missões, incluindo a conquista 'Desafiar o Destino'",
+      "Corrigido um problema ao interagir com A-Ping e seu marido na Vila de Lu"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1850460852992007",
    "appid": 1422450,
    "game": "데드락",
@@ -3507,13 +3650,13 @@
    "i18n": {
     "en": {
      "title": "Hearthstone Patch 37.2 Preview — Battlegrounds Season 15: Twisted Empire",
-     "summary": "Battlegrounds Season 15 begins with Patch 37.2 on December 1st. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are rotated out of this season. A limited-time 2v2 Tavern Brawl will also be held. (Based on the official preview; final content is subject to change.)",
+     "summary": "Battlegrounds Season 15 begins on December 1 with Patch 37.2. Three new keywords and two new heroes are added, the Timewarped Tavern returns, and Trinkets are rotated out this season. A limited-time 2v2 Tavern Brawl will also be available. (Based on the official preview; final details are subject to change.)",
      "highlights": [
-      "Battlegrounds Season 15 'Twisted Empire' begins December 1st, Battlegrounds Ratings reset",
-      "New Keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
-      "New Heroes: Eternus, Boss Vancleef (Hero Power: 'Sharp Strategy')",
-      "Return of the Timewarp Tavern: Purchase special cards using Chronum on turns 6 and 9",
-      "Trinkets rotated out, Stealth keyword excluded from the bonus pool",
+      "Battlegrounds Season 15 'Twisted Empire' launches on December 1, Battlegrounds Rating reset",
+      "New keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
+      "New heroes: Eternus, Boss Vaneasa (Hero Power 'Sharpened Strategy')",
+      "Return of the Timewarped Tavern: purchase special cards using Chronum on turns 6 and 9",
+      "Trinkets rotated out, Stealth keyword removed from bonus pool",
       "Limited-time 2v2 Tavern Brawl"
      ],
      "buffs": [],
@@ -8732,6 +8875,74 @@
    }
   },
   {
+   "gid": "1848664643345154",
+   "appid": 534380,
+   "game": "다잉 라이트 2",
+   "date": 1793964074,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643345154",
+   "origTitle": "Scheduled server maintenance",
+   "title": "서버 점검 안내",
+   "summary": "다잉 라이트 2 스테이 휴먼의 정기 서버 점검이 진행됩니다. 점검 중에도 솔로 및 협동 플레이는 가능하지만 이벤트, 게임 상점, 현상은 일시적으로 이용할 수 없습니다.",
+   "highlights": [
+    "최대 2시간 소요 예정",
+    "솔로 및 협동 플레이 정상 이용 가능",
+    "이벤트, 게임 상점, 현상 일시 중단"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Scheduled Server Maintenance",
+     "summary": "Scheduled server maintenance for Dying Light 2 Stay Human will take place and may last up to 2 hours. Solo and co-op play remain available, but the event, game store, and bounties will be temporarily unavailable.",
+     "highlights": [
+      "May last up to 2 hours",
+      "Solo and co-op play still available",
+      "Event, game store, and bounties temporarily unavailable"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "定期サーバーメンテナンスのお知らせ",
+     "summary": "『ダイイングライト2 ステイ ヒューマン』のサーバーメンテナンスが実施され、最大2時間ほどかかる場合があります。ソロおよび協力プレイは通常通りプレイ可能ですが、イベント、ゲーム内ストア、バウンティは一時的に利用できなくなります。",
+     "highlights": [
+      "最大2時間持続する可能性あり",
+      "ソロおよび協力プレイは通常通り利用可能",
+      "イベント、ゲーム内ストア、バウンティは一時利用不可"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "服务器维护公告",
+     "summary": "《消逝的光芒2 人与仁之战》将进行服务器维护，预计持续最多2小时。维护期间单人与合作模式仍可游玩，但活动、游戏商店和赏金任务将暂时无法使用。",
+     "highlights": [
+      "预计持续最多2小时",
+      "单人与合作模式正常运行",
+      "活动、游戏商店和赏金任务暂时关闭"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Manutenção Programada do Servidor",
+     "summary": "Uma manutenção programada do servidor para Dying Light 2 Stay Human vai ocorrer e pode durar até 2 horas. Você ainda poderá jogar no modo solo ou cooperativo, mas o evento, a loja do jogo e os contratos ficarão temporariamente indisponíveis.",
+     "highlights": [
+      "Pode durar até 2 horas",
+      "Modo solo e cooperativo continuam disponíveis",
+      "Evento, loja do jogo e contratos temporariamente indisponíveis"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1848664643344073",
    "appid": 322330,
    "game": "돈스타브 투게더",
@@ -11313,17 +11524,17 @@
    "i18n": {
     "en": {
      "title": "Uma Musume October 30 Update",
-     "summary": "In this unmaintained update, a new playable ★3 Uma Musume, Agnes Digital's companion-like update features, a new support card pickup, and the 'Agnes Tachyon's Factor Research' event were released.",
+     "summary": "A maintenance-free update introduced the new playable ★3 Uma Musume Aines Fushigin, new support card pickups, and the \"Agnes Tachyon's Factor Research\" event.",
      "highlights": [
-      "★3 Ines Fujin",
+      "★3 Aines Fushigin",
       "SSR Mejiro Ryan",
       "SR Kawakami Princess",
-      "Event: 'Agnes Tachyon's Factor Research' (10/30 ~ 11/10)"
+      "Event \"Agnes Tachyon's Factor Research\" (10/30 - 11/10)"
      ],
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed mistranslations and spacing issues in home screen voices and training events",
+      "Fixed mistranslations and spacing errors in home screen voices and training events",
       "Fixed line breaks in Tamamo Cross SSR episode"
      ]
     }
@@ -17454,79 +17665,6 @@
    }
   },
   {
-   "gid": "1844115010490707",
-   "appid": 2157560,
-   "game": "그랑블루 판타지 버서스 라이징",
-   "date": 1789614504,
-   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010490707",
-   "origTitle": "Version 2.60 Patch Notes",
-   "title": "버전 2.60 패치 노트",
-   "summary": "그랑블루 판타지 버서스 라이징 버전 2.60 업데이트가 적용되었습니다. 신규 캐릭터 '이드'와 새로운 스테이지, 조작 타입, 그리고 체인 어택 시스템이 추가되었습니다.",
-   "highlights": [
-    "신규 캐릭터 '이드' 참전",
-    "신규 스테이지 및 조작 타입 추가",
-    "신규 체인 어택 시스템 도입",
-    "전반적인 배틀 및 시스템 조정"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "fixes": [],
-   "i18n": {
-    "en": {
-     "title": "Version 2.60 Patch Notes",
-     "summary": "Granblue Fantasy Versus: Rising Version 2.60 update is now live. This update introduces the new playable character Id, a new stage and control scheme, and the Chain Attack system.",
-     "highlights": [
-      "Added new character Id",
-      "Added new stage and control scheme",
-      "Introduced new Chain Attack system",
-      "Battle and universal adjustments"
-     ],
-     "buffs": [],
-     "nerfs": [],
-     "fixes": []
-    },
-    "ja": {
-     "title": "Ver. 2.60 치 노트",
-     "summary": "『グランブルーファンタジーヴァーサス ライジング』Ver. 2.60アップデートが配信開始されました。新プレイアブルキャラクター「イーウィヤではない、イド」や新ステージ、新操作タイプ、チェ인アタックシステムが追加されました。",
-     "highlights": [
-      "新キャラクター「イド」参戦",
-      "新ステージと新操作タイプの追加",
-      "新チェインアタックシステムの実装",
-      "バトルおよび全体的な調整"
-     ],
-     "buffs": [],
-     "nerfs": [],
-     "fixes": []
-    },
-    "zh": {
-     "title": "版本 2.60 更新说明",
-     "summary": "《碧蓝幻想 Versus：崛起》版本 2.60 更新现已上线。本次更新推出了新角色“伊度”、全新关卡与操作类型，以及全新的连携攻击系统。",
-     "highlights": [
-      "新增角色“伊度”",
-      "新增关卡与操作类型",
-      "引入全新连携攻击系统",
-      "对战与通用调整"
-     ],
-     "buffs": [],
-     "nerfs": [],
-     "fixes": []
-    },
-    "pt": {
-     "title": "Notas da Atualização Versão 2.60",
-     "summary": "A atualização da Versão 2.60 de Granblue Fantasy Versus: Rising já está disponível. Ela traz o novo personagem Id, um novo cenário, um novo tipo de controle e o sistema de Ataque em Cadeia.",
-     "highlights": [
-      "Adicionado o novo personagem Id",
-      "Adicionados novo cenário e tipo de controle",
-      "Introduzido o novo sistema de Ataque em Cadeia",
-      "Ajustes de batalha e gerais"
-     ],
-     "buffs": [],
-     "nerfs": [],
-     "fixes": []
-    }
-   }
-  },
-  {
    "gid": "maplestory:813",
    "appid": "maplestory",
    "game": "메이플스토리",
@@ -18577,20 +18715,20 @@
    "i18n": {
     "en": {
      "title": "Pokémon Champions Ver. 1.2.0 — Regulation M-C",
-     "summary": "Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features such as viewing battle logs and battle data on the selection screen have been added.",
+     "summary": "New Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features such as battle log viewing and battle data on the team preview screen have been introduced.",
      "highlights": [
-      "Added Regulation M-C Pokémon and held items",
-      "New Feature: Battle Log (records all actions in the current battle)",
-      "New Feature: Selection Support (displays battle data on the Pokémon selection screen)"
+      "Added Pokémon and held items for Regulation M-C",
+      "New feature: Log view (records all actions in the current battle)",
+      "New feature: Team preview support (displays battle data on the Pokémon selection screen)"
      ],
      "buffs": [
-      "Can now use Slash"
+      "Slash can now be used"
      ],
      "nerfs": [
-      "Politoed: Can no longer use Pound",
-      "Archaludon: Can no longer use Mirror Coat and Metal Burst",
-      "Wish PP reduced from 12 to 8",
-      "Strength Sap PP reduced from 12 to 8"
+      "Politoed: Cannot use Pound",
+      "Archaludon: Cannot use Mirror Coat and Metal Burst",
+      "Wish PP changed from 12 to 8",
+      "Strength Sap PP changed from 12 to 8"
      ],
      "fixes": [
       "Fixed some bugs"
@@ -22566,6 +22704,139 @@
    }
   },
   {
+   "gid": "1836506165567957",
+   "appid": 1601580,
+   "game": "프로스트펑크 2",
+   "date": 1782997318,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165567957",
+   "origTitle": "Hotfix - 1.6.1",
+   "title": "프로스트펑크 2 핫픽스 1.6.1 패치 노트",
+   "summary": "프로스트펑크 2의 1.6.1 핫픽스가 배포되어 신뢰 위반 DLC 시나리오의 밸런스 조정, 다양한 충돌 현상 수정, 오디오 및 UI 개선이 이루어졌습니다. 전반적인 식량 및 질병 요구 사항이 조정되고, 날씨 변동성이 개선되었으며, 저항군 병력 비용이 낮아졌습니다.",
+   "highlights": [
+    "DLC2 시나리오 전역 매개변수 및 날씨 난이도 조정",
+    "저항군 병력 능력 무기 비용 인하 (군사 구역 50, 강제 인수 120으로 감소)",
+    "서고 및 탐험 난이도 완화, 석탄 전초기지 및 초기 물자·자원 추가",
+    "부팅, 런타임 및 서브시스템 충돌 수정",
+    "게임패드 컨트롤러 포커스 및 내비게이션 문제 해결",
+    "전투 건너뛰기 버튼 추가 및 각종 UI·오디오 개선"
+   ],
+   "buffs": [
+    "저항군 병력 능력 무기 비용 인하 (군사 구역 75->50, 강제 인수 200->120)",
+    "DLC2 '거래 변경' 메시지 수락 시 추가 식량 5만 제공",
+    "초기 자재, 상품 및 조립식 부품(30->130) 상향"
+   ],
+   "nerfs": [],
+   "fixes": [
+    "배치 기지 배치 불가 문제 및 퇴적물 중복 배치 오류 수정",
+    "저장 파일 불러오기 시 '신 에든버러 먹여 살리기' 선택 목표 완료 불가 현상 수정",
+    "화산 타일 생성 오류 및 인구 급증 버그 수정",
+    "컨트롤러 포커스 문제(발전기 이주 법안 등) 해결",
+    "잘못 연결된 DLC 구매 하이퍼링크 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Frostpunk 2 Hotfix 1.6.1 Patch Notes",
+     "summary": "Frostpunk 2 Hotfix 1.6.1 addresses balance issues, crashes, and various audio, UI, and general bugs related to the Breach of Trust update. Key changes include adjusted DLC2 scenario parameters, lower weapon costs for resistance abilities, and enhanced controller navigation.",
+     "highlights": [
+      "Adjusted global parameters for DLC2 and weather variance for easier difficulties",
+      "Lowered weapon costs for resistance abilities (Enforce Military Zone to 50, Force Takeover to 120)",
+      "Added additional coal outposts and increased starting prefabs to 130",
+      "Resolved boot, runtime, and subsystem crashes",
+      "Fixed gamepad navigation issues including Generator Relocation Law access",
+      "Added a Skip Battle button and improved audio/visual fidelity"
+     ],
+     "buffs": [
+      "Reduced weapon costs for Enforce Military Zone (from 75 to 50) and Force Takeover (from 200 to 120)",
+      "Altering the Deal message now grants an additional 50k Food",
+      "Increased starting materials, goods, and prefabs (from 30 to 130)"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed deployment base placement issues on non-frostbroken areas",
+      "Fixed an issue preventing optional objectives when reloading saves with active Food New Edinburgh quest",
+      "Fixed volcano tile spawning in Utopia Mode and skyrocketing population growth",
+      "Fixed controller focus issues for Generator Relocation Law and sliders",
+      "Corrected localized store hyperlink routing for DLCs"
+     ]
+    },
+    "ja": {
+     "title": "Frostpunk 2 ホットフィックス 1.6.1 パッチノート",
+     "summary": "『Frostpunk 2』のホットフィックス1.6.1が配信され、「信頼の違反」DLCに関連するバランス調整やクラッシュの修正、オーディオ・UIの改善が行われました。DLC2のシナリオバランス調整、レジスタンスの武器コスト引き下げ、コントローラー操作の改善などが含まれます。",
+     "highlights": [
+      "DLC2シナリオのグローバルパラメータおよび難易度ごとの天候バランス調整",
+      "レジスタンス兵士のアビリティ武器コスト低下（軍事ゾーン強制50、強収用120へ）",
+      "フロストランドに石炭前哨基地を追加し、初期プレハブを130に増加",
+      "起動時やランタイムなどの各種クラッシュの修正",
+      "ゲームパッドの操作性およびフォーカス問題の修正",
+      "「戦闘スキップ」ボタンの追加とオーディオの改善"
+     ],
+     "buffs": [
+      "「軍事ゾーン強制」の武器コストを75から50に低下、「強収用」を200から120に低下",
+      "「取引の変更」メッセージ受諾時の追加食料が5万に増加",
+      "初期の資材・商品およびプレハブ（30から130へ）が増加"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "非フロストブレイク地域での配備基地配置に関する不具合の修正",
+      "「新エディンバラを養え」クエスト中のセーブ＆ロードでオプション目標が完了できなくなる問題の修正",
+      "ユートピアモードでの火山タイルの生成不具合および人口の異常増加の修正",
+      "コントローラーでの発電機移転法案へのアクセス不可問題の修正",
+      "DLC購入リンクの誤った転送先の修正"
+     ]
+    },
+    "zh": {
+     "title": "冰汽时代 2 热修复 1.6.1 更新说明",
+     "summary": "《冰汽时代 2》发布了 1.6.1 热修复补丁，主要针对“背信弃义”DLC 内容进行了平衡性调整、崩溃修复以及音频和用户界面的优化。更新内容包括调整 DLC2 场景参数、降低抵抗军能力武器消耗以及修复手柄导航问题。",
+     "highlights": [
+      "调整 DLC2 场景的全球参数及天气难度差异",
+      "降低抵抗军士兵能力的武器消耗（强制军事区降至 50，强行接管降至 120）",
+      "在冰霜之地增加额外的煤炭前哨站，并将初始预制件增至 130",
+      "修复多项启动、运行及子系统崩溃问题",
+      "修复手柄焦点导航问题，包括无法访问“发电机搬迁”法律",
+      "新增“跳过战斗”按钮并优化音频和视觉表现"
+     ],
+     "buffs": [
+      "降低强制军事区（75降至50）与强行接管（200降至120）的武器消耗",
+      "接受“改变交易”消息现在可额外获得 5万 食物",
+      "增加初始材料、货物以及预制件（从 30 增至 130）"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "修复部署基地在非破冰区域放置受阻的问题",
+      "修复带有“喂饱新艾丁堡”任务时重新加载存档导致可选目标无法完成的问题",
+      "修复乌托邦模式下火山地块生成错误及人口激增漏洞",
+      "修复手柄无法访问发电机搬迁法案等焦点问题",
+      "修正 DLC 购买超链接错误跳转至主游戏商店页面的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas do Hotfix 1.6.1 de Frostpunk 2",
+     "summary": "O hotfix 1.6.1 de Frostpunk 2 traz ajustes de equilíbrio, correções de travamentos e melhorias gerais de áudio e interface relacionados à atualização Breach of Trust. As mudanças incluem parâmetros ajustados para o cenário do DLC2, custos de armas reduzidos para habilidades de resistência e melhorias nos controles de gamepad.",
+     "highlights": [
+      "Ajustes nos parâmetros globais do DLC2 e na variação climática por dificuldade",
+      "Redução no custo de armas para habilidades de resistência (Zona Militar para 50, Aquisição Forçada para 120)",
+      "Adicionados postos avançados de carvão extras e aumento de pré-fabricados iniciais para 130",
+      "Resolução de travamentos de inicialização, tempo de execução e subsistemas",
+      "Correção de problemas de navegação e foco no controle",
+      "Adicionado botão de pular batalha e melhorias de áudio e interface"
+     ],
+     "buffs": [
+      "Reduzido o custo de armas da Zona Militar (de 75 para 50) e Aquisição Forçada (de 200 para 120)",
+      "A mensagem 'Alterar o Acordo' agora concede 50k de Comida adicional",
+      "Aumento de materiais iniciais, bens e pré-fabricados (de 30 para 130)"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido problema de posicionamento da base de implantação em áreas sem quebra de gelo",
+      "Corrigido bug onde carregar um save com a missão 'Alimentar New Edinburgh' ativa impedia objetivos opcionais",
+      "Corrigido erro de geração de bloco de vulcão no Modo Utopia e crescimento populacional descontrolado",
+      "Corrigidos problemas de foco do controle na Lei de Relocalização do Gerodouro",
+      "Corrigido link de hiperlink incorreto para a página da loja de DLCs"
+     ]
+    }
+   }
+  },
+  {
    "gid": "genshin:165076",
    "appid": "genshin",
    "game": "원신",
@@ -22622,6 +22893,157 @@
       "Fixed an issue where HP did not increase when the effect of Genius Invokation TCG support card 'Chenyu Vale' was applied",
       "Fixed an issue where game crashes occurred when launching the game on iOS Developer Beta OS"
      ]
+    }
+   }
+  },
+  {
+   "gid": "1836506165560338",
+   "appid": 767560,
+   "game": "워 로봇",
+   "date": 1782744105,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165560338",
+   "origTitle": "WAR ROBOTS 12.2 UPDATE NOTES",
+   "title": "워 로봇 12.2 업데이트 노트",
+   "summary": "워 로봇 12.2 업데이트에서는 신규 로봇 '벌컨'과 에너지 무기 시리즈 '루멘', 신규 드론 '라르', 얼티밋 에디션 무로메츠 등이 추가되는 월드 아이언 컵 이벤트가 시작됩니다. 전투 중 스스로 업그레이드되는 벌컨과 강력한 공중 포격 플랫폼인 얼티밋 무로메츠를 만나보세요.",
+   "highlights": [
+    "신규 로봇 벌컨 및 무기 루멘(L/M/H) 추가",
+    "신규 드론 라르 및 얼티밋 무로메츠·불라바·키스텐 추가",
+    "신규 이벤트 맵 '그랜드 스타디움 선전' 및 월드 아이언 컵 이벤트 개막",
+    "파일럿 이네스 디아즈, 마리 알드릭 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "War Robots 12.2 Update Notes",
+     "summary": "The War Robots 12.2 update kicks off the World Iron Cup event, introducing the new self-upgrading robot Vulcan, Lumen energy weapons, the Lar drone, and the Ultimate Murometz build. Experience new tactics with mid-battle evolving mechanics and returning legendary titans.",
+     "highlights": [
+      "Added new robot Vulcan and Lumen weapons (L/M/H)",
+      "Added new drone Lar and Ultimate Murometz, Bulava, and Kisten",
+      "Introduced new event map Grand Stadium Shenzen and World Iron Cup event",
+      "Added new pilots Ines Diaz and Marie Aldrich"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "ウォーロボッツ 12.2アップデートノート",
+     "summary": "ウォーロボッツの12.2アップデートでは、ワールドアイアンカップイベントが開催され、新ロボット「バルカン」やエネルギー兵器「ルーメン」、新ドローン「ラル」、アルティメット版ムロメツなどが追加されます。戦闘中に進化するバルカンや強力な空中砲台となるアルティメット・ムロメツを駆使して戦いましょう。",
+     "highlights": [
+      "新ロボット「バルカン」および武器「ルーメン（L/M/H）」を追加",
+      "新ドローン「ラル」、アルティメット版ムロメツ、ブラーバ、キステンを追加",
+      "新イベントマップ「グランド・スタジアム・シェンセン」とワールドアイアンカップを開催",
+      "新パイロット「イネス・ディアス」「マリー・オルドリッチ」を追加"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "战神机器人 12.2 更新说明",
+     "summary": "战神机器人 12.2 版本更新带来了“世界铁杯”活动，推出了全新可自我升级的机器人“火神”、Lumen 系列能量武器、Lar 无人机以及终极版穆罗梅茨。在战斗中不断进化并主宰战场。",
+     "highlights": [
+      "新增机器人“火神”及 Lumen 武器（轻/中/重）",
+      "新增无人机 Lar 以及终极版穆罗梅茨、布拉瓦、基斯滕",
+      "推出全新活动地图深圳大球场及世界铁杯活动",
+      "新增机师伊内斯·迪亚兹和玛丽·奥尔德里奇"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Notas de Atualização do War Robots 12.2",
+     "summary": "A atualização 12.2 do War Robots traz o evento Copa de Ferro Mundial, introduzindo o novo robô evolutivo Vulcan, as armas de energia Lumen, o drone Lar e a nova versão Ultimate do Murometz. Domine o campo de batalha com mecânicas inéditas e armamentos lendários.",
+     "highlights": [
+      "Adicionado o novo robô Vulcan e as armas Lumen (L/M/H)",
+      "Adicionados o novo drone Lar e as versões Ultimate de Murometz, Bulava e Kisten",
+      "Lançamento do novo mapa de evento Grand Stadium Shenzen e da Copa de Ferro Mundial",
+      "Adicionados os novos pilotos Ines Diaz e Marie Aldrich"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1836506165557252",
+   "appid": 2157560,
+   "game": "그랑블루 판타지 버서스 라이징",
+   "date": 1782593906,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165557252",
+   "origTitle": "Version 2.60 Update to Release on September 17",
+   "title": "버전 2.60 업데이트 안내",
+   "summary": "9월 17일에 그랑블루 판타지 버서스 라이징의 버전 2.60 업데이트가 배포됩니다. 신규 플레이어블 DLC 캐릭터 '이오드'와 신규 스테이지 '아인스테도 제도'가 추가되며, 시스템 메커니즘 및 캐릭터 밸런스가 조정됩니다.",
+   "highlights": [
+    "신규 DLC 캐릭터 '이오드' 참전",
+    "신규 스테이지 '아인스테도 제도' 추가",
+    "신규 시스템 메커니즘 도입",
+    "일부 캐릭터 밸런스 조정",
+    "세이브 데이터 연동 보상 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Version 2.60 Update Notice",
+     "summary": "Version 2.60 for Granblue Fantasy Versus: Rising will release on September 17. This update introduces the new playable DLC character Id, the new stage Ainsteddo Archipelago, a new system mechanic, and character balance adjustments.",
+     "highlights": [
+      "New playable DLC character Id added",
+      "New stage Ainsteddo Archipelago added",
+      "New system mechanic introduced",
+      "Character balance adjustments",
+      "Save data link bonus added"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "Ver.2.60アップデートのお知らせ",
+     "summary": "『グランブルーファンタジーヴァーサス -ライジング-』のVer.2.60アップデートが9月17日に配信されます。新プレイアブルDLCキャラクター「イオド」や新ステージ「アインステド諸島」、新システムメカニクス、キャラクターのバランス調整などが実装されます。",
+     "highlights": [
+      "新DLCキャラクター「イオド」参戦",
+      "新ステージ「アインステド諸島」追加",
+      "新システムメカニクス導入",
+      "キャラクターのバランス調整",
+      "セーブデータ連動特典の追加"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "Ver.2.60版本更新公告",
+     "summary": "《碧蓝幻想 Versus：崛起》Ver.2.60版本更新将于9月17日推出。本次更新将加入全新可操控DLC角色“伊度”、新舞台“因斯特多群岛”、全新系统机制以及角色平衡性调整。",
+     "highlights": [
+      "新增DLC可操控角色“伊度”",
+      "新增舞台“因斯特多群岛”",
+      "引入全新系统机制",
+      "多名角色平衡性调整",
+      "新增存档联动奖励"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Aviso de Atualização Versão 2.60",
+     "summary": "A atualização Versão 2.60 de Granblue Fantasy Versus: Rising será lançada em 17 de setembro. Esta atualização traz o novo personagem DLC jogável Id, o novo cenário Arquipélago de Ainsteddo, uma nova mecânica de sistema e ajustes de balanceamento de personagens.",
+     "highlights": [
+      "Novo personagem DLC jogável Id adicionado",
+      "Novo cenário Arquipélago de Ainsteddo adicionado",
+      "Nova mecânica de sistema introduzida",
+      "Ajustes de balanceamento de personagens",
+      "Adicionado bônus de vinculação de dados de salvamento"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
     }
    }
   },
@@ -22689,6 +23111,88 @@
    "fixes": []
   },
   {
+   "gid": "1836506165544997",
+   "appid": 2170050,
+   "game": "울프팀: 리부트",
+   "date": 1782282572,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165544997",
+   "origTitle": "Update Announcement: 2026 June 25th",
+   "maint": {
+    "s": 1782392400,
+    "e": 1782399600
+   },
+   "title": "6월 25일 울프팀: 리부트 업데이트",
+   "summary": "울프팀: 리부트가 신규 무기 세트, 마야 테두리 타투, 그리고 새로운 개인전 맵 '캠프 레드루프'를 추가하는 업데이트를 진행합니다. 또한 서버 재시작 및 지뢰 일반 판매가 시작됩니다.",
+   "highlights": [
+    "신규 무기: ELWRCI M6A2 마야, EM-14 마야, MK-5 EG 마야 추가",
+    "신규 맵 '캠프 레드루프' (개인전 전용) 추가",
+    "지뢰 일반 판매 시작",
+    "마야 테두리 타투 및 스티커, 테디베어 백팩 추가",
+    "월간 상자(26년 7월) 인간용 및 늑대용 추가"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "June 25th Wolfteam: Reboot Update",
+     "summary": "Wolfteam: Reboot is releasing a new update featuring new weapon sets, MAYA tattoos, and a brand new Free-For-All map called Camp Redroof. Additionally, landmines are now on general sale and servers have been restarted.",
+     "highlights": [
+      "Added new weapons: ELWRCI M6A2 MAYA, EM-14 MAYA, MK-5 EG MAYA",
+      "Added new map: Camp Redroof (FFA only)",
+      "General sale of landmines started",
+      "Added MAYA tattoo sets, stickers, and TEDDYBEAR_BACKPACK",
+      "Added Monthly Box_26_7 for Humans and Wolves"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "6月25日 ウルフチーム：リブート アップデート",
+     "summary": "ウルフチーム：リブートに新武器セットやMAYAタトゥー、新個人戦マップ「キャンプ・レッドルーフ」が追加されるアップデートが実施されます。さらに、地雷の一般販売開始やサーバー再起動が行われます。",
+     "highlights": [
+      "新武器追加: ELWRCI M6A2 MAYA, EM-14 MAYA, MK-5 EG MAYA",
+      "新マップ「キャンプ・レッドルーフ」（個人戦専用）を追加",
+      "地雷の一般販売を開始",
+      "MAYAタトゥーセット、ステッカー、テディベアバックパックを追加",
+      "人間用・狼用の月間ボックス_26_7を追加"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "6月25日 狼队：重装上阵 更新",
+     "summary": "狼队：重装上阵即将推出更新，包含全新武器套装、MAYA纹身系列以及全新的个人战地图“红屋营地”。此外，地雷现已开启公开销售并重启了服务器。",
+     "highlights": [
+      "新增武器：ELWRCI M6A2 MAYA、EM-14 MAYA、MK-5 EG MAYA",
+      "新增地图：红屋营地（仅限个人战模式）",
+      "地雷开启公开销售",
+      "新增MAYA纹身套装、贴纸及泰迪熊背包",
+      "新增人类与狼群的26年7月月度宝箱"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização de 25 de junho do Wolfteam: Reboot",
+     "summary": "O Wolfteam: Reboot traz uma nova atualização com conjuntos de armas inéditos, tatuagens MAYA e o novo mapa de Todos Contra Todos, Camp Redroof. Além disso, as minas terrestres estão à venda geral e os servidores foram reiniciados.",
+     "highlights": [
+      "Novas armas adicionadas: ELWRCI M6A2 MAYA, EM-14 MAYA, MK-5 EG MAYA",
+      "Adicionado novo mapa: Camp Redroof (apenas para Todos Contra Todos)",
+      "Início da venda geral de minas terrestres",
+      "Adicionados conjuntos de tatuagem MAYA, adesivos e mochila de ursinho",
+      "Adicionadas Caixas Mensais de Julho de 2026 para Humanos e Lobos"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "d4:24287406",
    "appid": "d4",
    "game": "디아블로 IV",
@@ -22723,6 +23227,212 @@
     "도적 질주가 암행 변화형 사용 시 비정상적인 피해를 주던 문제 수정",
     "신화 고유 아이템을 재활용할 수 없었던 문제 수정"
    ]
+  },
+  {
+   "gid": "1835871199314748",
+   "appid": 427520,
+   "game": "팩토리오",
+   "date": 1782197939,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835871199314748",
+   "origTitle": "Version 2.0.77 released as stable",
+   "title": "팩토리오 버전 2.0.77 안정 버전 출시",
+   "summary": "팩토리오 버전 2.0.77 안정 버전이 출시되어 다양한 버그 수정과 모드 제작자를 위한 스크립팅 API 기능이 추가되었습니다. 로켓 화물 포드 클리핑 문제, 투입기 교착 상태 등 플레이 안정성을 저해하는 오류들이 해결되었습니다.",
+   "highlights": [
+    "버전 2.0.77 안정 버전 출시",
+    "다양한 버그 및 충돌 현상 수정",
+    "스크립팅 API에 새로운 읽기 전용 속성 대거 추가",
+    "API 문서 웹사이트 전체 텍스트 검색 지원"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "로켓에 부착된 화물 포드의 클리핑 문제 수정",
+    "포탑을 향해 스윙 중 탄약이 상해버릴 때 투입기가 교착 상태에 빠지는 현상 수정",
+    "모드 변경으로 인해 로켓 사일로가 교착 상태에 빠지는 현상 수정",
+    "출처 없이 특정 엔티티가 파괴될 때 발생하는 게임 종료 현상 수정",
+    "멀티플레이어 지연 시간 동안 개인 라이브러리 청사진북 스크롤이 제대로 작동하지 않던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Factorio Version 2.0.77 Stable Released",
+     "summary": "Factorio Version 2.0.77 has been released as stable, bringing several bug fixes and new scripting API features for modders. Key fixes include resolving cargo pod clipping, inserter deadlocks, and various crashes.",
+     "highlights": [
+      "Factorio version 2.0.77 released as stable",
+      "Various bug fixes and crash resolutions",
+      "Added numerous new read properties to the scripting API",
+      "Full-text search added to the online API documentation website"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed clipping issue on cargo pods attached to rockets",
+      "Fixed inserters deadlocking if ammo spoiled while mid-swing towards a turret",
+      "Fixed rocket silos deadlocking due to mod changes",
+      "Fixed crash when specific entities are killed without a source",
+      "Fixed scrolling personal library blueprint books in multiplayer latency not working correctly"
+     ]
+    },
+    "ja": {
+     "title": "Factorio バージョン 2.0.77 安定版リリース",
+     "summary": "Factorio バージョン 2.0.77 安定版がリリースされ、様々なバグ修正とスク립팅 APIの拡張が行われました。ロケット貨物ポッドのクリッピング問題やインサーターのデッドロックなどの不具合が修正されています。",
+     "highlights": [
+      "Factorio バージョン 2.0.77 安定版リリース",
+      "各種バグおよびクラッシュの修正",
+      "スクリプトAPIに新しい読み取り専用プロパティを追加",
+      "オンラインAPIドキュメントの全文検索機能追加"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "ロケットに装着された貨物ポッドのクリッピング問題を修正",
+      "砲塔に向かってスイング中に弾薬が腐敗した際、インサーターがデッドロックする問題を修正",
+      "モジュールの変更によりロケットサイロがデッドロックする問題を修正",
+      "特定のエンティティがソースなしで倒された際のクラッシュを修正",
+      "マルチプレイの遅延時に個人ライブラリの設計図ブックのスクロールが正常に機能しない問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "异星工厂 版本 2.0.77 稳定版发布",
+     "summary": "异星工厂版本 2.0.77 稳定版现已发布，带来了多项错误修复和面向模组制作者的脚本 API 更新。修复了包括货运舱夹模、机械臂死锁以及各种崩溃问题。",
+     "highlights": [
+      "异星工厂版本 2.0.77 稳定版发布",
+      "修复了多处错误和崩溃问题",
+      "为脚本 API 添加了多项新的读取属性",
+      "在线 API 文档网站支持全文搜索"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了火箭所附货运舱的穿模问题",
+      "修复了机械臂在向炮塔挥动途中弹药变质导致的死锁问题",
+      "修复了因模组更改导致火箭发射井死锁的问题",
+      "修复了特定实体在无来源被击杀时的崩溃问题",
+      "修复了多人游戏延迟期间个人资料库蓝图书滚动不正常的问题"
+     ]
+    },
+    "pt": {
+     "title": "Factorio Versão 2.0.77 Estável Lançada",
+     "summary": "A versão 2.0.77 de Factorio foi lançada como estável, trazendo diversas correções de bugs e novas funcionalidades na API de script para criadores de mods. As correções incluem problemas de sobreposição de pods de carga e travamentos de insertores.",
+     "highlights": [
+      "Versão 2.0.77 de Factorio lançada como estável",
+      "Várias correções de bugs e de falhas (crashes)",
+      "Adicionadas novas propriedades de leitura à API de script",
+      "Busca de texto completo adicionada ao site de documentação da API"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido problema de sobreposição em pods de carga acoplados a foguetes",
+      "Corrigido travamento de insertores se a munição estragasse durante o movimento em direção a uma torre",
+      "Corrigido travamento de silos de foguete devido a alterações de mods",
+      "Corrigido travamento ao destruir entidades específicas sem uma fonte",
+      "Corrigido problema em que a rolagem de livros de blueprints na biblioteca pessoal não funcionava corretamente na latência do multijogador"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1835236783559860",
+   "appid": 261550,
+   "game": "마운트 앤 블레이드 II: 배너로드",
+   "date": 1781172189,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783559860",
+   "origTitle": "Patch Notes - WS v1.2.6 / BL v1.4.6",
+   "title": "마운트 앤 블레이드 II: 배너로드 패치 노트 WS v1.2.6 / BL v1.4.6",
+   "summary": "마운트 앤 블레이드 II: 배너로드의 새로운 패치가 배포되었습니다. 이번 업데이트는 워 세일즈 확장팩과 배너로드 본편의 다양한 버그 수정 및 충돌 현상 해결을 포함하고 있습니다.",
+   "highlights": [
+    "워 세일즈 확장팩 관련 버그 및 충돌 수정",
+    "배너로드 본편 시스템 안정성 개선 및 멀티플레이어 익스플로잇 수정"
+   ],
+   "buffs": [],
+   "nerfs": [
+    "라다고스의 레이더 병사들의 숙련도 조정"
+   ],
+   "fixes": [
+    "마을 습격 돕기 관련 오류 수정",
+    "스코어보드 선박 아이콘 불일치 수정",
+    "연안 마을 습격 시 발생하는 충돌 수정",
+    "부대 화면과 항구 화면 동시 오픈 시 메모리 충돌 수정",
+    "군대 상호작용 후 대화 재개 오류 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Mount & Blade II: Bannerlord Patch Notes - WS v1.2.6 / BL v1.4.6",
+     "summary": "A new patch has been released for Mount & Blade II: Bannerlord. This update includes various bug fixes and crash resolutions for both the War Sails expansion and the base game.",
+     "highlights": [
+      "Bug and crash fixes specific to the War Sails expansion",
+      "Base game stability improvements and multiplayer exploit fixes"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Reduced excessive skill level of Radagos' Raider troops"
+     ],
+     "fixes": [
+      "Fixed a bug displaying the Leave option when helping a raided village",
+      "Fixed ship icon inconsistencies on the scoreboard",
+      "Fixed a crash when starting coastal village raids",
+      "Fixed memory crash when opening party and port screens together",
+      "Fixed conversation reopening after interacting with an army"
+     ]
+    },
+    "ja": {
+     "title": "マウント＆ブレードII：バナーロード パッチノート - WS v1.2.6 / BL v1.4.6",
+     "summary": "『マウント＆ブレードII：バナーロード』の新パッチが配信されました。今回のアップデートには、「War Sails」拡張パックおよびゲーム本編のさまざまなバグ修正やクラッシュの解決が含まれています。",
+     "highlights": [
+      "「War Sails」拡張パック固有のバグとクラッシュの修正",
+      "ゲーム本編の安定性向上とマルチプレイヤーのエクスプロイト修正"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "ラダゴスのレイダース部隊のスキルを調整"
+     ],
+     "fixes": [
+      "襲撃中の村を助けようとした際に「離脱」オプションが表示される不具合を修正",
+      "スコアボードの船アイコンの不整合を修正",
+      "沿岸の村の襲撃開始時のクラッシュを修正",
+      "部隊画面と港画面を同時に開いた際メモリ不足で発生するクラッシュを修正",
+      "軍隊とのインタラクト後に会話が再び開く不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "骑马与砍杀2：霸主 更新说明 - WS v1.2.6 / BL v1.4.6",
+     "summary": "《骑马与砍杀2：霸主》发布了新补丁。本次更新包含针对“战帆”扩展包及游戏本体的各种错误修复与崩溃解决。",
+     "highlights": [
+      "修复“战帆”扩展包相关的错误与崩溃",
+      "改进游戏本体稳定性并修复多人游戏漏洞"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "调整拉达戈斯袭击者部队过高的熟练度"
+     ],
+     "fixes": [
+      "修复协助遭袭村庄时显示“离开”选项的错误",
+      "修复记分牌上船只图标不一致的问题",
+      "修复开始沿岸村庄袭击时的崩溃",
+      "修复同时打开部队和港口界面时的内存崩溃",
+      "修复与军队交互后对话再次打开的错误"
+     ]
+    },
+    "pt": {
+     "title": "Notas de Atualização do Mount & Blade II: Bannerlord - WS v1.2.6 / BL v1.4.6",
+     "summary": "Um novo patch foi lançado para Mount & Blade II: Bannerlord. Esta atualização inclui várias correções de bugs e soluções de travamento para a expansão War Sails e para o jogo base.",
+     "highlights": [
+      "Correções de bugs e travamentos específicos da expansão War Sails",
+      "Melhorias de estabilidade do jogo base e correção de exploit multiplayer"
+     ],
+     "buffs": [],
+     "nerfs": [
+      "Reduzido o nível de habilidade excessivo das tropas invasoras de Radagos"
+     ],
+     "fixes": [
+      "Corrigido bug que exibia a opção Sair ao tentar ajudar vila sob ataque",
+      "Corrigidas inconsistências nos ícones de navios no placar",
+      "Corrigido travamento ao iniciar invasões a vilas costeiras",
+      "Corrigido travamento de memória ao abrir telas de exército e porto juntas",
+      "Corrigido bug que reabria a conversa após interagir com o exército"
+     ]
+    }
+   }
   },
   {
    "gid": "1834602721202516",
@@ -22798,6 +23508,88 @@
    ]
   },
   {
+   "gid": "1834602721184118",
+   "appid": 3446920,
+   "game": "메카라시",
+   "date": 1780472936,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721184118",
+   "origTitle": "Mecharashi Major Annual Version [Aftermath] Update Announcement",
+   "maint": {
+    "s": 1749016800,
+    "e": 1749031200
+   },
+   "title": "메카라시 '여진' 대규모 연간 버전 업데이트 및 점검 안내",
+   "summary": "메카라시가 대규모 연간 버전 '여진' 업데이트를 맞아 서버 점검을 진행하며, 신규 파일럿 '로사'와 ST '에리니스'를 포함한 다양한 한정 SP 라인업이 추가됩니다. 또한 소탕 작전 신규 스테이지, 무장 정벌, 시뮬레이션 전투 확장 등 다양한 콘텐츠 확장과 함께 풍성한 이벤트가 개최됩니다.",
+   "highlights": [
+    "신규 파일럿 로사 및 ST 에리니스 등 한정 SP 라인업 추가",
+    "소탕 작전 내 신규 '노바 버스트' 스테이지 추가",
+    "무장 정벌 신규 스테이지 그룹 '들불' 추가",
+    "시뮬레이션 전투 15-3까지 확장 및 링 시즌 7 개막",
+    "신규 스토리 이벤트 '역위의 역설' 및 다양한 한정 이벤트 개최"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Mecharashi Major Annual Version [Aftermath] Update Maintenance Notice",
+     "summary": "Mecharashi is releasing the major annual version [Aftermath] update with scheduled server maintenance. The update introduces new pilots like Rosa with ST Erinys, expansion of Clearance Ops and Armed Conquest, and a massive lineup of limited-time events.",
+     "highlights": [
+      "Added new pilot Rosa and ST Erinys, plus other limited SP recruitment and purchases",
+      "Added 'Nova Burst' stage to Clearance Ops and 'Wildfire' stage group to Armed Conquest",
+      "Expanded Simulated Battles to Stage 15-3 and launched Ring Season 7",
+      "New limited-time story event [Reversion Paradox] and multiple themed events",
+      "Explorer's Quest Season 8 [Observers] featuring pilot and ST selection rewards"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "메카라시 大型年間バージョン「余震」アップデートおよびメンテナンスのお知らせ",
+     "summary": "메카라시大型年間バージョン「余震」アップデートに伴うメンテナンスが実施されます。新パイロット「ロサ」とST「エリニス」をはじめとする限定SP募集や、掃討作戦の新ステージ、武装 conquistaなどの機能拡張、および多数の期間限定イベントが開催されます。",
+     "highlights": [
+      "新パイロット「ロサ」とST「エリニス」など限定SP募集・購入を追加",
+      "掃討作戦に新ステージ「ノヴァバースト」、武装討伐に新ステージグループ「山火事」を追加",
+      "シミュレーションバトルをステージ15-3まで拡張、リングシーズン7開幕",
+      "期間限定ストーリーイベント「逆位のパラドックス」および各種イベントの開催",
+      "探検家のクエストシーズン8「オブザーバー」の実装"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "《机动战队》大型年度版本“余震”更新维护公告",
+     "summary": "《机动战队》将进行大型年度版本“余震”更新维护，期间服务器将无法登录。本次更新带来了全新机师罗莎与ST厄里倪斯等限时SP内容，扩展了清剿行动与武装征服玩法，并开启了丰富多彩的限时主题活动。",
+     "highlights": [
+      "新增限定机师罗莎与ST厄里倪斯及多项限时SP招募与采购",
+      "清剿行动新增“新星爆发”关卡，武装征服新增“野火”关卡组",
+      "模拟战扩展至15-3关卡，环形竞技场第7赛季开启",
+      "推出限时剧情活动“逆转悖论”及多项福利活动",
+      "开启探险者任务第8赛季“观察者”"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Aviso de Manutenção e Atualização da Versão Anual Principal de Mecharashi [Aftermath]",
+     "summary": "Mecharashi traz a grande atualização da versão anual [Aftermath] com manutenção de servidores. A atualização traz novos pilotos como Rosa e o ST Erinys, expansões nas Operações de Limpeza e Conquista Armada, além de uma imensa variedade de eventos por tempo limitado.",
+     "highlights": [
+      "Adicionado o novo piloto Rosa e o ST Erinys, junto com outras aquisições e recrutamentos SP limitados",
+      "Adicionada a fase 'Nova Burst' nas Operações de Limpeza e o grupo de fases 'Wildfire' na Conquista Armada",
+      "Batalhas Simuladas expandidas até a fase 15-3 e início da Temporada 7 do Anel",
+      "Novo evento de história limitado [Reversion Paradox] e múltiplos eventos temáticos",
+      "Início da Missão do Explorador Temporada 8 [Observers] com recompensas de seleção"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1833968530899019",
    "appid": 4125930,
    "game": "퍼니싱: 그레이 레이븐",
@@ -22817,6 +23609,156 @@
    "buffs": [],
    "nerfs": [],
    "fixes": []
+  },
+  {
+   "gid": "1833968530898688",
+   "appid": 3950020,
+   "game": "듀엣 나이트 어비스",
+   "date": 1780344919,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530898688",
+   "origTitle": "New Version [Silver Torrent, Rising Star] Now Available",
+   "title": "신규 버전 [은빛 격류, 떠오르는 샛별] 업데이트 안내",
+   "summary": "듀엣 나이트 어비스에 신규 캐릭터 루미노와 파이로, 신규 무기, 스토리, 지역 플로디아 블룸필드 역이 추가되었습니다. 또한 길드 시스템, 재앙 무기, 외형 시스템 등 다양한 신규 콘텐츠와 이벤트가 진행됩니다.",
+   "highlights": [
+    "신규 캐릭터 루미노 및 파이로 추가",
+    "신규 지역 [플로디아 블룸필드 역] 오픈",
+    "신규 길드 시스템 및 길드 상점 추가",
+    "신규 무기 시스템 [재앙 무기] 및 [외형 시스템] 도입",
+    "다양한 파트 I 및 파트 II 버전 이벤트 개최"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "New Version [Silver Torrent, Rising Star] Update Notice",
+     "summary": "Duet Night Abyss has released a new update featuring new characters Lumino and Pyro, new weapons, storylines, and the Flodia Bloomfield Station area. Additionally, new systems such as Guilds, Calamity Weapons, and an Appearance system have been introduced alongside various events.",
+     "highlights": [
+      "Added new characters Lumino and Pyro",
+      "New map [Flodia Bloomfield Station] now available",
+      "New Guild System and Guild Shop added",
+      "New weapon system [Calamity Weapons] and [Appearance System]",
+      "Part I and Part II version events now live"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "新バージョン「銀の奔流、昇る明星」アップデートのお知らせ",
+     "summary": "『デュエットナイトアビス』に新キャラクターのルミノとパイロ、新武器、ストーリー、新エリア「フロディア・ブルームフィールド駅」が追加されました。さらに、ギルドシステム、災厄武器、外観システムなどの新コンテンツや多彩なイベントが開催されます。",
+     "highlights": [
+      "新キャラクター「ルミノ」「パイロ」を追加",
+      "新マップ「フロディア・ブルームフィールド駅」が解放",
+      "新ギルドシステムおよびギルドショップを追加",
+      "新武器システム「災厄武器」と「外観システム」の実装",
+      "パートIおよびパートIIのバージョンイベントを開催"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "全新版本「银涛 启明星」更新公告",
+     "summary": "《デュエットナイトアビス》推出全新版本，新增角色卢米诺与派洛、全新武器、剧情以及“弗洛迪亚布卢姆菲尔德车站”区域。此外，还实装了公会系统、灾厄武器、外观系统等全新内容及丰富的版本活动。",
+     "highlights": [
+      "新增角色卢米诺与派洛",
+      "开放新地图“弗洛迪亚布卢姆菲尔德车站”",
+      "新增公会系统及公会商店",
+      "新增武器系统“灾厄武器”与“外观系统”",
+      "开启第一部与第二部版本活动"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Nova Versão [Torrente Prateada, Estrela Ascendente] Disponível",
+     "summary": "Duet Night Abyss recebeu uma nova atualização trazendo os personagens Lumino e Pyro, novas armas, enredos e a área da Estação Flodia Bloomfield. Além disso, novos sistemas como Guildas, Armas de Calamidade e o Sistema de Aparência foram introduzidos, junto com vários eventos.",
+     "highlights": [
+      "Adicionados novos personagens Lumino e Pyro",
+      "Novo mapa [Estação Flodia Bloomfield] disponível",
+      "Novo Sistema de Guildas e Loja de Guilda adicionados",
+      "Novo sistema de armas [Armas de Calamidade] e [Sistema de Aparência]",
+      "Eventos de versão da Parte I e Parte II ativados"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1833968530896801",
+   "appid": 3950020,
+   "game": "듀엣 나이트 어비스",
+   "date": 1780300828,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530896801",
+   "origTitle": "Silver Torrent, Rising Star – Update Notes",
+   "maint": {
+    "s": 1780344000,
+    "e": 1780369200
+   },
+   "title": "실버 토렌트, 라이징 스타 업데이트 및 점검 안내",
+   "summary": "듀엣 나이트 어비스의 '실버 토렌트, 라이징 스타' 버전 업데이트를 위한 서버 점검이 진행됩니다. 점검 시간 동안 서버 이용이 제한되며, 보상으로 포시신 300개 등이 지급됩니다.",
+   "highlights": [
+    "버전 명: 실버 토렌트, 라이징 스타",
+    "점검 시간: 2026년 6월 2일 04:00~11:00 (UTC+8)",
+    "점검 보상: 포시신 300개, 의뢰 지침서 II 3개, 의뢰 지침서 III 4개, 장난감 망치 10개"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Silver Torrent, Rising Star Update and Maintenance",
+     "summary": "Server maintenance will take place for the 'Silver Torrent, Rising Star' version update in Duet Night Abyss. All servers will be unavailable during this period, and compensation including Phoxene x300 will be provided.",
+     "highlights": [
+      "Version: Silver Torrent, Rising Star",
+      "Maintenance Schedule: June 2, 2026, 04:00–11:00 (UTC+8)",
+      "Compensation: Phoxene ×300, Commission Manual: Volume Ⅱ ×3, Commission Manual: Volume Ⅲ ×4, Toy Hammer ×10"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "「シルバー・トルレント、ライジングスター」アップデートおよびメンテナンスのお知らせ",
+     "summary": "デュエットナイトアビスの「シルバー・トルレント、ライジングスター」バージョンアップデートに伴うサーバーメンテナンスが実施されます。メンテナンス期間中はサーバーにアクセスできなくなります。",
+     "highlights": [
+      "バージョン名：シルバー・トルレント、ライジングスター",
+      "メンテナンス日時：2026年6月2日 04:00～11:00 (UTC+8)",
+      "お詫び：フォキシン ×300、依頼マニュアル・II ×3、依頼マニュアル・III ×4、おもちゃのハンマー ×10"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "“银色激流，新星升起”更新与停机维护公告",
+     "summary": "《杜处·暗夜深渊》（Duet Night Abyss）将进行“银色激流，新星升起”版本更新维护。维护期间所有服务器将无法登录，官方将发放Phoxene等补偿。",
+     "highlights": [
+      "更新版本：银色激流，新星升起",
+      "维护时间：2026年6月2日 04:00–11:00 (UTC+8)",
+      "维护补偿：Phoxene ×300、委托手册·卷II ×3、委托手册·卷III ×4、玩具锤 ×10"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização e Manutenção: Silver Torrent, Rising Star",
+     "summary": "Uma manutenção do servidor será realizada para a atualização da versão 'Silver Torrent, Rising Star' em Duet Night Abyss. Todos os servidores ficarão indisponíveis durante o período e compensações serão enviadas.",
+     "highlights": [
+      "Versão: Silver Torrent, Rising Star",
+      "Horário da Manutenção: 2 de junho de 2026, 04:00–11:00 (UTC+8)",
+      "Compensação: Phoxene ×300, Manual de Missão: Volume Ⅱ ×3, Manual de Missão: Volume Ⅲ ×4, Martelo de Brinquedo ×10"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
   },
   {
    "gid": "hsr:164415",
@@ -22845,6 +23787,114 @@
     "한국어, 일본어, 영어 등 다국어 음성 및 대화 텍스트 오류 수정",
     "일부 캐릭터 모델링, 이펙트, 모션 표현 비정상 문제 수정"
    ]
+  },
+  {
+   "gid": "1833334318577151",
+   "appid": 767560,
+   "game": "워 로봇",
+   "date": 1779715231,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318577151",
+   "origTitle": "WAR ROBOTS 12.1 UPDATE NOTES",
+   "title": "워 로봇 12.1 업데이트 안내",
+   "summary": "워 로봇 12.1 업데이트가 적용되어 신규 로봇 쇼고스, 장거리 무기 시리즈, 드론, 모더쉽 및 궁극 에디션 라이노 등이 추가되었습니다. 또한 언스이블 컨듀이트 업데이트와 다양한 기술적 수정 사항이 반영되었습니다.",
+   "highlights": [
+    "신규 로봇 '쇼고스' 및 전용 무기 부니스, 우르하게, 샨탁 추가",
+    "신규 궁극 에디션 '라이노', '톡신', '벤놈' 추가",
+    "신규 드론 '프타그네' 및 모더쉽 '룰리에' 추가",
+    "신규 파일럿 백태준, 카이 루오 추가",
+    "언스이블 컨듀이트 활성 모듈 업데이트"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "행크의 표류하는 조선소에서 아이콘 누락 현상 수정",
+    "하데스에 적용되지 않던 릴리안 스타테라의 전설 스킬 수정",
+    "얼티메이트 레버넌트 파일럿 스킬 풀에서 커스텀 어뎁트 등장 수정",
+    "랜슬롯의 추진기 시각 효과 수정",
+    "공급 센터 버튼 오류 상태 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "War Robots 12.1 Update Notes",
+     "summary": "The War Robots 12.1 update is here, bringing the new robot Shoggoth, long-range weapons, drones, a mothership, and the Ultimate Rhino overhaul. Additionally, the Unstable Conduit has been updated along with several bug fixes.",
+     "highlights": [
+      "New robot Shoggoth and weapons Voonith, Urhag, Shantak",
+      "New Ultimate editions: Rhino, Toxin, Venom",
+      "New drone Fhtagn and mothership R'lyeh",
+      "New pilots Baek Taejun and Kai Ruo",
+      "Unstable Conduit active module update"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed missing item icons in Hank's Drifting Shipyard",
+      "Fixed Lilian Statera's legendary skill not working on Hades",
+      "Fixed Customization Adept in Ultimate Revenant pilot skill pool",
+      "Fixed thruster VFX not displaying correctly on Lancelot",
+      "Fixed Supply Center button incorrectly displaying collecting rewards state"
+     ]
+    },
+    "ja": {
+     "title": "ウォーロボット 12.1アップデートノート",
+     "summary": "ウォーロボットの12.1アップデートが配信され、新ロボット「ショゴス」や長距離武器、ドローン、母艦、アルティメット・ライノなどが追加されました。また、アンスタブル・コンデュイトのアップデートや複数の不具合修正が行われました。",
+     "highlights": [
+      "新ロボット「ショゴス」および武器（ブーニ、ウルハグ、シャンタク）の追加",
+      "新アルティメットエディション「ライノ」「トキシン」「ヴェノム」の追加",
+      "新ドローン「フタグン」および母艦「ルルイエ」の追加",
+      "新パイロット「ペク・テジュン」「カイ・ルオ」の追加",
+      "アンスタブル・コンデュイトのアップデート"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "ハンクの漂流造船所でのアイテムアイコン欠落を修正",
+      "ハーデスでリリアン・ステララのレジェンダリースキルが機能しない不具合を修正",
+      "アルティメット・レヴェナントのパイロットスキルプールからカスタム・アデプトを修正",
+      "ランセロットのスラスター視覚効果の不具合を修正",
+      "サプライセンターボタンの表示状態の不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "战神机器人 12.1 版本更新说明",
+     "summary": "《战神机器人》12.1版本更新现已上线，带来了全新机器人“修格斯”、远程武器、无人机、母舰以及终极版“犀牛”。此外，不稳定导管模块得到了更新，并修复了多项技术问题。",
+     "highlights": [
+      "推出新机器人“修格斯”及武器（武尼、乌尔哈格、尚塔克）",
+      "新增终极版“犀牛”、“毒素”、“毒液”",
+      "新增无人机“弗塔格”与母舰“拉莱耶”",
+      "新增机师白泰俊与凯·罗",
+      "更新了不稳定导管主动战斗模块"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复汉克漂流造船厂中道具图标缺失的问题",
+      "修复莉莉安·斯塔特拉的传奇技能对哈迪斯无效的问题",
+      "修复终极亡魂机师技能池中出现定制专家的问题",
+      "修复兰斯洛特推进器视觉特效显示不正确的问题",
+      "修复补给中心按钮状态显示错误的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas da Atualização 12.1 de War Robots",
+     "summary": "A atualização 12.1 de War Robots chegou, trazendo o novo robô Shoggoth, armas de longo alcance, drones, uma nave-mãe e o Rhino Supremo. Além disso, o Conduto Instável foi atualizado junto com várias correções de bugs.",
+     "highlights": [
+      "Novo robô Shoggoth e armas Voonith, Urhag e Shantak",
+      "Novas edições Supremas: Rhino, Toxin e Venom",
+      "Novo drone Fhtagn e nave-mãe R'lyeh",
+      "Novos pilotos Baek Taejun e Kai Ruo",
+      "Atualização do módulo ativo Conduto Instável"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido ícones de itens ausentes no Estaleiro Flutuante do Hank",
+      "Corrigida a habilidade lendária de Lilian Statera que não funcionava no Hades",
+      "Corrigido Adepto de Personalização disponível na pool de habilidades do Ultimate Revenant",
+      "Corrigido os efeitos visuais dos propulsores no Lancelot",
+      "Corrigido o botão do Centro de Suprimentos exibindo incorretamente o estado de coleta"
+     ]
+    }
+   }
   },
   {
    "gid": "1833334318568778",
@@ -25044,7 +26094,7 @@
    }
   }
  ],
- "updated": 1795838014513,
+ "updated": 1795859346573,
  "merged": [
   "1849827110445079",
   "1849827110428767",
@@ -25068,7 +26118,8 @@
   "1847920302230610",
   "1847286114048481",
   "1846651706675921",
-  "1849192144183200"
+  "1849192144183200",
+  "1844115010490707"
  ],
  "icons": {
   "440": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
