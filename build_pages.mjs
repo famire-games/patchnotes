@@ -110,7 +110,7 @@ ${its.map(i => `<item><title>${x(GN(i.game, L) + ': ' + TX(i, L).title)}</title>
 </channel></rss>`);
 }
 // sitemap: 기존 고정 페이지 + 생성 페이지
-const fixed = ['/', '/about', '/info', '/lol', '/hs', '/pkc', '/privacy'];
+const fixed = ['/', '/board', '/about', '/info', '/lol', '/hs', '/pkc', '/privacy'];
 const now = new Date().toISOString();
 const ent = (path, alts, mod, q = L => `${BASE}${pre(L)}${path}`) => alts.map(L => `  <url><loc>${q(L)}</loc><lastmod>${mod}</lastmod>
 ${alts.map(a => `    <xhtml:link rel="alternate" hreflang="${HL[a]}" href="${q(a)}"/>`).join('\n')}

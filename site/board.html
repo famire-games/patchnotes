@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://patchworkgg.pages.dev/board.html">
+<title>Notices — Patchwork</title>
+<meta name="description" content="Patchwork notices and game requests.">
+<link rel="stylesheet" href="page.css">
+<script src="i18n.js"></script>
+<style>
+.tabs{display:flex;gap:8px;margin:18px 0 14px}.tabs button{flex:0 0 auto;background:var(--card);border:1px solid var(--line);color:var(--tx);border-radius:999px;padding:7px 16px;font:inherit;font-size:14px;cursor:pointer}
+.tabs button.on{background:var(--acc);color:#071425;border-color:var(--acc);font-weight:600}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+.box h3{margin:0 0 4px;font-size:16px}.box .meta{color:var(--mute);font-size:12px}.box .tx{white-space:pre-wrap;color:#cfd3da;margin-top:6px;font-size:14px}
+.form{display:grid;gap:8px;margin-bottom:16px}.form input,.form textarea{background:#0b0d11;border:1px solid var(--line);border-radius:8px;color:var(--tx);font:inherit;padding:8px 10px}
+.form textarea{min-height:80px;resize:vertical}.btn{background:var(--acc);color:#071425;border:0;border-radius:8px;padding:8px 16px;font:inherit;font-weight:600;cursor:pointer;justify-self:start}
+.sm{background:none;border:1px solid var(--line);color:var(--mute);border-radius:6px;padding:2px 8px;font:inherit;font-size:12px;cursor:pointer;margin-left:6px}.sm:hover{color:var(--tx)}
+.up{border:1px solid var(--line);background:none;color:var(--tx);border-radius:999px;padding:3px 10px;cursor:pointer;font:inherit;font-size:13px}.up.on{border-color:var(--acc);color:var(--acc)}
+.row{display:flex;align-items:flex-start;gap:12px}.row .grow{flex:1;min-width:0}
+.tag{font-size:11px;border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px}.tag.added{background:#1f5f3a;color:#bff0cf}.tag.rejected{background:#5a2a2a;color:#f3c4c4}
+.sort{color:var(--mute);font-size:13px;margin-bottom:10px}.sort a{cursor:pointer;margin-right:10px}.sort a.on{color:var(--tx);font-weight:600}
+.empty{color:var(--mute);padding:20px 0;text-align:center}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2407147539092560" crossorigin="anonymous"></script>
+</head>
+<body>
+<header><div class="wrap"><div class="top"><h1><a href="index.html"><b>Patch</b>work</a> · <span id="pt"></span></h1></div></div></header>
+<main class="wrap">
+<div class="tabs"><button id="tN"></button><button id="tR"></button></div>
+<div id="form"></div>
+<div id="sort" class="sort"></div>
+<div id="list"><div class="empty">…</div></div>
+</main>
+<footer class="wrap" id="foot"></footer>
+<script>
+const S={
+ en:{n:'Notices',r:'Game requests',noN:'No notices yet.',noR:'No requests yet. Be the first!',title:'Title',body:'Content',post:'Post',del:'Delete',sure:'Delete this?',
+  game:'Game name',why:'Why should we add it? (optional)',login:'Log in and set a nickname to request a game.',banned:'This account has been suspended.',
+  hint:'Ask us to add a game to Patchwork. Upvote requests you want too.',new:'Newest',top:'Most upvoted',added:'Added',rejected:'Not possible',mark:'Mark',none:'Clear',dup:'This game has already been requested — upvote it instead.',fail:'Failed: ',ads:'Links and contact info are not allowed.'},
+ ko:{n:'공지사항',r:'게임 추가 건의',noN:'아직 공지가 없습니다.',noR:'아직 건의가 없습니다. 첫 건의를 남겨 주세요!',title:'제목',body:'내용',post:'올리기',del:'삭제',sure:'삭제할까요?',
+  game:'게임 이름',why:'추가했으면 하는 이유 (선택)',login:'로그인하고 닉네임을 정하면 게임을 건의할 수 있습니다.',banned:'정지된 계정입니다.',
+  hint:'Patchwork에 넣었으면 하는 게임을 알려 주세요. 원하는 건의에는 추천을 눌러 주세요.',new:'최신순',top:'추천순',added:'추가됨',rejected:'추가 불가',mark:'처리',none:'해제',dup:'이미 건의된 게임입니다. 그 글에 추천을 눌러 주세요.',fail:'실패: ',ads:'링크·연락처는 쓸 수 없습니다.'},
+ ja:{n:'お知らせ',r:'ゲーム追加リクエスト',noN:'お知らせはまだありません。',noR:'リクエストはまだありません。最初の一件をどうぞ！',title:'タイトル',body:'内容',post:'投稿',del:'削除',sure:'削除しますか？',
+  game:'ゲーム名',why:'追加してほしい理由（任意）',login:'ログインしてニックネームを設定するとリクエストできます。',banned:'このアカウントは停止されています。',
+  hint:'Patchwork に追加してほしいゲームを教えてください。欲しいリクエストには賛成を押してください。',new:'新しい順',top:'賛成順',added:'追加済み',rejected:'対応不可',mark:'処理',none:'解除',dup:'このゲームは既にリクエストされています。そちらに賛成してください。',fail:'失敗：',ads:'リンクや連絡先は書けません。'},
+ zh:{n:'公告',r:'游戏添加建议',noN:'暂无公告。',noR:'暂无建议，来提第一个吧！',title:'标题',body:'内容',post:'发布',del:'删除',sure:'确定删除？',
+  game:'游戏名称',why:'希望添加的理由（可选）',login:'登录并设置昵称后即可提交建议。',banned:'此账号已被停用。',
+  hint:'告诉我们你希望 Patchwork 收录的游戏。也可以为想要的建议点赞。',new:'最新',top:'最多赞',added:'已添加',rejected:'无法添加',mark:'处理',none:'取消',dup:'该游戏已被建议，请为那条点赞。',fail:'失败：',ads:'不能包含链接或联系方式。'},
+ pt:{n:'Avisos',r:'Sugerir jogos',noN:'Nenhum aviso ainda.',noR:'Nenhuma sugestão ainda. Seja o primeiro!',title:'Título',body:'Conteúdo',post:'Publicar',del:'Excluir',sure:'Excluir?',
+  game:'Nome do jogo',why:'Por que adicionar? (opcional)',login:'Entre e defina um apelido para sugerir um jogo.',banned:'Esta conta foi suspensa.',
+  hint:'Diga qual jogo você quer no Patchwork. Vote nas sugestões que você também quer.',new:'Mais novos',top:'Mais votados',added:'Adicionado',rejected:'Não é possível',mark:'Marcar',none:'Limpar',dup:'Este jogo já foi sugerido — vote nele.',fail:'Falha: ',ads:'Links e contatos não são permitidos.'}
+}[LANG]||null;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const AD=/(https?:\/\/|www\.|discord\.gg|t\.me\/|\.com|\.net|\.org|\.kr|\.io|\.gg|\.xyz|\.shop|\.link|bit\.ly|텔레그램|카톡|오픈채팅|오픈톡)/i;
+const FLAG=c=>c&&c.length==2?String.fromCodePoint(...[...c.toUpperCase()].map(x=>0x1F1A5+x.charCodeAt(0)))+' ':'';
+const day=ts=>ts&&ts.toDate?ts.toDate().toLocaleDateString(LOC,{year:'numeric',month:'short',day:'numeric'}):'';
+let tab=new URLSearchParams(location.search).get('t')==='req'?'req':'notice',sortTop=false,user=null,items=[];
+$('tN').textContent=S.n;$('tR').textContent=S.r;
+$('tN').onclick=()=>go('notice');$('tR').onclick=()=>go('req');
+function go(t){tab=t;history.replaceState(null,'',t==='req'?'?t=req':location.pathname);load()}
+async function load(){
+ $('tN').classList.toggle('on',tab==='notice');$('tR').classList.toggle('on',tab==='req');
+ const t=tab==='req'?S.r:S.n;$('pt').textContent=t;document.title=t+' — Patchwork';
+ drawForm();if(!window.FB){$('list').innerHTML='<div class="empty">…</div>';return}
+ try{items=tab==='req'?await FB.requests():await FB.notices()}catch(e){items=[];console.error(e)}
+ draw();
+}
+function drawForm(){
+ const f=$('form'),adm=window.FB&&FB.isAdmin();
+ if(tab==='notice'){f.innerHTML=adm?`<div class="form box"><input id="fT" maxlength="120" placeholder="${S.title}"><textarea id="fB" maxlength="5000" placeholder="${S.body}"></textarea><button class="btn" id="fP">${S.post}</button></div>`:'';
+  $('sort').innerHTML='';
+  if(adm)$('fP').onclick=async()=>{const t=$('fT').value.trim(),b=$('fB').value.trim();if(!t)return;try{await FB.addNotice(t,b);load()}catch(e){alert(S.fail+(e.code||e.message))}};
+  return}
+ const ok=user&&FB.profile().nick&&!FB.isBanned();
+ f.innerHTML=`<p class="mute" style="margin:0 0 10px;font-size:14px">${S.hint}</p>`+(ok?`<div class="form box"><input id="fG" maxlength="80" placeholder="${S.game}"><textarea id="fW" maxlength="1000" placeholder="${S.why}"></textarea><button class="btn" id="fP">${S.post}</button></div>`
+  :`<div class="box mute" style="font-size:14px">${user&&FB.isBanned()?S.banned:S.login}</div>`);
+ $('sort').innerHTML=`<a id="sN" class="${sortTop?'':'on'}">${S.new}</a><a id="sT" class="${sortTop?'on':''}">${S.top}</a>`;
+ $('sN').onclick=()=>{sortTop=false;drawForm();draw()};$('sT').onclick=()=>{sortTop=true;drawForm();draw()};
+ if(ok)$('fP').onclick=async()=>{const g=$('fG').value.trim(),w=$('fW').value.trim();if(!g)return;
+  if(AD.test(g)||AD.test(w)){alert(S.ads);return}
+  const k=s=>s.toLowerCase().replace(/[\s:：\-_'’]/g,'');if(items.some(i=>k(i.game)===k(g))){alert(S.dup);return}
+  try{await FB.addRequest(g,w);load()}catch(e){alert(S.fail+(e.code||e.message))}};
+}
+function draw(){
+ const L=$('list'),adm=FB.isAdmin(),me=FB.uid();
+ if(tab==='notice'){L.innerHTML=items.length?items.map(n=>`<div class="box"><h3>${esc(n.title)}</h3><div class="meta">${day(n.ts)}${adm?`<button class="sm" data-dn="${n.id}">${S.del}</button>`:''}</div>${n.text?`<div class="tx">${esc(n.text)}</div>`:''}</div>`).join(''):`<div class="empty">${S.noN}</div>`;}
+ else{const cnt=i=>Object.keys(i.up||{}).length;const a=items.slice();if(sortTop)a.sort((x,y)=>cnt(y)-cnt(x));
+  L.innerHTML=a.length?a.map(i=>{const on=me&&i.up&&i.up[me];return `<div class="box row"><button class="up${on?' on':''}" data-up="${i.id}">▲ ${cnt(i)}</button><div class="grow"><h3>${esc(i.game)}${i.status?`<span class="tag ${i.status}">${S[i.status]}</span>`:''}</h3>
+   <div class="meta">${FLAG(i.country)}${esc(i.name)} · ${day(i.ts)}${me===i.uid||adm?`<button class="sm" data-dr="${i.id}">${S.del}</button>`:''}${adm?`<button class="sm" data-st="${i.id}" data-v="added">${S.added}</button><button class="sm" data-st="${i.id}" data-v="rejected">${S.rejected}</button><button class="sm" data-st="${i.id}" data-v="">${S.none}</button>`:''}</div>${i.text?`<div class="tx">${esc(i.text)}</div>`:''}</div></div>`}).join(''):`<div class="empty">${S.noR}</div>`;}
+ L.querySelectorAll('[data-dn]').forEach(b=>b.onclick=async()=>{if(confirm(S.sure)){await FB.delNotice(b.dataset.dn);load()}});
+ L.querySelectorAll('[data-dr]').forEach(b=>b.onclick=async()=>{if(confirm(S.sure)){await FB.delRequest(b.dataset.dr);load()}});
+ L.querySelectorAll('[data-st]').forEach(b=>b.onclick=async()=>{await FB.setRequestStatus(b.dataset.st,b.dataset.v);load()});
+ L.querySelectorAll('[data-up]').forEach(b=>b.onclick=async()=>{
+  if(!user||!FB.profile().nick||FB.isBanned()){alert(S.login);return}
+  const i=items.find(x=>x.id===b.dataset.up);const on=!(i.up&&i.up[me]);
+  try{await FB.upRequest(i.id,on);i.up=i.up||{};if(on)i.up[me]=true;else delete i.up[me];draw()}catch(e){alert(S.fail+(e.code||e.message))}});
+}
+load();
+</script>
+<script src="nav.js"></script>
+<script>
+{const prev=window.onUserChange;window.onUserChange=(u,l)=>{prev&&prev(u,l);user=u;load()};if(window.__fbUser)window.onUserChange(...window.__fbUser)}
+</script>
+<script src="foot.js"></script>
+</body>
+</html>

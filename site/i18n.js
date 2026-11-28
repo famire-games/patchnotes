@@ -31,7 +31,7 @@
       my_star_t: 'Your rating', login_star_t: 'Log in to rate', my_star: n => 'Your rating: ' + n, comments: n => 'Comments ' + n,
       cm_ph: 'Share your thoughts on this patch', cm_ph_login: 'Log in to comment', post: 'Post', newest: 'Newest', best: 'Top', del: 'Delete', first_cm: 'Be the first to comment.',
       err_star: 'Could not save your rating.', err_post: 'Could not post. Links and contact info are not allowed.', err_del: 'Could not delete.', err_vote: 'Could not save your vote.',
-      updated: 'Last updated ', login_loading: 'Login is still loading. Please try again in a moment.', login_fail: 'Login failed: ', nav_all: 'All patch notes', nav_patch: 'Patch notes', lang: 'Language',
+      updated: 'Last updated ', login_loading: 'Login is still loading. Please try again in a moment.', login_fail: 'Login failed: ', nav_all: 'All patch notes', nav_notice: 'Notices', nav_req: 'Game requests', nav_patch: 'Patch notes', lang: 'Language',
       foot: ['About', 'Privacy policy', 'Contact / removal requests', 'Patch summaries are AI summaries of each publisher\'s official announcements and may contain mistakes. Check the original link for exact details.',
         'This is an unofficial fan site, not affiliated with or endorsed by any game company. Game names, images and data belong to their respective owners.',
         'Hearthstone data: Blizzard Entertainment (Battle.net API) · Steam data: Powered by', 'Pokémon data: PokeAPI.']
@@ -57,7 +57,7 @@
       my_star_t: '내 별점', login_star_t: '로그인하면 별점을 줄 수 있습니다', my_star: n => '내 별점 ' + n + '점', comments: n => '댓글 ' + n,
       cm_ph: '이 패치에 대한 생각을 남겨 주세요', cm_ph_login: '로그인하면 댓글을 쓸 수 있습니다', post: '등록', newest: '최신순', best: '추천순', del: '삭제', first_cm: '첫 댓글을 남겨 보세요.',
       err_star: '별점을 저장하지 못했습니다.', err_post: '등록하지 못했습니다. 링크·연락처는 쓸 수 없습니다.', err_del: '삭제하지 못했습니다.', err_vote: '투표를 저장하지 못했습니다.',
-      updated: '마지막 갱신 ', login_loading: '로그인 모듈을 불러오는 중입니다. 잠시 후 다시 눌러 주세요.', login_fail: '로그인 실패: ', nav_all: '패치노트 전체 보기', nav_patch: '패치노트', lang: '언어',
+      updated: '마지막 갱신 ', login_loading: '로그인 모듈을 불러오는 중입니다. 잠시 후 다시 눌러 주세요.', login_fail: '로그인 실패: ', nav_all: '패치노트 전체 보기', nav_notice: '공지사항', nav_req: '게임 추가 건의', nav_patch: '패치노트', lang: '언어',
       foot: ['사이트 소개', '개인정보처리방침', '문의·삭제 요청', '패치노트 요약은 각 게임사의 공식 공지를 AI 로 요약한 것으로, 틀릴 수 있습니다. 정확한 내용은 원문 링크를 확인하세요.',
         '이 사이트는 비공식 팬 사이트이며 어떤 게임사와도 제휴하거나 보증받지 않았습니다. 게임 이름·이미지·데이터의 권리는 각 권리자에게 있습니다.',
         '하스스톤 데이터 출처: Blizzard Entertainment (Battle.net API) · 스팀 데이터: Powered by', '포켓몬 데이터: PokeAPI.']
@@ -83,7 +83,7 @@
       my_star_t: 'あなたの評価', login_star_t: 'ログインすると評価できます', my_star: n => 'あなたの評価 ' + n, comments: n => 'コメント ' + n,
       cm_ph: 'このパッチの感想を書いてください', cm_ph_login: 'ログインするとコメントできます', post: '投稿', newest: '新着順', best: '人気順', del: '削除', first_cm: '最初のコメントを書いてみましょう。',
       err_star: '評価を保存できませんでした。', err_post: '投稿できませんでした。リンクや連絡先は書けません。', err_del: '削除できませんでした。', err_vote: '投票を保存できませんでした。',
-      updated: '最終更新 ', login_loading: 'ログイン機能を読み込み中です。少し待ってからもう一度お試しください。', login_fail: 'ログイン失敗：', nav_all: 'パッチノート一覧', nav_patch: 'パッチノート', lang: '言語',
+      updated: '最終更新 ', login_loading: 'ログイン機能を読み込み中です。少し待ってからもう一度お試しください。', login_fail: 'ログイン失敗：', nav_all: 'パッチノート一覧', nav_notice: 'お知らせ', nav_req: 'ゲーム追加リクエスト', nav_patch: 'パッチノート', lang: '言語',
       foot: ['サイト紹介', 'プライバシーポリシー', 'お問い合わせ・削除依頼', 'パッチ要約は各社の公式告知を AI で要約したもので、誤りを含む場合があります。正確な内容は原文リンクをご確認ください。',
         '当サイトは非公式ファンサイトであり、いかなるゲーム会社とも提携・保証関係にありません。ゲーム名・画像・データの権利は各権利者に帰属します。',
         'ハースストーンのデータ：Blizzard Entertainment (Battle.net API) · Steam データ：Powered by', 'ポケモンのデータ：PokeAPI.']
@@ -109,7 +109,7 @@
       my_star_t: '我的评分', login_star_t: '登录后即可评分', my_star: n => '我的评分 ' + n, comments: n => '评论 ' + n,
       cm_ph: '说说你对这次补丁的看法', cm_ph_login: '登录后即可评论', post: '发布', newest: '最新', best: '最热', del: '删除', first_cm: '来发表第一条评论吧。',
       err_star: '评分保存失败。', err_post: '发布失败。不能包含链接或联系方式。', err_del: '删除失败。', err_vote: '投票保存失败。',
-      updated: '最后更新 ', login_loading: '登录模块加载中，请稍后再试。', login_fail: '登录失败：', nav_all: '查看全部补丁', nav_patch: '补丁说明', lang: '语言',
+      updated: '最后更新 ', login_loading: '登录模块加载中，请稍后再试。', login_fail: '登录失败：', nav_all: '查看全部补丁', nav_notice: '公告', nav_req: '游戏添加建议', nav_patch: '补丁说明', lang: '语言',
       foot: ['关于本站', '隐私政策', '联系 / 删除请求', '补丁摘要由 AI 根据各厂商官方公告生成，可能存在错误。具体内容请查看原文链接。',
         '本站为非官方粉丝网站，与任何游戏公司均无合作或背书关系。游戏名称、图片和数据的权利归各权利人所有。',
         '炉石传说数据来源：Blizzard Entertainment (Battle.net API) · Steam 数据：Powered by', '宝可梦数据：PokeAPI.']
@@ -135,7 +135,7 @@
       my_star_t: 'Sua avaliação', login_star_t: 'Entre para avaliar', my_star: n => 'Sua nota: ' + n, comments: n => 'Comentários ' + n,
       cm_ph: 'Diga o que achou deste patch', cm_ph_login: 'Entre para comentar', post: 'Enviar', newest: 'Recentes', best: 'Mais curtidos', del: 'Excluir', first_cm: 'Seja o primeiro a comentar.',
       err_star: 'Não foi possível salvar sua nota.', err_post: 'Não foi possível enviar. Links e contatos não são permitidos.', err_del: 'Não foi possível excluir.', err_vote: 'Não foi possível salvar seu voto.',
-      updated: 'Atualizado em ', login_loading: 'O login ainda está carregando. Tente de novo em instantes.', login_fail: 'Falha no login: ', nav_all: 'Todas as notas de patch', nav_patch: 'Patch notes', lang: 'Idioma',
+      updated: 'Atualizado em ', login_loading: 'O login ainda está carregando. Tente de novo em instantes.', login_fail: 'Falha no login: ', nav_all: 'Todas as notas de patch', nav_notice: 'Avisos', nav_req: 'Sugerir jogos', nav_patch: 'Patch notes', lang: 'Idioma',
       foot: ['Sobre', 'Política de privacidade', 'Contato / pedidos de remoção', 'Os resumos são feitos por IA a partir dos anúncios oficiais de cada empresa e podem conter erros. Confira o link original para detalhes exatos.',
         'Este é um site de fãs não oficial, sem afiliação ou endosso de nenhuma empresa de jogos. Nomes, imagens e dados dos jogos pertencem aos respectivos donos.',
         'Dados de Hearthstone: Blizzard Entertainment (Battle.net API) · Dados da Steam: Powered by', 'Dados de Pokémon: PokeAPI.']

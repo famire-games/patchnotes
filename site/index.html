@@ -110,7 +110,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 <div id="shade"></div>
 <aside id="drawer"><h3 id="menuH"></h3><div class="who" id="who"></div>
  <input type="checkbox" id="onlyFav" hidden>
- <h3 id="favHead" class="link"></h3><div id="favs"></div><h3 id="revHead" style="margin-top:18px"></h3><div id="revs"></div></aside>
+ <h3 id="favHead" class="link"></h3><div id="favs"></div><h3 id="revHead" style="margin-top:18px"></h3><div id="revs"></div><h3 style="margin-top:18px"><a id="nbLink" href="board.html" style="color:inherit;text-decoration:none"></a></h3><h3><a id="rqLink" href="board.html?t=req" style="color:inherit;text-decoration:none"></a></h3></aside>
 <div class="ad l"></div><div class="ad r"></div>
 <div class="wrap chips" id="chips"></div>
 <main class="wrap" id="list"></main>
@@ -121,6 +121,7 @@ const $=id=>document.getElementById(id);
 // 화면 글자 = 언어별 (i18n.js)
 document.title=T('title');document.querySelector('meta[name=description]').content=T('desc');
 $('brand').innerHTML=T('brand');$('menu').title=T('menu');$('q').placeholder=T('search_ph');$('day').title=T('date_t');$('favTog').title=T('fav_t');
+$('nbLink').textContent=T('nav_notice');$('rqLink').textContent=T('nav_req');
 $('infoBtn').textContent=T('info_btn');$('menuH').textContent='☰ '+T('menu');$('favHead').textContent=T('favlist');$('favHead').title=T('favlist_t');$('revHead').textContent=T('my_reviews');
 document.querySelectorAll('.ad').forEach(a=>a.textContent=T('ad'));$('note').textContent=T('footer_note');$('login').before(langPicker());
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));

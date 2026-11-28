@@ -65,6 +65,31 @@ service cloud.firestore {
       allow read, delete: if isAdmin();
     }
 
+    // 공지: 누구나 읽기, 관리자만 쓰기
+    match /notices/{id} {
+      allow read: if true;
+      allow create: if isAdmin() && request.resource.data.keys().hasOnly(['title', 'text', 'ts'])
+        && request.resource.data.title is string && request.resource.data.title.size() >= 1 && request.resource.data.title.size() <= 120
+        && request.resource.data.text is string && request.resource.data.text.size() <= 5000 && request.resource.data.ts == request.time;
+      allow delete: if isAdmin();
+    }
+    // 게임 추가 건의: 회원이 내 닉네임·국가로 작성, 추천은 자기 칸만, 상태(status)는 관리자만, 삭제는 본인·관리자
+    match /requests/{id} {
+      allow read: if true;
+      allow create: if member()
+        && request.resource.data.keys().hasOnly(['uid','name','country','game','text','ts','up','status'])
+        && request.resource.data.uid == request.auth.uid && request.resource.data.name == myNick()
+        && request.resource.data.get('country', '') == myCountry()
+        && request.resource.data.game is string && request.resource.data.game.size() >= 1 && request.resource.data.game.size() <= 80 && noAds(request.resource.data.game)
+        && request.resource.data.text is string && request.resource.data.text.size() <= 1000 && (request.resource.data.text.size() == 0 || noAds(request.resource.data.text))
+        && request.resource.data.ts == request.time && request.resource.data.up.size() == 0 && request.resource.data.status == '';
+      allow update: if (member() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['up'])
+          && request.resource.data.up.diff(resource.data.up).affectedKeys().hasOnly([request.auth.uid]))
+        || (isAdmin() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+          && request.resource.data.status in ['', 'added', 'rejected']);
+      allow delete: if (request.auth != null && resource.data.uid == request.auth.uid) || isAdmin();
+    }
+
     // 패치 별점: 누구나 읽기, 회원은 stars 안의 자기 칸만 1~5로 바꾸거나 지움 — 평가글이 있어야만
     // ctry 안의 자기 칸 = 서버가 판정한 내 국가와 같아야 함
     match /patches/{pid} {

@@ -79,6 +79,15 @@ window.FB = {
   unban: (who) => deleteDoc(doc(db, 'banned', who)),
   bans: async () => (await getDocs(collection(db, 'banned'))).docs.map(d => ({ id: d.id, ...d.data() })),
   isBanned: () => prof.banned,
+  // 게시판: notices/{id} = {title,text,ts} (관리자만 씀), requests/{id} = 게임 추가 건의 {uid,name,country,game,text,ts,up:{uid:true},status}
+  notices: async () => (await getDocs(query(collection(db, 'notices'), orderBy('ts', 'desc'), limit(100)))).docs.map(d => ({ id: d.id, ...d.data() })),
+  addNotice: (title, text) => addDoc(collection(db, 'notices'), { title, text, ts: serverTimestamp() }),
+  delNotice: (id) => deleteDoc(doc(db, 'notices', id)),
+  requests: async () => (await getDocs(query(collection(db, 'requests'), orderBy('ts', 'desc'), limit(300)))).docs.map(d => ({ id: d.id, ...d.data() })),
+  addRequest: (game, text) => addDoc(collection(db, 'requests'), { uid, name: prof.nick, country: prof.country || '', game, text, ts: serverTimestamp(), up: {}, status: '' }),
+  delRequest: (id) => deleteDoc(doc(db, 'requests', id)),
+  upRequest: (id, on) => updateDoc(doc(db, 'requests', id), { ['up.' + uid]: on ? true : deleteField() }),
+  setRequestStatus: (id, status) => updateDoc(doc(db, 'requests', id), { status }),
   delComment: (pid, cid) => deleteDoc(doc(db, 'patches', pid, 'comments', cid)),
   // v = 1 좋아요, -1 싫어요, 0 취소 (한 사람은 둘 중 하나만)
   vote: (pid, cid, v) => updateDoc(doc(db, 'patches', pid, 'comments', cid), { ['up.' + uid]: v === 1 ? true : deleteField(), ['down.' + uid]: v === -1 ? true : deleteField() })

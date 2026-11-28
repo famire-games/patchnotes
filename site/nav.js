@@ -37,7 +37,7 @@
 
   const shade = document.createElement('div'); shade.id = 'nvShade';
   const drawer = document.createElement('aside'); drawer.id = 'nvDrawer';
-  drawer.innerHTML = '<h3>☰ ' + T('menu') + '</h3><div class="who" id="nvWho">' + T('login_for_fav') + '</div><h3><a href="index.html?fav=1">' + T('favlist') + '</a></h3><div id="nvFavs"></div><h3 style="margin-top:18px"><a href="index.html">' + T('nav_all') + '</a></h3>';
+  drawer.innerHTML = '<h3>☰ ' + T('menu') + '</h3><div class="who" id="nvWho">' + T('login_for_fav') + '</div><h3><a href="index.html?fav=1">' + T('favlist') + '</a></h3><div id="nvFavs"></div><h3 style="margin-top:18px"><a href="index.html">' + T('nav_all') + '</a></h3><h3><a href="board.html">' + T('nav_notice') + '</a></h3><h3><a href="board.html?t=req">' + T('nav_req') + '</a></h3>';
   document.body.appendChild(shade); document.body.appendChild(drawer);
   const open = () => { drawer.classList.add('open'); shade.classList.add('open'); };
   const close = () => { drawer.classList.remove('open'); shade.classList.remove('open'); };
