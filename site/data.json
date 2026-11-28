@@ -1,6 +1,94 @@
 {
  "items": [
   {
+   "gid": "1850460852992007",
+   "appid": 1422450,
+   "game": "데드락",
+   "date": 1795833226,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852992007",
+   "origTitle": "Minor Update - 11-27-2026",
+   "title": "11월 27일 마이너 업데이트",
+   "summary": "데드락 마이너 업데이트가 적용되어 아폴로와 바바의 능력치가 조정되었습니다. 아폴로의 반격 능력이 상향되었고, 바바의 방어력 및 여러 기술의 쿨다운과 피해량이 개선되었습니다.",
+   "highlights": [
+    "아폴로의 반격(Riposte)이 근접 공격 시 발동하도록 변경",
+    "바바의 기본 탄환 저항력 상향 (-7%에서 -4%)",
+    "바바의 기술 쿨다운 감소 및 피해량 증가"
+   ],
+   "buffs": [
+    "아폴로: 반격 쿨다운 감소, T2 디버프 지속시간 증가",
+    "바바: 탄환 저항력 증가, 쓰레드셉 쿨다운 감소 및 피해량 증가",
+    "바바: 그래니 롱 레그스 쿨다운 감소 및 근접 피해 상향"
+   ],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "November 27 Minor Update",
+     "summary": "A minor update for Deadlock has been released, featuring balance adjustments for Apollo and Baba. Apollo's Riposte has been buffed, while Baba receives several cooldown reductions and damage increases.",
+     "highlights": [
+      "Apollo's Riposte now procs on melee hits",
+      "Baba's base bullet resistance increased",
+      "Baba receives various cooldown reductions and damage buffs"
+     ],
+     "buffs": [
+      "Apollo: Riposte cooldown reduced and T2 debuff duration increased",
+      "Baba: Bullet resistance increased, Threadsap cooldown reduced and damage increased",
+      "Baba: Granny Long Legs cooldown reduced and heavy melee scaling increased"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "11月27日 マイナーアップデート",
+     "summary": "デッドロックのマイナーアップデートが配信され、アポロとババのバランス調整が行われました。アポロのリポストが強化され、ババの防御力や各種スキルのクールダウン、ダメージが改善されました。",
+     "highlights": [
+      "アポロのリポストが近接攻撃ヒット時に発動するように変更",
+      "ババの基礎弾丸耐性が向上",
+      "ババの各種スキルのクールダウン短縮とダメージ増加"
+     ],
+     "buffs": [
+      "アポロ: リポストのクールダウン短縮、T2デバフ持続時間増加",
+      "ババ: 弾丸耐性増加、スレッドサップのクールダウン短縮とダメージ増加",
+      "ババ: グラニー・ロング・レッグスのクールダウン短縮と近接ダメージ強化"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "11月27日小幅更新",
+     "summary": "《Deadlock》发布了小幅更新，对阿波罗和芭芭进行了平衡性调整。阿波罗的反击能力得到了增强，同时芭芭的抗性和多项技能的冷却时间及伤害也得到了优化。",
+     "highlights": [
+      "阿波罗的反击（Riposte）现在会在近战命中时触发",
+      "芭芭的基础子弹抗性提升",
+      "芭芭的多项技能冷却时间减少且伤害增加"
+     ],
+     "buffs": [
+      "阿波罗：反击冷却时间减少，T2减益持续时间增加",
+      "芭芭：子弹抗性增加，Threadsap冷却减少且伤害增加",
+      "芭芭：Granny Long Legs冷却减少且重近战加成提升"
+     ],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Atualização Menor de 27 de novembro",
+     "summary": "Uma atualização menor para Deadlock foi lançada, trazendo ajustes de balanceamento para Apollo e Baba. O Riposte de Apollo foi buffado, enquanto Baba recebeu reduções de tempo de recarga e aumentos de dano.",
+     "highlights": [
+      "Riposte de Apollo agora é ativado em acertos corpo a corpo",
+      "Resistência base a balas de Baba aumentada",
+      "Baba recebeu reduções de recarga e buffs de dano em habilidades"
+     ],
+     "buffs": [
+      "Apollo: Cooldown do Riposte reduzido e duração do debuff T2 aumentada",
+      "Baba: Resistência a balas aumentada, cooldown de Threadsap reduzido e dano aumentado",
+      "Baba: Cooldown de Granny Long Legs reduzido e escalonamento de melee pesado aumentado"
+     ],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1850460852990422",
    "appid": 304930,
    "game": "언턴드",
@@ -1713,6 +1801,78 @@
    }
   },
   {
+   "gid": "1850460852983426",
+   "appid": 1049590,
+   "game": "이터널 리턴",
+   "date": 1795654846,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983426",
+   "origTitle": "Maintenance Notice",
+   "maint": {
+    "s": 1795658400,
+    "e": 1795672800
+   },
+   "title": "서버 점검 안내",
+   "summary": "패치 13.2 업데이트를 위해 서버가 임시 점검에 들어갑니다. 점검 시간 동안 게임을 이용할 수 없으며 이벤트 페이지 이용이 제한될 수 있습니다.",
+   "highlights": [
+    "패치 13.2 업데이트를 위한 임시 점검",
+    "점검 시간 동안 게임 접속 불가",
+    "점검 완료 후 클라이언트 재시작 필요"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Maintenance Notice",
+     "summary": "Servers will undergo temporary maintenance to update Patch 13.2. The game will be unavailable during this time and event page usage may be limited.",
+     "highlights": [
+      "Temporary maintenance for Patch 13.2 update",
+      "Game unavailable during maintenance",
+      "Restart client after the update"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "メンテナンスのお知らせ",
+     "summary": "パッチ13.2アップデートのため、サーバーの臨時メンテナンスを実施いたします。メンテナンス期間中はゲームをご利用いただけず、イベントページの一部機能が制限される場合があります。",
+     "highlights": [
+      "パッチ13.2アップデートのための臨時メンテナンス",
+      "メンテナンス中はゲームプレイ不可",
+      "アップデート後にクライアントの再起動が必要"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "维护公告",
+     "summary": "为了更新 13.2 版本补丁，服务器将进行临时维护。维护期间将无法进入游戏，活动页面的使用可能会受到限制。",
+     "highlights": [
+      "为更新 13.2 版本补丁进行临时维护",
+      "维护期间无法进行游戏",
+      "更新后请重新启动客户端"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Aviso de Manutenção",
+     "summary": "Os servidores passarão por manutenção temporária para a atualização do Patch 13.2. O jogo ficará indisponível durante o período e o uso da página de eventos pode ser limitado.",
+     "highlights": [
+      "Manutenção temporária para a atualização do Patch 13.2",
+      "Jogo indisponível durante o período de manutenção",
+      "Reinicie o cliente após a atualização"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "wow:24315281",
    "appid": "wow",
    "game": "월드 오브 워크래프트",
@@ -3346,15 +3506,87 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "Hearthstone 37.2 Patch Preview — Battlegrounds Season 15: Twisted Empire",
-     "summary": "Battlegrounds Season 15 begins with the 37.2 patch on December 1st. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are removed for this season. A limited-time 2v2 Tavern Brawl will also be held. (Based on official preview, final content is subject to change)",
+     "title": "Hearthstone Patch 37.2 Preview — Battlegrounds Season 15: Twisted Empire",
+     "summary": "Battlegrounds Season 15 begins with Patch 37.2 on December 1st. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are rotated out of this season. A limited-time 2v2 Tavern Brawl will also be held. (Based on the official preview; final content is subject to change.)",
      "highlights": [
-      "Battlegrounds Season 15 'Twisted Empire' begins December 1st, Battlegrounds rating reset",
-      "New keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
-      "New heroes: Eternus, Ringleader Vanessa (Hero Power 'Sharpened Strategy')",
-      "Return of Timewarp Tavern: Purchase special cards with Chronum on turns 6 and 9",
-      "Trinkets rotate out of the season, Stealth keyword excluded from bonus pool",
+      "Battlegrounds Season 15 'Twisted Empire' begins December 1st, Battlegrounds Ratings reset",
+      "New Keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
+      "New Heroes: Eternus, Boss Vancleef (Hero Power: 'Sharp Strategy')",
+      "Return of the Timewarp Tavern: Purchase special cards using Chronum on turns 6 and 9",
+      "Trinkets rotated out, Stealth keyword excluded from the bonus pool",
       "Limited-time 2v2 Tavern Brawl"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1849827110438887",
+   "appid": 1203220,
+   "game": "나라카: 블레이드포인트",
+   "date": 1795365072,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110438887",
+   "origTitle": "NARAKA: BLADEPOINT Maintenance Notice - November 22",
+   "maint": {
+    "s": 1700672400,
+    "e": 1700683200
+   },
+   "title": "11월 22일 서버 점검 안내",
+   "summary": "네트워크 문제로 인해 나라카: 블레이드포인트 서버가 임시 점검에 들어갑니다. 점검은 약 3시간 동안 진행될 예정이며, 보상은 서버 오픈 후 게임 내 우편으로 지급됩니다.",
+   "highlights": [
+    "네트워크 문제로 인한 임시 서버 점검",
+    "예상 소요 시간: 약 3시간",
+    "점검 보상 우편 지급 예정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "November 22 Maintenance Notice",
+     "summary": "Due to a network issue, NARAKA: BLADEPOINT servers will undergo temporary maintenance. The maintenance is expected to last for approximately 3 hours, and compensation will be sent via in-game mail after servers are back online.",
+     "highlights": [
+      "Temporary server maintenance due to network issues",
+      "Expected duration: approximately 3 hours",
+      "Compensation to be sent via in-game mail"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "11月22日サーバーメンテナンスのお知らせ",
+     "summary": "ネットワーク上の問題により、NARAKA: BLADEPOINTのサーバーが一時メンテナンスを実施いたします。メンテナンスは約3時間を予定しており、終了後にはゲーム内メールにて補填が配布されます。",
+     "highlights": [
+      "ネットワーク問題に伴う一時メンテナンス実施",
+      "予想所要時間：約3時間",
+      "メンテナンス補填をゲーム内メールで配布予定"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "11月22日服务器维护公告",
+     "summary": "由于网络问题，永劫无间服务器将进行临时维护。预计维护时间约为3小时，维护结束后将通过游戏内邮件发放补偿。",
+     "highlights": [
+      "因网络问题进行临时服务器维护",
+      "预计持续时间：约3小时",
+      "维护补偿将通过游戏内邮件发放"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Aviso de Manutenção de 22 de novembro",
+     "summary": "Devido a um problema de rede, os servidores de NARAKA: BLADEPOINT passarão por uma manutenção temporária. A manutenção deve durar aproximadamente 3 horas, e a compensação será enviada por correio no jogo após o retorno dos servidores.",
+     "highlights": [
+      "Manutenção temporária do servidor devido a problemas de rede",
+      "Duração esperada: aproximadamente 3 horas",
+      "Compensação enviada pelo correio do jogo"
      ],
      "buffs": [],
      "nerfs": [],
@@ -5599,6 +5831,113 @@
      ],
      "nerfs": [],
      "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1849458702692702",
+   "appid": 1056640,
+   "game": "판타시 스타 온라인 2 뉴 제네시스",
+   "date": 1794903143,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702692702",
+   "origTitle": "11/17 Server maintenance announcement",
+   "maint": {
+    "s": 1794967200,
+    "e": 1794988800
+   },
+   "title": "11월 17일 서버 점검 및 버그 수정 안내",
+   "summary": "판타시 스타 온라인 2 뉴 제네시스(PSO2 NEW GENESIS ver.2) 서버 점검이 11월 17일 PST 기준으로 진행되며, 게임 접속 및 관련 이벤트 이용이 불가능합니다. 점검 동안 기간제 아이템의 사용 기한이 점검 시간만큼 연장되며, 포톤 보우 및 다리오 루디안 보스전 등의 버그가 수정됩니다.",
+   "highlights": [
+    "서버 점검 중 게임 접속 및 이벤트 참여 불가",
+    "점검 시간만큼 프리미엄 세트 및 스토리지 등 기간제 아이템 기한 연장",
+    "플렉스 어로우 테크 아츠 커스터마이즈 Type 3 관련 버그 수정",
+    "다리오 루디안 보스전 파괴 및 페이즈 전환 관련 버그 수정",
+    "레젠디오스 하모나이저 드랍 오류 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "포톤 보우 PA 플렉스 어로우 테크 아츠 커스터마이즈 Type 3 사용 시 브레이브 스피릿 효과 미적용 버그 수정",
+    "다리오 루디안 후반부 특정 조건에서 부위 파괴 불가 버그 수정",
+    "다리오 루디안 최종 페이즈 전환 지연 버그 수정",
+    "트리니타스: 기하학적 미궁 Rank 2 및 트레이니아 어드밴스: 오디널 타워 Rank 8에서 레젠디오스 하모나이저가 레젠디오스 하모나이저 II 대신 드랍되던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "11/17 Server Maintenance and Bug Fixes",
+     "summary": "Server maintenance for Phantasy Star Online 2 New Genesis (PSO2 NEW GENESIS ver.2) is scheduled, during which game access and events will be unavailable. Expirations for premium sets and storage items will be extended by the maintenance duration, and several bug fixes including Photon Bow and Dalio Ludian adjustments will be applied.",
+     "highlights": [
+      "Game access and events unavailable during maintenance",
+      "Expirations for premium sets and storage items extended by maintenance duration",
+      "Fixed Photon Bow Flex Arrow Tech Arts Customization Type 3 bug",
+      "Fixed Dalio Ludian boss battle part destruction and phase transition bugs",
+      "Fixed Legendios Harmonizer drop error in Trinitas and Trainia Advance"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a bug in Photon Bow PA Flex Arrow Tech Arts Customization Type 3 preventing Brave Spirit potency and PP recovery increase",
+      "Fixed Dalio Ludian second half boss battle part destruction bug under certain conditions",
+      "Fixed Dalio Ludian final phase transition delay bug",
+      "Fixed Legendios Harmonizer dropping instead of Legendios Harmonizer II in Trinitas: Geometric Labyrinth Rank 2 and Trainia Advance: Ordinal Tower Rank 8"
+     ]
+    },
+    "ja": {
+     "title": "11月17日 サーバーメンテナンスおよび不具合修正のお知らせ",
+     "summary": "『PSO2 NEW GENESIS ver.2』のサーバーメンテナンスが実施され、期間中はゲームへのログインやイベントの利用ができなくなります。メンテナンスに伴い、プレミアムセットや各種ストレージなどの有効期限が延長され、フォトンボウやダリオ・ルディアン戦などの不具合が修正されます。",
+     "highlights": [
+      "メンテナンス中はゲームへのログインおよびイベント利用が不可能",
+      "プレミアムセットやストレージなどの有効期限をメンテナンス時間分延長",
+      "フォトンボウのPA「フレックスアロー」テックアーツカスタマイズType3の不具合修正",
+      "ボス「ダリオ・ルディアン」戦の部位破壊およびフェーズ移行の不具合修正",
+      "「レジェンドジオスハモナイザー」のドロップ不具合修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "フォトンボウ PA「フレックスアロー」テックアーツカスタマイズType3使用時にクラススキル「ブレイブスピリット」の効果が正しく発動しない不具合を修正",
+      "ボスエネミー「ダリオ・ルディアン」後半戦の特定条件下における部位破壊不具合を修正",
+      "ボスエネミー「ダリオ・ルディアン」最終フェーズ移行の遅延不具合を修正",
+      "「Trinitas: Geometric Labyrinth」Rank 2および「Trainia Advance: Ordinal Tower」Rank 8での「レジェンドジオスハモナイザー」ドロップ不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "11月17日服务器维护及漏洞修复公告",
+     "summary": "《梦幻之星Online2 新纪元》(PSO2 NEW GENESIS ver.2) 将进行服务器维护，期间将无法登录游戏及参与相关活动。维护期间将延长高级套装及各类仓库等道具的使用期限，并修复光子弓及达里奥·鲁迪安战等相关漏洞。",
+     "highlights": [
+      "维护期间无法登录游戏及参与活动",
+      "高级套装及仓库等道具的到期时间将延长维护时长",
+      "修复光子弓PA灵活箭式科技艺术自定义Type 3相关漏洞",
+      "修复达里奥·鲁迪安首领战部位破坏及阶段转换漏洞",
+      "修复传奇谐振器掉落错误"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复光子弓PA灵活箭式科技艺术自定义Type 3导致勇敢精神技能未正常生效的漏洞",
+      "修复达里奥·鲁迪安战斗下半部分特定条件下无法破坏部位的漏洞",
+      "修复达里奥·鲁迪安最终阶段转换异常缓慢的漏洞",
+      "修复在几何迷宫Rank 2及训练塔Ordinal Tower Rank 8掉落传奇谐振器而非传奇谐振器II的漏洞"
+     ]
+    },
+    "pt": {
+     "title": "Manutenção de Servidor de 17/11 e Correções de Erros",
+     "summary": "Uma manutenção de servidor para Phantasy Star Online 2 New Genesis (PSO2 NEW GENESIS ver.2) está agendada, durante a qual o acesso ao jogo e eventos ficarão indisponíveis. As validades de conjuntos Premium e itens de armazenamento serão estendidas pela duração da manutenção, e correções de bugs, incluindo ajustes no Arco Fóton e Dalio Ludian, serão aplicadas.",
+     "highlights": [
+      "Acesso ao jogo e eventos indisponíveis durante a manutenção",
+      "Validades de conjuntos Premium e armazenamento estendidas pela duração da manutenção",
+      "Corrigido bug do Arco Fóton Flex Arrow Tech Arts Customization Type 3",
+      "Corrigido bug de destruição de partes e transição de fase na batalha contra Dalio Ludian",
+      "Corrigido erro de queda do Legendios Harmonizer"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido bug no Photon Bow PA Flex Arrow Tech Arts Customization Type 3 que impedia o aumento de potência e recuperação de PP da habilidade Brave Spirit",
+      "Corrigido bug de destruição de partes na segunda metade da batalha contra o chefe Dalio Ludian sob certas condições",
+      "Corrigido bug de atraso na transição para a fase final da batalha contra Dalio Ludian",
+      "Corrigido bug onde Legendios Harmonizer caía em vez de Legendios Harmonizer II no Trinitas: Geometric Labyrinth Rank 2 e Trainia Advance: Ordinal Tower Rank 8"
+     ]
     }
    }
   },
@@ -9641,6 +9980,93 @@
    }
   },
   {
+   "gid": "1848557880478313",
+   "appid": 1056640,
+   "game": "판타시 스타 온라인 2 뉴 제네시스",
+   "date": 1793782531,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478313",
+   "origTitle": "11/3 Server maintenance announcement",
+   "maint": {
+    "s": 1793757600,
+    "e": 1793779200
+   },
+   "title": "11월 3일 서버 점검 및 업데이트 안내",
+   "summary": "판타시 스타 온라인 2 뉴 제네시스 정기 점검이 11월 4일 오전 2시부터 오전 8시(UTC)까지 진행됩니다. 점검 동안 게임 접속이 불가능하며, 새로운 에피스 에이리니 시리즈 장비 및 데켐 아머 IV 추가, 라인 스트라이크 레이팅 초기화 등의 업데이트가 적용됩니다.",
+   "highlights": [
+    "서버 점검 시간 동안 게임 접속 및 이벤트 참여 불가",
+    "에피스 에이리니 무기 및 데켐 아머 IV 추가",
+    "라인 스트라이크 레이팅 1500으로 초기화",
+    "AC 숍에 라인 스트라이크 스타터 팩 및 카드 세트 추가",
+    "NPC 빅토리아의 라인 스트라이크 카드 리사이클에 신규 카드 추가",
+    "프리미엄 세트 및 각종 창고 이용 기간 연장 보상 적용"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "11/3 Server Maintenance and Update Notice",
+     "summary": "Server maintenance for Phantasy Star Online 2 New Genesis is scheduled from November 4, 2026, at 02:00 to 08:00 UTC. During this downtime, players cannot log in, and the update brings new Epith Eirini weapons, Decem Armor IV, Line Strike rating resets, and AC Shop additions.",
+     "highlights": [
+      "Scheduled server maintenance blocking game login",
+      "Added Epith Eirini weapon series and Decem Armor IV",
+      "Line Strike ratings reset to 1500",
+      "Added Line Strike starter packs and card sets to the AC Shop",
+      "Added cards to NPC Victoria's Line Strike Card Recycle",
+      "Extended expiration times for Premium Sets and storage items"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "11/3 メンテナンスおよびアップデートのお知らせ",
+     "summary": "『ファンタシースターオンライン2 ニュージェネシス』の定期メンテナンスが2026年11月4日2:00から8:00（UTC）まで実施されます。メンテナンス中はゲームにログインできず、「エピス・エイリニ」シリーズ武器や「デテムアーマーIV」の追加、ラインストライクのレーティングリセットなどのアップデートが適用されます。",
+     "highlights": [
+      "メンテナンス中はゲームへのログインおよびイベント参加が不可能",
+      "「エピス・エイリニ」シリーズ武器および「デテムアーマーIV」を追加",
+      "ラインストライクのレーティングを1500にリセット",
+      "ACショップにラインストライクのスターターパックとカードセットを追加",
+      "NPC「ヴィクトリア」のラインストライクカードリサイクルに対象カードを追加",
+      "プレミアムセットや各種倉庫の利用期間をメンテナンス時間分延長"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "11/3 服务器维护与更新公告",
+     "summary": "《梦幻之星Online2 新世界》将于2026年11月4日 02:00 至 08:00 (UTC) 进行服务器维护。维护期间将无法登录游戏，本次更新包含追加“爱庇斯·艾莉妮”系列武器、Decem防具IV、决斗方块天梯积分重置以及AC商店上新等内容。",
+     "highlights": [
+      "维护期间无法登录游戏及参与活动",
+      "追加Epith Eirini系列武器与Decem Armor IV防具",
+      "Line Strike天梯积分重置为1500",
+      "AC商店新增Line Strike新手包与卡牌组合",
+      "NPC维多利亚的Line Strike卡牌回收处追加卡牌",
+      "延长高级套装及各类仓库的有效期限"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Manutenção de Servidor e Atualização de 03/11",
+     "summary": "A manutenção do servidor para Phantasy Star Online 2 New Genesis está agendada para 4 de novembro de 2026, das 02:00 às 08:00 UTC. Durante este período, os jogadores não poderão entrar no jogo, e a atualização traz novas armas Epith Eirini, Decem Armor IV, redefinição de ranques do Line Strike e adições à AC Shop.",
+     "highlights": [
+      "Manutenção programada impedindo o login no jogo",
+      "Adicionadas armas da série Epith Eirini e Decem Armor IV",
+      "Ranques do Line Strike redefinidos para 1500",
+      "Adicionados pacotes iniciais e conjuntos de cartas do Line Strike à AC Shop",
+      "Novas cartas adicionadas à Reciclagem de Cartas do Line Strike da NPC Victoria",
+      "Extensão do tempo de validade para Sets Premium e itens de armazenamento"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "trickcal:8409501",
    "appid": "trickcal",
    "game": "트릭컬 리바이브",
@@ -9725,6 +10151,78 @@
       "Fixed an issue where casual wear details were not applied in the Doctrine Lobby",
       "Fixed an issue where the theme theater [A Perfect Cup!] was not displayed"
      ]
+    }
+   }
+  },
+  {
+   "gid": "1848557880477957",
+   "appid": 389430,
+   "game": "나이트 온라인",
+   "date": 1793773948,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880477957",
+   "origTitle": "[Server Maintenance] November 4th 2026, 21:00 EST",
+   "maint": {
+    "s": 1793840400,
+    "e": null
+   },
+   "title": "서버 점검 안내",
+   "summary": "나이트 온라인 서버의 일반적인 점검이 진행될 예정입니다. 연결 상태를 개선하기 위한 정기 점검으로 완료 시간은 미정입니다.",
+   "highlights": [
+    "나이트 온라인 서버 일반 점검",
+    "연결 상태 개선 작업",
+    "완료 시간 미정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Server Maintenance Notice",
+     "summary": "General maintenance will be performed on the Knight Online servers. This routine maintenance aims to improve connectivity, and the completion time is uncertain.",
+     "highlights": [
+      "General server maintenance for Knight Online",
+      "Connectivity improvement work",
+      "Completion time is uncertain"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "サーバーメンテナンスのお知らせ",
+     "summary": "ナイトオンラインのサーバーで一般メンテナンスが実施されます。接続状態を改善するための定期メンテナンスであり、終了時間は未定です。",
+     "highlights": [
+      "ナイトオンラインのサーバー一般メンテナンス",
+      "接続状態の改善作業",
+      "終了時間は未定"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "服务器维护公告",
+     "summary": "Knight Online将进行服务器常规维护工作。本次例行维护旨在改善连接质量，结束时间目前未知。",
+     "highlights": [
+      "Knight Online服务器常规维护",
+      "改善连接质量的工作",
+      "结束时间未定"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Aviso de Manutenção do Servidor",
+     "summary": "Haverá uma manutenção geral nos servidores do Knight Online. Esta manutenção de rotina visa melhorar a conectividade e o horário de término é incerto.",
+     "highlights": [
+      "Manutenção geral do servidor Knight Online",
+      "Trabalho de melhoria de conectividade",
+      "Horário de término incerto"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
     }
    }
   },
@@ -10814,19 +11312,19 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "Umamusume October 30 Update",
-     "summary": "A maintenance-free update introduced the new playable ★3 Umamusume Aines Fujin and new support card pickups, alongside the \"Agnes Tachyon's Factor Research\" event.",
+     "title": "Uma Musume October 30 Update",
+     "summary": "In this unmaintained update, a new playable ★3 Uma Musume, Agnes Digital's companion-like update features, a new support card pickup, and the 'Agnes Tachyon's Factor Research' event were released.",
      "highlights": [
-      "★3 Aines Fujin",
+      "★3 Ines Fujin",
       "SSR Mejiro Ryan",
       "SR Kawakami Princess",
-      "Event \"Agnes Tachyon's Factor Research\" (10/30 - 11/10)"
+      "Event: 'Agnes Tachyon's Factor Research' (10/30 ~ 11/10)"
      ],
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed mistranslations and spacing issues in home voices and training events",
-      "Fixed line break issue in Tamamo Cross SSR episode"
+      "Fixed mistranslations and spacing issues in home screen voices and training events",
+      "Fixed line breaks in Tamamo Cross SSR episode"
      ]
     }
    }
@@ -14847,6 +15345,133 @@
    }
   },
   {
+   "gid": "1845383656395736",
+   "appid": 1056640,
+   "game": "판타시 스타 온라인 2 뉴 제네시스",
+   "date": 1791277866,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656395736",
+   "origTitle": "10/6 Server maintenance announcement",
+   "maint": {
+    "s": 1791298800,
+    "e": 1791360000
+   },
+   "title": "판타시 스타 온라인 2 뉴 제네시스 10월 6일 업데이트 및 점검 안내",
+   "summary": "10월 6일부터 10월 7일까지 정기 점검이 진행되며, 클래스 스킬 조정, 클래스 균형 조정, 시스템 및 인터페이스 개선, 신규 드롭 아이템 추가 및 다양한 버그 수정이 적용됩니다. 점검 시간 동안 게임 접속 및 관련 이벤트 이용이 불가능합니다.",
+   "highlights": [
+    "바운서 및 제트 부츠 클래스 스킬과 포톤 아츠 조정",
+    "모바일 캐논 ECS 및 특수 장비 성능 상향",
+    "얼터 렐름 탐색 퀘스트에 파티 자동 참가 기능 추가",
+    "캐릭터 생성 및 살롱에 기본 선택 가능한 얼굴 및 아이템 추가",
+    "일부 무기 시리즈의 개인샵 거래 허용"
+   ],
+   "buffs": [
+    "바운서 클래스 스킬(제렌 효과, 패내틱 블레이드, 피니언 블레이드 등) 상향",
+    "제트 부츠 포톤 아츠(스피닝 거스트, 바이올런트 게일 등) 위력 상향",
+    "모바일 캐논 ECS의 PP 회복 및 불릿 부스트 관련 성능 상향"
+   ],
+   "nerfs": [],
+   "fixes": [
+    "특정 퀘스트 및 미션 내 진행 불가 및 필드 진입 오류 수정",
+    "포텐셜 효과 지속 시간 및 추가 효과 관련 버그 수정",
+    "일부 코스튬 및 액세서리 그래픽 출력 오류 수정",
+    "파티 퀘스트 및 인터페이스 관련 UI 표시 오류 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "PSO2 New Genesis 10/6 Maintenance and Update Notice",
+     "summary": "Server maintenance is scheduled from October 6 to October 7, bringing balance adjustments to Bouncer and Jet Boots, system and UI enhancements, new drop items, and multiple bug fixes. Players will be unable to log in during the maintenance window.",
+     "highlights": [
+      "Bouncer and Jet Boots class skill and photon art balance adjustments",
+      "Performance buffs for Special Equipment including Mobile Cannon ECS",
+      "Added Auto-Join Party feature to Alter Realm Exploration quests",
+      "Default additions to Character Creation and Salon option lists",
+      "Allowed Twaalv II, Legendios II, and Leyend II series weapons to be sold in Personal Shops"
+     ],
+     "buffs": [
+      "Increased potency and reduced cooldowns for various Bouncer skills",
+      "Increased potency for multiple Jet Boots Photon Arts",
+      "Enhanced Mobile Cannon ECS PP recovery and Bullet Boost gauge performance"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Fixed issues preventing entry in certain areas of Major Target Suppression missions",
+      "Fixed potential effect duration and additional effect application bugs",
+      "Fixed graphic display errors for specific basewear and accessories",
+      "Fixed UI and quick menu toggle display bugs"
+     ]
+    },
+    "ja": {
+     "title": "PSO2 ニュージェネシス 10/6 メンテナンスとアップデート情報",
+     "summary": "10月6日から10月7日にかけてサーバーメンテナンスを実施し、バウンサーやジェットブーツのバランス調整、システムやUIの改修、新ドロップアイテムの追加、各種不具合の修正を行います。メンテナンス中はゲームへのログインができなくなります。",
+     "highlights": [
+      "バウンサーおよびジェットブーツのクラススキル・PA調整",
+      "「モバイルキャノンECS」などの特殊装備性能上方修正",
+      "「オルターレルム探索」クエストへのオートミッション参加機能追加",
+      "キャラクタークリエーションおよびエステのデフォルト選択項目追加",
+      "一部武器シリーズのパーソナルショップ出品対応"
+     ],
+     "buffs": [
+      "バウンサーのクラススキル（ジェレン効果やファナティックブレード等）の性能向上",
+      "ジェットブーツのフォトンアーツ（スピニングガスト等）の威力上方修正",
+      "モバイルキャノンECSのPP回復量およびバレットブースト性能強化"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "一部の重要目標討伐ミッションにおける侵入不可エリア等の不具合修正",
+      "潜在能力の効果時間および追加効果の発動に関するバグ修正",
+      "一部のベースウェアやアクセサリのグラフィック表示不具合修正",
+      "クイックメニューやチャット関連の不具合修正"
+     ]
+    },
+    "zh": {
+     "title": "PSO2 新世纪 10/6 维护与更新公告",
+     "summary": "服务器维护于10月6日至10月7日进行，期间将实施弹跳者（Bouncer）与喷射靴平衡调整、系统及界面优化、新增掉落道具以及各项Bug修复。维护期间将无法登录游戏。",
+     "highlights": [
+      "调整弹跳者与喷射靴的职业技能及光子爆发",
+      "提升移动加农炮 ECS 等特殊装备的性能",
+      "在异界探索任务中新增队伍自动加入功能",
+      "角色创建与美容院中新增默认可选的脸型与饰品选项",
+      "允许部分武器系列在个人商店中进行交易"
+     ],
+     "buffs": [
+      "提升弹跳者职业技能（如杰伦效果、狂热之刃等）威力或降低冷却时间",
+      "提升多项喷射靴光子艺术的威力",
+      "增强移动加农炮 ECS 的PP恢复量与子弹强化槽性能"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "修复特定目标压制任务中部分区域无法进入的Bug",
+      "修复潜在能力效果持续时间与附加效果异常的Bug",
+      "修复特定服饰与饰品外观显示异常的Bug",
+      "修复快速菜单与界面显示相关的Bug"
+     ]
+    },
+    "pt": {
+     "title": "PSO2 New Genesis: Manutenção e Atualização de 06/10",
+     "summary": "Uma manutenção de servidores está agendada de 6 a 7 de outubro, trazendo ajustes de balanceamento para Bouncer e Jet Boots, melhorias de sistema e interface, novos itens de drop e diversas correções de bugs. Jogadores não poderão entrar no jogo durante o período.",
+     "highlights": [
+      "Ajustes de balanceamento em Habilidades de Classe e Photon Arts de Bouncer e Jet Boots",
+      "Aumento de potência para Equipamentos Especiais, incluindo o Mobile Cannon ECS",
+      "Adicionado recurso de entrada automática em grupo nas missões de Alter Realm Exploration",
+      "Adicionados itens e opções padrão na Criação de Personagens e Salão",
+      "Permitida a venda das séries de armas Twaalv II, Legendios II e Leyend II em Lojas Pessoais"
+     ],
+     "buffs": [
+      "Aumento de potência e redução de tempo de recarga em Habilidades de Classe de Bouncer",
+      "Aumento de potência em Photon Arts de Jet Boots",
+      "Melhorias na recuperação de PP e no medidor Bullet Boost do Mobile Cannon ECS"
+     ],
+     "nerfs": [],
+     "fixes": [
+      "Correção de bugs em áreas inacessíveis em missões de Supressão de Alvo Principal",
+      "Correção de bugs na duração de efeitos de Potenciais e aplicação de efeitos adicionais",
+      "Correção de erros de exibição gráfica em roupas e acessórios específicos",
+      "Correções de interface e menus rápidos"
+     ]
+    }
+   }
+  },
+  {
    "gid": "maplestoryworlds:3554383",
    "appid": "maplestoryworlds",
    "game": "메이플스토리 월드",
@@ -17353,6 +17978,103 @@
    }
   },
   {
+   "gid": "1844115010488199",
+   "appid": 1056640,
+   "game": "판타시 스타 온라인 2 뉴 제네시스",
+   "date": 1789537517,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010488199",
+   "origTitle": "9/15 Server maintenance announcement",
+   "maint": {
+    "s": 1789524000,
+    "e": 1789545600
+   },
+   "title": "9월 15일 서버 점검 및 버그 수정 안내",
+   "summary": "판타시 스타 온라인 2 뉴 제네시스(PSO2 NEW GENESIS ver.2) 정기 서버 점검이 진행됩니다. 점검 시간 동안 게임 접속이 불가능하며, 메인 스토리 및 액세서리 관련 버그가 수정됩니다. 또한 점검 시간만큼 각종 이용권 및 기간제 아이템의 유효기간이 연장됩니다.",
+   "highlights": [
+    "메인 스토리 제9장 퀘스트 진행 불가 버그 수정",
+    "특정 창의 트리 뷰 확장 오류 수정",
+    "Center Part Bosom 액세서리 컬러 변경 시 그래픽 오류 수정",
+    "기간제 아이템 및 서비스 유효기간 연장"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "메인 스토리 제9장 '영원의 탑' 진행 불가 및 퀘스트 지역 이탈 불가 버그 수정",
+    "주요 드랍 아이템 및 퀘스트 보상 상세 창에서 트리 뷰가 올바르게 확장되지 않는 문제 수정",
+    "Center Part Bosom 액세서리 색상 변경 시 일부 그래픽이 잘못 표시되던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "9/15 Server Maintenance and Bug Fixes",
+     "summary": "Server maintenance for Phantasy Star Online 2 New Genesis ver.2 is scheduled. Players will be unable to log in during this period, and various bug fixes will be applied. The expiration dates for premium features and timed items will be extended by the duration of the maintenance.",
+     "highlights": [
+      "Fixed Main Story Chapter 9 progress bug",
+      "Fixed tree view expansion issue in reward windows",
+      "Fixed accessory color graphics bug",
+      "Extended expiration for time-limited items and services"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a bug causing task progress to not update for Main Story Chapter 9: Tower of Shadows and trapping players",
+      "Fixed an issue where the tree view would not expand correctly in Featured Drop Items and Quest Reward Details windows",
+      "Fixed a bug causing incorrect graphics when changing colors of the Center Part Bosom accessory"
+     ]
+    },
+    "ja": {
+     "title": "9/15 メンテナンスおよび不具合修正のお知らせ",
+     "summary": "『PSO2 NEW GENESIS ver.2』のサーバーメンテナンスを実施いたします。メンテナンス中はゲームにログインできず、メインストーリーやアクセサリに関する不具合が修正されます。また、プレミアムセットなどの有効期限がメンテナンス時間分延長されます。",
+     "highlights": [
+      "メインストーリー第9章の進行不可バグの修正",
+      "報酬詳細ウィンドウのツリービュー展開不具合の修正",
+      "アクセサリのカラー変更時のグラフィック不具合修正",
+      "期限付きアイテムやサービスの有効期限延長"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "メインストーリー第9章「影の塔」でタスク進行が更新されずクエストエリアから出られなくなる不具合を修正",
+      "「主なドロップアイテム」「クエスト報酬詳細」ウィンドウでツリービューが正しく展開されない不具合を修正",
+      "アクセサリ「センター分け胸元」の色変更時に一部グラフィックが正しく表示されない不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "9/15 服务器维护与BUG修复公告",
+     "summary": "《梦幻之星Online2 新纪元 ver.2》将进行服务器维护。维护期间将无法登录游戏，并修复主线剧情及饰品相关BUG。同时，高级套装及各类限时道具的使用期限将根据维护时长进行延长。",
+     "highlights": [
+      "修复主线剧情第9章任务无法推进BUG",
+      "修复掉落及奖励窗口树状图展开异常问题",
+      "修复饰品染色图形显示错误BUG",
+      "延长限时道具及服务的有效期限"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了主线剧情第9章“影之塔”任务进度不更新且无法离开任务区域的BUG",
+      "修复了在特色掉落物品和任务奖励详情窗口中树状图无法正确展开的问题",
+      "修复了更改Center Part Bosom饰品颜色时部分图形显示不正确的BUG"
+     ]
+    },
+    "pt": {
+     "title": "Manutenção de Servidor e Correções de Bugs de 15/09",
+     "summary": "Manutenção de servidor programada para Phantasy Star Online 2 New Genesis ver.2. Os jogadores não poderão fazer login durante este período e correções de bugs serão aplicadas. A validade de itens e serviços temporários será estendida pela duração da manutenção.",
+     "highlights": [
+      "Correção de bug de progresso no Capítulo 9 da História Principal",
+      "Correção de problema na exibição de árvore em janelas de recompensas",
+      "Correção de bug gráfico ao alterar cor de acessório",
+      "Extensão da validade de itens e serviços por tempo limitado"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido um bug que impedia a atualização do progresso de tarefas no Capítulo 9 da História Principal: Torre das Sombras e prendia os jogadores na área da missão",
+      "Corrigido um problema onde a visualização em árvore não expandia corretamente nas janelas de Itens em Destaque e Detalhes de Recompensa de Missão",
+      "Corrigido um bug que fazia com que alguns gráficos fossem exibidos incorretamente ao alterar as cores do acessório Center Part Bosom"
+     ]
+    }
+   }
+  },
+  {
    "gid": "1843481262705400",
    "appid": 570,
    "game": "도타 2",
@@ -17855,20 +18577,20 @@
    "i18n": {
     "en": {
      "title": "Pokémon Champions Ver. 1.2.0 — Regulation M-C",
-     "summary": "Pokémon and items for Regulation M-C have been added and battle balance has been adjusted. New features such as battle log viewing and battle data on the selection screen have been added.",
+     "summary": "Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features such as viewing battle logs and battle data on the selection screen have been added.",
      "highlights": [
       "Added Regulation M-C Pokémon and held items",
-      "New feature: Log View (records all actions of the current battle)",
-      "New feature: Selection Support (displays battle data on the Pokémon selection screen)"
+      "New Feature: Battle Log (records all actions in the current battle)",
+      "New Feature: Selection Support (displays battle data on the Pokémon selection screen)"
      ],
      "buffs": [
-      "Slash can now be used"
+      "Can now use Slash"
      ],
      "nerfs": [
-      "Politoed: Cannot use Pound",
-      "Archaludon: Cannot use Mirror Coat and Metal Burst",
-      "Wish PP 12 -> 8",
-      "Strength Sap PP 12 -> 8"
+      "Politoed: Can no longer use Pound",
+      "Archaludon: Can no longer use Mirror Coat and Metal Burst",
+      "Wish PP reduced from 12 to 8",
+      "Strength Sap PP reduced from 12 to 8"
      ],
      "fixes": [
       "Fixed some bugs"
@@ -18298,6 +19020,78 @@
       "Ajustadas as configurações de profundidade defensiva baixa para refletir um posicionamento mais conservador",
       "Impedido que passes cavados fossem acionados acidentalmente ao pressionar o Passe Rasteiro múltiplas vezes"
      ]
+    }
+   }
+  },
+  {
+   "gid": "1842212951312622",
+   "appid": 1056640,
+   "game": "판타시 스타 온라인 2 뉴 제네시스",
+   "date": 1788251992,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951312622",
+   "origTitle": "9/1 Server maintenance announcement",
+   "maint": {
+    "s": 1769871600,
+    "e": 1769889600
+   },
+   "title": "9월 1일 서버 점검 및 업데이트 안내",
+   "summary": "판타시 스타 온라인 2 뉴 제네시스 서버 점검이 9월 1일부터 진행되며, 아이템 트레이더에 신규 교환소가 추가됩니다. 점검 시간 동안 게임 접속이 불가능하며 주요 유료 아이템 및 서비스의 이용 기간이 연장됩니다.",
+   "highlights": [
+    "아이템 트레이더에 킨즈 무기 강화(옵션 전송) 및 레바렌즈 무기 교환소 추가",
+    "프리미엄 세트 및 각종 스토리지 등의 이용 기간 점검 시간만큼 연장",
+    "점검 연기 및 슈퍼 보물 스크래치 볼륨 16 드롭 보상으로 스타 젬 지급"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "September 1 Server Maintenance and Updates",
+     "summary": "Server maintenance for Phantasy Star Online 2 New Genesis is scheduled, bringing new Exchange Shops to the Item Trader. Players will be unable to log in during this period, and the expiration times for various premium services and storage options will be extended.",
+     "highlights": [
+      "Added Kinz Weapon Enhancement (Augment Transfer) and Levarenz Weapon Exchange to Item Trader",
+      "Expiration times for Premium Sets and various storages extended by maintenance duration",
+      "Delivered Star Gems as compensation for maintenance delay and Super Treasure Scratch Ticket drops"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "9月1日 サーバーメンテナンスおよびアップデートのお知らせ",
+     "summary": "『ファンタシースターオンライン2 ニューステラ』のサーバーメンテナンスが実施され、アイテムトレーダーに新しい交換ショップが追加されます。メンテナンス中はゲームにログインできず、各種プレミアムセットや倉庫の有効期限が延長されます。",
+     "highlights": [
+      "アイテムトレーダーに「キンズ武器強化（特殊能力移植）」と「レヴァレンズ武器交換」を追加",
+      "プレミアムセットや各種ストレージの有効期限をメンテナンス時間分延長",
+      "メンテナンス遅延およびスーパー宝箱スクラッチVol.16ドロップの補填としてスタージェムを配付"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "9月1日服务器维护与更新公告",
+     "summary": "《梦幻之星Online2 新恩典》将进行服务器维护，并在道具商人的交换商店中新增内容。维护期间玩家将无法登录游戏，同时各项高级套装及仓库的有效时间将进行相应延长。",
+     "highlights": [
+      "道具商人处新增金兹武器强化（附加能力移植）与莱瓦伦兹武器交换商店",
+      "高级套装及各类仓库的到期时间将延长维护时长",
+      "发放维护延迟补偿及超级宝藏抽奖卷第16弹掉落补偿星宝石"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Manutenção de Servidor e Atualização de 1º de Setembro",
+     "summary": "Uma manutenção de servidor para o Phantasy Star Online 2 New Genesis está agendada, adicionando novas Lojas de Troca ao Negociador de Itens. Os jogadores não poderão fazer login durante este período e o tempo de expiração de vários serviços premium será estendido.",
+     "highlights": [
+      "Adicionadas lojas de troca de Aprimoramento de Armas Kinz e Troca de Armas Levarenz ao Negociador de Itens",
+      "Tempo de expiração de Conjuntos Premium e armazenamentos estendido pela duração da manutenção",
+      "Distribuídas Star Gems como compensação pelo atraso da manutenção e drops do Super Treasure Scratch Ticket"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
     }
    }
   },
@@ -19512,6 +20306,73 @@
    }
   },
   {
+   "gid": "1840944183788253",
+   "appid": 1056640,
+   "game": "판타시 스타 온라인 2 뉴 제네시스",
+   "date": 1787044565,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183788253",
+   "origTitle": "8/18 Server maintenance announcement",
+   "maint": {
+    "s": 1787104800,
+    "e": 1787126400
+   },
+   "title": "8월 18일 서버 점검 안내",
+   "summary": "판타시 스타 온라인 2 뉴 제네시스 정기 서버 점검이 진행됩니다. 점검 중에는 게임 접속 및 이벤트 참여가 불가능하며, 아이템 랩의 교환 강화 재료에 새로운 Augment Capsule이 추가됩니다.",
+   "highlights": [
+    "아이템 랩 교환 강화 재료에 C/Emis Halphinale 추가",
+    "프리미엄 세트 및 각종 창고 이용 기간 연장"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "8/18 Server Maintenance Announcement",
+     "summary": "Server maintenance is scheduled for Phantasy Star Online 2 New Genesis. Players will be unable to log in during this period, and C/Emis Halphinale will be added to the Item Lab exchange materials.",
+     "highlights": [
+      "C/Emis Halphinale added to Item Lab exchange materials",
+      "Expiration of Premium Sets and storage extended by maintenance duration"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "8/18 サーバーメンテナンスのお知らせ",
+     "summary": "『ファンタシースターオンライン2 ニュージェネシス』のサーバーメンテナンスを実施いたします。メンテナンス中はログインやイベントへの参加ができなくなります。",
+     "highlights": [
+      "アイテムラボの交換強化素材に「C/エミス・アルフィナル」を追加",
+      "プレミアムセットや各種倉庫の有効期限をメンテナンス時間分延長"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "8/18 服务器维护公告",
+     "summary": "《梦幻之星Online2 新恩典》将进行服务器维护。维护期间将无法登录游戏，同时道具实验室的兑换强化材料中将新增特殊能力胶囊。",
+     "highlights": [
+      "道具实验室的兑换强化材料新增 C/Emis Halphinale",
+      "高级套装及各项仓库的使用期限将延长维护时长"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Anúncio de manutenção do servidor em 18/08",
+     "summary": "Manutenção do servidor planejada para Phantasy Star Online 2 New Genesis. Os jogadores não poderão fazer login durante este período e novos materiais serão adicionados ao Laboratório de Itens.",
+     "highlights": [
+      "Adicionado C/Emis Halphinale aos materiais de troca do Laboratório de Itens",
+      "Expiração de Pacotes Premium e armazéns estendida pela duração da manutenção"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1840944183787155",
    "appid": 1568590,
    "game": "구스구스덕",
@@ -20134,6 +20995,123 @@
      "buffs": [],
      "nerfs": [],
      "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1839676055896793",
+   "appid": 1056640,
+   "game": "판타시 스타 온라인 2 뉴 제네시스",
+   "date": 1785830925,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055896793",
+   "origTitle": "8/4 Server maintenance announcement",
+   "maint": {
+    "s": 1785884400,
+    "e": 1785916800
+   },
+   "title": "8월 4일 정기 점검 및 업데이트 안내",
+   "summary": "2026년 8월 4일 23:00부터 8월 5일 08:00(UTC)까지 서버 정기 점검이 진행됩니다. 점검 중에는 게임 접속 및 캠페인, 스크래치 티켓 이용이 중단되며, 퀘스트 카운터 개편, 퀵 푸드 편의 기능 추가 및 다양한 버그 수정이 적용됩니다.",
+   "highlights": [
+    "퀘스트 카운터의 기간 한정 퀘스트를 '추천 퀘스트'로 변경 및 권장 속성 표시",
+    "보스 에너미 '루인 엔젤'의 일부 공격을 가드 가능하도록 조정",
+    "퀵 푸드에 재료를 자동으로 선택해 주는 '추천 레시피' 기능 추가",
+    "표정 커스터마이즈 시 표정 설정을 다른 표정으로 복사하는 기능 추가",
+    "아이템 트레이더에 '그란일루전 무기 강화(특수 능력 이전)' 교환소 추가",
+    "라인 스트라이크 스타터 덱 AC 숍 추가 및 카드 스크래치 라인업 갱신"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "말리그넌트 루인 루서 격파 중 플레이어 전투 불능 시 록온 해제 거리가 짧아지던 현상 수정",
+    "하이 아그니의 특정 공격 시 처리 부하가 급증하던 문제 수정",
+    "EX 트라이 실드 시리즈 효과가 발동하지 않거나 지역 이동 시 쿨다운이 리셋되던 문제 수정",
+    "라인 스트라이크에서 특정 카드 효과 발동 시 매치가 강제 종료되던 현상 수정",
+    "무기 잠재능력 '개화의 빛' 효과가 특정 퀘스트 재도전 시 동작하지 않던 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "8/4 Server Maintenance and August Update Announcement",
+     "summary": "Server maintenance is scheduled from August 4, 2026, at 11:00 PM to August 5, 2026, at 8:00 AM UTC. Players will be unable to log in, and campaigns or Scratch Tickets will be unavailable while quest counter updates, recipe helpers, and bug fixes are deployed.",
+     "highlights": [
+      "Replaced Limited-Time Quests with Recommended Quests and added recommended Element displays",
+      "Changed select attacks of Boss Enemy: Ruine Angel to be Guardable",
+      "Added the Recommended Recipe ingredient auto-selection feature to Quick Food",
+      "Added ability to copy expression settings across expressions in Character Creation",
+      "Added Granillusion Weapon Enhancement (Augment Transfer) Exchange Shop to Item Trader",
+      "Added Line Strike starter deck to the AC Shop and updated Card Scratch lineup"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed lock-on breaking distance decreasing when incapacitated against Malignant Ruine Luther",
+      "Fixed processing load spikes during certain attacks of Boss Enemy: High Agni",
+      "Fixed issues preventing EX Tri-Shield series activation or causing cooldown resets upon area changes",
+      "Fixed a bug causing Line Strike matches to forcibly terminate under certain card effect timings",
+      "Fixed Potential: Triumphant Light effects failing to apply or reset correctly under specific conditions"
+     ]
+    },
+    "ja": {
+     "title": "8/4 サーバー定期メンテナンスおよびアップデートのお知らせ",
+     "summary": "2026年8月4日23:00から8月5日08:00（UTC）までサーバー定期メンテナンスが実施されます。メンテナンス中はゲームへのログインや各種キャンペーン、スクラッチの利用ができなくなり、クエストカウンター改修や不具合修正が実施されます。",
+     "highlights": [
+      "クエストカウンターの「期間限定クエスト」を「おすすめクエスト」に変更＆推奨属性表示",
+      "ボスエネミー「ルーイネ・アンゲル」の一部の攻撃をガード可能に変更",
+      "クイックフードに食材を自動選択する「おすすめレシピ」機能を追加",
+      "エステの表情カスタムにて表情設定を別の表情にコピーできる機能を追加",
+      "アイテムトレーダーに「グランイリュージョン武器強化（特殊能力移植）」交換所を追加",
+      "ACショップに「ラインストライク」スターターデッキを追加＆カードスクラッチ更新"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "「ルーイネ・ルーサー」戦で戦闘不能時にロックオンが外れやすくなる不具合の修正",
+      "ボスエネミー「ハイ・アグニ」の特定攻撃時に処理負荷が増大する不具合の修正",
+      "特殊能力「EXトライシールド」系の効果未発動やエリア移動時のクールダウンリセット不具合の修正",
+      "「ラインストライク」で特定カード効果の処理中に勝負が強制終了する不具合の修正",
+      "武器潜在能力「快気の光」の効果が正常にリセット・発動しない不具合の修正"
+     ]
+    },
+    "zh": {
+     "title": "8月4日服务器维护与更新公告",
+     "summary": "服务器维护定于UTC时间2026年8月4日23:00至8月5日08:00进行。维护期间将无法登录游戏，活动及抽奖功能暂停使用，届时将上线任务柜台调整、快捷料理推荐功能及多项问题修复。",
+     "highlights": [
+      "任务柜台将“期间限定任务”变更为“推荐任务”，并显示推荐属性",
+      "首领敌人“破灭天使”（Ruine Angel）的部分攻击调整为可格挡",
+      "快捷料理新增自动选择素材的“推荐食谱”功能",
+      "角色创建中的表情自定义新增表情设置复制功能",
+      "道具交易商处新增“格兰幻影武器强化（能力追加转移）”交换所",
+      "AC商城新增Line Strike初始卡组，并追加全新卡片抽奖阵容"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复与“恶毒破灭路瑟”战斗中玩家陷入无法战斗状态时锁定易断开的问题",
+      "修复首领敌人“高等阿格尼”特定攻击导致处理负荷激增的问题",
+      "修复特殊能力“EX三重护盾”系列未生效及切换区域时冷却重置的问题",
+      "修复Line Strike在特定卡片效果结算时导致对战强制中断的问题",
+      "修复武器潜在能力“凯旋之光”在特定条件下未正常生效或重置的问题"
+     ]
+    },
+    "pt": {
+     "title": "Anúncio de Manutenção dos Servidores e Atualização de 4/8",
+     "summary": "A manutenção dos servidores está programada para ocorrer de 4 de agosto de 2026, às 23:00, até 5 de agosto de 2026, às 08:00 UTC. O login no jogo, campanhas e Scratch Tickets estarão indisponíveis durante o período enquanto novidades no Quest Counter e correções forem aplicadas.",
+     "highlights": [
+      "Substituição de Limited-Time Quests por Recommended Quests e exibição de elementos recomendados",
+      "Ajustados alguns ataques do chefe Ruine Angel para poderem ser defendidos (Guardable)",
+      "Adicionada seleção automática de ingredientes (Recommended Recipe) ao Quick Food",
+      "Adicionada função de copiar configurações de expressões na Criação de Personagens",
+      "Adicionada troca Granillusion Weapon Enhancement (Augment Transfer) ao Item Trader",
+      "Adicionado starter deck de Line Strike na AC Shop e itens novos no Card Scratch"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Correção de erro em que a mira se desfazia facilmente ao ser incapacitado contra Malignant Ruine Luther",
+      "Correção de picos de lag e carga de processamento durante ataques de High Agni",
+      "Correção de falha de ativação e reset indevido de recarga dos Augments da série EX Tri-Shield",
+      "Correção de encerramento forçado de partidas em Line Strike sob condições específicas de cartas",
+      "Correção de falhas nos efeitos da Potential Triumphant Light ao reiniciar certas quests"
+     ]
     }
    }
   },
@@ -20893,6 +21871,83 @@
       "Added new area 'Roscalifer - Buastrum - Gear Street'",
       "Added new permanent game mode 'Labyrinth Riddle: Operation Bagel'",
       "Reset Monochrome Market first-purchase double bonus"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1839041357037663",
+   "appid": 1056640,
+   "game": "판타시 스타 온라인 2 뉴 제네시스",
+   "date": 1785226131,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357037663",
+   "origTitle": "7/28 Server maintenance announcement",
+   "maint": {
+    "s": 1785290400,
+    "e": 1785312000
+   },
+   "title": "7월 28일 서버 점검 안내",
+   "summary": "판타시 스타 온라인 2 뉴 제네시스 ver.2 서버 점검이 진행됩니다. 점검 시간 동안 게임 접속 및 이벤트 참여가 불가능하며, 대상 기간 내 만료되는 프리미엄 세트 및 각종 창고 등의 이용 기간이 연장됩니다. 또한 설문조사 보상으로 스타 젬이 배포됩니다.",
+   "highlights": [
+    "7월 28일 오후 7시부터 7월 29일 오전 1시(PDT)까지 서버 점검 진행",
+    "점검 중 접속 불가 및 이벤트 이용 제한",
+    "프리미엄 세트, 창고 및 보너스 키 등 만료 기간 연장",
+    "설문조사 참여 보상으로 스타 젬 50개 지급 (SEGA 계정 연동 필요)"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "7/28 Server Maintenance Notice",
+     "summary": "Server maintenance will be held for PSO2 NEW GENESIS ver.2. Players will be unable to log in during this downtime, and the expiration times for Premium Sets, storages, and other features expiring during maintenance will be extended. Survey rewards will also be delivered to eligible players.",
+     "highlights": [
+      "Maintenance scheduled from 7/28/2026 7:00 PM to 7/29/2026 1:00 AM (PDT)",
+      "Logins and related events unavailable during maintenance",
+      "Expiration for Premium Sets, storages, and Bonus Keys extended",
+      "Survey rewards of 50 Star Gems distributed (SEGA Account linking required)"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "7/28 サーバーメンテナンスのお知らせ",
+     "summary": "『ファンタシースターオンライン2 ニューヨークジェネシス』ver.2のサーバーメンテナンスを実施いたします。メンテナンス中はログインやキャンペーン等の利用ができなくなりますが、対象期間中に有効期限を迎えるプレミアムセットや各種倉庫などの利用期間が延長されます。また、アンケートのお礼としてスタージェムが配布されます。",
+     "highlights": [
+      "7月28日19:00から7月29日1:00（PDT）までサーバーメンテナンスを実施",
+      "メンテナンス中はログインおよびイベント利用不可",
+      "プレミアムセットや各種倉庫、ボーナスキーなどの有効期限を延長",
+      "アンケート回答者にスタージェム50個を配付（SEGAアカウント連携が必要）"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "7/28 服务器维护公告",
+     "summary": "《梦幻之星Online2 新世界》ver.2将进行服务器维护。维护期间将无法登录游戏及参与活动，维护期间到期的高级套装、各类仓库等道具的使用期限将会延长。同时，问卷调查奖励也将发放给符合条件的玩家。",
+     "highlights": [
+      "维护时间：2026年7月28日 19:00 至 7月29日 1:00 (PDT)",
+      "维护期间无法登录及参与相关活动",
+      "延长高级套装、仓库及奖励秘钥等道具的到期时间",
+      "发放50个星钻作为问卷调查奖励（需绑定SEGA账号）"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Aviso de Manutenção do Servidor em 28/7",
+     "summary": "Uma manutenção do servidor será realizada no PSO2 NEW GENESIS ver.2. Os jogadores não poderão fazer login durante este período, e a validade de conjuntos Premium, armazéns e outros itens expirando durante a manutenção será estendida. Recompensas de pesquisa também serão entregues aos jogadores elegíveis.",
+     "highlights": [
+      "Manutenção agendada das 19:00 de 28/07/2026 à 01:00 de 29/07/2026 (PDT)",
+      "Impossibilidade de login e participação em eventos durante a manutenção",
+      "Extensão do tempo de validade para conjuntos Premium, armazéns e Bonus Keys",
+      "Distribuição de 50 Star Gems como recompensa de pesquisa (necessário vincular a conta SEGA)"
      ],
      "buffs": [],
      "nerfs": [],
@@ -23989,7 +25044,7 @@
    }
   }
  ],
- "updated": 1795816406578,
+ "updated": 1795838014513,
  "merged": [
   "1849827110445079",
   "1849827110428767",
