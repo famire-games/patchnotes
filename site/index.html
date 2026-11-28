@@ -91,6 +91,7 @@ footer{color:var(--mute);font-size:12px;text-align:center;padding:20px}
 .pendh{display:block;color:#ffcc33;font-size:12px;margin:-4px 0 6px}
 .rev span{line-height:1.3}.rev small{color:var(--mute)}
 .cmsort{display:flex;gap:6px;margin-bottom:8px}.cmsort button{background:none;color:var(--mute);border:1px solid var(--line);padding:3px 10px;font-weight:400;font-size:13px}.cmsort button.on{color:var(--tx);border-color:var(--acc)}
+#rvAll{position:fixed;inset:0;background:#000a;z-index:80;display:flex;align-items:center;justify-content:center;padding:16px}#rvAll .rvp{background:var(--card,#171a21);border:1px solid var(--line);border-radius:16px;width:min(720px,100%);max-height:88vh;overflow:auto;padding:20px 24px}.rvh{display:flex;align-items:center;gap:12px;margin-bottom:14px}.rvh img{width:48px;height:48px;border-radius:10px;object-fit:cover}.rvh b{display:block;font-size:18px}.rvh small{color:var(--mute)}.rvh div{flex:1;min-width:0}.rvx{background:none;border:0;color:var(--tx);font-size:22px;cursor:pointer;align-self:flex-start}.rvs{display:flex;gap:20px;align-items:center;margin-bottom:10px}.rvavg{text-align:center}.rvavg b{display:block;font-size:40px;line-height:1.1}.rvavg span{color:#ffcc33;display:block}.rvavg small{color:var(--mute)}.rvbars{flex:1}.rvbars div{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--mute)}.rvbars i{flex:1;height:8px;background:#ffffff14;border-radius:4px;overflow:hidden}.rvbars em{display:block;height:100%;background:#ffcc33;border-radius:4px}#rvAll .cmsort{margin-top:12px}
 .cmi{padding:10px 0;border-bottom:1px solid var(--line)}.cmi .h{font-size:13px;color:var(--mute);display:flex;gap:8px;align-items:center}.cmi .h b{color:var(--tx)}.cmi .h .st{color:#ffcc33}
 .cmi p{margin:4px 0 6px;white-space:pre-wrap;word-break:break-word}.flag{vertical-align:-2px;border-radius:2px;margin-right:4px}
 .ctry{display:flex;flex-wrap:wrap;gap:6px 12px;margin:0 0 0 6px;font-size:13px;color:var(--mute)}.ctry span{display:flex;align-items:center;gap:2px}.ctry b{color:#ffcc33;font-weight:600;margin-left:2px}
@@ -231,7 +232,7 @@ let cur=null,cmSort='new',cmAll=false,cmEdit=false,pend=0;
 const PID=i=>String(i.gid||i.url).replace(/[\/.#$\[\]]/g,'_').slice(0,500);
 const ago=t=>{if(!t)return T('just');const s=(Date.now()-t.toMillis())/1000;return s<60?T('just'):s<3600?T('m_ago',Math.floor(s/60)):s<86400?T('h_ago',Math.floor(s/3600)):s<2592000?T('d_ago',Math.floor(s/86400)):t.toDate().toLocaleDateString(LOC)};
 async function loadCm(i){
- cur={pid:PID(i),stars:{},ctry:{},list:[]};cmAll=false;cmEdit=false;pend=0;const pid=cur.pid;
+ cur={pid:PID(i),stars:{},ctry:{},list:[],game:GN(i.game),title:TX(i).title,icon:ICON(i)};cmAll=false;cmEdit=false;pend=0;const pid=cur.pid;
  if(!window.FB){setTimeout(()=>cur&&cur.pid===pid&&loadCm(i),500);return}
  try{const [s,l]=await Promise.all([FB.getStars(pid),FB.comments(pid)]);if(!cur||cur.pid!==pid)return;cur.stars=s.stars;cur.ctry=s.ctry;cur.list=l;drawCm()}
  catch(e){console.error('커뮤니티 불러오기 실패',e);const el=$('cm');if(el)el.innerHTML='<small style="color:var(--mute)">'+T('cm_fail')+'</small>'}
@@ -245,15 +246,15 @@ function drawCm(){
  const v=liveStars().map(x=>x[1]),avg=v.length?(v.reduce((a,b)=>a+b,0)/v.length):0,mine=pend||(me&&cur.list.some(c=>c.uid===me)?cur.stars[me]||0:0);
  const sc=c=>Object.keys(c.up||{}).length-Object.keys(c.down||{}).length;
  // 기본은 내 평가(댓글)만, [모든 평가 보기]를 누르면 전부
- const list=[...cur.list].filter(c=>cmAll||(me&&c.uid===me)).sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);const adm=FB.isAdmin(),mineC=me&&cur.list.find(c=>c.uid===me);
- el.innerHTML=`<div class="cmh"><h3>${T('cm_q')}</h3><button class="allbtn" data-all-rev>${cmAll?T('my_rev'):T('all_rev',cur.list.length)}</button></div><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ 0.0'}</span><small>${T('rated',v.length)}</small>
+ const list=cur.list.filter(c=>me&&c.uid===me),all=[...cur.list].sort((a,b)=>cmSort==='best'?sc(b)-sc(a):0);const adm=FB.isAdmin(),mineC=me&&cur.list.find(c=>c.uid===me);
+ const one=c=>{const u=me&&c.up&&c.up[me],d=me&&c.down&&c.down[me],st=cur.stars[c.uid];
+   return `<div class="cmi"><div class="h"><b>${FLAG(c.country)}${esc(c.name||T('user'))}</b>${st?'<span class="st">'+'★'.repeat(st)+'</span>':''}<span>${ago(c.ts)}</span>${me===c.uid?`<button class="del" data-edit>${T('edit')}</button><button class="del" data-del="${c.id}">${T('del')}</button>`:adm?`<button class="del" data-del="${c.id}" style="color:var(--down)">${T('admin_del')}</button><button class="del" data-ban="${c.id}" style="color:var(--down)">${T('ban')}</button>`:me?`<button class="del" data-rep="${c.id}">${T('report')}</button>`:''}</div>
+   <p>${esc(c.text)}</p><div class="v"><button class="u${u?' on':''}" data-vote="${c.id}" data-v="1">👍 ${Object.keys(c.up||{}).length}</button><button class="d${d?' on':''}" data-vote="${c.id}" data-v="-1">👎 ${Object.keys(c.down||{}).length}</button></div></div>`};
+ el.innerHTML=`<div class="cmh"><h3>${T('cm_q')}</h3><button class="allbtn" data-all-rev>${T('all_rev',cur.list.length)}</button></div><div class="rate"><span class="avg">${v.length?'★ '+avg.toFixed(1):'☆ 0.0'}</span><small>${T('rated',v.length)}</small>
   <span class="stars" title="${me?T('my_star_t'):T('login_star_t')}">${[1,2,3,4,5].map(n=>`<button data-rate="${n}" class="${n<=mine?'on':''}">★</button>`).join('')}</span>${ctryLine()}</div>
   <h3>${T('comments',cur.list.length)}</h3>
   ${mineC&&!cmEdit?'':`<div class="cmf"><textarea id="cmTxt" maxlength="1000" placeholder="${me?T('cm_ph'):T('cm_ph_login')}">${cmEdit&&mineC?esc(mineC.text):''}</textarea><button data-post>${cmEdit?T('edit_done'):T('post')}</button></div>`}
-  ${cmAll&&cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">${T('newest')}</button><button data-sort="best" class="${cmSort==='best'?'on':''}">${T('best')}</button></div>`:''}
-  ${list.map(c=>{const u=me&&c.up&&c.up[me],d=me&&c.down&&c.down[me],st=cur.stars[c.uid];
-   return `<div class="cmi"><div class="h"><b>${FLAG(c.country)}${esc(c.name||T('user'))}</b>${st?'<span class="st">'+'★'.repeat(st)+'</span>':''}<span>${ago(c.ts)}</span>${me===c.uid?`<button class="del" data-edit>${T('edit')}</button><button class="del" data-del="${c.id}">${T('del')}</button>`:adm?`<button class="del" data-del="${c.id}" style="color:var(--down)">${T('admin_del')}</button><button class="del" data-ban="${c.id}" style="color:var(--down)">${T('ban')}</button>`:me?`<button class="del" data-rep="${c.id}">${T('report')}</button>`:''}</div>
-   <p>${esc(c.text)}</p><div class="v"><button class="u${u?' on':''}" data-vote="${c.id}" data-v="1">👍 ${Object.keys(c.up||{}).length}</button><button class="d${d?' on':''}" data-vote="${c.id}" data-v="-1">👎 ${Object.keys(c.down||{}).length}</button></div></div>`}).join('')||'<small style="color:var(--mute)">'+(cmAll||!cur.list.length?T('first_cm'):T('no_mine'))+'</small>'}`;
+  ${list.map(one).join('')||'<small style="color:var(--mute)">'+(!cur.list.length?T('first_cm'):T('no_mine'))+'</small>'}${cmAll?`<div id="rvAll" data-all-close><div class="rvp"><div class="rvh">${cur.icon?`<img src="${cur.icon}" alt="">`:''}<div><b>${esc(cur.game)}</b><small>${esc(cur.title)}</small></div><button class="rvx" data-all-close>✕</button></div><div class="rvs"><div class="rvavg"><b>${v.length?avg.toFixed(1):'0.0'}</b><span>${'★'.repeat(Math.round(avg))}${'☆'.repeat(5-Math.round(avg))}</span><small>${T('rated',v.length)}</small></div><div class="rvbars">${[5,4,3,2,1].map(n=>{const k=v.filter(x=>x===n).length;return `<div><span>${n}</span><i><em style="width:${v.length?k/v.length*100:0}%"></em></i></div>`}).join('')}</div></div>${ctryLine()}${cur.list.length>1?`<div class="cmsort"><button data-sort="new" class="${cmSort==='new'?'on':''}">${T('newest')}</button><button data-sort="best" class="${cmSort==='best'?'on':''}">${T('best')}</button></div>`:''}<div class="rvl">${all.map(one).join('')||'<small style="color:var(--mute)">'+T('first_cm')+'</small>'}</div></div></div>`:''}`;
 }
 function cmErr(m){console.error(m);const el=$('cm');if(!el)return;let t=el.querySelector('.cmerr');if(!t){t=document.createElement('small');t.className='cmerr';t.style.cssText='color:var(--down);display:block;margin-bottom:8px';el.prepend(t)}t.textContent=m;clearTimeout(t._h);t._h=setTimeout(()=>t.remove(),3000)}
 function needLogin(){if(!user){closeDlg();alertLogin();return true}
@@ -262,8 +263,9 @@ function needLogin(){if(!user){closeDlg();alertLogin();return true}
 $('body').addEventListener('click',async e=>{
  if(!cur)return;const pid=cur.pid,me=user&&FB.uid();
  const r=e.target.closest('[data-rate]');if(r){if(needLogin())return;const n=+r.dataset.rate;pend=pend===n?0:n;if(pend&&cur.list.some(c=>c.uid===me))cmEdit=true;const keep=$('cmTxt')?.value;drawCm();if(keep&&$('cmTxt'))$('cmTxt').value=keep;return}
- if(e.target.closest('[data-all-rev]')){cmAll=!cmAll;drawCm();return}
- if(e.target.closest('[data-edit]')){cmEdit=true;drawCm();const ta=$('cmTxt');if(ta){ta.focus();ta.selectionStart=ta.value.length}return}
+ if(e.target.closest('[data-all-rev]')){cmAll=true;drawCm();return}
+ if(e.target.closest('[data-all-close]')&&(e.target.id==='rvAll'||e.target.closest('.rvx'))){cmAll=false;drawCm();return}
+ if(e.target.closest('[data-edit]')){cmEdit=true;cmAll=false;drawCm();const ta=$('cmTxt');if(ta){ta.focus();ta.selectionStart=ta.value.length}return}
  const rp=e.target.closest('[data-rep]');if(rp){if(needLogin())return;try{await FB.report(pid,rp.dataset.rep,'')}catch(er){console.error(er)}rp.textContent=T('reported');rp.disabled=true;return}
  const bn=e.target.closest('[data-ban]');if(bn&&FB.isAdmin()){const c=cur.list.find(x=>x.id===bn.dataset.ban);if(!c)return;try{await FB.ban(c.uid,'comment '+pid);await FB.delComment(pid,c.id);cur.list=cur.list.filter(x=>x.id!==c.id);drawCm();cmErr(T('banned_done'))}catch(er){console.error(er);cmErr(T('err_del'))}return}
  const s=e.target.closest('[data-sort]');if(s){cmSort=s.dataset.sort;drawCm();return}
@@ -278,7 +280,7 @@ $('body').addEventListener('click',async e=>{
 });
 
 $('dlg').onclick=e=>{if(e.target.id==='dlg')closeDlg()};
-addEventListener('keydown',e=>{if(e.key==='Escape')closeDlg()});
+addEventListener('keydown',e=>{if(e.key!=='Escape')return;if(cmAll&&cur){cmAll=false;drawCm()}else closeDlg()});
 function openItem(i){$('body').innerHTML=detail(i);$('dlg').classList.add('open');$('dlg').scrollTop=0;loadCm(i)}
 $('revs').onclick=e=>{const r=e.target.closest('[data-rev]');if(!r)return;const i=items.find(x=>PID(x)===r.dataset.rev);if(i){closeDrawer();openItem(i)}};
 $('list').onclick=e=>{const t=e.target.closest('.tile');if(t){$('body').innerHTML=detail(shown[+t.dataset.i]);$('dlg').classList.add('open');$('dlg').scrollTop=0;loadCm(shown[+t.dataset.i])}};
