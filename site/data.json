@@ -3649,14 +3649,14 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "Hearthstone Patch 37.2 Preview — Battlegrounds Season 15: Twisted Empire",
-     "summary": "Battlegrounds Season 15 begins on December 1 with Patch 37.2. Three new keywords and two new heroes are added, the Timewarped Tavern returns, and Trinkets are rotated out this season. A limited-time 2v2 Tavern Brawl will also be available. (Based on the official preview; final details are subject to change.)",
+     "title": "Hearthstone 37.2 Patch Preview — Battlegrounds Season 15: Twisted Empire",
+     "summary": "Battlegrounds Season 15 begins on December 1st with Patch 37.2. Three new keywords and two new heroes are added, the Timewarp Tavern returns, and Trinkets are rotated out. A limited-time 2v2 Tavern Brawl will also be available. (Based on the official preview; final content is subject to change.)",
      "highlights": [
-      "Battlegrounds Season 15 'Twisted Empire' launches on December 1, Battlegrounds Rating reset",
-      "New keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
-      "New heroes: Eternus, Boss Vaneasa (Hero Power 'Sharpened Strategy')",
-      "Return of the Timewarped Tavern: purchase special cards using Chronum on turns 6 and 9",
-      "Trinkets rotated out, Stealth keyword removed from bonus pool",
+      "Battlegrounds Season 15 'Twisted Empire' begins December 1st, Battlegrounds Rating reset",
+      "New Keywords: Sturdy (takes half damage when attacked), Quest (grants a one-time reward upon completion), Elemental Origin (Tavern Spells that synergize well with Elementals)",
+      "New Heroes: Eternus, Boss Misha (Hero Power 'Sharpened Strategy')",
+      "Timewarp Tavern returns: Purchase special cards with Chronum on turns 6 and 9",
+      "Trinkets rotated out, Stealth keyword excluded from bonus pools",
       "Limited-time 2v2 Tavern Brawl"
      ],
      "buffs": [],
@@ -11523,10 +11523,10 @@
    "manual": true,
    "i18n": {
     "en": {
-     "title": "Uma Musume October 30 Update",
-     "summary": "A maintenance-free update introduced the new playable ★3 Uma Musume Aines Fushigin, new support card pickups, and the \"Agnes Tachyon's Factor Research\" event.",
+     "title": "Umamusume October 30 Update",
+     "summary": "A maintenance-free update introduced the new playable ★3 Umamusume Ines Fujin, new support card pickups, and the \"Agnes Tachyon's Factor Research\" event.",
      "highlights": [
-      "★3 Aines Fushigin",
+      "★3 Ines Fujin",
       "SSR Mejiro Ryan",
       "SR Kawakami Princess",
       "Event \"Agnes Tachyon's Factor Research\" (10/30 - 11/10)"
@@ -11535,7 +11535,7 @@
      "nerfs": [],
      "fixes": [
       "Fixed mistranslations and spacing errors in home screen voices and training events",
-      "Fixed line breaks in Tamamo Cross SSR episode"
+      "Fixed line break errors in Tamamo Cross SSR episodes"
      ]
     }
    }
@@ -15751,7 +15751,7 @@
      "buffs": [],
      "nerfs": [],
      "fixes": [
-      "Fixed some bugs"
+      "Fixed various bugs"
      ]
     }
    }
@@ -18715,23 +18715,23 @@
    "i18n": {
     "en": {
      "title": "Pokémon Champions Ver. 1.2.0 — Regulation M-C",
-     "summary": "New Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features such as battle log viewing and battle data on the team preview screen have been introduced.",
+     "summary": "Pokémon and items for Regulation M-C have been added, and battle balance has been adjusted. New features include Battle Log viewing and battle data on the selection screen.",
      "highlights": [
-      "Added Pokémon and held items for Regulation M-C",
-      "New feature: Log view (records all actions in the current battle)",
-      "New feature: Team preview support (displays battle data on the Pokémon selection screen)"
+      "Added Regulation M-C Pokémon and held items",
+      "New Feature: Battle Log (records all actions in the current battle)",
+      "New Feature: Selection Support (displays battle data on the Pokémon selection screen)"
      ],
      "buffs": [
       "Slash can now be used"
      ],
      "nerfs": [
-      "Politoed: Cannot use Pound",
-      "Archaludon: Cannot use Mirror Coat and Metal Burst",
-      "Wish PP changed from 12 to 8",
-      "Strength Sap PP changed from 12 to 8"
+      "Politoed: Can no longer use Pound",
+      "Archaludon: Can no longer use Mirror Coat and Metal Burst",
+      "Wish PP reduced from 12 to 8",
+      "Strength Sap PP reduced from 12 to 8"
      ],
      "fixes": [
-      "Fixed some bugs"
+      "Fixed various bugs"
      ]
     }
    }
@@ -23931,6 +23931,98 @@
    ]
   },
   {
+   "gid": "1833334318567737",
+   "appid": 2170050,
+   "game": "울프팀: 리부트",
+   "date": 1779329064,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318567737",
+   "origTitle": "Update Announcement: 2026 May 21st",
+   "maint": {
+    "s": 1779343200,
+    "e": 1779350400
+   },
+   "title": "5월 21일 업데이트 안내",
+   "summary": "울프팀: 리부트가 5월 21일에 업데이트 및 점검을 진행합니다. 신규 글로벌 컵 무기 세트와 월간 박스가 추가되며, 자유(Free For All) 모드 서버 재시작 및 우편함 페이지 이동 오류가 수정됩니다.",
+   "highlights": [
+    "EM4A1 Global Cup, KAR 98K Global Cup, MAGNUM G Global Cup 무기 추가",
+    "2026 Global Cup 슬롯(애니메이션) 추가",
+    "인간 및 늑대용 월간 박스_26_6 추가",
+    "자유 모드 서버 재시작",
+    "우편함 페이지 이동 문제 수정"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "우편함 사용 시 페이지 이동 관련 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "May 21st Update Announcement",
+     "summary": "WolfTeam: Reboot will undergo an update and maintenance on May 21st. New Global Cup weapons, monthly boxes, and system improvements have been added, along with a fix for the mailbox page movement issue.",
+     "highlights": [
+      "Added EM4A1 Global Cup, KAR 98K Global Cup, and MAGNUM G Global Cup weapons",
+      "Added Slot - (Ani) 2026 Global Cup",
+      "Added Monthly Box_26_6 for Humans and Wolves",
+      "Restarted the Free For All Mode server",
+      "Fixed mailbox page movement issue"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed an issue with page movement when using the Mailbox"
+     ]
+    },
+    "ja": {
+     "title": "5月21日アップデートのお知らせ",
+     "summary": "ウルフチーム（WolfTeam: Reboot）は5月21日にアップデートおよびメンテナンスを実施します。新しいグローバルカップ武器や月間ボックスが追加され、メールボックスのページ移動に関する不具合が修正されます。",
+     "highlights": [
+      "EM4A1 Global Cup、KAR 98K Global Cup、MAGNUM G Global Cup武器の追加",
+      "Slot - (Ani) 2026 Global Cupの追加",
+      "人間・狼用のMonthly Box_26_6の追加",
+      "フリー・フォー・オール（Free For All）モードのサーバー再起動",
+      "メールボックスのページ移動の不具合修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "メールボックス使用時のページ移動に関する問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "5月21日更新公告",
+     "summary": "《狼队：重启》（WolfTeam: Reboot）将于5月21日进行更新与维护。本次更新新增了全球杯武器系列与月度宝箱，重启了混战模式服务器，并修复了邮箱页面跳转的问题。",
+     "highlights": [
+      "新增 EM4A1 Global Cup、KAR 98K Global Cup、MAGNUM G Global Cup 武器",
+      "新增 Slot - (Ani) 2026 Global Cup",
+      "新增人类与狼的 Monthly Box_26_6",
+      "重启自由之战（Free For All）模式服务器",
+      "修复使用邮箱时的页面移动问题"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复使用邮箱时页面移动的问题"
+     ]
+    },
+    "pt": {
+     "title": "Aviso de Atualização: 21 de Maio",
+     "summary": "O WolfTeam: Reboot passará por uma atualização e manutenção em 21 de maio. Novas armas da Global Cup e caixas mensais foram adicionadas, além da correção de um problema de navegação de páginas na Caixa de Correio.",
+     "highlights": [
+      "Adicionadas as armas EM4A1 Global Cup, KAR 98K Global Cup e MAGNUM G Global Cup",
+      "Adicionado Slot - (Ani) 2026 Global Cup",
+      "Adicionadas as Caixas Mensais 26_6 para Humanos e Lobos",
+      "Servidor do modo Free For All reiniciado",
+      "Correção no problema de página na Caixa de Correio"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Correção de um problema com a movimentação de páginas ao usar a Caixa de Correio"
+     ]
+    }
+   }
+  },
+  {
    "gid": "genshin:164256",
    "appid": "genshin",
    "game": "원신",
@@ -23976,6 +24068,300 @@
       "Fixed an issue where some field objects remained after completing the World Quest \"O Life, Everlasting\"",
       "Fixed abnormal behaviors and actions of the enemies \"Seasoned Frost Wolf\" and \"Fatui Skirmisher\"",
       "Fixed modeling errors when freezing Linnea on specific device environments and the inability to use normal attacks after reconnecting"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1831432155565440",
+   "appid": 4000,
+   "game": "개리 모드",
+   "date": 1777474770,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155565440",
+   "origTitle": "April 2026 Update",
+   "title": "개리 모드 2026년 4월 업데이트",
+   "summary": "블랙 메사와 밀리터리 컨플릭트: 베트남을 마운트할 수 있게 되었으며, 콤바인 APC가 기본 탑승 차량으로 추가되었습니다. 또한 HUD 개선, 4K 해상도 스케일링 지원, 네트워크 전송 속도 향상 및 다양한 버그 수정과 핫픽스가 적용되었습니다.",
+   "highlights": [
+    "블랙 메사(Black Mesa) 및 밀리터리 컨플릭트: 베트남 마운트 지원 추가",
+    "콤바인 APC를 스폰 메뉴에서 직접 탑승 가능한 기본 차량으로 추가",
+    "무기 선택기 스크롤 및 4K 해상도 UI 겹침 방지 등 HUD 개선",
+    "서버 접속 시간 단축 및 대역폭 절감을 위한 네트워크 프로토콜 개선",
+    "장시간 서버 구동 안정성을 위한 배정밀도(Double Precision) 시간 도입",
+    "프롭 흑화 현상 및 리눅스 32비트 크래시 등 다양한 오류 수정 핫픽스 적용"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "지면에 닿은 프롭 및 래그돌이 새까맣게 변하던 현상 수정",
+    "멀티플레이어에서 운전자의 APC 총기 이펙트가 작동하지 않던 문제 수정",
+    "텔레포트 트리거 내에 래그돌 스폰 시 발생하던 크래시 수정",
+    "리눅스 32비트 클라이언트에서 피직스건 또는 중력건 사용 시 발생하던 크래시 수정",
+    "페이스포저로 래그돌을 다시 선택할 때 플렉스 값이 손상되던 버그 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Garry's Mod April 2026 Update",
+     "summary": "Black Mesa and Military Conflict: Vietnam can now be mounted, and the Combine APC is introduced as a driveable built-in vehicle. The update also delivers major HUD and 4K improvements, faster server networking, and several bug fixes alongside two hotfixes.",
+     "highlights": [
+      "Added mounting support for Black Mesa and Military Conflict: Vietnam",
+      "Combine APC added as a built-in drivable vehicle in the spawnmenu",
+      "HUD improvements including weapon selector scrolling and better 4K scaling",
+      "Network protocol overhaul to speed up server join times and reduce bandwidth usage",
+      "Switched internal game systems to double precision time for server longevity",
+      "Includes hotfixes for prop lighting bugs, physics stability, and Linux crashes"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed props and ragdolls turning pitch black when resting on the ground",
+      "Fixed APC gun effects not working for drivers in multiplayer",
+      "Fixed crashes when spawning ragdolls inside teleport triggers",
+      "Fixed crashes when using the physics gun or gravity gun on 32-bit Linux clients",
+      "Fixed Faceposer re-selection corrupting flex values on ragdolls"
+     ]
+    },
+    "ja": {
+     "title": "Garry's Mod 2026年4月アップデート",
+     "summary": "『Black Mesa』と『Military Conflict: Vietnam』のマウントに対応し、コンバインAPCが標準で運転可能な車両として追加されました。さらにHUDや4K解像度の改善、ネットワーク転送の高速化、各種不具合修正とホットフィックスが実施されています。",
+     "highlights": [
+      "『Black Mesa』および『Military Conflict: Vietnam』のマウントに対応",
+      "スポーンメニューから直接運転できるコンバインAPCを標準追加",
+      "武器セレクターのスクロール対応や4K解像度スケーリング等のHUD改善",
+      "サーバー参加時間短縮と帯域幅削減に向けたネットワークプロトコルの刷新",
+      "長時間のサーバー稼働を安定させる倍精度時間の導入",
+      "地面でのオブジェクト暗転バグやLinux環境でのクラッシュを修正するホットフィックスを適用"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "地面に置かれたプロップやラグドールが真っ黒になる不具合を修正",
+      "マルチプレイヤーで運転席のAPC射撃エフェクトが表示されない問題を修正",
+      "テレポートトリガー内にラグドールをスポーンした際のクラッシュを修正",
+      "Linux 32bitクライアントで物理銃や重力銃使用時に発生していたクラッシュを修正",
+      "Faceposerでラグドールを再選択した際にフレックス値が破損する不具合を修正"
+     ]
+    },
+    "zh": {
+     "title": "盖瑞模组 2026年4月更新",
+     "summary": "现已支持挂载《黑山》（Black Mesa）和《军事冲突：越南》，并将联合军APC作为可驾驶内置载具加入生成菜单。此外还改进了HUD与4K显示效果，优化了网络连接速度，并发布了多个问题修复与热补丁。",
+     "highlights": [
+      "新增对《黑山》（Black Mesa）和《军事冲突：越南》的内容挂载支持",
+      "联合军装甲车（Combine APC）作为可驾驶内置载具加入生成菜单",
+      "HUD优化，支持武器选择滚轮滚动并改善4K分辨率下的重叠问题",
+      "网络协议改进，加快进服传输速度并减少不必要的带宽占用",
+      "系统引入双精度时间以延长服务器持续运行稳定性",
+      "包含多项热补丁，修复模型发黑、物理缩放问题及Linux客户端崩溃"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了物体和布娃娃放置在地面上时变成纯黑色的问题",
+      "修复了多人模式下驾驶员无法触发APC主炮特效的问题",
+      "修复了在传送触发区域内生成布娃娃时导致的崩溃问题",
+      "修复了Linux 32位客户端在使用物理枪或重力枪时发生的崩溃",
+      "修复了使用Faceposer重新选择布娃娃时导致表情形变参数损坏的Bug"
+     ]
+    },
+    "pt": {
+     "title": "Atualização de Abril de 2026 de Garry's Mod",
+     "summary": "Black Mesa e Military Conflict: Vietnam agora podem ser montados, e o Combine APC foi adicionado como veículo dirigível padrão. A atualização também traz melhorias no HUD e suporte a 4K, otimizações de rede para carregamentos mais rápidos e correções via hotfixes.",
+     "highlights": [
+      "Suporte para montagem de conteúdo de Black Mesa e Military Conflict: Vietnam",
+      "Combine APC adicionado como veículo padrão e totalmente dirigível no spawnmenu",
+      "Melhorias no HUD com rolagem no seletor de armas e melhor escala em 4K",
+      "Mudanças no protocolo de rede para acelerar a entrada em servidores e poupar largura de banda",
+      "Adoção de tempo em precisão dupla para maior estabilidade de servidores de longa duração",
+      "Hotfixes inclusos com correções de física, iluminação de props e travamentos no Linux"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Correção de props e ragdolls que ficavam totalmente pretos ao tocar o chão",
+      "Correção dos efeitos das armas do APC não funcionando para motoristas no multijogador",
+      "Correção de travamento ao gerar ragdolls dentro de gatilhos de teletransporte",
+      "Correção de travamento ao usar a Physics Gun ou a Gravity Gun em clientes Linux de 32 bits",
+      "Correção de corrupção nos valores de flex ao selecionar novamente ragdolls com o Faceposer"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1830797770233792",
+   "appid": 4000,
+   "game": "개리 모드",
+   "date": 1776963986,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770233792",
+   "origTitle": "April 2026 Update is coming soon",
+   "title": "게리 모드 다가오는 4월 업데이트 안내",
+   "summary": "게리 모드의 새로운 업데이트가 4월 29일 오후 3시(GMT)에 출시될 예정입니다. 이번 업데이트에는 블랙 메사 마운팅 지원 추가 및 다양한 내부 변경 사항이 포함되어 기존 바이너리 모듈에 영향을 줄 수 있습니다. 원활한 출력을 위해 사전 출시 베타 버전을 통한 테스트와 피드백 협조를 부탁드립니다.",
+   "highlights": [
+    "블랙 메사 마운팅 지원 추가",
+    "4월 29일 오후 3시(GMT) 출시 예정",
+    "기존 바이너리 모듈에 영향을 줄 수 있는 내부 변경 사항 포함",
+    "사전 출시 베타 버전을 통한 테스트 진행 요청"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "Garry's Mod Upcoming April Update Notice",
+     "summary": "The next Garry's Mod update is scheduled to be released on April 29th at 3 PM GMT. This update adds mounting support for Black Mesa and includes many under-the-hood changes that may break existing binary modules. Players and server owners are encouraged to test the pre-release beta and report any issues.",
+     "highlights": [
+      "Added mounting support for Black Mesa",
+      "Scheduled for release on April 29th at 3 PM GMT",
+      "Includes under-the-hood changes that may affect binary modules",
+      "Pre-release beta testing encouraged for players and server owners"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "ゲーリーモッド 近日中の4月アップデートのお知らせ",
+     "summary": "ゲーリーモッドの次回のアップデートが4月29日午後3時（GMT）にリリースされる予定です。このアップデートにはBlack Mesaのマウントサポートの追加や、既存のバイナリ モジュールに影響を与える可能性のある内部変更が多く含まれています。スムーズなリリースのために、事前リリースベータ版でのテストと協力が求められています。",
+     "highlights": [
+      "Black Mesaのマウントサポートを追加",
+      "4月29日午後3時（GMT）にリリース予定",
+      "バイナリ モジュールに影響を与える可能性のある内部変更を含む",
+      "事前リリースベータ版でのテストを推奨"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "盖瑞模组 即将推出的四月更新通知",
+     "summary": "盖瑞模组的下一次更新计划于 4 月 29 日下午 3 点（GMT）发布。本次更新将添加对黑山（Black Mesa）的挂载支持，并包含许多可能会破坏现有二进制模块的底层更改。官方呼吁玩家和服务器主协助进行预发布测试。",
+     "highlights": [
+      "添加对黑山（Black Mesa）的挂载支持",
+      "计划于 4 月 29 日下午 3 点（GMT）发布",
+      "包含可能影响二进制模块的底层更改",
+      "呼吁玩家和服务器主参与预发布测试版测试"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Aviso de Atualização de Abril do Garry's Mod",
+     "summary": "A próxima atualização do Garry's Mod está programada para ser lançada em 29 de abril às 15h GMT. Esta atualização adiciona suporte de montagem para o Black Mesa e inclui muitas alterações internas que podem quebrar módulos binários existentes. Os jogadores e donos de servidores são convidados a testar a versão beta de pré-lançamento.",
+     "highlights": [
+      "Adicionado suporte de montagem para o Black Mesa",
+      "Agendado para lançamento em 29 de abril às 15h GMT",
+      "Inclui alterações internas que podem afetar módulos binários",
+      "Testes na versão beta de pré-lançamento são incentivados"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1830797770233254",
+   "appid": 668580,
+   "game": "아토믹 하트",
+   "date": 1776953034,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770233254",
+   "origTitle": "PATCH 1.16.3.0 – LIST OF CHANGES",
+   "title": "아토믹 하트 패치 1.16.3.0",
+   "summary": "아토믹 하트를 위한 패치 1.16.3.0이 스팀에 배포되었습니다. 이번 업데이트는 'Blood on Crystal' DLC #4의 오류 수정 및 미니보스 'RACCOON'의 행동 개선에 중점을 둡니다.",
+   "highlights": [
+    "DLC #4 폴리모프 피아니스트 구역의 누락된 음악 수정",
+    "포토 모드의 과도한 밝기 문제 수정",
+    "RACCOON 미니보스 행동 개선",
+    "세이브 로드 시 발생하는 다양한 버그 수정",
+    "기타 사소한 수정 및 충돌 해결"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "DLC #4 누락된 음악 수정",
+    "포토 모드 밝기 문제 수정",
+    "퀘스트 마커 수정",
+    "세이브 로드 관련 버그 수정",
+    "충돌 문제 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Atomic Heart Patch 1.16.3.0",
+     "summary": "Patch 1.16.3.0 for Atomic Heart is now available on Steam. This update brings bug fixes for the 'Blood on Crystal' DLC #4 and improves the RACCOON miniboss behavior.",
+     "highlights": [
+      "Fixed missing music in the polymorph pianist area for DLC #4",
+      "Fixed overly high brightness in Photo Mode",
+      "Improved RACCOON miniboss behavior",
+      "Fixed various bugs when loading saves",
+      "Crash fixes and other minor fixes"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed missing music in DLC #4 area",
+      "Fixed high brightness in Photo Mode",
+      "Fixed quest markers",
+      "Fixed save loading bugs",
+      "Fixed crashes"
+     ]
+    },
+    "ja": {
+     "title": "アトミックハート パッチ 1.16.3.0",
+     "summary": "『アトミックハート』のパッチ 1.16.3.0 がSteamで配信開始されました。このアップデートでは、DLC第4弾「Blood on Crystal」の修正やミニボス「RACCOON」の挙動改善が行われます。",
+     "highlights": [
+      "DLC第4弾のポリモルフピアニストエリアで音楽が再生されない不具合を修正",
+      "フォトモードの一部エリアでの過度に明るい光度を修正",
+      "ミニボス「RACCOON」の挙動を改善",
+      "セーブデータロード時の様々なバグを修正",
+      "クラッシュおよびその他の軽微な修正"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "DLC第4弾の音楽欠落を修正",
+      "フォトモードの明るさ問題を修正",
+      "クエストマーカーを修正",
+      "セーブロード時のバグを修正",
+      "クラッシュ修正"
+     ]
+    },
+    "zh": {
+     "title": "原子之心 更新 1.16.3.0",
+     "summary": "《原子之心》的 1.16.3.0 版本补丁现已在 Steam 上推出。本次更新主要针对 DLC 4“Blood on Crystal”进行了错误修复，并改善了 RACCOON 小Boss 的行为。",
+     "highlights": [
+      "修复 DLC 4 中变形钢琴师区域缺失音乐的问题",
+      "修复拍照模式下某些区域亮度过高的问题",
+      "改善 RACCOON 小Boss 的行为表现",
+      "修复加载存档时的各种错误",
+      "崩溃修复及其他小幅修复"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复 DLC 4 区域缺失的音乐",
+      "修复拍照模式亮度问题",
+      "修复任务标记",
+      "修复存档加载错误",
+      "修复崩溃问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização 1.16.3.0 de Atomic Heart",
+     "summary": "A atualização 1.16.3.0 para Atomic Heart já está disponível no Steam. Esta atualização traz correções de bugs para a DLC #4 'Blood on Crystal' e melhorias no comportamento do minichefe RACCOON.",
+     "highlights": [
+      "Corrigido o problema de música ausente na área do pianista polimorfo da DLC #4",
+      "Corrigido o brilho excessivo em algumas áreas no Modo Foto",
+      "Melhorado o comportamento do minichefe RACCOON",
+      "Corrigidos vários bugs ao carregar salvamentos",
+      "Correções de travamentos e outros ajustes menores"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Correção de música ausente na DLC #4",
+      "Correção de brilho no Modo Foto",
+      "Correção de marcadores de missões",
+      "Correção de bugs ao carregar salvamentos",
+      "Correção de travamentos"
      ]
     }
    }
@@ -24137,6 +24523,119 @@
       "Fixed an issue where characters became stuck or invincible in certain areas (Euler Port, Abyssal Front, etc.)",
       "Fixed abnormal pupil effects during Kanami's Azure Specter skin manifestation state",
       "Fixed an issue where specific spray sounds played too loudly in the lobby preview"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1829528821315751",
+   "appid": 767560,
+   "game": "워 로봇",
+   "date": 1776094008,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821315751",
+   "origTitle": "WAR ROBOTS 12.0 UPDATE NOTES",
+   "title": "워 로봇 12.0 업데이트 노트",
+   "summary": "워 로봇 12.0 업데이트가 적용되어 신규 로봇 '벡터', 타이탄 '웨이메이커', 드론 '텐서'를 비롯한 다양한 신규 장비와 파일럿이 추가되었습니다. 또한 메인 격납고 그래픽 개편 및 다수의 버그 수정이 이루어졌습니다.",
+   "highlights": [
+    "신규 로봇 '벡터' 및 화염방사기 무기 3종(셀시우스, 화렌하이트, 켈빈) 추가",
+    "신규 타이탄 '웨이메이커' 및 알파/베타 타이탄 레이저 무기(퍼니스, 토치) 추가",
+    "얼티밋 에디션 '호크', '스콜드', '인시네레이터' 추가",
+    "신규 드론 '텐서' 및 파일럿(니카 슈움, 에단 칼드웰, 싱글 몰트) 추가",
+    "화려한 그래픽과 조명 시스템이 적용된 신규 격납고 개편",
+    "화성 로봇 게임 이벤트 및 라이브 쇼 2026 시작"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "히포, 크로코, 리오다리의 오비탈 서포트 충전 속도 수정",
+    "마이아 드론이 지뢰 투척 시마다 카지를 수리하던 문제 수정",
+    "클랜 조선소 보상 수령 시 발생하던 오류 팝업 수정",
+    "타이탄 배치 시 다른 격납고 덱의 타이탄이 선택되던 문제 수정",
+    "크라이시스, 큐리, 예거, 팬텀 등의 색상 문제 및 일부 특수 에디션 오류 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "War Robots 12.0 Update Notes",
+     "summary": "The War Robots 12.0 update is live, introducing the new Vector robot, Waymaker titan, Tensor drone, and various new weapons and pilots. Additionally, the main Hangar has received a graphical overhaul alongside multiple technical fixes.",
+     "highlights": [
+      "Added new robot Vector and flamethrower weapons (Celsius, Fahrenheit, Kelvin)",
+      "Added new titan Waymaker and laser weapons (Furnace, Torch)",
+      "Added Ultimate editions for Hawk, Scald, and Incinerator",
+      "Added new drone Tensor and pilots Nika Schum, Ethan Caldwell, and Single Malt",
+      "Overhauled main Hangar scene with better graphics and advanced lighting",
+      "Started Martian Robotic Games event and Live Show 2026"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed Orbital Support charge rates for Hippo, Kroko, and Liodari",
+      "Fixed Myia drone repairing Kaji on each mine throw",
+      "Fixed error pop-ups when collecting rewards in the Clan Shipyard",
+      "Fixed issue where Titan deployment could select Titans from other Hangar Decks",
+      "Fixed coloring issues on Crisis, Curie, Jaeger, Phantom, and several special editions"
+     ]
+    },
+    "ja": {
+     "title": "ウォーロボット 12.0 アップデートノート",
+     "summary": "ウォーロボットのアップデート12.0が配信され、新ロボット「ベクター」、新タイタン「ウェイメイカー」、新ドローン「テンソル」などの新装備やパイロットが追加されました。さらに、メイン格納庫のグラフィック刷新や多数のバグ修正が行われました。",
+     "highlights": [
+      "新ロボット「ベクター」および火炎放射器武器（セルシウス、ファーレンハイト、ケルビン）を追加",
+      "新タイタン「ウェイメイカー」およびタイタン用レーザー武器（ファーネス、トーチ）を追加",
+      "アルティメットエディションのホーク、スコルド、インシネ레이터を追加",
+      "新ドローン「テンソル」およびパイロット（ニカ・シューム、イーサン・コルドウェル、シングル・モルト）を追加",
+      "グラフィックと照明システムが向上したメイン格納庫のリニューアル",
+      "「火星ロボットゲーム」イベントおよびライブショー2026の開催"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "ヒッポ、クロコ、リオダリのオービタルサポートのチャージ率を修正",
+      "マイアドローンが地雷投擲ごとにカジを修理していた問題を修正",
+      "クラン造船所で報酬を受け取る際のエラーポップアップを修正",
+      "タイタン出撃時に他の格納庫デッキのタイタンが選択される可能性がある問題を修正",
+      "クライシス、キュリー、イェーガー、ファントムおよび一部のスペシャルエディションの色合いの問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "战神机器人 12.0 更新说明",
+     "summary": "《战神机器人》12.0版本更新已上线，推出了全新机器人“维克托”、泰坦“开拓者”、无人机“张量”以及多种新武器和机师。此外，主机库迎来了画面重制，并修复了多项技术问题。",
+     "highlights": [
+      "新增机器人“维克托”及喷火器武器（摄氏、华氏、开尔文）",
+      "新增泰坦“开拓者”及泰坦激光武器（熔炉、火炬）",
+      "新增终极版 Hawk、Scald 和 Incinerator",
+      "新增无人机“张量”及机师（尼卡·舒姆、伊森·考德威尔、单一麦芽）",
+      "主机库场景经过全面重制，带来更好的画面和高级光照系统",
+      "开启“火星机器人运动会”活动及 2026 直播秀"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了 Hippo、Kroko 和 Liodari 的轨道支援充能速率",
+      "修复了 Myia 无人机在每次投掷地雷时都会修复 Kaji 的问题",
+      "修复了在战队造船厂收集奖励时出现的错误弹窗",
+      "修复了泰坦部署可能会选择其他机库卡组泰坦的问题",
+      "修复了 Crisis、Curie、Jaeger、Phantom 以及几个特殊版本的着色问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas de Atualização 12.0 de War Robots",
+     "summary": "A atualização 12.0 de War Robots já está disponível, trazendo o novo robô Vector, o titã Waymaker, o drone Tensor e vários novos equipamentos e pilotos. Além disso, o Hangar principal recebeu uma reformulação gráfica junto com várias correções técnicas.",
+     "highlights": [
+      "Adicionado o novo robô Vector e armas de lança-chamas (Celsius, Fahrenheit, Kelvin)",
+      "Adicionado o novo titã Waymaker e armas de laser (Furnace, Torch)",
+      "Adicionadas edições Ultimate para Hawk, Scald e Incinerator",
+      "Adicionado o novo drone Tensor e pilotos Nika Schum, Ethan Caldwell e Single Malt",
+      "Hangar principal reformulado com melhores gráficos e sistema de iluminação avançado",
+      "Início do evento Jogos Robóticos Marcianos e Live Show 2026"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigidas as taxas de carga do Suporte Orbital para Hippo, Kroko e Liodari",
+      "Corrigido um problema onde o drone Myia reparava Kaji a cada lançamento de mina",
+      "Corrigidos pop-ups de erro ao coletar recompensas no Estaleiro do clã",
+      "Corrigido um problema em que a implantação de Titã podia selecionar Titãs de outros decks do Hangar",
+      "Corrigidos problemas de coloração em Crisis, Curie, Jaeger, Phantom e várias edições especiais"
      ]
     }
    }
@@ -24355,6 +24854,88 @@
    }
   },
   {
+   "gid": "1827626365767403",
+   "appid": 3446920,
+   "game": "메카라시",
+   "date": 1774423753,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365767403",
+   "origTitle": "[Relentless Flux] Major Update Announcement",
+   "maint": {
+    "s": 1774506600,
+    "e": 1774521000
+   },
+   "title": "[멈추지 않는 흐름] 메이저 업데이트 및 점검 안내",
+   "summary": "'메카라시'가 메이저 업데이트를 위한 서버 점검을 진행합니다. 신규 파일럿, ST, 무기, 백팩, 샌드박스 워 모드, 메인 스토리 제14장 등 다양한 콘텐츠가 추가되고 시스템이 최적화됩니다.",
+   "highlights": [
+    "신규 파일럿 및 ST 순차 출시 (오필리아, 데인, 앤더슨 등)",
+    "신규 샌드박스 워 모드 추가",
+    "메인 스토리 제14장 '을숙' 개방",
+    "신규 무기 및 백팩 추가",
+    "배틀 유닛 배치 및 품질 업그레이드 등 편의성 최적화"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "[Relentless Flux] Major Update & Maintenance Announcement",
+     "summary": "Mecharashi is undergoing server maintenance for a major update. The update introduces new pilots, STs, weapons, backpacks, the Sandbox War mode, Chapter 14 of the main story, and various system optimizations.",
+     "highlights": [
+      "New limited-time pilots and STs (Ophelia, Dean, Anderson, etc.)",
+      "New Sandbox War mode added",
+      "Main Story expanded to Chapter 14: Smoldering Embers",
+      "New S+ and SS weapons and backpacks added",
+      "Various quality-of-life optimizations including deployment filters and quick synthesis"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "[容赦なき潮流] 大型アップデートおよびメンテナンスのお知らせ",
+     "summary": "『メカラシ』の大型アップデートに伴うメンテナンスが実施されます。新パイロットやST、武器、バックパック、サンドボックスウォーモード、メインストーリー第14章などが追加され、システムが最適化されます。",
+     "highlights": [
+      "新パイロットおよびSTの期間限定登場（オフェリア、ディーン、アンダーソンなど）",
+      "新モード「サンドボックスウォー」の実装",
+      "メインストーリー第14章「燻る残り火」追加",
+      "新武器およびバックパックの実装",
+      "一括合成や部隊出撃フィルターなどの機能最適化"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "[不息之流] 大型更新及停服维护公告",
+     "summary": "《钢岚》将进行大型更新维护。本次更新推出了全新机师、ST、武器、背包、沙盘战争模式、主线第14章等内容，并对多项系统进行了优化。",
+     "highlights": [
+      "全新限定机师与ST登场（奥菲莉亚、迪恩、安德森等）",
+      "新增沙盘战争玩法",
+      "主线剧情扩展至第14章：烬火",
+      "新增多款S+与SS级武器及背包",
+      "优化编成筛选、一键合成及仓库功能"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "[Fluxo Implacável] Anúncio de Atualização Principal e Manutenção",
+     "summary": "Mecharashi realizará uma manutenção para uma atualização principal. A atualização traz novos pilotos, STs, armas, mochilas, o modo Guerra Sandbox, o Capítulo 14 da história principal e várias otimizações de sistema.",
+     "highlights": [
+      "Novos pilotos e STs por tempo limitado (Ophelia, Dean, Anderson, etc.)",
+      "Adicionado o novo modo Guerra Sandbox",
+      "História Principal expandida até o Capítulo 14: Brasa Ardente",
+      "Novas armas e mochilas S+ e SS adicionadas",
+      "Otimizações de q.d.v. incluindo filtros de implantação e síntese rápida"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "hsr:163273",
    "appid": "hsr",
    "game": "붕괴: 스타레일",
@@ -24564,6 +25145,231 @@
    }
   },
   {
+   "gid": "1825727806720585",
+   "appid": 767560,
+   "game": "워 로봇",
+   "date": 1772552197,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806720585",
+   "origTitle": "WAR ROBOTS 11.8 UPDATE NOTES",
+   "title": "워 로봇 11.8 업데이트",
+   "summary": "신규 이벤트 '머시너리 타운'이 개최되며, 새로운 로봇 '아낙소르'와 무기 시리즈, 드론, 그리고 얼티밋 레베넌트 빌드가 추가되었습니다. 아울러 다수의 로봇, 타이탄, 무기, 드론에 대한 밸런스 조정과 기술적 수정이 적용되었습니다.",
+   "highlights": [
+    "신규 로봇 '아낙소르' 및 무기 벨로스, 마카이라, 바실레우스 추가",
+    "신규 드론 '마이야' 추가",
+    "얼티밋 레베넌트, 얼티밋 스캐터, 얼티밋 데베스테이터 추가",
+    "신규 파일럿 알렉스 타브 및 발레리 모건 추가",
+    "로봇, 타이탄, 무기, 드론 대규모 밸런스 조정"
+   ],
+   "buffs": [
+    "렉스 내구도 및 내장 무기 피해량 상향",
+    "카지 내구도 상향",
+    "타이폰 아이지스 용량 상향",
+    "앵글러 물리 쉴드 내구도 상향",
+    "미노스, 하임달, 시리우스 등 일부 타이탄 성능 상향"
+   ],
+   "nerfs": [
+    "테트 내구도 및 포스필드 내구도 하향",
+    "글라디우스 및 필룸 피해량 하향",
+    "플럭스 피해량 하향",
+    "켈 모함 피해량 하향"
+   ],
+   "fixes": [
+    "비홀더의 블라스팅 효과가 의도대로 직접 피해 및 광역 피해를 입히도록 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "War Robots 11.8 Update",
+     "summary": "The 'Mercenary Town' event arrives featuring the new robot Anaksor, new weapons, the Myia drone, and the Ultimate Revenant build. Numerous balance adjustments for robots, titans, weapons, and drones, along with technical fixes, have also been implemented.",
+     "highlights": [
+      "New robot Anaksor and weapons Velos, Machaira, and Basileus",
+      "New Myia drone",
+      "Ultimate Revenant, Ultimate Scatter, and Ultimate Devastator added",
+      "New pilots Alex Tav and Valerie Morgan",
+      "Extensive balance adjustments across robots, titans, weapons, and drones"
+     ],
+     "buffs": [
+      "Rex durability and built-in weapon damage increased",
+      "Kaji durability increased",
+      "Typhon Aegis capacity increased",
+      "Angler physical shield durability increased",
+      "Buffs to Titans such as Minos, Heimdall, and Sirius"
+     ],
+     "nerfs": [
+      "Teth durability and forcefield durability decreased",
+      "Gladius and Pilum damage decreased",
+      "Flux damage decreased",
+      "Keel mothership damage decreased"
+     ],
+     "fixes": [
+      "Beholder: BLAST will now deal direct damage and AoE damage as intended"
+     ]
+    },
+    "ja": {
+     "title": "ウォーロボット 11.8アップデート",
+     "summary": "新イベント「マーセナリー・タウン」が開催され、新ロボット「アナクソル」や新武器、ドローン「マイヤ」、さらにアルティメット・レベナンビルドが追加されました。また、多数のロボット、タイタン、武器、ドローンのバランス調整と不具合修正が行われました。",
+     "highlights": [
+      "新ロボット「アナクソル」と武器（ヴェロス、マカイラ、バシレウス）の追加",
+      "新ドローン「マイヤ」の追加",
+      "アルティメット・レベナン、アルティメット・スキャッター、アルティメット・デバステーターの追加",
+      "新パイロット「アレックス・タブ」「ヴァレリー・モーガン」の追加",
+      "ロボット、タイタン、武器、ドローンの広範囲なバランス調整"
+     ],
+     "buffs": [
+      "レックスの耐久値と内蔵武器ダメージが上昇",
+      "カジの耐久値が上昇",
+      "タイフォンのイージス容量が上昇",
+      "アングラーの物理シールド耐久値が上昇",
+      "ミノス、ハイムダル、シリウスなどのタイタン性能が向上"
+     ],
+     "nerfs": [
+      "テスの耐久値およびフォースフィールド耐久値が低下",
+      "グラディウスとピルムのダメージが低下",
+      "フラックスのダメージが低下",
+      "キール母艦のダメージが低下"
+     ],
+     "fixes": [
+      "ビホルダーのBLASTが意図通りに直接ダメージとAoEダメージを与えるように修正"
+     ]
+    },
+    "zh": {
+     "title": "战神机器人 11.8 更新",
+     "summary": "全新活动“雇佣兵小镇”即将开启，推出新机器人“阿纳克索”、新武器、新无人机“迈娅”以及终极雷文纳特配置。同时，对多款机器人、泰坦、武器和无人机进行了平衡性调整与技术修复。",
+     "highlights": [
+      "新增机器人“阿纳克索”及武器“维罗斯”、“马凯拉”、“巴赛琉斯”",
+      "新增无人机“迈娅”",
+      "新增终极雷文纳特、终极散弹枪、终极毁灭者",
+      "新增机师亚历克斯·塔夫和瓦莱丽·摩根",
+      "机器人、泰坦、武器和无人机的大规模平衡调整"
+     ],
+     "buffs": [
+      "雷克斯耐久度及内置武器伤害提升",
+      "卡吉耐久度提升",
+      "堤丰神盾护盾容量提升",
+      "安格勒物理护盾耐久度提升",
+      "米诺斯、海姆达尔和小天狼星等泰坦得到增强"
+     ],
+     "nerfs": [
+      "特斯耐久度及力场耐久度下调",
+      "短剑与标枪伤害下调",
+      "通量武器伤害下调",
+      "基尔母舰伤害下调"
+     ],
+     "fixes": [
+      "观察者：BLAST现在将按预期造成直接伤害和范围伤害"
+     ]
+    },
+    "pt": {
+     "title": "Atualização 11.8 de War Robots",
+     "summary": "O evento 'Cidade Mercenária' chega trazendo o novo robô Anaksor, novas armas, o drone Myia e a build Ultimate Revenant. Vários ajustes de balanceamento para robôs, titãs, armas e drones, além de correções técnicas, também foram implementados.",
+     "highlights": [
+      "Novo robô Anaksor e armas Velos, Machaira e Basileus",
+      "Novo drone Myia",
+      "Adicionados Ultimate Revenant, Ultimate Scatter e Ultimate Devastator",
+      "Novos pilotos Alex Tav e Valerie Morgan",
+      "Extensos ajustes de balanceamento em robôs, titãs, armas e drones"
+     ],
+     "buffs": [
+      "Durabilidade do Rex e dano da arma embutida aumentados",
+      "Durabilidade do Kaji aumentada",
+      "Capacidade do Aegis do Typhon aumentada",
+      "Durabilidade do escudo físico do Angler aumentada",
+      "Melhorias em titãs como Minos, Heimdall e Sirius"
+     ],
+     "nerfs": [
+      "Durabilidade do Teth e durabilidade do campo de força reduzidas",
+      "Dano de Gladius e Pilum reduzido",
+      "Dano de Flux reduzido",
+      "Dano da nave-mãe Keel reduzido"
+     ],
+     "fixes": [
+      "Beholder: BLAST agora causará dano direto e dano em área conforme o esperado"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1825727806706764",
+   "appid": 3446920,
+   "game": "메카라시",
+   "date": 1772092051,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806706764",
+   "origTitle": "[No Way Out] Major Update Announcement",
+   "maint": {
+    "s": 1772091000,
+    "e": 1772105400
+   },
+   "title": "[No Way Out] 대규모 업데이트 안내",
+   "summary": "메카라시의 [No Way Out] 대규모 업데이트가 진행됩니다. 신규 파일럿, ST, 무기, 백팩 및 스테이지가 추가되며 다양한 이벤트가 개최됩니다.",
+   "highlights": [
+    "신규 파일럿 및 ST 한정 등장 (카샤, 카밀라, 구무시야이, 아서, 에리사 등)",
+    "신규 S+ 및 SS 무기 추가 (Mountains - B II, Blaze Howl - B, 시브리, 카구츠치)",
+    "신규 SS 백팩(큐스토디안, 컨커러) 및 제작 청사진 추가",
+    "메인 스토리 제13장 및 엘리트 배틀 제12장 확장",
+    "신규 이벤트 '밀크하마 탄막', '천둥과 번개', '탐험가의 퀘스트 시즌 6' 개최"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "[No Way Out] Major Update Announcement",
+     "summary": "A major update for Mecarashi titled [No Way Out] is here. It introduces new pilots, STs, weapons, backpacks, stage expansions, and multiple limited-time events.",
+     "highlights": [
+      "Limited-time new pilots and STs (Cassha, Camilla, Gumusiay, Arthur, Erisa)",
+      "New S+ and SS weapons added (Mountains - B II, Blaze Howl - B, Sivri, Kagutsuchi)",
+      "New SS Backpacks (Custodian, Conqueror) and Blueprints added",
+      "Main Story expanded to Chapter 13 and Elite Battles to Chapter 12",
+      "New events: Milkhama Barrage, Thunder & Lightning, Explorer's Quest Season 6"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "[No Way Out] 大型アップデートのお知らせ",
+     "summary": "『メカラシ』の大型アップデート[No Way Out]が実施されます。新パイロット、ST、武器、バックパック、ステージの追加および多数の期間限定イベントが開催されます。",
+     "highlights": [
+      "期間限定の新パイロットとSTが登場（カッシャ、カミラ、グムシアイ、アーサー、エリサなど）",
+      "新S+およびSS武器を追加（Mountains - B II、Blaze Howl - B、シヴリ、カグツチ）",
+      "新SSバックパック（カストディアン、コンカラー）と設計図を追加",
+      "メインストーリー第13章およびエリートバトル第12章に拡張",
+      "新イベント「ミルハマ弾幕」「雷鳴と稲妻」「冒険者のクエストシーズン6」を開催"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "[No Way Out] 大型更新公告",
+     "summary": "《重装战姬》迎来了[No Way Out]大型更新。本次更新推出了全新机师、ST、武器、背包、关卡扩展以及多项限时活动。",
+     "highlights": [
+      "限时推出全新机师与ST（卡莎、卡米拉、古姆西亚伊、亚瑟、埃里萨等）",
+      "新增S+及SS武器（Mountains - B II、Blaze Howl - B、西夫里、迦具土）",
+      "新增SS背包（库斯托迪亚、征服者）及对应图纸",
+      "主线剧情扩展至第13章，精英战役扩展至第12章",
+      "开启「米尔哈玛弹幕」、「雷霆交加」、「探险者手记第6赛季」等活动"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "[No Way Out] Anúncio de Atualização Principal",
+     "summary": "Uma grande atualização para o jogo foi anunciada com o título [No Way Out]. Ela traz novos pilotos, STs, armas, mochilas, expansões de fases e vários eventos por tempo limitado.",
+     "highlights": [
+      "Novos pilotos e STs por tempo limitado (Cassha, Camilla, Gumusiay, Arthur, Erisa)",
+      "Novas armas S+ e SS adicionadas (Mountains - B II, Blaze Howl - B, Sivri, Kagutsuchi)",
+      "Novas mochilas SS (Custodian, Conqueror) e projetos adicionados",
+      "História Principal expandida até o Capítulo 13 e Batalhas de Elite até o Capítulo 12",
+      "Novos eventos: Barragem Milkhama, Trovão e Relâmpago, Missão do Explorador Temporada 6"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "hsr:162706",
    "appid": "hsr",
    "game": "붕괴: 스타레일",
@@ -24610,6 +25416,119 @@
       "Fixed an issue where character Fu Xuan's Trace [Liuren Oracle] was abnormally applied multiple times to certain Memory Spirits under specific circumstances",
       "Fixed an issue where the achievement \"Long Journey to the Night\" could not be completed",
       "Fixed an issue where some models of the pet \"Sarcastic Cat\" displayed abnormally"
+     ]
+    }
+   }
+  },
+  {
+   "gid": "1823191198602575",
+   "appid": 767560,
+   "game": "워 로봇",
+   "date": 1769699073,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198602575",
+   "origTitle": "WAR ROBOTS 11.7 UPDATE NOTES",
+   "title": "워 로봇 11.7 업데이트 노트",
+   "summary": "설날 이벤트와 함께 신규 로봇 암미(Ammit), 신규 무기 및 드론, 그리고 얼티밋 레오(Ultimate Leo) 빌드가 추가되었습니다. 새로운 파일럿, 모듈 변경 사항 및 다양한 기술적 수정 사항이 적용되었습니다.",
+   "highlights": [
+    "신규 로봇 '암미' 및 무기(히포, 크로코, 리오다리) 추가",
+    "신규 드론 '스케일스' 추가",
+    "신규 얼티밋 빌드: 얼티밋 레오, 얼티밋 템페스트, 얼티밋 몰로T",
+    "신규 파일럿 '롄신바이' 및 '메이란' 추가",
+    "신규 '탱크' 전문화 및 '디펜스 유닛' 모듈 추가",
+    "불안정한 도관(Unstable Conduit) 변경 사항 적용"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "구버전 계정 실행 시 발생하던 'Bad Token' 오류 수정",
+    "로마 맵의 누락된 전투 효과음 수정",
+    "야만타우 맵 중앙 비콘 통과 시 프셉스 타이탄이 공중으로 솟구치던 문제 수정",
+    "하다스투스의 발 부위가 간헐적으로 누락되던 시각적 버그 수정",
+    "데이터 패드 메일 이미지 미표시 현상 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "War Robots 11.7 Update Notes",
+     "summary": "The Lunar New Year update brings the new Ammit robot, weapons, and Scales drone, alongside an Ultimate Leo build. New pilots, the Tank specialization, module changes, and various technical fixes are now live.",
+     "highlights": [
+      "New robot Ammit and weapons (Hippo, Kroko, Liodari)",
+      "New drone Scales",
+      "New Ultimate build: Ultimate Leo, Ultimate Tempest, Ultimate Molot-T",
+      "New pilots Lian Xin Bai and Mei Lan",
+      "New Tank specialization and Defence Unit module",
+      "Unstable Conduit changes"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed a 'Bad Token' error when launching an older game version",
+      "Fixed missing combat sound effects on the Rome map",
+      "Fixed Princeps Titan flying into the sky on the Yamantau map",
+      "Fixed visual bug with missing Hastatus feet parts",
+      "Fixed Data Pads in mail section displaying without an image"
+     ]
+    },
+    "ja": {
+     "title": "War Robots 11.7 アップデートノート",
+     "summary": "旧正月イベントの開催に伴い、新ロボット「Ammit」や武器、ドローン「Scales」、そして「Ultimate Leo」ビルドが追加されました。新しいパイロット、タンクの専門化、モジュール変更、および多数の不具合修正が行われました。",
+     "highlights": [
+      "新ロボット「Ammit」と武器（Hippo、Kroko、Liodari）の追加",
+      "新ドローン「Scales」の追加",
+      "新アルティメットビルド：Ultimate Leo、Ultimate Tempest、Ultimate Molot-T",
+      "新パイロット「Lian Xin Bai」「Mei Lan」の追加",
+      "新専門化「タンク」および「Defence Unit」モジュールの追加",
+      "不安定な導管（Unstable Conduit）の変更"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "古いバージョンのゲーム起動時に発生する「Bad Token」エラーを修正",
+      "Romeマップの戦闘効果音の欠落を修正",
+      "Yamantauマップの中央ビーコン通過時にPrinceps Titanが空中に飛ぶ問題を修正",
+      "Hastatusの一部の足が表示されないビジュアルバグを修正",
+      "メール内のデータパッドが画像なしで表示される問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "《War Robots》11.7 更新说明",
+     "summary": "随着农历新年活动的到来，本次更新推出了全新机器人“阿米特”、配套武器、“天平”无人机以及终极雷欧配置。同时加入了新机师、“坦克”专精、模块改动及多项技术修复。",
+     "highlights": [
+      "推出新机器人“阿米特”及武器（河马、鳄鱼、狮瑞）",
+      "推出新无人机“天平”",
+      "推出全新终极配置：终极雷欧、终极风暴、终极小口径机炮T",
+      "新增机师：连心白与梅兰",
+      "新增“坦克”专精与“防御单位”模块",
+      "调整了不稳定导管（Unstable Conduit）"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复了使用旧版本账号启动时出现的“Bad Token”错误",
+      "修复了罗马地图上缺失的战斗音效",
+      "修复了普林斯普斯泰坦在雅曼陶地图中央信标下方通过时飞到天上的问题",
+      "修复了哈斯塔图斯脚部部件有时缺失的视觉错误",
+      "修复了游戏内邮件部分中的数据板没有显示图片的问题"
+     ]
+    },
+    "pt": {
+     "title": "Notas de Atualização 11.7 de War Robots",
+     "summary": "A atualização do Ano Novo Lunar traz o novo robô Ammit, armas e o drone Scales, além de uma build do Ultimate Leo. Novos pilotos, a especialização de Tanque, alterações em módulos e várias correções técnicas foram implementadas.",
+     "highlights": [
+      "Novo robô Ammit e armas (Hippo, Kroko, Liodari)",
+      "Novo drone Scales",
+      "Nova build Ultimate: Ultimate Leo, Ultimate Tempest e Ultimate Molot-T",
+      "Novos pilotos Lian Xin Bai e Mei Lan",
+      "Nova especialização de Tanque e módulo Defence Unit",
+      "Alterações no conduto instável (Unstable Conduit)"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Corrigido o erro 'Bad Token' ao iniciar uma versão mais antiga do jogo",
+      "Corrigidos efeitos sonoros de combate ausentes no mapa Roma",
+      "Corrigido um problema em que o Titã Princeps voava para o céu no mapa Yamantau",
+      "Corrigido bug visual em que partes dos pés do Hastatus ficavam ausentes",
+      "Corrigido um problema onde os Data Pads na seção de correio apareciam sem imagem"
      ]
     }
    }
@@ -24820,6 +25739,83 @@
    }
   },
   {
+   "gid": "1821922921812091",
+   "appid": 3446920,
+   "game": "메카라시",
+   "date": 1768457953,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1821922921812091",
+   "origTitle": "[Epoch of Ascension] Major Update Announcement",
+   "maint": {
+    "s": 1768462200,
+    "e": 1768476600
+   },
+   "title": "에포크 오브 어센션 대규모 업데이트 안내",
+   "summary": "메카라시가 신규 콜라보레이션 파일럿, ST, 장비 및 다양한 이벤트와 함께 대규모 업데이트를 진행합니다. 서버 점검 후 솔리드 아라시움 500개가 보상으로 지급됩니다.",
+   "highlights": [
+    "신규 파일럿 아스카, 레이, 신지 및 전용 ST 추가",
+    "신규 S+ 및 SS 무기 추가",
+    "엘리트 배틀 제11장 및 클리어런스 오프스 스테이지 추가",
+    "아레나 시즌 3 개막 및 신규 이벤트 대거 개최"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [],
+   "i18n": {
+    "en": {
+     "title": "[Epoch of Ascension] Major Update Announcement",
+     "summary": "Mecharas launches a major update featuring new crossover pilots, STs, weapons, and extensive events. Server maintenance will take place with Solid Arashium x500 provided as compensation.",
+     "highlights": [
+      "New crossover pilots Asuka, Rei, Shinji, and respective STs added",
+      "New S+ and SS weapons introduced",
+      "Elite Battles Chapter 11 and new Clearance Ops stages added",
+      "Arena Season 3 begins alongside multiple limited-time events"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "ja": {
+     "title": "「Epoch of Ascension」大型アップデートのお知らせ",
+     "summary": "メカラシにて、新たなコラボパイロット、ST、武器、多彩なイベントを含む大型アップデートが実施されます。メンテナンス実施に伴い、固形アラシウム×500が補填されます。",
+     "highlights": [
+      "新コラボパイロット「アスカ」「レイ」「シンジ」および専用STを追加",
+      "新S+武器およびSS武器を追加",
+      "エリートバトル第11章およびクリアランスオプスステージを追加",
+      "アリーナシーズン3開幕および多数の期間限定イベントを開催"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "zh": {
+     "title": "「飞升纪元」重大更新公告",
+     "summary": "机动战队（或译名：메카라시）迎来了包含全新联动机师、机兵（ST）、武器及丰富活动的重大更新。服务器维护后将发放固化荒石等补偿奖励。",
+     "highlights": [
+      "新增联动机师明日香、绫波丽、真嗣及专属机兵（ST）",
+      "新增多款S+及SS级武器",
+      "开启精英战役第11章及全新清剿行动关卡",
+      "竞技场第三赛季开启并推出多项限时活动"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    },
+    "pt": {
+     "title": "Anúncio de Grande Atualização: Epoch of Ascension",
+     "summary": "Mecharas traz uma grande atualização com novos pilotos de crossover, STs, armas e eventos abrangentes. A manutenção do servidor ocorrerá com a compensação de Arashium Sólido x500.",
+     "highlights": [
+      "Novos pilotos de crossover Asuka, Rei, Shinji e STs adicionados",
+      "Novas armas S+ e SS introduzidas",
+      "Capítulo 11 de Batalhas de Elite e novos estágios de Operações de Limpeza adicionados",
+      "Início da 3ª Temporada da Arena e vários eventos por tempo limitado"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": []
+    }
+   }
+  },
+  {
    "gid": "1821922921809932",
    "appid": 2358720,
    "game": "검은 신화: 오공",
@@ -25005,6 +26001,114 @@
      "buffs": [],
      "nerfs": [],
      "fixes": []
+    }
+   }
+  },
+  {
+   "gid": "1818752592121223",
+   "appid": 4000,
+   "game": "개리 모드",
+   "date": 1765383355,
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818752592121223",
+   "origTitle": "December 2025 Patch",
+   "title": "게리 모드 2025년 12월 패치 안내",
+   "summary": "11월 업데이트 이후 발생한 여러 퇴행 버그 및 주요 시스템 오류를 수정한 소규모 패치가 적용되었습니다. 콤바인 지뢰의 대상 인식 개선, 킥(Kick) 시스템 전면 개편, 저장 파일 및 맵 로딩 충돌 문제 등이 해결되었습니다. 모든 샌드박스 서버와 클라이언트는 업데이트 적용을 권장합니다.",
+   "highlights": [
+    "콤바인 지뢰 관계 조정 (플레이어 무시/AI 비활성화 준수 및 공격 대상 수정)",
+    "kickid 콘솔 명령어 재작성 및 플레이어 킥 내부 로직 일관화",
+    "해머(Hammer) 에디터의 데칼 렌더링 수정 및 prop_dynamic 모델 스케일 재추가",
+    "무장 해제된 콤바인 솔저 및 좀바인 플레이어 모델 애니메이션 수정",
+    "물리 재스케일링 적용 범위를 prop_physics 및 sent_anim으로 제한"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "fixes": [
+    "알릭스와 시민 등 일부 NPC가 권총 발사 시 탄환을 2발씩 쏘던 문제 수정",
+    "세이브 파일에 넥스트봇(Nextbot)이 포함되어 있을 때 불러오기 중 크래시가 발생하던 문제 수정",
+    "손상된 오버레이가 포함된 맵 로딩 시 게임이 비정상 종료되던 문제 수정",
+    "리눅스 시스템에서 부동(floating) 애드온 마운트에 실패하던 오류 수정",
+    "멀티플레이어에서 프롭 파편(gibs)이 300개 이후 생성되지 않던 현상 수정"
+   ],
+   "i18n": {
+    "en": {
+     "title": "Garry's Mod December 2025 Patch",
+     "summary": "A small patch has been released to address regressions from the November Update alongside several minor fixes. Key changes include Combine Mine relationship adjustments, an overhaul of the player kick system, and crash fixes for saves and corrupted maps. Sandbox servers and clients are advised to update promptly.",
+     "highlights": [
+      "Combine Mine relationship adjustments (respects AI settings, updated target logic)",
+      "Reimplemented kickid console command and unified player kick internals",
+      "Fixed decal rendering and re-added model scale to prop_dynamic in Hammer",
+      "Updated Zombine and unarmored Combine Soldier player model animations",
+      "Limited physics rescaling to prop_physics and sent_anim"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Fixed certain NPCs like Alyx and Citizens firing 2 bullets per pistol shot",
+      "Fixed crash when loading Source Engine saves containing Nextbots",
+      "Fixed map load crashes associated with corrupted overlays",
+      "Fixed floating addons failing to mount on Linux systems",
+      "Fixed prop gibs stopping spawning after the 300th in multiplayer"
+     ]
+    },
+    "ja": {
+     "title": "Garry's Mod 2025年12月パッチ配信",
+     "summary": "11月アップデートで発生したデグレや不具合の修正を主とした小規模パッチが配信されました。コンバインマインの挙動調整やキック機能の刷新、セーブデータ読み込み時のクラッシュ対策などが含まれています。サンドボックスサーバーおよびクライアントの早期アップデートが推奨されます。",
+     "highlights": [
+      "コンバインマインの関係性調整（AI無効化等の設定を反映、攻撃対象を修正）",
+      "kickidコンソールコマンドの再実装とキック処理の内部統一",
+      "Hammerにおけるデカール描画修正およびprop_dynamicのモデルスケール再追加",
+      "ゾンバインおよびアーマーなしコンバイン兵のプレイヤーモデルアニメーション修正",
+      "物理リサイズ処理をprop_physicsとsent_animに限定"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "アリックスや市民などの一部NPCがピストルを1回で2発撃ってしまう不具合を修正",
+      "Nextbotを含むセーブファイルを読み込む際にクラッシュする問題を修正",
+      "破損したオーバーレイを含むマップのロード時にクラッシュする問題を修正",
+      "Linux環境で一部のアドオンのマウントに失敗する不具合を修正",
+      "マルチプレイヤーで破片（gib）の生成が300個で停止する問題を修正"
+     ]
+    },
+    "zh": {
+     "title": "Garry's Mod 2025年12月补丁发布",
+     "summary": "本次小型补丁主要修复了11月更新引入的回归问题以及其他细微漏洞。调整了联合军地雷的敌意关系，重写了玩家踢出（Kick）系统，并修复了存档与损坏地图加载崩溃等问题。建议沙盒服务器和客户端尽快完成更新。",
+     "highlights": [
+      "联合军地雷关系调整（遵循无视玩家/禁用AI设置，调整攻击目标）",
+      "从头重新实现kickid控制台指令并规范底层踢出逻辑",
+      "修复Hammer编辑器中贴花不渲染的问题并重新添加prop_dynamic模型缩放",
+      "修复无装甲联合军士兵和僵尸联合军玩家模型的动作动画",
+      "将物理缩放限制为仅作用于prop_physics和sent_anim"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "修复爱丽克斯和市民等NPC使用手枪射击时发射两发子弹的问题",
+      "修复加载包含Nextbot的起源引擎存档时发生崩溃的问题",
+      "修复加载带有损坏覆盖层的地图时崩溃的问题",
+      "修复Linux系统下浮动加载项（addons）挂载失败的问题",
+      "修复多人游戏中残片（gibs）在生成300个后停止产生的问题"
+     ]
+    },
+    "pt": {
+     "title": "Atualização de Dezembro de 2025 de Garry's Mod",
+     "summary": "Um pequeno patch foi lançado com foco em corrigir regressões introduzidas pela atualização de novembro e outros erros menores. As mudanças incluem ajustes nas relações das Minas Combine, reformulação do sistema de kick e correções de travamentos ao carregar mapas e saves. Servidores e clientes de Sandbox devem atualizar o quanto antes.",
+     "highlights": [
+      "Ajustes de relação da Mina Combine (respeita configurações de IA e altera alvos)",
+      "Comando kickid reimplementado do zero e lógica interna de kick unificada",
+      "Correção de renderização de decals e reintrodução da escala de modelo no prop_dynamic no Hammer",
+      "Animações corrigidas nos modelos de jogador do Zombine e Soldado Combine sem armadura",
+      "Redimensionamento de física limitado a prop_physics e sent_anim"
+     ],
+     "buffs": [],
+     "nerfs": [],
+     "fixes": [
+      "Correção de NPCs como Alyx e Cidadãos disparando 2 balas por tiro de pistola",
+      "Correção de travamento ao carregar saves da Source Engine contendo Nextbots",
+      "Correção de travamento no carregamento de mapas com overlays corrompidos",
+      "Correção de falha na montagem de addons flutuantes no Linux",
+      "Correção dos pedaços de objetos (gibs) que paravam de surgir após o 300º no multijogador"
+     ]
     }
    }
   },
@@ -26094,7 +27198,7 @@
    }
   }
  ],
- "updated": 1795859346573,
+ "updated": 1795880702115,
  "merged": [
   "1849827110445079",
   "1849827110428767",
